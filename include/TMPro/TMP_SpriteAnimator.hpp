@@ -96,22 +96,52 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)()>(&TMPro::TMP_SpriteAnimator::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)()>(&TMPro::TMP_SpriteAnimator::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)()>(&TMPro::TMP_SpriteAnimator::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::StopAllAnimations
 // Il2CppName: StopAllAnimations
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)()>(&TMPro::TMP_SpriteAnimator::StopAllAnimations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "StopAllAnimations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::DoSpriteAnimation
 // Il2CppName: DoSpriteAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)(int, TMPro::TMP_SpriteAsset*, int, int, int)>(&TMPro::TMP_SpriteAnimator::DoSpriteAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal
 // Il2CppName: DoSpriteAnimationInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TMPro::TMP_SpriteAnimator::*)(int, TMPro::TMP_SpriteAsset*, int, int, int)>(&TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -43,4 +43,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

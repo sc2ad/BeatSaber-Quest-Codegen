@@ -36,4 +36,9 @@ namespace UnityEngine::Audio {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableGraphExtensions*, "UnityEngine.Audio", "AudioPlayableGraphExtensions");
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput
 // Il2CppName: InternalCreateAudioOutput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableGraphExtensions*), "InternalCreateAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+  }
+};

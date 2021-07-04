@@ -213,25 +213,60 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearMeshInfo
 // Il2CppName: ClearMeshInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(bool)>(&TMPro::TMP_TextInfo::ClearMeshInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearAllMeshInfo
 // Il2CppName: ClearAllMeshInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::ClearAllMeshInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearAllMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ResetVertexLayout
 // Il2CppName: ResetVertexLayout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(bool)>(&TMPro::TMP_TextInfo::ResetVertexLayout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ResetVertexLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearUnusedVertices
 // Il2CppName: ClearUnusedVertices
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(::Array<TMPro::MaterialReference>*)>(&TMPro::TMP_TextInfo::ClearUnusedVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearLineInfo
 // Il2CppName: ClearLineInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::ClearLineInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearLineInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::CopyMeshInfoVertexData
 // Il2CppName: CopyMeshInfoVertexData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMPro::TMP_MeshInfo>* (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "CopyMeshInfoVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::Resize
 // Il2CppName: Resize
 // Cannot write MetadataGetter for generic methods!
@@ -240,7 +275,12 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_TextInfo::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -64,16 +64,41 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemInstances*, "UnityEngine", "Internal_SubsystemInstances");
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance
 // Il2CppName: Internal_InitializeManagedInstance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, UnityEngine::IntegratedSubsystem*)>(&UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_InitializeManagedInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::IntegratedSubsystem*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_ClearManagedInstances
 // Il2CppName: Internal_ClearManagedInstances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Internal_SubsystemInstances::Internal_ClearManagedInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_ClearManagedInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr
 // Il2CppName: Internal_RemoveInstanceByPtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_RemoveInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr
 // Il2CppName: Internal_GetInstanceByPtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IntegratedSubsystem* (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_GetInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Internal_SubsystemInstances::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

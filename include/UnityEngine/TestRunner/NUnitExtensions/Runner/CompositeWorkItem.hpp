@@ -186,53 +186,133 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::get_Children
 // Il2CppName: get_Children
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::get_Children)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::set_Children
 // Il2CppName: set_Children
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::set_Children)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "set_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CheckForCancellation
 // Il2CppName: CheckForCancellation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CheckForCancellation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "CheckForCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::InitializeSetUpAndTearDownCommands
 // Il2CppName: InitializeSetUpAndTearDownCommands
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::InitializeSetUpAndTearDownCommands)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "InitializeSetUpAndTearDownCommands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformOneTimeSetUp
 // Il2CppName: PerformOneTimeSetUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformOneTimeSetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "PerformOneTimeSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::RunChildren
 // Il2CppName: RunChildren
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::RunChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "RunChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CreateChildWorkItems
 // Il2CppName: CreateChildWorkItems
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CreateChildWorkItems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "CreateChildWorkItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SortChildren
 // Il2CppName: SortChildren
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SortChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "SortChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SkipFixture
 // Il2CppName: SkipFixture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SkipFixture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "SkipFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SkipChildren
 // Il2CppName: SkipChildren
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::SkipChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "SkipChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformOneTimeTearDown
 // Il2CppName: PerformOneTimeTearDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformOneTimeTearDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "PerformOneTimeTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::GetSkipReason
 // Il2CppName: GetSkipReason
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::GetSkipReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::GetProviderStackTrace
 // Il2CppName: GetProviderStackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::GetProviderStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CountDownChildTest
 // Il2CppName: CountDownChildTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::CountDownChildTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "CountDownChildTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformWork
 // Il2CppName: PerformWork
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::PerformWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::Cancel
 // Il2CppName: Cancel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::*)(bool)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFro
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

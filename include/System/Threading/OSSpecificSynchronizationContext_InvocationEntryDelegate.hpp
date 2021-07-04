@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::Invo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::*)(System::IntPtr)>(&System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::*)(System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::*)(System::IAsyncResult*)>(&System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

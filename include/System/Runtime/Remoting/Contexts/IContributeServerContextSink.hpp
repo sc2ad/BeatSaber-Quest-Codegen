@@ -31,4 +31,9 @@ namespace System::Runtime::Remoting::Contexts {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerContextSink*, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink
 // Il2CppName: GetServerContextSink
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::IContributeServerContextSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeServerContextSink*), "GetServerContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};

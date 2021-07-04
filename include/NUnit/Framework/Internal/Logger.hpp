@@ -116,22 +116,57 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Int
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Error
 // Il2CppName: Error
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Debug
 // Il2CppName: Debug
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Debug
 // Il2CppName: Debug
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::Logger::Debug)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Log
 // Il2CppName: Log
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Log
 // Il2CppName: Log
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::Logger::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::WriteLog
 // Il2CppName: WriteLog
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&NUnit::Framework::Internal::Logger::WriteLog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "WriteLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::InternalTraceLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Logger::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

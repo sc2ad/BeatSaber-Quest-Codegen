@@ -117,37 +117,92 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableDirector*)>(&UnityEngine::Timeline::DirectorControlPlayable::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::SyncSpeed
 // Il2CppName: SyncSpeed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(double)>(&UnityEngine::Timeline::DirectorControlPlayable::SyncSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "SyncSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::SyncPlayState
 // Il2CppName: SyncPlayState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::PlayableGraph, double)>(&UnityEngine::Timeline::DirectorControlPlayable::SyncPlayState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "SyncPlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::DetectDiscontinuity
 // Il2CppName: DetectDiscontinuity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::DirectorControlPlayable::DetectDiscontinuity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "DetectDiscontinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::DetectOutOfSync
 // Il2CppName: DetectOutOfSync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::DirectorControlPlayable::DetectOutOfSync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "DetectOutOfSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::UpdateTime
 // Il2CppName: UpdateTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::DirectorControlPlayable::UpdateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "UpdateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::OnPlayableDestroy
 // Il2CppName: OnPlayableDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::DirectorControlPlayable::OnPlayableDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::PrepareFrame
 // Il2CppName: PrepareFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::DirectorControlPlayable::PrepareFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPause
 // Il2CppName: OnBehaviourPause
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::ProcessFrame
 // Il2CppName: ProcessFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::DirectorControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&UnityEngine::Timeline::DirectorControlPlayable::ProcessFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DirectorControlPlayable*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

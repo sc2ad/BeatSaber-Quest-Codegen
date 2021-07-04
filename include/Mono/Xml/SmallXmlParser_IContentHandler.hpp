@@ -44,22 +44,57 @@ namespace Mono::Xml {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing
 // Il2CppName: OnStartParsing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnEndParsing
 // Il2CppName: OnEndParsing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndParsing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement
 // Il2CppName: OnStartElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnEndElement
 // Il2CppName: OnEndElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnProcessingInstruction
 // Il2CppName: OnProcessingInstruction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*, ::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnProcessingInstruction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnChars
 // Il2CppName: OnChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnIgnorableWhitespace
 // Il2CppName: OnIgnorableWhitespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnIgnorableWhitespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

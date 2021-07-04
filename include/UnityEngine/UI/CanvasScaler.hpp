@@ -404,95 +404,245 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEng
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::Unit, "UnityEngine.UI", "CanvasScaler/Unit");
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_uiScaleMode
 // Il2CppName: get_uiScaleMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScaleMode (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_uiScaleMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_uiScaleMode
 // Il2CppName: set_uiScaleMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScaleMode)>(&UnityEngine::UI::CanvasScaler::set_uiScaleMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_uiScaleMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScaleMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_referencePixelsPerUnit
 // Il2CppName: get_referencePixelsPerUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_referencePixelsPerUnit
 // Il2CppName: set_referencePixelsPerUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_referencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_referencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_scaleFactor
 // Il2CppName: get_scaleFactor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_scaleFactor
 // Il2CppName: set_scaleFactor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_scaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_scaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_referenceResolution
 // Il2CppName: get_referenceResolution
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_referenceResolution)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_referenceResolution
 // Il2CppName: set_referenceResolution
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(UnityEngine::Vector2)>(&UnityEngine::UI::CanvasScaler::set_referenceResolution)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_referenceResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_screenMatchMode
 // Il2CppName: get_screenMatchMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::ScreenMatchMode (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_screenMatchMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_screenMatchMode
 // Il2CppName: set_screenMatchMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(UnityEngine::UI::CanvasScaler::ScreenMatchMode)>(&UnityEngine::UI::CanvasScaler::set_screenMatchMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_screenMatchMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::ScreenMatchMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_matchWidthOrHeight
 // Il2CppName: get_matchWidthOrHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_matchWidthOrHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_matchWidthOrHeight
 // Il2CppName: set_matchWidthOrHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_matchWidthOrHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_matchWidthOrHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_physicalUnit
 // Il2CppName: get_physicalUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasScaler::Unit (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_physicalUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_physicalUnit
 // Il2CppName: set_physicalUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(UnityEngine::UI::CanvasScaler::Unit)>(&UnityEngine::UI::CanvasScaler::set_physicalUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_physicalUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasScaler::Unit>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_fallbackScreenDPI
 // Il2CppName: get_fallbackScreenDPI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_fallbackScreenDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_fallbackScreenDPI
 // Il2CppName: set_fallbackScreenDPI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_fallbackScreenDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_fallbackScreenDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_defaultSpriteDPI
 // Il2CppName: get_defaultSpriteDPI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_defaultSpriteDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_defaultSpriteDPI
 // Il2CppName: set_defaultSpriteDPI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_defaultSpriteDPI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_defaultSpriteDPI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_dynamicPixelsPerUnit
 // Il2CppName: get_dynamicPixelsPerUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::get_dynamicPixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "get_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::set_dynamicPixelsPerUnit
 // Il2CppName: set_dynamicPixelsPerUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::set_dynamicPixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "set_dynamicPixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::Handle
 // Il2CppName: Handle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::HandleWorldCanvas
 // Il2CppName: HandleWorldCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::HandleWorldCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "HandleWorldCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::HandleConstantPixelSize
 // Il2CppName: HandleConstantPixelSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::HandleConstantPixelSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "HandleConstantPixelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::HandleScaleWithScreenSize
 // Il2CppName: HandleScaleWithScreenSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::HandleScaleWithScreenSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "HandleScaleWithScreenSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::HandleConstantPhysicalSize
 // Il2CppName: HandleConstantPhysicalSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::HandleConstantPhysicalSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "HandleConstantPhysicalSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::SetScaleFactor
 // Il2CppName: SetScaleFactor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::SetScaleFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "SetScaleFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::SetReferencePixelsPerUnit
 // Il2CppName: SetReferencePixelsPerUnit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)(float)>(&UnityEngine::UI::CanvasScaler::SetReferencePixelsPerUnit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "SetReferencePixelsPerUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasScaler::*)()>(&UnityEngine::UI::CanvasScaler::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasScaler*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

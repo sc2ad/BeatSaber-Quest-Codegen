@@ -159,25 +159,60 @@ namespace NUnit::Framework::Internal {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Sort
 // Il2CppName: Sort
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::Sort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::TestSuite::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_Arguments
 // Il2CppName: get_Arguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::set_Arguments
 // Il2CppName: set_Arguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestSuite::set_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_MaintainTestOrder
 // Il2CppName: get_MaintainTestOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_MaintainTestOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::set_MaintainTestOrder
 // Il2CppName: set_MaintainTestOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(bool)>(&NUnit::Framework::Internal::TestSuite::set_MaintainTestOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "set_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::CheckSetUpTearDownMethods
 // Il2CppName: CheckSetUpTearDownMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(System::Type*)>(&NUnit::Framework::Internal::TestSuite::CheckSetUpTearDownMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "CheckSetUpTearDownMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -192,19 +227,49 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_Tests
 // Il2CppName: get_Tests
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_Tests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_Tests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_TestCaseCount
 // Il2CppName: get_TestCaseCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_TestCaseCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_TestCaseCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::MakeTestResult
 // Il2CppName: MakeTestResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::MakeTestResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "MakeTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_HasChildren
 // Il2CppName: get_HasChildren
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_HasChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_HasChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_XmlElementName
 // Il2CppName: get_XmlElementName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_XmlElementName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::AddToXml
 // Il2CppName: AddToXml
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Internal::TestSuite::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NUnit::Framework::Internal::TestSuite::AddToXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

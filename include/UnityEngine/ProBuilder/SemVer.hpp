@@ -203,28 +203,68 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer*, "UnityEngine.ProBuilder", "SemVer");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_major
 // Il2CppName: get_major
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_major)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_major", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_minor
 // Il2CppName: get_minor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_minor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_minor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_patch
 // Il2CppName: get_patch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_patch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_patch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_build
 // Il2CppName: get_build
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_build)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_type
 // Il2CppName: get_type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_metadata
 // Il2CppName: get_metadata
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_metadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_metadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_date
 // Il2CppName: get_date
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_date)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_MajorMinorPatch
 // Il2CppName: get_MajorMinorPatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::SemVer* (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::get_MajorMinorPatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "get_MajorMinorPatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -235,41 +275,96 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer*, "UnityEngine.ProBuilder
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::IsValid
 // Il2CppName: IsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SemVer::*)(UnityEngine::ProBuilder::SemVer*)>(&UnityEngine::ProBuilder::SemVer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SemVer*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)(::Il2CppObject*)>(&UnityEngine::ProBuilder::SemVer::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::WrapNoValue
 // Il2CppName: WrapNoValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::ProBuilder::SemVer::WrapNoValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "WrapNoValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)(UnityEngine::ProBuilder::SemVer*)>(&UnityEngine::ProBuilder::SemVer::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SemVer*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SemVer::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::SemVer::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::TryGetVersionInfo
 // Il2CppName: TryGetVersionInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::ProBuilder::SemVer*&)>(&UnityEngine::ProBuilder::SemVer::TryGetVersionInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "TryGetVersionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SemVer*&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::GetBuildNumber
 // Il2CppName: GetBuildNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::SemVer::GetBuildNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "GetBuildNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SemVer::*)(::Il2CppObject*)>(&UnityEngine::ProBuilder::SemVer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SemVer::*)()>(&UnityEngine::ProBuilder::SemVer::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SemVer*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::operator ==
 // Il2CppName: op_Equality
 // Cannot perform method pointer template specialization from operators!

@@ -82,22 +82,52 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Optional
 // Il2CppName: get_Optional
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Optional
 // Il2CppName: set_Optional
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(bool)>(&Zenject::InjectAttributeBase::set_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Id
 // Il2CppName: get_Id
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Id
 // Il2CppName: set_Id
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(::Il2CppObject*)>(&Zenject::InjectAttributeBase::set_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Source
 // Il2CppName: get_Source
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Source)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Source
 // Il2CppName: set_Source
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(Zenject::InjectSources)>(&Zenject::InjectAttributeBase::set_Source)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

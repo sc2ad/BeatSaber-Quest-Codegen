@@ -60,10 +60,25 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenTypeInfoGetter*, "Zenject", "ZenTypeInfoGette
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenTypeInfoGetter::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (Zenject::ZenTypeInfoGetter::*)()>(&Zenject::ZenTypeInfoGetter::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenTypeInfoGetter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenTypeInfoGetter::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Zenject::ZenTypeInfoGetter::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Zenject::ZenTypeInfoGetter::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenTypeInfoGetter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenTypeInfoGetter::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (Zenject::ZenTypeInfoGetter::*)(System::IAsyncResult*)>(&Zenject::ZenTypeInfoGetter::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenTypeInfoGetter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

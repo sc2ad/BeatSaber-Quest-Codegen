@@ -84,28 +84,73 @@ namespace System::Diagnostics {
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_Listeners
 // Il2CppName: get_Listeners
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceListenerCollection* (*)()>(&System::Diagnostics::TraceInternal::get_Listeners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_Listeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_AutoFlush
 // Il2CppName: get_AutoFlush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Diagnostics::TraceInternal::get_AutoFlush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_UseGlobalLock
 // Il2CppName: get_UseGlobalLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Diagnostics::TraceInternal::get_UseGlobalLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_UseGlobalLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_IndentLevel
 // Il2CppName: get_IndentLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Diagnostics::TraceInternal::get_IndentLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_IndentLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_IndentSize
 // Il2CppName: get_IndentSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Diagnostics::TraceInternal::get_IndentSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_IndentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::Assert_
 // Il2CppName: Assert
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&System::Diagnostics::TraceInternal::Assert_)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::Fail
 // Il2CppName: Fail
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::TraceInternal::Fail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::InitializeSettings
 // Il2CppName: InitializeSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Diagnostics::TraceInternal::InitializeSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "InitializeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Diagnostics::TraceInternal::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

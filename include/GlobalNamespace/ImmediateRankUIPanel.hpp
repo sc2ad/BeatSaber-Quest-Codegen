@@ -108,13 +108,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ImmediateRankUIPanel::*)()>(&GlobalNamespace::ImmediateRankUIPanel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ImmediateRankUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange
 // Il2CppName: HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ImmediateRankUIPanel::*)()>(&GlobalNamespace::ImmediateRankUIPanel::HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ImmediateRankUIPanel*), "HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::RefreshUI
 // Il2CppName: RefreshUI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ImmediateRankUIPanel::*)()>(&GlobalNamespace::ImmediateRankUIPanel::RefreshUI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ImmediateRankUIPanel*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

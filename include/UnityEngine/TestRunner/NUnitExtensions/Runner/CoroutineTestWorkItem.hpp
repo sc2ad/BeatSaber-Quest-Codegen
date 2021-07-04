@@ -92,14 +92,29 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
 // Il2CppName: get_monoBehaviourCoroutineRunner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*), "get_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner
 // Il2CppName: set_monoBehaviourCoroutineRunner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::PerformWork
 // Il2CppName: PerformWork
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::PerformWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

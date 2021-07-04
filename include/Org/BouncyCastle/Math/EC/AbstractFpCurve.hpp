@@ -69,10 +69,25 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.Bounc
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpCurve::ImplRandomFieldElementMult
 // Il2CppName: ImplRandomFieldElementMult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::ImplRandomFieldElementMult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "ImplRandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpCurve::RandomFieldElementMult
 // Il2CppName: RandomFieldElementMult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::RandomFieldElementMult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "RandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpCurve::DecompressPoint
 // Il2CppName: DecompressPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::DecompressPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "DecompressPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};

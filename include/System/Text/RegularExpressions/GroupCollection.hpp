@@ -110,22 +110,52 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "Syst
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::GroupCollection::*)()>(&System::Text::RegularExpressions::GroupCollection::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::get_Item
 // Il2CppName: get_Item
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::GetGroup
 // Il2CppName: GetGroup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::GetGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::GetGroupImpl
 // Il2CppName: GetGroupImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::GetGroupImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetGroupImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::CopyTo
 // Il2CppName: CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::GroupCollection::*)(System::Array*, int)>(&System::Text::RegularExpressions::GroupCollection::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Text::RegularExpressions::GroupCollection::*)()>(&System::Text::RegularExpressions::GroupCollection::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

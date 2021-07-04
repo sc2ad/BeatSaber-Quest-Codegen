@@ -122,34 +122,84 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&GlobalNamespace::HSVPanelController::add_colorDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "add_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::remove_colorDidChangeEvent
 // Il2CppName: remove_colorDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&GlobalNamespace::HSVPanelController::remove_colorDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::get_color
 // Il2CppName: get_color
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::set_color
 // Il2CppName: set_color
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::HSVPanelController::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::HandleColorSaturationOrValueDidChange
 // Il2CppName: HandleColorSaturationOrValueDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType)>(&GlobalNamespace::HSVPanelController::HandleColorSaturationOrValueDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "HandleColorSaturationOrValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSaturationValueSlider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::HandleColorHueDidChange
 // Il2CppName: HandleColorHueDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType)>(&GlobalNamespace::HSVPanelController::HandleColorHueDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "HandleColorHueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorHueSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::RefreshSlidersValues
 // Il2CppName: RefreshSlidersValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::RefreshSlidersValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "RefreshSlidersValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::RefreshSlidersColors
 // Il2CppName: RefreshSlidersColors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::RefreshSlidersColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "RefreshSlidersColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -101,10 +101,25 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
 // Writing MetadataGetter for method: System::DateTimeRawInfo::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int*)>(&System::DateTimeRawInfo::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
+  }
+};
 // Writing MetadataGetter for method: System::DateTimeRawInfo::AddNumber
 // Il2CppName: AddNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::AddNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "AddNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::DateTimeRawInfo::GetNumber
 // Il2CppName: GetNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::GetNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "GetNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

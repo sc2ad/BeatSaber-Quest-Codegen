@@ -95,13 +95,33 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlEntry*, "Org.BouncyCast
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlEntry::get_UserCertificate
 // Il2CppName: get_UserCertificate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (Org::BouncyCastle::Asn1::X509::CrlEntry::*)()>(&Org::BouncyCastle::Asn1::X509::CrlEntry::get_UserCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlEntry*), "get_UserCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlEntry::get_RevocationDate
 // Il2CppName: get_RevocationDate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::Time* (Org::BouncyCastle::Asn1::X509::CrlEntry::*)()>(&Org::BouncyCastle::Asn1::X509::CrlEntry::get_RevocationDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlEntry*), "get_RevocationDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlEntry::get_Extensions
 // Il2CppName: get_Extensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (Org::BouncyCastle::Asn1::X509::CrlEntry::*)()>(&Org::BouncyCastle::Asn1::X509::CrlEntry::get_Extensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlEntry*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlEntry::ToAsn1Object
 // Il2CppName: ToAsn1Object
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::CrlEntry::*)()>(&Org::BouncyCastle::Asn1::X509::CrlEntry::ToAsn1Object)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlEntry*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

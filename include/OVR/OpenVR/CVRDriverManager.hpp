@@ -67,10 +67,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverM
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverCount
 // Il2CppName: GetDriverCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)()>(&OVR::OpenVR::CVRDriverManager::GetDriverCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverName
 // Il2CppName: GetDriverName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRDriverManager::GetDriverName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverHandle
 // Il2CppName: GetDriverHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRDriverManager::*)(::Il2CppString*)>(&OVR::OpenVR::CVRDriverManager::GetDriverHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

@@ -113,16 +113,36 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "Platfor
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_token
 // Il2CppName: get_token
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_token)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "get_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::set_token
 // Il2CppName: set_token
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(::Il2CppString*)>(&GlobalNamespace::PlatformUserAuthTokenData::set_token)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "set_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_validPlatformEnvironment
 // Il2CppName: get_validPlatformEnvironment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_validPlatformEnvironment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "get_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::set_validPlatformEnvironment
 // Il2CppName: set_validPlatformEnvironment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)>(&GlobalNamespace::PlatformUserAuthTokenData::set_validPlatformEnvironment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "set_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

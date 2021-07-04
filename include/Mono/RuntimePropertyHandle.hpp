@@ -66,10 +66,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHand
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::RuntimePropertyHandle::*)()>(&Mono::RuntimePropertyHandle::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimePropertyHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::RuntimePropertyHandle::*)(::Il2CppObject*)>(&Mono::RuntimePropertyHandle::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimePropertyHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::RuntimePropertyHandle::*)()>(&Mono::RuntimePropertyHandle::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimePropertyHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

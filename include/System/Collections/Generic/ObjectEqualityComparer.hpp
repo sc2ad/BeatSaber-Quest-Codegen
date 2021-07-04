@@ -52,13 +52,28 @@ namespace System::Collections::Generic {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::System_Collections_IEqualityComparer_GetHashCode
 // Il2CppName: System.Collections.IEqualityComparer.GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ObjectEqualityComparer::*)(::Il2CppObject*)>(&System::Collections::Generic::ObjectEqualityComparer::System_Collections_IEqualityComparer_GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ObjectEqualityComparer*), "System.Collections.IEqualityComparer.GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::System_Collections_IEqualityComparer_Equals
 // Il2CppName: System.Collections.IEqualityComparer.Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Generic::ObjectEqualityComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Generic::ObjectEqualityComparer::System_Collections_IEqualityComparer_Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ObjectEqualityComparer*), "System.Collections.IEqualityComparer.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::Generic::ObjectEqualityComparer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ObjectEqualityComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

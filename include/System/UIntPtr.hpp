@@ -128,7 +128,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UIntPtr::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UIntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::UIntPtr::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::operator uint64_t
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -140,19 +145,44 @@ DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UIntPtr::get_Size
 // Il2CppName: get_Size
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::UIntPtr::get_Size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::UIntPtr::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UIntPtr::*)(::Il2CppObject*)>(&System::UIntPtr::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::UIntPtr::*)()>(&System::UIntPtr::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UIntPtr::*)()>(&System::UIntPtr::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UIntPtr), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UIntPtr::operator ==
 // Il2CppName: op_Equality
 // Cannot perform method pointer template specialization from operators!

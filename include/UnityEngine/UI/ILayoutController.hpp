@@ -26,7 +26,17 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutController::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ILayoutController::*)()>(&UnityEngine::UI::ILayoutController::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ILayoutController*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutController::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ILayoutController::*)()>(&UnityEngine::UI::ILayoutController::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ILayoutController*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -27,7 +27,17 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
 // Writing MetadataGetter for method: UnityEngine::Timeline::IInterval::get_intervalStart
 // Il2CppName: get_intervalStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::IInterval::*)()>(&UnityEngine::Timeline::IInterval::get_intervalStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IInterval*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IInterval::get_intervalEnd
 // Il2CppName: get_intervalEnd
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::IInterval::*)()>(&UnityEngine::Timeline::IInterval::get_intervalEnd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IInterval*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

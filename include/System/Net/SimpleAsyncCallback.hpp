@@ -60,10 +60,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncCallback*, "System.Net", "SimpleA
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::SimpleAsyncCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncCallback::*)(System::Net::SimpleAsyncResult*)>(&System::Net::SimpleAsyncCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::SimpleAsyncCallback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::SimpleAsyncCallback::*)(System::Net::SimpleAsyncResult*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::SimpleAsyncCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::SimpleAsyncCallback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncCallback::*)(System::IAsyncResult*)>(&System::Net::SimpleAsyncCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

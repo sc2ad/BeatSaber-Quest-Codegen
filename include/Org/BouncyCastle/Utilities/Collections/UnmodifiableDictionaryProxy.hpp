@@ -93,19 +93,49 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::CopyTo
 // Il2CppName: CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(System::Array*, int)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Keys
 // Il2CppName: get_Keys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Keys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetValue
 // Il2CppName: GetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

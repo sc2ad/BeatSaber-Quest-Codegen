@@ -83,19 +83,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent
 // Il2CppName: add_VisibilityChangedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableOnVisible::*)(System::Action_1<bool>*)>(&GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "add_VisibilityChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::remove_VisibilityChangedEvent
 // Il2CppName: remove_VisibilityChangedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableOnVisible::*)(System::Action_1<bool>*)>(&GlobalNamespace::EnableOnVisible::remove_VisibilityChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "remove_VisibilityChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableOnVisible::*)()>(&GlobalNamespace::EnableOnVisible::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::OnBecameVisible
 // Il2CppName: OnBecameVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableOnVisible::*)()>(&GlobalNamespace::EnableOnVisible::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::OnBecameInvisible
 // Il2CppName: OnBecameInvisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableOnVisible::*)()>(&GlobalNamespace::EnableOnVisible::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

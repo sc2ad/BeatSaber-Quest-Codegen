@@ -343,110 +343,285 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEng
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode, "UnityEngine.Timeline", "AnimationPlayableAsset/LoopMode");
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_position
 // Il2CppName: get_position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_position
 // Il2CppName: set_position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Vector3)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_rotation
 // Il2CppName: get_rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_rotation
 // Il2CppName: set_rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Quaternion)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_eulerAngles
 // Il2CppName: get_eulerAngles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_eulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_eulerAngles
 // Il2CppName: set_eulerAngles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Vector3)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_eulerAngles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_useTrackMatchFields
 // Il2CppName: get_useTrackMatchFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_useTrackMatchFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_useTrackMatchFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_useTrackMatchFields
 // Il2CppName: set_useTrackMatchFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(bool)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_useTrackMatchFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_useTrackMatchFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_matchTargetFields
 // Il2CppName: get_matchTargetFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MatchTargetFields (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_matchTargetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_matchTargetFields
 // Il2CppName: set_matchTargetFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Timeline::MatchTargetFields)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_matchTargetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_matchTargetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_removeStartOffset
 // Il2CppName: get_removeStartOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_removeStartOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_removeStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_removeStartOffset
 // Il2CppName: set_removeStartOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(bool)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_removeStartOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_removeStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_applyFootIK
 // Il2CppName: get_applyFootIK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_applyFootIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_applyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_applyFootIK
 // Il2CppName: set_applyFootIK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(bool)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_applyFootIK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_applyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_loop
 // Il2CppName: get_loop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_loop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_loop
 // Il2CppName: set_loop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_loop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_hasRootTransforms
 // Il2CppName: get_hasRootTransforms
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_hasRootTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_hasRootTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_appliedOffsetMode
 // Il2CppName: get_appliedOffsetMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::AppliedOffsetMode (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_appliedOffsetMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_appliedOffsetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_appliedOffsetMode
 // Il2CppName: set_appliedOffsetMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Timeline::AppliedOffsetMode)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_appliedOffsetMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_appliedOffsetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_clip
 // Il2CppName: get_clip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::set_clip
 // Il2CppName: set_clip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::AnimationPlayableAsset::set_clip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*, UnityEngine::Vector3, UnityEngine::Vector3, bool, UnityEngine::Timeline::AppliedOffsetMode, bool, UnityEngine::Timeline::AnimationPlayableAsset::LoopMode)>(&UnityEngine::Timeline::AnimationPlayableAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AnimationPlayableAsset::LoopMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::ShouldApplyOffset
 // Il2CppName: ShouldApplyOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::AppliedOffsetMode, UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::AnimationPlayableAsset::ShouldApplyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "ShouldApplyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::ShouldApplyScaleRemove
 // Il2CppName: ShouldApplyScaleRemove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::AppliedOffsetMode)>(&UnityEngine::Timeline::AnimationPlayableAsset::ShouldApplyScaleRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "ShouldApplyScaleRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::AppliedOffsetMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_clipCaps
 // Il2CppName: get_clipCaps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_clipCaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::ResetOffsets
 // Il2CppName: ResetOffsets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::ResetOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::GatherProperties
 // Il2CppName: GatherProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::AnimationPlayableAsset::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::HasRootTransforms
 // Il2CppName: HasRootTransforms
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::AnimationPlayableAsset::HasRootTransforms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "HasRootTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::OnUpgradeFromVersion
 // Il2CppName: OnUpgradeFromVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPlayableAsset::*)(int)>(&UnityEngine::Timeline::AnimationPlayableAsset::OnUpgradeFromVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "OnUpgradeFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_duration
 // Il2CppName: get_duration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_outputs
 // Il2CppName: get_outputs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AnimationPlayableAsset::*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::AnimationPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Timeline::AnimationPlayableAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::AnimationPlayableAsset::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

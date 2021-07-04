@@ -275,34 +275,84 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
 // Writing MetadataGetter for method: UnityEngine::Object::GetInstanceID
 // Il2CppName: GetInstanceID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Object::*)()>(&UnityEngine::Object::GetInstanceID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::CompareBaseObjects
 // Il2CppName: CompareBaseObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Object::CompareBaseObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "CompareBaseObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::IsNativeObjectAlive
 // Il2CppName: IsNativeObjectAlive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*)>(&UnityEngine::Object::IsNativeObjectAlive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "IsNativeObjectAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::GetCachedPtr
 // Il2CppName: GetCachedPtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Object::*)()>(&UnityEngine::Object::GetCachedPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetCachedPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::get_name
 // Il2CppName: get_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Object::*)()>(&UnityEngine::Object::get_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::set_name
 // Il2CppName: set_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(::Il2CppString*)>(&UnityEngine::Object::set_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&UnityEngine::Object::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*)>(&UnityEngine::Object::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, bool)>(&UnityEngine::Object::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
 // Cannot write MetadataGetter for generic methods!
@@ -320,28 +370,68 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Object::Destroy
 // Il2CppName: Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, float)>(&UnityEngine::Object::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Destroy
 // Il2CppName: Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::DestroyImmediate
 // Il2CppName: DestroyImmediate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, bool)>(&UnityEngine::Object::DestroyImmediate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "DestroyImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::DestroyImmediate
 // Il2CppName: DestroyImmediate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::DestroyImmediate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "DestroyImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectsOfType
 // Il2CppName: FindObjectsOfType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(System::Type*)>(&UnityEngine::Object::FindObjectsOfType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectsOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::DontDestroyOnLoad
 // Il2CppName: DontDestroyOnLoad
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::DontDestroyOnLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "DontDestroyOnLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::get_hideFlags
 // Il2CppName: get_hideFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HideFlags (UnityEngine::Object::*)()>(&UnityEngine::Object::get_hideFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "get_hideFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::set_hideFlags
 // Il2CppName: set_hideFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(UnityEngine::HideFlags)>(&UnityEngine::Object::set_hideFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "set_hideFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HideFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectsOfType
 // Il2CppName: FindObjectsOfType
 // Cannot write MetadataGetter for generic methods!
@@ -350,55 +440,140 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Object::CheckNullArgument
 // Il2CppName: CheckNullArgument
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&UnityEngine::Object::CheckNullArgument)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "CheckNullArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectOfType
 // Il2CppName: FindObjectOfType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(System::Type*)>(&UnityEngine::Object::FindObjectOfType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::GetOffsetOfInstanceIDInCPlusPlusObject
 // Il2CppName: GetOffsetOfInstanceIDInCPlusPlusObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Object::GetOffsetOfInstanceIDInCPlusPlusObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetOffsetOfInstanceIDInCPlusPlusObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_CloneSingle
 // Il2CppName: Internal_CloneSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*)>(&UnityEngine::Object::Internal_CloneSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_CloneSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_CloneSingleWithParent
 // Il2CppName: Internal_CloneSingleWithParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, bool)>(&UnityEngine::Object::Internal_CloneSingleWithParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_CloneSingleWithParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingle
 // Il2CppName: Internal_InstantiateSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_InstantiateSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingleWithParent
 // Il2CppName: Internal_InstantiateSingleWithParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_InstantiateSingleWithParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Object*)>(&UnityEngine::Object::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::GetName
 // Il2CppName: GetName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Object*)>(&UnityEngine::Object::GetName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::SetName
 // Il2CppName: SetName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Object::SetName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "SetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectFromInstanceID
 // Il2CppName: FindObjectFromInstanceID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(int)>(&UnityEngine::Object::FindObjectFromInstanceID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectFromInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Object::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingle_Injected
 // Il2CppName: Internal_InstantiateSingle_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&UnityEngine::Object::Internal_InstantiateSingle_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_InstantiateSingle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected
 // Il2CppName: Internal_InstantiateSingleWithParent_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_InstantiateSingleWithParent_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Object::*)()>(&UnityEngine::Object::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Object::*)(::Il2CppObject*)>(&UnityEngine::Object::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Object::*)()>(&UnityEngine::Object::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Object::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

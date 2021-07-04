@@ -76,10 +76,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::KeyCollection*, "System.C
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::CopyTo
 // Il2CppName: CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::KeyCollection::*)(System::Array*, int)>(&System::Collections::Hashtable::KeyCollection::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Hashtable::KeyCollection::*)()>(&System::Collections::Hashtable::KeyCollection::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Hashtable::KeyCollection::*)()>(&System::Collections::Hashtable::KeyCollection::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

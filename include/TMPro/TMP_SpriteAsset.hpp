@@ -201,70 +201,180 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_version
 // Il2CppName: get_version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::get_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::set_version
 // Il2CppName: set_version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::set_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_spriteCharacterTable
 // Il2CppName: get_spriteCharacterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::get_spriteCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "get_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::set_spriteCharacterTable
 // Il2CppName: set_spriteCharacterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*)>(&TMPro::TMP_SpriteAsset::set_spriteCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_spriteGlyphTable
 // Il2CppName: get_spriteGlyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::get_spriteGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "get_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::set_spriteGlyphTable
 // Il2CppName: set_spriteGlyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*)>(&TMPro::TMP_SpriteAsset::set_spriteGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetDefaultSpriteMaterial
 // Il2CppName: GetDefaultSpriteMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::GetDefaultSpriteMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetDefaultSpriteMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::UpdateLookupTables
 // Il2CppName: UpdateLookupTables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::UpdateLookupTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "UpdateLookupTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromHashcode
 // Il2CppName: GetSpriteIndexFromHashcode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(int)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromHashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode
 // Il2CppName: GetSpriteIndexFromUnicode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(uint)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromName
 // Il2CppName: GetSpriteIndexFromName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode
 // Il2CppName: SearchForSpriteByUnicode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
 // Il2CppName: SearchForSpriteByUnicodeInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
 // Il2CppName: SearchForSpriteByUnicodeInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode
 // Il2CppName: SearchForSpriteByHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
 // Il2CppName: SearchForSpriteByHashCodeInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
 // Il2CppName: SearchForSpriteByHashCodeInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SortGlyphTable
 // Il2CppName: SortGlyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::SortGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SortGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SortCharacterTable
 // Il2CppName: SortCharacterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::SortCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SortCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SortGlyphAndCharacterTables
 // Il2CppName: SortGlyphAndCharacterTables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::SortGlyphAndCharacterTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SortGlyphAndCharacterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::UpgradeSpriteAsset
 // Il2CppName: UpgradeSpriteAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::UpgradeSpriteAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "UpgradeSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

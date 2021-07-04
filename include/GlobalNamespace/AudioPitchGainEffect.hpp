@@ -128,19 +128,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine
 // Il2CppName: StartEffectCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioPitchGainEffect::*)(float, System::Action*)>(&GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "StartEffectCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::StartEffect
 // Il2CppName: StartEffect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)(float, System::Action*)>(&GlobalNamespace::AudioPitchGainEffect::StartEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "StartEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::InterruptEffect
 // Il2CppName: InterruptEffect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::InterruptEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "InterruptEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::SetAudioSource
 // Il2CppName: SetAudioSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)(UnityEngine::AudioSource*)>(&GlobalNamespace::AudioPitchGainEffect::SetAudioSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "SetAudioSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

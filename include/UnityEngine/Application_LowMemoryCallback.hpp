@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LowMemoryCallback*, "UnityEngin
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Application::LowMemoryCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Application::LowMemoryCallback::*)()>(&UnityEngine::Application::LowMemoryCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application::LowMemoryCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Application::LowMemoryCallback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Application::LowMemoryCallback::*)(System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Application::LowMemoryCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application::LowMemoryCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Application::LowMemoryCallback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Application::LowMemoryCallback::*)(System::IAsyncResult*)>(&UnityEngine::Application::LowMemoryCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application::LowMemoryCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

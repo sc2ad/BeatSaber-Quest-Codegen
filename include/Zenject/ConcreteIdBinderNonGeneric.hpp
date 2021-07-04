@@ -52,7 +52,12 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
 // Writing MetadataGetter for method: Zenject::ConcreteIdBinderNonGeneric::WithId
 // Il2CppName: WithId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::ConcreteIdBinderNonGeneric::*)(::Il2CppObject*)>(&Zenject::ConcreteIdBinderNonGeneric::WithId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteIdBinderNonGeneric*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConcreteIdBinderNonGeneric::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

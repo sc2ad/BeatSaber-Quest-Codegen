@@ -89,16 +89,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(OnlineServices::GetLeaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync
 // Il2CppName: SendLevelScoreResutlAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(OnlineServices::LevelScoreResultsData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "SendLevelScoreResutlAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetScores
 // Il2CppName: GetScores
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::GetScores)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::UploadScore
 // Il2CppName: UploadScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::UploadScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

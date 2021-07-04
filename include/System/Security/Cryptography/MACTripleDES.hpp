@@ -110,13 +110,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES*, "System.Se
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::Initialize
 // Il2CppName: Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)()>(&System::Security::Cryptography::MACTripleDES::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::HashCore
 // Il2CppName: HashCore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MACTripleDES::HashCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::HashFinal
 // Il2CppName: HashFinal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::MACTripleDES::*)()>(&System::Security::Cryptography::MACTripleDES::HashFinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)(bool)>(&System::Security::Cryptography::MACTripleDES::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

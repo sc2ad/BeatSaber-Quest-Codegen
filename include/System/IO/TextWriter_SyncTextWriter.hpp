@@ -155,55 +155,145 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::SyncTextWriter*, "System.IO", "Te
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::get_Encoding
 // Il2CppName: get_Encoding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::IO::TextWriter::SyncTextWriter::*)()>(&System::IO::TextWriter::SyncTextWriter::get_Encoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::get_FormatProvider
 // Il2CppName: get_FormatProvider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (System::IO::TextWriter::SyncTextWriter::*)()>(&System::IO::TextWriter::SyncTextWriter::get_FormatProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "get_FormatProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)()>(&System::IO::TextWriter::SyncTextWriter::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(bool)>(&System::IO::TextWriter::SyncTextWriter::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Flush
 // Il2CppName: Flush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)()>(&System::IO::TextWriter::SyncTextWriter::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppChar)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Array<::Il2CppChar>*)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::Il2CppObject*)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)()>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppChar)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::Il2CppObject*)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};

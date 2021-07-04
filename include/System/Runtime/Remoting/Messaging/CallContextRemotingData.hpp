@@ -63,16 +63,36 @@ namespace System::Runtime::Remoting::Messaging {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextRemotingData*, "System.Runtime.Remoting.Messaging", "CallContextRemotingData");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID
 // Il2CppName: get_LogicalCallID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "get_LogicalCallID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID
 // Il2CppName: set_LogicalCallID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "set_LogicalCallID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::get_HasInfo
 // Il2CppName: get_HasInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::get_HasInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "get_HasInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

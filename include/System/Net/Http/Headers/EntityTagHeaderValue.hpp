@@ -118,41 +118,101 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::EntityTagHeaderValue*, "System.Net.Http.Headers", "EntityTagHeaderValue");
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::get_IsWeak
 // Il2CppName: get_IsWeak
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::EntityTagHeaderValue::*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::get_IsWeak)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "get_IsWeak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::set_IsWeak
 // Il2CppName: set_IsWeak
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::EntityTagHeaderValue::*)(bool)>(&System::Net::Http::Headers::EntityTagHeaderValue::set_IsWeak)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "set_IsWeak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::get_Tag
 // Il2CppName: get_Tag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::EntityTagHeaderValue::*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::get_Tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::set_Tag
 // Il2CppName: set_Tag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::EntityTagHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::EntityTagHeaderValue::set_Tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "set_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::EntityTagHeaderValue::*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::TryParse
 // Il2CppName: TryParse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::EntityTagHeaderValue*&)>(&System::Net::Http::Headers::EntityTagHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::EntityTagHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::EntityTagHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::TryParse
 // Il2CppName: TryParse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::EntityTagHeaderValue*>*&)>(&System::Net::Http::Headers::EntityTagHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::EntityTagHeaderValue*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::EntityTagHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::EntityTagHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::EntityTagHeaderValue::*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::EntityTagHeaderValue::*)()>(&System::Net::Http::Headers::EntityTagHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::EntityTagHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

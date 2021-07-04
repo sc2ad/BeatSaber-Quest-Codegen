@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

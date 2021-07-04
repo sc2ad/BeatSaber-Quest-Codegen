@@ -73,43 +73,113 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VarIntExtensions*, "", "VarIntExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarInt
 // Il2CppName: PutVarInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int)>(&GlobalNamespace::VarIntExtensions::PutVarInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarInt
 // Il2CppName: GetVarInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarUInt
 // Il2CppName: PutVarUInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint)>(&GlobalNamespace::VarIntExtensions::PutVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarUInt
 // Il2CppName: GetVarUInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarLong
 // Il2CppName: PutVarLong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int64_t)>(&GlobalNamespace::VarIntExtensions::PutVarLong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarLong
 // Il2CppName: GetVarLong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarLong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarULong
 // Il2CppName: PutVarULong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint64_t)>(&GlobalNamespace::VarIntExtensions::PutVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarULong
 // Il2CppName: GetVarULong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::TryGetVarUInt
 // Il2CppName: TryGetVarUInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint&)>(&GlobalNamespace::VarIntExtensions::TryGetVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::TryGetVarULong
 // Il2CppName: TryGetVarULong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint64_t&)>(&GlobalNamespace::VarIntExtensions::TryGetVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint64_t)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};

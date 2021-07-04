@@ -39,7 +39,12 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Glyph* (*)(TMPro::TMP_Glyph*)>(&TMPro::TMP_Glyph::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Glyph*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

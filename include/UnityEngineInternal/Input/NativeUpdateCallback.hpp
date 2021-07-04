@@ -62,10 +62,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "Unity
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeUpdateCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngineInternal::Input::NativeUpdateCallback::*)(UnityEngineInternal::Input::NativeInputUpdateType, UnityEngineInternal::Input::NativeInputEventBuffer*)>(&UnityEngineInternal::Input::NativeUpdateCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeUpdateCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputUpdateType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputEventBuffer*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeUpdateCallback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngineInternal::Input::NativeUpdateCallback::*)(UnityEngineInternal::Input::NativeInputUpdateType, UnityEngineInternal::Input::NativeInputEventBuffer*, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngineInternal::Input::NativeUpdateCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeUpdateCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputUpdateType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputEventBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeUpdateCallback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngineInternal::Input::NativeUpdateCallback::*)(System::IAsyncResult*)>(&UnityEngineInternal::Input::NativeUpdateCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeUpdateCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

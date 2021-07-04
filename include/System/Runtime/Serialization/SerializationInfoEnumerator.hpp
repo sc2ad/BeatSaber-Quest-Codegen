@@ -113,22 +113,57 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfoEnumerat
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::get_Current
 // Il2CppName: get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationEntry (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::get_ObjectType
 // Il2CppName: get_ObjectType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

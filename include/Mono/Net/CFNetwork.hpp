@@ -129,49 +129,129 @@ namespace Mono::Net {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork*, "Mono.Net", "CFNetwork");
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptSequential
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScriptSequential
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, System::IntPtr&)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptSequential)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForAutoConfigurationScriptSequential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkExecuteProxyAutoConfigurationURL
 // Il2CppName: CFNetworkExecuteProxyAutoConfigurationURL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, Mono::Net::CFStreamClientContext&)>(&Mono::Net::CFNetwork::CFNetworkExecuteProxyAutoConfigurationURL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkExecuteProxyAutoConfigurationURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFStreamClientContext&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptThread
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScriptThread
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForAutoConfigurationScriptThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScript
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScript
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, System::IntPtr&)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScript)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CopyProxiesForAutoConfigurationScript
 // Il2CppName: CopyProxiesForAutoConfigurationScript
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFArray* (*)(System::IntPtr, Mono::Net::CFUrl*)>(&Mono::Net::CFNetwork::CopyProxiesForAutoConfigurationScript)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CopyProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFUrl*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript
 // Il2CppName: GetProxiesForAutoConfigurationScript
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, Mono::Net::CFUrl*)>(&Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFUrl*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript
 // Il2CppName: GetProxiesForAutoConfigurationScript
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, System::Uri*)>(&Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::ExecuteProxyAutoConfigurationURL
 // Il2CppName: ExecuteProxyAutoConfigurationURL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, System::Uri*)>(&Mono::Net::CFNetwork::ExecuteProxyAutoConfigurationURL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "ExecuteProxyAutoConfigurationURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopyProxiesForURL
 // Il2CppName: CFNetworkCopyProxiesForURL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForURL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CopyProxiesForURL
 // Il2CppName: CopyProxiesForURL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFArray* (*)(Mono::Net::CFUrl*, Mono::Net::CFDictionary*)>(&Mono::Net::CFNetwork::CopyProxiesForURL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CopyProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFUrl*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxiesForURL
 // Il2CppName: GetProxiesForURL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(Mono::Net::CFUrl*, Mono::Net::CFProxySettings*)>(&Mono::Net::CFNetwork::GetProxiesForURL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFUrl*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFProxySettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxiesForUri
 // Il2CppName: GetProxiesForUri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::Uri*, Mono::Net::CFProxySettings*)>(&Mono::Net::CFNetwork::GetProxiesForUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFProxySettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopySystemProxySettings
 // Il2CppName: CFNetworkCopySystemProxySettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Net::CFNetwork::CFNetworkCopySystemProxySettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopySystemProxySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetSystemProxySettings
 // Il2CppName: GetSystemProxySettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxySettings* (*)()>(&Mono::Net::CFNetwork::GetSystemProxySettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetSystemProxySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetDefaultProxy
 // Il2CppName: GetDefaultProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&Mono::Net::CFNetwork::GetDefaultProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetDefaultProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFNetwork::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

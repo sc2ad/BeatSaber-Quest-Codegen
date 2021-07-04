@@ -102,19 +102,49 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_FactoryType
 // Il2CppName: get_FactoryType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_FactoryType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_FactoryType
 // Il2CppName: set_FactoryType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Type*)>(&Zenject::FactoryBindInfo::set_FactoryType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_ProviderFunc
 // Il2CppName: get_ProviderFunc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_ProviderFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_ProviderFunc
 // Il2CppName: set_ProviderFunc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*)>(&Zenject::FactoryBindInfo::set_ProviderFunc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_Arguments
 // Il2CppName: get_Arguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_Arguments
 // Il2CppName: set_Arguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::FactoryBindInfo::set_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};

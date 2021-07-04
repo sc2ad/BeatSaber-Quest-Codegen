@@ -51,10 +51,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllerTransformOffset*, "", "VRControllerTransformOffset");
 // Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::get_positionOffset
 // Il2CppName: get_positionOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::get_positionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::get_rotationOffset
 // Il2CppName: get_rotationOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::get_rotationOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

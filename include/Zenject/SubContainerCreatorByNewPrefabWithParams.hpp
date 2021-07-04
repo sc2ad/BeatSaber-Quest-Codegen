@@ -103,10 +103,25 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams*, "Zenj
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::get_Container
 // Il2CppName: get_Container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)()>(&Zenject::SubContainerCreatorByNewPrefabWithParams::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::CreateTempContainer
 // Il2CppName: CreateTempContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::CreateTempContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "CreateTempContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::CreateSubContainer
 // Il2CppName: CreateSubContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::CreateSubContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};

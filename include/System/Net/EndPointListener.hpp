@@ -185,46 +185,121 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointLi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::EndPointListener::get_Listener
 // Il2CppName: get_Listener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::get_Listener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::Accept
 // Il2CppName: Accept
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::Socket*, System::Net::Sockets::SocketAsyncEventArgs*, System::Net::Sockets::Socket*&)>(&System::Net::EndPointListener::Accept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::ProcessAccept
 // Il2CppName: ProcessAccept
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::EndPointListener::ProcessAccept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "ProcessAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::OnAccept
 // Il2CppName: OnAccept
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::EndPointListener::OnAccept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "OnAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::RemoveConnection
 // Il2CppName: RemoveConnection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::HttpConnection*)>(&System::Net::EndPointListener::RemoveConnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::BindContext
 // Il2CppName: BindContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EndPointListener::*)(System::Net::HttpListenerContext*)>(&System::Net::EndPointListener::BindContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "BindContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::UnbindContext
 // Il2CppName: UnbindContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::HttpListenerContext*)>(&System::Net::EndPointListener::UnbindContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "UnbindContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::SearchListener
 // Il2CppName: SearchListener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)(System::Uri*, System::Net::ListenerPrefix*&)>(&System::Net::EndPointListener::SearchListener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "SearchListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::MatchFromList
 // Il2CppName: MatchFromList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)(::Il2CppString*, ::Il2CppString*, System::Collections::ArrayList*, System::Net::ListenerPrefix*&)>(&System::Net::EndPointListener::MatchFromList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "MatchFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::AddSpecial
 // Il2CppName: AddSpecial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Collections::ArrayList*, System::Net::ListenerPrefix*)>(&System::Net::EndPointListener::AddSpecial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "AddSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::RemoveSpecial
 // Il2CppName: RemoveSpecial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EndPointListener::*)(System::Collections::ArrayList*, System::Net::ListenerPrefix*)>(&System::Net::EndPointListener::RemoveSpecial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemoveSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::CheckIfRemove
 // Il2CppName: CheckIfRemove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::CheckIfRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "CheckIfRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::AddPrefix
 // Il2CppName: AddPrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::ListenerPrefix*, System::Net::HttpListener*)>(&System::Net::EndPointListener::AddPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "AddPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPointListener::RemovePrefix
 // Il2CppName: RemovePrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::ListenerPrefix*, System::Net::HttpListener*)>(&System::Net::EndPointListener::RemovePrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemovePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+  }
+};

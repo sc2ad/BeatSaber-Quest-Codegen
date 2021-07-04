@@ -80,16 +80,36 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::get_cellNumber
 // Il2CppName: get_cellNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::get_cellNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "get_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::set_cellNumber
 // Il2CppName: set_cellNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)(int)>(&HMUI::SegmentedControlCell::set_cellNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "set_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::SegmentedControlSetup
 // Il2CppName: SegmentedControlSetup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)(HMUI::SegmentedControl*, int)>(&HMUI::SegmentedControlCell::SegmentedControlSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "SegmentedControlSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::InternalToggle
 // Il2CppName: InternalToggle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::InternalToggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

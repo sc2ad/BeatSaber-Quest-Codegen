@@ -56,13 +56,33 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlatformUserModel*, "", "IPlatformUserModel");
 // Writing MetadataGetter for method: GlobalNamespace::IPlatformUserModel::GetUserInfo
 // Il2CppName: GetUserInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* (GlobalNamespace::IPlatformUserModel::*)()>(&GlobalNamespace::IPlatformUserModel::GetUserInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPlatformUserModel*), "GetUserInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IPlatformUserModel::GetUserFriendsUserIds
 // Il2CppName: GetUserFriendsUserIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* (GlobalNamespace::IPlatformUserModel::*)(bool)>(&GlobalNamespace::IPlatformUserModel::GetUserFriendsUserIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPlatformUserModel*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IPlatformUserModel::GetUserAuthToken
 // Il2CppName: GetUserAuthToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* (GlobalNamespace::IPlatformUserModel::*)()>(&GlobalNamespace::IPlatformUserModel::GetUserAuthToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPlatformUserModel*), "GetUserAuthToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IPlatformUserModel::GetUserNamesForUserIds
 // Il2CppName: GetUserNamesForUserIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* (GlobalNamespace::IPlatformUserModel::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&GlobalNamespace::IPlatformUserModel::GetUserNamesForUserIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPlatformUserModel*), "GetUserNamesForUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
+  }
+};

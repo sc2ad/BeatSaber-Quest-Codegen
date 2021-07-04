@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetTransitionState*, "Valve.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetTransitionState::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationTransitionState (Valve::VR::IVRApplications::_GetTransitionState::*)()>(&Valve::VR::IVRApplications::_GetTransitionState::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetTransitionState*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetTransitionState::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetTransitionState::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetTransitionState::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetTransitionState*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetTransitionState::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationTransitionState (Valve::VR::IVRApplications::_GetTransitionState::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_GetTransitionState::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetTransitionState*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

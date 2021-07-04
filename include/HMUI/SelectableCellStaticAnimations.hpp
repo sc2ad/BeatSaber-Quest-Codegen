@@ -101,22 +101,52 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::HandleSelectionDidChange
 // Il2CppName: HandleSelectionDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&HMUI::SelectableCellStaticAnimations::HandleSelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "HandleSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::HandleHighlightDidChange
 // Il2CppName: HandleHighlightDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType)>(&HMUI::SelectableCellStaticAnimations::HandleHighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "HandleHighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::RefreshVisuals
 // Il2CppName: RefreshVisuals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::RefreshVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

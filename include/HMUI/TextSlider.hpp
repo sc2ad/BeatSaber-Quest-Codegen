@@ -286,106 +286,276 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider*, "HMUI", "TextSlider");
 // Writing MetadataGetter for method: HMUI::TextSlider::set_valueTextColor
 // Il2CppName: set_valueTextColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::Color)>(&HMUI::TextSlider::set_valueTextColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_valueTextColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_handleRect
 // Il2CppName: get_handleRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_handleRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_handleRect
 // Il2CppName: set_handleRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::RectTransform*)>(&HMUI::TextSlider::set_handleRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_handleColor
 // Il2CppName: set_handleColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::Color)>(&HMUI::TextSlider::set_handleColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_handleColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_handleSize
 // Il2CppName: get_handleSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_handleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_handleSize
 // Il2CppName: set_handleSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::set_handleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_handleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_valueSize
 // Il2CppName: get_valueSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_valueSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_valueSize
 // Il2CppName: set_valueSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::set_valueSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_valueSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_separatorSize
 // Il2CppName: get_separatorSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_separatorSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_separatorSize
 // Il2CppName: set_separatorSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::set_separatorSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_separatorSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_numberOfSteps
 // Il2CppName: get_numberOfSteps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_numberOfSteps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_numberOfSteps
 // Il2CppName: set_numberOfSteps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(int)>(&HMUI::TextSlider::set_numberOfSteps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::get_normalizedValue
 // Il2CppName: get_normalizedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSlider::*)()>(&HMUI::TextSlider::get_normalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "get_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::set_normalizedValue
 // Il2CppName: set_normalizedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::set_normalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "set_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::add_normalizedValueDidChangeEvent
 // Il2CppName: add_normalizedValueDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&HMUI::TextSlider::add_normalizedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "add_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::remove_normalizedValueDidChangeEvent
 // Il2CppName: remove_normalizedValueDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(System::Action_2<HMUI::TextSlider*, float>*)>(&HMUI::TextSlider::remove_normalizedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "remove_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TextSlider*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::Rebuild
 // Il2CppName: Rebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::UI::CanvasUpdate)>(&HMUI::TextSlider::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::LayoutComplete
 // Il2CppName: LayoutComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::LayoutComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::GraphicUpdateComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::UpdateCachedReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::SetNormalizedValue
 // Il2CppName: SetNormalizedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::SetNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::SetNormalizedValue
 // Il2CppName: SetNormalizedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(float, bool)>(&HMUI::TextSlider::SetNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::UpdateVisuals
 // Il2CppName: UpdateVisuals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::UpdateVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::UpdateDrag
 // Il2CppName: UpdateDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::UpdateDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::MayDrag
 // Il2CppName: MayDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::MayDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnBeginDrag
 // Il2CppName: OnBeginDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::OnBeginDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnDrag
 // Il2CppName: OnDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::OnDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::OnInitializePotentialDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::TextForNormalizedValue
 // Il2CppName: TextForNormalizedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TextSlider::*)(float)>(&HMUI::TextSlider::TextForNormalizedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::UnityEngine_UI_ICanvasElement_get_transform
 // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (HMUI::TextSlider::*)()>(&HMUI::TextSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)()>(&HMUI::TextSlider::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::OnPointerDown
 // Il2CppName: OnPointerDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::TextSlider::OnPointerDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSlider*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSlider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

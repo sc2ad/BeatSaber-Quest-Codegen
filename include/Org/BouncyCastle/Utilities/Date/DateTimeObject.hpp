@@ -54,4 +54,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::Date::DateTimeObject::*)()>(&Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Date::DateTimeObject*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

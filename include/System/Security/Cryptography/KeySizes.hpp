@@ -67,20 +67,45 @@ namespace System::Security::Cryptography {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MinSize
 // Il2CppName: get_MinSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::KeySizes::*)()>(&System::Security::Cryptography::KeySizes::get_MinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "get_MinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MaxSize
 // Il2CppName: get_MaxSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::KeySizes::*)()>(&System::Security::Cryptography::KeySizes::get_MaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_SkipSize
 // Il2CppName: get_SkipSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::KeySizes::*)()>(&System::Security::Cryptography::KeySizes::get_SkipSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "get_SkipSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::IsLegal
 // Il2CppName: IsLegal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::KeySizes::*)(int)>(&System::Security::Cryptography::KeySizes::IsLegal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::IsLegalKeySize
 // Il2CppName: IsLegalKeySize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Security::Cryptography::KeySizes*>*, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Security::Cryptography::KeySizes*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

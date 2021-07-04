@@ -203,28 +203,68 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRC
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder::Mode, "", "FullVRControllersRecorder/Mode");
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::add_didSetControllerTransformEvent
 // Il2CppName: add_didSetControllerTransformEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)(System::Action_1<GlobalNamespace::VRController*>*)>(&GlobalNamespace::FullVRControllersRecorder::add_didSetControllerTransformEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "add_didSetControllerTransformEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::VRController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::remove_didSetControllerTransformEvent
 // Il2CppName: remove_didSetControllerTransformEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)(System::Action_1<GlobalNamespace::VRController*>*)>(&GlobalNamespace::FullVRControllersRecorder::remove_didSetControllerTransformEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "remove_didSetControllerTransformEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::VRController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::PlaybackTick
 // Il2CppName: PlaybackTick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::PlaybackTick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "PlaybackTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::RecordTick
 // Il2CppName: RecordTick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::RecordTick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "RecordTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::LateUpdate
 // Il2CppName: LateUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullVRControllersRecorder::*)()>(&GlobalNamespace::FullVRControllersRecorder::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullVRControllersRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

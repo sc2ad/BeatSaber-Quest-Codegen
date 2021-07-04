@@ -120,10 +120,20 @@ namespace System::Runtime::InteropServices {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeMethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::IsDefined
 // Il2CppName: IsDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeMethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -134,4 +144,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "S
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::InteropServices::DllImportAttribute::*)()>(&System::Runtime::InteropServices::DllImportAttribute::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

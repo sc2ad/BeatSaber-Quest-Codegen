@@ -123,22 +123,57 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "Sy
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::get_Key
 // Il2CppName: get_Key
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::get_Entry
 // Il2CppName: get_Entry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::get_Entry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::get_Current
 // Il2CppName: get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::HashtableEnumerator::*)()>(&System::Collections::Hashtable::HashtableEnumerator::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::HashtableEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

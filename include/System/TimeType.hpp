@@ -62,4 +62,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::TimeType*, "System", "TimeType");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::TimeType::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeType::*)()>(&System::TimeType::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

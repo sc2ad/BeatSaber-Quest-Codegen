@@ -53,22 +53,57 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_position
 // Il2CppName: get_position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_velocity
 // Il2CppName: get_velocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_velocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::set_velocity
 // Il2CppName: set_velocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(UnityEngine::Vector2)>(&UnityEngine::Rigidbody2D::set_velocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::Sleep
 // Il2CppName: Sleep
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::Sleep)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_position_Injected
 // Il2CppName: get_position_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(UnityEngine::Vector2&)>(&UnityEngine::Rigidbody2D::get_position_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_velocity_Injected
 // Il2CppName: get_velocity_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(UnityEngine::Vector2&)>(&UnityEngine::Rigidbody2D::get_velocity_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::set_velocity_Injected
 // Il2CppName: set_velocity_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(UnityEngine::Vector2&)>(&UnityEngine::Rigidbody2D::set_velocity_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "set_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};

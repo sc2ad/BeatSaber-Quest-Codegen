@@ -23,4 +23,9 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
 // Writing MetadataGetter for method: Zenject::IValidatable::Validate
 // Il2CppName: Validate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IValidatable::*)()>(&Zenject::IValidatable::Validate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IValidatable*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

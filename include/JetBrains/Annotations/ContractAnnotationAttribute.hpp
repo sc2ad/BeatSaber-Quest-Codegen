@@ -77,13 +77,33 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ContractAnnotationAttribute*, "Je
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::get_Contract
 // Il2CppName: get_Contract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "get_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::set_Contract
 // Il2CppName: set_Contract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "set_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates
 // Il2CppName: get_ForceFullStates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "get_ForceFullStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates
 // Il2CppName: set_ForceFullStates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(bool)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "set_ForceFullStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

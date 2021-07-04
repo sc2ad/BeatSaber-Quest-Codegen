@@ -317,91 +317,241 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Objec
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*, bool)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Remoting::Messaging::Header*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::get_ObjectManager
 // Il2CppName: get_ObjectManager
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationObjectManager* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)()>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::get_ObjectManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "get_ObjectManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Array<::Il2CppString*>*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*, ::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMemberSetup
 // Il2CppName: WriteMemberSetup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppString*, System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMemberSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteMemberSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMembers
 // Il2CppName: WriteMembers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMembers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArray
 // Il2CppName: WriteArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArrayMember
 // Il2CppName: WriteArrayMember
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArrayMember)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteArrayMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteRectangle
 // Il2CppName: WriteRectangle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, int, ::Array<int>*, System::Array*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Array<int>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteRectangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNext
 // Il2CppName: GetNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(int64_t&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::InternalGetId
 // Il2CppName: InternalGetId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*, bool&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::InternalGetId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "InternalGetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule
 // Il2CppName: Schedule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "Schedule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule
 // Il2CppName: Schedule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "Schedule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteKnownValueClass
 // Il2CppName: WriteKnownValueClass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteKnownValueClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteKnownValueClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteObjectRef
 // Il2CppName: WriteObjectRef
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, int64_t)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteObjectRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteObjectRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteString
 // Il2CppName: WriteString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckForNull
 // Il2CppName: CheckForNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckForNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "CheckForNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteSerializedStreamHeader
 // Il2CppName: WriteSerializedStreamHeader
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(int64_t, int64_t)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteSerializedStreamHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteSerializedStreamHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo
 // Il2CppName: TypeToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo
 // Il2CppName: TypeToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo
 // Il2CppName: TypeToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo
 // Il2CppName: TypeToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo
 // Il2CppName: TypeToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::MemberToNameInfo
 // Il2CppName: MemberToNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::MemberToNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "MemberToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::ToCode
 // Il2CppName: ToCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::ToCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "ToCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetAssemblyId
 // Il2CppName: GetAssemblyId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetAssemblyId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetAssemblyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetType
 // Il2CppName: GetType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNameInfo
 // Il2CppName: GetNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)()>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckTypeFormat
 // Il2CppName: CheckTypeFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::FormatterTypeStyle, System::Runtime::Serialization::Formatters::FormatterTypeStyle)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckTypeFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "CheckTypeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterTypeStyle>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterTypeStyle>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::PutNameInfo
 // Il2CppName: PutNameInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::PutNameInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "PutNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+  }
+};

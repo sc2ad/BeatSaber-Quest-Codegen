@@ -76,13 +76,28 @@ namespace NUnit::Framework::Internal::Builders {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "BuildTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature
 // Il2CppName: CheckTestMethodSignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "CheckTestMethodSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable
 // Il2CppName: MarkAsNotRunnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "MarkAsNotRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

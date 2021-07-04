@@ -126,73 +126,193 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IVRPlatformHelper*, "", "IVRPlatformHelper");
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent
 // Il2CppName: remove_inputFocusWasCapturedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent
 // Il2CppName: add_inputFocusWasReleasedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent
 // Il2CppName: remove_inputFocusWasReleasedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent
 // Il2CppName: add_vrFocusWasCapturedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent
 // Il2CppName: remove_vrFocusWasCapturedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent
 // Il2CppName: add_vrFocusWasReleasedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent
 // Il2CppName: remove_vrFocusWasReleasedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent
 // Il2CppName: add_hmdUnmountedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent
 // Il2CppName: remove_hmdUnmountedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent
 // Il2CppName: add_hmdMountedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent
 // Il2CppName: remove_hmdMountedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent
 // Il2CppName: add_joystickWasCenteredThisFrameEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent
 // Il2CppName: remove_joystickWasCenteredThisFrameEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent
 // Il2CppName: add_joystickWasNotCenteredThisFrameEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent
 // Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector2>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_hasInputFocus
 // Il2CppName: get_hasInputFocus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_hasInputFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_isAlwaysWireless
 // Il2CppName: get_isAlwaysWireless
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_isAlwaysWireless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK
 // Il2CppName: get_vrPlatformSDK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_currentXRDeviceModel
 // Il2CppName: get_currentXRDeviceModel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_currentXRDeviceModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::StopHaptics
 // Il2CppName: StopHaptics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::IVRPlatformHelper::StopHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::AdjustControllerTransform
 // Il2CppName: AdjustControllerTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::IVRPlatformHelper::AdjustControllerTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "AdjustControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::GetNodePose
 // Il2CppName: GetNodePose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, int, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&GlobalNamespace::IVRPlatformHelper::GetNodePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};

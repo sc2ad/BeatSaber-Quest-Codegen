@@ -88,13 +88,33 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorDynamicContext*, "Zenject", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorDynamicContext::get_Container
 // Il2CppName: get_Container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorDynamicContext::*)()>(&Zenject::SubContainerCreatorDynamicContext::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorDynamicContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorDynamicContext::CreateSubContainer
 // Il2CppName: CreateSubContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorDynamicContext::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&Zenject::SubContainerCreatorDynamicContext::CreateSubContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorDynamicContext*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorDynamicContext::AddInstallers
 // Il2CppName: AddInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorDynamicContext::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectContext*)>(&Zenject::SubContainerCreatorDynamicContext::AddInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorDynamicContext*), "AddInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorDynamicContext::CreateGameObject
 // Il2CppName: CreateGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorDynamicContext::*)(bool&)>(&Zenject::SubContainerCreatorDynamicContext::CreateGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};

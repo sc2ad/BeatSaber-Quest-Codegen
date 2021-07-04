@@ -243,47 +243,117 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ResetCursor
 // Il2CppName: ResetCursor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::ResetCursor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ResetCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::GetNext
 // Il2CppName: GetNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutEntry* (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::GetNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(UnityEngine::GUILayoutEntry*)>(&UnityEngine::GUILayoutGroup::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUILayoutEntry*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::get_marginLeft
 // Il2CppName: get_marginLeft
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::get_marginLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "get_marginLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::get_marginRight
 // Il2CppName: get_marginRight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::get_marginRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "get_marginRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::get_marginTop
 // Il2CppName: get_marginTop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::get_marginTop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "get_marginTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::get_marginBottom
 // Il2CppName: get_marginBottom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::get_marginBottom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "get_marginBottom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ApplyOptions
 // Il2CppName: ApplyOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayoutGroup::ApplyOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ApplyOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ApplyStyleSettings
 // Il2CppName: ApplyStyleSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUILayoutGroup::ApplyStyleSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ApplyStyleSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::CalcWidth
 // Il2CppName: CalcWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::CalcWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::SetHorizontal
 // Il2CppName: SetHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(float, float)>(&UnityEngine::GUILayoutGroup::SetHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "SetHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::CalcHeight
 // Il2CppName: CalcHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::CalcHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::SetVertical
 // Il2CppName: SetVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(float, float)>(&UnityEngine::GUILayoutGroup::SetVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "SetVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUILayoutGroup::*)()>(&UnityEngine::GUILayoutGroup::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

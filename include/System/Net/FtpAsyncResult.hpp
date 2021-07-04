@@ -167,43 +167,113 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResu
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_AsyncState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_AsyncWaitHandle
 // Il2CppName: get_AsyncWaitHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_AsyncWaitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_CompletedSynchronously
 // Il2CppName: get_CompletedSynchronously
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_CompletedSynchronously)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_IsCompleted
 // Il2CppName: get_IsCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_IsCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_GotException
 // Il2CppName: get_GotException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_GotException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_GotException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_Exception
 // Il2CppName: get_Exception
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_Exception)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_Exception", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_Response
 // Il2CppName: get_Response
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpWebResponse* (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_Response)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_Stream
 // Il2CppName: get_Stream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::get_Stream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "get_Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::set_Stream
 // Il2CppName: set_Stream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(System::IO::Stream*)>(&System::Net::FtpAsyncResult::set_Stream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "set_Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::WaitUntilComplete
 // Il2CppName: WaitUntilComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::FtpAsyncResult::*)(int, bool)>(&System::Net::FtpAsyncResult::WaitUntilComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "WaitUntilComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Exception*, System::Net::FtpWebResponse*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::FtpWebResponse*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Net::FtpWebResponse*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::FtpWebResponse*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Exception*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::DoCallback
 // Il2CppName: DoCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)()>(&System::Net::FtpAsyncResult::DoCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "DoCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -29,7 +29,17 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableHelpers::IsDir
 // Il2CppName: IsDir
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsDir)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableHelpers*), "IsDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableHelpers::IsFile
 // Il2CppName: IsFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableHelpers*), "IsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+  }
+};

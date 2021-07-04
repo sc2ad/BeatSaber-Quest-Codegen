@@ -81,7 +81,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net",
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::ServerCertValidationCallback::Callback
 // Il2CppName: Callback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServerCertValidationCallback::*)(::Il2CppObject*)>(&System::Net::ServerCertValidationCallback::Callback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServerCertValidationCallback*), "Callback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::ServerCertValidationCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServerCertValidationCallback::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&System::Net::ServerCertValidationCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServerCertValidationCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+  }
+};

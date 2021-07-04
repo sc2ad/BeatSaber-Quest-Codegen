@@ -68,4 +68,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEn
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPointerEventData::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRPointerEventData::*)()>(&UnityEngine::EventSystems::OVRPointerEventData::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

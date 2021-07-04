@@ -111,43 +111,108 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBuilder", "MeshUtility");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh
 // Il2CppName: GeneratePerTriangleMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Vertex*>* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GeneratePerTriangleMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GenerateTangent
 // Il2CppName: GenerateTangent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GenerateTangent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GenerateTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::DeepCopy
 // Il2CppName: DeepCopy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::DeepCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "DeepCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::CopyTo
 // Il2CppName: CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetMeshChannel
 // Il2CppName: GetMeshChannel
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::Print
 // Il2CppName: Print
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::Print)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "Print", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetIndexCount
 // Il2CppName: GetIndexCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetIndexCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetIndexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetPrimitiveCount
 // Il2CppName: GetPrimitiveCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetPrimitiveCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetPrimitiveCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::Compile
 // Il2CppName: Compile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::MeshUtility::Compile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "Compile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetVertices
 // Il2CppName: GetVertices
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Vertex*>* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices
 // Il2CppName: CollapseSharedVertices
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::Array<UnityEngine::ProBuilder::Vertex*>*)>(&UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "CollapseSharedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Vertex*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*>()});
+  }
+};

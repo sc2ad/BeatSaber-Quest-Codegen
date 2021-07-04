@@ -135,67 +135,172 @@ namespace Microsoft::Win32 {
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "Win32RegistryApi");
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegCloseKey
 // Il2CppName: RegCloseKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Microsoft::Win32::Win32RegistryApi::RegCloseKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegCloseKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegFlushKey
 // Il2CppName: RegFlushKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Microsoft::Win32::Win32RegistryApi::RegFlushKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegFlushKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegOpenKeyEx
 // Il2CppName: RegOpenKeyEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, int, System::IntPtr&)>(&Microsoft::Win32::Win32RegistryApi::RegOpenKeyEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegOpenKeyEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx
 // Il2CppName: RegEnumKeyEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Il2CppChar*, int&, ::Array<int>*, System::Text::StringBuilder*&, ::Array<int>*, ::Array<int64_t>*)>(&Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegEnumKeyEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryValueEx
 // Il2CppName: RegQueryValueEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, System::IntPtr, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryValueEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueKind&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryValueEx
 // Il2CppName: RegQueryValueEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, ::Array<uint8_t>*&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryValueEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueKind&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryValueEx
 // Il2CppName: RegQueryValueEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, int&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryValueEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueKind&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryValueEx
 // Il2CppName: RegQueryValueEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, int64_t&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryValueEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueKind&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey
 // Il2CppName: RegQueryInfoKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Text::StringBuilder*&, ::Array<int>*, System::IntPtr, int&, ::Array<int>*, ::Array<int>*, int&, ::Array<int>*, ::Array<int>*, ::Array<int>*, ::Array<int>*)>(&Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryInfoKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetHandle
 // Il2CppName: GetHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::IsHandleValid
 // Il2CppName: IsHandleValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::IsHandleValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "IsHandleValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetValue
 // Il2CppName: GetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, ::Il2CppObject*, Microsoft::Win32::RegistryValueOptions)>(&Microsoft::Win32::Win32RegistryApi::GetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueOptions>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetBinaryValue
 // Il2CppName: GetBinaryValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, Microsoft::Win32::RegistryValueKind, ::Array<uint8_t>*&, int)>(&Microsoft::Win32::Win32RegistryApi::GetBinaryValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetBinaryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueKind>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::SubKeyCount
 // Il2CppName: SubKeyCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::SubKeyCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "SubKeyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::OpenSubKey
 // Il2CppName: OpenSubKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&Microsoft::Win32::Win32RegistryApi::OpenSubKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "OpenSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::Flush
 // Il2CppName: Flush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetSubKeyNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GenerateException
 // Il2CppName: GenerateException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(int)>(&Microsoft::Win32::Win32RegistryApi::GenerateException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GenerateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::CombineName
 // Il2CppName: CombineName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*)>(&Microsoft::Win32::Win32RegistryApi::CombineName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "CombineName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

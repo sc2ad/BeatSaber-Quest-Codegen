@@ -30,4 +30,9 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaterialModifier*, "UnityEngine.UI", "IMaterialModifier");
 // Writing MetadataGetter for method: UnityEngine::UI::IMaterialModifier::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::IMaterialModifier::*)(UnityEngine::Material*)>(&UnityEngine::UI::IMaterialModifier::GetModifiedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IMaterialModifier*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};

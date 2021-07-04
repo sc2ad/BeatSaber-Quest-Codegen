@@ -194,19 +194,49 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerA
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::MultiplayerAvatarData::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::CreateFromSerializedData
 // Il2CppName: CreateFromSerializedData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::MultiplayerAvatarData::CreateFromSerializedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::MultiplayerAvatarData::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerAvatarData::*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::MultiplayerAvatarData::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerAvatarData::*)(::Il2CppObject*)>(&GlobalNamespace::MultiplayerAvatarData::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerAvatarData::*)()>(&GlobalNamespace::MultiplayerAvatarData::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -109,25 +109,65 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::PublicK
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedKeyValue
 // Il2CppName: get_EncodedKeyValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnEncodedData* (System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedKeyValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "get_EncodedKeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedParameters
 // Il2CppName: get_EncodedParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnEncodedData* (System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "get_EncodedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::get_Key
 // Il2CppName: get_Key
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsymmetricAlgorithm* (System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&System::Security::Cryptography::X509Certificates::PublicKey::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::get_Oid
 // Il2CppName: get_Oid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::Oid* (System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&System::Security::Cryptography::X509Certificates::PublicKey::get_Oid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger
 // Il2CppName: GetUnsignedBigInteger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "GetUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA
 // Il2CppName: DecodeDSA
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "DecodeDSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA
 // Il2CppName: DecodeRSA
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "DecodeRSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::X509Certificates::PublicKey::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

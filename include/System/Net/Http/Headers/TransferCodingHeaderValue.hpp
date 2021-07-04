@@ -114,29 +114,69 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingHeaderValue*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::get_Parameters
 // Il2CppName: get_Parameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (System::Net::Http::Headers::TransferCodingHeaderValue::*)()>(&System::Net::Http::Headers::TransferCodingHeaderValue::get_Parameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::TransferCodingHeaderValue::*)()>(&System::Net::Http::Headers::TransferCodingHeaderValue::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::TransferCodingHeaderValue::*)()>(&System::Net::Http::Headers::TransferCodingHeaderValue::System_ICloneable_Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::TryParse
 // Il2CppName: TryParse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingHeaderValue*>*&)>(&System::Net::Http::Headers::TransferCodingHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingHeaderValue*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::TransferCodingHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::TransferCodingHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::TransferCodingHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::TransferCodingHeaderValue::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::TransferCodingHeaderValue::*)()>(&System::Net::Http::Headers::TransferCodingHeaderValue::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::TransferCodingHeaderValue::*)()>(&System::Net::Http::Headers::TransferCodingHeaderValue::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -62,10 +62,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");
 // Writing MetadataGetter for method: GlobalNamespace::SleepRigidbody2DWhenInvisible::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SleepRigidbody2DWhenInvisible::*)()>(&GlobalNamespace::SleepRigidbody2DWhenInvisible::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SleepRigidbody2DWhenInvisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SleepRigidbody2DWhenInvisible::OnBecameInvisible
 // Il2CppName: OnBecameInvisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SleepRigidbody2DWhenInvisible::*)()>(&GlobalNamespace::SleepRigidbody2DWhenInvisible::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SleepRigidbody2DWhenInvisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SleepRigidbody2DWhenInvisible::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

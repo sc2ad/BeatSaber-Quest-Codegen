@@ -77,22 +77,52 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_ExpandMethod
 // Il2CppName: get_ExpandMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolExpandMethods (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_ExpandMethod
 // Il2CppName: set_ExpandMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(Zenject::PoolExpandMethods)>(&Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::PoolExpandMethods>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_InitialSize
 // Il2CppName: get_InitialSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_InitialSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_InitialSize
 // Il2CppName: set_InitialSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(int)>(&Zenject::MemoryPoolBindInfo::set_InitialSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_MaxSize
 // Il2CppName: get_MaxSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_MaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_MaxSize
 // Il2CppName: set_MaxSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(int)>(&Zenject::MemoryPoolBindInfo::set_MaxSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

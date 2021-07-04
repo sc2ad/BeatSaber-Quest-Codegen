@@ -75,7 +75,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32UnicastIPAddressInf
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32UnicastIPAddressInformation::PrefixLengthToSubnetMask
 // Il2CppName: PrefixLengthToSubnetMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(uint8_t, System::Net::Sockets::AddressFamily)>(&System::Net::NetworkInformation::Win32UnicastIPAddressInformation::PrefixLengthToSubnetMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "PrefixLengthToSubnetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32UnicastIPAddressInformation::get_Address
 // Il2CppName: get_Address
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::Win32UnicastIPAddressInformation::*)()>(&System::Net::NetworkInformation::Win32UnicastIPAddressInformation::get_Address)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

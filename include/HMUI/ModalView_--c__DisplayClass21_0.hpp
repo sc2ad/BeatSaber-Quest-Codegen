@@ -53,7 +53,12 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass21_0::$HandleParentViewControllerDidDeactivate$b__0
 // Il2CppName: <HandleParentViewControllerDidDeactivate>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::$$c__DisplayClass21_0::*)()>(&HMUI::ModalView::$$c__DisplayClass21_0::$HandleParentViewControllerDidDeactivate$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView::$$c__DisplayClass21_0*), "<HandleParentViewControllerDidDeactivate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass21_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

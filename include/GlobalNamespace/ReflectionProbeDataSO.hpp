@@ -73,16 +73,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1
 // Il2CppName: get_reflectionProbeCubemap1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1
 // Il2CppName: set_reflectionProbeCubemap1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2
 // Il2CppName: get_reflectionProbeCubemap2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2
 // Il2CppName: set_reflectionProbeCubemap2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

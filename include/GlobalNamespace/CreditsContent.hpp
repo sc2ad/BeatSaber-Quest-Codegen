@@ -168,40 +168,100 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsContent*, "", "CreditsContent");
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_normalTextPrefab
 // Il2CppName: get_normalTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_normalTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_normalTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_normalLocalizedTextPrefab
 // Il2CppName: get_normalLocalizedTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_normalLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_normalLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_titleTextPrefab
 // Il2CppName: get_titleTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_titleTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_titleTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_titleLocalizedTextPrefab
 // Il2CppName: get_titleLocalizedTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_titleLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_titleLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_headerTextPrefab
 // Il2CppName: get_headerTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_headerTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_headerTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_headerLocalizedTextPrefab
 // Il2CppName: get_headerLocalizedTextPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_headerLocalizedTextPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_headerLocalizedTextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_columnCount
 // Il2CppName: get_columnCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_columnCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_columnCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_spaceHeight
 // Il2CppName: get_spaceHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_spaceHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_spaceHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_titleHeight
 // Il2CppName: get_titleHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_titleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_titleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_contentRoot
 // Il2CppName: get_contentRoot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_contentRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_contentRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_rootRectTransform
 // Il2CppName: get_rootRectTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_rootRectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_rootRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_creditsContentTextAsset
 // Il2CppName: get_creditsContentTextAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (GlobalNamespace::CreditsContent::*)()>(&GlobalNamespace::CreditsContent::get_creditsContentTextAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsContent*), "get_creditsContentTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

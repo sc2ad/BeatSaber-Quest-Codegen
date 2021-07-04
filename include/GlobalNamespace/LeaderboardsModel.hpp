@@ -43,7 +43,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModel*, "", "LeaderboardsModel");
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::GetLeaderboardID
 // Il2CppName: GetLeaderboardID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LeaderboardsModel::GetLeaderboardID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModel*), "GetLeaderboardID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

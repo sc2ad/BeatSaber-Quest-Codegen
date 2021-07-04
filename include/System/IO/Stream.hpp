@@ -235,127 +235,332 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream*, "System.IO", "Stream");
 // Writing MetadataGetter for method: System::IO::Stream::EnsureAsyncActiveSemaphoreInitialized
 // Il2CppName: EnsureAsyncActiveSemaphoreInitialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim* (System::IO::Stream::*)()>(&System::IO::Stream::EnsureAsyncActiveSemaphoreInitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "EnsureAsyncActiveSemaphoreInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_CanRead
 // Il2CppName: get_CanRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Stream::*)()>(&System::IO::Stream::get_CanRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_CanSeek
 // Il2CppName: get_CanSeek
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Stream::*)()>(&System::IO::Stream::get_CanSeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_CanWrite
 // Il2CppName: get_CanWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Stream::*)()>(&System::IO::Stream::get_CanWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_Length
 // Il2CppName: get_Length
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Stream::*)()>(&System::IO::Stream::get_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_Position
 // Il2CppName: get_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Stream::*)()>(&System::IO::Stream::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::set_Position
 // Il2CppName: set_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(int64_t)>(&System::IO::Stream::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_ReadTimeout
 // Il2CppName: get_ReadTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)()>(&System::IO::Stream::get_ReadTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::get_WriteTimeout
 // Il2CppName: get_WriteTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)()>(&System::IO::Stream::get_WriteTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::CopyToAsync
 // Il2CppName: CopyToAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(System::IO::Stream*)>(&System::IO::Stream::CopyToAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::CopyToAsync
 // Il2CppName: CopyToAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(System::IO::Stream*, int)>(&System::IO::Stream::CopyToAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::CopyToAsync
 // Il2CppName: CopyToAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(System::IO::Stream*, int, System::Threading::CancellationToken)>(&System::IO::Stream::CopyToAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::CopyToAsyncInternal
 // Il2CppName: CopyToAsyncInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(System::IO::Stream*, int, System::Threading::CancellationToken)>(&System::IO::Stream::CopyToAsyncInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "CopyToAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)()>(&System::IO::Stream::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)()>(&System::IO::Stream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(bool)>(&System::IO::Stream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Flush
 // Il2CppName: Flush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)()>(&System::IO::Stream::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginRead
 // Il2CppName: BeginRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginReadInternal
 // Il2CppName: BeginReadInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginReadInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginReadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::EndRead
 // Il2CppName: EndRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)(System::IAsyncResult*)>(&System::IO::Stream::EndRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::ReadAsync
 // Il2CppName: ReadAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::ReadAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginEndReadAsync
 // Il2CppName: BeginEndReadAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Stream::BeginEndReadAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginEndReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginWrite
 // Il2CppName: BeginWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginWriteInternal
 // Il2CppName: BeginWriteInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginWriteInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginWriteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::RunReadWriteTaskWhenReady
 // Il2CppName: RunReadWriteTaskWhenReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(System::Threading::Tasks::Task*, System::IO::Stream::ReadWriteTask*)>(&System::IO::Stream::RunReadWriteTaskWhenReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "RunReadWriteTaskWhenReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream::ReadWriteTask*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::RunReadWriteTask
 // Il2CppName: RunReadWriteTask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(System::IO::Stream::ReadWriteTask*)>(&System::IO::Stream::RunReadWriteTask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "RunReadWriteTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream::ReadWriteTask*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::EndWrite
 // Il2CppName: EndWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(System::IAsyncResult*)>(&System::IO::Stream::EndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::WriteAsync
 // Il2CppName: WriteAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Stream::WriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::WriteAsync
 // Il2CppName: WriteAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::WriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BeginEndWriteAsync
 // Il2CppName: BeginEndWriteAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Stream::BeginEndWriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BeginEndWriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Seek
 // Il2CppName: Seek
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Stream::*)(int64_t, System::IO::SeekOrigin)>(&System::IO::Stream::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::SetLength
 // Il2CppName: SetLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(int64_t)>(&System::IO::Stream::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)(::Array<uint8_t>*&, int, int)>(&System::IO::Stream::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::ReadByte
 // Il2CppName: ReadByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)()>(&System::IO::Stream::ReadByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Stream::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::WriteByte
 // Il2CppName: WriteByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(uint8_t)>(&System::IO::Stream::WriteByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "WriteByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BlockingBeginRead
 // Il2CppName: BlockingBeginRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BlockingBeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BlockingEndRead
 // Il2CppName: BlockingEndRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IAsyncResult*)>(&System::IO::Stream::BlockingEndRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BlockingEndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BlockingBeginWrite
 // Il2CppName: BlockingBeginWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BlockingBeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::BlockingEndWrite
 // Il2CppName: BlockingEndWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&System::IO::Stream::BlockingEndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), "BlockingEndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::Stream::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

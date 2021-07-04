@@ -145,19 +145,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect*, "", "BTSStarTextEventEffect");
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent
 // Il2CppName: add_startStarTextAnimationEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "add_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::remove_startStarTextAnimationEvent
 // Il2CppName: remove_startStarTextAnimationEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&GlobalNamespace::BTSStarTextEventEffect::remove_startStarTextAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "remove_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

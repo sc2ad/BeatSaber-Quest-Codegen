@@ -123,4 +123,9 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRang
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::CodePointIndexer::ToIndex
 // Il2CppName: ToIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::CodePointIndexer::*)(int)>(&Mono::Globalization::Unicode::CodePointIndexer::ToIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::CodePointIndexer*), "ToIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

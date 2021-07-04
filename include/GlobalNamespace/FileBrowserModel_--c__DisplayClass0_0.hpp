@@ -81,10 +81,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0
 // Il2CppName: <GetContentOfDirectory>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::*)()>(&GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*), "<GetContentOfDirectory>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__1
 // Il2CppName: <GetContentOfDirectory>b__1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::*)()>(&GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*), "<GetContentOfDirectory>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

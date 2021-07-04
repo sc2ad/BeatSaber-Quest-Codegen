@@ -193,46 +193,116 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerTimelineMock*, "", "MultiplayerTimelineMock");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators
 // Il2CppName: get_connectedPlayerIntroAnimators
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerIntroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerScoreRings
 // Il2CppName: get_connectedPlayerScoreRings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerScoreRings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerScoreRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerOutroAnimators
 // Il2CppName: get_connectedPlayerOutroAnimators
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerOutroAnimators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerOutroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_localPlayerIntroAnimator
 // Il2CppName: get_localPlayerIntroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_localPlayerIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_localPlayerIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_localPlayerScoreRingItem
 // Il2CppName: get_localPlayerScoreRingItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_localPlayerScoreRingItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_localPlayerScoreRingItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_localPlayerOutroAnimator
 // Il2CppName: get_localPlayerOutroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_localPlayerOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_localPlayerOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedDuelIntroAnimator
 // Il2CppName: get_connectedDuelIntroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedDuelIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedDuelOutroAnimator
 // Il2CppName: get_connectedDuelOutroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedDuelOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_localDuelIntroAnimator
 // Il2CppName: get_localDuelIntroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_localDuelIntroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_localDuelIntroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_localDuelOutroAnimator
 // Il2CppName: get_localDuelOutroAnimator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_localDuelOutroAnimator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_localDuelOutroAnimator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_resultAvatars
 // Il2CppName: get_resultAvatars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_resultAvatars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_resultAvatars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_badgeTimelines
 // Il2CppName: get_badgeTimelines
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_badgeTimelines)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_resultsMocks
 // Il2CppName: get_resultsMocks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_resultsMocks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_resultsMocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::HandleActivations
 // Il2CppName: HandleActivations
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerTimelineMock::*)(bool)>(&GlobalNamespace::MultiplayerTimelineMock::HandleActivations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "HandleActivations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

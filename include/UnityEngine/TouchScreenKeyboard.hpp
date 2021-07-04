@@ -126,68 +126,173 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Internal_Destroy
 // Il2CppName: Internal_Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::TouchScreenKeyboard::Internal_Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Destroy
 // Il2CppName: Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper
 // Il2CppName: TouchScreenKeyboard_InternalConstructorHelper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "TouchScreenKeyboard_InternalConstructorHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_isSupported
 // Il2CppName: get_isSupported
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::TouchScreenKeyboard::get_isSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_isInPlaceEditingAllowed
 // Il2CppName: get_isInPlaceEditingAllowed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::TouchScreenKeyboard::get_isInPlaceEditingAllowed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_isInPlaceEditingAllowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Open
 // Il2CppName: Open
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool, bool, ::Il2CppString*, int)>(&UnityEngine::TouchScreenKeyboard::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Open
 // Il2CppName: Open
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard* (*)(::Il2CppString*, UnityEngine::TouchScreenKeyboardType, bool, bool, bool)>(&UnityEngine::TouchScreenKeyboard::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TouchScreenKeyboardType>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_text
 // Il2CppName: get_text
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::set_text
 // Il2CppName: set_text
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)(::Il2CppString*)>(&UnityEngine::TouchScreenKeyboard::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::set_hideInput
 // Il2CppName: set_hideInput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::TouchScreenKeyboard::set_hideInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "set_hideInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_active
 // Il2CppName: get_active
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::set_active
 // Il2CppName: set_active
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)(bool)>(&UnityEngine::TouchScreenKeyboard::set_active)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_status
 // Il2CppName: get_status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchScreenKeyboard::Status (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::set_characterLimit
 // Il2CppName: set_characterLimit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)(int)>(&UnityEngine::TouchScreenKeyboard::set_characterLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "set_characterLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_canGetSelection
 // Il2CppName: get_canGetSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_canGetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_canGetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_canSetSelection
 // Il2CppName: get_canSetSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_canSetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_canSetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_selection
 // Il2CppName: get_selection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RangeInt (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::get_selection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "get_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::set_selection
 // Il2CppName: set_selection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)(UnityEngine::RangeInt)>(&UnityEngine::TouchScreenKeyboard::set_selection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "set_selection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RangeInt>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::GetSelection
 // Il2CppName: GetSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&, int&)>(&UnityEngine::TouchScreenKeyboard::GetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "GetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::SetSelection
 // Il2CppName: SetSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&UnityEngine::TouchScreenKeyboard::SetSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "SetSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TouchScreenKeyboard::*)()>(&UnityEngine::TouchScreenKeyboard::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TouchScreenKeyboard*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -145,40 +145,100 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_multipartMessageId
 // Il2CppName: get_multipartMessageId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_multipartMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_multipartMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::set_multipartMessageId
 // Il2CppName: set_multipartMessageId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(uint)>(&MasterServer::BaseMasterServerMultipartMessage::set_multipartMessageId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "set_multipartMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_offset
 // Il2CppName: get_offset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_offset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::set_offset
 // Il2CppName: set_offset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(int)>(&MasterServer::BaseMasterServerMultipartMessage::set_offset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "set_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_length
 // Il2CppName: get_length
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::set_length
 // Il2CppName: set_length
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(int)>(&MasterServer::BaseMasterServerMultipartMessage::set_length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "set_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_totalLength
 // Il2CppName: get_totalLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_totalLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_totalLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::set_totalLength
 // Il2CppName: set_totalLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(int)>(&MasterServer::BaseMasterServerMultipartMessage::set_totalLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "set_totalLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_data
 // Il2CppName: get_data
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseMasterServerMultipartMessage* (MasterServer::BaseMasterServerMultipartMessage::*)(uint, ::Array<uint8_t>*, int, int, int)>(&MasterServer::BaseMasterServerMultipartMessage::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::BaseMasterServerMultipartMessage::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseMasterServerMultipartMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::BaseMasterServerMultipartMessage::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

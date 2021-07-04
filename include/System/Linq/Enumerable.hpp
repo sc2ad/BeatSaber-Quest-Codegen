@@ -808,10 +808,20 @@ DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Range
 // Il2CppName: Range
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::Range)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::RangeIterator
 // Il2CppName: RangeIterator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::RangeIterator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "RangeIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::Repeat
 // Il2CppName: Repeat
 // Cannot write MetadataGetter for generic methods!
@@ -844,19 +854,39 @@ DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Sum
 // Il2CppName: Sum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Sum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Sum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::Sum
 // Il2CppName: Sum
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Min
 // Il2CppName: Min
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Min)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Max)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Max)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 // Cannot write MetadataGetter for generic methods!

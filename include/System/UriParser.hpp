@@ -278,71 +278,181 @@ DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
 // Writing MetadataGetter for method: System::UriParser::get_SchemeName
 // Il2CppName: get_SchemeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)()>(&System::UriParser::get_SchemeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_SchemeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::get_DefaultPort
 // Il2CppName: get_DefaultPort
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::UriParser::*)()>(&System::UriParser::get_DefaultPort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_DefaultPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::OnNewUri
 // Il2CppName: OnNewUri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (System::UriParser::*)()>(&System::UriParser::OnNewUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "OnNewUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InitializeAndValidate
 // Il2CppName: InitializeAndValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriParser::*)(System::Uri*, System::UriFormatException*&)>(&System::UriParser::InitializeAndValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InitializeAndValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::Uri*, System::UriFormatException*&)>(&System::UriParser::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::GetComponents
 // Il2CppName: GetComponents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::GetComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::IsWellFormedOriginalString
 // Il2CppName: IsWellFormedOriginalString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::Uri*)>(&System::UriParser::IsWellFormedOriginalString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "IsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::get_ShouldUseLegacyV2Quirks
 // Il2CppName: get_ShouldUseLegacyV2Quirks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::UriParser::get_ShouldUseLegacyV2Quirks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_ShouldUseLegacyV2Quirks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::UriParser::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::get_Flags
 // Il2CppName: get_Flags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriSyntaxFlags (System::UriParser::*)()>(&System::UriParser::get_Flags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::NotAny
 // Il2CppName: NotAny
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::UriSyntaxFlags)>(&System::UriParser::NotAny)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "NotAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InFact
 // Il2CppName: InFact
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::UriSyntaxFlags)>(&System::UriParser::InFact)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InFact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::IsAllSet
 // Il2CppName: IsAllSet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::UriSyntaxFlags)>(&System::UriParser::IsAllSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "IsAllSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::IsFullMatch
 // Il2CppName: IsFullMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::UriSyntaxFlags, System::UriSyntaxFlags)>(&System::UriParser::IsFullMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "IsFullMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>(), ::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriParser::FindOrFetchAsUnknownV1Syntax
 // Il2CppName: FindOrFetchAsUnknownV1Syntax
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::Il2CppString*)>(&System::UriParser::FindOrFetchAsUnknownV1Syntax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "FindOrFetchAsUnknownV1Syntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::GetSyntax
 // Il2CppName: GetSyntax
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::Il2CppString*)>(&System::UriParser::GetSyntax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "GetSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::get_IsSimple
 // Il2CppName: get_IsSimple
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)()>(&System::UriParser::get_IsSimple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_IsSimple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InternalOnNewUri
 // Il2CppName: InternalOnNewUri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (System::UriParser::*)()>(&System::UriParser::InternalOnNewUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InternalOnNewUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InternalValidate
 // Il2CppName: InternalValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriParser::*)(System::Uri*, System::UriFormatException*&)>(&System::UriParser::InternalValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InternalValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InternalResolve
 // Il2CppName: InternalResolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::Uri*, System::UriFormatException*&)>(&System::UriParser::InternalResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InternalResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormatException*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InternalGetComponents
 // Il2CppName: InternalGetComponents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::InternalGetComponents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InternalGetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>(), ::il2cpp_utils::ExtractIndependentType<System::UriFormat>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriParser::InternalIsWellFormedOriginalString
 // Il2CppName: InternalIsWellFormedOriginalString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriParser::*)(System::Uri*)>(&System::UriParser::InternalIsWellFormedOriginalString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "InternalIsWellFormedOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};

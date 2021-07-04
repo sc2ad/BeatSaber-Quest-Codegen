@@ -84,19 +84,44 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders::$$c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0
 // Il2CppName: <get_ConnectionClose>b__19_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ConnectionClose>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0
 // Il2CppName: <get_ConnectionKeepAlive>b__22_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ConnectionKeepAlive>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0
 // Il2CppName: <get_ExpectContinue>b__29_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ExpectContinue>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0
 // Il2CppName: <get_TransferEncodingChunked>b__71_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingHeaderValue*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

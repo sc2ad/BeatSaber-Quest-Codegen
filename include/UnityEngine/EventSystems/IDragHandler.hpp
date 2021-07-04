@@ -36,4 +36,9 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IDragHandler*, "UnityEngine.EventSystems", "IDragHandler");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IDragHandler::OnDrag
 // Il2CppName: OnDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IDragHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::IDragHandler::OnDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IDragHandler*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};

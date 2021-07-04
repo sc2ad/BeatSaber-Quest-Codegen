@@ -83,13 +83,33 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGene
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Constraints
 // Il2CppName: get_Constraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Attributes
 // Il2CppName: get_Attributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Attributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraints
 // Il2CppName: GetConstraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount
 // Il2CppName: GetConstraintsCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraintsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

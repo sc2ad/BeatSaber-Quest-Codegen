@@ -98,31 +98,76 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreSyncStateManager*, "", "ScoreSyncStateManager");
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_serializablePool
 // Il2CppName: get_serializablePool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_serializablePool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_serializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_deltaSerializablePool
 // Il2CppName: get_deltaSerializablePool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_deltaSerializablePool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_deltaSerializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::Interpolate
 // Il2CppName: Interpolate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreSyncStateManager::*)(int, float, int, float, float)>(&GlobalNamespace::ScoreSyncStateManager::Interpolate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_deltaUpdateFrequency
 // Il2CppName: get_deltaUpdateFrequency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_deltaUpdateFrequency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_deltaUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_fullStateUpdateFrequency
 // Il2CppName: get_fullStateUpdateFrequency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_fullStateUpdateFrequency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_fullStateUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_localBufferSize
 // Il2CppName: get_localBufferSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_localBufferSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_localBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_remoteBufferSize
 // Il2CppName: get_remoteBufferSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_remoteBufferSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_remoteBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_messageType
 // Il2CppName: get_messageType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_messageType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_messageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_deltaMessageType
 // Il2CppName: get_deltaMessageType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (GlobalNamespace::ScoreSyncStateManager::*)()>(&GlobalNamespace::ScoreSyncStateManager::get_deltaMessageType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "get_deltaMessageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

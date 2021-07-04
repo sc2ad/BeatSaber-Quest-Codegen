@@ -138,22 +138,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)()>(&GlobalNamespace::MovementBeatmapEventEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)()>(&GlobalNamespace::MovementBeatmapEventEffect::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::FixedUpdate
 // Il2CppName: FixedUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)()>(&GlobalNamespace::MovementBeatmapEventEffect::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::LateUpdate
 // Il2CppName: LateUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)()>(&GlobalNamespace::MovementBeatmapEventEffect::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::MovementBeatmapEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::SetLocalPositionOffsetsForAllObjects
 // Il2CppName: SetLocalPositionOffsetsForAllObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementBeatmapEventEffect::*)(UnityEngine::Vector3)>(&GlobalNamespace::MovementBeatmapEventEffect::SetLocalPositionOffsetsForAllObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect*), "SetLocalPositionOffsetsForAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

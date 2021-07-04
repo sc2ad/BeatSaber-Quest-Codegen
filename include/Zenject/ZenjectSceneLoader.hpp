@@ -141,64 +141,169 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoa
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::PrepareForLoadScene
 // Il2CppName: PrepareForLoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::PrepareForLoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "PrepareForLoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};

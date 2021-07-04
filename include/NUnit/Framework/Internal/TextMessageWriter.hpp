@@ -163,49 +163,129 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Fr
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine
 // Il2CppName: WriteExpectedLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine
 // Il2CppName: WriteExpectedLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine
 // Il2CppName: WriteExpectedLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteActualLine
 // Il2CppName: WriteActualLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteActualLine
 // Il2CppName: WriteActualLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteCaretLine
 // Il2CppName: WriteCaretLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int)>(&NUnit::Framework::Internal::TextMessageWriter::WriteCaretLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteCaretLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::get_MaxLineLength
 // Il2CppName: get_MaxLineLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::TextMessageWriter::*)()>(&NUnit::Framework::Internal::TextMessageWriter::get_MaxLineLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences
 // Il2CppName: DisplayStringDifferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayStringDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteActualValue
 // Il2CppName: WriteActualValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteValue
 // Il2CppName: WriteValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteCollectionElements
 // Il2CppName: WriteCollectionElements
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(System::Collections::IEnumerable*, int64_t, int)>(&NUnit::Framework::Internal::TextMessageWriter::WriteCollectionElements)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteCollectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::TextMessageWriter::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -56,13 +56,33 @@ namespace ModestTree {
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyName
 // Il2CppName: PrettyName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyNameInternal
 // Il2CppName: PrettyNameInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyNameInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::GetCSharpTypeName
 // Il2CppName: GetCSharpTypeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&ModestTree::TypeStringFormatter::GetCSharpTypeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "GetCSharpTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::TypeStringFormatter::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

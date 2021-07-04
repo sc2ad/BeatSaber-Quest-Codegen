@@ -102,25 +102,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayersModel*, "", "MockPlayersModel");
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_localPlayer
 // Il2CppName: get_localPlayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayer* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_localPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_localPlayer
 // Il2CppName: set_localPlayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockPlayer*)>(&GlobalNamespace::MockPlayersModel::set_localPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_quickplayServer
 // Il2CppName: get_quickplayServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockServer* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_quickplayServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_quickplayServer
 // Il2CppName: set_quickplayServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockServer*)>(&GlobalNamespace::MockPlayersModel::set_quickplayServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_otherPlayers
 // Il2CppName: get_otherPlayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_otherPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_otherPlayers
 // Il2CppName: set_otherPlayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*)>(&GlobalNamespace::MockPlayersModel::set_otherPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_quickplayServers
 // Il2CppName: get_quickplayServers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::MockServer*>* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_quickplayServers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_quickplayServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

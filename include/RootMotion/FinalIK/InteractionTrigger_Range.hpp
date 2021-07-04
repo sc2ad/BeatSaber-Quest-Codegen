@@ -91,7 +91,12 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::IsInRange
 // Il2CppName: IsInRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::Range::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::Range::IsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::Range*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

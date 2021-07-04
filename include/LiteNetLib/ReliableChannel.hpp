@@ -202,10 +202,25 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib",
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::ProcessAck
 // Il2CppName: ProcessAck
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ReliableChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::ReliableChannel::ProcessAck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ReliableChannel*), "ProcessAck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::SendNextPackets
 // Il2CppName: SendNextPackets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ReliableChannel::*)()>(&LiteNetLib::ReliableChannel::SendNextPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ReliableChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::ProcessPacket
 // Il2CppName: ProcessPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::ReliableChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::ReliableChannel::ProcessPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ReliableChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};

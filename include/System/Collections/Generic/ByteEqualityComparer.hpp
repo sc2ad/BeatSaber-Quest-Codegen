@@ -56,22 +56,52 @@ namespace System::Collections::Generic {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer*, "System.Collections.Generic", "ByteEqualityComparer");
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Generic::ByteEqualityComparer::*)(uint8_t, uint8_t)>(&System::Collections::Generic::ByteEqualityComparer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(uint8_t)>(&System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::IndexOf
 // Il2CppName: IndexOf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::LastIndexOf
 // Il2CppName: LastIndexOf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Generic::ByteEqualityComparer::*)(::Il2CppObject*)>(&System::Collections::Generic::ByteEqualityComparer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)()>(&System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::ByteEqualityComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

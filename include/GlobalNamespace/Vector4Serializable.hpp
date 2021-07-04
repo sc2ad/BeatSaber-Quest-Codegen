@@ -132,19 +132,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Vector4Serializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::Vector4Serializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Vector4Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::Vector4Serializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::Vector4Serializable::*)(GlobalNamespace::Vector4Serializable)>(&GlobalNamespace::Vector4Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector4Serializable>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Approximately
 // Il2CppName: Approximately
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::Vector4Serializable::*)(GlobalNamespace::Vector4Serializable)>(&GlobalNamespace::Vector4Serializable::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector4Serializable>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::Vector4Serializable::*)()>(&GlobalNamespace::Vector4Serializable::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Vector4Serializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -155,13 +180,28 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Seriali
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::Vector4Serializable::*)(::Il2CppObject*)>(&GlobalNamespace::Vector4Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::Vector4Serializable::*)()>(&GlobalNamespace::Vector4Serializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::Vector4Serializable::*)()>(&GlobalNamespace::Vector4Serializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector4Serializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::operator+
 // Il2CppName: op_Addition
 // Cannot perform method pointer template specialization from operators!

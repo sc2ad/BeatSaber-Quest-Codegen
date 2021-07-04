@@ -80,16 +80,36 @@ namespace System::Security::Util {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetTopElement
 // Il2CppName: GetTopElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::GetTopElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetTopElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetRequiredSizes
 // Il2CppName: GetRequiredSizes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*, int&)>(&System::Security::Util::Parser::GetRequiredSizes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetRequiredSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::Parser::DetermineFormat
 // Il2CppName: DetermineFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*)>(&System::Security::Util::Parser::DetermineFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "DetermineFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::Parser::ParseContents
 // Il2CppName: ParseContents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::ParseContents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "ParseContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::Parser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

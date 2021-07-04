@@ -57,7 +57,12 @@ namespace UnityEngine::XR {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate
 // Il2CppName: InvokeMeshReadyDelegate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRMeshSubsystem*), "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::XR::MeshGenerationResult>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -66,7 +66,17 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObservable*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObservable::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::get_offsetSyncTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObservable::get_isFailed
 // Il2CppName: get_isFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::get_isFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

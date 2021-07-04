@@ -119,61 +119,161 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_operatingSystemFamily
 // Il2CppName: get_operatingSystemFamily
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::get_operatingSystemFamily)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_operatingSystemFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_deviceType
 // Il2CppName: get_deviceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::get_deviceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_deviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_graphicsDeviceType
 // Il2CppName: get_graphicsDeviceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_graphicsDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_graphicsDeviceVersion
 // Il2CppName: get_graphicsDeviceVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_graphicsDeviceVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_supportsInstancing
 // Il2CppName: get_supportsInstancing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::SystemInfo::get_supportsInstancing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_supportsInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_usesReversedZBuffer
 // Il2CppName: get_usesReversedZBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::SystemInfo::get_usesReversedZBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_usesReversedZBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::IsValidEnumValue
 // Il2CppName: IsValidEnumValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Enum*)>(&UnityEngine::SystemInfo::IsValidEnumValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "IsValidEnumValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Enum*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsRenderTextureFormat
 // Il2CppName: SupportsRenderTextureFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::SupportsRenderTextureFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsRenderTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsTextureFormat
 // Il2CppName: SupportsTextureFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetOperatingSystemFamily
 // Il2CppName: GetOperatingSystemFamily
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::GetOperatingSystemFamily)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetOperatingSystemFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetDeviceType
 // Il2CppName: GetDeviceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::GetDeviceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsDeviceType
 // Il2CppName: GetGraphicsDeviceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsDeviceVersion
 // Il2CppName: GetGraphicsDeviceVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsDeviceVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsInstancing
 // Il2CppName: SupportsInstancing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::SystemInfo::SupportsInstancing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsInstancing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::UsesReversedZBuffer
 // Il2CppName: UsesReversedZBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::SystemInfo::UsesReversedZBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "UsesReversedZBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::HasRenderTextureNative
 // Il2CppName: HasRenderTextureNative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::HasRenderTextureNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "HasRenderTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsTextureFormatNative
 // Il2CppName: SupportsTextureFormatNative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormatNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsTextureFormatNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::IsFormatSupported
 // Il2CppName: IsFormatSupported
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::IsFormatSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "IsFormatSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::FormatUsage>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetCompatibleFormat
 // Il2CppName: GetCompatibleFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::GetCompatibleFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetCompatibleFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::FormatUsage>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsFormat
 // Il2CppName: GetGraphicsFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::Experimental::Rendering::DefaultFormat)>(&UnityEngine::SystemInfo::GetGraphicsFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::DefaultFormat>()});
+  }
+};

@@ -145,22 +145,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::add_playButtonWasPressedEvent
 // Il2CppName: add_playButtonWasPressedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*)>(&GlobalNamespace::DemoMenuLevelPanelView::add_playButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "add_playButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::remove_playButtonWasPressedEvent
 // Il2CppName: remove_playButtonWasPressedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*)>(&GlobalNamespace::DemoMenuLevelPanelView::remove_playButtonWasPressedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "remove_playButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)()>(&GlobalNamespace::DemoMenuLevelPanelView::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)()>(&GlobalNamespace::DemoMenuLevelPanelView::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::DemoMenuLevelPanelView::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::PlayButtonWasPressed
 // Il2CppName: PlayButtonWasPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DemoMenuLevelPanelView::*)()>(&GlobalNamespace::DemoMenuLevelPanelView::PlayButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DemoMenuLevelPanelView*), "PlayButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -114,25 +114,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsModelSO");
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_headTops
 // Il2CppName: get_headTops
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_headTops)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_headTops", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Eyes
 // Il2CppName: get_Eyes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Eyes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Mouths
 // Il2CppName: get_Mouths
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Mouths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Mouths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Glasses
 // Il2CppName: get_Glasses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Glasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Glasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_FacialHair
 // Il2CppName: get_FacialHair
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_FacialHair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_FacialHair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Hands
 // Il2CppName: get_Hands
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Hands)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Hands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Clothes
 // Il2CppName: get_Clothes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Clothes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Clothes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

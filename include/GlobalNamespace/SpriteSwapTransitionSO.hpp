@@ -102,22 +102,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteSwapTransitionSO*, "", "SpriteSwapTransitionSO");
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite
 // Il2CppName: get_normalSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_normalSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite
 // Il2CppName: get_highlightedSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite
 // Il2CppName: get_pressedSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite
 // Il2CppName: get_disabledSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite
 // Il2CppName: get_selectedSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite
 // Il2CppName: get_selectedAndHighlightedSprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_selectedAndHighlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

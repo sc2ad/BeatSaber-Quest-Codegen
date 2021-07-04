@@ -95,22 +95,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_normalState
 // Il2CppName: get_normalState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_normalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_normalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_highlightedState
 // Il2CppName: get_highlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_highlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_highlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_pressedState
 // Il2CppName: get_pressedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_pressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_pressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_disabledState
 // Il2CppName: get_disabledState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_disabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_disabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_selectedState
 // Il2CppName: get_selectedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_selectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_selectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_selectedAndHighlightedState
 // Il2CppName: get_selectedAndHighlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnabledTransitionSO::*)()>(&GlobalNamespace::EnabledTransitionSO::get_selectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnabledTransitionSO*), "get_selectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

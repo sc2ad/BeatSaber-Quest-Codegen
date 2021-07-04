@@ -73,16 +73,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_CancelHandler
 // Il2CppName: get_CancelHandler
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest::CancelHander* (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::get_CancelHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "get_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::set_CancelHandler
 // Il2CppName: set_CancelHandler
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::*)(GlobalNamespace::HMAsyncRequest::CancelHander*)>(&GlobalNamespace::HMAsyncRequest::set_CancelHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "set_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest::CancelHander*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_cancelled
 // Il2CppName: get_cancelled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::get_cancelled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "get_cancelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::Cancel
 // Il2CppName: Cancel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

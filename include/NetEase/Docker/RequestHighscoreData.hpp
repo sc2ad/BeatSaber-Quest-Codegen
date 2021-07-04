@@ -57,10 +57,25 @@ namespace NetEase::Docker {
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");
 // Writing MetadataGetter for method: NetEase::Docker::RequestHighscoreData::get_Track
 // Il2CppName: get_Track
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEase::Docker::RequestHighscoreData::*)()>(&NetEase::Docker::RequestHighscoreData::get_Track)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::RequestHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::RequestHighscoreData::set_Track
 // Il2CppName: set_Track
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::RequestHighscoreData::*)(::Il2CppString*)>(&NetEase::Docker::RequestHighscoreData::set_Track)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::RequestHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::RequestHighscoreData::set_HighscoreType
 // Il2CppName: set_HighscoreType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::RequestHighscoreData::*)(::Il2CppString*)>(&NetEase::Docker::RequestHighscoreData::set_HighscoreType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::RequestHighscoreData), "set_HighscoreType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

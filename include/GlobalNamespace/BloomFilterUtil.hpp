@@ -85,7 +85,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
 // Writing MetadataGetter for method: GlobalNamespace::BloomFilterUtil::MurmurHash2
 // Il2CppName: MurmurHash2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&GlobalNamespace::BloomFilterUtil::MurmurHash2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFilterUtil*), "MurmurHash2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFilterUtil::ToBloomFilter
 // Il2CppName: ToBloomFilter
 // Cannot write MetadataGetter for generic methods!

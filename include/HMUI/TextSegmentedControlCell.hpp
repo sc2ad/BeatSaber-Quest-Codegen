@@ -86,22 +86,52 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_text
 // Il2CppName: set_text
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSegmentedControlCell::*)(::Il2CppString*)>(&HMUI::TextSegmentedControlCell::set_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_text
 // Il2CppName: get_text
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_text)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_fontSize
 // Il2CppName: set_fontSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSegmentedControlCell::*)(float)>(&HMUI::TextSegmentedControlCell::set_fontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_fontSize
 // Il2CppName: get_fontSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_fontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_hideBackgroundImage
 // Il2CppName: set_hideBackgroundImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSegmentedControlCell::*)(bool)>(&HMUI::TextSegmentedControlCell::set_hideBackgroundImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "set_hideBackgroundImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_preferredWidth
 // Il2CppName: get_preferredWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

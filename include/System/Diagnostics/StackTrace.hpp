@@ -160,10 +160,20 @@ DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::init_frames
 // Il2CppName: init_frames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(int, bool)>(&System::Diagnostics::StackTrace::init_frames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "init_frames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::get_trace
 // Il2CppName: get_trace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Diagnostics::StackFrame*>* (*)(System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "get_trace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -174,26 +184,61 @@ DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::get_FrameCount
 // Il2CppName: get_FrameCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::get_FrameCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "get_FrameCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetFrame
 // Il2CppName: GetFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::StackFrame* (System::Diagnostics::StackTrace::*)(int)>(&System::Diagnostics::StackTrace::GetFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetAotId
 // Il2CppName: GetAotId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Diagnostics::StackTrace::GetAotId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetAotId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::AddFrames
 // Il2CppName: AddFrames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*)>(&System::Diagnostics::StackTrace::AddFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "AddFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetFullNameForStackTrace
 // Il2CppName: GetFullNameForStackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*, System::Reflection::MethodBase*)>(&System::Diagnostics::StackTrace::GetFullNameForStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetFullNameForStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)(System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::StackTrace::TraceFormat>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

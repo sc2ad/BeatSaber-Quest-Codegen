@@ -193,32 +193,72 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 // Writing MetadataGetter for method: System::Globalization::CalendarData::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::CalendarData::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::CalendarData::InitializeEraNames
 // Il2CppName: InitializeEraNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::CalendarData::*)(::Il2CppString*, int)>(&System::Globalization::CalendarData::InitializeEraNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "InitializeEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::InitializeAbbreviatedEraNames
 // Il2CppName: InitializeAbbreviatedEraNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::CalendarData::*)(::Il2CppString*, int)>(&System::Globalization::CalendarData::InitializeAbbreviatedEraNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "InitializeAbbreviatedEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::GetCalendarData
 // Il2CppName: GetCalendarData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CalendarData* (*)(int)>(&System::Globalization::CalendarData::GetCalendarData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "GetCalendarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::CalendarIdToCultureName
 // Il2CppName: CalendarIdToCultureName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Globalization::CalendarData::CalendarIdToCultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "CalendarIdToCultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::nativeGetTwoDigitYearMax
 // Il2CppName: nativeGetTwoDigitYearMax
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Globalization::CalendarData::nativeGetTwoDigitYearMax)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "nativeGetTwoDigitYearMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::nativeGetCalendarData
 // Il2CppName: nativeGetCalendarData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::CalendarData*, ::Il2CppString*, int)>(&System::Globalization::CalendarData::nativeGetCalendarData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "nativeGetCalendarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CalendarData*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::fill_calendar_data
 // Il2CppName: fill_calendar_data
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::CalendarData::*)(::Il2CppString*, int)>(&System::Globalization::CalendarData::fill_calendar_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "fill_calendar_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CalendarData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

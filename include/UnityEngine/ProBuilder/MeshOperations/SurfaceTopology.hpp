@@ -98,34 +98,89 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ToTriangles
 // Il2CppName: ToTriangles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ToTriangles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "ToTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::BreakFaceIntoTris
 // Il2CppName: BreakFaceIntoTris
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::FaceRebuildData*>* (*)(UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::BreakFaceIntoTris)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "BreakFaceIntoTris", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder
 // Il2CppName: GetWindingOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WindingOrder (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "GetWindingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder
 // Il2CppName: GetWindingOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WindingOrder (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "GetWindingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder
 // Il2CppName: GetWindingOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WindingOrder (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "GetWindingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::FlipEdge
 // Il2CppName: FlipEdge
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::FlipEdge)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "FlipEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformNormals
 // Il2CppName: ConformNormals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformNormals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "ConformNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingFlags
 // Il2CppName: GetWindingFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::WingedEdge*, bool, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, bool>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "GetWindingFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformOppositeNormal
 // Il2CppName: ConformOppositeNormal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformOppositeNormal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "ConformOppositeNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetCommonEdgeInWindingOrder
 // Il2CppName: GetCommonEdgeInWindingOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetCommonEdgeInWindingOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "GetCommonEdgeInWindingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::MatchNormal
 // Il2CppName: MatchNormal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::MatchNormal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*), "MatchNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};

@@ -77,20 +77,45 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::get_sceneNames
 // Il2CppName: get_sceneNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::GameScenesManager::ScenesStackData::*)()>(&GlobalNamespace::GameScenesManager::ScenesStackData::get_sceneNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::ScenesStackData*), "get_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::set_sceneNames
 // Il2CppName: set_sceneNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::ScenesStackData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GlobalNamespace::GameScenesManager::ScenesStackData::set_sceneNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::ScenesStackData*), "set_sceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::get_container
 // Il2CppName: get_container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GlobalNamespace::GameScenesManager::ScenesStackData::*)()>(&GlobalNamespace::GameScenesManager::ScenesStackData::get_container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::ScenesStackData*), "get_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::set_container
 // Il2CppName: set_container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GlobalNamespace::GameScenesManager::ScenesStackData::set_container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::ScenesStackData*), "set_container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::SetDiContainer
 // Il2CppName: SetDiContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::ScenesStackData::*)(Zenject::DiContainer*)>(&GlobalNamespace::GameScenesManager::ScenesStackData::SetDiContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager::ScenesStackData*), "SetDiContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

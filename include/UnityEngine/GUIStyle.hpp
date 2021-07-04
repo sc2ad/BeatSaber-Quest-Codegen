@@ -399,243 +399,633 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_rawName
 // Il2CppName: get_rawName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_rawName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_rawName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_rawName
 // Il2CppName: set_rawName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::Il2CppString*)>(&UnityEngine::GUIStyle::set_rawName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_rawName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_font
 // Il2CppName: get_font
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_font)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_imagePosition
 // Il2CppName: get_imagePosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ImagePosition (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_imagePosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_imagePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_wordWrap
 // Il2CppName: get_wordWrap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_wordWrap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_wordWrap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_wordWrap
 // Il2CppName: set_wordWrap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(bool)>(&UnityEngine::GUIStyle::set_wordWrap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_wordWrap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_contentOffset
 // Il2CppName: get_contentOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_contentOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_contentOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_contentOffset
 // Il2CppName: set_contentOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Vector2)>(&UnityEngine::GUIStyle::set_contentOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_contentOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_fixedWidth
 // Il2CppName: get_fixedWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_fixedWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_fixedWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_fixedHeight
 // Il2CppName: get_fixedHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_fixedHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_fixedHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_stretchWidth
 // Il2CppName: get_stretchWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_stretchWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_stretchWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_stretchWidth
 // Il2CppName: set_stretchWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(bool)>(&UnityEngine::GUIStyle::set_stretchWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_stretchWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_stretchHeight
 // Il2CppName: get_stretchHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_stretchHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_stretchHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_stretchHeight
 // Il2CppName: set_stretchHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(bool)>(&UnityEngine::GUIStyle::set_stretchHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_stretchHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_fontSize
 // Il2CppName: set_fontSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(int)>(&UnityEngine::GUIStyle::set_fontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_richText
 // Il2CppName: set_richText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(bool)>(&UnityEngine::GUIStyle::set_richText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_richText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_Internal_clipOffset
 // Il2CppName: set_Internal_clipOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Vector2)>(&UnityEngine::GUIStyle::set_Internal_clipOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_Internal_clipOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Create
 // Il2CppName: Internal_Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUIStyle::Internal_Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Copy
 // Il2CppName: Internal_Copy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::GUIStyle*, UnityEngine::GUIStyle*)>(&UnityEngine::GUIStyle::Internal_Copy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Destroy
 // Il2CppName: Internal_Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::GUIStyle::Internal_Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::GetStyleStatePtr
 // Il2CppName: GetStyleStatePtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::GUIStyle::*)(int)>(&UnityEngine::GUIStyle::GetStyleStatePtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "GetStyleStatePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::GetRectOffsetPtr
 // Il2CppName: GetRectOffsetPtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::GUIStyle::*)(int)>(&UnityEngine::GUIStyle::GetRectOffsetPtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "GetRectOffsetPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetLineHeight
 // Il2CppName: Internal_GetLineHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr)>(&UnityEngine::GUIStyle::Internal_GetLineHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetLineHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Draw
 // Il2CppName: Internal_Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, bool, bool, bool, bool)>(&UnityEngine::GUIStyle::Internal_Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Draw2
 // Il2CppName: Internal_Draw2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, bool)>(&UnityEngine::GUIStyle::Internal_Draw2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Draw2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_DrawCursor
 // Il2CppName: Internal_DrawCursor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, UnityEngine::Color)>(&UnityEngine::GUIStyle::Internal_DrawCursor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_DrawCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_DrawWithTextSelection
 // Il2CppName: Internal_DrawWithTextSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, bool, bool, bool, bool, bool, int, int, UnityEngine::Color, UnityEngine::Color)>(&UnityEngine::GUIStyle::Internal_DrawWithTextSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_DrawWithTextSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetCursorPixelPosition
 // Il2CppName: Internal_GetCursorPixelPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int)>(&UnityEngine::GUIStyle::Internal_GetCursorPixelPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetCursorPixelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetCursorStringIndex
 // Il2CppName: Internal_GetCursorStringIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::Vector2)>(&UnityEngine::GUIStyle::Internal_GetCursorStringIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetCursorStringIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetSelectedRenderedText
 // Il2CppName: Internal_GetSelectedRenderedText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetSelectedRenderedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcSize
 // Il2CppName: Internal_CalcSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*)>(&UnityEngine::GUIStyle::Internal_CalcSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints
 // Il2CppName: Internal_CalcSizeWithConstraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, UnityEngine::Vector2)>(&UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcSizeWithConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcHeight
 // Il2CppName: Internal_CalcHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, float)>(&UnityEngine::GUIStyle::Internal_CalcHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcMinMaxWidth
 // Il2CppName: Internal_CalcMinMaxWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*)>(&UnityEngine::GUIStyle::Internal_CalcMinMaxWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcMinMaxWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::SetMouseTooltip
 // Il2CppName: SetMouseTooltip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Rect)>(&UnityEngine::GUIStyle::SetMouseTooltip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "SetMouseTooltip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetCursorFlashOffset
 // Il2CppName: Internal_GetCursorFlashOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&UnityEngine::GUIStyle::Internal_GetCursorFlashOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetCursorFlashOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::SetDefaultFont
 // Il2CppName: SetDefaultFont
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::GUIStyle::SetDefaultFont)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "SetDefaultFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_name
 // Il2CppName: get_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_name
 // Il2CppName: set_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::Il2CppString*)>(&UnityEngine::GUIStyle::set_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_normal
 // Il2CppName: get_normal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyleState* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_normal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_margin
 // Il2CppName: get_margin
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_margin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_margin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_padding
 // Il2CppName: get_padding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_lineHeight
 // Il2CppName: get_lineHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_lineHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_lineHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, bool, bool, bool, bool)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, bool, bool, bool, bool)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, bool)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, bool, bool)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Draw
 // Il2CppName: Draw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, bool, bool, bool, bool)>(&UnityEngine::GUIStyle::Draw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Draw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::DrawCursor
 // Il2CppName: DrawCursor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::DrawCursor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "DrawCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::DrawWithTextSelection
 // Il2CppName: DrawWithTextSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, bool, bool, int, int, bool, UnityEngine::Color)>(&UnityEngine::GUIStyle::DrawWithTextSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "DrawWithTextSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::DrawWithTextSelection
 // Il2CppName: DrawWithTextSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int, int, bool)>(&UnityEngine::GUIStyle::DrawWithTextSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "DrawWithTextSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::DrawWithTextSelection
 // Il2CppName: DrawWithTextSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int, int)>(&UnityEngine::GUIStyle::DrawWithTextSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "DrawWithTextSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_none
 // Il2CppName: get_none
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&UnityEngine::GUIStyle::get_none)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_none", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::GetCursorPixelPosition
 // Il2CppName: GetCursorPixelPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int)>(&UnityEngine::GUIStyle::GetCursorPixelPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "GetCursorPixelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::GetCursorStringIndex
 // Il2CppName: GetCursorStringIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::Vector2)>(&UnityEngine::GUIStyle::GetCursorStringIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "GetCursorStringIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::CalcSize
 // Il2CppName: CalcSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*)>(&UnityEngine::GUIStyle::CalcSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "CalcSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::CalcSizeWithConstraints
 // Il2CppName: CalcSizeWithConstraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, UnityEngine::Vector2)>(&UnityEngine::GUIStyle::CalcSizeWithConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "CalcSizeWithConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::CalcHeight
 // Il2CppName: CalcHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, float)>(&UnityEngine::GUIStyle::CalcHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_isHeightDependantOnWidth
 // Il2CppName: get_isHeightDependantOnWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_isHeightDependantOnWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_isHeightDependantOnWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::CalcMinMaxWidth
 // Il2CppName: CalcMinMaxWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, float&, float&)>(&UnityEngine::GUIStyle::CalcMinMaxWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "CalcMinMaxWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIStyle::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_contentOffset_Injected
 // Il2CppName: get_contentOffset_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::get_contentOffset_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_contentOffset_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_contentOffset_Injected
 // Il2CppName: set_contentOffset_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::set_contentOffset_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_contentOffset_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_Internal_clipOffset_Injected
 // Il2CppName: set_Internal_clipOffset_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::set_Internal_clipOffset_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_Internal_clipOffset_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Draw_Injected
 // Il2CppName: Internal_Draw_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, bool, bool, bool, bool)>(&UnityEngine::GUIStyle::Internal_Draw_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Draw_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_Draw2_Injected
 // Il2CppName: Internal_Draw2_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, int, bool)>(&UnityEngine::GUIStyle::Internal_Draw2_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_Draw2_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_DrawCursor_Injected
 // Il2CppName: Internal_DrawCursor_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, int, UnityEngine::Color&)>(&UnityEngine::GUIStyle::Internal_DrawCursor_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_DrawCursor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_DrawWithTextSelection_Injected
 // Il2CppName: Internal_DrawWithTextSelection_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, bool, bool, bool, bool, bool, int, int, UnityEngine::Color&, UnityEngine::Color&)>(&UnityEngine::GUIStyle::Internal_DrawWithTextSelection_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_DrawWithTextSelection_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetCursorPixelPosition_Injected
 // Il2CppName: Internal_GetCursorPixelPosition_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, int, UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::Internal_GetCursorPixelPosition_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetCursorPixelPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetCursorStringIndex_Injected
 // Il2CppName: Internal_GetCursorStringIndex_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::Internal_GetCursorStringIndex_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetCursorStringIndex_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetSelectedRenderedText_Injected
 // Il2CppName: Internal_GetSelectedRenderedText_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)(UnityEngine::Rect&, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_GetSelectedRenderedText_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcSize_Injected
 // Il2CppName: Internal_CalcSize_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::Internal_CalcSize_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected
 // Il2CppName: Internal_CalcSizeWithConstraints_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, UnityEngine::Vector2&, UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcSizeWithConstraints_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected
 // Il2CppName: Internal_CalcMinMaxWidth_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(UnityEngine::GUIContent*, UnityEngine::Vector2&)>(&UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Internal_CalcMinMaxWidth_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::SetMouseTooltip_Injected
 // Il2CppName: SetMouseTooltip_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Rect&)>(&UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "SetMouseTooltip_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

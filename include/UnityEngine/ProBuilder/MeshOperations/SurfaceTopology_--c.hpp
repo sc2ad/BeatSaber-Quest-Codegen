@@ -76,13 +76,28 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology/<>c");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::$ToTriangles$b__0_0
 // Il2CppName: <ToTriangles>b__0_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::$ToTriangles$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*), "<ToTriangles>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::$GetWindingOrder$b__3_0
 // Il2CppName: <GetWindingOrder>b__3_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::*)(UnityEngine::ProBuilder::Vertex*)>(&UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::$GetWindingOrder$b__3_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*), "<GetWindingOrder>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Vertex*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

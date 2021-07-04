@@ -69,17 +69,37 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaPublicKeyParameters");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Validate
 // Il2CppName: Validate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Crypto::Parameters::DsaParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Validate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::*)(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::*)(::Il2CppObject*)>(&Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

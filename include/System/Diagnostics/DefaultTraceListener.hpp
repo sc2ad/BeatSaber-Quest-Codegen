@@ -103,44 +103,109 @@ namespace System::Diagnostics {
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Diagnostics::DefaultTraceListener::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::GetPrefix
 // Il2CppName: GetPrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::GetPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "GetPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::get_LogFileName
 // Il2CppName: get_LogFileName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "get_LogFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString
 // Il2CppName: WriteWindowsDebugString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteWindowsDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteDebugString
 // Il2CppName: WriteDebugString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteMonoTrace
 // Il2CppName: WriteMonoTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteMonoTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WritePrefix
 // Il2CppName: WritePrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::WritePrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WritePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteImpl
 // Il2CppName: WriteImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLogFile
 // Il2CppName: WriteLogFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

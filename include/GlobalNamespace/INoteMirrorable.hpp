@@ -49,13 +49,33 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_transform
 // Il2CppName: get_transform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteTransform
 // Il2CppName: get_noteTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteData
 // Il2CppName: get_noteData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteDidStartDissolvingEvent
 // Il2CppName: get_noteDidStartDissolvingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteDidStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

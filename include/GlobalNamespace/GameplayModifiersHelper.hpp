@@ -36,7 +36,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersHelper*, "", "GameplayModifiersHelper");
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersHelper::ToDTO
 // Il2CppName: ToDTO
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* (*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersHelper::ToDTO)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersHelper*), "ToDTO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersHelper::FromDTO
 // Il2CppName: FromDTO
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)>(&GlobalNamespace::GameplayModifiersHelper::FromDTO)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersHelper*), "FromDTO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*>()});
+  }
+};

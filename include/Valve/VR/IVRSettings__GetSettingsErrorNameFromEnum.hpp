@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(Valve::VR::EVRSettingsError)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(Valve::VR::EVRSettingsError, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

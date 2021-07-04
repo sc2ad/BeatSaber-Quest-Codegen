@@ -100,28 +100,68 @@ namespace System::Reflection {
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetRuntimeAssembly
 // Il2CppName: GetRuntimeAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::GetRuntimeAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "GetRuntimeAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_Assembly
 // Il2CppName: get_Assembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_Assembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_ScopeName
 // Il2CppName: get_ScopeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ScopeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_ScopeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_ModuleVersionId
 // Il2CppName: get_ModuleVersionId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ModuleVersionId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_ModuleVersionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::IsResource
 // Il2CppName: IsResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::IsResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "IsResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::IsDefined
 // Il2CppName: IsDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::MonoModule::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Reflection::MonoModule::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::MonoModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

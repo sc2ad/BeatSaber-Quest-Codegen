@@ -156,55 +156,145 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SyncSortedList*, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::get_SyncRoot
 // Il2CppName: get_SyncRoot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::get_SyncRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::get_Item
 // Il2CppName: get_Item
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::set_Item
 // Il2CppName: set_Item
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::set_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::get_Capacity
 // Il2CppName: get_Capacity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::get_Capacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "get_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::ContainsValue
 // Il2CppName: ContainsValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::ContainsValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "ContainsValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::CopyTo
 // Il2CppName: CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::SyncSortedList::*)(System::Array*, int)>(&System::Collections::SortedList::SyncSortedList::CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::GetByIndex
 // Il2CppName: GetByIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::SyncSortedList::*)(int)>(&System::Collections::SortedList::SyncSortedList::GetByIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "GetByIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::GetKey
 // Il2CppName: GetKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::SyncSortedList::*)(int)>(&System::Collections::SortedList::SyncSortedList::GetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::GetKeyList
 // Il2CppName: GetKeyList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::GetKeyList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "GetKeyList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::GetValueList
 // Il2CppName: GetValueList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Collections::SortedList::SyncSortedList::*)()>(&System::Collections::SortedList::SyncSortedList::GetValueList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "GetValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::IndexOfKey
 // Il2CppName: IndexOfKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::IndexOfKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "IndexOfKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::IndexOfValue
 // Il2CppName: IndexOfValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::SyncSortedList::*)(::Il2CppObject*)>(&System::Collections::SortedList::SyncSortedList::IndexOfValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "IndexOfValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::RemoveAt
 // Il2CppName: RemoveAt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::SyncSortedList::*)(int)>(&System::Collections::SortedList::SyncSortedList::RemoveAt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::SyncSortedList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

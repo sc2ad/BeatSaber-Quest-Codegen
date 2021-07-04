@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySection*, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySection::get_Properties
 // Il2CppName: get_Properties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Net::Configuration::DefaultProxySection::*)()>(&System::Net::Configuration::DefaultProxySection::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySection::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Configuration::DefaultProxySection::*)(System::Configuration::ConfigurationElement*)>(&System::Net::Configuration::DefaultProxySection::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySection*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
+  }
+};

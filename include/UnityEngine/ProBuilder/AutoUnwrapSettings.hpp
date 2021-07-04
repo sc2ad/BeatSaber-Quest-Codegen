@@ -319,77 +319,197 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor, "Uni
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Fill");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_defaultAutoUnwrapSettings
 // Il2CppName: get_defaultAutoUnwrapSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_defaultAutoUnwrapSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_defaultAutoUnwrapSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_useWorldSpace
 // Il2CppName: get_useWorldSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_useWorldSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_useWorldSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_useWorldSpace
 // Il2CppName: set_useWorldSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(bool)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_useWorldSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_useWorldSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_flipU
 // Il2CppName: get_flipU
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_flipU)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_flipU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_flipU
 // Il2CppName: set_flipU
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(bool)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_flipU)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_flipU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_flipV
 // Il2CppName: get_flipV
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_flipV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_flipV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_flipV
 // Il2CppName: set_flipV
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(bool)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_flipV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_flipV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_swapUV
 // Il2CppName: get_swapUV
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_swapUV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_swapUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_swapUV
 // Il2CppName: set_swapUV
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(bool)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_swapUV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_swapUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_fill
 // Il2CppName: get_fill
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings::Fill (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_fill)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_fill
 // Il2CppName: set_fill
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_fill)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings::Fill>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_scale
 // Il2CppName: get_scale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_scale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_scale
 // Il2CppName: set_scale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_scale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_offset
 // Il2CppName: get_offset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_offset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_offset
 // Il2CppName: set_offset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_offset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_rotation
 // Il2CppName: get_rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_rotation
 // Il2CppName: set_rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(float)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_anchor
 // Il2CppName: get_anchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_anchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_anchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::set_anchor
 // Il2CppName: set_anchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)>(&UnityEngine::ProBuilder::AutoUnwrapSettings::set_anchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "set_anchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::AutoUnwrapSettings
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_tile
 // Il2CppName: get_tile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_tile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_tile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_fit
 // Il2CppName: get_fit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_fit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_fit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_stretch
 // Il2CppName: get_stretch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::get_stretch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "get_stretch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

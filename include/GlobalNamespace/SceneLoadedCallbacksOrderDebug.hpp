@@ -63,19 +63,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug*, "", "SceneLoadedCallbacksOrderDebug");
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnSceneLoaded
 // Il2CppName: OnSceneLoaded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnSceneLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

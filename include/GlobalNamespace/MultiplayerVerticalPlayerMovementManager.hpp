@@ -162,16 +162,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*, "", "MultiplayerVerticalPlayerMovementManager");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&GlobalNamespace::MultiplayerVerticalPlayerMovementManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged
 // Il2CppName: HandleStateChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)(GlobalNamespace::MultiplayerController::State)>(&GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

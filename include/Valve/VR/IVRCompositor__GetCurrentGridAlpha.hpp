@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetCurrentGridAlpha*, "Valve.V
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentGridAlpha::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::IVRCompositor::_GetCurrentGridAlpha::*)()>(&Valve::VR::IVRCompositor::_GetCurrentGridAlpha::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentGridAlpha*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentGridAlpha::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_GetCurrentGridAlpha::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_GetCurrentGridAlpha::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentGridAlpha*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentGridAlpha::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::IVRCompositor::_GetCurrentGridAlpha::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_GetCurrentGridAlpha::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentGridAlpha*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

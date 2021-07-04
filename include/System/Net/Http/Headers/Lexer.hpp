@@ -138,61 +138,161 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Lexer*, "System.Net.Http.Head
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::get_Position
 // Il2CppName: get_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::set_Position
 // Il2CppName: set_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetQuotedStringValue
 // Il2CppName: GetQuotedStringValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetRemainingStringValue
 // Il2CppName: GetRemainingStringValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetRemainingStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsStarStringValue
 // Il2CppName: IsStarStringValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::IsStarStringValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsStarStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetNumericValue
 // Il2CppName: TryGetNumericValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, int&)>(&System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetNumericValue
 // Il2CppName: TryGetNumericValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, int64_t&)>(&System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetTimeSpanValue
 // Il2CppName: TryGetTimeSpanValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::TryGetTimeSpanValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetTimeSpanValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDateValue
 // Il2CppName: TryGetDateValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::DateTimeOffset&)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDateValue
 // Il2CppName: TryGetDateValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::DateTimeOffset&)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDoubleValue
 // Il2CppName: TryGetDoubleValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, double&)>(&System::Net::Http::Headers::Lexer::TryGetDoubleValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDoubleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsValidToken
 // Il2CppName: IsValidToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::Http::Headers::Lexer::IsValidToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsValidToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsValidCharacter
 // Il2CppName: IsValidCharacter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Net::Http::Headers::Lexer::IsValidCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsValidCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::EatChar
 // Il2CppName: EatChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::EatChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "EatChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::PeekChar
 // Il2CppName: PeekChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::PeekChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "PeekChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::ScanCommentOptional
 // Il2CppName: ScanCommentOptional
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(::Il2CppString*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "ScanCommentOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::Scan
 // Il2CppName: Scan
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token (System::Net::Http::Headers::Lexer::*)(bool)>(&System::Net::Http::Headers::Lexer::Scan)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::Lexer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

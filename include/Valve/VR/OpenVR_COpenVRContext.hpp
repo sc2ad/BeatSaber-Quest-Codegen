@@ -169,43 +169,108 @@ namespace Valve::VR {
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::CheckClear
 // Il2CppName: CheckClear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::CheckClear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "CheckClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRSystem
 // Il2CppName: VRSystem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSystem* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRSystem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRChaperone
 // Il2CppName: VRChaperone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRChaperone* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRChaperone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRChaperone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRChaperoneSetup
 // Il2CppName: VRChaperoneSetup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRChaperoneSetup* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRChaperoneSetup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRChaperoneSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRCompositor
 // Il2CppName: VRCompositor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRCompositor* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRCompositor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRCompositor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VROverlay
 // Il2CppName: VROverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVROverlay* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VROverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VROverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRRenderModels
 // Il2CppName: VRRenderModels
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRRenderModels* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRRenderModels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRRenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRExtendedDisplay
 // Il2CppName: VRExtendedDisplay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRExtendedDisplay* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRExtendedDisplay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRExtendedDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRSettings
 // Il2CppName: VRSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSettings* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRApplications
 // Il2CppName: VRApplications
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRApplications* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRApplications)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRScreenshots
 // Il2CppName: VRScreenshots
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRScreenshots* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRScreenshots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRScreenshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::VRTrackedCamera
 // Il2CppName: VRTrackedCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRTrackedCamera* (Valve::VR::OpenVR::COpenVRContext::*)()>(&Valve::VR::OpenVR::COpenVRContext::VRTrackedCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR::COpenVRContext*), "VRTrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

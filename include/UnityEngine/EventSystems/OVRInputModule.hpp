@@ -392,125 +392,325 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_inputMode
 // Il2CppName: get_inputMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::OVRInputModule::InputMode (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_inputMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_inputMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_allowActivationOnMobileDevice
 // Il2CppName: get_allowActivationOnMobileDevice
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_allowActivationOnMobileDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_allowActivationOnMobileDevice
 // Il2CppName: set_allowActivationOnMobileDevice
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(bool)>(&UnityEngine::EventSystems::OVRInputModule::set_allowActivationOnMobileDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_inputActionsPerSecond
 // Il2CppName: get_inputActionsPerSecond
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_inputActionsPerSecond)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_inputActionsPerSecond
 // Il2CppName: set_inputActionsPerSecond
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(float)>(&UnityEngine::EventSystems::OVRInputModule::set_inputActionsPerSecond)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis
 // Il2CppName: get_horizontalAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis
 // Il2CppName: set_horizontalAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_verticalAxis
 // Il2CppName: get_verticalAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_verticalAxis
 // Il2CppName: set_verticalAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_submitButton
 // Il2CppName: get_submitButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_submitButton
 // Il2CppName: set_submitButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_cancelButton
 // Il2CppName: get_cancelButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_cancelButton
 // Il2CppName: set_cancelButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject
 // Il2CppName: SendSubmitEventToSelectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendSubmitEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::AllowMoveEventProcessing
 // Il2CppName: AllowMoveEventProcessing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(float)>(&UnityEngine::EventSystems::OVRInputModule::AllowMoveEventProcessing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "AllowMoveEventProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetRawMoveVector
 // Il2CppName: GetRawMoveVector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetRawMoveVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetRawMoveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::SendMoveEventToSelectedObject
 // Il2CppName: SendMoveEventToSelectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendMoveEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendMoveEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::SendUpdateEventToSelectedObject
 // Il2CppName: SendUpdateEventToSelectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendUpdateEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ProcessMousePress
 // Il2CppName: ProcessMousePress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessMousePress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ProcessMouseEvent
 // Il2CppName: ProcessMouseEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseState*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessMouseEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessMouseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseState*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::UseMouse
 // Il2CppName: UseMouse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::UseMouse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "UseMouse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::CopyFromTo
 // Il2CppName: CopyFromTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::OVRPointerEventData*, UnityEngine::EventSystems::OVRPointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetPointerData
 // Il2CppName: GetPointerData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(int, UnityEngine::EventSystems::OVRPointerEventData*&, bool)>(&UnityEngine::EventSystems::OVRInputModule::GetPointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::OVRPointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal
 // Il2CppName: GetRectTransformNormal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*)>(&UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetRectTransformNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetGazePointerData
 // Il2CppName: GetGazePointerData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetGazePointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetGazePointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData
 // Il2CppName: GetCanvasPointerData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetCanvasPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ShouldStartDrag
 // Il2CppName: ShouldStartDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ShouldStartDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::IsPointerMoving
 // Il2CppName: IsPointerMoving
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::IsPointerMoving)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::SwipeAdjustedPosition
 // Il2CppName: SwipeAdjustedPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::Vector2, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::SwipeAdjustedPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SwipeAdjustedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState
 // Il2CppName: GetGazeButtonState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::FramePressState (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetGazeButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta
 // Il2CppName: GetExtraScrollDelta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetExtraScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::UpdateModule
 // Il2CppName: UpdateModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::UpdateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "UpdateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::IsModuleSupported
 // Il2CppName: IsModuleSupported
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::IsModuleSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "IsModuleSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ShouldActivateModule
 // Il2CppName: ShouldActivateModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ShouldActivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ShouldActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ActivateModule
 // Il2CppName: ActivateModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ActivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::DeactivateModule
 // Il2CppName: DeactivateModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::DeactivateModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "DeactivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::Process
 // Il2CppName: Process
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::Process)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::CopyFromTo
 // Il2CppName: CopyFromTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ClearSelection
 // Il2CppName: ClearSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::ProcessDrag
 // Il2CppName: ProcessDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};

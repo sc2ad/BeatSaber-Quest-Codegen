@@ -125,19 +125,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::get_pool
 // Il2CppName: get_pool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* (*)()>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* (GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Release
 // Il2CppName: Release
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::*)()>(&GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

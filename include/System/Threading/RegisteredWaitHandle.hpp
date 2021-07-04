@@ -118,10 +118,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threadi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::RegisteredWaitHandle::Wait
 // Il2CppName: Wait
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::RegisteredWaitHandle::*)(::Il2CppObject*)>(&System::Threading::RegisteredWaitHandle::Wait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::RegisteredWaitHandle::DoCallBack
 // Il2CppName: DoCallBack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::RegisteredWaitHandle::*)(::Il2CppObject*)>(&System::Threading::RegisteredWaitHandle::DoCallBack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::RegisteredWaitHandle::Unregister
 // Il2CppName: Unregister
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::RegisteredWaitHandle::*)(System::Threading::WaitHandle*)>(&System::Threading::RegisteredWaitHandle::Unregister)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>()});
+  }
+};

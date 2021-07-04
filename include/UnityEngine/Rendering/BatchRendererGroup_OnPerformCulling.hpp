@@ -67,10 +67,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCull
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(System::IAsyncResult*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

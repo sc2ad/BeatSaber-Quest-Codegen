@@ -87,28 +87,68 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_AppID
 // Il2CppName: get_AppID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::PlatformSettings::get_AppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_AppID
 // Il2CppName: set_AppID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::PlatformSettings::set_AppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_MobileAppID
 // Il2CppName: get_MobileAppID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::PlatformSettings::get_MobileAppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_MobileAppID
 // Il2CppName: set_MobileAppID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::PlatformSettings::set_MobileAppID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_UseStandalonePlatform
 // Il2CppName: get_UseStandalonePlatform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Oculus::Platform::PlatformSettings::get_UseStandalonePlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_UseStandalonePlatform
 // Il2CppName: set_UseStandalonePlatform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Oculus::Platform::PlatformSettings::set_UseStandalonePlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_UseStandalonePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_Instance
 // Il2CppName: get_Instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PlatformSettings* (*)()>(&Oculus::Platform::PlatformSettings::get_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_Instance
 // Il2CppName: set_Instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::PlatformSettings*)>(&Oculus::Platform::PlatformSettings::set_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PlatformSettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -69,4 +69,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationEventArg
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::SafeSerializationEventArgs::get_SerializedStates
 // Il2CppName: get_SerializedStates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<::Il2CppObject*>* (System::Runtime::Serialization::SafeSerializationEventArgs::*)()>(&System::Runtime::Serialization::SafeSerializationEventArgs::get_SerializedStates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SafeSerializationEventArgs*), "get_SerializedStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

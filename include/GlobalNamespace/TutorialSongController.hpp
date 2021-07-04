@@ -306,49 +306,124 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::StartSong
 // Il2CppName: StartSong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(float)>(&GlobalNamespace::TutorialSongController::StartSong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::TutorialSongController::HandleNoteWasCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleNoteWasMissed
 // Il2CppName: HandleNoteWasMissed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::TutorialSongController::HandleNoteWasMissed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2
 // Il2CppName: HandleObstacleDidPassThreeQuartersOfMove2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleObstacleDidPassThreeQuartersOfMove2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::UpdateBeatmapData
 // Il2CppName: UpdateBeatmapData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(float)>(&GlobalNamespace::TutorialSongController::UpdateBeatmapData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "UpdateBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::GetNextBeatmapObjectTime
 // Il2CppName: GetNextBeatmapObjectTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TutorialSongController::*)(int)>(&GlobalNamespace::TutorialSongController::GetNextBeatmapObjectTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "GetNextBeatmapObjectTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateObstacleData
 // Il2CppName: CreateObstacleData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateObstacleData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateBasicNoteData
 // Il2CppName: CreateBasicNoteData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateBasicNoteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateBasicNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateBombNoteData
 // Il2CppName: CreateBombNoteData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateBombNoteData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateBombNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::StopSong
 // Il2CppName: StopSong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::StopSong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::PauseSong
 // Il2CppName: PauseSong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::PauseSong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::ResumeSong
 // Il2CppName: ResumeSong
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::ResumeSong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -209,19 +209,44 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::LateUpdate
 // Il2CppName: LateUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::get_pivot
 // Il2CppName: get_pivot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::get_pivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::ApplyMinDistance
 // Il2CppName: ApplyMinDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::ApplyMinDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::RootRotation
 // Il2CppName: RootRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::RootRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

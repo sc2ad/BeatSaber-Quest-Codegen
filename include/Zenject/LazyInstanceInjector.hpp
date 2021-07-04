@@ -81,16 +81,41 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceI
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::get_Instances
 // Il2CppName: get_Instances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::get_Instances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "get_Instances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::AddInstance
 // Il2CppName: AddInstance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(::Il2CppObject*)>(&Zenject::LazyInstanceInjector::AddInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "AddInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::AddInstances
 // Il2CppName: AddInstances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::LazyInstanceInjector::AddInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "AddInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::LazyInject
 // Il2CppName: LazyInject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(::Il2CppObject*)>(&Zenject::LazyInstanceInjector::LazyInject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "LazyInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::LazyInjectAll
 // Il2CppName: LazyInjectAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::LazyInjectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "LazyInjectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -175,16 +175,36 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid*, "", "SampleMaterial
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid::MaterialSetting, "", "SampleMaterialGrid/MaterialSetting");
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::get_floatPropertyIds
 // Il2CppName: get_floatPropertyIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (GlobalNamespace::SampleMaterialGrid::*)()>(&GlobalNamespace::SampleMaterialGrid::get_floatPropertyIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SampleMaterialGrid*), "get_floatPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SampleMaterialGrid::*)()>(&GlobalNamespace::SampleMaterialGrid::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SampleMaterialGrid*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::OnValidate
 // Il2CppName: OnValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SampleMaterialGrid::*)()>(&GlobalNamespace::SampleMaterialGrid::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SampleMaterialGrid*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::CreateGrid
 // Il2CppName: CreateGrid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SampleMaterialGrid::*)()>(&GlobalNamespace::SampleMaterialGrid::CreateGrid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SampleMaterialGrid*), "CreateGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

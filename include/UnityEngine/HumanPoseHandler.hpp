@@ -83,20 +83,45 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPoseHandler*, "UnityEngine", "HumanPoseHandler");
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Internal_Create
 // Il2CppName: Internal_Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Avatar*, UnityEngine::Transform*)>(&UnityEngine::HumanPoseHandler::Internal_Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Internal_Destroy
 // Il2CppName: Internal_Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::HumanPoseHandler::Internal_Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::GetHumanPose
 // Il2CppName: GetHumanPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(UnityEngine::Vector3&, UnityEngine::Quaternion&, ::Array<float>*&)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)()>(&UnityEngine::HumanPoseHandler::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::GetHumanPose
 // Il2CppName: GetHumanPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(UnityEngine::HumanPose&)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanPose&>()});
+  }
+};

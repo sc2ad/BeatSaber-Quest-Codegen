@@ -64,10 +64,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType
 // Il2CppName: get_menuEnvironmentType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType (GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*), "get_menuEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper
 // Il2CppName: get_wrapper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*), "get_wrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

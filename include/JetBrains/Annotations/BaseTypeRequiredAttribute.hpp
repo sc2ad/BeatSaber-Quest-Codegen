@@ -65,7 +65,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetB
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::get_BaseType
 // Il2CppName: get_BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (JetBrains::Annotations::BaseTypeRequiredAttribute::*)()>(&JetBrains::Annotations::BaseTypeRequiredAttribute::get_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType
 // Il2CppName: set_BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::BaseTypeRequiredAttribute::*)(System::Type*)>(&JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), "set_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

@@ -152,49 +152,129 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationFieldInfo*, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::InternalGetValue
 // Il2CppName: InternalGetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationFieldInfo::*)(::Il2CppObject*)>(&System::Runtime::Serialization::SerializationFieldInfo::InternalGetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "InternalGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::InternalSetValue
 // Il2CppName: InternalSetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationFieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Globalization::CultureInfo*)>(&System::Runtime::Serialization::SerializationFieldInfo::InternalSetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "InternalSetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_FieldInfo
 // Il2CppName: get_FieldInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeFieldInfo* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_FieldInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_FieldInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_Module
 // Il2CppName: get_Module
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_Module)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_MetadataToken
 // Il2CppName: get_MetadataToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_MetadataToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_MetadataToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_DeclaringType
 // Il2CppName: get_DeclaringType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_DeclaringType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_ReflectedType
 // Il2CppName: get_ReflectedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_ReflectedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_ReflectedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::IsDefined
 // Il2CppName: IsDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_FieldType
 // Il2CppName: get_FieldType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_FieldType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_FieldType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetValue
 // Il2CppName: GetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationFieldInfo::*)(::Il2CppObject*)>(&System::Runtime::Serialization::SerializationFieldInfo::GetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::SetValue
 // Il2CppName: SetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationFieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Globalization::CultureInfo*)>(&System::Runtime::Serialization::SerializationFieldInfo::SetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_FieldHandle
 // Il2CppName: get_FieldHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeFieldHandle (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_FieldHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_FieldHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_Attributes
 // Il2CppName: get_Attributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldAttributes (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_Attributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

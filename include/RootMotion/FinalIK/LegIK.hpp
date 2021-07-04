@@ -83,19 +83,44 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LegIK*, "RootMotion.FinalIK", "LegIK");
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::SupportGroup
 // Il2CppName: SupportGroup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LegIK::*)()>(&RootMotion::FinalIK::LegIK::SupportGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LegIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::ASThread
 // Il2CppName: ASThread
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LegIK::*)()>(&RootMotion::FinalIK::LegIK::ASThread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LegIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::OpenUserManual
 // Il2CppName: OpenUserManual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LegIK::*)()>(&RootMotion::FinalIK::LegIK::OpenUserManual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LegIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::OpenScriptReference
 // Il2CppName: OpenScriptReference
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LegIK::*)()>(&RootMotion::FinalIK::LegIK::OpenScriptReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LegIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::GetIKSolver
 // Il2CppName: GetIKSolver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::LegIK::*)()>(&RootMotion::FinalIK::LegIK::GetIKSolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LegIK*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

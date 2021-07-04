@@ -98,22 +98,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "ScenesTransitionSetupDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes
 // Il2CppName: get_scenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneInfo*>* (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "get_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes
 // Il2CppName: set_scenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::get_sceneSetupDataArray
 // Il2CppName: get_sceneSetupDataArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SceneSetupData*>* (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_sceneSetupDataArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "get_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray
 // Il2CppName: set_sceneSetupDataArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneSetupData*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*, ::Array<GlobalNamespace::SceneSetupData*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneSetupData*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::InstallBindings
 // Il2CppName: InstallBindings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(Zenject::DiContainer*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::Get
 // Il2CppName: Get
 // Cannot write MetadataGetter for generic methods!

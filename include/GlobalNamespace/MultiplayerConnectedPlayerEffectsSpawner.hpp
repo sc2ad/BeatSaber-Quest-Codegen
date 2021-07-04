@@ -84,13 +84,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*, "", "MultiplayerConnectedPlayerEffectsSpawner");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleNoteEventManagerConnectedPlayerNoteWasCut
 // Il2CppName: HandleNoteEventManagerConnectedPlayerNoteWasCut
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleNoteEventManagerConnectedPlayerNoteWasCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "HandleNoteEventManagerConnectedPlayerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

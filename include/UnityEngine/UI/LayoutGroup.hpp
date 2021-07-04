@@ -266,113 +266,288 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_padding
 // Il2CppName: get_padding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::set_padding
 // Il2CppName: set_padding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectOffset*)>(&UnityEngine::UI::LayoutGroup::set_padding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectOffset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_childAlignment
 // Il2CppName: get_childAlignment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_childAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::set_childAlignment
 // Il2CppName: set_childAlignment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::TextAnchor)>(&UnityEngine::UI::LayoutGroup::set_childAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_rectTransform
 // Il2CppName: get_rectTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_rectChildren
 // Il2CppName: get_rectChildren
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::RectTransform*>* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectChildren)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_rectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::CalculateLayoutInputVertical
 // Il2CppName: CalculateLayoutInputVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_minWidth
 // Il2CppName: get_minWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_minWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_preferredWidth
 // Il2CppName: get_preferredWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_preferredWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_flexibleWidth
 // Il2CppName: get_flexibleWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_flexibleWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_minHeight
 // Il2CppName: get_minHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_minHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_preferredHeight
 // Il2CppName: get_preferredHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_preferredHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_flexibleHeight
 // Il2CppName: get_flexibleHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_flexibleHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_layoutPriority
 // Il2CppName: get_layoutPriority
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_layoutPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetTotalMinSize
 // Il2CppName: GetTotalMinSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalMinSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetTotalPreferredSize
 // Il2CppName: GetTotalPreferredSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalPreferredSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetTotalFlexibleSize
 // Il2CppName: GetTotalFlexibleSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalFlexibleSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetStartOffset
 // Il2CppName: GetStartOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int, float)>(&UnityEngine::UI::LayoutGroup::GetStartOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetAlignmentOnAxis
 // Il2CppName: GetAlignmentOnAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetAlignmentOnAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetAlignmentOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetLayoutInputForAxis
 // Il2CppName: SetLayoutInputForAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(float, float, float, int)>(&UnityEngine::UI::LayoutGroup::SetLayoutInputForAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetLayoutInputForAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
 // Il2CppName: SetChildAlongAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
 // Il2CppName: SetChildAlongAxisWithScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
 // Il2CppName: SetChildAlongAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
 // Il2CppName: SetChildAlongAxisWithScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_isRootLayoutGroup
 // Il2CppName: get_isRootLayoutGroup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_isRootLayoutGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_isRootLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::OnTransformChildrenChanged
 // Il2CppName: OnTransformChildrenChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::OnTransformChildrenChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "OnTransformChildrenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetProperty
 // Il2CppName: SetProperty
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetDirty
 // Il2CppName: SetDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::SetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::DelayedSetDirty
 // Il2CppName: DelayedSetDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutGroup::DelayedSetDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::OnDidApplyAnimationProperties
 // Il2CppName: OnDidApplyAnimationProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

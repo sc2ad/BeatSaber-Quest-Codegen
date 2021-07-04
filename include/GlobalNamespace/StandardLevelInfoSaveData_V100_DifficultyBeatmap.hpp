@@ -82,19 +82,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficulty
 // Il2CppName: get_difficulty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficulty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*), "get_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficultyRank
 // Il2CppName: get_difficultyRank
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficultyRank)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*), "get_difficultyRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_beatmapFilename
 // Il2CppName: get_beatmapFilename
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_beatmapFilename)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*), "get_beatmapFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_noteJumpMovementSpeed
 // Il2CppName: get_noteJumpMovementSpeed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_noteJumpMovementSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_noteJumpStartBeatOffset
 // Il2CppName: get_noteJumpStartBeatOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

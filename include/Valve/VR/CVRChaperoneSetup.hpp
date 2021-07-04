@@ -127,61 +127,161 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneS
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::CommitWorkingCopy
 // Il2CppName: CommitWorkingCopy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::CommitWorkingCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::RevertWorkingCopy
 // Il2CppName: RevertWorkingCopy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)()>(&Valve::VR::CVRChaperoneSetup::RevertWorkingCopy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "RevertWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaSize
 // Il2CppName: GetWorkingPlayAreaSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(float&, float&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect
 // Il2CppName: GetWorkingPlayAreaRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdQuad_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
 // Il2CppName: GetWorkingCollisionBoundsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo
 // Il2CppName: GetLiveCollisionBoundsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingSeatedZeroPoseToRawTrackingPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingStandingZeroPoseToRawTrackingPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingPlayAreaSize
 // Il2CppName: SetWorkingPlayAreaSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(float, float)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
 // Il2CppName: SetWorkingCollisionBoundsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingSeatedZeroPoseToRawTrackingPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingStandingZeroPoseToRawTrackingPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ReloadFromDisk
 // Il2CppName: ReloadFromDisk
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::ReloadFromDisk)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetLiveSeatedZeroPoseToRawTrackingPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
 // Il2CppName: SetWorkingCollisionBoundsTagsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
 // Il2CppName: GetLiveCollisionBoundsTagsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<uint8_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
 // Il2CppName: SetWorkingPhysicalBoundsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo
 // Il2CppName: GetLivePhysicalBoundsInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer
 // Il2CppName: ExportLiveToBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(System::Text::StringBuilder*, uint&)>(&Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ExportLiveToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ImportFromBufferToWorking
 // Il2CppName: ImportFromBufferToWorking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Il2CppString*, uint)>(&Valve::VR::CVRChaperoneSetup::ImportFromBufferToWorking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ImportFromBufferToWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

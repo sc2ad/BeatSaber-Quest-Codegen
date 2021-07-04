@@ -104,7 +104,17 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22, "MasterServer", "BaseClientMessageHandler/<OnSendFailed>d__22");
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::*)()>(&MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

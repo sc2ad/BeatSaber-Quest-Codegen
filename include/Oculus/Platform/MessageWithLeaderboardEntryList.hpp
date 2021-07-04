@@ -49,11 +49,21 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardEntryList*, "Oculus.Platform", "MessageWithLeaderboardEntryList");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardEntryList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardEntryList* (Oculus::Platform::MessageWithLeaderboardEntryList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLeaderboardEntryList::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardEntryList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardEntryList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardEntryList::GetLeaderboardEntryList
 // Il2CppName: GetLeaderboardEntryList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardEntryList* (Oculus::Platform::MessageWithLeaderboardEntryList::*)()>(&Oculus::Platform::MessageWithLeaderboardEntryList::GetLeaderboardEntryList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardEntryList*), "GetLeaderboardEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

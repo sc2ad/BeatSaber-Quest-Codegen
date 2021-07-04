@@ -113,31 +113,76 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::AddAssemblyFilter
 // Il2CppName: AddAssemblyFilter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionBindInfo::*)(System::Func_2<System::Reflection::Assembly*, bool>*)>(&Zenject::ConventionBindInfo::AddAssemblyFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "AddAssemblyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::Assembly*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::AddTypeFilter
 // Il2CppName: AddTypeFilter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionBindInfo::*)(System::Func_2<System::Type*, bool>*)>(&Zenject::ConventionBindInfo::AddTypeFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "AddTypeFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Type*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::GetAllAssemblies
 // Il2CppName: GetAllAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* (Zenject::ConventionBindInfo::*)()>(&Zenject::ConventionBindInfo::GetAllAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetAllAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::ShouldIncludeAssembly
 // Il2CppName: ShouldIncludeAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::ShouldIncludeAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ShouldIncludeAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::ShouldIncludeType
 // Il2CppName: ShouldIncludeType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionBindInfo::*)(System::Type*)>(&Zenject::ConventionBindInfo::ShouldIncludeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ShouldIncludeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::GetTypes
 // Il2CppName: GetTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::ResolveTypes
 // Il2CppName: ResolveTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::ConventionBindInfo::*)()>(&Zenject::ConventionBindInfo::ResolveTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ResolveTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ConventionBindInfo::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::$ResolveTypes$b__9_0
 // Il2CppName: <ResolveTypes>b__9_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::$ResolveTypes$b__9_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "<ResolveTypes>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

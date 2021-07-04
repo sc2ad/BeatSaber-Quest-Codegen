@@ -55,10 +55,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpaceConvertor*, "", "PlayerSpaceConvertor");
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::get_worldToPlayerSpaceRotation
 // Il2CppName: get_worldToPlayerSpaceRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::PlayerSpaceConvertor::*)()>(&GlobalNamespace::PlayerSpaceConvertor::get_worldToPlayerSpaceRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpaceConvertor*), "get_worldToPlayerSpaceRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSpaceConvertor::*)()>(&GlobalNamespace::PlayerSpaceConvertor::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpaceConvertor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

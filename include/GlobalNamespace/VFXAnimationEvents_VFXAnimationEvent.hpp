@@ -62,10 +62,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name
 // Il2CppName: get_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_particleSystems
 // Il2CppName: get_particleSystems
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ParticleSystem*>* (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_particleSystems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

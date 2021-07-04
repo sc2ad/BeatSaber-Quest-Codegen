@@ -78,13 +78,28 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 // Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::OnApplicationQuit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProjectKernel::DestroyEverythingInOrder
 // Il2CppName: DestroyEverythingInOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::DestroyEverythingInOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "DestroyEverythingInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProjectKernel::ForceUnloadAllScenes
 // Il2CppName: ForceUnloadAllScenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)(bool)>(&Zenject::ProjectKernel::ForceUnloadAllScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProjectKernel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

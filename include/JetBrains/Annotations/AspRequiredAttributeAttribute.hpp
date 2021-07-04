@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspRequiredAttributeAttribute::get_Attribute
 // Il2CppName: get_Attribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspRequiredAttributeAttribute::*)()>(&JetBrains::Annotations::AspRequiredAttributeAttribute::get_Attribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspRequiredAttributeAttribute*), "get_Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::AspRequiredAttributeAttribute::set_Attribute
 // Il2CppName: set_Attribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspRequiredAttributeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspRequiredAttributeAttribute::set_Attribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspRequiredAttributeAttribute*), "set_Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

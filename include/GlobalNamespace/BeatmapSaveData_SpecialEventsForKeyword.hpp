@@ -63,10 +63,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*, "", "BeatmapSaveData/SpecialEventsForKeyword");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword
 // Il2CppName: get_keyword
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*), "get_keyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_specialEvents
 // Il2CppName: get_specialEvents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* (GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_specialEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*), "get_specialEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

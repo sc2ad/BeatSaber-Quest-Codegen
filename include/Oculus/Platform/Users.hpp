@@ -92,43 +92,113 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Users*, "Oculus.Platform", "Users");
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserLocale
 // Il2CppName: GetLoggedInUserLocale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::Users::GetLoggedInUserLocale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* (*)(uint64_t)>(&Oculus::Platform::Users::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetAccessToken
 // Il2CppName: GetAccessToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)()>(&Oculus::Platform::Users::GetAccessToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUser
 // Il2CppName: GetLoggedInUser
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUser)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserFriends
 // Il2CppName: GetLoggedInUserFriends
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUserFriends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserFriendsAndRooms
 // Il2CppName: GetLoggedInUserFriendsAndRooms
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUserFriendsAndRooms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserFriendsAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserRecentlyMetUsersAndRooms
 // Il2CppName: GetLoggedInUserRecentlyMetUsersAndRooms
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)(Oculus::Platform::UserOptions*)>(&Oculus::Platform::Users::GetLoggedInUserRecentlyMetUsersAndRooms)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserRecentlyMetUsersAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOptions*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetOrgScopedID
 // Il2CppName: GetOrgScopedID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::OrgScopedID*>* (*)(uint64_t)>(&Oculus::Platform::Users::GetOrgScopedID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetSdkAccounts
 // Il2CppName: GetSdkAccounts
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::SdkAccountList*>* (*)()>(&Oculus::Platform::Users::GetSdkAccounts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetSdkAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetUserProof
 // Il2CppName: GetUserProof
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserProof*>* (*)()>(&Oculus::Platform::Users::GetUserProof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::LaunchFriendRequestFlow
 // Il2CppName: LaunchFriendRequestFlow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* (*)(uint64_t)>(&Oculus::Platform::Users::LaunchFriendRequestFlow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "LaunchFriendRequestFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::LaunchProfile
 // Il2CppName: LaunchProfile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Users::LaunchProfile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "LaunchProfile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetNextUserAndRoomListPage
 // Il2CppName: GetNextUserAndRoomListPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)(Oculus::Platform::Models::UserAndRoomList*)>(&Oculus::Platform::Users::GetNextUserAndRoomListPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetNextUserAndRoomListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::UserAndRoomList*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetNextUserListPage
 // Il2CppName: GetNextUserListPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)(Oculus::Platform::Models::UserList*)>(&Oculus::Platform::Users::GetNextUserListPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetNextUserListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::UserList*>()});
+  }
+};

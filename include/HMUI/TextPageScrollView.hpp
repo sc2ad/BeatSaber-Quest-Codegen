@@ -58,7 +58,12 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
 // Writing MetadataGetter for method: HMUI::TextPageScrollView::SetText
 // Il2CppName: SetText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextPageScrollView::*)(::Il2CppString*)>(&HMUI::TextPageScrollView::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextPageScrollView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TextPageScrollView::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

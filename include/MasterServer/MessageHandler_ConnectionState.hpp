@@ -183,40 +183,100 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::get_isEncrypted
 // Il2CppName: get_isEncrypted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)()>(&MasterServer::MessageHandler::ConnectionState::get_isEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "get_isEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::GetNextRequestId
 // Il2CppName: GetNextRequestId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::MessageHandler::ConnectionState::*)()>(&MasterServer::MessageHandler::ConnectionState::GetNextRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "GetNextRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::BeginSession
 // Il2CppName: BeginSession
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)()>(&MasterServer::MessageHandler::ConnectionState::BeginSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::IsValidSessionStartRequestId
 // Il2CppName: IsValidSessionStartRequestId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)(uint)>(&MasterServer::MessageHandler::ConnectionState::IsValidSessionStartRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "IsValidSessionStartRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::BeginSession
 // Il2CppName: BeginSession
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(uint)>(&MasterServer::MessageHandler::ConnectionState::BeginSession)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::SetEpoch
 // Il2CppName: SetEpoch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(uint)>(&MasterServer::MessageHandler::ConnectionState::SetEpoch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "SetEpoch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::CanAcceptRequest
 // Il2CppName: CanAcceptRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)(uint)>(&MasterServer::MessageHandler::ConnectionState::CanAcceptRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "CanAcceptRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::SetEncryptionState
 // Il2CppName: SetEncryptionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&MasterServer::MessageHandler::ConnectionState::SetEncryptionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "SetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::SetIdentity
 // Il2CppName: SetIdentity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::SetIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "SetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::VerifyIdentity
 // Il2CppName: VerifyIdentity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::VerifyIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "VerifyIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)()>(&MasterServer::MessageHandler::ConnectionState::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::LogD
 // Il2CppName: LogD
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::LogD)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "LogD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -54,4 +54,9 @@ namespace System::Net::NetworkInformation {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::GetIPAddress
 // Il2CppName: GetIPAddress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::*)()>(&System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::GetIPAddress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS), "GetIPAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

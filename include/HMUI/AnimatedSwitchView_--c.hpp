@@ -92,25 +92,60 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::$$c*, "HMUI", "AnimatedSwitchView/<>c");
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::AnimatedSwitchView::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0
 // Il2CppName: <LerpColors>b__31_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1
 // Il2CppName: <LerpColors>b__31_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2
 // Il2CppName: <LerpColors>b__31_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3
 // Il2CppName: <LerpColors>b__31_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4
 // Il2CppName: <LerpColors>b__31_4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5
 // Il2CppName: <LerpColors>b__31_5
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

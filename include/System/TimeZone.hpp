@@ -64,13 +64,28 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZone*, "System", "TimeZone");
 // Writing MetadataGetter for method: System::TimeZone::get_CurrentTimeZone
 // Il2CppName: get_CurrentTimeZone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZone* (*)()>(&System::TimeZone::get_CurrentTimeZone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "get_CurrentTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeZone::GetUtcOffset
 // Il2CppName: GetUtcOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeZone::*)(System::DateTime)>(&System::TimeZone::GetUtcOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeZone::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::TimeZone::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeZone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

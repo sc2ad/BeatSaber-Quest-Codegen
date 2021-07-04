@@ -85,13 +85,28 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::OnPointerClick
 // Il2CppName: OnPointerClick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMPro::TMP_ScrollbarEventHandler::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_ScrollbarEventHandler*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::OnSelect
 // Il2CppName: OnSelect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_ScrollbarEventHandler::OnSelect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_ScrollbarEventHandler*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::OnDeselect
 // Il2CppName: OnDeselect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_ScrollbarEventHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_ScrollbarEventHandler::OnDeselect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_ScrollbarEventHandler*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

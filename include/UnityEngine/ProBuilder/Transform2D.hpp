@@ -65,7 +65,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBu
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Transform2D::TransformPoint
 // Il2CppName: TransformPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::Transform2D::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Transform2D::TransformPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Transform2D*), "TransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Transform2D::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Transform2D::*)()>(&UnityEngine::ProBuilder::Transform2D::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Transform2D*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

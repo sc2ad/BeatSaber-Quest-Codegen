@@ -44,4 +44,9 @@ namespace System::Runtime::CompilerServices {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::CompilerServices::DateTimeConstantAttribute::*)()>(&System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::DateTimeConstantAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

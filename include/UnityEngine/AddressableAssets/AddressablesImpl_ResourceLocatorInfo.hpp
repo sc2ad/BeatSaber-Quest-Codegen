@@ -108,38 +108,93 @@ namespace UnityEngine::AddressableAssets {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, "UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo");
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator
 // Il2CppName: get_Locator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_Locator
 // Il2CppName: set_Locator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_Locator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_LocalHash
 // Il2CppName: get_LocalHash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_LocalHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_LocalHash
 // Il2CppName: set_LocalHash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_LocalHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation
 // Il2CppName: get_CatalogLocation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation
 // Il2CppName: set_CatalogLocation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable
 // Il2CppName: get_ContentUpdateAvailable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable
 // Il2CppName: set_ContentUpdateAvailable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(bool)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_HashLocation
 // Il2CppName: get_HashLocation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_HashLocation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_HashLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent
 // Il2CppName: get_CanUpdateContent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_CanUpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::UpdateContent
 // Il2CppName: UpdateContent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::UpdateContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "UpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};

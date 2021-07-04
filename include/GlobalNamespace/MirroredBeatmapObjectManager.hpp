@@ -129,19 +129,49 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "Mirr
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasSpawned
 // Il2CppName: HandleNoteWasSpawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasSpawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasDespawned
 // Il2CppName: HandleNoteWasDespawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasDespawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasSpawned
 // Il2CppName: HandleObstacleWasSpawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasSpawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasDespawned
 // Il2CppName: HandleObstacleWasDespawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasDespawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects
 // Il2CppName: HandleDidHideAllBeatmapObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(bool)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleDidHideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)()>(&GlobalNamespace::MirroredBeatmapObjectManager::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

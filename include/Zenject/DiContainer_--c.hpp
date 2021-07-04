@@ -118,28 +118,68 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c*, "Zenject", "DiContainer/<>c");
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::DiContainer::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$get_AllProviders$b__33_0
 // Il2CppName: <get_AllProviders>b__33_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::DiContainer::ProviderInfo*>* (Zenject::DiContainer::$$c::*)(System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::$$c::$get_AllProviders$b__33_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<get_AllProviders>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$get_AllProviders$b__33_1
 // Il2CppName: <get_AllProviders>b__33_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::DiContainer::$$c::*)(Zenject::DiContainer::ProviderInfo*)>(&Zenject::DiContainer::$$c::$get_AllProviders$b__33_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<get_AllProviders>b__33_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer::ProviderInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$ResolveTypeAll$b__86_1
 // Il2CppName: <ResolveTypeAll>b__86_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$$c::*)(System::Type*)>(&Zenject::DiContainer::$$c::$ResolveTypeAll$b__86_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<ResolveTypeAll>b__86_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0
 // Il2CppName: <InstantiateInternal>b__97_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<InstantiateInternal>b__97_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::TypeValuePair>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0
 // Il2CppName: <InjectExplicitInternal>b__102_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<InjectExplicitInternal>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::TypeValuePair>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$BindInternal$b__197_0
 // Il2CppName: <BindInternal>b__197_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$$c::*)(System::Type*)>(&Zenject::DiContainer::$$c::$BindInternal$b__197_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<BindInternal>b__197_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$Bind$b__198_0
 // Il2CppName: <Bind>b__198_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$$c::*)(System::Type*)>(&Zenject::DiContainer::$$c::$Bind$b__198_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<Bind>b__198_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

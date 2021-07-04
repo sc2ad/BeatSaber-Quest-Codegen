@@ -247,37 +247,92 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::set_directionalLight
 // Il2CppName: set_directionalLight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)(GlobalNamespace::DirectionalLight*)>(&GlobalNamespace::FireworkItemController::set_directionalLight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "set_directionalLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DirectionalLight*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::set_directionalLightIntensity
 // Il2CppName: set_directionalLightIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)(float)>(&GlobalNamespace::FireworkItemController::set_directionalLightIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "set_directionalLightIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&GlobalNamespace::FireworkItemController::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&GlobalNamespace::FireworkItemController::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::Fire
 // Il2CppName: Fire
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::Fire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::FireCoroutine
 // Il2CppName: FireCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::FireCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "FireCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::SetLightsColor
 // Il2CppName: SetLightsColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)(float)>(&GlobalNamespace::FireworkItemController::SetLightsColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::PlayExplosionSound
 // Il2CppName: PlayExplosionSound
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::PlayExplosionSound)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "PlayExplosionSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::InitializeParticleSystem
 // Il2CppName: InitializeParticleSystem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FireworkItemController::*)()>(&GlobalNamespace::FireworkItemController::InitializeParticleSystem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FireworkItemController*), "InitializeParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

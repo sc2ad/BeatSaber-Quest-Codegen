@@ -74,7 +74,17 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Child::FixTransform
 // Il2CppName: FixTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::Child::*)(float)>(&RootMotion::FinalIK::RagdollUtility::Child::FixTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Child*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Child::StoreLocalState
 // Il2CppName: StoreLocalState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::Child::*)()>(&RootMotion::FinalIK::RagdollUtility::Child::StoreLocalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Child*), "StoreLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

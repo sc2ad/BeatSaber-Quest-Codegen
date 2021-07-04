@@ -67,28 +67,73 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Leaderboards*, "Oculus.Platform", "Leaderboards");
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetNextEntries
 // Il2CppName: GetNextEntries
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(Oculus::Platform::Models::LeaderboardEntryList*)>(&Oculus::Platform::Leaderboards::GetNextEntries)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardEntryList*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetPreviousEntries
 // Il2CppName: GetPreviousEntries
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(Oculus::Platform::Models::LeaderboardEntryList*)>(&Oculus::Platform::Leaderboards::GetPreviousEntries)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardEntryList*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* (*)(::Il2CppString*)>(&Oculus::Platform::Leaderboards::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntries
 // Il2CppName: GetEntries
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::Leaderboards::GetEntries)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntriesAfterRank
 // Il2CppName: GetEntriesAfterRank
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, uint64_t)>(&Oculus::Platform::Leaderboards::GetEntriesAfterRank)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntriesByIds
 // Il2CppName: GetEntriesByIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*)>(&Oculus::Platform::Leaderboards::GetEntriesByIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntry
 // Il2CppName: WriteEntry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric
 // Il2CppName: WriteEntryWithSupplementaryMetric
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetNextLeaderboardListPage
 // Il2CppName: GetNextLeaderboardListPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* (*)(Oculus::Platform::Models::LeaderboardList*)>(&Oculus::Platform::Leaderboards::GetNextLeaderboardListPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextLeaderboardListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardList*>()});
+  }
+};

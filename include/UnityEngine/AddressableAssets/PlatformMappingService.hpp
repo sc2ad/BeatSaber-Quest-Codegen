@@ -64,19 +64,44 @@ namespace UnityEngine::AddressableAssets {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal
 // Il2CppName: GetAddressablesPlatformInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RuntimePlatform>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal
 // Il2CppName: GetAddressablesPlatformPathInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformPathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RuntimePlatform>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform
 // Il2CppName: GetPlatform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetPlatformPathSubFolder
 // Il2CppName: GetPlatformPathSubFolder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatformPathSubFolder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatformPathSubFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

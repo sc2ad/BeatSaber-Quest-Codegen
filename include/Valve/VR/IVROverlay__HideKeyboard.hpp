@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_HideKeyboard*, "Valve.VR", "IVROv
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_HideKeyboard::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_HideKeyboard::*)()>(&Valve::VR::IVROverlay::_HideKeyboard::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_HideKeyboard*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_HideKeyboard::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_HideKeyboard::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_HideKeyboard::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_HideKeyboard*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_HideKeyboard::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_HideKeyboard::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_HideKeyboard::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_HideKeyboard*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

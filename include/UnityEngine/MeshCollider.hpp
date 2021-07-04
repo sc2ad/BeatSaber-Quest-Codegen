@@ -42,10 +42,25 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");
 // Writing MetadataGetter for method: UnityEngine::MeshCollider::get_sharedMesh
 // Il2CppName: get_sharedMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::MeshCollider::*)()>(&UnityEngine::MeshCollider::get_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshCollider*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::MeshCollider::set_sharedMesh
 // Il2CppName: set_sharedMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MeshCollider::*)(UnityEngine::Mesh*)>(&UnityEngine::MeshCollider::set_sharedMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshCollider*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::MeshCollider::set_convex
 // Il2CppName: set_convex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MeshCollider::*)(bool)>(&UnityEngine::MeshCollider::set_convex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshCollider*), "set_convex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

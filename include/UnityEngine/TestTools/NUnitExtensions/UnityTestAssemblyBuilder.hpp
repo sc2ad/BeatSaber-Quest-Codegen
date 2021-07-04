@@ -86,13 +86,28 @@ namespace UnityEngine::TestTools::NUnitExtensions {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder");
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build
 // Il2CppName: Build
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync
 // Il2CppName: BuildAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "BuildAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::TestTools::TestPlatform>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings
 // Il2CppName: GetNUnitTestBuilderSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* (*)(UnityEngine::TestTools::TestPlatform)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "GetNUnitTestBuilderSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestPlatform>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

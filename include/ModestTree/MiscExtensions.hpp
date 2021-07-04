@@ -122,13 +122,23 @@ namespace ModestTree {
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt
 // Il2CppName: Fmt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::MiscExtensions::Fmt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::IndexOf
 // Il2CppName: IndexOf
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Join
 // Il2CppName: Join
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&ModestTree::MiscExtensions::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::AllocFreeAddRange
 // Il2CppName: AllocFreeAddRange
 // Cannot write MetadataGetter for generic methods!

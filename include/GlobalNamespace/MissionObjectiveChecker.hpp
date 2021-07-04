@@ -203,46 +203,116 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionOb
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent
 // Il2CppName: add_statusDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent
 // Il2CppName: remove_statusDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent
 // Il2CppName: add_checkedValueDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent
 // Il2CppName: remove_checkedValueDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType
 // Il2CppName: get_missionObjectiveType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveTypeSO* (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_missionObjectiveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_missionObjective
 // Il2CppName: get_missionObjective
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjective* (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_missionObjective)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_disableChecking
 // Il2CppName: get_disableChecking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_disableChecking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_disableChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::set_disableChecking
 // Il2CppName: set_disableChecking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(bool)>(&GlobalNamespace::MissionObjectiveChecker::set_disableChecking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_disableChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_status
 // Il2CppName: get_status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveChecker::Status (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::set_status
 // Il2CppName: set_status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(GlobalNamespace::MissionObjectiveChecker::Status)>(&GlobalNamespace::MissionObjectiveChecker::set_status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker::Status>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_checkedValue
 // Il2CppName: get_checkedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_checkedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_checkedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::set_checkedValue
 // Il2CppName: set_checkedValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(int)>(&GlobalNamespace::MissionObjectiveChecker::set_checkedValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_checkedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective
 // Il2CppName: SetCheckedMissionObjective
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(GlobalNamespace::MissionObjective*)>(&GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "SetCheckedMissionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

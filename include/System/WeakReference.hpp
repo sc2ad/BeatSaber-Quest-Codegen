@@ -103,7 +103,12 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");
 // Writing MetadataGetter for method: System::WeakReference::AllocateHandle
 // Il2CppName: AllocateHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::WeakReference::*)(::Il2CppObject*)>(&System::WeakReference::AllocateHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WeakReference*), "AllocateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::WeakReference::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -118,17 +123,37 @@ DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::WeakReference::get_Target
 // Il2CppName: get_Target
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::WeakReference::*)()>(&System::WeakReference::get_Target)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WeakReference*), "get_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::WeakReference::get_TrackResurrection
 // Il2CppName: get_TrackResurrection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::WeakReference::*)()>(&System::WeakReference::get_TrackResurrection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WeakReference*), "get_TrackResurrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::WeakReference::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::WeakReference::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::WeakReference::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WeakReference*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::WeakReference::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::WeakReference::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::WeakReference::*)()>(&System::WeakReference::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WeakReference*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

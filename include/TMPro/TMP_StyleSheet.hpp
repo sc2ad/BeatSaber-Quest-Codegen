@@ -97,28 +97,68 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::get_instance
 // Il2CppName: get_instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMPro::TMP_StyleSheet::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::LoadDefaultStyleSheet
 // Il2CppName: LoadDefaultStyleSheet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMPro::TMP_StyleSheet::LoadDefaultStyleSheet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "LoadDefaultStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::GetStyle
 // Il2CppName: GetStyle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Style* (*)(int)>(&TMPro::TMP_StyleSheet::GetStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::GetStyleInternal
 // Il2CppName: GetStyleInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Style* (TMPro::TMP_StyleSheet::*)(int)>(&TMPro::TMP_StyleSheet::GetStyleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::UpdateStyleDictionaryKey
 // Il2CppName: UpdateStyleDictionaryKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_StyleSheet::*)(int, int)>(&TMPro::TMP_StyleSheet::UpdateStyleDictionaryKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "UpdateStyleDictionaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::UpdateStyleSheet
 // Il2CppName: UpdateStyleSheet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_StyleSheet::UpdateStyleSheet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "UpdateStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::RefreshStyles
 // Il2CppName: RefreshStyles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_StyleSheet::RefreshStyles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "RefreshStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal
 // Il2CppName: LoadStyleDictionaryInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_StyleSheet::*)()>(&TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "LoadStyleDictionaryInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -71,4 +71,9 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packe
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::VREvent_t_Packed::Unpack
 // Il2CppName: Unpack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::VREvent_t_Packed::*)(Valve::VR::VREvent_t&)>(&Valve::VR::VREvent_t_Packed::Unpack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::VREvent_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>()});
+  }
+};

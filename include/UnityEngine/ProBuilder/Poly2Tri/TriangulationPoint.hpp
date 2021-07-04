@@ -88,20 +88,45 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges
 // Il2CppName: get_Edges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "get_Edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges
 // Il2CppName: set_Edges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "set_Edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge
 // Il2CppName: AddEdge
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "AddEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_HasEdges
 // Il2CppName: get_HasEdges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_HasEdges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "get_HasEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

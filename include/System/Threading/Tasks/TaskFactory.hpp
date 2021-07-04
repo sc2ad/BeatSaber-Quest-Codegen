@@ -127,29 +127,59 @@ namespace System::Threading::Tasks {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::GetDefaultScheduler
 // Il2CppName: GetDefaultScheduler
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskScheduler* (System::Threading::Tasks::TaskFactory::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskFactory::GetDefaultScheduler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "GetDefaultScheduler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::CheckCreationOptions
 // Il2CppName: CheckCreationOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::TaskCreationOptions)>(&System::Threading::Tasks::TaskFactory::CheckCreationOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "CheckCreationOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::StartNew
 // Il2CppName: StartNew
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::TaskFactory::*)(System::Action*, System::Threading::CancellationToken, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::TaskScheduler*)>(&System::Threading::Tasks::TaskFactory::StartNew)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "StartNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskScheduler*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::StartNew
 // Il2CppName: StartNew
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::CheckFromAsyncOptions
 // Il2CppName: CheckFromAsyncOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::TaskCreationOptions, bool)>(&System::Threading::Tasks::TaskFactory::CheckFromAsyncOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "CheckFromAsyncOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::CommonCWAnyLogic
 // Il2CppName: CommonCWAnyLogic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* (*)(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::TaskFactory::CommonCWAnyLogic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "CommonCWAnyLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::CheckMultiTaskContinuationOptions
 // Il2CppName: CheckMultiTaskContinuationOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::TaskContinuationOptions)>(&System::Threading::Tasks::TaskFactory::CheckMultiTaskContinuationOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "CheckMultiTaskContinuationOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskContinuationOptions>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

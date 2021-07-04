@@ -74,13 +74,33 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModel*, "", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::RenderModel::get_mesh
 // Il2CppName: get_mesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (GlobalNamespace::SteamVR_RenderModel::RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::RenderModel::get_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel::RenderModel*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::RenderModel::set_mesh
 // Il2CppName: set_mesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::RenderModel::*)(UnityEngine::Mesh*)>(&GlobalNamespace::SteamVR_RenderModel::RenderModel::set_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel::RenderModel*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::RenderModel::get_material
 // Il2CppName: get_material
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::SteamVR_RenderModel::RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::RenderModel::get_material)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel::RenderModel*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::RenderModel::set_material
 // Il2CppName: set_material
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::RenderModel::*)(UnityEngine::Material*)>(&GlobalNamespace::SteamVR_RenderModel::RenderModel::set_material)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel::RenderModel*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};

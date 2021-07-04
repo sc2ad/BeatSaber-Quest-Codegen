@@ -101,7 +101,17 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OV
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::BoolMonitor::*)()>(&GlobalNamespace::OVRControllerTest::BoolMonitor::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::BoolMonitor*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::AppendToStringBuilder
 // Il2CppName: AppendToStringBuilder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&GlobalNamespace::OVRControllerTest::BoolMonitor::AppendToStringBuilder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>()});
+  }
+};

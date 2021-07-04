@@ -76,7 +76,17 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetCo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetConnectAcceptPacket::FromData
 // Il2CppName: FromData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectAcceptPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectAcceptPacket::FromData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectAcceptPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetConnectAcceptPacket::Make
 // Il2CppName: Make
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&LiteNetLib::NetConnectAcceptPacket::Make)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectAcceptPacket*), "Make", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

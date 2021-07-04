@@ -65,43 +65,113 @@ namespace Mono::Math {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Kernel*, "Mono.Math", "BigInteger/Kernel");
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::Subtract
 // Il2CppName: Subtract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::Subtract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::MinusEq
 // Il2CppName: MinusEq
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::MinusEq)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "MinusEq", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::PlusEq
 // Il2CppName: PlusEq
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::PlusEq)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "PlusEq", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger::Sign (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::SingleByteDivideInPlace
 // Il2CppName: SingleByteDivideInPlace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::SingleByteDivideInPlace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "SingleByteDivideInPlace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::DwordMod
 // Il2CppName: DwordMod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::DwordMod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "DwordMod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::DwordDivMod
 // Il2CppName: DwordDivMod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Math::BigInteger*>* (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::DwordDivMod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "DwordDivMod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::multiByteDivide
 // Il2CppName: multiByteDivide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Math::BigInteger*>* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::multiByteDivide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "multiByteDivide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::LeftShift
 // Il2CppName: LeftShift
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, int)>(&Mono::Math::BigInteger::Kernel::LeftShift)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "LeftShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::RightShift
 // Il2CppName: RightShift
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, int)>(&Mono::Math::BigInteger::Kernel::RightShift)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "RightShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::Multiply
 // Il2CppName: Multiply
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, uint, uint, ::Array<uint>*, uint, uint, ::Array<uint>*, uint)>(&Mono::Math::BigInteger::Kernel::Multiply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod
 // Il2CppName: MultiplyMod2p32pmod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, int, int, ::Array<uint>*, int, int, ::Array<uint>*, int, int)>(&Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "MultiplyMod2p32pmod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::modInverse
 // Il2CppName: modInverse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::modInverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "modInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::modInverse
 // Il2CppName: modInverse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::modInverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "modInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};

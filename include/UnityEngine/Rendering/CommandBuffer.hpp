@@ -242,139 +242,364 @@ namespace UnityEngine::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer*, "UnityEngine.Rendering", "CommandBuffer");
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::InitBuffer
 // Il2CppName: InitBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::Rendering::CommandBuffer::InitBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "InitBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::ReleaseBuffer
 // Il2CppName: ReleaseBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)()>(&UnityEngine::Rendering::CommandBuffer::ReleaseBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "ReleaseBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::set_name
 // Il2CppName: set_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::Il2CppString*)>(&UnityEngine::Rendering::CommandBuffer::set_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)()>(&UnityEngine::Rendering::CommandBuffer::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Internal_DrawMesh
 // Il2CppName: Internal_DrawMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int, int, UnityEngine::MaterialPropertyBlock*)>(&UnityEngine::Rendering::CommandBuffer::Internal_DrawMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Internal_DrawMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Internal_DrawRenderer
 // Il2CppName: Internal_DrawRenderer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Renderer*, UnityEngine::Material*, int, int)>(&UnityEngine::Rendering::CommandBuffer::Internal_DrawRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Internal_DrawRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::CopyTexture_Internal
 // Il2CppName: CopyTexture_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier&, int, int, int, int, int, int, UnityEngine::Rendering::RenderTargetIdentifier&, int, int, int, int, int)>(&UnityEngine::Rendering::CommandBuffer::CopyTexture_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "CopyTexture_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit_Texture
 // Il2CppName: Blit_Texture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Texture*, UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Material*, int, UnityEngine::Vector2, UnityEngine::Vector2, int, int)>(&UnityEngine::Rendering::CommandBuffer::Blit_Texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit_Texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit_Identifier
 // Il2CppName: Blit_Identifier
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Material*, int, UnityEngine::Vector2, UnityEngine::Vector2, int, int)>(&UnityEngine::Rendering::CommandBuffer::Blit_Identifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::GetTemporaryRT
 // Il2CppName: GetTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, int, int, int, UnityEngine::FilterMode, UnityEngine::Experimental::Rendering::GraphicsFormat, int, bool, UnityEngine::RenderTextureMemoryless, bool)>(&UnityEngine::Rendering::CommandBuffer::GetTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "GetTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureMemoryless>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::GetTemporaryRT
 // Il2CppName: GetTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, int, int, int, UnityEngine::FilterMode, UnityEngine::Experimental::Rendering::GraphicsFormat, int, bool, UnityEngine::RenderTextureMemoryless)>(&UnityEngine::Rendering::CommandBuffer::GetTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "GetTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureMemoryless>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::GetTemporaryRT
 // Il2CppName: GetTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, int, int, int, UnityEngine::FilterMode, UnityEngine::Experimental::Rendering::GraphicsFormat, int)>(&UnityEngine::Rendering::CommandBuffer::GetTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "GetTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::GetTemporaryRT
 // Il2CppName: GetTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, int, int, int, UnityEngine::FilterMode, UnityEngine::Experimental::Rendering::GraphicsFormat)>(&UnityEngine::Rendering::CommandBuffer::GetTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "GetTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::GetTemporaryRT
 // Il2CppName: GetTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, int, int, int, UnityEngine::FilterMode, UnityEngine::RenderTextureFormat)>(&UnityEngine::Rendering::CommandBuffer::GetTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "GetTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FilterMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::ReleaseTemporaryRT
 // Il2CppName: ReleaseTemporaryRT
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int)>(&UnityEngine::Rendering::CommandBuffer::ReleaseTemporaryRT)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "ReleaseTemporaryRT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalFloat
 // Il2CppName: SetGlobalFloat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, float)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalVector
 // Il2CppName: SetGlobalVector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, UnityEngine::Vector4)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetViewProjectionMatrices
 // Il2CppName: SetViewProjectionMatrices
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&UnityEngine::Rendering::CommandBuffer::SetViewProjectionMatrices)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetViewProjectionMatrices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::ValidateAgainstExecutionFlags
 // Il2CppName: ValidateAgainstExecutionFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::CommandBufferExecutionFlags, UnityEngine::Rendering::CommandBufferExecutionFlags)>(&UnityEngine::Rendering::CommandBuffer::ValidateAgainstExecutionFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "ValidateAgainstExecutionFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBufferExecutionFlags>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBufferExecutionFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalTexture_Impl
 // Il2CppName: SetGlobalTexture_Impl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Rendering::RenderTextureSubElement)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalTexture_Impl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalTexture_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetShadowSamplingMode_Impl
 // Il2CppName: SetShadowSamplingMode_Impl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Rendering::ShadowSamplingMode)>(&UnityEngine::Rendering::CommandBuffer::SetShadowSamplingMode_Impl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetShadowSamplingMode_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowSamplingMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetRenderTarget
 // Il2CppName: SetRenderTarget
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::SetRenderTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetRenderTargetSingle_Internal
 // Il2CppName: SetRenderTargetSingle_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::RenderBufferLoadAction, UnityEngine::Rendering::RenderBufferStoreAction, UnityEngine::Rendering::RenderBufferLoadAction, UnityEngine::Rendering::RenderBufferStoreAction)>(&UnityEngine::Rendering::CommandBuffer::SetRenderTargetSingle_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetRenderTargetSingle_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferLoadAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferStoreAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferLoadAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferStoreAction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)()>(&UnityEngine::Rendering::CommandBuffer::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(bool)>(&UnityEngine::Rendering::CommandBuffer::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::DrawMesh
 // Il2CppName: DrawMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int, int, UnityEngine::MaterialPropertyBlock*)>(&UnityEngine::Rendering::CommandBuffer::DrawMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "DrawMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::DrawMesh
 // Il2CppName: DrawMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int, int)>(&UnityEngine::Rendering::CommandBuffer::DrawMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "DrawMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::DrawMesh
 // Il2CppName: DrawMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int)>(&UnityEngine::Rendering::CommandBuffer::DrawMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "DrawMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::DrawMesh
 // Il2CppName: DrawMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*)>(&UnityEngine::Rendering::CommandBuffer::DrawMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "DrawMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::DrawRenderer
 // Il2CppName: DrawRenderer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Renderer*, UnityEngine::Material*, int, int)>(&UnityEngine::Rendering::CommandBuffer::DrawRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "DrawRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::CopyTexture
 // Il2CppName: CopyTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::CopyTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "CopyTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit
 // Il2CppName: Blit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Texture*, UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Material*, int)>(&UnityEngine::Rendering::CommandBuffer::Blit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit
 // Il2CppName: Blit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::Blit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit
 // Il2CppName: Blit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Material*, int)>(&UnityEngine::Rendering::CommandBuffer::Blit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalVector
 // Il2CppName: SetGlobalVector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::Il2CppString*, UnityEngine::Vector4)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::Il2CppString*, UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::RenderTextureSubElement)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetShadowSamplingMode
 // Il2CppName: SetShadowSamplingMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier, UnityEngine::Rendering::ShadowSamplingMode)>(&UnityEngine::Rendering::CommandBuffer::SetShadowSamplingMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetShadowSamplingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowSamplingMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Internal_DrawMesh_Injected
 // Il2CppName: Internal_DrawMesh_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4&, UnityEngine::Material*, int, int, UnityEngine::MaterialPropertyBlock*)>(&UnityEngine::Rendering::CommandBuffer::Internal_DrawMesh_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Internal_DrawMesh_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit_Texture_Injected
 // Il2CppName: Blit_Texture_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Texture*, UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Material*, int, UnityEngine::Vector2&, UnityEngine::Vector2&, int, int)>(&UnityEngine::Rendering::CommandBuffer::Blit_Texture_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit_Texture_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Blit_Identifier_Injected
 // Il2CppName: Blit_Identifier_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Material*, int, UnityEngine::Vector2&, UnityEngine::Vector2&, int, int)>(&UnityEngine::Rendering::CommandBuffer::Blit_Identifier_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Blit_Identifier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalVector_Injected
 // Il2CppName: SetGlobalVector_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(int, UnityEngine::Vector4&)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalVector_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetGlobalVector_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetViewProjectionMatrices_Injected
 // Il2CppName: SetViewProjectionMatrices_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Matrix4x4&, UnityEngine::Matrix4x4&)>(&UnityEngine::Rendering::CommandBuffer::SetViewProjectionMatrices_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetViewProjectionMatrices_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetRenderTargetSingle_Internal_Injected
 // Il2CppName: SetRenderTargetSingle_Internal_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(UnityEngine::Rendering::RenderTargetIdentifier&, UnityEngine::Rendering::RenderBufferLoadAction, UnityEngine::Rendering::RenderBufferStoreAction, UnityEngine::Rendering::RenderBufferLoadAction, UnityEngine::Rendering::RenderBufferStoreAction)>(&UnityEngine::Rendering::CommandBuffer::SetRenderTargetSingle_Internal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "SetRenderTargetSingle_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferLoadAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferStoreAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferLoadAction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderBufferStoreAction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)()>(&UnityEngine::Rendering::CommandBuffer::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

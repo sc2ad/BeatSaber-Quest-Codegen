@@ -62,10 +62,20 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil::$$c*, "Zenject", "ValidationUtil/<>c");
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ValidationUtil::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::$CreateDefaultArgs$b__0_0
 // Il2CppName: <CreateDefaultArgs>b__0_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::TypeValuePair (Zenject::ValidationUtil::$$c::*)(System::Type*)>(&Zenject::ValidationUtil::$$c::$CreateDefaultArgs$b__0_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil::$$c*), "<CreateDefaultArgs>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

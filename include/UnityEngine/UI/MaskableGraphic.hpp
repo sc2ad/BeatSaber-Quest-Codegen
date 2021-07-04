@@ -221,67 +221,172 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_onCullStateChanged
 // Il2CppName: get_onCullStateChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::get_onCullStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "get_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::set_onCullStateChanged
 // Il2CppName: set_onCullStateChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*)>(&UnityEngine::UI::MaskableGraphic::set_onCullStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "set_onCullStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_maskable
 // Il2CppName: get_maskable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::get_maskable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "get_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::set_maskable
 // Il2CppName: set_maskable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(bool)>(&UnityEngine::UI::MaskableGraphic::set_maskable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "set_maskable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_isMaskingGraphic
 // Il2CppName: get_isMaskingGraphic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::get_isMaskingGraphic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "get_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::set_isMaskingGraphic
 // Il2CppName: set_isMaskingGraphic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(bool)>(&UnityEngine::UI::MaskableGraphic::set_isMaskingGraphic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "set_isMaskingGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::MaskableGraphic::*)(UnityEngine::Material*)>(&UnityEngine::UI::MaskableGraphic::GetModifiedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::Cull
 // Il2CppName: Cull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(UnityEngine::Rect, bool)>(&UnityEngine::UI::MaskableGraphic::Cull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::UpdateCull
 // Il2CppName: UpdateCull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(bool)>(&UnityEngine::UI::MaskableGraphic::UpdateCull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "UpdateCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::SetClipRect
 // Il2CppName: SetClipRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(UnityEngine::Rect, bool)>(&UnityEngine::UI::MaskableGraphic::SetClipRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::SetClipSoftness
 // Il2CppName: SetClipSoftness
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)(UnityEngine::Vector2)>(&UnityEngine::UI::MaskableGraphic::SetClipSoftness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::ParentMaskStateChanged
 // Il2CppName: ParentMaskStateChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::ParentMaskStateChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "ParentMaskStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_rootCanvasRect
 // Il2CppName: get_rootCanvasRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::get_rootCanvasRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "get_rootCanvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::UpdateClipParent
 // Il2CppName: UpdateClipParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::UpdateClipParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "UpdateClipParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::RecalculateClipping
 // Il2CppName: RecalculateClipping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::RecalculateClipping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::RecalculateMasking
 // Il2CppName: RecalculateMasking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::RecalculateMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject
 // Il2CppName: UnityEngine.UI.IClippable.get_gameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "UnityEngine.UI.IClippable.get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::OnTransformParentChanged
 // Il2CppName: OnTransformParentChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::OnTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::OnCanvasHierarchyChanged
 // Il2CppName: OnCanvasHierarchyChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::MaskableGraphic::*)()>(&UnityEngine::UI::MaskableGraphic::OnCanvasHierarchyChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskableGraphic*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

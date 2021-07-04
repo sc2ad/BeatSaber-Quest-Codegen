@@ -170,58 +170,153 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::get_factory
 // Il2CppName: get_factory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::DefaultControls::IFactoryControls* (*)()>(&UnityEngine::UI::DefaultControls::get_factory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "get_factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultTextValues
 // Il2CppName: SetDefaultTextValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues
 // Il2CppName: SetDefaultColorTransitionValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetParentAndAlign
 // Il2CppName: SetParentAndAlign
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetParentAndAlign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetLayerRecursively
 // Il2CppName: SetLayerRecursively
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetLayerRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreatePanel
 // Il2CppName: CreatePanel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreatePanel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreatePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateButton
 // Il2CppName: CreateButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateText
 // Il2CppName: CreateText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateImage
 // Il2CppName: CreateImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateRawImage
 // Il2CppName: CreateRawImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateRawImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateRawImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateSlider
 // Il2CppName: CreateSlider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateSlider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollbar
 // Il2CppName: CreateScrollbar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollbar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateToggle
 // Il2CppName: CreateToggle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateToggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateInputField
 // Il2CppName: CreateInputField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateInputField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateDropdown
 // Il2CppName: CreateDropdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateDropdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollView
 // Il2CppName: CreateScrollView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::DefaultControls::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

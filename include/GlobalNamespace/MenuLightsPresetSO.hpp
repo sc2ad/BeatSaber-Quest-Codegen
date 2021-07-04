@@ -81,13 +81,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor
 // Il2CppName: get_playersPlaceNeonsColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSO* (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_playersPlaceNeonsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsIntensity
 // Il2CppName: get_playersPlaceNeonsIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_playersPlaceNeonsIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs
 // Il2CppName: get_lightIdColorPairs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_lightIdColorPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

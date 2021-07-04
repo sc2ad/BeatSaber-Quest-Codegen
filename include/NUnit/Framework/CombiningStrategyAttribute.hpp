@@ -105,7 +105,17 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Fra
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::CombiningStrategyAttribute::BuildFrom
 // Il2CppName: BuildFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* (NUnit::Framework::CombiningStrategyAttribute::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&NUnit::Framework::CombiningStrategyAttribute::BuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::CombiningStrategyAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::CombiningStrategyAttribute::ApplyToTest
 // Il2CppName: ApplyToTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::CombiningStrategyAttribute::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::CombiningStrategyAttribute::ApplyToTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::CombiningStrategyAttribute*), "ApplyToTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};

@@ -107,37 +107,92 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::StringComparer*, "System", "StringComparer");
 // Writing MetadataGetter for method: System::StringComparer::get_InvariantCultureIgnoreCase
 // Il2CppName: get_InvariantCultureIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::StringComparer* (*)()>(&System::StringComparer::get_InvariantCultureIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "get_InvariantCultureIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::get_CurrentCultureIgnoreCase
 // Il2CppName: get_CurrentCultureIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::StringComparer* (*)()>(&System::StringComparer::get_CurrentCultureIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "get_CurrentCultureIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::get_Ordinal
 // Il2CppName: get_Ordinal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::StringComparer* (*)()>(&System::StringComparer::get_Ordinal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "get_Ordinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::get_OrdinalIgnoreCase
 // Il2CppName: get_OrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::StringComparer* (*)()>(&System::StringComparer::get_OrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "get_OrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::StringComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::StringComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::StringComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::StringComparer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::StringComparer::*)(::Il2CppObject*)>(&System::StringComparer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::StringComparer::*)(::Il2CppString*, ::Il2CppString*)>(&System::StringComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::StringComparer::*)(::Il2CppString*, ::Il2CppString*)>(&System::StringComparer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::StringComparer::*)(::Il2CppString*)>(&System::StringComparer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::StringComparer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::StringComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::StringComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -116,64 +116,169 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITypeInfo*, "NUnit.Framework.Interfaces", "ITypeInfo");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_Type
 // Il2CppName: get_Type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_BaseType
 // Il2CppName: get_BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::IsType
 // Il2CppName: IsType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)(System::Type*)>(&NUnit::Framework::Interfaces::ITypeInfo::IsType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "IsType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_FullName
 // Il2CppName: get_FullName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_FullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_Assembly
 // Il2CppName: get_Assembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_Assembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_Namespace
 // Il2CppName: get_Namespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_Namespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_IsAbstract
 // Il2CppName: get_IsAbstract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_IsAbstract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_IsAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_IsGenericType
 // Il2CppName: get_IsGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_IsGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_ContainsGenericParameters
 // Il2CppName: get_ContainsGenericParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_ContainsGenericParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_IsGenericTypeDefinition
 // Il2CppName: get_IsGenericTypeDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_IsGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_IsSealed
 // Il2CppName: get_IsSealed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_IsSealed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_IsSealed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_IsStaticClass
 // Il2CppName: get_IsStaticClass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_IsStaticClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_IsStaticClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName
 // Il2CppName: GetDisplayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName
 // Il2CppName: GetDisplayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetGenericTypeDefinition
 // Il2CppName: GetGenericTypeDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::GetGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::MakeGenericType
 // Il2CppName: MakeGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (NUnit::Framework::Interfaces::ITypeInfo::*)(::Array<System::Type*>*)>(&NUnit::Framework::Interfaces::ITypeInfo::MakeGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::HasMethodWithAttribute
 // Il2CppName: HasMethodWithAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)(System::Type*)>(&NUnit::Framework::Interfaces::ITypeInfo::HasMethodWithAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "HasMethodWithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetMethods
 // Il2CppName: GetMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IMethodInfo*>* (NUnit::Framework::Interfaces::ITypeInfo::*)(System::Reflection::BindingFlags)>(&NUnit::Framework::Interfaces::ITypeInfo::GetMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetConstructor
 // Il2CppName: GetConstructor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (NUnit::Framework::Interfaces::ITypeInfo::*)(::Array<System::Type*>*)>(&NUnit::Framework::Interfaces::ITypeInfo::GetConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::HasConstructor
 // Il2CppName: HasConstructor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITypeInfo::*)(::Array<System::Type*>*)>(&NUnit::Framework::Interfaces::ITypeInfo::HasConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "HasConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::Construct
 // Il2CppName: Construct
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Interfaces::ITypeInfo::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Interfaces::ITypeInfo::Construct)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};

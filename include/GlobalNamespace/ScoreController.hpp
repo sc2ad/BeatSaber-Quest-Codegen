@@ -460,121 +460,316 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::ScoreController::add_noteWasCutEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteWasCutDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_noteWasCutEvent
 // Il2CppName: remove_noteWasCutEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::ScoreController::remove_noteWasCutEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteWasCutDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_noteWasMissedEvent
 // Il2CppName: add_noteWasMissedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::ScoreController::add_noteWasMissedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::NoteData*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_noteWasMissedEvent
 // Il2CppName: remove_noteWasMissedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::ScoreController::remove_noteWasMissedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::NoteData*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_scoreDidChangeEvent
 // Il2CppName: add_scoreDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::ScoreController::add_scoreDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_scoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_scoreDidChangeEvent
 // Il2CppName: remove_scoreDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::ScoreController::remove_scoreDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_scoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_immediateMaxPossibleScoreDidChangeEvent
 // Il2CppName: add_immediateMaxPossibleScoreDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::ScoreController::add_immediateMaxPossibleScoreDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_immediateMaxPossibleScoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_immediateMaxPossibleScoreDidChangeEvent
 // Il2CppName: remove_immediateMaxPossibleScoreDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::ScoreController::remove_immediateMaxPossibleScoreDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_immediateMaxPossibleScoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_multiplierDidChangeEvent
 // Il2CppName: add_multiplierDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, float>*)>(&GlobalNamespace::ScoreController::add_multiplierDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_multiplierDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_multiplierDidChangeEvent
 // Il2CppName: remove_multiplierDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_2<int, float>*)>(&GlobalNamespace::ScoreController::remove_multiplierDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_multiplierDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<int, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_comboDidChangeEvent
 // Il2CppName: add_comboDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_1<int>*)>(&GlobalNamespace::ScoreController::add_comboDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_comboDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_comboDidChangeEvent
 // Il2CppName: remove_comboDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_1<int>*)>(&GlobalNamespace::ScoreController::remove_comboDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_comboDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_feverModeChargeProgressDidChangeEvent
 // Il2CppName: add_feverModeChargeProgressDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_1<float>*)>(&GlobalNamespace::ScoreController::add_feverModeChargeProgressDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_feverModeChargeProgressDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_feverModeChargeProgressDidChangeEvent
 // Il2CppName: remove_feverModeChargeProgressDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action_1<float>*)>(&GlobalNamespace::ScoreController::remove_feverModeChargeProgressDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_feverModeChargeProgressDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_feverDidStartEvent
 // Il2CppName: add_feverDidStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::add_feverDidStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_feverDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_feverDidStartEvent
 // Il2CppName: remove_feverDidStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::remove_feverDidStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_feverDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_feverDidFinishEvent
 // Il2CppName: add_feverDidFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::add_feverDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_feverDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_feverDidFinishEvent
 // Il2CppName: remove_feverDidFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::remove_feverDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_feverDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_comboBreakingEventHappenedEvent
 // Il2CppName: add_comboBreakingEventHappenedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::add_comboBreakingEventHappenedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "add_comboBreakingEventHappenedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::remove_comboBreakingEventHappenedEvent
 // Il2CppName: remove_comboBreakingEventHappenedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(System::Action*)>(&GlobalNamespace::ScoreController::remove_comboBreakingEventHappenedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "remove_comboBreakingEventHappenedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_prevFrameRawScore
 // Il2CppName: get_prevFrameRawScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_prevFrameRawScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_prevFrameRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_prevFrameModifiedScore
 // Il2CppName: get_prevFrameModifiedScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_prevFrameModifiedScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_prevFrameModifiedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_maxCombo
 // Il2CppName: get_maxCombo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_maxCombo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_maxCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_multiplierWithFever
 // Il2CppName: get_multiplierWithFever
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_multiplierWithFever)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_multiplierWithFever", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_feverModeActive
 // Il2CppName: get_feverModeActive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_feverModeActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_feverModeActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_feverModeDrainProgress
 // Il2CppName: get_feverModeDrainProgress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_feverModeDrainProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_feverModeDrainProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_feverModeChargeProgress
 // Il2CppName: get_feverModeChargeProgress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_feverModeChargeProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_feverModeChargeProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_immediateMaxPossibleRawScore
 // Il2CppName: get_immediateMaxPossibleRawScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_immediateMaxPossibleRawScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_immediateMaxPossibleRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_gameplayModifiersScoreMultiplier
 // Il2CppName: get_gameplayModifiersScoreMultiplier
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::get_gameplayModifiersScoreMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "get_gameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::SetEnabled
 // Il2CppName: SetEnabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(bool)>(&GlobalNamespace::ScoreController::SetEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "SetEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::LateUpdate
 // Il2CppName: LateUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)()>(&GlobalNamespace::ScoreController::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::LoseMultiplier
 // Il2CppName: LoseMultiplier
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(bool&, bool&)>(&GlobalNamespace::ScoreController::LoseMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "LoseMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::NotifyForChange
 // Il2CppName: NotifyForChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(bool, bool)>(&GlobalNamespace::ScoreController::NotifyForChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "NotifyForChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::ScoreController::HandleNoteWasCut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::HandleNoteWasMissed
 // Il2CppName: HandleNoteWasMissed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::ScoreController::HandleNoteWasMissed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::HandleCutScoreBufferDidFinish
 // Il2CppName: HandleCutScoreBufferDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreController::*)(GlobalNamespace::CutScoreBuffer*)>(&GlobalNamespace::ScoreController::HandleCutScoreBufferDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreController*), "HandleCutScoreBufferDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CutScoreBuffer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

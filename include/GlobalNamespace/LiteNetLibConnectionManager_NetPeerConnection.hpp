@@ -115,29 +115,69 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*, "", "LiteNetLibConnectionManager/NetPeerConnection");
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_userId
 // Il2CppName: get_userId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_userName
 // Il2CppName: get_userName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_isConnectionOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Send
 // Il2CppName: Send
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Send)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Disconnect
 // Il2CppName: Disconnect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)(::Il2CppObject*)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

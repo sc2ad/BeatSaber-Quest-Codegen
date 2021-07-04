@@ -95,52 +95,137 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_49_0*, "", "OVRPlugin/OVRP_1_49_0");
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_SetClientColorDesc
 // Il2CppName: ovrp_SetClientColorDesc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::ColorSpace)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_SetClientColorDesc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_SetClientColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ColorSpace>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_GetHmdColorDesc
 // Il2CppName: ovrp_GetHmdColorDesc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::ColorSpace&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_GetHmdColorDesc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_GetHmdColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ColorSpace&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameWithPoseTime
 // Il2CppName: ovrp_Media_EncodeMrcFrameWithPoseTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameWithPoseTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_EncodeMrcFrameWithPoseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime
 // Il2CppName: ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, System::IntPtr, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetHeadsetControllerPose
 // Il2CppName: ovrp_Media_SetHeadsetControllerPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetHeadsetControllerPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_SetHeadsetControllerPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EnumerateCameraAnchorHandles
 // Il2CppName: ovrp_Media_EnumerateCameraAnchorHandles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int&, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EnumerateCameraAnchorHandles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_EnumerateCameraAnchorHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCurrentCameraAnchorHandle
 // Il2CppName: ovrp_Media_GetCurrentCameraAnchorHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCurrentCameraAnchorHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCurrentCameraAnchorHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName
 // Il2CppName: ovrp_Media_GetCameraAnchorName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, ::Array<::Il2CppChar>*)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorHandle
 // Il2CppName: ovrp_Media_GetCameraAnchorHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorType
 // Il2CppName: ovrp_Media_GetCameraAnchorType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::CameraAnchorType&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraAnchorType&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_CreateCustomCameraAnchor
 // Il2CppName: ovrp_Media_CreateCustomCameraAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_CreateCustomCameraAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_CreateCustomCameraAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_DestroyCustomCameraAnchor
 // Il2CppName: ovrp_Media_DestroyCustomCameraAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_DestroyCustomCameraAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_DestroyCustomCameraAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCustomCameraAnchorPose
 // Il2CppName: ovrp_Media_GetCustomCameraAnchorPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCustomCameraAnchorPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCustomCameraAnchorPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCustomCameraAnchorPose
 // Il2CppName: ovrp_Media_SetCustomCameraAnchorPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCustomCameraAnchorPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_SetCustomCameraAnchorPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraMinMaxDistance
 // Il2CppName: ovrp_Media_GetCameraMinMaxDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, double&, double&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraMinMaxDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraMinMaxDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCameraMinMaxDistance
 // Il2CppName: ovrp_Media_SetCameraMinMaxDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, double, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCameraMinMaxDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_SetCameraMinMaxDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -328,103 +328,268 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftEyeCamera
 // Il2CppName: get_leftEyeCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_leftEyeCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_leftEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_rightEyeCamera
 // Il2CppName: get_rightEyeCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_rightEyeCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_rightEyeCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_trackingSpace
 // Il2CppName: get_trackingSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_trackingSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_trackingSpace
 // Il2CppName: set_trackingSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_trackingSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_trackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftEyeAnchor
 // Il2CppName: get_leftEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_leftEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_leftEyeAnchor
 // Il2CppName: set_leftEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_leftEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_leftEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_centerEyeAnchor
 // Il2CppName: get_centerEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_centerEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_centerEyeAnchor
 // Il2CppName: set_centerEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_centerEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_centerEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_rightEyeAnchor
 // Il2CppName: get_rightEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_rightEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_rightEyeAnchor
 // Il2CppName: set_rightEyeAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_rightEyeAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_rightEyeAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftHandAnchor
 // Il2CppName: get_leftHandAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_leftHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_leftHandAnchor
 // Il2CppName: set_leftHandAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_leftHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_leftHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_rightHandAnchor
 // Il2CppName: get_rightHandAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_rightHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_rightHandAnchor
 // Il2CppName: set_rightHandAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_rightHandAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_rightHandAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftControllerAnchor
 // Il2CppName: get_leftControllerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_leftControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_leftControllerAnchor
 // Il2CppName: set_leftControllerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_leftControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_leftControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_rightControllerAnchor
 // Il2CppName: get_rightControllerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_rightControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_rightControllerAnchor
 // Il2CppName: set_rightControllerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_rightControllerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_rightControllerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_trackerAnchor
 // Il2CppName: get_trackerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::get_trackerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "get_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::set_trackerAnchor
 // Il2CppName: set_trackerAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRCameraRig::set_trackerAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "set_trackerAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::add_UpdatedAnchors
 // Il2CppName: add_UpdatedAnchors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&GlobalNamespace::OVRCameraRig::add_UpdatedAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "add_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors
 // Il2CppName: remove_UpdatedAnchors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(System::Action_1<GlobalNamespace::OVRCameraRig*>*)>(&GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "remove_UpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OVRCameraRig*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::FixedUpdate
 // Il2CppName: FixedUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::UpdateAnchors
 // Il2CppName: UpdateAnchors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)(bool, bool)>(&GlobalNamespace::OVRCameraRig::UpdateAnchors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "UpdateAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::OnBeforeRenderCallback
 // Il2CppName: OnBeforeRenderCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::OnBeforeRenderCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "OnBeforeRenderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::RaiseUpdatedAnchorsEvent
 // Il2CppName: RaiseUpdatedAnchorsEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::RaiseUpdatedAnchorsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "RaiseUpdatedAnchorsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::EnsureGameObjectIntegrity
 // Il2CppName: EnsureGameObjectIntegrity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::EnsureGameObjectIntegrity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "EnsureGameObjectIntegrity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::ConfigureAnchor
 // Il2CppName: ConfigureAnchor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::OVRCameraRig::ConfigureAnchor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "ConfigureAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::ComputeTrackReferenceMatrix
 // Il2CppName: ComputeTrackReferenceMatrix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (GlobalNamespace::OVRCameraRig::*)()>(&GlobalNamespace::OVRCameraRig::ComputeTrackReferenceMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCameraRig*), "ComputeTrackReferenceMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

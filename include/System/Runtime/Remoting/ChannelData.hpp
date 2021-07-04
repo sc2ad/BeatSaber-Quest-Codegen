@@ -98,16 +98,36 @@ namespace System::Runtime::Remoting {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ServerProviders
 // Il2CppName: get_ServerProviders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_ServerProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ClientProviders
 // Il2CppName: get_ClientProviders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_ClientProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_CustomProperties
 // Il2CppName: get_CustomProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_CustomProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::CopyFrom
 // Il2CppName: CopyFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ChannelData::*)(System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::ChannelData::CopyFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ChannelData*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

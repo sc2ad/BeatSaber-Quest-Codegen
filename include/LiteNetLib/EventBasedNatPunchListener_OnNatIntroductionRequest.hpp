@@ -62,10 +62,25 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener::OnNatIntroduction
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::IAsyncResult*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

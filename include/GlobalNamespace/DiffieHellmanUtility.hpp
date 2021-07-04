@@ -114,22 +114,57 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync
 // Il2CppName: GenerateKeysAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiffieHellmanUtility::KeyType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeys
 // Il2CppName: GenerateKeys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDiffieHellmanKeyPair* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiffieHellmanUtility::KeyType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys
 // Il2CppName: GenerateDiffieHellmanKeys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateDiffieHellmanKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys
 // Il2CppName: GenerateElipticalCurveKeys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateElipticalCurveKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::DiffieHellmanUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

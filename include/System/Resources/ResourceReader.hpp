@@ -248,76 +248,201 @@ DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader*, "System.Resources", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Resources::ResourceReader::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)(bool)>(&System::Resources::ResourceReader::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::ReadUnalignedI4
 // Il2CppName: ReadUnalignedI4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int*)>(&System::Resources::ResourceReader::ReadUnalignedI4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "ReadUnalignedI4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::SkipString
 // Il2CppName: SkipString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::SkipString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "SkipString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::GetNameHash
 // Il2CppName: GetNameHash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetNameHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetNameHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::GetNamePosition
 // Il2CppName: GetNamePosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetNamePosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetNamePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::GetEnumeratorInternal
 // Il2CppName: GetEnumeratorInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::ResourceReader::ResourceEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::GetEnumeratorInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetEnumeratorInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::FindPosForResource
 // Il2CppName: FindPosForResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::FindPosForResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "FindPosForResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::CompareStringEqualsName
 // Il2CppName: CompareStringEqualsName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::CompareStringEqualsName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "CompareStringEqualsName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::AllocateStringForNameIndex
 // Il2CppName: AllocateStringForNameIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int, int&)>(&System::Resources::ResourceReader::AllocateStringForNameIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "AllocateStringForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::GetValueForNameIndex
 // Il2CppName: GetValueForNameIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetValueForNameIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetValueForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadString
 // Il2CppName: LoadString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObject
 // Il2CppName: LoadObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObject
 // Il2CppName: LoadObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::LoadObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObjectV1
 // Il2CppName: LoadObjectV1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadObjectV1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::_LoadObjectV1
 // Il2CppName: _LoadObjectV1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::_LoadObjectV1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObjectV2
 // Il2CppName: LoadObjectV2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::LoadObjectV2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::_LoadObjectV2
 // Il2CppName: _LoadObjectV2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::_LoadObjectV2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::DeserializeObject
 // Il2CppName: DeserializeObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::DeserializeObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::ReadResources
 // Il2CppName: ReadResources
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::ReadResources)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::_ReadResources
 // Il2CppName: _ReadResources
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::_ReadResources)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::ResourceReader::FindType
 // Il2CppName: FindType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::FindType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "FindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -67,13 +67,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallback*, "System.Text", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::DecoderFallbackBuffer* (System::Text::DecoderExceptionFallback::*)()>(&System::Text::DecoderExceptionFallback::CreateFallbackBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallback::get_MaxCharCount
 // Il2CppName: get_MaxCharCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderExceptionFallback::*)()>(&System::Text::DecoderExceptionFallback::get_MaxCharCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallback::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderExceptionFallback::*)(::Il2CppObject*)>(&System::Text::DecoderExceptionFallback::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallback::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderExceptionFallback::*)()>(&System::Text::DecoderExceptionFallback::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -118,22 +118,57 @@ DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeFieldHandle::*)()>(&System::RuntimeFieldHandle::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::RuntimeFieldHandle::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::RuntimeFieldHandle::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValueInternal
 // Il2CppName: SetValueInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::FieldInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&System::RuntimeFieldHandle::SetValueInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValue
 // Il2CppName: SetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::RtFieldInfo*, ::Il2CppObject*, ::Il2CppObject*, System::RuntimeType*, System::Reflection::FieldAttributes, System::RuntimeType*, bool&)>(&System::RuntimeFieldHandle::SetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RtFieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldAttributes>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValueDirect
 // Il2CppName: SetValueDirect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::RtFieldInfo*, System::RuntimeType*, void*, ::Il2CppObject*, System::RuntimeType*)>(&System::RuntimeFieldHandle::SetValueDirect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RtFieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeFieldHandle::*)(::Il2CppObject*)>(&System::RuntimeFieldHandle::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeFieldHandle::*)()>(&System::RuntimeFieldHandle::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -119,19 +119,44 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position
 // Il2CppName: get_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Rotation
 // Il2CppName: get_Rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Parent
 // Il2CppName: get_Parent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Parent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_InstantiateInWorldPosition
 // Il2CppName: get_InstantiateInWorldPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_InstantiateInWorldPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters), "get_InstantiateInWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_SetPositionRotation
 // Il2CppName: get_SetPositionRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_SetPositionRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters), "get_SetPositionRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::InstantiationParameters
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

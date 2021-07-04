@@ -70,37 +70,97 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_8_0*, "", "OVRPlugin/OVRP_1_8_0");
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured
 // Il2CppName: ovrp_GetBoundaryConfigured
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryConfigured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode
 // Il2CppName: ovrp_TestBoundaryNode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_TestBoundaryNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint
 // Il2CppName: ovrp_TestBoundaryPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Vector3f, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_TestBoundaryPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry
 // Il2CppName: ovrp_GetBoundaryGeometry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions
 // Il2CppName: ovrp_GetBoundaryDimensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible
 // Il2CppName: ovrp_GetBoundaryVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible
 // Il2CppName: ovrp_SetBoundaryVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_SetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2
 // Il2CppName: ovrp_Update2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int, int, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_Update2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2
 // Il2CppName: ovrp_GetNodePose2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodePose2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2
 // Il2CppName: ovrp_GetNodeVelocity2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodeVelocity2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2
 // Il2CppName: ovrp_GetNodeAcceleration2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodeAcceleration2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

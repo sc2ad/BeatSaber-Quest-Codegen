@@ -31,4 +31,9 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements*, "Oculus.Platform", "Entitlements");
 // Writing MetadataGetter for method: Oculus::Platform::Entitlements::IsUserEntitledToApplication
 // Il2CppName: IsUserEntitledToApplication
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Oculus::Platform::Entitlements::IsUserEntitledToApplication)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Entitlements*), "IsUserEntitledToApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -26,7 +26,17 @@ namespace Org::BouncyCastle::Utilities {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IMemoable*, "Org.BouncyCastle.Utilities", "IMemoable");
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IMemoable::Copy
 // Il2CppName: Copy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IMemoable* (Org::BouncyCastle::Utilities::IMemoable::*)()>(&Org::BouncyCastle::Utilities::IMemoable::Copy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IMemoable*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IMemoable::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IMemoable::*)(Org::BouncyCastle::Utilities::IMemoable*)>(&Org::BouncyCastle::Utilities::IMemoable::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IMemoable*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IMemoable*>()});
+  }
+};

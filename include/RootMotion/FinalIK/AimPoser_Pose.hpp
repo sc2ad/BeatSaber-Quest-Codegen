@@ -83,10 +83,20 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection
 // Il2CppName: IsInDirection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::AimPoser::Pose::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::AimPoser::Pose::IsInDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "IsInDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::SetAngleBuffer
 // Il2CppName: SetAngleBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimPoser::Pose::*)(float)>(&RootMotion::FinalIK::AimPoser::Pose::SetAngleBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "SetAngleBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

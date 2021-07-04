@@ -24,4 +24,9 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
 // Writing MetadataGetter for method: System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback
 // Il2CppName: PerformWaitCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::_ThreadPoolWaitCallback*), "PerformWaitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

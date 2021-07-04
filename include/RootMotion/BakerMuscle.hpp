@@ -84,19 +84,49 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::MuscleNameToPropertyName
 // Il2CppName: MuscleNameToPropertyName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RootMotion::BakerMuscle::*)(::Il2CppString*)>(&RootMotion::BakerMuscle::MuscleNameToPropertyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "MuscleNameToPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::MultiplyLength
 // Il2CppName: MultiplyLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerMuscle::MultiplyLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetCurves
 // Il2CppName: SetCurves
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(UnityEngine::AnimationClip*&, float, float)>(&RootMotion::BakerMuscle::SetCurves)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)()>(&RootMotion::BakerMuscle::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetKeyframe
 // Il2CppName: SetKeyframe
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(float, ::Array<float>*)>(&RootMotion::BakerMuscle::SetKeyframe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "SetKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetLoopFrame
 // Il2CppName: SetLoopFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(float)>(&RootMotion::BakerMuscle::SetLoopFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

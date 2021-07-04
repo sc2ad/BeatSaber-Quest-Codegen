@@ -181,116 +181,296 @@ namespace LiteNetLib::Utils {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Bytes
 // Il2CppName: get_Bytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Bytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_Bytes
 // Il2CppName: set_Bytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(::Array<uint8_t>*)>(&LiteNetLib::Utils::NtpPacket::set_Bytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_LeapIndicator
 // Il2CppName: get_LeapIndicator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpLeapIndicator (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_LeapIndicator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_LeapIndicator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_VersionNumber
 // Il2CppName: get_VersionNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_VersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_VersionNumber
 // Il2CppName: set_VersionNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::set_VersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Mode
 // Il2CppName: get_Mode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpMode (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_Mode
 // Il2CppName: set_Mode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(LiteNetLib::Utils::NtpMode)>(&LiteNetLib::Utils::NtpPacket::set_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NtpMode>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Stratum
 // Il2CppName: get_Stratum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Stratum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Stratum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Poll
 // Il2CppName: get_Poll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Poll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Precision
 // Il2CppName: get_Precision
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Precision)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Precision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_RootDelay
 // Il2CppName: get_RootDelay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_RootDelay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_RootDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_RootDispersion
 // Il2CppName: get_RootDispersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_RootDispersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_RootDispersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_ReferenceId
 // Il2CppName: get_ReferenceId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_ReferenceId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_ReferenceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_ReferenceTimestamp
 // Il2CppName: get_ReferenceTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_ReferenceTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_ReferenceTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_OriginTimestamp
 // Il2CppName: get_OriginTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_OriginTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_OriginTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_ReceiveTimestamp
 // Il2CppName: get_ReceiveTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_ReceiveTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_ReceiveTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_TransmitTimestamp
 // Il2CppName: get_TransmitTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_TransmitTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_TransmitTimestamp
 // Il2CppName: set_TransmitTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::set_TransmitTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_DestinationTimestamp
 // Il2CppName: get_DestinationTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_DestinationTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_DestinationTimestamp
 // Il2CppName: set_DestinationTimestamp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::set_DestinationTimestamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_RoundTripTime
 // Il2CppName: get_RoundTripTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_RoundTripTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_RoundTripTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_CorrectionOffset
 // Il2CppName: get_CorrectionOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_CorrectionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_CorrectionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::FromServerResponse
 // Il2CppName: FromServerResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::Array<uint8_t>*, System::DateTime)>(&LiteNetLib::Utils::NtpPacket::FromServerResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "FromServerResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::ValidateRequest
 // Il2CppName: ValidateRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::ValidateRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "ValidateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::ValidateReply
 // Il2CppName: ValidateReply
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::ValidateReply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "ValidateReply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::CheckTimestamps
 // Il2CppName: CheckTimestamps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::CheckTimestamps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "CheckTimestamps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetDateTime64
 // Il2CppName: GetDateTime64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetDateTime64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SetDateTime64
 // Il2CppName: SetDateTime64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int, System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::SetDateTime64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetTimeSpan32
 // Il2CppName: GetTimeSpan32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetTimeSpan32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetTimeSpan32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetUInt64BE
 // Il2CppName: GetUInt64BE
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetUInt64BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SetUInt64BE
 // Il2CppName: SetUInt64BE
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int, uint64_t)>(&LiteNetLib::Utils::NtpPacket::SetUInt64BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetInt32BE
 // Il2CppName: GetInt32BE
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetInt32BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetUInt32BE
 // Il2CppName: GetUInt32BE
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetUInt32BE)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SwapEndianness
 // Il2CppName: SwapEndianness
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SwapEndianness
 // Il2CppName: SwapEndianness
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::Utils::NtpPacket::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

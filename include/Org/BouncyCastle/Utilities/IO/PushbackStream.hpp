@@ -62,14 +62,29 @@ namespace Org::BouncyCastle::Utilities::IO {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::PushbackStream*, "Org.BouncyCastle.Utilities.IO", "PushbackStream");
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Unread
 // Il2CppName: Unread
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Unread)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::PushbackStream*), "Unread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::ReadByte
 // Il2CppName: ReadByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)()>(&Org::BouncyCastle::Utilities::IO::PushbackStream::ReadByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::PushbackStream*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::PushbackStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

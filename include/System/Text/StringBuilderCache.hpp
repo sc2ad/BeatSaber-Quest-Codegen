@@ -42,10 +42,25 @@ namespace System::Text {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilderCache*, "System.Text", "StringBuilderCache");
 // Writing MetadataGetter for method: System::Text::StringBuilderCache::Acquire
 // Il2CppName: Acquire
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(int)>(&System::Text::StringBuilderCache::Acquire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::StringBuilderCache::Release
 // Il2CppName: Release
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*)>(&System::Text::StringBuilderCache::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::StringBuilderCache::GetStringAndRelease
 // Il2CppName: GetStringAndRelease
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::StringBuilder*)>(&System::Text::StringBuilderCache::GetStringAndRelease)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "GetStringAndRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};

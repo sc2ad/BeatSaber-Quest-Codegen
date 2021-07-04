@@ -84,13 +84,33 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::CreatePoint
 // Il2CppName: CreatePoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::CreatePoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::get_Size
 // Il2CppName: get_Size
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)()>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::get_Size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::Lookup
 // Il2CppName: Lookup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::Lookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::LookupVar
 // Il2CppName: LookupVar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::LookupVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

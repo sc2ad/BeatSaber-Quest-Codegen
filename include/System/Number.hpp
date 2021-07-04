@@ -154,112 +154,297 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");
 // Writing MetadataGetter for method: System::Number::NumberBufferToDecimal
 // Il2CppName: NumberBufferToDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t*, System::Decimal&)>(&System::Number::NumberBufferToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberBufferToDouble
 // Il2CppName: NumberBufferToDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t*, double&)>(&System::Number::NumberBufferToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatDecimal
 // Il2CppName: FormatDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatDouble
 // Il2CppName: FormatDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatInt32
 // Il2CppName: FormatInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatUInt32
 // Il2CppName: FormatUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatInt64
 // Il2CppName: FormatInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatUInt64
 // Il2CppName: FormatUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::FormatSingle
 // Il2CppName: FormatSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::HexNumberToInt32
 // Il2CppName: HexNumberToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int&)>(&System::Number::HexNumberToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::HexNumberToInt64
 // Il2CppName: HexNumberToInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int64_t&)>(&System::Number::HexNumberToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::HexNumberToUInt32
 // Il2CppName: HexNumberToUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint&)>(&System::Number::HexNumberToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::HexNumberToUInt64
 // Il2CppName: HexNumberToUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint64_t&)>(&System::Number::HexNumberToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::IsWhite
 // Il2CppName: IsWhite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Number::IsWhite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "IsWhite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberToInt32
 // Il2CppName: NumberToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int&)>(&System::Number::NumberToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberToInt64
 // Il2CppName: NumberToInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int64_t&)>(&System::Number::NumberToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberToUInt32
 // Il2CppName: NumberToUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint&)>(&System::Number::NumberToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberToUInt64
 // Il2CppName: NumberToUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint64_t&)>(&System::Number::NumberToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::MatchChars
 // Il2CppName: MatchChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::Il2CppString*)>(&System::Number::MatchChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::MatchChars
 // Il2CppName: MatchChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Number::MatchChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseDecimal
 // Il2CppName: ParseDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseDouble
 // Il2CppName: ParseDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseInt32
 // Il2CppName: ParseInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseInt64
 // Il2CppName: ParseInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseNumber
 // Il2CppName: ParseNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*&, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::ParseNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseSingle
 // Il2CppName: ParseSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseUInt32
 // Il2CppName: ParseUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::ParseUInt64
 // Il2CppName: ParseUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::StringToNumber
 // Il2CppName: StringToNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::StringToNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "StringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TrailingZeros
 // Il2CppName: TrailingZeros
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Number::TrailingZeros)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryParseDouble
 // Il2CppName: TryParseDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, double&)>(&System::Number::TryParseDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryParseInt32
 // Il2CppName: TryParseInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, int&)>(&System::Number::TryParseInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryParseInt64
 // Il2CppName: TryParseInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, int64_t&)>(&System::Number::TryParseInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryParseSingle
 // Il2CppName: TryParseSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, float&)>(&System::Number::TryParseSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryParseUInt32
 // Il2CppName: TryParseUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, uint&)>(&System::Number::TryParseUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
 // Il2CppName: TryStringToNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
 // Il2CppName: TryStringToNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

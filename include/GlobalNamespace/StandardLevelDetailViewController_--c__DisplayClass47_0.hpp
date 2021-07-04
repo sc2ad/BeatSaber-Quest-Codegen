@@ -96,16 +96,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*, "", "StandardLevelDetailViewController/<>c__DisplayClass47_0");
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__2
 // Il2CppName: <DidActivate>b__2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::*)()>(&GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*), "<DidActivate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__3
 // Il2CppName: <DidActivate>b__3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::*)()>(&GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*), "<DidActivate>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__6
 // Il2CppName: <DidActivate>b__6
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::*)()>(&GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__6)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*), "<DidActivate>b__6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__7
 // Il2CppName: <DidActivate>b__7
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::*)()>(&GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__7)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*), "<DidActivate>b__7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

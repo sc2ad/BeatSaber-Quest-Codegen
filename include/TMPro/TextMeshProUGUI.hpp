@@ -509,211 +509,556 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCanvas
 // Il2CppName: GetCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateEnvMapMatrix
 // Il2CppName: UpdateEnvMapMatrix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateEnvMapMatrix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateEnvMapMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::EnableMasking
 // Il2CppName: EnableMasking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::EnableMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "EnableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::DisableMasking
 // Il2CppName: DisableMasking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::DisableMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "DisableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateMask
 // Il2CppName: UpdateMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetPerspectiveCorrection
 // Il2CppName: SetPerspectiveCorrection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetPerspectiveCorrection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetPerspectiveCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetMeshArrays
 // Il2CppName: SetMeshArrays
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(int)>(&TMPro::TextMeshProUGUI::SetMeshArrays)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetMeshArrays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnPreRenderCanvas
 // Il2CppName: OnPreRenderCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnPreRenderCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnPreRenderCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateSDFScale
 // Il2CppName: UpdateSDFScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(float)>(&TMPro::TextMeshProUGUI::UpdateSDFScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateSDFScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::CalculateLayoutInputVertical
 // Il2CppName: CalculateLayoutInputVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateSubObjectPivot
 // Il2CppName: UpdateSubObjectPivot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateSubObjectPivot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateSubObjectPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_maskOffset
 // Il2CppName: get_maskOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_maskOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::set_maskOffset
 // Il2CppName: set_maskOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Vector4)>(&TMPro::TextMeshProUGUI::set_maskOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "set_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateFontAsset
 // Il2CppName: UpdateFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::LoadFontAsset
 // Il2CppName: LoadFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::LoadFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "LoadFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetMaterial
 // Il2CppName: GetMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetMaterials
 // Il2CppName: GetMaterials
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TMPro::TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshProUGUI::GetMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetSharedMaterial
 // Il2CppName: SetSharedMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::SetSharedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetSharedMaterials
 // Il2CppName: GetSharedMaterials
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetSharedMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetSharedMaterials
 // Il2CppName: SetSharedMaterials
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshProUGUI::SetSharedMaterials)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetOutlineThickness
 // Il2CppName: SetOutlineThickness
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(float)>(&TMPro::TextMeshProUGUI::SetOutlineThickness)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetOutlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetFaceColor
 // Il2CppName: SetFaceColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetFaceColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetFaceColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetOutlineColor
 // Il2CppName: SetOutlineColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetOutlineColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetOutlineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetShaderDepth
 // Il2CppName: SetShaderDepth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetShaderDepth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetShaderDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetCulling
 // Il2CppName: SetCulling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetPaddingForMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetPaddingForMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetArraySizes
 // Il2CppName: SetArraySizes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshProUGUI::*)(::Array<TMPro::TMP_Text::UnicodeChar>*)>(&TMPro::TextMeshProUGUI::SetArraySizes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_Text::UnicodeChar>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::ComputeMarginSize
 // Il2CppName: ComputeMarginSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::ComputeMarginSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "ComputeMarginSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnDidApplyAnimationProperties
 // Il2CppName: OnDidApplyAnimationProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnDidApplyAnimationProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnCanvasHierarchyChanged
 // Il2CppName: OnCanvasHierarchyChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnCanvasHierarchyChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnTransformParentChanged
 // Il2CppName: OnTransformParentChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnTransformParentChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::OnRectTransformDimensionsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::InternalUpdate
 // Il2CppName: InternalUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::InternalUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "InternalUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GenerateTextMesh
 // Il2CppName: GenerateTextMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GenerateTextMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GenerateTextMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetTextContainerLocalCorners
 // Il2CppName: GetTextContainerLocalCorners
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetTextContainerLocalCorners)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetActiveSubMeshes
 // Il2CppName: SetActiveSubMeshes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(bool)>(&TMPro::TextMeshProUGUI::SetActiveSubMeshes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetActiveSubMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCompoundBounds
 // Il2CppName: GetCompoundBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCompoundBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetCompoundBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::AdjustLineOffset
 // Il2CppName: AdjustLineOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(int, int, float)>(&TMPro::TextMeshProUGUI::AdjustLineOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "AdjustLineOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_materialForRendering
 // Il2CppName: get_materialForRendering
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_materialForRendering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_autoSizeTextContainer
 // Il2CppName: get_autoSizeTextContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_autoSizeTextContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::set_autoSizeTextContainer
 // Il2CppName: set_autoSizeTextContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(bool)>(&TMPro::TextMeshProUGUI::set_autoSizeTextContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "set_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_mesh
 // Il2CppName: get_mesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_mesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_canvasRenderer
 // Il2CppName: get_canvasRenderer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_canvasRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetVerticesDirty
 // Il2CppName: SetVerticesDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetVerticesDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetLayoutDirty
 // Il2CppName: SetLayoutDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetLayoutDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetMaterialDirty
 // Il2CppName: SetMaterialDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetMaterialDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetAllDirty
 // Il2CppName: SetAllDirty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::SetAllDirty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::Rebuild
 // Il2CppName: Rebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::TextMeshProUGUI::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetModifiedMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateMaterial
 // Il2CppName: UpdateMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::RecalculateClipping
 // Il2CppName: RecalculateClipping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::RecalculateClipping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::RecalculateMasking
 // Il2CppName: RecalculateMasking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::RecalculateMasking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::Cull
 // Il2CppName: Cull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Rect, bool)>(&TMPro::TextMeshProUGUI::Cull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateMeshPadding
 // Il2CppName: UpdateMeshPadding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateMeshPadding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::InternalCrossFadeColor
 // Il2CppName: InternalCrossFadeColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color, float, bool, bool)>(&TMPro::TextMeshProUGUI::InternalCrossFadeColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "InternalCrossFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::InternalCrossFadeAlpha
 // Il2CppName: InternalCrossFadeAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(float, float, bool)>(&TMPro::TextMeshProUGUI::InternalCrossFadeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "InternalCrossFadeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::ForceMeshUpdate
 // Il2CppName: ForceMeshUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::ForceMeshUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::ForceMeshUpdate
 // Il2CppName: ForceMeshUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(bool)>(&TMPro::TextMeshProUGUI::ForceMeshUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetTextInfo
 // Il2CppName: GetTextInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextInfo* (TMPro::TextMeshProUGUI::*)(::Il2CppString*)>(&TMPro::TextMeshProUGUI::GetTextInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetTextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::ClearMesh
 // Il2CppName: ClearMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::ClearMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "ClearMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateGeometry
 // Il2CppName: UpdateGeometry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Mesh*, int)>(&TMPro::TextMeshProUGUI::UpdateGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateVertexData
 // Il2CppName: UpdateVertexData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(TMPro::TMP_VertexDataUpdateFlags)>(&TMPro::TextMeshProUGUI::UpdateVertexData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_VertexDataUpdateFlags>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateVertexData
 // Il2CppName: UpdateVertexData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::UpdateVertexData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -220,97 +220,257 @@ namespace System::Reflection::Emit {
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::EnumBuilder*, "System.Reflection.Emit", "EnumBuilder");
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_Assembly
 // Il2CppName: get_Assembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_Assembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName
 // Il2CppName: get_AssemblyQualifiedName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_AssemblyQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_BaseType
 // Il2CppName: get_BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_FullName
 // Il2CppName: get_FullName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_FullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_GUID
 // Il2CppName: get_GUID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_GUID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_GUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_Module
 // Il2CppName: get_Module
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_Module)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_Namespace
 // Il2CppName: get_Namespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_Namespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetElementType
 // Il2CppName: GetElementType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::GetElementType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType
 // Il2CppName: get_UnderlyingSystemType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "get_UnderlyingSystemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl
 // Il2CppName: GetAttributeFlagsImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::TypeAttributes (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetAttributeFlagsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetConstructorImpl
 // Il2CppName: GetConstructorImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::Reflection::Emit::EnumBuilder::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::EnumBuilder::GetConstructorImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetConstructors
 // Il2CppName: GetConstructors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (System::Reflection::Emit::EnumBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetConstructors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::EnumBuilder::*)(bool)>(&System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::EnumBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetEvent
 // Il2CppName: GetEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetField
 // Il2CppName: GetField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetFields
 // Il2CppName: GetFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (System::Reflection::Emit::EnumBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetInterfaces
 // Il2CppName: GetInterfaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::GetInterfaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetMethodImpl
 // Il2CppName: GetMethodImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::EnumBuilder::GetMethodImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetMethods
 // Il2CppName: GetMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (System::Reflection::Emit::EnumBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetNestedType
 // Il2CppName: GetNestedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetNestedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetProperties
 // Il2CppName: GetProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (System::Reflection::Emit::EnumBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::EnumBuilder::GetProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::GetPropertyImpl
 // Il2CppName: GetPropertyImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::EnumBuilder::GetPropertyImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::HasElementTypeImpl
 // Il2CppName: HasElementTypeImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::HasElementTypeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "HasElementTypeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::InvokeMember
 // Il2CppName: InvokeMember
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::EnumBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&System::Reflection::Emit::EnumBuilder::InvokeMember)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsArrayImpl
 // Il2CppName: IsArrayImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::IsArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsByRefImpl
 // Il2CppName: IsByRefImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::IsByRefImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsByRefImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl
 // Il2CppName: IsCOMObjectImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsCOMObjectImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsDefined
 // Il2CppName: IsDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::EnumBuilder::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsPointerImpl
 // Il2CppName: IsPointerImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::IsPointerImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsPointerImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl
 // Il2CppName: IsPrimitiveImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::EnumBuilder::*)()>(&System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::EnumBuilder*), "IsPrimitiveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

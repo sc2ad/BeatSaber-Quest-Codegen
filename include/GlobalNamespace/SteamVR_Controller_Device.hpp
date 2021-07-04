@@ -227,103 +227,273 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamV
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_index
 // Il2CppName: get_index
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_index)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::set_index
 // Il2CppName: set_index
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint)>(&GlobalNamespace::SteamVR_Controller::Device::set_index)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "set_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_valid
 // Il2CppName: get_valid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_valid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::set_valid
 // Il2CppName: set_valid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(bool)>(&GlobalNamespace::SteamVR_Controller::Device::set_valid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "set_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_connected
 // Il2CppName: get_connected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_connected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_hasTracking
 // Il2CppName: get_hasTracking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_hasTracking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_hasTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_outOfRange
 // Il2CppName: get_outOfRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_outOfRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_outOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_calibrating
 // Il2CppName: get_calibrating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_calibrating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_calibrating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_uninitialized
 // Il2CppName: get_uninitialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_uninitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_uninitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_transform
 // Il2CppName: get_transform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_velocity
 // Il2CppName: get_velocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_velocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity
 // Il2CppName: get_angularVelocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetState
 // Il2CppName: GetState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPrevState
 // Il2CppName: GetPrevState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPrevState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPrevState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPose
 // Il2CppName: GetPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPress
 // Il2CppName: GetPress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressDown
 // Il2CppName: GetPressDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressUp
 // Il2CppName: GetPressUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPress
 // Il2CppName: GetPress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressDown
 // Il2CppName: GetPressDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressUp
 // Il2CppName: GetPressUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouch
 // Il2CppName: GetTouch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchDown
 // Il2CppName: GetTouchDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchUp
 // Il2CppName: GetTouchUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouch
 // Il2CppName: GetTouch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchDown
 // Il2CppName: GetTouchDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchUp
 // Il2CppName: GetTouchUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetAxis
 // Il2CppName: GetAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint16_t, Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::UpdateHairTrigger
 // Il2CppName: UpdateHairTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::UpdateHairTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "UpdateHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetHairTrigger
 // Il2CppName: GetHairTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerDown
 // Il2CppName: GetHairTriggerDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTriggerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerUp
 // Il2CppName: GetHairTriggerUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTriggerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -158,22 +158,52 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsView
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController::OptionsButton, "", "OptionsViewController/OptionsButton");
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*)>(&GlobalNamespace::OptionsViewController::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*)>(&GlobalNamespace::OptionsViewController::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::$DidActivate$b__8_0
 // Il2CppName: <DidActivate>b__8_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)()>(&GlobalNamespace::OptionsViewController::$DidActivate$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::$DidActivate$b__8_1
 // Il2CppName: <DidActivate>b__8_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)()>(&GlobalNamespace::OptionsViewController::$DidActivate$b__8_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "<DidActivate>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::$DidActivate$b__8_2
 // Il2CppName: <DidActivate>b__8_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)()>(&GlobalNamespace::OptionsViewController::$DidActivate$b__8_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "<DidActivate>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OptionsViewController::*)(bool, bool, bool)>(&GlobalNamespace::OptionsViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

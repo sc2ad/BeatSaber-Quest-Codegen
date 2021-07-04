@@ -143,73 +143,193 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetResultAsObject
 // Il2CppName: GetResultAsObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetResultAsObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "GetResultAsObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType
 // Il2CppName: get_ResultType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_ResultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Version
 // Il2CppName: get_Version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_DebugName
 // Il2CppName: get_DebugName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_DebugName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::DecrementReferenceCount
 // Il2CppName: DecrementReferenceCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::DecrementReferenceCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "DecrementReferenceCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::IncrementReferenceCount
 // Il2CppName: IncrementReferenceCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::IncrementReferenceCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "IncrementReferenceCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ReferenceCount
 // Il2CppName: get_ReferenceCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ReferenceCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_ReferenceCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_PercentComplete
 // Il2CppName: get_PercentComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_PercentComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_PercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDownloadStatus
 // Il2CppName: GetDownloadStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDownloadStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Status
 // Il2CppName: get_Status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_OperationException
 // Il2CppName: get_OperationException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_OperationException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_OperationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_IsDone
 // Il2CppName: get_IsDone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_IsDone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::set_OnDestroy
 // Il2CppName: set_OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::set_OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "set_OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDependencies
 // Il2CppName: GetDependencies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_IsRunning
 // Il2CppName: get_IsRunning
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_IsRunning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_IsRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_CompletedTypeless
 // Il2CppName: add_CompletedTypeless
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_CompletedTypeless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "add_CompletedTypeless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_CompletedTypeless
 // Il2CppName: remove_CompletedTypeless
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_CompletedTypeless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "remove_CompletedTypeless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_Destroyed
 // Il2CppName: add_Destroyed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_Destroyed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "add_Destroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_Destroyed
 // Il2CppName: remove_Destroyed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_Destroyed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "remove_Destroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::InvokeCompletionEvent
 // Il2CppName: InvokeCompletionEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::InvokeCompletionEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "InvokeCompletionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Task
 // Il2CppName: get_Task
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppObject*>* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Task)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, GlobalNamespace::DelegateList_1<float>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DelegateList_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Handle
 // Il2CppName: get_Handle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::WaitForCompletion
 // Il2CppName: WaitForCompletion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::WaitForCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "WaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

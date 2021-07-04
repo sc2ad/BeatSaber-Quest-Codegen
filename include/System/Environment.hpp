@@ -193,124 +193,329 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Environment*, "System", "Environment");
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::GetResourceString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Environment::GetResourceString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetResourceStringEncodingName
 // Il2CppName: GetResourceStringEncodingName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Environment::GetResourceStringEncodingName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetResourceStringEncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_CurrentDirectory
 // Il2CppName: get_CurrentDirectory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_CurrentDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_CurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_CurrentManagedThreadId
 // Il2CppName: get_CurrentManagedThreadId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Environment::get_CurrentManagedThreadId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_CurrentManagedThreadId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_HasShutdownStarted
 // Il2CppName: get_HasShutdownStarted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Environment::get_HasShutdownStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_HasShutdownStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_MachineName
 // Il2CppName: get_MachineName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_MachineName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_MachineName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetNewLine
 // Il2CppName: GetNewLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetNewLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetNewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_NewLine
 // Il2CppName: get_NewLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_NewLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_NewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_Platform
 // Il2CppName: get_Platform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::PlatformID (*)()>(&System::Environment::get_Platform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_Platform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetOSVersionString
 // Il2CppName: GetOSVersionString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetOSVersionString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetOSVersionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_OSVersion
 // Il2CppName: get_OSVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::OperatingSystem* (*)()>(&System::Environment::get_OSVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_OSVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::CreateVersionFromString
 // Il2CppName: CreateVersionFromString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::Il2CppString*)>(&System::Environment::CreateVersionFromString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "CreateVersionFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_StackTrace
 // Il2CppName: get_StackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_TickCount
 // Il2CppName: get_TickCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Environment::get_TickCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_TickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_UserDomainName
 // Il2CppName: get_UserDomainName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_UserDomainName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_UserDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_UserName
 // Il2CppName: get_UserName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_UserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::Exit
 // Il2CppName: Exit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Environment::Exit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::ExpandEnvironmentVariables
 // Il2CppName: ExpandEnvironmentVariables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::ExpandEnvironmentVariables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "ExpandEnvironmentVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetCommandLineArgs
 // Il2CppName: GetCommandLineArgs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::Environment::GetCommandLineArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetCommandLineArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::internalGetEnvironmentVariable_native
 // Il2CppName: internalGetEnvironmentVariable_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Environment::internalGetEnvironmentVariable_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetEnvironmentVariable_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::internalGetEnvironmentVariable
 // Il2CppName: internalGetEnvironmentVariable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::internalGetEnvironmentVariable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariable
 // Il2CppName: GetEnvironmentVariable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::GetEnvironmentVariable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariablesNoCase
 // Il2CppName: GetEnvironmentVariablesNoCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (*)()>(&System::Environment::GetEnvironmentVariablesNoCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariablesNoCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetFolderPath
 // Il2CppName: GetFolderPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder)>(&System::Environment::GetFolderPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolder>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetWindowsFolderPath
 // Il2CppName: GetWindowsFolderPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Environment::GetWindowsFolderPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetWindowsFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetFolderPath
 // Il2CppName: GetFolderPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::GetFolderPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolder>(), ::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolderOption>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::ReadXdgUserDir
 // Il2CppName: ReadXdgUserDir
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Environment::ReadXdgUserDir)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "ReadXdgUserDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::UnixGetFolderPath
 // Il2CppName: UnixGetFolderPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::UnixGetFolderPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "UnixGetFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolder>(), ::il2cpp_utils::ExtractIndependentType<System::Environment::SpecialFolderOption>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrives
 // Il2CppName: GetLogicalDrives
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::Environment::GetLogicalDrives)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::FailFast
 // Il2CppName: FailFast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Exception*)>(&System::Environment::FailFast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "FailFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_Is64BitProcess
 // Il2CppName: get_Is64BitProcess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Environment::get_Is64BitProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_Is64BitProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_ProcessorCount
 // Il2CppName: get_ProcessorCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Environment::get_ProcessorCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_ProcessorCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_IsRunningOnWindows
 // Il2CppName: get_IsRunningOnWindows
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Environment::get_IsRunningOnWindows)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_IsRunningOnWindows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrivesInternal
 // Il2CppName: GetLogicalDrivesInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::Environment::GetLogicalDrivesInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrivesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariableNames
 // Il2CppName: GetEnvironmentVariableNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::Environment::GetEnvironmentVariableNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariableNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetMachineConfigPath
 // Il2CppName: GetMachineConfigPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetMachineConfigPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetMachineConfigPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::internalGetHome
 // Il2CppName: internalGetHome
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::internalGetHome)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetHome", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetPageSize
 // Il2CppName: GetPageSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Environment::GetPageSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetPageSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::get_IsUnix
 // Il2CppName: get_IsUnix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Environment::get_IsUnix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_IsUnix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Environment::GetStackTrace
 // Il2CppName: GetStackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*, bool)>(&System::Environment::GetStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

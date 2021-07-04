@@ -46,10 +46,25 @@ namespace System::Collections {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionaryEnumerator*, "System.Collections", "IDictionaryEnumerator");
 // Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Key
 // Il2CppName: get_Key
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Entry
 // Il2CppName: get_Entry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Entry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

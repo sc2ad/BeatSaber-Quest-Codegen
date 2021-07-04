@@ -109,25 +109,65 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerApplicationSpecific*, "Org.Bo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::IsConstructed
 // Il2CppName: IsConstructed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::IsConstructed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "IsConstructed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents
 // Il2CppName: GetContents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "GetContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::get_ApplicationTag
 // Il2CppName: get_ApplicationTag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::get_ApplicationTag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "get_ApplicationTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::GetObject
 // Il2CppName: GetObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber
 // Il2CppName: ReplaceTagNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "ReplaceTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::Encode
 // Il2CppName: Encode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::Encode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1Equals
 // Il2CppName: Asn1Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1GetHashCode
 // Il2CppName: Asn1GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

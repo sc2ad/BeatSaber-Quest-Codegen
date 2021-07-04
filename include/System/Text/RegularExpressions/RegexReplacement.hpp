@@ -33,4 +33,9 @@ namespace System::Text::RegularExpressions {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::Replace
 // Il2CppName: Replace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::RegularExpressions::MatchEvaluator*, System::Text::RegularExpressions::Regex*, ::Il2CppString*, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexReplacement*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::MatchEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

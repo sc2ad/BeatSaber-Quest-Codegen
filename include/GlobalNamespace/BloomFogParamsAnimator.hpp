@@ -81,19 +81,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator*, "", "BloomFogParamsAnimator");
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange
 // Il2CppName: AnimateBloomFogParamsChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimateBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine
 // Il2CppName: AnimationCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange
 // Il2CppName: SetBloomFogParamsChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams
 // Il2CppName: GetDefaultBloomFogParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (GlobalNamespace::BloomFogParamsAnimator::*)()>(&GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "GetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams
 // Il2CppName: SetDefaultBloomFogParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

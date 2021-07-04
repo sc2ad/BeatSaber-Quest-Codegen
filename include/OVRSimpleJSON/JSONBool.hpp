@@ -124,31 +124,81 @@ DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONBool*, "OVRSimpleJSON", "JSONBool");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::get_Tag
 // Il2CppName: get_Tag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::get_Tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::get_IsBoolean
 // Il2CppName: get_IsBoolean
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::get_IsBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "get_IsBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::set_Value
 // Il2CppName: set_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONBool::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONBool::set_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::get_AsBool
 // Il2CppName: get_AsBool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::get_AsBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "get_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::set_AsBool
 // Il2CppName: set_AsBool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONBool::*)(bool)>(&OVRSimpleJSON::JSONBool::set_AsBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "set_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::WriteToStringBuilder
 // Il2CppName: WriteToStringBuilder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONBool::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&OVRSimpleJSON::JSONBool::WriteToStringBuilder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "WriteToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONTextMode>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONBool::*)(::Il2CppObject*)>(&OVRSimpleJSON::JSONBool::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONBool::*)()>(&OVRSimpleJSON::JSONBool::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONBool*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

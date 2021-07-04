@@ -188,58 +188,128 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "Conven
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual
 // Il2CppName: DerivingFromOrEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFrom
 // Il2CppName: DerivingFrom
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFrom
 // Il2CppName: DerivingFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::DerivingFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithAttribute
 // Il2CppName: WithAttribute
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithAttribute
 // Il2CppName: WithAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::WithAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithoutAttribute
 // Il2CppName: WithoutAttribute
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithoutAttribute
 // Il2CppName: WithoutAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::WithoutAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithoutAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithAttributeWhere
 // Il2CppName: WithAttributeWhere
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::Where
 // Il2CppName: Where
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Func_2<System::Type*, bool>*)>(&Zenject::ConventionFilterTypesBinder::Where)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "Where", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Type*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespace
 // Il2CppName: InNamespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::InNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespaces
 // Il2CppName: InNamespaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Array<::Il2CppString*>*)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespaces
 // Il2CppName: InNamespaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithSuffix
 // Il2CppName: WithSuffix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::WithSuffix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithPrefix
 // Il2CppName: WithPrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::WithPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
 // Il2CppName: MatchingRegex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
 // Il2CppName: MatchingRegex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*, System::Text::RegularExpressions::RegexOptions)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexOptions>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
 // Il2CppName: MatchingRegex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Text::RegularExpressions::Regex*)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::IsInNamespace
 // Il2CppName: IsInNamespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::IsInNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "IsInNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

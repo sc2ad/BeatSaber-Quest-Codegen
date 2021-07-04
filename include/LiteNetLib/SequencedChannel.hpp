@@ -110,7 +110,17 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedCh
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::SequencedChannel::SendNextPackets
 // Il2CppName: SendNextPackets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::SequencedChannel::*)()>(&LiteNetLib::SequencedChannel::SendNextPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::SequencedChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::SequencedChannel::ProcessPacket
 // Il2CppName: ProcessPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::SequencedChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::SequencedChannel::ProcessPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::SequencedChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};

@@ -72,37 +72,97 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_44_0*, "", "OVRPlugin/OVRP_1_44_0");
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled
 // Il2CppName: ovrp_GetHandTrackingEnabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetHandTrackingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandState
 // Il2CppName: ovrp_GetHandState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Step, GlobalNamespace::OVRPlugin::Hand, GlobalNamespace::OVRPlugin::HandStateInternal&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetHandState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Hand>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::HandStateInternal&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetSkeleton
 // Il2CppName: ovrp_GetSkeleton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::SkeletonType, GlobalNamespace::OVRPlugin::Skeleton&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetSkeleton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetSkeleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::SkeletonType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Skeleton&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetMesh
 // Il2CppName: ovrp_GetMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::MeshType, System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::MeshType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraFov
 // Il2CppName: ovrp_OverrideExternalCameraFov
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::Fovf&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraFov)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_OverrideExternalCameraFov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Fovf&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov
 // Il2CppName: ovrp_GetUseOverriddenExternalCameraFov
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetUseOverriddenExternalCameraFov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose
 // Il2CppName: ovrp_OverrideExternalCameraStaticPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_OverrideExternalCameraStaticPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose
 // Il2CppName: ovrp_GetUseOverriddenExternalCameraStaticPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetUseOverriddenExternalCameraStaticPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_ResetDefaultExternalCamera
 // Il2CppName: ovrp_ResetDefaultExternalCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_ResetDefaultExternalCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_ResetDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_SetDefaultExternalCamera
 // Il2CppName: ovrp_SetDefaultExternalCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, GlobalNamespace::OVRPlugin::CameraIntrinsics&, GlobalNamespace::OVRPlugin::CameraExtrinsics&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_SetDefaultExternalCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_SetDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraIntrinsics&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount
 // Il2CppName: ovrp_GetLocalTrackingSpaceRecenterCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetLocalTrackingSpaceRecenterCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

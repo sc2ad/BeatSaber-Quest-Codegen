@@ -49,7 +49,12 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaClass*, "UnityEngine", "AndroidJa
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaClass::_AndroidJavaClass
 // Il2CppName: _AndroidJavaClass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaClass::*)(::Il2CppString*)>(&UnityEngine::AndroidJavaClass::_AndroidJavaClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaClass*), "_AndroidJavaClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaClass::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

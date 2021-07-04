@@ -88,22 +88,57 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRScreenshots*, "OVR.OpenVR", "CVRScreensho
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::RequestScreenshot
 // Il2CppName: RequestScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint&, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::RequestScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "RequestScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::HookScreenshot
 // Il2CppName: HookScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(::Array<OVR::OpenVR::EVRScreenshotType>*)>(&OVR::OpenVR::CVRScreenshots::HookScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::EVRScreenshotType>*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyType
 // Il2CppName: GetScreenshotPropertyType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotType (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotError&)>(&OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "GetScreenshotPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRScreenshotError&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyFilename
 // Il2CppName: GetScreenshotPropertyFilename
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotPropertyFilenames, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRScreenshotError&)>(&OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyFilename)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "GetScreenshotPropertyFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRScreenshotPropertyFilenames>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRScreenshotError&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::UpdateScreenshotProgress
 // Il2CppName: UpdateScreenshotProgress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint, float)>(&OVR::OpenVR::CVRScreenshots::UpdateScreenshotProgress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "UpdateScreenshotProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::TakeStereoScreenshot
 // Il2CppName: TakeStereoScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint&, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::TakeStereoScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::SubmitScreenshot
 // Il2CppName: SubmitScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::SubmitScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "SubmitScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

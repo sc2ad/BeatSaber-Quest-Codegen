@@ -76,16 +76,41 @@ namespace UnityEngine::ResourceManagement {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueue*, "UnityEngine.ResourceManagement", "WebRequestQueue");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::SetMaxConcurrentRequests
 // Il2CppName: SetMaxConcurrentRequests
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::ResourceManagement::WebRequestQueue::SetMaxConcurrentRequests)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueue*), "SetMaxConcurrentRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::get_ShouldQueueNextRequest
 // Il2CppName: get_ShouldQueueNextRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::ResourceManagement::WebRequestQueue::get_ShouldQueueNextRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueue*), "get_ShouldQueueNextRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::QueueRequest
 // Il2CppName: QueueRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::WebRequestQueueOperation* (*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::ResourceManagement::WebRequestQueue::QueueRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueue*), "QueueRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::OnWebAsyncOpComplete
 // Il2CppName: OnWebAsyncOpComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::WebRequestQueue::OnWebAsyncOpComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueue*), "OnWebAsyncOpComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ResourceManagement::WebRequestQueue::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueue*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

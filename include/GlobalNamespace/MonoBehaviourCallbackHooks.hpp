@@ -69,16 +69,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonoBehaviourCallbackHooks*, "", "MonoBehaviourCallbackHooks");
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::add_OnUpdateDelegate
 // Il2CppName: add_OnUpdateDelegate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MonoBehaviourCallbackHooks::*)(System::Action_1<float>*)>(&GlobalNamespace::MonoBehaviourCallbackHooks::add_OnUpdateDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "add_OnUpdateDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::remove_OnUpdateDelegate
 // Il2CppName: remove_OnUpdateDelegate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MonoBehaviourCallbackHooks::*)(System::Action_1<float>*)>(&GlobalNamespace::MonoBehaviourCallbackHooks::remove_OnUpdateDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "remove_OnUpdateDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(&GlobalNamespace::MonoBehaviourCallbackHooks::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::GetGameObjectName
 // Il2CppName: GetGameObjectName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MonoBehaviourCallbackHooks::*)()>(&GlobalNamespace::MonoBehaviourCallbackHooks::GetGameObjectName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "GetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

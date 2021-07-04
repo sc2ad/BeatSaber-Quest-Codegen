@@ -75,10 +75,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNodePoseSyncStateSender*, "", "MockN
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockNodePoseSyncStateSender::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNodePoseSyncStateSender::*)()>(&GlobalNamespace::MockNodePoseSyncStateSender::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNodePoseSyncStateSender*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockNodePoseSyncStateSender::SendPose
 // Il2CppName: SendPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNodePoseSyncStateSender::*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable)>(&GlobalNamespace::MockNodePoseSyncStateSender::SendPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNodePoseSyncStateSender*), "SendPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate
 // Il2CppName: HandleNodePoseSyncStateUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNodePoseSyncStateSender::*)(GlobalNamespace::NodePoseSyncStateNetSerializable*, GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNodePoseSyncStateSender*), "HandleNodePoseSyncStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};

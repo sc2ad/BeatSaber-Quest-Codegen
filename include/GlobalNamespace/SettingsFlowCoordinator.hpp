@@ -182,38 +182,93 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsF
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController
 // Il2CppName: ShowSecretViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ShowSecretViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu
 // Il2CppName: HandleDidSelectSettingsSubMenu
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(GlobalNamespace::SettingsSubMenuInfo*, int)>(&GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "HandleDidSelectSettingsSubMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsSubMenuInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController
 // Il2CppName: ReplaceViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ReplaceViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish
 // Il2CppName: HandleSettingsNavigationControllerDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(GlobalNamespace::SettingsNavigationController::FinishAction)>(&GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "HandleSettingsNavigationControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsNavigationController::FinishAction>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ApplySettings
 // Il2CppName: ApplySettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::ApplySettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ApplySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::CancelSettings
 // Il2CppName: CancelSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::CancelSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "CancelSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::SettingsFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::SettingsFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SettingsFlowCoordinator::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

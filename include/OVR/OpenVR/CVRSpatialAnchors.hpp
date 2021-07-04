@@ -79,13 +79,33 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSpatialAnchors*, "OVR.OpenVR", "CVRSpatia
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor
 // Il2CppName: CreateSpatialAnchorFromDescriptor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(::Il2CppString*, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSpatialAnchors*), "CreateSpatialAnchorFromDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose
 // Il2CppName: CreateSpatialAnchorFromPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSpatialAnchors*), "CreateSpatialAnchorFromPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::SpatialAnchorPose_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose
 // Il2CppName: GetSpatialAnchorPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&)>(&OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSpatialAnchors*), "GetSpatialAnchorPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::SpatialAnchorPose_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor
 // Il2CppName: GetSpatialAnchorDescriptor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, System::Text::StringBuilder*, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSpatialAnchors*), "GetSpatialAnchorDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};

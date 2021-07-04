@@ -351,247 +351,657 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::FindOverlay
 // Il2CppName: FindOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVROverlay::FindOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "FindOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::CreateOverlay
 // Il2CppName: CreateOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVROverlay::CreateOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "CreateOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::DestroyOverlay
 // Il2CppName: DestroyOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::DestroyOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "DestroyOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetHighQualityOverlay
 // Il2CppName: SetHighQualityOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetHighQualityOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetHighQualityOverlay
 // Il2CppName: GetHighQualityOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::GetHighQualityOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayKey
 // Il2CppName: GetOverlayKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::EVROverlayError&)>(&OVR::OpenVR::CVROverlay::GetOverlayKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayName
 // Il2CppName: GetOverlayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::EVROverlayError&)>(&OVR::OpenVR::CVROverlay::GetOverlayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayName
 // Il2CppName: SetOverlayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::Il2CppString*)>(&OVR::OpenVR::CVROverlay::SetOverlayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayImageData
 // Il2CppName: GetOverlayImageData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr, uint, uint&, uint&)>(&OVR::OpenVR::CVROverlay::GetOverlayImageData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayImageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum
 // Il2CppName: GetOverlayErrorNameFromEnum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EVROverlayError)>(&OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRenderingPid
 // Il2CppName: SetOverlayRenderingPid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderingPid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayRenderingPid
 // Il2CppName: GetOverlayRenderingPid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::GetOverlayRenderingPid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayRenderingPid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayFlag
 // Il2CppName: SetOverlayFlag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayFlags, bool)>(&OVR::OpenVR::CVROverlay::SetOverlayFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayFlag
 // Il2CppName: GetOverlayFlag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayFlags, bool&)>(&OVR::OpenVR::CVROverlay::GetOverlayFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayFlags>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayColor
 // Il2CppName: SetOverlayColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayColor
 // Il2CppName: GetOverlayColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float&, float&, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayAlpha
 // Il2CppName: SetOverlayAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayAlpha
 // Il2CppName: GetOverlayAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTexelAspect
 // Il2CppName: SetOverlayTexelAspect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayTexelAspect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTexelAspect
 // Il2CppName: GetOverlayTexelAspect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayTexelAspect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTexelAspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlaySortOrder
 // Il2CppName: SetOverlaySortOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlaySortOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlaySortOrder
 // Il2CppName: GetOverlaySortOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&)>(&OVR::OpenVR::CVROverlay::GetOverlaySortOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlaySortOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters
 // Il2CppName: SetOverlayWidthInMeters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters
 // Il2CppName: GetOverlayWidthInMeters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayWidthInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: SetOverlayAutoCurveDistanceRangeInMeters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: GetOverlayAutoCurveDistanceRangeInMeters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float&, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayAutoCurveDistanceRangeInMeters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace
 // Il2CppName: SetOverlayTextureColorSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EColorSpace)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace
 // Il2CppName: GetOverlayTextureColorSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EColorSpace&)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTextureColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTextureBounds
 // Il2CppName: SetOverlayTextureBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VRTextureBounds_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureBounds
 // Il2CppName: GetOverlayTextureBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VRTextureBounds_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTextureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayRenderModel
 // Il2CppName: GetOverlayRenderModel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&)>(&OVR::OpenVR::CVROverlay::GetOverlayRenderModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRenderModel
 // Il2CppName: SetOverlayRenderModel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::Il2CppString*, OVR::OpenVR::HmdColor_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformType
 // Il2CppName: GetOverlayTransformType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayTransformType&)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTransformType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayTransformType&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute
 // Il2CppName: SetOverlayTransformAbsolute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute
 // Il2CppName: GetOverlayTransformAbsolute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin&, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative
 // Il2CppName: SetOverlayTransformTrackedDeviceRelative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative
 // Il2CppName: GetOverlayTransformTrackedDeviceRelative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTransformTrackedDeviceRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent
 // Il2CppName: SetOverlayTransformTrackedDeviceComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, ::Il2CppString*)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent
 // Il2CppName: GetOverlayTransformTrackedDeviceComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTransformTrackedDeviceComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative
 // Il2CppName: GetOverlayTransformOverlayRelative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint64_t&, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative
 // Il2CppName: SetOverlayTransformOverlayRelative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint64_t, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTransformOverlayRelative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowOverlay
 // Il2CppName: ShowOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ShowOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::HideOverlay
 // Il2CppName: HideOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::HideOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "HideOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::IsOverlayVisible
 // Il2CppName: IsOverlayVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::IsOverlayVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "IsOverlayVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates
 // Il2CppName: GetTransformForOverlayCoordinates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::HmdVector2_t, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetTransformForOverlayCoordinates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::PollNextOverlayEvent
 // Il2CppName: PollNextOverlayEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VREvent_t&, uint)>(&OVR::OpenVR::CVROverlay::PollNextOverlayEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "PollNextOverlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayInputMethod
 // Il2CppName: GetOverlayInputMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayInputMethod&)>(&OVR::OpenVR::CVROverlay::GetOverlayInputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayInputMethod&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayInputMethod
 // Il2CppName: SetOverlayInputMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayInputMethod)>(&OVR::OpenVR::CVROverlay::SetOverlayInputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayInputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayInputMethod>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayMouseScale
 // Il2CppName: GetOverlayMouseScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::HmdVector2_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayMouseScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayMouseScale
 // Il2CppName: SetOverlayMouseScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::HmdVector2_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayMouseScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayMouseScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ComputeOverlayIntersection
 // Il2CppName: ComputeOverlayIntersection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayIntersectionParams_t&, OVR::OpenVR::VROverlayIntersectionResults_t&)>(&OVR::OpenVR::CVROverlay::ComputeOverlayIntersection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ComputeOverlayIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayIntersectionParams_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayIntersectionResults_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::IsHoverTargetOverlay
 // Il2CppName: IsHoverTargetOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::IsHoverTargetOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "IsHoverTargetOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetGamepadFocusOverlay
 // Il2CppName: GetGamepadFocusOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::GetGamepadFocusOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay
 // Il2CppName: SetGamepadFocusOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayNeighbor
 // Il2CppName: SetOverlayNeighbor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EOverlayDirection, uint64_t, uint64_t)>(&OVR::OpenVR::CVROverlay::SetOverlayNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor
 // Il2CppName: MoveGamepadFocusToNeighbor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EOverlayDirection, uint64_t)>(&OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "MoveGamepadFocusToNeighbor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform
 // Il2CppName: SetOverlayDualAnalogTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, System::IntPtr, float)>(&OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform
 // Il2CppName: GetOverlayDualAnalogTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, OVR::OpenVR::HmdVector2_t&, float&)>(&OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayDualAnalogTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTexture
 // Il2CppName: SetOverlayTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::Texture_t&)>(&OVR::OpenVR::CVROverlay::SetOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::Texture_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ClearOverlayTexture
 // Il2CppName: ClearOverlayTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ClearOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ClearOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRaw
 // Il2CppName: SetOverlayRaw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr, uint, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRaw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayFromFile
 // Il2CppName: SetOverlayFromFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::Il2CppString*)>(&OVR::OpenVR::CVROverlay::SetOverlayFromFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTexture
 // Il2CppName: GetOverlayTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&)>(&OVR::OpenVR::CVROverlay::GetOverlayTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle
 // Il2CppName: ReleaseNativeOverlayHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr)>(&OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ReleaseNativeOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureSize
 // Il2CppName: GetOverlayTextureSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&, uint&)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::CreateDashboardOverlay
 // Il2CppName: CreateDashboardOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&, uint64_t&)>(&OVR::OpenVR::CVROverlay::CreateDashboardOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "CreateDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::IsDashboardVisible
 // Il2CppName: IsDashboardVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::IsDashboardVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "IsDashboardVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::IsActiveDashboardOverlay
 // Il2CppName: IsActiveDashboardOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::IsActiveDashboardOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "IsActiveDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess
 // Il2CppName: SetDashboardOverlaySceneProcess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess
 // Il2CppName: GetDashboardOverlaySceneProcess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&)>(&OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetDashboardOverlaySceneProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowDashboard
 // Il2CppName: ShowDashboard
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(::Il2CppString*)>(&OVR::OpenVR::CVROverlay::ShowDashboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowDashboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetPrimaryDashboardDevice
 // Il2CppName: GetPrimaryDashboardDevice
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::GetPrimaryDashboardDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetPrimaryDashboardDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowKeyboard
 // Il2CppName: ShowKeyboard
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay
 // Il2CppName: ShowKeyboardForOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowKeyboardForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetKeyboardText
 // Il2CppName: GetKeyboardText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetKeyboardText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetKeyboardText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::HideKeyboard
 // Il2CppName: HideKeyboard
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::HideKeyboard)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "HideKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute
 // Il2CppName: SetKeyboardTransformAbsolute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::HmdMatrix34_t&)>(&OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetKeyboardTransformAbsolute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdMatrix34_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay
 // Il2CppName: SetKeyboardPositionForOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::HmdRect2_t)>(&OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetKeyboardPositionForOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdRect2_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask
 // Il2CppName: SetOverlayIntersectionMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t&, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetOverlayIntersectionMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayFlags
 // Il2CppName: GetOverlayFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint&)>(&OVR::OpenVR::CVROverlay::GetOverlayFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowMessageOverlay
 // Il2CppName: ShowMessageOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::VRMessageOverlayResponse (OVR::OpenVR::CVROverlay::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVROverlay::ShowMessageOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::CloseMessageOverlay
 // Il2CppName: CloseMessageOverlay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)()>(&OVR::OpenVR::CVROverlay::CloseMessageOverlay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "CloseMessageOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -148,67 +148,172 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::get_instance
 // Il2CppName: get_instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::MaterialReferenceManager* (*)()>(&TMPro::MaterialReferenceManager::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontAsset
 // Il2CppName: AddFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::AddFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontAssetInternal
 // Il2CppName: AddFontAssetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::AddFontAssetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAsset
 // Il2CppName: AddSpriteAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAssetInternal
 // Il2CppName: AddSpriteAssetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAsset
 // Il2CppName: AddSpriteAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAssetInternal
 // Il2CppName: AddSpriteAssetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontMaterial
 // Il2CppName: AddFontMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Material*)>(&TMPro::MaterialReferenceManager::AddFontMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontMaterialInternal
 // Il2CppName: AddFontMaterialInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, UnityEngine::Material*)>(&TMPro::MaterialReferenceManager::AddFontMaterialInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddColorGradientPreset
 // Il2CppName: AddColorGradientPreset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_ColorGradient*)>(&TMPro::MaterialReferenceManager::AddColorGradientPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddColorGradientPreset_Internal
 // Il2CppName: AddColorGradientPreset_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*)>(&TMPro::MaterialReferenceManager::AddColorGradientPreset_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddColorGradientPreset_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAsset
 // Il2CppName: TryGetFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAssetInternal
 // Il2CppName: TryGetFontAssetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAssetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAsset
 // Il2CppName: TryGetSpriteAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal
 // Il2CppName: TryGetSpriteAssetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPreset
 // Il2CppName: TryGetColorGradientPreset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal
 // Il2CppName: TryGetColorGradientPresetInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetColorGradientPresetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterial
 // Il2CppName: TryGetMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterialInternal
 // Il2CppName: TryGetMaterialInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterialInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

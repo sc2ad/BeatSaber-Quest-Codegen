@@ -79,23 +79,53 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o
 // Il2CppName: get_o
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "get_o", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_a
 // Il2CppName: get_a
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_a)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "get_a", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_b
 // Il2CppName: get_b
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_b)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "get_b", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_c
 // Il2CppName: get_c
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_c)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "get_c", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_isValid
 // Il2CppName: get_isValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_isValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::Calculate
 // Il2CppName: Calculate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::Calculate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*), "Calculate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

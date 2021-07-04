@@ -71,19 +71,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "DisableWhenMirrorIsEnabled");
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror
 // Il2CppName: get_mirror
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Mirror* (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "get_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::set_mirror
 // Il2CppName: set_mirror
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(GlobalNamespace::Mirror*)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::set_mirror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "set_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Mirror*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::HandleMirrorDidChangeEnabledState
 // Il2CppName: HandleMirrorDidChangeEnabledState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(bool)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::HandleMirrorDidChangeEnabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "HandleMirrorDidChangeEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

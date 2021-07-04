@@ -58,14 +58,29 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingBrowseResult*, "Oculus.Platform", "MessageWithMatchmakingBrowseResult");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingBrowseResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingBrowseResult* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingBrowseResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingBrowseResult::GetMatchmakingEnqueueResult
 // Il2CppName: GetMatchmakingEnqueueResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResult* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)()>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetMatchmakingEnqueueResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingBrowseResult::GetRoomList
 // Il2CppName: GetRoomList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomList* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)()>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetRoomList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

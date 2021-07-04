@@ -70,7 +70,17 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::OperationTimer*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DiffieHellmanUtility::OperationTimer::*)()>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::Time
 // Il2CppName: Time
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::OperationTimer* (*)(::Il2CppString*)>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::Time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), "Time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

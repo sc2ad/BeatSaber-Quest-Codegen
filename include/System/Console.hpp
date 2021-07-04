@@ -125,46 +125,121 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Console*, "System", "Console");
 // Writing MetadataGetter for method: System::Console::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Console::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::SetupStreams
 // Il2CppName: SetupStreams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::Encoding*, System::Text::Encoding*)>(&System::Console::SetupStreams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetupStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::get_Error
 // Il2CppName: get_Error
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (*)()>(&System::Console::get_Error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::get_Out
 // Il2CppName: get_Out
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (*)()>(&System::Console::get_Out)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "get_Out", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::Open
 // Il2CppName: Open
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(System::IntPtr, System::IO::FileAccess, int)>(&System::Console::Open)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::OpenStandardError
 // Il2CppName: OpenStandardError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::OpenStandardInput
 // Il2CppName: OpenStandardInput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::OpenStandardOutput
 // Il2CppName: OpenStandardOutput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::SetOut
 // Il2CppName: SetOut
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*)>(&System::Console::SetOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::WriteLine
 // Il2CppName: WriteLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Console::WriteLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::get_InputEncoding
 // Il2CppName: get_InputEncoding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Console::get_InputEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "get_InputEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::get_OutputEncoding
 // Il2CppName: get_OutputEncoding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Console::get_OutputEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "get_OutputEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::ReadKey
 // Il2CppName: ReadKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)()>(&System::Console::ReadKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Console::ReadKey
 // Il2CppName: ReadKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)(bool)>(&System::Console::ReadKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Console::DoConsoleCancelEvent
 // Il2CppName: DoConsoleCancelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Console::DoConsoleCancelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "DoConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

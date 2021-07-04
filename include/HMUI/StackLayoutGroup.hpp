@@ -93,35 +93,85 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::get_childForceExpandWidth
 // Il2CppName: get_childForceExpandWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::get_childForceExpandWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::set_childForceExpandWidth
 // Il2CppName: set_childForceExpandWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(bool)>(&HMUI::StackLayoutGroup::set_childForceExpandWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::get_childForceExpandHeight
 // Il2CppName: get_childForceExpandHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::get_childForceExpandHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::set_childForceExpandHeight
 // Il2CppName: set_childForceExpandHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(bool)>(&HMUI::StackLayoutGroup::set_childForceExpandHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::CalcAlongAxis
 // Il2CppName: CalcAlongAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(int)>(&HMUI::StackLayoutGroup::CalcAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::SetChildrenAlongAxis
 // Il2CppName: SetChildrenAlongAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(int)>(&HMUI::StackLayoutGroup::SetChildrenAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::CalculateLayoutInputVertical
 // Il2CppName: CalculateLayoutInputVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

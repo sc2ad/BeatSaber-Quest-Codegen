@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*, "Valve.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::*)(Valve::VR::EVREventType)>(&Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREventType>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::*)(Valve::VR::EVREventType, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREventType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetEventTypeNameFromEnum::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

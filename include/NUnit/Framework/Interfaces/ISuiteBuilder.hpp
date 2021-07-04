@@ -38,7 +38,17 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ISuiteBuilder*, "NUnit.Framework.Interfaces", "ISuiteBuilder");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom
 // Il2CppName: BuildFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};

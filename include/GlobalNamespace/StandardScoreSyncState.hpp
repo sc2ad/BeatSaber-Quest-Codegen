@@ -122,34 +122,89 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::SetState
 // Il2CppName: SetState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState_Score, int)>(&GlobalNamespace::StandardScoreSyncState::SetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState_Score>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::GetDelta
 // Il2CppName: GetDelta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::GetDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::ApplyDelta
 // Il2CppName: ApplyDelta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::GetState
 // Il2CppName: GetState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState_Score)>(&GlobalNamespace::StandardScoreSyncState::GetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState_Score>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardScoreSyncState::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::StandardScoreSyncState::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardScoreSyncState::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::StandardScoreSyncState::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::GetSize
 // Il2CppName: GetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::StandardScoreSyncState::*)()>(&GlobalNamespace::StandardScoreSyncState::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta
 // Il2CppName: IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta
 // Il2CppName: IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IEquatableByReference$StandardScoreSyncState$_Equals
 // Il2CppName: IEquatableByReference<StandardScoreSyncState>.Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IEquatableByReference$StandardScoreSyncState$_Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IEquatableByReference<StandardScoreSyncState>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState&>()});
+  }
+};

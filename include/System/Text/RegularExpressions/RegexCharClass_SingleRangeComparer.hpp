@@ -44,7 +44,12 @@ namespace System::Text::RegularExpressions {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::*)(System::Text::RegularExpressions::RegexCharClass::SingleRange*, System::Text::RegularExpressions::RegexCharClass::SingleRange*)>(&System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCharClass::SingleRange*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCharClass::SingleRange*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

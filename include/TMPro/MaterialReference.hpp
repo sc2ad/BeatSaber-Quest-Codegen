@@ -135,10 +135,25 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::MaterialReference::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<TMPro::MaterialReference>*, TMPro::TMP_FontAsset*)>(&TMPro::MaterialReference::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReference), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReference::AddMaterialReference
 // Il2CppName: AddMaterialReference
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_FontAsset*, ::Array<TMPro::MaterialReference>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReference), "AddMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::MaterialReference::AddMaterialReference
 // Il2CppName: AddMaterialReference
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_SpriteAsset*, ::Array<TMPro::MaterialReference>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReference), "AddMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};

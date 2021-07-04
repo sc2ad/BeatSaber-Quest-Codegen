@@ -46,7 +46,12 @@ namespace System::Threading::Tasks {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::SetOnInvokeMres::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::SetOnInvokeMres::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::SetOnInvokeMres::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::SetOnInvokeMres*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::SetOnInvokeMres::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

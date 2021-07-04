@@ -59,7 +59,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusCode
 // Il2CppName: get_StatusCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatusCode (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusDescription
 // Il2CppName: get_StatusDescription
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

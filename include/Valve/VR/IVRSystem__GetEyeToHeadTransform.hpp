@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetEyeToHeadTransform*, "Valve.VR"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEyeToHeadTransform::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::IVRSystem::_GetEyeToHeadTransform::*)(Valve::VR::EVREye)>(&Valve::VR::IVRSystem::_GetEyeToHeadTransform::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEyeToHeadTransform*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEyeToHeadTransform::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetEyeToHeadTransform::*)(Valve::VR::EVREye, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetEyeToHeadTransform::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEyeToHeadTransform*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetEyeToHeadTransform::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::IVRSystem::_GetEyeToHeadTransform::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetEyeToHeadTransform::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetEyeToHeadTransform*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

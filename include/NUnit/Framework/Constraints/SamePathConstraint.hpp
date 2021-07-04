@@ -50,7 +50,17 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SamePathConstraint*, "NUni
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::SamePathConstraint::get_Description
 // Il2CppName: get_Description
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::SamePathConstraint::*)()>(&NUnit::Framework::Constraints::SamePathConstraint::get_Description)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::SamePathConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::SamePathConstraint::Matches
 // Il2CppName: Matches
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::SamePathConstraint::*)(::Il2CppString*)>(&NUnit::Framework::Constraints::SamePathConstraint::Matches)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::SamePathConstraint*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

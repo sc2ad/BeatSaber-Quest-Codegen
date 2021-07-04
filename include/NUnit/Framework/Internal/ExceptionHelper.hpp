@@ -61,16 +61,41 @@ namespace NUnit::Framework::Internal {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper*, "NUnit.Framework.Internal", "ExceptionHelper");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::ExceptionHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::BuildMessage
 // Il2CppName: BuildMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::BuildStackTrace
 // Il2CppName: BuildStackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "BuildStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::GetStackTrace
 // Il2CppName: GetStackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::GetStackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::FlattenExceptionHierarchy
 // Il2CppName: FlattenExceptionHierarchy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Exception*>* (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::FlattenExceptionHierarchy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "FlattenExceptionHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};

@@ -90,19 +90,49 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart
 // Il2CppName: get_intervalStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd
 // Il2CppName: get_intervalEnd
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::set_enable
 // Il2CppName: set_enable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(bool)>(&UnityEngine::Timeline::InfiniteRuntimeClip::set_enable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt
 // Il2CppName: EvaluateAt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt
 // Il2CppName: DisableAt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};

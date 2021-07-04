@@ -27,4 +27,9 @@ namespace System::Runtime::Serialization {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IDeserializationCallback*, "System.Runtime.Serialization", "IDeserializationCallback");
 // Writing MetadataGetter for method: System::Runtime::Serialization::IDeserializationCallback::OnDeserialization
 // Il2CppName: OnDeserialization
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::IDeserializationCallback::*)(::Il2CppObject*)>(&System::Runtime::Serialization::IDeserializationCallback::OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::IDeserializationCallback*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

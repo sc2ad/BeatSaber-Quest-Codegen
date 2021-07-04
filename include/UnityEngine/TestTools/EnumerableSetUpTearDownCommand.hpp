@@ -84,17 +84,37 @@ namespace UnityEngine::TestTools {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand");
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture
 // Il2CppName: GetMethodsWithAttributeFromFixture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (*)(System::Type*, System::Type*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*), "GetMethodsWithAttributeFromFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::InvokeBefore
 // Il2CppName: InvokeBefore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::InvokeBefore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*), "InvokeBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::InvokeAfter
 // Il2CppName: InvokeAfter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::InvokeAfter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*), "InvokeAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetState
 // Il2CppName: GetState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};

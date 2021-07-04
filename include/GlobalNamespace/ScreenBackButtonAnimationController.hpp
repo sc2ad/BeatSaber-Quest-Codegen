@@ -142,10 +142,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, ""
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenBackButtonAnimationController::*)()>(&GlobalNamespace::ScreenBackButtonAnimationController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenBackButtonAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::StartAnimation
 // Il2CppName: StartAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenBackButtonAnimationController::*)(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType)>(&GlobalNamespace::ScreenBackButtonAnimationController::StartAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenBackButtonAnimationController*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

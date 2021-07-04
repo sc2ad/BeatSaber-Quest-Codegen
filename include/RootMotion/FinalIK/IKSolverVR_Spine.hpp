@@ -511,76 +511,196 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Spine*, "RootMotion.FinalIK", "IKSolverVR/Spine");
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis
 // Il2CppName: get_pelvis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_pelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_firstSpineBone
 // Il2CppName: get_firstSpineBone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_firstSpineBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_firstSpineBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_chest
 // Il2CppName: get_chest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_chest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_chest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_neck
 // Il2CppName: get_neck
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_neck)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_neck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_head
 // Il2CppName: get_head
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_head)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRotation
 // Il2CppName: get_anchorRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRotation
 // Il2CppName: set_anchorRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "set_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRelativeToHead
 // Il2CppName: get_anchorRelativeToHead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRelativeToHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRelativeToHead
 // Il2CppName: set_anchorRelativeToHead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRelativeToHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "set_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::CalculateChestTargetRotation
 // Il2CppName: CalculateChestTargetRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::CalculateChestTargetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "CalculateChestTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Solve
 // Il2CppName: Solve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::Solve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::FABRIKPass
 // Il2CppName: FABRIKPass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::FABRIKPass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "FABRIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::SolvePelvis
 // Il2CppName: SolvePelvis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::SolvePelvis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "SolvePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::AdjustChestByHands
 // Il2CppName: AdjustChestByHands
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion&, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::AdjustChestByHands)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "AdjustChestByHands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::InverseTranslateToHead
 // Il2CppName: InverseTranslateToHead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, bool, bool, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::InverseTranslateToHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "InverseTranslateToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::TranslatePelvis
 // Il2CppName: TranslatePelvis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::TranslatePelvis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "TranslatePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::LimitPelvisPosition
 // Il2CppName: LimitPelvisPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, bool, int)>(&RootMotion::FinalIK::IKSolverVR::Spine::LimitPelvisPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "LimitPelvisPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Bend
 // Il2CppName: Bend
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, float, bool, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::Bend)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Bend
 // Il2CppName: Bend
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, UnityEngine::Quaternion, float, bool, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::Bend)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::OnRead
 // Il2CppName: OnRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*, bool, bool, bool, bool, bool, int, int)>(&RootMotion::FinalIK::IKSolverVR::Spine::OnRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::PreSolve
 // Il2CppName: PreSolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::PreSolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "PreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::ApplyOffsets
 // Il2CppName: ApplyOffsets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::ApplyOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "ApplyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*&, ::Array<UnityEngine::Quaternion>*&)>(&RootMotion::FinalIK::IKSolverVR::Spine::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*&>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::ResetOffsets
 // Il2CppName: ResetOffsets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::ResetOffsets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

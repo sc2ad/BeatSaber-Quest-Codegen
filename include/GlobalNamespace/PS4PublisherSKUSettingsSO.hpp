@@ -89,19 +89,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName
 // Il2CppName: get_skuName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_skuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_contentId
 // Il2CppName: get_contentId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_contentId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_contentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_parentalLockLevel
 // Il2CppName: get_parentalLockLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_parentalLockLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_parentalLockLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath
 // Il2CppName: get_npTitleFilenamePath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_npTitleFilenamePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_defaultAgeRestriction
 // Il2CppName: get_defaultAgeRestriction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_defaultAgeRestriction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_defaultAgeRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

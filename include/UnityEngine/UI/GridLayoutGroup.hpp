@@ -285,56 +285,141 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI",
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Constraint, "UnityEngine.UI", "GridLayoutGroup/Constraint");
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startCorner
 // Il2CppName: get_startCorner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GridLayoutGroup::Corner (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_startCorner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_startCorner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_startCorner
 // Il2CppName: set_startCorner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Corner)>(&UnityEngine::UI::GridLayoutGroup::set_startCorner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startCorner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Corner>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startAxis
 // Il2CppName: get_startAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GridLayoutGroup::Axis (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_startAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_startAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_startAxis
 // Il2CppName: set_startAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Axis)>(&UnityEngine::UI::GridLayoutGroup::set_startAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Axis>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_cellSize
 // Il2CppName: get_cellSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_cellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_cellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_cellSize
 // Il2CppName: set_cellSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::Vector2)>(&UnityEngine::UI::GridLayoutGroup::set_cellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_cellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_spacing
 // Il2CppName: get_spacing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_spacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_spacing
 // Il2CppName: set_spacing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::Vector2)>(&UnityEngine::UI::GridLayoutGroup::set_spacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_constraint
 // Il2CppName: get_constraint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GridLayoutGroup::Constraint (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_constraint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_constraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_constraint
 // Il2CppName: set_constraint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Constraint)>(&UnityEngine::UI::GridLayoutGroup::set_constraint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Constraint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_constraintCount
 // Il2CppName: get_constraintCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::get_constraintCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "get_constraintCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::set_constraintCount
 // Il2CppName: set_constraintCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(int)>(&UnityEngine::UI::GridLayoutGroup::set_constraintCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraintCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis
 // Il2CppName: SetCellsAlongAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(int)>(&UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "SetCellsAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputVertical
 // Il2CppName: CalculateLayoutInputVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::SetLayoutHorizontal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)()>(&UnityEngine::UI::GridLayoutGroup::SetLayoutVertical)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

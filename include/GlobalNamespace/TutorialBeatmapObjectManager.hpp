@@ -137,28 +137,73 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager*, "", "Tuto
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::get_activeObstacleControllers
 // Il2CppName: get_activeObstacleControllers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::TutorialBeatmapObjectManager::*)()>(&GlobalNamespace::TutorialBeatmapObjectManager::get_activeObstacleControllers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::SpawnObstacleInternal
 // Il2CppName: SpawnObstacleInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnObstacleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "SpawnObstacleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::SpawnBombNoteInternal
 // Il2CppName: SpawnBombNoteInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnBombNoteInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "SpawnBombNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::SpawnBasicNoteInternal
 // Il2CppName: SpawnBasicNoteInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnBasicNoteInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "SpawnBasicNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal
 // Il2CppName: DespawnInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal
 // Il2CppName: DespawnInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::DissolveAllObjects
 // Il2CppName: DissolveAllObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)()>(&GlobalNamespace::TutorialBeatmapObjectManager::DissolveAllObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::HideAllBeatmapObjects
 // Il2CppName: HideAllBeatmapObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(bool)>(&GlobalNamespace::TutorialBeatmapObjectManager::HideAllBeatmapObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::PauseAllBeatmapObjects
 // Il2CppName: PauseAllBeatmapObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(bool)>(&GlobalNamespace::TutorialBeatmapObjectManager::PauseAllBeatmapObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

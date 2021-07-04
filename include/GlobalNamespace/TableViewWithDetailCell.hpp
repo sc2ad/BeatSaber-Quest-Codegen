@@ -134,40 +134,100 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent
 // Il2CppName: add_didSelectContentCellEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "add_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent
 // Il2CppName: remove_didSelectContentCellEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "remove_didSelectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent
 // Il2CppName: add_didDeselectContentCellEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "add_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent
 // Il2CppName: remove_didDeselectContentCellEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*)>(&GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "remove_didDeselectContentCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::get_dataSource
 // Il2CppName: get_dataSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TableViewWithDetailCell::IDataSource* (GlobalNamespace::TableViewWithDetailCell::*)()>(&GlobalNamespace::TableViewWithDetailCell::get_dataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::set_dataSource
 // Il2CppName: set_dataSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(GlobalNamespace::TableViewWithDetailCell::IDataSource*)>(&GlobalNamespace::TableViewWithDetailCell::set_dataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell::IDataSource*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::CellSize
 // Il2CppName: CellSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TableViewWithDetailCell::*)()>(&GlobalNamespace::TableViewWithDetailCell::CellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::NumberOfCells
 // Il2CppName: NumberOfCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TableViewWithDetailCell::*)()>(&GlobalNamespace::TableViewWithDetailCell::NumberOfCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::CellForIdx
 // Il2CppName: CellForIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::TableViewWithDetailCell::*)(HMUI::TableView*, int)>(&GlobalNamespace::TableViewWithDetailCell::CellForIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::ReloadData
 // Il2CppName: ReloadData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(int)>(&GlobalNamespace::TableViewWithDetailCell::ReloadData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::ReloadData
 // Il2CppName: ReloadData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)()>(&GlobalNamespace::TableViewWithDetailCell::ReloadData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::DidSelectCellWithIdx
 // Il2CppName: DidSelectCellWithIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableViewWithDetailCell::*)(int)>(&GlobalNamespace::TableViewWithDetailCell::DidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell*), "DidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

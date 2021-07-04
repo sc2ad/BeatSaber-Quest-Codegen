@@ -55,10 +55,20 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
 // Writing MetadataGetter for method: Zenject::NullBindingFinalizer::get_BindingInheritanceMethod
 // Il2CppName: get_BindingInheritanceMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (Zenject::NullBindingFinalizer::*)()>(&Zenject::NullBindingFinalizer::get_BindingInheritanceMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::NullBindingFinalizer::FinalizeBinding
 // Il2CppName: FinalizeBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NullBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::NullBindingFinalizer::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::NullBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

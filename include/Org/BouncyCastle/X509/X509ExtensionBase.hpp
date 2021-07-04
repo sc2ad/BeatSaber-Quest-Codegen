@@ -53,10 +53,20 @@ namespace Org::BouncyCastle::X509 {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions
 // Il2CppName: GetX509Extensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetX509Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue
 // Il2CppName: GetExtensionValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::X509::X509ExtensionBase::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

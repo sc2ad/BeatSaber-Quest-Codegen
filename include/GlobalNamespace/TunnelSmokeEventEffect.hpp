@@ -124,13 +124,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TunnelSmokeEventEffect::*)()>(&GlobalNamespace::TunnelSmokeEventEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TunnelSmokeEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TunnelSmokeEventEffect::*)()>(&GlobalNamespace::TunnelSmokeEventEffect::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TunnelSmokeEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TunnelSmokeEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::TunnelSmokeEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TunnelSmokeEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

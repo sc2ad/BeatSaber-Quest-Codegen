@@ -153,61 +153,156 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Initialize
 // Il2CppName: Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::LayoutRebuilder::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ReapplyDrivenProperties
 // Il2CppName: ReapplyDrivenProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::ReapplyDrivenProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ReapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::get_transform
 // Il2CppName: get_transform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::IsDestroyed
 // Il2CppName: IsDestroyed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::IsDestroyed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::StripDisabledBehavioursFromList
 // Il2CppName: StripDisabledBehavioursFromList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::StripDisabledBehavioursFromList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "StripDisabledBehavioursFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ForceRebuildLayoutImmediate
 // Il2CppName: ForceRebuildLayoutImmediate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::ForceRebuildLayoutImmediate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ForceRebuildLayoutImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Rebuild
 // Il2CppName: Rebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::LayoutRebuilder::Rebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::PerformLayoutControl
 // Il2CppName: PerformLayoutControl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::PerformLayoutControl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::PerformLayoutCalculation
 // Il2CppName: PerformLayoutCalculation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::PerformLayoutCalculation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutCalculation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::MarkLayoutForRebuild
 // Il2CppName: MarkLayoutForRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::MarkLayoutForRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ValidController
 // Il2CppName: ValidController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::ValidController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ValidController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::MarkLayoutRootForRebuild
 // Il2CppName: MarkLayoutRootForRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::MarkLayoutRootForRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutRootForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::LayoutComplete
 // Il2CppName: LayoutComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::LayoutComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::GraphicUpdateComplete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutRebuilder::*)(::Il2CppObject*)>(&UnityEngine::UI::LayoutRebuilder::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::LayoutRebuilder::*)()>(&UnityEngine::UI::LayoutRebuilder::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

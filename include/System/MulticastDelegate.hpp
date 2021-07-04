@@ -95,28 +95,73 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");
 // Writing MetadataGetter for method: System::MulticastDelegate::LastIndexOf
 // Il2CppName: LastIndexOf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::MulticastDelegate::*)(::Array<System::Delegate*>*, ::Array<System::Delegate*>*)>(&System::MulticastDelegate::LastIndexOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Delegate*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MulticastDelegate::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::MulticastDelegate::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::DynamicInvokeImpl
 // Il2CppName: DynamicInvokeImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::MulticastDelegate::*)(::Array<::Il2CppObject*>*)>(&System::MulticastDelegate::DynamicInvokeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::MulticastDelegate::*)(::Il2CppObject*)>(&System::MulticastDelegate::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::MulticastDelegate::*)()>(&System::MulticastDelegate::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::GetMethodImpl
 // Il2CppName: GetMethodImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::MulticastDelegate::*)()>(&System::MulticastDelegate::GetMethodImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::GetInvocationList
 // Il2CppName: GetInvocationList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Delegate*>* (System::MulticastDelegate::*)()>(&System::MulticastDelegate::GetInvocationList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "GetInvocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::CombineImpl
 // Il2CppName: CombineImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::MulticastDelegate::*)(System::Delegate*)>(&System::MulticastDelegate::CombineImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "CombineImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MulticastDelegate::RemoveImpl
 // Il2CppName: RemoveImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::MulticastDelegate::*)(System::Delegate*)>(&System::MulticastDelegate::RemoveImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "RemoveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};

@@ -89,25 +89,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: add_resumeFromPauseAnimationDidFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)(System::Action*)>(&GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "add_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: remove_resumeFromPauseAnimationDidFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)(System::Action*)>(&GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "remove_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation
 // Il2CppName: StartEnterPauseAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "StartEnterPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation
 // Il2CppName: StartResumeFromPauseAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "StartResumeFromPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish
 // Il2CppName: EnterPauseAnimationDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "EnterPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish
 // Il2CppName: ResumeFromPauseAnimationDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "ResumeFromPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

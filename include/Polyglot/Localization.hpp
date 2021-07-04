@@ -236,91 +236,236 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Localization*, "Polyglot", "Localization");
 // Writing MetadataGetter for method: Polyglot::Localization::get_CustomDocument
 // Il2CppName: get_CustomDocument
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LocalizationDocument* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_CustomDocument)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_CustomDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_InputFiles
 // Il2CppName: get_InputFiles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_InputFiles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_InputFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_Instance
 // Il2CppName: get_Instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Localization* (*)()>(&Polyglot::Localization::get_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::set_Instance
 // Il2CppName: set_Instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Polyglot::Localization::set_Instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Localization*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_HasInstance
 // Il2CppName: get_HasInstance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Polyglot::Localization::get_HasInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_SupportedLanguages
 // Il2CppName: get_SupportedLanguages
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Polyglot::Language>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_SupportedLanguages)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_SupportedLanguages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_SelectedLanguageDirection
 // Il2CppName: get_SelectedLanguageDirection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LanguageDirection (Polyglot::Localization::*)()>(&Polyglot::Localization::get_SelectedLanguageDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_SelectedLanguageDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::GetLanguageDirection
 // Il2CppName: GetLanguageDirection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LanguageDirection (Polyglot::Localization::*)(Polyglot::Language)>(&Polyglot::Localization::GetLanguageDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "GetLanguageDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_SelectedLanguageIndex
 // Il2CppName: get_SelectedLanguageIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Polyglot::Localization::*)()>(&Polyglot::Localization::get_SelectedLanguageIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_SelectedLanguageIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_SelectedCultureInfo
 // Il2CppName: get_SelectedCultureInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_SelectedCultureInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_SelectedCultureInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_SelectedLanguage
 // Il2CppName: get_SelectedLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (Polyglot::Localization::*)()>(&Polyglot::Localization::get_SelectedLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_SelectedLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::set_SelectedLanguage
 // Il2CppName: set_SelectedLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)(Polyglot::Language)>(&Polyglot::Localization::set_SelectedLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "set_SelectedLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::IsLanguageSupported
 // Il2CppName: IsLanguageSupported
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::Localization::*)(Polyglot::Language)>(&Polyglot::Localization::IsLanguageSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "IsLanguageSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::InvokeOnLocalize
 // Il2CppName: InvokeOnLocalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)()>(&Polyglot::Localization::InvokeOnLocalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "InvokeOnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_EnglishLanguageNames
 // Il2CppName: get_EnglishLanguageNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_EnglishLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_LocalizedLanguageNames
 // Il2CppName: get_LocalizedLanguageNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_LocalizedLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_EnglishLanguageName
 // Il2CppName: get_EnglishLanguageName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_EnglishLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::get_LocalizedLanguageName
 // Il2CppName: get_LocalizedLanguageName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_LocalizedLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::SelectLanguage
 // Il2CppName: SelectLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)(int)>(&Polyglot::Localization::SelectLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "SelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::SelectLanguage
 // Il2CppName: SelectLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)(Polyglot::Language)>(&Polyglot::Localization::SelectLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "SelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::ConvertSystemLanguage
 // Il2CppName: ConvertSystemLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (Polyglot::Localization::*)(UnityEngine::SystemLanguage)>(&Polyglot::Localization::ConvertSystemLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "ConvertSystemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SystemLanguage>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::AddOnLocalizeEvent
 // Il2CppName: AddOnLocalizeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)(Polyglot::ILocalize*)>(&Polyglot::Localization::AddOnLocalizeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "AddOnLocalizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::ILocalize*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::RemoveOnLocalizeEvent
 // Il2CppName: RemoveOnLocalizeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::Localization::*)(Polyglot::ILocalize*)>(&Polyglot::Localization::RemoveOnLocalizeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "RemoveOnLocalizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::ILocalize*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Polyglot::Localization::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, Polyglot::Language)>(&Polyglot::Localization::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::KeyExist
 // Il2CppName: KeyExist
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Polyglot::Localization::KeyExist)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "KeyExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::GetKeys
 // Il2CppName: GetKeys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&Polyglot::Localization::GetKeys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::GetFormat
 // Il2CppName: GetFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Polyglot::Localization::GetFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::InputFilesContains
 // Il2CppName: InputFilesContains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::Localization::*)(Polyglot::LocalizationDocument*)>(&Polyglot::Localization::InputFilesContains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "InputFilesContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::LocalizationDocument*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::Localization::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

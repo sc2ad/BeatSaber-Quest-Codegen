@@ -109,28 +109,68 @@ DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Random::Sample
 // Il2CppName: Sample
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Random::*)()>(&System::Random::Sample)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Random::InternalSample
 // Il2CppName: InternalSample
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Random::*)()>(&System::Random::InternalSample)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "InternalSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Random::Next
 // Il2CppName: Next
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Random::*)()>(&System::Random::Next)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Random::GetSampleForLargeRange
 // Il2CppName: GetSampleForLargeRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Random::*)()>(&System::Random::GetSampleForLargeRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "GetSampleForLargeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Random::Next
 // Il2CppName: Next
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Random::*)(int, int)>(&System::Random::Next)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Random::Next
 // Il2CppName: Next
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Random::*)(int)>(&System::Random::Next)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Random::NextDouble
 // Il2CppName: NextDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Random::*)()>(&System::Random::NextDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "NextDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Random::NextBytes
 // Il2CppName: NextBytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Random::*)(::Array<uint8_t>*)>(&System::Random::NextBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Random*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Random::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

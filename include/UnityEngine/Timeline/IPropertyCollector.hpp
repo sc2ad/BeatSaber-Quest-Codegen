@@ -98,40 +98,95 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject
 // Il2CppName: PushActiveGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "PushActiveGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::PopActiveGameObject
 // Il2CppName: PopActiveGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)()>(&UnityEngine::Timeline::IPropertyCollector::PopActiveGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "PopActiveGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClip
 // Il2CppName: AddFromClip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClips
 // Il2CppName: AddFromClips
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClip
 // Il2CppName: AddFromClip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClips
 // Il2CppName: AddFromClips
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, ::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Component*, ::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromComponent
 // Il2CppName: AddFromComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, UnityEngine::Component*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddObjectProperties
 // Il2CppName: AddObjectProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Object*, UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddObjectProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddObjectProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+  }
+};

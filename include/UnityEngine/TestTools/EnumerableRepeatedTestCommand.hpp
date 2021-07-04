@@ -80,7 +80,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableRepeatedTestCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestTools::EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::EnumerableRepeatedTestCommand::ExecuteEnumerable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableRepeatedTestCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableRepeatedTestCommand::Execute
 // Il2CppName: Execute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestTools::EnumerableRepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::EnumerableRepeatedTestCommand::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableRepeatedTestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

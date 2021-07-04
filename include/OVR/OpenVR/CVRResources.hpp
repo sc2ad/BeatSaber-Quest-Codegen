@@ -64,7 +64,17 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources")
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRResources::LoadSharedResource
 // Il2CppName: LoadSharedResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, uint)>(&OVR::OpenVR::CVRResources::LoadSharedResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRResources*), "LoadSharedResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRResources::GetResourceFullPath
 // Il2CppName: GetResourceFullPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRResources::GetResourceFullPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRResources*), "GetResourceFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

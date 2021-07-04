@@ -121,32 +121,77 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_depth
 // Il2CppName: get_depth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::get_depth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_finalEventMask
 // Il2CppName: get_finalEventMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::get_finalEventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "get_finalEventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventMask
 // Il2CppName: get_eventMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "get_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::set_eventMask
 // Il2CppName: set_eventMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(UnityEngine::LayerMask)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::set_eventMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "set_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::Spherecast
 // Il2CppName: Spherecast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*, float)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::Spherecast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "Spherecast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::GetScreenPos
 // Il2CppName: GetScreenPos
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(UnityEngine::Vector3)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::GetScreenPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "GetScreenPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventCamera
 // Il2CppName: get_eventCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::get_eventCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_sortOrderPriority
 // Il2CppName: get_sortOrderPriority
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)()>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::get_sortOrderPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "get_sortOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::Raycast
 // Il2CppName: Raycast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRPhysicsRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+  }
+};

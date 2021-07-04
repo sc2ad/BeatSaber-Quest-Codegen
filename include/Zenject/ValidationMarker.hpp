@@ -84,13 +84,33 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationMarker*, "Zenject", "ValidationMarker"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ValidationMarker::get_InstantiateFailed
 // Il2CppName: get_InstantiateFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ValidationMarker::*)()>(&Zenject::ValidationMarker::get_InstantiateFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "get_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ValidationMarker::set_InstantiateFailed
 // Il2CppName: set_InstantiateFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(bool)>(&Zenject::ValidationMarker::set_InstantiateFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "set_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ValidationMarker::get_MarkedType
 // Il2CppName: get_MarkedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::ValidationMarker::*)()>(&Zenject::ValidationMarker::get_MarkedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "get_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ValidationMarker::set_MarkedType
 // Il2CppName: set_MarkedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*)>(&Zenject::ValidationMarker::set_MarkedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "set_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

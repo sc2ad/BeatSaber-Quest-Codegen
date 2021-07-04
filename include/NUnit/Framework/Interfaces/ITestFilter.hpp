@@ -39,7 +39,17 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFilter*, "NUnit.Framework.Interfaces", "ITestFilter");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFilter::Pass
 // Il2CppName: Pass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITestFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Interfaces::ITestFilter::Pass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFilter::IsExplicitMatch
 // Il2CppName: IsExplicitMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITestFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Interfaces::ITestFilter::IsExplicitMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};

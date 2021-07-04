@@ -191,52 +191,137 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::CalibratingAction
 // Il2CppName: CalibratingAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::CalibratingAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "CalibratingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::DeviceConnectedAction
 // Il2CppName: DeviceConnectedAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_2<int, bool>*)>(&GlobalNamespace::SteamVR_Events::DeviceConnectedAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "DeviceConnectedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_2<int, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::FadeAction
 // Il2CppName: FadeAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_3<UnityEngine::Color, float, bool>*)>(&GlobalNamespace::SteamVR_Events::FadeAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "FadeAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_3<UnityEngine::Color, float, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::FadeReadyAction
 // Il2CppName: FadeReadyAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::FadeReadyAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "FadeReadyAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::HideRenderModelsAction
 // Il2CppName: HideRenderModelsAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::HideRenderModelsAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "HideRenderModelsAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::InitializingAction
 // Il2CppName: InitializingAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InitializingAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "InitializingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::InputFocusAction
 // Il2CppName: InputFocusAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InputFocusAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "InputFocusAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingAction
 // Il2CppName: LoadingAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::LoadingAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingFadeInAction
 // Il2CppName: LoadingFadeInAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeInAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingFadeInAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingFadeOutAction
 // Il2CppName: LoadingFadeOutAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeOutAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingFadeOutAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::NewPosesAction
 // Il2CppName: NewPosesAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<::Array<Valve::VR::TrackedDevicePose_t>*>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<::Array<Valve::VR::TrackedDevicePose_t>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::NewPosesAppliedAction
 // Il2CppName: NewPosesAppliedAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::NewPosesAppliedAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAppliedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::OutOfRangeAction
 // Il2CppName: OutOfRangeAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::OutOfRangeAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "OutOfRangeAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::RenderModelLoadedAction
 // Il2CppName: RenderModelLoadedAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_2<GlobalNamespace::SteamVR_RenderModel*, bool>*)>(&GlobalNamespace::SteamVR_Events::RenderModelLoadedAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "RenderModelLoadedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_2<GlobalNamespace::SteamVR_RenderModel*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::System
 // Il2CppName: System
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Event_1<Valve::VR::VREvent_t>* (*)(Valve::VR::EVREventType)>(&GlobalNamespace::SteamVR_Events::System)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "System", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREventType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::SystemAction
 // Il2CppName: SystemAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(Valve::VR::EVREventType, UnityEngine::Events::UnityAction_1<Valve::VR::VREvent_t>*)>(&GlobalNamespace::SteamVR_Events::SystemAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "SystemAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREventType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<Valve::VR::VREvent_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_Events::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

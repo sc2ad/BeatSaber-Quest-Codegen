@@ -74,10 +74,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageE
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage
 // Il2CppName: BuildMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogMatch*)>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogMatch*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_ResultState
 // Il2CppName: get_ResultState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_ResultState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace
 // Il2CppName: get_StackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

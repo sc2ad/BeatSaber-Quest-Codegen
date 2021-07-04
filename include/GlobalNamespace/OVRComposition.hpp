@@ -108,22 +108,57 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition*, "", "OVRComposition");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::CompositionMethod
 // Il2CppName: CompositionMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::CompositionMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "CompositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRComposition::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::Cleanup
 // Il2CppName: Cleanup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::Cleanup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::RecenterPose
 // Il2CppName: RecenterPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::RecenterPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::RefreshCameraRig
 // Il2CppName: RefreshCameraRig
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*)>(&GlobalNamespace::OVRComposition::RefreshCameraRig)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "RefreshCameraRig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose
 // Il2CppName: ComputeCameraWorldSpacePose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRComposition::*)(GlobalNamespace::OVRPlugin::CameraExtrinsics)>(&GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "ComputeCameraWorldSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose
 // Il2CppName: ComputeCameraTrackingSpacePose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRComposition::*)(GlobalNamespace::OVRPlugin::CameraExtrinsics)>(&GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "ComputeCameraTrackingSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics>()});
+  }
+};

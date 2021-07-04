@@ -65,10 +65,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*, "", "MockBeatmapLoader/<>c__DisplayClass2_0");
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__0
 // Il2CppName: <GetBeatmapData>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::*)(GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*), "<GetBeatmapData>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmapSet*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__2
 // Il2CppName: <GetBeatmapData>b__2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*), "<GetBeatmapData>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

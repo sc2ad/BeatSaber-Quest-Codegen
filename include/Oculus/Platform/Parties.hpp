@@ -44,7 +44,17 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
 // Writing MetadataGetter for method: Oculus::Platform::Parties::GetCurrent
 // Il2CppName: GetCurrent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* (*)()>(&Oculus::Platform::Parties::GetCurrent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Parties::SetPartyUpdateNotificationCallback
 // Il2CppName: SetPartyUpdateNotificationCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*)>(&Oculus::Platform::Parties::SetPartyUpdateNotificationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "SetPartyUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*>()});
+  }
+};

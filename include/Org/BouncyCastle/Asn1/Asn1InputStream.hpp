@@ -120,7 +120,12 @@ namespace Org::BouncyCastle::Asn1 {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit
 // Il2CppName: FindLimit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "FindLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -131,37 +136,92 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCas
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject
 // Il2CppName: BuildObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(int, int, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "BuildObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadVector
 // Il2CppName: ReadVector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSequence
 // Il2CppName: CreateDerSequence
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSequence* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSequence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSet
 // Il2CppName: CreateDerSet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject
 // Il2CppName: ReadObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit
 // Il2CppName: get_Limit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber
 // Il2CppName: ReadTagNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadLength
 // Il2CppName: ReadLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int, bool)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer
 // Il2CppName: GetBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer
 // Il2CppName: GetBmpCharBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBmpCharBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject
 // Il2CppName: CreatePrimitiveDerObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreatePrimitiveDerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -117,31 +117,76 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerOptionsTableCell*, "", "NetworkPlayerOptionsTableCell");
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::get_player
 // Il2CppName: get_player
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayer* (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::get_player)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "get_player", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::set_player
 // Il2CppName: set_player
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)(GlobalNamespace::INetworkPlayer*)>(&GlobalNamespace::NetworkPlayerOptionsTableCell::set_player)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "set_player", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Refresh
 // Il2CppName: Refresh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Block
 // Il2CppName: Block
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Block)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Unblock
 // Il2CppName: Unblock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Unblock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Join
 // Il2CppName: Join
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Join)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Invite
 // Il2CppName: Invite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Invite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Kick
 // Il2CppName: Kick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Kick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Leave
 // Il2CppName: Leave
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&GlobalNamespace::NetworkPlayerOptionsTableCell::Leave)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -31,4 +31,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTypeHelper*, "", "AudioTypeHelper");
 // Writing MetadataGetter for method: GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath
 // Il2CppName: GetAudioTypeFromPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioType (*)(::Il2CppString*)>(&GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTypeHelper*), "GetAudioTypeFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

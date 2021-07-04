@@ -97,19 +97,44 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_sprite
 // Il2CppName: set_sprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControlCell::*)(UnityEngine::Sprite*)>(&HMUI::IconSegmentedControlCell::set_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::get_sprite
 // Il2CppName: get_sprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::IconSegmentedControlCell::*)()>(&HMUI::IconSegmentedControlCell::get_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_hintText
 // Il2CppName: set_hintText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControlCell::*)(::Il2CppString*)>(&HMUI::IconSegmentedControlCell::set_hintText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_iconSize
 // Il2CppName: set_iconSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControlCell::*)(float)>(&HMUI::IconSegmentedControlCell::set_iconSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "set_iconSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_hideBackgroundImage
 // Il2CppName: set_hideBackgroundImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControlCell::*)(bool)>(&HMUI::IconSegmentedControlCell::set_hideBackgroundImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "set_hideBackgroundImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -87,17 +87,37 @@ DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverterAttribute*, "System.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName
 // Il2CppName: get_ConverterTypeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::TypeConverterAttribute::*)()>(&System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverterAttribute*), "get_ConverterTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::ComponentModel::TypeConverterAttribute::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverterAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverterAttribute::*)(::Il2CppObject*)>(&System::ComponentModel::TypeConverterAttribute::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverterAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::TypeConverterAttribute::*)()>(&System::ComponentModel::TypeConverterAttribute::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverterAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

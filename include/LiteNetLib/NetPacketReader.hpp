@@ -79,10 +79,25 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketRea
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::SetSource
 // Il2CppName: SetSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPacketReader::SetSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::RecycleInternal
 // Il2CppName: RecycleInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::RecycleInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "RecycleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::Recycle
 // Il2CppName: Recycle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::Recycle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

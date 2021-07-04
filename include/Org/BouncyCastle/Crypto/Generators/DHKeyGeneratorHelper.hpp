@@ -63,13 +63,28 @@ namespace Org::BouncyCastle::Crypto::Generators {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate
 // Il2CppName: CalculatePrivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), "CalculatePrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic
 // Il2CppName: CalculatePublic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), "CalculatePublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHParameters*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -153,10 +153,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity
 // Il2CppName: get_identity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::FromLocal
 // Il2CppName: FromLocal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (*)(UnityEngine::Transform*)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::FromLocal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "FromLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::RigidTransform
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -179,37 +189,92 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "Stea
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::ToHmdMatrix44
 // Il2CppName: ToHmdMatrix44
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix44_t (GlobalNamespace::SteamVR_Utils::RigidTransform::*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::ToHmdMatrix44)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "ToHmdMatrix44", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::ToHmdMatrix34
 // Il2CppName: ToHmdMatrix34
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (GlobalNamespace::SteamVR_Utils::RigidTransform::*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::ToHmdMatrix34)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "ToHmdMatrix34", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Inverse
 // Il2CppName: Inverse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Utils::RigidTransform::*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Inverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::GetInverse
 // Il2CppName: GetInverse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_Utils::RigidTransform::*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::GetInverse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "GetInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Multiply
 // Il2CppName: Multiply
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(GlobalNamespace::SteamVR_Utils::RigidTransform, GlobalNamespace::SteamVR_Utils::RigidTransform)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Multiply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::InverseTransformPoint
 // Il2CppName: InverseTransformPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::InverseTransformPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "InverseTransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::TransformPoint
 // Il2CppName: TransformPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::TransformPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "TransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate
 // Il2CppName: Interpolate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (*)(GlobalNamespace::SteamVR_Utils::RigidTransform, GlobalNamespace::SteamVR_Utils::RigidTransform, float)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate
 // Il2CppName: Interpolate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(GlobalNamespace::SteamVR_Utils::RigidTransform, float)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(::Il2CppObject*)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::SteamVR_Utils::RigidTransform::*)()>(&GlobalNamespace::SteamVR_Utils::RigidTransform::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::operator ==
 // Il2CppName: op_Equality
 // Cannot perform method pointer template specialization from operators!

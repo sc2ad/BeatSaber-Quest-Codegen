@@ -102,40 +102,105 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerFiniteStateMachine*, "", "Mock
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor
 // Il2CppName: get_saberAColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor
 // Il2CppName: set_saberAColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor
 // Il2CppName: get_saberBColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor
 // Il2CppName: set_saberBColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor
 // Il2CppName: set_obstaclesColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded
 // Il2CppName: get_leftHanded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded
 // Il2CppName: set_leftHanded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault
 // Il2CppName: get_inactiveByDefault
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault
 // Il2CppName: set_inactiveByDefault
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator
 // Il2CppName: get_gamePoseGenerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerGamePoseGenerator* (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_gamePoseGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady
 // Il2CppName: SetIsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

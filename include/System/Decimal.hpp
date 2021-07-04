@@ -472,99 +472,244 @@ DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Decimal::SetBits
 // Il2CppName: SetBits
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::Array<int>*)>(&System::Decimal::SetBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Decimal::OnSerializing
 // Il2CppName: OnSerializing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(System::Runtime::Serialization::StreamingContext)>(&System::Decimal::OnSerializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
 // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::Il2CppObject*)>(&System::Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Decimal::Abs
 // Il2CppName: Abs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&System::Decimal::Abs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::FCallAddSub
 // Il2CppName: FCallAddSub
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, System::Decimal&, uint8_t)>(&System::Decimal::FCallAddSub)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "FCallAddSub", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::FCallCompare
 // Il2CppName: FCallCompare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal&, System::Decimal&)>(&System::Decimal::FCallCompare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "FCallCompare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Decimal::*)(::Il2CppObject*)>(&System::Decimal::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Decimal::*)(System::Decimal)>(&System::Decimal::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Decimal::*)(System::Decimal)>(&System::Decimal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Decimal::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Parse
 // Il2CppName: Parse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::IFormatProvider*)>(&System::Decimal::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Parse
 // Il2CppName: Parse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::IFormatProvider*)>(&System::Decimal::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::GetBits
 // Il2CppName: GetBits
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Decimal)>(&System::Decimal::GetBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToDecimal
 // Il2CppName: ToDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Array<uint8_t>*)>(&System::Decimal::ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Round
 // Il2CppName: Round
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal, int)>(&System::Decimal::Round)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::FCallRound
 // Il2CppName: FCallRound
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&, int)>(&System::Decimal::FCallRound)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "FCallRound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToByte
 // Il2CppName: ToByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::Decimal)>(&System::Decimal::ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToSByte
 // Il2CppName: ToSByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::Decimal)>(&System::Decimal::ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToInt16
 // Il2CppName: ToInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::Decimal)>(&System::Decimal::ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToDouble
 // Il2CppName: ToDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::Decimal)>(&System::Decimal::ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::FCallToInt32
 // Il2CppName: FCallToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&System::Decimal::FCallToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "FCallToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToInt32
 // Il2CppName: ToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&System::Decimal::ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToInt64
 // Il2CppName: ToInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Decimal)>(&System::Decimal::ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToUInt16
 // Il2CppName: ToUInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(System::Decimal)>(&System::Decimal::ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToUInt32
 // Il2CppName: ToUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::Decimal)>(&System::Decimal::ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToUInt64
 // Il2CppName: ToUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::Decimal)>(&System::Decimal::ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToSingle
 // Il2CppName: ToSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Decimal)>(&System::Decimal::ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::FCallTruncate
 // Il2CppName: FCallTruncate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Decimal&)>(&System::Decimal::FCallTruncate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "FCallTruncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -579,64 +724,164 @@ DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Decimal::GetTypeCode
 // Il2CppName: GetTypeCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::Decimal::*)()>(&System::Decimal::GetTypeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToBoolean
 // Il2CppName: System.IConvertible.ToBoolean
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToChar
 // Il2CppName: System.IConvertible.ToChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToSByte
 // Il2CppName: System.IConvertible.ToSByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToByte
 // Il2CppName: System.IConvertible.ToByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToInt16
 // Il2CppName: System.IConvertible.ToInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToUInt16
 // Il2CppName: System.IConvertible.ToUInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToInt32
 // Il2CppName: System.IConvertible.ToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToUInt32
 // Il2CppName: System.IConvertible.ToUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToInt64
 // Il2CppName: System.IConvertible.ToInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToUInt64
 // Il2CppName: System.IConvertible.ToUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToSingle
 // Il2CppName: System.IConvertible.ToSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToDouble
 // Il2CppName: System.IConvertible.ToDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToDecimal
 // Il2CppName: System.IConvertible.ToDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToDateTime
 // Il2CppName: System.IConvertible.ToDateTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Decimal::*)(System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::System_IConvertible_ToType
 // Il2CppName: System.IConvertible.ToType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Decimal::*)(System::Type*, System::IFormatProvider*)>(&System::Decimal::System_IConvertible_ToType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Decimal::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Decimal::*)(::Il2CppObject*)>(&System::Decimal::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Decimal::*)()>(&System::Decimal::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Decimal::*)()>(&System::Decimal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Decimal::operator-
 // Il2CppName: op_Subtraction
 // Cannot perform method pointer template specialization from operators!

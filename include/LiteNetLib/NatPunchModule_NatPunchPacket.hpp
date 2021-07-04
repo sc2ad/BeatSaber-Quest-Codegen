@@ -63,16 +63,36 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::get_Token
 // Il2CppName: get_Token
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::NatPunchModule::NatPunchPacket::*)()>(&LiteNetLib::NatPunchModule::NatPunchPacket::get_Token)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::set_Token
 // Il2CppName: set_Token
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatPunchPacket::*)(::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatPunchPacket::set_Token)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::get_IsExternal
 // Il2CppName: get_IsExternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NatPunchModule::NatPunchPacket::*)()>(&LiteNetLib::NatPunchModule::NatPunchPacket::get_IsExternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "get_IsExternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::set_IsExternal
 // Il2CppName: set_IsExternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatPunchPacket::*)(bool)>(&LiteNetLib::NatPunchModule::NatPunchPacket::set_IsExternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "set_IsExternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

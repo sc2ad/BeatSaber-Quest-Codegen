@@ -99,28 +99,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_undoAvailable
 // Il2CppName: get_undoAvailable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_undoAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_undoAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_redoAvailable
 // Il2CppName: get_redoAvailable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_redoAvailable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_redoAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_currentSnapShot
 // Il2CppName: get_currentSnapShot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Menu::ViewControllers::EditAvatarHistorySnapshot* (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_currentSnapShot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_currentSnapShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_lastEditedPart
 // Il2CppName: get_lastEditedPart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EditAvatarViewController::AvatarEditPart (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_lastEditedPart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_lastEditedPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::Undo
 // Il2CppName: Undo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Undo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::Redo
 // Il2CppName: Redo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Redo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Redo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::UpdateEditHistory
 // Il2CppName: UpdateEditHistory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)(GlobalNamespace::AvatarData*, GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::AvatarEditHistory::UpdateEditHistory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "UpdateEditHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

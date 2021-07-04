@@ -143,28 +143,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent
 // Il2CppName: add_didViewFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action_1<bool>*)>(&GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "add_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::remove_didViewFinishEvent
 // Il2CppName: remove_didViewFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action_1<bool>*)>(&GlobalNamespace::DisconnectPromptView::remove_didViewFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "remove_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::Show
 // Il2CppName: Show
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::Hide
 // Il2CppName: Hide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action*)>(&GlobalNamespace::DisconnectPromptView::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_0
 // Il2CppName: <OnEnable>b__9_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "<OnEnable>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_1
 // Il2CppName: <OnEnable>b__9_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "<OnEnable>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

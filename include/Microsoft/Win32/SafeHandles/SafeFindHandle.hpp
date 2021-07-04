@@ -42,4 +42,9 @@ DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFindHandle*, "Microsof
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeFindHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Microsoft::Win32::SafeHandles::SafeFindHandle::*)()>(&Microsoft::Win32::SafeHandles::SafeFindHandle::ReleaseHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::SafeHandles::SafeFindHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

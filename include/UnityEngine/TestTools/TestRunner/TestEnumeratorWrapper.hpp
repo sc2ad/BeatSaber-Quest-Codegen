@@ -67,7 +67,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest
 // Il2CppName: HandleEnumerableTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

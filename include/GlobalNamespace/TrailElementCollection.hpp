@@ -97,38 +97,93 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::get_capacity
 // Il2CppName: get_capacity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::get_capacity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::get_head
 // Il2CppName: get_head
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::get_head)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::get_Item
 // Il2CppName: get_Item
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::InitSnapshots
 // Il2CppName: InitSnapshots
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::InitSnapshots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InitSnapshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::MoveTailToHead
 // Il2CppName: MoveTailToHead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::MoveTailToHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "MoveTailToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::UpdateDistances
 // Il2CppName: UpdateDistances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::UpdateDistances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "UpdateDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::InterpolateByLen
 // Il2CppName: InterpolateByLen
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::InterpolateNormalByLen
 // Il2CppName: InterpolateNormalByLen
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateNormalByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateNormalByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::InterpolateTimeByLen
 // Il2CppName: InterpolateTimeByLen
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateTimeByLen)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateTimeByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::LenToSegment
 // Il2CppName: LenToSegment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TrailElementCollection::*)(float, float&)>(&GlobalNamespace::TrailElementCollection::LenToSegment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "LenToSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::GetElementWithinBoundary
 // Il2CppName: GetElementWithinBoundary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::GetElementWithinBoundary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "GetElementWithinBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

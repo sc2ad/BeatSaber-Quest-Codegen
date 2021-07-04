@@ -170,13 +170,33 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AveragingValueRecorder::*)(float, float)>(&GlobalNamespace::AveragingValueRecorder::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AveragingValueRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::GetAverageValue
 // Il2CppName: GetAverageValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AveragingValueRecorder::*)()>(&GlobalNamespace::AveragingValueRecorder::GetAverageValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AveragingValueRecorder*), "GetAverageValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::GetLastValue
 // Il2CppName: GetLastValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AveragingValueRecorder::*)()>(&GlobalNamespace::AveragingValueRecorder::GetLastValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AveragingValueRecorder*), "GetLastValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::GetHistoryValues
 // Il2CppName: GetHistoryValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<float>* (GlobalNamespace::AveragingValueRecorder::*)()>(&GlobalNamespace::AveragingValueRecorder::GetHistoryValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AveragingValueRecorder*), "GetHistoryValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

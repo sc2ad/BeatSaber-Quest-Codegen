@@ -35,7 +35,17 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
 // Writing MetadataGetter for method: System::Threading::PlatformHelper::get_ProcessorCount
 // Il2CppName: get_ProcessorCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Threading::PlatformHelper::get_ProcessorCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::PlatformHelper*), "get_ProcessorCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::PlatformHelper::get_IsSingleProcessor
 // Il2CppName: get_IsSingleProcessor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::PlatformHelper::get_IsSingleProcessor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::PlatformHelper*), "get_IsSingleProcessor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

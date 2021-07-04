@@ -107,22 +107,52 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PK
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::get_ASN1
 // Il2CppName: get_ASN1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::get_ASN1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::get_Content
 // Il2CppName: get_Content
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::get_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::set_Content
 // Il2CppName: set_Content
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::PKCS7::ContentInfo::*)(Mono::Security::ASN1*)>(&Mono::Security::PKCS7::ContentInfo::set_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::get_ContentType
 // Il2CppName: get_ContentType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::get_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::set_ContentType
 // Il2CppName: set_ContentType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::PKCS7::ContentInfo::*)(::Il2CppString*)>(&Mono::Security::PKCS7::ContentInfo::set_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::GetASN1
 // Il2CppName: GetASN1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::GetASN1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "GetASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

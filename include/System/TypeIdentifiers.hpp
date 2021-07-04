@@ -33,4 +33,9 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers*, "System", "TypeIdentifiers");
 // Writing MetadataGetter for method: System::TypeIdentifiers::FromDisplay
 // Il2CppName: FromDisplay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::Il2CppString*)>(&System::TypeIdentifiers::FromDisplay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifiers*), "FromDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

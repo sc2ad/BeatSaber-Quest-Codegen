@@ -102,28 +102,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetConfigured
 // Il2CppName: GetConfigured
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRBoundary::*)()>(&GlobalNamespace::OVRBoundary::GetConfigured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetConfigured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::TestNode
 // Il2CppName: TestNode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::Node, GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "TestNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::TestPoint
 // Il2CppName: TestPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(UnityEngine::Vector3, GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "TestPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetGeometry
 // Il2CppName: GetGeometry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetDimensions
 // Il2CppName: GetDimensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetVisible
 // Il2CppName: GetVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRBoundary::*)()>(&GlobalNamespace::OVRBoundary::GetVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::SetVisible
 // Il2CppName: SetVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoundary::*)(bool)>(&GlobalNamespace::OVRBoundary::SetVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "SetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRBoundary::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

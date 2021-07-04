@@ -51,7 +51,12 @@ namespace NUnit::Framework::Internal {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*, "NUnit.Framework.Internal", "Reflect/BaseTypesFirstComparer");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::*)(System::Reflection::MethodInfo*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

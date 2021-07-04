@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchie
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::*)(System::IAsyncResult*)>(&GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -240,52 +240,132 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBas
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Collections::Specialized::NameObjectCollectionBase::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::OnDeserialization
 // Il2CppName: OnDeserialization
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(int)>(&System::Collections::Specialized::NameObjectCollectionBase::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::FindEntry
 // Il2CppName: FindEntry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::FindEntry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "FindEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Specialized::NameObjectCollectionBase::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::get_IsReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseAdd
 // Il2CppName: BaseAdd
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseAdd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseRemove
 // Il2CppName: BaseRemove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseRemove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseGet
 // Il2CppName: BaseGet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseSet
 // Il2CppName: BaseSet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseGet
 // Il2CppName: BaseGet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Specialized::NameObjectCollectionBase::*)(int)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey
 // Il2CppName: BaseGetKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Collections::Specialized::NameObjectCollectionBase::*)(int)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseGetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Specialized::NameObjectCollectionBase::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Specialized::NameObjectCollectionBase::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::System_Collections_ICollection_CopyTo
 // Il2CppName: System.Collections.ICollection.CopyTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(System::Array*, int)>(&System::Collections::Specialized::NameObjectCollectionBase::System_Collections_ICollection_CopyTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::Specialized::NameObjectCollectionBase::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

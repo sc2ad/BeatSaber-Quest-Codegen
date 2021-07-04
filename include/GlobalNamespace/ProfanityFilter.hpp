@@ -71,10 +71,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter")
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::IsProfane
 // Il2CppName: IsProfane
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::*)(::Il2CppString*)>(&GlobalNamespace::ProfanityFilter::IsProfane)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "IsProfane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::GetLookalikeLetters
 // Il2CppName: GetLookalikeLetters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::GetLeetEquivalent
 // Il2CppName: GetLeetEquivalent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLeetEquivalent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLeetEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};

@@ -50,7 +50,12 @@ namespace System::Diagnostics {
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Diagnostics::DiagnosticsConfigurationHandler::*)(::Il2CppObject*, ::Il2CppObject*, System::Xml::XmlNode*)>(&System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DiagnosticsConfigurationHandler*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlNode*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

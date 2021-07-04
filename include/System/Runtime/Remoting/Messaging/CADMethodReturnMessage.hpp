@@ -94,23 +94,53 @@ namespace System::Runtime::Remoting::Messaging {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::CADMethodReturnMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArguments
 // Il2CppName: GetArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)()>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "GetArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs
 // Il2CppName: GetArgs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetReturnValue
 // Il2CppName: GetReturnValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetReturnValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "GetReturnValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetException
 // Il2CppName: GetException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::get_PropertiesCount
 // Il2CppName: get_PropertiesCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)()>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::get_PropertiesCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "get_PropertiesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

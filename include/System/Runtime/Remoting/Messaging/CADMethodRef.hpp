@@ -88,10 +88,20 @@ namespace System::Runtime::Remoting::Messaging {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "System.Runtime.Remoting.Messaging", "CADMethodRef");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes
 // Il2CppName: GetTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Runtime::Remoting::Messaging::CADMethodRef::*)(::Array<::Il2CppString*>*)>(&System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodRef*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodRef::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Runtime::Remoting::Messaging::CADMethodRef::*)()>(&System::Runtime::Remoting::Messaging::CADMethodRef::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodRef*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodRef::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

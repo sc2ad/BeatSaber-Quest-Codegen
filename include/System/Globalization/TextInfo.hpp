@@ -251,110 +251,280 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfo*, "System.Globalization", "TextInfo");
 // Writing MetadataGetter for method: System::Globalization::TextInfo::get_Invariant
 // Il2CppName: get_Invariant
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::TextInfo* (*)()>(&System::Globalization::TextInfo::get_Invariant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "get_Invariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::TextInfo::OnDeserializing
 // Il2CppName: OnDeserializing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::TextInfo::OnDeserializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::OnDeserialized
 // Il2CppName: OnDeserialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::OnDeserialized
 // Il2CppName: OnDeserialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::TextInfo::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::OnSerializing
 // Il2CppName: OnSerializing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::TextInfo::OnSerializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase
 // Il2CppName: GetHashCodeOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetHashCodeOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase
 // Il2CppName: GetHashCodeOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, bool, int64_t)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetHashCodeOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::CompareOrdinalIgnoreCase
 // Il2CppName: CompareOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "CompareOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::CompareOrdinalIgnoreCaseEx
 // Il2CppName: CompareOrdinalIgnoreCaseEx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ::Il2CppString*, int, int, int)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCaseEx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "CompareOrdinalIgnoreCaseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::IndexOfStringOrdinalIgnoreCase
 // Il2CppName: IndexOfStringOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, int)>(&System::Globalization::TextInfo::IndexOfStringOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "IndexOfStringOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::LastIndexOfStringOrdinalIgnoreCase
 // Il2CppName: LastIndexOfStringOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, int)>(&System::Globalization::TextInfo::LastIndexOfStringOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "LastIndexOfStringOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::get_CultureName
 // Il2CppName: get_CultureName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::get_CultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::SetReadOnlyState
 // Il2CppName: SetReadOnlyState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)(bool)>(&System::Globalization::TextInfo::SetReadOnlyState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "SetReadOnlyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLower
 // Il2CppName: ToLower
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::TextInfo::*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToLower)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLower", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLower
 // Il2CppName: ToLower
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToLower)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLower", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLowerAsciiInvariant
 // Il2CppName: ToLowerAsciiInvariant
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToLowerAsciiInvariant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLowerAsciiInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpper
 // Il2CppName: ToUpper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::TextInfo::*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToUpper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpper
 // Il2CppName: ToUpper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToUpper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpperAsciiInvariant
 // Il2CppName: ToUpperAsciiInvariant
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToUpperAsciiInvariant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpperAsciiInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::IsAscii
 // Il2CppName: IsAscii
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::TextInfo::IsAscii)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "IsAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::get_IsAsciiCasingSameAsInvariant
 // Il2CppName: get_IsAsciiCasingSameAsInvariant
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::get_IsAsciiCasingSameAsInvariant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "get_IsAsciiCasingSameAsInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
 // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TextInfo::*)(::Il2CppObject*)>(&System::Globalization::TextInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetCaseInsensitiveHashCode
 // Il2CppName: GetCaseInsensitiveHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetCaseInsensitiveHashCode
 // Il2CppName: GetCaseInsensitiveHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*, bool, int64_t)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetInvariantCaseInsensitiveHashCode
 // Il2CppName: GetInvariantCaseInsensitiveHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetInvariantCaseInsensitiveHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetInvariantCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpperInternal
 // Il2CppName: ToUpperInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToUpperInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpperInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLowerInternal
 // Il2CppName: ToLowerInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToLowerInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLowerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpperInternal
 // Il2CppName: ToUpperInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::TextInfo::*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToUpperInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpperInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLowerInternal
 // Il2CppName: ToLowerInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::TextInfo::*)(::Il2CppChar)>(&System::Globalization::TextInfo::ToLowerInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLowerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::InternalCompareStringOrdinalIgnoreCase
 // Il2CppName: InternalCompareStringOrdinalIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ::Il2CppString*, int, int, int)>(&System::Globalization::TextInfo::InternalCompareStringOrdinalIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "InternalCompareStringOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::TextInfo::*)(::Il2CppObject*)>(&System::Globalization::TextInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::TextInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

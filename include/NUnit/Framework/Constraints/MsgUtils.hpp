@@ -173,64 +173,169 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils*, "NUnit.Framework.Constraints", "MsgUtils");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::get_DefaultValueFormatter
 // Il2CppName: get_DefaultValueFormatter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (*)()>(&NUnit::Framework::Constraints::MsgUtils::get_DefaultValueFormatter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "get_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::set_DefaultValueFormatter
 // Il2CppName: set_DefaultValueFormatter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::set_DefaultValueFormatter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "set_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::MsgUtils::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::AddFormatter
 // Il2CppName: AddFormatter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatterFactory*)>(&NUnit::Framework::Constraints::MsgUtils::AddFormatter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "AddFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatterFactory*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatValue
 // Il2CppName: FormatValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::FormatValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatCollection
 // Il2CppName: FormatCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*, int64_t, int)>(&NUnit::Framework::Constraints::MsgUtils::FormatCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatArray
 // Il2CppName: FormatArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&NUnit::Framework::Constraints::MsgUtils::FormatArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatString
 // Il2CppName: FormatString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::FormatString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatDouble
 // Il2CppName: FormatDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double)>(&NUnit::Framework::Constraints::MsgUtils::FormatDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatFloat
 // Il2CppName: FormatFloat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&NUnit::Framework::Constraints::MsgUtils::FormatFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatDecimal
 // Il2CppName: FormatDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal)>(&NUnit::Framework::Constraints::MsgUtils::FormatDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatDateTime
 // Il2CppName: FormatDateTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTime)>(&NUnit::Framework::Constraints::MsgUtils::FormatDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FormatDateTimeOffset
 // Il2CppName: FormatDateTimeOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTimeOffset)>(&NUnit::Framework::Constraints::MsgUtils::FormatDateTimeOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::GetTypeRepresentation
 // Il2CppName: GetTypeRepresentation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::GetTypeRepresentation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetTypeRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::EscapeControlChars
 // Il2CppName: EscapeControlChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::EscapeControlChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "EscapeControlChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::EscapeNullCharacters
 // Il2CppName: EscapeNullCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::EscapeNullCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "EscapeNullCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString
 // Il2CppName: GetArrayIndicesAsString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetArrayIndicesAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex
 // Il2CppName: GetArrayIndicesFromCollectionIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Collections::IEnumerable*, int64_t)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetArrayIndicesFromCollectionIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::ClipString
 // Il2CppName: ClipString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&NUnit::Framework::Constraints::MsgUtils::ClipString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "ClipString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::ClipExpectedAndActual
 // Il2CppName: ClipExpectedAndActual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*&, ::Il2CppString*&, int, int)>(&NUnit::Framework::Constraints::MsgUtils::ClipExpectedAndActual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "ClipExpectedAndActual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::FindMismatchPosition
 // Il2CppName: FindMismatchPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, bool)>(&NUnit::Framework::Constraints::MsgUtils::FindMismatchPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FindMismatchPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

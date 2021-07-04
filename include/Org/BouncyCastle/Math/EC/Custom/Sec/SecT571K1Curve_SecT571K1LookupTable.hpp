@@ -84,13 +84,33 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve:
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::CreatePoint
 // Il2CppName: CreatePoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::CreatePoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::get_Size
 // Il2CppName: get_Size
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::*)()>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::get_Size)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::Lookup
 // Il2CppName: Lookup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::Lookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::LookupVar
 // Il2CppName: LookupVar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable::LookupVar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

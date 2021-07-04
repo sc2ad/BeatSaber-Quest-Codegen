@@ -50,4 +50,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "Ternary
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString
 // Il2CppName: FindCaseInsensitiveString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Xml::TernaryTreeReadOnly::*)(::Il2CppString*)>(&System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::TernaryTreeReadOnly*), "FindCaseInsensitiveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

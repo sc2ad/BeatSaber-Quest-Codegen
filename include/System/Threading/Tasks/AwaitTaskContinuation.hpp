@@ -142,37 +142,97 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation*, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::CreateTask
 // Il2CppName: CreateTask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::AwaitTaskContinuation::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, System::Threading::Tasks::TaskScheduler*)>(&System::Threading::Tasks::AwaitTaskContinuation::CreateTask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "CreateTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskScheduler*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::get_IsValidLocationForInlining
 // Il2CppName: get_IsValidLocationForInlining
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::Tasks::AwaitTaskContinuation::get_IsValidLocationForInlining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "get_IsValidLocationForInlining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::ExecuteWorkItemHelper
 // Il2CppName: ExecuteWorkItemHelper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::*)()>(&System::Threading::Tasks::AwaitTaskContinuation::ExecuteWorkItemHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "ExecuteWorkItemHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::*)()>(&System::Threading::Tasks::AwaitTaskContinuation::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::System_Threading_IThreadPoolWorkItem_MarkAborted
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::*)(System::Threading::ThreadAbortException*)>(&System::Threading::Tasks::AwaitTaskContinuation::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::InvokeAction
 // Il2CppName: InvokeAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Tasks::AwaitTaskContinuation::InvokeAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "InvokeAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::GetInvokeActionCallback
 // Il2CppName: GetInvokeActionCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ContextCallback* (*)()>(&System::Threading::Tasks::AwaitTaskContinuation::GetInvokeActionCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "GetInvokeActionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::RunCallback
 // Il2CppName: RunCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::*)(System::Threading::ContextCallback*, ::Il2CppObject*, System::Threading::Tasks::Task*&)>(&System::Threading::Tasks::AwaitTaskContinuation::RunCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "RunCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ContextCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::RunOrScheduleAction
 // Il2CppName: RunOrScheduleAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*, bool, System::Threading::Tasks::Task*&)>(&System::Threading::Tasks::AwaitTaskContinuation::RunOrScheduleAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "RunOrScheduleAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::UnsafeScheduleAction
 // Il2CppName: UnsafeScheduleAction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*, System::Threading::Tasks::Task*)>(&System::Threading::Tasks::AwaitTaskContinuation::UnsafeScheduleAction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "UnsafeScheduleAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::ThrowAsyncIfNecessary
 // Il2CppName: ThrowAsyncIfNecessary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Threading::Tasks::AwaitTaskContinuation::ThrowAsyncIfNecessary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "ThrowAsyncIfNecessary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::Run
 // Il2CppName: Run
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::AwaitTaskContinuation::Run)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

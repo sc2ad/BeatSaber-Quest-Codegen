@@ -162,13 +162,28 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, ""
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsRotationEffectSpawner::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::TrackLaneRingsRotationEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -55,10 +55,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount
 // Il2CppName: get_playerCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_playerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance
 // Il2CppName: get_distance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_distance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*), "get_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

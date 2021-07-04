@@ -71,10 +71,20 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Default
 // Il2CppName: get_Default
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (*)()>(&NUnit::Framework::Constraints::Tolerance::get_Default)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Exact
 // Il2CppName: get_Exact
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (*)()>(&NUnit::Framework::Constraints::Tolerance::get_Exact)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_Exact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -85,10 +95,25 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framewo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Mode
 // Il2CppName: get_Mode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ToleranceMode (NUnit::Framework::Constraints::Tolerance::*)()>(&NUnit::Framework::Constraints::Tolerance::get_Mode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Constraints::Tolerance::*)()>(&NUnit::Framework::Constraints::Tolerance::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_IsUnsetOrDefault
 // Il2CppName: get_IsUnsetOrDefault
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::Tolerance::*)()>(&NUnit::Framework::Constraints::Tolerance::get_IsUnsetOrDefault)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_IsUnsetOrDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

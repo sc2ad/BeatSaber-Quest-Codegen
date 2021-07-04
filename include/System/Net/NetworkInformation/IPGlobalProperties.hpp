@@ -50,16 +50,36 @@ namespace System::Net::NetworkInformation {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::get_PlatformNeedsLibCWorkaround
 // Il2CppName: get_PlatformNeedsLibCWorkaround
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::get_PlatformNeedsLibCWorkaround)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "get_PlatformNeedsLibCWorkaround", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties
 // Il2CppName: GetIPGlobalProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "GetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties
 // Il2CppName: InternalGetIPGlobalProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "InternalGetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::get_DomainName
 // Il2CppName: get_DomainName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::IPGlobalProperties::*)()>(&System::Net::NetworkInformation::IPGlobalProperties::get_DomainName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "get_DomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

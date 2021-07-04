@@ -88,10 +88,20 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapArray*, "UnityEngine", "CubemapArray");
 // Writing MetadataGetter for method: UnityEngine::CubemapArray::Internal_CreateImpl
 // Il2CppName: Internal_CreateImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::CubemapArray*, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::CubemapArray::Internal_CreateImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CubemapArray*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::CubemapArray::Internal_Create
 // Il2CppName: Internal_Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CubemapArray*, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::CubemapArray::Internal_Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CubemapArray*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::CubemapArray::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -118,4 +128,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapArray*, "UnityEngine", "CubemapArray"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::CubemapArray::get_isReadable
 // Il2CppName: get_isReadable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CubemapArray::*)()>(&UnityEngine::CubemapArray::get_isReadable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CubemapArray*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

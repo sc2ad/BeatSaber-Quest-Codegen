@@ -60,16 +60,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper*, "", "FileCompressionHelper");
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::CreateZipFromDirectoryAsync
 // Il2CppName: CreateZipFromDirectoryAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&GlobalNamespace::FileCompressionHelper::CreateZipFromDirectoryAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "CreateZipFromDirectoryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::ExtractZipToDirectoryAsync
 // Il2CppName: ExtractZipToDirectoryAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&GlobalNamespace::FileCompressionHelper::ExtractZipToDirectoryAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "ExtractZipToDirectoryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::CreateZipFromDirectory
 // Il2CppName: CreateZipFromDirectory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileCompressionHelper::CreateZipFromDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "CreateZipFromDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::ExtractZipToDirectory
 // Il2CppName: ExtractZipToDirectory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileCompressionHelper::ExtractZipToDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "ExtractZipToDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

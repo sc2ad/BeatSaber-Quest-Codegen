@@ -79,13 +79,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreSlot*, "System", "LocalDataStoreSlo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::LocalDataStoreSlot::get_Manager
 // Il2CppName: get_Manager
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreMgr* (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::get_Manager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreSlot*), "get_Manager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreSlot::get_Slot
 // Il2CppName: get_Slot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::get_Slot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreSlot*), "get_Slot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreSlot::get_Cookie
 // Il2CppName: get_Cookie
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::get_Cookie)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreSlot*), "get_Cookie", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreSlot::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreSlot*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

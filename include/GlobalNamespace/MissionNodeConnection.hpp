@@ -147,25 +147,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_parentMissionNode
 // Il2CppName: get_parentMissionNode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNodeVisualController* (GlobalNamespace::MissionNodeConnection::*)()>(&GlobalNamespace::MissionNodeConnection::get_parentMissionNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "get_parentMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_childMissionNode
 // Il2CppName: get_childMissionNode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNodeVisualController* (GlobalNamespace::MissionNodeConnection::*)()>(&GlobalNamespace::MissionNodeConnection::get_childMissionNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "get_childMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_isActive
 // Il2CppName: get_isActive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodeConnection::*)()>(&GlobalNamespace::MissionNodeConnection::get_isActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::Setup
 // Il2CppName: Setup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)(GlobalNamespace::MissionNodeVisualController*, GlobalNamespace::MissionNodeVisualController*)>(&GlobalNamespace::MissionNodeConnection::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::UpdateConnectionRectTransform
 // Il2CppName: UpdateConnectionRectTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)()>(&GlobalNamespace::MissionNodeConnection::UpdateConnectionRectTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "UpdateConnectionRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::SetActive
 // Il2CppName: SetActive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)(bool)>(&GlobalNamespace::MissionNodeConnection::SetActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::MissionConnectionEnabledDidFinish
 // Il2CppName: MissionConnectionEnabledDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)()>(&GlobalNamespace::MissionNodeConnection::MissionConnectionEnabledDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "MissionConnectionEnabledDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

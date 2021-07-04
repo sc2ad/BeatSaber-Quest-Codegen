@@ -70,10 +70,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "OverrideEnvironmentSettings");
 // Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType
 // Il2CppName: SetEnvironmentInfoForType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "SetEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType
 // Il2CppName: GetOverrideEnvironmentInfoForType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "GetOverrideEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -101,49 +101,129 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransformUtility*, "UnityEngine", "RectTransformUtility");
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustPoint
 // Il2CppName: PixelAdjustPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Transform*, UnityEngine::Canvas*)>(&UnityEngine::RectTransformUtility::PixelAdjustPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustRect
 // Il2CppName: PixelAdjustRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::RectTransform*, UnityEngine::Canvas*)>(&UnityEngine::RectTransformUtility::PixelAdjustRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PointInRectangle
 // Il2CppName: PointInRectangle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector2, UnityEngine::RectTransform*, UnityEngine::Camera*, UnityEngine::Vector4)>(&UnityEngine::RectTransformUtility::PointInRectangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::RectangleContainsScreenPoint
 // Il2CppName: RectangleContainsScreenPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::RectangleContainsScreenPoint
 // Il2CppName: RectangleContainsScreenPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector4)>(&UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToWorldPointInRectangle
 // Il2CppName: ScreenPointToWorldPointInRectangle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector3&)>(&UnityEngine::RectTransformUtility::ScreenPointToWorldPointInRectangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToWorldPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToLocalPointInRectangle
 // Il2CppName: ScreenPointToLocalPointInRectangle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector2&)>(&UnityEngine::RectTransformUtility::ScreenPointToLocalPointInRectangle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToLocalPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (*)(UnityEngine::Camera*, UnityEngine::Vector2)>(&UnityEngine::RectTransformUtility::ScreenPointToRay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::WorldToScreenPoint
 // Il2CppName: WorldToScreenPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Camera*, UnityEngine::Vector3)>(&UnityEngine::RectTransformUtility::WorldToScreenPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::FlipLayoutOnAxis
 // Il2CppName: FlipLayoutOnAxis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, int, bool, bool)>(&UnityEngine::RectTransformUtility::FlipLayoutOnAxis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::FlipLayoutAxes
 // Il2CppName: FlipLayoutAxes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, bool, bool)>(&UnityEngine::RectTransformUtility::FlipLayoutAxes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutAxes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::GetTransposed
 // Il2CppName: GetTransposed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&UnityEngine::RectTransformUtility::GetTransposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "GetTransposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::RectTransformUtility::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected
 // Il2CppName: PixelAdjustPoint_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&, UnityEngine::Transform*, UnityEngine::Canvas*, UnityEngine::Vector2&)>(&UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustRect_Injected
 // Il2CppName: PixelAdjustRect_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, UnityEngine::Canvas*, UnityEngine::Rect&)>(&UnityEngine::RectTransformUtility::PixelAdjustRect_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PointInRectangle_Injected
 // Il2CppName: PointInRectangle_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector2&, UnityEngine::RectTransform*, UnityEngine::Camera*, UnityEngine::Vector4&)>(&UnityEngine::RectTransformUtility::PointInRectangle_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+  }
+};

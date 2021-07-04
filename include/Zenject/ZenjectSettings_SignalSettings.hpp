@@ -97,19 +97,44 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings::SignalSettings*, "Zenject", "Ze
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority
 // Il2CppName: get_DefaultAsyncTickPriority
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::ZenjectSettings::SignalSettings::*)()>(&Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "get_DefaultAsyncTickPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_DefaultSyncMode
 // Il2CppName: get_DefaultSyncMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SignalDefaultSyncModes (Zenject::ZenjectSettings::SignalSettings::*)()>(&Zenject::ZenjectSettings::SignalSettings::get_DefaultSyncMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "get_DefaultSyncMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse
 // Il2CppName: get_MissingHandlerDefaultResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SignalMissingHandlerResponses (Zenject::ZenjectSettings::SignalSettings::*)()>(&Zenject::ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "get_MissingHandlerDefaultResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe
 // Il2CppName: get_RequireStrictUnsubscribe
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ZenjectSettings::SignalSettings::*)()>(&Zenject::ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "get_RequireStrictUnsubscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ZenjectSettings::SignalSettings::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

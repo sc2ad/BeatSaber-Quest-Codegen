@@ -26,7 +26,17 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPoolable*, "Zenject", "IPoolable");
 // Writing MetadataGetter for method: Zenject::IPoolable::OnDespawned
 // Il2CppName: OnDespawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable::*)()>(&Zenject::IPoolable::OnDespawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IPoolable*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::IPoolable::OnSpawned
 // Il2CppName: OnSpawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable::*)()>(&Zenject::IPoolable::OnSpawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IPoolable*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

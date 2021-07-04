@@ -137,16 +137,36 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::add_stateDidChangeEvent
 // Il2CppName: add_stateDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&HMUI::ToggleWithCallbacks::add_stateDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent
 // Il2CppName: remove_stateDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::get_selectionState
 // Il2CppName: get_selectionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ToggleWithCallbacks::SelectionState (HMUI::ToggleWithCallbacks::*)()>(&HMUI::ToggleWithCallbacks::get_selectionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::DoStateTransition
 // Il2CppName: DoStateTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&HMUI::ToggleWithCallbacks::DoStateTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

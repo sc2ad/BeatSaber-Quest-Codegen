@@ -129,16 +129,36 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "Threa
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode, float, float, float)>(&GlobalNamespace::ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::UpdateHaptics
 // Il2CppName: UpdateHaptics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ThreadedOpenVrOpenVrHaptics::*)()>(&GlobalNamespace::ThreadedOpenVrOpenVrHaptics::UpdateHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*), "UpdateHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics
 // Il2CppName: UpdateHandHaptics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ThreadedOpenVrOpenVrHaptics::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::ThreadedOpenVrOpenVrHaptics::UpdateHandHaptics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*), "UpdateHandHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::Destroy
 // Il2CppName: Destroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ThreadedOpenVrOpenVrHaptics::*)()>(&GlobalNamespace::ThreadedOpenVrOpenVrHaptics::Destroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

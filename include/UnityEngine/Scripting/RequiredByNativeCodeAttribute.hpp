@@ -84,13 +84,28 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name
 // Il2CppName: set_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::RequiredByNativeCodeAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Optional
 // Il2CppName: set_Optional
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(&UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Optional)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::RequiredByNativeCodeAttribute*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateProxy
 // Il2CppName: set_GenerateProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(&UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::RequiredByNativeCodeAttribute*), "set_GenerateProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

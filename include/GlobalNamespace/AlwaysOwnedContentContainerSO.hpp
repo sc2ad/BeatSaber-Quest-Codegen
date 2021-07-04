@@ -87,16 +87,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO*, "", "AlwaysOwnedContentContainerSO");
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds
 // Il2CppName: get_alwaysOwnedBeatmapLevelIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedBeatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds
 // Il2CppName: get_alwaysOwnedPacksIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedPacksIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::InitAlwaysOwnedItems
 // Il2CppName: InitAlwaysOwnedItems
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::InitAlwaysOwnedItems)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "InitAlwaysOwnedItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

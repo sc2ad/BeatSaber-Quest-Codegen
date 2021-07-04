@@ -59,7 +59,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContex
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::get_IsNull
 // Il2CppName: get_IsNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::*)()>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::get_IsNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::GetData
 // Il2CppName: GetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

@@ -98,10 +98,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapMethodAttribute*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute
 // Il2CppName: get_UseAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapMethodAttribute*), "get_UseAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace
 // Il2CppName: get_XmlNamespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapMethodAttribute*), "get_XmlNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject
 // Il2CppName: SetReflectionObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapMethodAttribute*), "SetReflectionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

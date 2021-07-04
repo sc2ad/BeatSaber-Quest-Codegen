@@ -27,7 +27,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataAssetsModel*, "", "BeatmapDataAssetsModel");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAssetsModel::BeatmapLevelDataAssetNameForBeatmapLevel
 // Il2CppName: BeatmapLevelDataAssetNameForBeatmapLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::BeatmapDataAssetsModel::BeatmapLevelDataAssetNameForBeatmapLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "BeatmapLevelDataAssetNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAssetsModel::AssetBundleNameForBeatmapLevel
 // Il2CppName: AssetBundleNameForBeatmapLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::BeatmapDataAssetsModel::AssetBundleNameForBeatmapLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "AssetBundleNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

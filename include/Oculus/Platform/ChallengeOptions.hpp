@@ -99,34 +99,84 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "ChallengeOptions");
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription
 // Il2CppName: SetDescription
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetEndDate
 // Il2CppName: SetEndDate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(System::DateTime)>(&Oculus::Platform::ChallengeOptions::SetEndDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetIncludeActiveChallenges
 // Il2CppName: SetIncludeActiveChallenges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(bool)>(&Oculus::Platform::ChallengeOptions::SetIncludeActiveChallenges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetIncludeActiveChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetIncludeFutureChallenges
 // Il2CppName: SetIncludeFutureChallenges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(bool)>(&Oculus::Platform::ChallengeOptions::SetIncludeFutureChallenges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetIncludeFutureChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetIncludePastChallenges
 // Il2CppName: SetIncludePastChallenges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(bool)>(&Oculus::Platform::ChallengeOptions::SetIncludePastChallenges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetIncludePastChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetLeaderboardName
 // Il2CppName: SetLeaderboardName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetLeaderboardName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetLeaderboardName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetStartDate
 // Il2CppName: SetStartDate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(System::DateTime)>(&Oculus::Platform::ChallengeOptions::SetStartDate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetTitle
 // Il2CppName: SetTitle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetViewerFilter
 // Il2CppName: SetViewerFilter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(Oculus::Platform::ChallengeViewerFilter)>(&Oculus::Platform::ChallengeOptions::SetViewerFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetViewerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeViewerFilter>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetVisibility
 // Il2CppName: SetVisibility
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(Oculus::Platform::ChallengeVisibility)>(&Oculus::Platform::ChallengeOptions::SetVisibility)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeVisibility>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -136,4 +186,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)()>(&Oculus::Platform::ChallengeOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

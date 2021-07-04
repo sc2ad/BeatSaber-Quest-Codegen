@@ -108,19 +108,44 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingServerRequest*, "MasterServer", "ConnectToMatchmakingServerRequest");
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::get_pool
 // Il2CppName: get_pool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToMatchmakingServerRequest*>* (*)()>(&MasterServer::ConnectToMatchmakingServerRequest::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToMatchmakingServerRequest* (MasterServer::ConnectToMatchmakingServerRequest::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::ConnectToMatchmakingServerRequest::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::ConnectToMatchmakingServerRequest::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::ConnectToMatchmakingServerRequest::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::Release
 // Il2CppName: Release
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ConnectToMatchmakingServerRequest::*)()>(&MasterServer::ConnectToMatchmakingServerRequest::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

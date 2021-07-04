@@ -75,4 +75,9 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardEntriesResult, "OnlineServi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::GetLeaderboardEntriesResult::get_resultWithError
 // Il2CppName: get_resultWithError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::GetLeaderboardEntriesResult (*)()>(&OnlineServices::GetLeaderboardEntriesResult::get_resultWithError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::GetLeaderboardEntriesResult), "get_resultWithError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

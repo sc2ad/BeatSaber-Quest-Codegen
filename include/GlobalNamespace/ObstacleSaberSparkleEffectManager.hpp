@@ -201,34 +201,84 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent
 // Il2CppName: add_sparkleEffectDidStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent
 // Il2CppName: remove_sparkleEffectDidStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent
 // Il2CppName: add_sparkleEffectDidEndEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent
 // Il2CppName: remove_sparkleEffectDidEndEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::GetEffectRotation
 // Il2CppName: GetEffectRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(UnityEngine::Vector3, UnityEngine::Transform*, UnityEngine::Bounds)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::GetEffectRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "GetEffectRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType
 // Il2CppName: BurnMarkPosForSaberType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "BurnMarkPosForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::GetBurnMarkPos
 // Il2CppName: GetBurnMarkPos
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(UnityEngine::Bounds, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::GetBurnMarkPos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

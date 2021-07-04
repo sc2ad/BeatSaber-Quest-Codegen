@@ -69,10 +69,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_CreateNotification*, "OVR
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRNotifications::_CreateNotification::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRNotifications::_CreateNotification*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRNotifications::_CreateNotification::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRNotifications::_CreateNotification*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRNotifications::_CreateNotification::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(OVR::OpenVR::NotificationBitmap_t&, uint&, System::IAsyncResult*)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRNotifications::_CreateNotification*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

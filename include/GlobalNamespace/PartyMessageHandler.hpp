@@ -169,28 +169,73 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "P
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)()>(&GlobalNamespace::PartyMessageHandler::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::add_serverStatusUpdatedEvent
 // Il2CppName: add_serverStatusUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*)>(&GlobalNamespace::PartyMessageHandler::add_serverStatusUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "add_serverStatusUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::remove_serverStatusUpdatedEvent
 // Il2CppName: remove_serverStatusUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*)>(&GlobalNamespace::PartyMessageHandler::remove_serverStatusUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "remove_serverStatusUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::SetServerStatus
 // Il2CppName: SetServerStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::SetServerStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "SetServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::HandleServerStatusUpdate
 // Il2CppName: HandleServerStatusUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*)>(&GlobalNamespace::PartyMessageHandler::HandleServerStatusUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "HandleServerStatusUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent
 // Il2CppName: add_connectToMasterServerEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)>(&GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "add_connectToMasterServerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::remove_connectToMasterServerEvent
 // Il2CppName: remove_connectToMasterServerEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)>(&GlobalNamespace::PartyMessageHandler::remove_connectToMasterServerEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "remove_connectToMasterServerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServer
 // Il2CppName: ConnectToMasterServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "ConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::HandleConnectToMasterServer
 // Il2CppName: HandleConnectToMasterServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*)>(&GlobalNamespace::PartyMessageHandler::HandleConnectToMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "HandleConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>()});
+  }
+};

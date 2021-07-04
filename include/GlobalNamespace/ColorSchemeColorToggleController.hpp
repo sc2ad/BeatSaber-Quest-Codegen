@@ -78,13 +78,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorToggleController*, "", "ColorSchemeColorToggleController");
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorToggleController::get_toggle
 // Il2CppName: get_toggle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Toggle* (GlobalNamespace::ColorSchemeColorToggleController::*)()>(&GlobalNamespace::ColorSchemeColorToggleController::get_toggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorToggleController*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorToggleController::get_color
 // Il2CppName: get_color
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorSchemeColorToggleController::*)()>(&GlobalNamespace::ColorSchemeColorToggleController::get_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorToggleController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorToggleController::set_color
 // Il2CppName: set_color
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeColorToggleController::*)(UnityEngine::Color)>(&GlobalNamespace::ColorSchemeColorToggleController::set_color)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorToggleController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorToggleController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

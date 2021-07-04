@@ -411,116 +411,296 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentContext
 // Il2CppName: get_CurrentContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentContext
 // Il2CppName: set_CurrentContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentTest
 // Il2CppName: get_CurrentTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentTest
 // Il2CppName: set_CurrentTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(NUnit::Framework::Internal::Test*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_StartTime
 // Il2CppName: get_StartTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_StartTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_StartTime
 // Il2CppName: set_StartTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(System::DateTime)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_StartTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_StartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_StartTicks
 // Il2CppName: get_StartTicks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_StartTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_StartTicks
 // Il2CppName: set_StartTicks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(int64_t)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_StartTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_StartTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentResult
 // Il2CppName: get_CurrentResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentResult
 // Il2CppName: set_CurrentResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_TestObject
 // Il2CppName: get_TestObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_TestObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_TestObject
 // Il2CppName: set_TestObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(::Il2CppObject*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_TestObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_WorkDirectory
 // Il2CppName: get_WorkDirectory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_WorkDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_WorkDirectory
 // Il2CppName: set_WorkDirectory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_WorkDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_ExecutionStatus
 // Il2CppName: get_ExecutionStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestExecutionStatus (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_ExecutionStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_ExecutionStatus
 // Il2CppName: set_ExecutionStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(NUnit::Framework::Internal::TestExecutionStatus)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_ExecutionStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_ExecutionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestExecutionStatus>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_UpstreamActions
 // Il2CppName: get_UpstreamActions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_UpstreamActions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_UpstreamActions
 // Il2CppName: set_UpstreamActions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_UpstreamActions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_TestCaseTimeout
 // Il2CppName: get_TestCaseTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_TestCaseTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_TestCaseTimeout
 // Il2CppName: set_TestCaseTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(int)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_TestCaseTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentCulture
 // Il2CppName: get_CurrentCulture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentCulture
 // Il2CppName: set_CurrentCulture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentCulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentUICulture
 // Il2CppName: get_CurrentUICulture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentUICulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentUICulture
 // Il2CppName: set_CurrentUICulture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(System::Globalization::CultureInfo*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_CurrentUICulture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_Listener
 // Il2CppName: get_Listener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_Listener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_Listener
 // Il2CppName: set_Listener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(NUnit::Framework::Interfaces::ITestListener*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_Listener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestListener*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_OutWriter
 // Il2CppName: get_OutWriter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_OutWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_OutWriter
 // Il2CppName: set_OutWriter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(System::IO::TextWriter*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_OutWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentValueFormatter
 // Il2CppName: get_CurrentValueFormatter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentValueFormatter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_SetUpTearDownState
 // Il2CppName: get_SetUpTearDownState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_SetUpTearDownState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_SetUpTearDownState
 // Il2CppName: set_SetUpTearDownState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_SetUpTearDownState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_SetUpTearDownState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_OuterUnityTestActionState
 // Il2CppName: get_OuterUnityTestActionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_OuterUnityTestActionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_OuterUnityTestActionState
 // Il2CppName: set_OuterUnityTestActionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(UnityEngine::TestTools::BeforeAfterTestCommandState*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_OuterUnityTestActionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_OuterUnityTestActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::BeforeAfterTestCommandState*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_EnumerableTestState
 // Il2CppName: get_EnumerableTestState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::EnumerableTestState* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_EnumerableTestState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_EnumerableTestState
 // Il2CppName: set_EnumerableTestState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(UnityEngine::TestTools::EnumerableTestState*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_EnumerableTestState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_EnumerableTestState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::EnumerableTestState*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::IncrementAssertCount
 // Il2CppName: IncrementAssertCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::IncrementAssertCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

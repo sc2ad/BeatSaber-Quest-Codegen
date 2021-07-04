@@ -88,16 +88,41 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeR
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::GetUpdateOrder
 // Il2CppName: GetUpdateOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::BeforeRenderHelper::GetUpdateOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BeforeRenderHelper*), "GetUpdateOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::RegisterCallback
 // Il2CppName: RegisterCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::BeforeRenderHelper::RegisterCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BeforeRenderHelper*), "RegisterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::UnregisterCallback
 // Il2CppName: UnregisterCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::BeforeRenderHelper::UnregisterCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BeforeRenderHelper*), "UnregisterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::BeforeRenderHelper::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BeforeRenderHelper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::BeforeRenderHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BeforeRenderHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

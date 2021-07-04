@@ -50,4 +50,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PseudoHDREncoding*, "", "PseudoHDREncoding");
 // Writing MetadataGetter for method: GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture
 // Il2CppName: CreatePseudoHDREncodedTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PseudoHDREncoding*), "CreatePseudoHDREncodedTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+  }
+};

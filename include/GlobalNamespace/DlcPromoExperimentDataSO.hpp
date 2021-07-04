@@ -77,13 +77,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO*, "", "DlcPromoExperimentDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos
 // Il2CppName: get_musicPackPromoInfos
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_aaTestExperimentDefinition
 // Il2CppName: get_aaTestExperimentDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_aaTestExperimentDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_aaTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_abTestExperimentDefinition
 // Il2CppName: get_abTestExperimentDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_abTestExperimentDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_abTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

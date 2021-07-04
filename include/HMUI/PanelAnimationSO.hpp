@@ -101,16 +101,36 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, UnityEngine::CanvasGroup*, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, UnityEngine::CanvasGroup*, bool, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

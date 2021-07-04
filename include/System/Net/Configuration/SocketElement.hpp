@@ -51,4 +51,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SocketElement*, "System.Net.C
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Configuration::SocketElement::get_Properties
 // Il2CppName: get_Properties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Net::Configuration::SocketElement::*)()>(&System::Net::Configuration::SocketElement::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::SocketElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

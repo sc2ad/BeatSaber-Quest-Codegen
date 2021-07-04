@@ -36,4 +36,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapLineData*, "", "IReadonlyBeatmapLineData");
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData
 // Il2CppName: get_beatmapObjectsData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapLineData::*)()>(&GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapLineData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

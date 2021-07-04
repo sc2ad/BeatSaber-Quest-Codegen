@@ -63,10 +63,20 @@ namespace VRUIControls {
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame
 // Il2CppName: PressedThisFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::PressedThisFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), "PressedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::ReleasedThisFrame
 // Il2CppName: ReleasedThisFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::ReleasedThisFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

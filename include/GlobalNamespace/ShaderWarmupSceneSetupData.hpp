@@ -59,10 +59,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData
 // Il2CppName: get_nextScenesTransitionSetupData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (GlobalNamespace::ShaderWarmupSceneSetupData::*)()>(&GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData
 // Il2CppName: set_nextScenesTransitionSetupData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&GlobalNamespace::ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetupData*), "set_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

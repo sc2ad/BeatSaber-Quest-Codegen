@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest::CancelHander*, "", "HMAs
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::CancelHander::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest::CancelHander*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::CancelHander::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest::CancelHander*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::CancelHander::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::CancelHander::*)(System::IAsyncResult*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest::CancelHander*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

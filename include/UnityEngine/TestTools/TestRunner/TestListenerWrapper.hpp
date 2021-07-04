@@ -82,10 +82,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestListenerWrapper*,
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestStarted
 // Il2CppName: TestStarted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::TestListenerWrapper::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestListenerWrapper*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestFinished
 // Il2CppName: TestFinished
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::TestListenerWrapper::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestListenerWrapper*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestOutput
 // Il2CppName: TestOutput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::TestListenerWrapper::*)(NUnit::Framework::Interfaces::TestOutput*)>(&UnityEngine::TestTools::TestRunner::TestListenerWrapper::TestOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestListenerWrapper*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TestOutput*>()});
+  }
+};

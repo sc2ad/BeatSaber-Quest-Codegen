@@ -419,67 +419,177 @@ DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Dia
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_Associated
 // Il2CppName: get_Associated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_Associated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_Associated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_HasExited
 // Il2CppName: get_HasExited
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_HasExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_HasExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetProcessTimes
 // Il2CppName: GetProcessTimes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::ProcessThreadTimes* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::GetProcessTimes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_Id
 // Il2CppName: get_Id
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_Id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_SynchronizingObject
 // Il2CppName: get_SynchronizingObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::ISynchronizeInvoke* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_SynchronizingObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_SynchronizingObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_TotalProcessorTime
 // Il2CppName: get_TotalProcessorTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_TotalProcessorTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_TotalProcessorTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::ReleaseProcessHandle
 // Il2CppName: ReleaseProcessHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ReleaseProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ReleaseProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::Close
 // Il2CppName: Close
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::Close)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::EnsureState
 // Il2CppName: EnsureState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(System::Diagnostics::Process::State)>(&System::Diagnostics::Process::EnsureState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "EnsureState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::Process::State>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetCurrentProcess
 // Il2CppName: GetCurrentProcess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::Process* (*)()>(&System::Diagnostics::Process::GetCurrentProcess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetCurrentProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::OnExited
 // Il2CppName: OnExited
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::OnExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "OnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetProcessHandle
 // Il2CppName: GetProcessHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (System::Diagnostics::Process::*)(int, bool)>(&System::Diagnostics::Process::GetProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetProcessHandle
 // Il2CppName: GetProcessHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (System::Diagnostics::Process::*)(int)>(&System::Diagnostics::Process::GetProcessHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::Refresh
 // Il2CppName: Refresh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::Kill
 // Il2CppName: Kill
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::Kill)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Kill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::StopWatchingForExit
 // Il2CppName: StopWatchingForExit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::StopWatchingForExit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "StopWatchingForExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::ProcessName_internal
 // Il2CppName: ProcessName_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Diagnostics::Process::ProcessName_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::ProcessName_internal
 // Il2CppName: ProcessName_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ProcessName_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_ProcessName
 // Il2CppName: get_ProcessName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_ProcessName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_ProcessName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::RaiseOnExited
 // Il2CppName: RaiseOnExited
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::RaiseOnExited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "RaiseOnExited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(bool)>(&System::Diagnostics::Process::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Diagnostics::Process::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -437,145 +437,380 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
 // Writing MetadataGetter for method: HMUI::TableView::get_selectionType
 // Il2CppName: get_selectionType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableViewSelectionType (HMUI::TableView::*)()>(&HMUI::TableView::get_selectionType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_selectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::set_selectionType
 // Il2CppName: set_selectionType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(HMUI::TableViewSelectionType)>(&HMUI::TableView::set_selectionType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "set_selectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableViewSelectionType>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_canSelectSelectedCell
 // Il2CppName: get_canSelectSelectedCell
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::TableView::*)()>(&HMUI::TableView::get_canSelectSelectedCell)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_canSelectSelectedCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_2<HMUI::TableView*, int>*)>(&HMUI::TableView::add_didSelectCellWithIdxEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TableView*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::remove_didSelectCellWithIdxEvent
 // Il2CppName: remove_didSelectCellWithIdxEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_2<HMUI::TableView*, int>*)>(&HMUI::TableView::remove_didSelectCellWithIdxEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::TableView*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::add_didReloadDataEvent
 // Il2CppName: add_didReloadDataEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::add_didReloadDataEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "add_didReloadDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::remove_didReloadDataEvent
 // Il2CppName: remove_didReloadDataEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::remove_didReloadDataEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "remove_didReloadDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::add_didInsertCellsEvent
 // Il2CppName: add_didInsertCellsEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::add_didInsertCellsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "add_didInsertCellsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::remove_didInsertCellsEvent
 // Il2CppName: remove_didInsertCellsEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::remove_didInsertCellsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "remove_didInsertCellsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::add_didDeleteCellsEvent
 // Il2CppName: add_didDeleteCellsEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::add_didDeleteCellsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "add_didDeleteCellsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::remove_didDeleteCellsEvent
 // Il2CppName: remove_didDeleteCellsEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::remove_didDeleteCellsEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "remove_didDeleteCellsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::add_didChangeRectSizeEvent
 // Il2CppName: add_didChangeRectSizeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::add_didChangeRectSizeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "add_didChangeRectSizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::remove_didChangeRectSizeEvent
 // Il2CppName: remove_didChangeRectSizeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(System::Action_1<HMUI::TableView*>*)>(&HMUI::TableView::remove_didChangeRectSizeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "remove_didChangeRectSizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::TableView*>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_dataSource
 // Il2CppName: get_dataSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableView::IDataSource* (HMUI::TableView::*)()>(&HMUI::TableView::get_dataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::SetDataSource
 // Il2CppName: SetDataSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(HMUI::TableView::IDataSource*, bool)>(&HMUI::TableView::SetDataSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "SetDataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView::IDataSource*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_visibleCells
 // Il2CppName: get_visibleCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<HMUI::TableCell*>* (HMUI::TableView::*)()>(&HMUI::TableView::get_visibleCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_visibleCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_viewportTransform
 // Il2CppName: get_viewportTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::TableView::*)()>(&HMUI::TableView::get_viewportTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_viewportTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_contentTransform
 // Il2CppName: get_contentTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::TableView::*)()>(&HMUI::TableView::get_contentTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_contentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_numberOfCells
 // Il2CppName: get_numberOfCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::TableView::*)()>(&HMUI::TableView::get_numberOfCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_numberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_cellSize
 // Il2CppName: get_cellSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TableView::*)()>(&HMUI::TableView::get_cellSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_cellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_tableType
 // Il2CppName: get_tableType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableView::TableType (HMUI::TableView::*)()>(&HMUI::TableView::get_tableType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_tableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::get_scrollView
 // Il2CppName: get_scrollView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScrollView* (HMUI::TableView::*)()>(&HMUI::TableView::get_scrollView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "get_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::LazyInit
 // Il2CppName: LazyInit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::LazyInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::Hide
 // Il2CppName: Hide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::Show
 // Il2CppName: Show
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::RefreshContentSize
 // Il2CppName: RefreshContentSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::RefreshContentSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "RefreshContentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::RefreshCellsContent
 // Il2CppName: RefreshCellsContent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::RefreshCellsContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "RefreshCellsContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::GetVisibleCellsIdRange
 // Il2CppName: GetVisibleCellsIdRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<int, int>* (HMUI::TableView::*)()>(&HMUI::TableView::GetVisibleCellsIdRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "GetVisibleCellsIdRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::RefreshCells
 // Il2CppName: RefreshCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(bool, bool)>(&HMUI::TableView::RefreshCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "RefreshCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::LayoutCellForIdx
 // Il2CppName: LayoutCellForIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(HMUI::TableCell*, int, float)>(&HMUI::TableView::LayoutCellForIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "LayoutCellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableCell*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::AddCellToReusableCells
 // Il2CppName: AddCellToReusableCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(HMUI::TableCell*)>(&HMUI::TableView::AddCellToReusableCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "AddCellToReusableCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableCell*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::HandleScrollRectValueChanged
 // Il2CppName: HandleScrollRectValueChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(float)>(&HMUI::TableView::HandleScrollRectValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "HandleScrollRectValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::HandleCellSelectionDidChange
 // Il2CppName: HandleCellSelectionDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&HMUI::TableView::HandleCellSelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "HandleCellSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::DidSelectCellWithIdx
 // Il2CppName: DidSelectCellWithIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(int)>(&HMUI::TableView::DidSelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "DidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ReloadDataKeepingPosition
 // Il2CppName: ReloadDataKeepingPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::ReloadDataKeepingPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ReloadDataKeepingPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ReloadData
 // Il2CppName: ReloadData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::ReloadData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::InsertCells
 // Il2CppName: InsertCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(int, int)>(&HMUI::TableView::InsertCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "InsertCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::DeleteCells
 // Il2CppName: DeleteCells
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(int, int)>(&HMUI::TableView::DeleteCells)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "DeleteCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::DequeueReusableCellForIdentifier
 // Il2CppName: DequeueReusableCellForIdentifier
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::TableView::*)(::Il2CppString*)>(&HMUI::TableView::DequeueReusableCellForIdentifier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "DequeueReusableCellForIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::SelectCellWithIdx
 // Il2CppName: SelectCellWithIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(int, bool)>(&HMUI::TableView::SelectCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ClearSelection
 // Il2CppName: ClearSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::ClearSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ClearHighlights
 // Il2CppName: ClearHighlights
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)()>(&HMUI::TableView::ClearHighlights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ClearHighlights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ScrollToCellWithIdx
 // Il2CppName: ScrollToCellWithIdx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(int, HMUI::TableView::ScrollPositionType, bool)>(&HMUI::TableView::ScrollToCellWithIdx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ScrollToCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<HMUI::TableView::ScrollPositionType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::ChangeRectSize
 // Il2CppName: ChangeRectSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::*)(UnityEngine::RectTransform::Axis, float)>(&HMUI::TableView::ChangeRectSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "ChangeRectSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform::Axis>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::TableView::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

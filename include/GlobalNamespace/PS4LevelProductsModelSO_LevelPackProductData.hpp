@@ -84,19 +84,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*, "", "PS4LevelProductsModelSO/LevelPackProductData");
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel
 // Il2CppName: get_productLabel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_productLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_categoryLabel
 // Il2CppName: get_categoryLabel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_categoryLabel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_categoryLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelPackId
 // Il2CppName: get_levelPackId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelPackId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_levelPackId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_packLevelPriceDiscountMul
 // Il2CppName: get_packLevelPriceDiscountMul
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_packLevelPriceDiscountMul)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_packLevelPriceDiscountMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelProductsData
 // Il2CppName: get_levelProductsData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelProductsData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_levelProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -46,7 +46,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForConfiguration
 // Il2CppName: VerifyBeatmapForConfiguration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IServerBeatmapProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForConfiguration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProvider*), "VerifyBeatmapForConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
 // Il2CppName: SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::IServerBeatmapProvider::*)(int, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*, GlobalNamespace::GameplayServerConfiguration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IServerBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProvider*), "SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+  }
+};

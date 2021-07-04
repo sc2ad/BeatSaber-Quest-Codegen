@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallb
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IntPtr, System::IntPtr, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IAsyncResult*)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

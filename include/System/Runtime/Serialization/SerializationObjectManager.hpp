@@ -78,10 +78,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManage
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationObjectManager::RegisterObject
 // Il2CppName: RegisterObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::SerializationObjectManager::RegisterObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationObjectManager::RaiseOnSerializedEvent
 // Il2CppName: RaiseOnSerializedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationObjectManager::*)()>(&System::Runtime::Serialization::SerializationObjectManager::RaiseOnSerializedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationObjectManager*), "RaiseOnSerializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationObjectManager::AddOnSerialized
 // Il2CppName: AddOnSerialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::SerializationObjectManager::AddOnSerialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationObjectManager*), "AddOnSerialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

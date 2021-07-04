@@ -69,4 +69,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.R
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs
 // Il2CppName: GetInOutArgs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::ArgInfo::*)(::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), "GetInOutArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};

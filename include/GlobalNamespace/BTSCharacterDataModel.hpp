@@ -70,10 +70,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds
 // Il2CppName: get_prefabsWithIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_prefabsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds
 // Il2CppName: get_animationClipsWithIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_animationClipsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

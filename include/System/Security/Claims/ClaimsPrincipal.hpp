@@ -133,32 +133,72 @@ namespace System::Security::Claims {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity
 // Il2CppName: SelectPrimaryIdentity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (*)(System::Collections::Generic::IEnumerable_1<System::Security::Claims::ClaimsIdentity*>*)>(&System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "SelectPrimaryIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Security::Claims::ClaimsIdentity*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::get_ClaimsPrincipalSelector
 // Il2CppName: get_ClaimsPrincipalSelector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_1<System::Security::Claims::ClaimsPrincipal*>* (*)()>(&System::Security::Claims::ClaimsPrincipal::get_ClaimsPrincipalSelector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "get_ClaimsPrincipalSelector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::OnSerializingMethod
 // Il2CppName: OnSerializingMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::OnSerializingMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnSerializingMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::OnDeserializedMethod
 // Il2CppName: OnDeserializedMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::OnDeserializedMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::DeserializeIdentities
 // Il2CppName: DeserializeIdentities
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(::Il2CppString*)>(&System::Security::Claims::ClaimsPrincipal::DeserializeIdentities)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "DeserializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SerializeIdentities
 // Il2CppName: SerializeIdentities
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsPrincipal::*)()>(&System::Security::Claims::ClaimsPrincipal::SerializeIdentities)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "SerializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Claims::ClaimsPrincipal::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

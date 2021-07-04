@@ -77,7 +77,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute*, "System", "ObsoleteAttribute"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ObsoleteAttribute::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ObsoleteAttribute::*)()>(&System::ObsoleteAttribute::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ObsoleteAttribute*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ObsoleteAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

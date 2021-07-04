@@ -136,19 +136,39 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.P
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform
 // Il2CppName: EmptyGameObjectWithTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Transform*)>(&UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "EmptyGameObjectWithTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::NextEnumValue
 // Il2CppName: NextEnumValue
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::ControlKeyString
 // Il2CppName: ControlKeyString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar)>(&UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "ControlKeyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::TryParseColor
 // Il2CppName: TryParseColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Color&)>(&UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "TryParseColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::StringToVector3Array
 // Il2CppName: StringToVector3Array
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::InternalUtility::StringToVector3Array)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "StringToVector3Array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::DemandComponent
 // Il2CppName: DemandComponent
 // Cannot write MetadataGetter for generic methods!

@@ -188,7 +188,12 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::RegionInfo* (*)()>(&System::Globalization::RegionInfo::get_CurrentRegion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrentRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -203,58 +208,153 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::GetByTerritory
 // Il2CppName: GetByTerritory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(System::Globalization::CultureInfo*)>(&System::Globalization::RegionInfo::GetByTerritory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "GetByTerritory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::construct_internal_region_from_name
 // Il2CppName: construct_internal_region_from_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(::Il2CppString*)>(&System::Globalization::RegionInfo::construct_internal_region_from_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "construct_internal_region_from_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencyEnglishName
 // Il2CppName: get_CurrencyEnglishName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyEnglishName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencyEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencySymbol
 // Il2CppName: get_CurrencySymbol
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencySymbol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_DisplayName
 // Il2CppName: get_DisplayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_DisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_EnglishName
 // Il2CppName: get_EnglishName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_EnglishName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_EnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_GeoId
 // Il2CppName: get_GeoId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_GeoId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_GeoId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_IsMetric
 // Il2CppName: get_IsMetric
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_IsMetric)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_IsMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ISOCurrencySymbol
 // Il2CppName: get_ISOCurrencySymbol
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ISOCurrencySymbol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ISOCurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_NativeName
 // Il2CppName: get_NativeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_NativeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_NativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencyNativeName
 // Il2CppName: get_CurrencyNativeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyNativeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencyNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ThreeLetterISORegionName
 // Il2CppName: get_ThreeLetterISORegionName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterISORegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ThreeLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName
 // Il2CppName: get_ThreeLetterWindowsRegionName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ThreeLetterWindowsRegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_TwoLetterISORegionName
 // Il2CppName: get_TwoLetterISORegionName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_TwoLetterISORegionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_TwoLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::ClearCachedData
 // Il2CppName: ClearCachedData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::RegionInfo::ClearCachedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "ClearCachedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(::Il2CppObject*)>(&System::Globalization::RegionInfo::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

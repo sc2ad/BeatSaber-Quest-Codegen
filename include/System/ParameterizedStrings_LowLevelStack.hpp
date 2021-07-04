@@ -58,13 +58,28 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop
 // Il2CppName: Pop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParameterizedStrings::FormatParam (System::ParameterizedStrings::LowLevelStack::*)()>(&System::ParameterizedStrings::LowLevelStack::Pop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings::LowLevelStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Push
 // Il2CppName: Push
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ParameterizedStrings::LowLevelStack::*)(System::ParameterizedStrings::FormatParam)>(&System::ParameterizedStrings::LowLevelStack::Push)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings::LowLevelStack*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParameterizedStrings::FormatParam>()});
+  }
+};
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ParameterizedStrings::LowLevelStack::*)()>(&System::ParameterizedStrings::LowLevelStack::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings::LowLevelStack*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

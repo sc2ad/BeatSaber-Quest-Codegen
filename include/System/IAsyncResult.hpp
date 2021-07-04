@@ -43,13 +43,33 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult*, "System", "IAsyncResult");
 // Writing MetadataGetter for method: System::IAsyncResult::get_IsCompleted
 // Il2CppName: get_IsCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IAsyncResult::*)()>(&System::IAsyncResult::get_IsCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IAsyncResult::get_AsyncWaitHandle
 // Il2CppName: get_AsyncWaitHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncWaitHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IAsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IAsyncResult::get_CompletedSynchronously
 // Il2CppName: get_CompletedSynchronously
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IAsyncResult::*)()>(&System::IAsyncResult::get_CompletedSynchronously)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

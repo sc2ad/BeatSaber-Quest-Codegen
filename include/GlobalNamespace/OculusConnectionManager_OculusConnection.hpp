@@ -133,38 +133,93 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_id
 // Il2CppName: get_id
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_userId
 // Il2CppName: get_userId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_userName
 // Il2CppName: get_userName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_isConnectionOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Send
 // Il2CppName: Send
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Send)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Disconnect
 // Il2CppName: Disconnect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Ping
 // Il2CppName: Ping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Ping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(GlobalNamespace::OculusConnectionManager::OculusConnection*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusConnectionManager::OculusConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(::Il2CppObject*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -255,139 +255,364 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBodyBiped*, "RootMotion.FinalIK", "IKSolverFullBodyBiped");
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector
 // Il2CppName: get_bodyEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_bodyEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftShoulderEffector
 // Il2CppName: get_leftShoulderEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftShoulderEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftShoulderEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightShoulderEffector
 // Il2CppName: get_rightShoulderEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightShoulderEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightShoulderEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftThighEffector
 // Il2CppName: get_leftThighEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftThighEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftThighEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightThighEffector
 // Il2CppName: get_rightThighEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightThighEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightThighEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftHandEffector
 // Il2CppName: get_leftHandEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftHandEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightHandEffector
 // Il2CppName: get_rightHandEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightHandEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftFootEffector
 // Il2CppName: get_leftFootEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftFootEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftFootEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightFootEffector
 // Il2CppName: get_rightFootEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightFootEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightFootEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmChain
 // Il2CppName: get_leftArmChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftArmChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmChain
 // Il2CppName: get_rightArmChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightArmChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegChain
 // Il2CppName: get_leftLegChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftLegChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegChain
 // Il2CppName: get_rightLegChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightLegChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmMapping
 // Il2CppName: get_leftArmMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftArmMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftArmMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmMapping
 // Il2CppName: get_rightArmMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightArmMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightArmMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegMapping
 // Il2CppName: get_leftLegMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_leftLegMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_leftLegMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegMapping
 // Il2CppName: get_rightLegMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_rightLegMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_rightLegMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_headMapping
 // Il2CppName: get_headMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingBone* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_headMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_headMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::SetChainWeights
 // Il2CppName: SetChainWeights
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain, float, float)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::SetChainWeights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "SetChainWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::SetEffectorWeights
 // Il2CppName: SetEffectorWeights
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedEffector, float, float)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::SetEffectorWeights)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "SetEffectorWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain
 // Il2CppName: GetChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain
 // Il2CppName: GetChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FBIKChain* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetEffector
 // Il2CppName: GetEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetEndEffector
 // Il2CppName: GetEndEffector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetEndEffector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetEndEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping
 // Il2CppName: GetLimbMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetLimbMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping
 // Il2CppName: GetLimbMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingLimb* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetLimbMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetLimbMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetSpineMapping
 // Il2CppName: GetSpineMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingSpine* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetSpineMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetSpineMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetHeadMapping
 // Il2CppName: GetHeadMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMappingBone* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetHeadMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetHeadMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetBendConstraint
 // Il2CppName: GetBendConstraint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKConstraintBend* (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetBendConstraint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetBendConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::SetToReferences
 // Il2CppName: SetToReferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::BipedReferences*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::SetToReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "SetToReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::DetectRootNodeBone
 // Il2CppName: DetectRootNodeBone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedReferences*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::DetectRootNodeBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "DetectRootNodeBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientations
 // Il2CppName: SetLimbOrientations
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::BipedLimbOrientations*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "SetLimbOrientations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_pullBodyOffset
 // Il2CppName: get_pullBodyOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::get_pullBodyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "get_pullBodyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::set_pullBodyOffset
 // Il2CppName: set_pullBodyOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::set_pullBodyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "set_pullBodyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientation
 // Il2CppName: SetLimbOrientation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::FullBodyBipedChain, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::SetLimbOrientation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "SetLimbOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetLeftClavicle
 // Il2CppName: GetLeftClavicle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedReferences*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetLeftClavicle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetLeftClavicle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetRightClavicle
 // Il2CppName: GetRightClavicle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedReferences*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetRightClavicle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetRightClavicle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::PullBody
 // Il2CppName: PullBody
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::PullBody)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "PullBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetBodyOffset
 // Il2CppName: GetBodyOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetBodyOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetBodyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::GetHandBodyPull
 // Il2CppName: GetHandBodyPull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(RootMotion::FinalIK::IKEffector*, RootMotion::FinalIK::FBIKChain*, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::GetHandBodyPull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "GetHandBodyPull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FBIKChain*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::IsValid
 // Il2CppName: IsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverFullBodyBiped::*)(::Il2CppString*&)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::ReadPose
 // Il2CppName: ReadPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::ReadPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "ReadPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::ApplyBendConstraints
 // Il2CppName: ApplyBendConstraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::ApplyBendConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "ApplyBendConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::WritePose
 // Il2CppName: WritePose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBodyBiped::*)()>(&RootMotion::FinalIK::IKSolverFullBodyBiped::WritePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBodyBiped*), "WritePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

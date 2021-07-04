@@ -31,7 +31,17 @@ namespace System::Numerics::Hashing {
 DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
 // Writing MetadataGetter for method: System::Numerics::Hashing::HashHelpers::Combine
 // Il2CppName: Combine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&System::Numerics::Hashing::HashHelpers::Combine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Numerics::Hashing::HashHelpers*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Numerics::Hashing::HashHelpers::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Numerics::Hashing::HashHelpers::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Numerics::Hashing::HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

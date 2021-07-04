@@ -104,22 +104,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds*, "", "LightmapLightWithIds");
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_maxTotalIntensity
 // Il2CppName: get_maxTotalIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::get_maxTotalIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "get_maxTotalIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::set_maxTotalIntensity
 // Il2CppName: set_maxTotalIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)(float)>(&GlobalNamespace::LightmapLightWithIds::set_maxTotalIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "set_maxTotalIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::add_globalIntensityDidChangeEvent
 // Il2CppName: add_globalIntensityDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)(System::Action_1<float>*)>(&GlobalNamespace::LightmapLightWithIds::add_globalIntensityDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "add_globalIntensityDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::remove_globalIntensityDidChangeEvent
 // Il2CppName: remove_globalIntensityDidChangeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)(System::Action_1<float>*)>(&GlobalNamespace::LightmapLightWithIds::remove_globalIntensityDidChangeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "remove_globalIntensityDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_lightIntensityData
 // Il2CppName: get_lightIntensityData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::get_lightIntensityData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "get_lightIntensityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame
 // Il2CppName: HandleLightManagerDidChangeSomeColorsThisFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "HandleLightManagerDidChangeSomeColorsThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

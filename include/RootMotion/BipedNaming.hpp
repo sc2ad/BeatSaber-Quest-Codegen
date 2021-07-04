@@ -305,73 +305,193 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNa
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNaming/BoneSide");
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfType
 // Il2CppName: GetBonesOfType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBonesOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfSide
 // Il2CppName: GetBonesOfSide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBonesOfSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfTypeAndSide
 // Il2CppName: GetBonesOfTypeAndSide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfTypeAndSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBonesOfTypeAndSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide
 // Il2CppName: GetFirstBoneOfTypeAndSide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetFirstBoneOfTypeAndSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetNamingMatch
 // Il2CppName: GetNamingMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetNamingMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetNamingMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<::Il2CppString*>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBoneType
 // Il2CppName: GetBoneType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedNaming::BoneType (*)(::Il2CppString*)>(&RootMotion::BipedNaming::GetBoneType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBoneType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBoneSide
 // Il2CppName: GetBoneSide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedNaming::BoneSide (*)(::Il2CppString*)>(&RootMotion::BipedNaming::GetBoneSide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBoneSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBone
 // Il2CppName: GetBone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetBone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<::Il2CppString*>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isLeft
 // Il2CppName: isLeft
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isRight
 // Il2CppName: isRight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isSpine
 // Il2CppName: isSpine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isSpine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isSpine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isHead
 // Il2CppName: isHead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isHead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isArm
 // Il2CppName: isArm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isArm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isArm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isLeg
 // Il2CppName: isLeg
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isLeg)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isTail
 // Il2CppName: isTail
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isTail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isTail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isEye
 // Il2CppName: isEye
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isEye)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::isTypeExclude
 // Il2CppName: isTypeExclude
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isTypeExclude)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isTypeExclude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::matchesNaming
 // Il2CppName: matchesNaming
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesNaming)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "matchesNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::excludesNaming
 // Il2CppName: excludesNaming
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::excludesNaming)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "excludesNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::matchesLastLetter
 // Il2CppName: matchesLastLetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesLastLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "matchesLastLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::LastLetterIs
 // Il2CppName: LastLetterIs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&RootMotion::BipedNaming::LastLetterIs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "LastLetterIs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::firstLetter
 // Il2CppName: firstLetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RootMotion::BipedNaming::firstLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "firstLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::lastLetter
 // Il2CppName: lastLetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RootMotion::BipedNaming::lastLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "lastLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::BipedNaming::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RootMotion::BipedNaming::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

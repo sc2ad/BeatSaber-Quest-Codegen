@@ -194,40 +194,100 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "Unity
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource
 // Il2CppName: set_timeSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "set_timeSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(UnityEngine::Playables::PlayableGraph, double, UnityEngine::Playables::DirectorWrapMode)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::AddNotification
 // Il2CppName: AddNotification
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(double, UnityEngine::Playables::INotification*, UnityEngine::Timeline::NotificationFlags)>(&UnityEngine::Timeline::TimeNotificationBehaviour::AddNotification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "AddNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::NotificationFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::SortNotifications
 // Il2CppName: SortNotifications
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)()>(&UnityEngine::Timeline::TimeNotificationBehaviour::SortNotifications)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "SortNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::CanRestoreNotification
 // Il2CppName: CanRestoreNotification
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, UnityEngine::Playables::FrameData, double, double)>(&UnityEngine::Timeline::TimeNotificationBehaviour::CanRestoreNotification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "CanRestoreNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::TriggerNotificationsInRange
 // Il2CppName: TriggerNotificationsInRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(double, double, UnityEngine::Playables::FrameData, UnityEngine::Playables::Playable, bool)>(&UnityEngine::Timeline::TimeNotificationBehaviour::TriggerNotificationsInRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "TriggerNotificationsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::SyncDurationWithExternalSource
 // Il2CppName: SyncDurationWithExternalSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TimeNotificationBehaviour::SyncDurationWithExternalSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "SyncDurationWithExternalSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal
 // Il2CppName: Trigger_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::Playable, UnityEngine::Playables::PlayableOutput, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "Trigger_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal
 // Il2CppName: Restore_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "Restore_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TimeNotificationBehaviour::OnGraphStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::OnBehaviourPause
 // Il2CppName: OnBehaviourPause
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::TimeNotificationBehaviour::OnBehaviourPause)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::PrepareFrame
 // Il2CppName: PrepareFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeNotificationBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::TimeNotificationBehaviour::PrepareFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

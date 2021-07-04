@@ -87,16 +87,41 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineService
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::ErrorResult
 // Il2CppName: ErrorResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_notInicializedError
 // Il2CppName: get_notInicializedError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_notInicializedError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_notInicializedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError
 // Il2CppName: get_somethingWentWrongError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_somethingWentWrongError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError
 // Il2CppName: get_onlineServicesUnavailableError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult
 // Il2CppName: FromGetLeaderboardEntriesResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardEntriesResult>()});
+  }
+};

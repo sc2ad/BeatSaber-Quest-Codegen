@@ -77,16 +77,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c*, "", "LevelFilteringNavigationController/<>c");
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LevelFilteringNavigationController::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::$Setup$b__31_0
 // Il2CppName: <Setup>b__31_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelFilteringNavigationController::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c::$Setup$b__31_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), "<Setup>b__31_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::$SelectAnnotatedBeatmapLevelCollection$b__44_0
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__44_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelFilteringNavigationController::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c::$SelectAnnotatedBeatmapLevelCollection$b__44_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), "<SelectAnnotatedBeatmapLevelCollection>b__44_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::$SelectAnnotatedBeatmapLevelCollection$b__44_2
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__44_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelFilteringNavigationController::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c::$SelectAnnotatedBeatmapLevelCollection$b__44_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c*), "<SelectAnnotatedBeatmapLevelCollection>b__44_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

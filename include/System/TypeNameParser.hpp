@@ -49,4 +49,9 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser*, "System", "TypeNameParser");
 // Writing MetadataGetter for method: System::TypeNameParser::GetType
 // Il2CppName: GetType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool, System::Threading::StackCrawlMark&)>(&System::TypeNameParser::GetType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNameParser*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};

@@ -88,7 +88,17 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToExistingGameObjectComponentProvider*, "Zenj
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive
 // Il2CppName: get_ShouldToggleActive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::AddToExistingGameObjectComponentProvider::*)()>(&Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), "get_ShouldToggleActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::AddToExistingGameObjectComponentProvider::GetGameObject
 // Il2CppName: GetGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::AddToExistingGameObjectComponentProvider::*)(Zenject::InjectContext*)>(&Zenject::AddToExistingGameObjectComponentProvider::GetGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), "GetGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};

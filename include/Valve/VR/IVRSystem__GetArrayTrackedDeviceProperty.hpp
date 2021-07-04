@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*, "V
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, uint, System::IntPtr, uint, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, uint, System::IntPtr, uint, Valve::VR::ETrackedPropertyError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(Valve::VR::ETrackedPropertyError&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

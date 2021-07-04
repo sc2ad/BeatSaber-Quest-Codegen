@@ -448,115 +448,300 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator*, "", "QuickPlayLobbyFlowCoordinator");
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(System::Action*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_willFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "add_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::remove_willFinishEvent
 // Il2CppName: remove_willFinishEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(System::Action*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::remove_willFinishEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "remove_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_didFinishedEvent
 // Il2CppName: add_didFinishedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(System::Action*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_didFinishedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "add_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::remove_didFinishedEvent
 // Il2CppName: remove_didFinishedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(System::Action*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::remove_didFinishedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "remove_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange
 // Il2CppName: HandleLobbyPlayersDataModelDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerSetPlayerReady
 // Il2CppName: HandleQuickPlaySetupViewControllerSetPlayerReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(bool)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerSetPlayerReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleQuickPlaySetupViewControllerSetPlayerReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerSuggestBeatmap
 // Il2CppName: HandleQuickPlaySetupViewControllerSuggestBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerSuggestBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleQuickPlaySetupViewControllerSuggestBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel
 // Il2CppName: HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator::State*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator::State*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish
 // Il2CppName: HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap
 // Il2CppName: HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap
 // Il2CppName: HandleServerPlayerListControllerSelectSuggestedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleServerPlayerListControllerSelectSuggestedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLobbyDisconnected
 // Il2CppName: HandleLobbyGameStateControllerLobbyDisconnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLobbyDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerLobbyDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerGameStarted
 // Il2CppName: HandleLobbyGameStateControllerGameStarted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerGameStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerGameStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerGameStartedPresentView
 // Il2CppName: HandleLobbyGameStateControllerGameStartedPresentView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerGameStartedPresentView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerGameStartedPresentView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerCountdownStarted
 // Il2CppName: HandleLobbyGameStateControllerCountdownStarted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerCountdownStarted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerCountdownStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerCountdownCancelled
 // Il2CppName: HandleLobbyGameStateControllerCountdownCancelled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerCountdownCancelled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerCountdownCancelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading
 // Il2CppName: HandleLobbyGameStateControllerSongStillDownloading
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerSongStillDownloading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMenuRpcManagerSetMultiplayerGameState
 // Il2CppName: HandleMenuRpcManagerSetMultiplayerGameState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(::Il2CppString*, GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMenuRpcManagerSetMultiplayerGameState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleMenuRpcManagerSetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished
 // Il2CppName: HandleLobbyGameStateControllerLevelFinished
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelDidGetDisconnected
 // Il2CppName: HandleLobbyGameStateControllerLevelDidGetDisconnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelDidGetDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerLevelDidGetDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerBeforeSceneSwitch
 // Il2CppName: HandleLobbyGameStateControllerBeforeSceneSwitch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleLobbyGameStateControllerBeforeSceneSwitch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleLobbyGameStateControllerBeforeSceneSwitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerResultsViewControllerBackToLobbyPressed
 // Il2CppName: HandleMultiplayerResultsViewControllerBackToLobbyPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerResultsViewController*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::HandleMultiplayerResultsViewControllerBackToLobbyPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "HandleMultiplayerResultsViewControllerBackToLobbyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::SetupGameStarting
 // Il2CppName: SetupGameStarting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::SetupGameStarting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "SetupGameStarting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::SetLocalPlayerDataModelToViews
 // Il2CppName: SetLocalPlayerDataModelToViews
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::SetLocalPlayerDataModelToViews)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "SetLocalPlayerDataModelToViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::PresentBackButtonConfirmationDialog
 // Il2CppName: PresentBackButtonConfirmationDialog
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::PresentBackButtonConfirmationDialog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "PresentBackButtonConfirmationDialog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::Finish
 // Il2CppName: Finish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(System::Action*, bool)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::Finish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::DismissViewControllersAndCoordinators
 // Il2CppName: DismissViewControllersAndCoordinators
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::DismissViewControllersAndCoordinators)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "DismissViewControllersAndCoordinators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::ShowDisconnectDialogAndFinish
 // Il2CppName: ShowDisconnectDialogAndFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::ShowDisconnectDialogAndFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "ShowDisconnectDialogAndFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::$PresentBackButtonConfirmationDialog$b__60_0
 // Il2CppName: <PresentBackButtonConfirmationDialog>b__60_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(int)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::$PresentBackButtonConfirmationDialog$b__60_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "<PresentBackButtonConfirmationDialog>b__60_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::$ShowDisconnectDialogAndFinish$b__63_0
 // Il2CppName: <ShowDisconnectDialogAndFinish>b__63_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::$ShowDisconnectDialogAndFinish$b__63_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "<ShowDisconnectDialogAndFinish>b__63_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::TopViewControllerWillChange
 // Il2CppName: TopViewControllerWillChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::TopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::BackButtonWasPressed
 // Il2CppName: BackButtonWasPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::BackButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::InitialViewControllerWasPresented
 // Il2CppName: InitialViewControllerWasPresented
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::InitialViewControllerWasPresented)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::TransitionDidStart
 // Il2CppName: TransitionDidStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::TransitionDidStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "TransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::TransitionDidFinish
 // Il2CppName: TransitionDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::TransitionDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*), "TransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

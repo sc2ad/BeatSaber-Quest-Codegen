@@ -416,133 +416,343 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "Loca
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_peerUpdatedEvent
 // Il2CppName: add_peerUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_peerUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::remove_peerUpdatedEvent
 // Il2CppName: remove_peerUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_peerUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRequestedEvent
 // Il2CppName: add_joinRequestedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRequestedEvent
 // Il2CppName: remove_joinRequestedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRespondedEvent
 // Il2CppName: add_joinRespondedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRespondedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRespondedEvent
 // Il2CppName: remove_joinRespondedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRespondedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRequestedEvent
 // Il2CppName: add_inviteRequestedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRequestedEvent
 // Il2CppName: remove_inviteRequestedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRequestedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRespondedEvent
 // Il2CppName: add_inviteRespondedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRespondedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRespondedEvent
 // Il2CppName: remove_inviteRespondedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRespondedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_userId
 // Il2CppName: get_userId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_userName
 // Il2CppName: get_userName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_flags
 // Il2CppName: get_flags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_flags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::set_flags
 // Il2CppName: set_flags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(uint8_t)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_flags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_currentPartySize
 // Il2CppName: get_currentPartySize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_currentPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::set_currentPartySize
 // Il2CppName: set_currentPartySize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_currentPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_maxPartySize
 // Il2CppName: get_maxPartySize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_maxPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::set_maxPartySize
 // Il2CppName: set_maxPartySize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_maxPartySize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_configuration
 // Il2CppName: get_configuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_configuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::set_configuration
 // Il2CppName: set_configuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_configuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_enableBroadcasting
 // Il2CppName: get_enableBroadcasting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_enableBroadcasting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::set_enableBroadcasting
 // Il2CppName: set_enableBroadcasting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_enableBroadcasting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinRequest
 // Il2CppName: SendJoinRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "SendJoinRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinResponse
 // Il2CppName: SendJoinResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int, bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteRequest
 // Il2CppName: SendInviteRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "SendInviteRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteResponse
 // Il2CppName: SendInviteResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, bool, bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::WritePacket
 // Il2CppName: WritePacket
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnConnectionRequest
 // Il2CppName: LiteNetLib.INetEventListener.OnConnectionRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::ConnectionRequest*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkError
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkLatencyUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerConnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerConnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerDisconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerDisconnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceive
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_0
 // Il2CppName: <Init>b__56_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_1
 // Il2CppName: <Init>b__56_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_2
 // Il2CppName: <Init>b__56_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_3
 // Il2CppName: <Init>b__56_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_4
 // Il2CppName: <Init>b__56_4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

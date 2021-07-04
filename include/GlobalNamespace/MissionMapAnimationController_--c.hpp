@@ -70,13 +70,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$$c*, "", "MissionMapAnimationController/<>c");
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MissionMapAnimationController::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_0
 // Il2CppName: <UpdateNodesAndConnectionCoroutine>b__15_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MissionMapAnimationController::$$c::*)(GlobalNamespace::MissionNodeConnection*)>(&GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_1
 // Il2CppName: <UpdateNodesAndConnectionCoroutine>b__15_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MissionMapAnimationController::$$c::*)(GlobalNamespace::MissionNodeConnection*)>(&GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

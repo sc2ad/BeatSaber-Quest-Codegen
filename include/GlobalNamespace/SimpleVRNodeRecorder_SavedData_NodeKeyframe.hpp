@@ -93,10 +93,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos
 // Il2CppName: get_pos
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_pos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot
 // Il2CppName: get_rot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_rot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

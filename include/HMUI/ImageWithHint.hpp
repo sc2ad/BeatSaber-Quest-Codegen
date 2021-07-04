@@ -81,13 +81,28 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
 // Writing MetadataGetter for method: HMUI::ImageWithHint::set_sprite
 // Il2CppName: set_sprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)(UnityEngine::Sprite*)>(&HMUI::ImageWithHint::set_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ImageWithHint::get_sprite
 // Il2CppName: get_sprite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::get_sprite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ImageWithHint::set_hintText
 // Il2CppName: set_hintText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)(::Il2CppString*)>(&HMUI::ImageWithHint::set_hintText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ImageWithHint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

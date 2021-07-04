@@ -116,14 +116,29 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::ClearBeginState
 // Il2CppName: ClearBeginState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::ReadWriteTask::*)()>(&System::IO::Stream::ReadWriteTask::ClearBeginState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "ClearBeginState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::InvokeAsyncCallback
 // Il2CppName: InvokeAsyncCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::IO::Stream::ReadWriteTask::InvokeAsyncCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "InvokeAsyncCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::System_Threading_Tasks_ITaskCompletionAction_Invoke
 // Il2CppName: System.Threading.Tasks.ITaskCompletionAction.Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::ReadWriteTask::*)(System::Threading::Tasks::Task*)>(&System::IO::Stream::ReadWriteTask::System_Threading_Tasks_ITaskCompletionAction_Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "System.Threading.Tasks.ITaskCompletionAction.Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+  }
+};

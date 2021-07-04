@@ -68,7 +68,12 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0*, "Zenject", "SubContainerCreatorByNewPrefabInstaller/<>c__DisplayClass3_0");
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::$AddInstallers$b__0
 // Il2CppName: <AddInstallers>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::*)(Zenject::DiContainer*)>(&Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::$AddInstallers$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0*), "<AddInstallers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

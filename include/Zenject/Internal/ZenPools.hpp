@@ -192,16 +192,36 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPoo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnStatement
 // Il2CppName: SpawnStatement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (*)()>(&Zenject::Internal::ZenPools::SpawnStatement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnStatement
 // Il2CppName: DespawnStatement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindStatement*)>(&Zenject::Internal::ZenPools::DespawnStatement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnBindInfo
 // Il2CppName: SpawnBindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (*)()>(&Zenject::Internal::ZenPools::SpawnBindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnBindInfo
 // Il2CppName: DespawnBindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindInfo*)>(&Zenject::Internal::ZenPools::DespawnBindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnDictionary
 // Il2CppName: DespawnDictionary
 // Cannot write MetadataGetter for generic methods!
@@ -210,10 +230,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPoo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnLookupId
 // Il2CppName: SpawnLookupId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::LookupId* (*)(Zenject::IProvider*, Zenject::BindingId)>(&Zenject::Internal::ZenPools::SpawnLookupId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnLookupId
 // Il2CppName: DespawnLookupId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::Internal::LookupId*)>(&Zenject::Internal::ZenPools::DespawnLookupId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::LookupId*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnList
 // Il2CppName: SpawnList
 // Cannot write MetadataGetter for generic methods!
@@ -228,13 +258,33 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPoo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, System::Type*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnInjectContext
 // Il2CppName: DespawnInjectContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::InjectContext*)>(&Zenject::Internal::ZenPools::DespawnInjectContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, Zenject::InjectableInfo*, Zenject::InjectContext*, ::Il2CppObject*, System::Type*, ::Il2CppObject*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::Internal::ZenPools::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

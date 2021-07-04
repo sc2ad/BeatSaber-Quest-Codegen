@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDeleg
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(System::IAsyncResult*)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

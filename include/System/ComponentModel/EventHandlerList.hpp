@@ -56,7 +56,17 @@ namespace System::ComponentModel {
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList*, "System.ComponentModel", "EventHandlerList");
 // Writing MetadataGetter for method: System::ComponentModel::EventHandlerList::get_Item
 // Il2CppName: get_Item
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::ComponentModel::EventHandlerList::*)(::Il2CppObject*)>(&System::ComponentModel::EventHandlerList::get_Item)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventHandlerList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::EventHandlerList::Find
 // Il2CppName: Find
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::EventHandlerList::ListEntry* (System::ComponentModel::EventHandlerList::*)(::Il2CppObject*)>(&System::ComponentModel::EventHandlerList::Find)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventHandlerList*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

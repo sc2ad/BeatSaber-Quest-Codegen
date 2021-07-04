@@ -36,4 +36,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "EditModeTestCallbacks");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks::get_RestoringTestContext
 // Il2CppName: get_RestoringTestContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks::get_RestoringTestContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks*), "get_RestoringTestContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

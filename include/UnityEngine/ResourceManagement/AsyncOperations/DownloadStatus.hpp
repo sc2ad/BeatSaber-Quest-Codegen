@@ -51,4 +51,9 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent
 // Il2CppName: get_Percent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus), "get_Percent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

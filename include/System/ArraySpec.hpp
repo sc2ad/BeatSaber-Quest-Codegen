@@ -78,10 +78,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::ArraySpec*, "System", "ArraySpec");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::ArraySpec::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::ArraySpec::*)(System::Type*)>(&System::ArraySpec::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::ArraySpec::Append
 // Il2CppName: Append
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::ArraySpec::*)(System::Text::StringBuilder*)>(&System::ArraySpec::Append)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};
 // Writing MetadataGetter for method: System::ArraySpec::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ArraySpec::*)()>(&System::ArraySpec::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -95,7 +95,12 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass38_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass38_0");
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$SendConnectToServerRequest$b__0
 // Il2CppName: <SendConnectToServerRequest>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::UserMessageHandler::$$c__DisplayClass38_0::*)()>(&MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$SendConnectToServerRequest$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass38_0*), "<SendConnectToServerRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass38_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -55,10 +55,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_ps4LeaderboardId
 // Il2CppName: get_ps4LeaderboardId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::*)()>(&GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_ps4LeaderboardId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*), "get_ps4LeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_leaderboardId
 // Il2CppName: get_leaderboardId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::*)()>(&GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_leaderboardId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*), "get_leaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

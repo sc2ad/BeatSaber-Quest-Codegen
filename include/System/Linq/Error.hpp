@@ -49,22 +49,57 @@ namespace System::Linq {
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error*, "System.Linq", "Error");
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentNull
 // Il2CppName: ArgumentNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentOutOfRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::MoreThanOneElement
 // Il2CppName: MoreThanOneElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::MoreThanOneElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "MoreThanOneElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::MoreThanOneMatch
 // Il2CppName: MoreThanOneMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::MoreThanOneMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "MoreThanOneMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::NoElements
 // Il2CppName: NoElements
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NoElements)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NoElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::NoMatch
 // Il2CppName: NoMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NoMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NoMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Linq::Error::NotSupported
 // Il2CppName: NotSupported
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NotSupported)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -99,4 +99,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::MissingFieldException*, "System", "MissingFieldEx
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::MissingFieldException::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::MissingFieldException::*)()>(&System::MissingFieldException::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MissingFieldException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

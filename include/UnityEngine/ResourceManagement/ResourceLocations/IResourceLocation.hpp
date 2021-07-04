@@ -64,28 +64,73 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, "UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId
 // Il2CppName: get_InternalId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_InternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ProviderId
 // Il2CppName: get_ProviderId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ProviderId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_Dependencies
 // Il2CppName: get_Dependencies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_Dependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::Hash
 // Il2CppName: Hash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)(System::Type*)>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::Hash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_DependencyHashCode
 // Il2CppName: get_DependencyHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_DependencyHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_DependencyHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_HasDependencies
 // Il2CppName: get_HasDependencies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_HasDependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_HasDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_Data
 // Il2CppName: get_Data
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_Data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_PrimaryKey
 // Il2CppName: get_PrimaryKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_PrimaryKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ResourceType
 // Il2CppName: get_ResourceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ResourceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

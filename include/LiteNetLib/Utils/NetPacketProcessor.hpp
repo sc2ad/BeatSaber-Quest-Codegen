@@ -363,7 +363,12 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData
 // Il2CppName: GetCallbackFromData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "GetCallbackFromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::WriteHash
 // Il2CppName: WriteHash
 // Cannot write MetadataGetter for generic methods!
@@ -378,13 +383,28 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets
 // Il2CppName: ReadAllPackets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadAllPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets
 // Il2CppName: ReadAllPackets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadAllPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadPacket
 // Il2CppName: ReadPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::Send
 // Il2CppName: Send
 // Cannot write MetadataGetter for generic methods!
@@ -411,7 +431,12 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadPacket
 // Il2CppName: ReadPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::Subscribe
 // Il2CppName: Subscribe
 // Cannot write MetadataGetter for generic methods!

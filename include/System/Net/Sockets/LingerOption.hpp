@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::LingerOption::set_Enabled
 // Il2CppName: set_Enabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::LingerOption::*)(bool)>(&System::Net::Sockets::LingerOption::set_Enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::LingerOption*), "set_Enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::LingerOption::set_LingerTime
 // Il2CppName: set_LingerTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::LingerOption::*)(int)>(&System::Net::Sockets::LingerOption::set_LingerTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::LingerOption*), "set_LingerTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

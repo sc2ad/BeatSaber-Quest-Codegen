@@ -116,25 +116,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
 // Il2CppName: add_didSelectSettingsSubMenuEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "add_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent
 // Il2CppName: remove_didSelectSettingsSubMenuEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "remove_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus
 // Il2CppName: get_numberOfSubMenus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_numberOfSubMenus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo
 // Il2CppName: get_selectedSubMenuInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SettingsSubMenuInfo* (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_selectedSubMenuInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(int)>(&GlobalNamespace::MainSettingsMenuViewController::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell
 // Il2CppName: HandleSettingsMenuSegmentedControlDidSelectCell
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "HandleSettingsMenuSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(bool, bool, bool)>(&GlobalNamespace::MainSettingsMenuViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

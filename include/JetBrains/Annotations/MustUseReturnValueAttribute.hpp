@@ -67,10 +67,20 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "Je
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification
 // Il2CppName: get_Justification
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "get_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification
 // Il2CppName: set_Justification
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "set_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

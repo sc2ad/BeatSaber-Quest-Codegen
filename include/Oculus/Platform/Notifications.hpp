@@ -45,10 +45,25 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Notifications*, "Oculus.Platform", "Notifications");
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::GetRoomInviteNotifications
 // Il2CppName: GetRoomInviteNotifications
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* (*)()>(&Oculus::Platform::Notifications::GetRoomInviteNotifications)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "GetRoomInviteNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::MarkAsRead
 // Il2CppName: MarkAsRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Notifications::MarkAsRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "MarkAsRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::GetNextRoomInviteNotificationListPage
 // Il2CppName: GetNextRoomInviteNotificationListPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* (*)(Oculus::Platform::Models::RoomInviteNotificationList*)>(&Oculus::Platform::Notifications::GetNextRoomInviteNotificationListPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "GetNextRoomInviteNotificationListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::RoomInviteNotificationList*>()});
+  }
+};

@@ -112,13 +112,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::ClearCache
 // Il2CppName: ClearCache
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CachedMediaAsyncLoader::*)()>(&GlobalNamespace::CachedMediaAsyncLoader::ClearCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CachedMediaAsyncLoader*), "ClearCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::LoadAudioClipAsync
 // Il2CppName: LoadAudioClipAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::CachedMediaAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::CachedMediaAsyncLoader::LoadAudioClipAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CachedMediaAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync
 // Il2CppName: LoadSpriteAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::CachedMediaAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CachedMediaAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

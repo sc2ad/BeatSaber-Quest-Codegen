@@ -109,29 +109,69 @@ namespace UnityEngine::TextCore {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_width
 // Il2CppName: get_width
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::get_width)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_height
 // Il2CppName: get_height
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::get_height)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingX
 // Il2CppName: get_horizontalBearingX
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "get_horizontalBearingX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingY
 // Il2CppName: get_horizontalBearingY
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "get_horizontalBearingY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_horizontalAdvance
 // Il2CppName: get_horizontalAdvance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::get_horizontalAdvance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "get_horizontalAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::GlyphMetrics
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::GlyphMetrics::*)(UnityEngine::TextCore::GlyphMetrics)>(&UnityEngine::TextCore::GlyphMetrics::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphMetrics>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphMetrics::*)()>(&UnityEngine::TextCore::GlyphMetrics::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::GlyphMetrics::*)(::Il2CppObject*)>(&UnityEngine::TextCore::GlyphMetrics::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphMetrics), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

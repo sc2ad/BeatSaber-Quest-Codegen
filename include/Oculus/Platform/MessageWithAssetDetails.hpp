@@ -49,11 +49,21 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetails*, "Oculus.Platform", "MessageWithAssetDetails");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetails::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetails* (Oculus::Platform::MessageWithAssetDetails::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetDetails::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetails*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetails::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetails::GetAssetDetails
 // Il2CppName: GetAssetDetails
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetails* (Oculus::Platform::MessageWithAssetDetails::*)()>(&Oculus::Platform::MessageWithAssetDetails::GetAssetDetails)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetails*), "GetAssetDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -137,28 +137,73 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingCharBuffer*, "System.Text
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::AddChar
 // Il2CppName: AddChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::Il2CppChar, int)>(&System::Text::Encoding::EncodingCharBuffer::AddChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "AddChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::AddChar
 // Il2CppName: AddChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::Il2CppChar)>(&System::Text::Encoding::EncodingCharBuffer::AddChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "AddChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::AdjustBytes
 // Il2CppName: AdjustBytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::Encoding::EncodingCharBuffer::*)(int)>(&System::Text::Encoding::EncodingCharBuffer::AdjustBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "AdjustBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::get_MoreData
 // Il2CppName: get_MoreData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)()>(&System::Text::Encoding::EncodingCharBuffer::get_MoreData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "get_MoreData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::GetNextByte
 // Il2CppName: GetNextByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Text::Encoding::EncodingCharBuffer::*)()>(&System::Text::Encoding::EncodingCharBuffer::GetNextByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "GetNextByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::get_BytesUsed
 // Il2CppName: get_BytesUsed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::EncodingCharBuffer::*)()>(&System::Text::Encoding::EncodingCharBuffer::get_BytesUsed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "get_BytesUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::Fallback
 // Il2CppName: Fallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(uint8_t)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::Fallback
 // Il2CppName: Fallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::Array<uint8_t>*)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::EncodingCharBuffer::*)()>(&System::Text::Encoding::EncodingCharBuffer::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -39,7 +39,12 @@ namespace Mono::Security::Cryptography {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2*, "Mono.Security.Cryptography", "MD2");
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Cryptography::MD2* (*)()>(&Mono::Security::Cryptography::MD2::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

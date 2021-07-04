@@ -71,7 +71,17 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
 // Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::UndoNoThrow
 // Il2CppName: UndoNoThrow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContextSwitcher::*)()>(&System::Threading::ExecutionContextSwitcher::UndoNoThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContextSwitcher), "UndoNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::Undo
 // Il2CppName: Undo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContextSwitcher::*)()>(&System::Threading::ExecutionContextSwitcher::Undo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContextSwitcher), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

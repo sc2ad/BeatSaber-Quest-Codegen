@@ -85,19 +85,49 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilde
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite
 // Il2CppName: get_RootSuite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)()>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "get_RootSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture
 // Il2CppName: GetNamespaceForFixture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "GetNamespaceForFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace
 // Il2CppName: BuildFromNameSpace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "BuildFromNameSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture
 // Il2CppName: AddSetUpFixture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Internal::TestSuite*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "AddSetUpFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

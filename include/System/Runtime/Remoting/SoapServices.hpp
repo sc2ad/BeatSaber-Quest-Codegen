@@ -114,49 +114,129 @@ namespace System::Runtime::Remoting {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices*, "System.Runtime.Remoting", "SoapServices");
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly
 // Il2CppName: get_XmlNsForClrTypeWithAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "get_XmlNsForClrTypeWithAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs
 // Il2CppName: get_XmlNsForClrTypeWithNs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "get_XmlNsForClrTypeWithNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly
 // Il2CppName: get_XmlNsForClrTypeWithNsAndAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "get_XmlNsForClrTypeWithNsAndAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace
 // Il2CppName: CodeXmlNamespaceForClrTypeNamespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "CodeXmlNamespaceForClrTypeNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetNameKey
 // Il2CppName: GetNameKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Remoting::SoapServices::GetNameKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetNameKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetAssemblyName
 // Il2CppName: GetAssemblyName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType
 // Il2CppName: GetXmlElementForInteropType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlElementForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall
 // Il2CppName: GetXmlNamespaceForMethodCall
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlNamespaceForMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse
 // Il2CppName: GetXmlNamespaceForMethodResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlNamespaceForMethodResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType
 // Il2CppName: GetXmlTypeForInteropType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlTypeForInteropType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::PreLoad
 // Il2CppName: PreLoad
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::PreLoad
 // Il2CppName: PreLoad
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement
 // Il2CppName: RegisterInteropXmlElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "RegisterInteropXmlElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::RegisterInteropXmlType
 // Il2CppName: RegisterInteropXmlType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "RegisterInteropXmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::EncodeNs
 // Il2CppName: EncodeNs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::SoapServices::EncodeNs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "EncodeNs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::SoapServices::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

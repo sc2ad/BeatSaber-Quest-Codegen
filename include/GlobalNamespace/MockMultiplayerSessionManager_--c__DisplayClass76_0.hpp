@@ -58,7 +58,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*, "", "MockMultiplayerSessionManager/<>c__DisplayClass76_0");
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::$GetConnectedPlayerByUserId$b__1
 // Il2CppName: <GetConnectedPlayerByUserId>b__1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::*)(GlobalNamespace::MockPlayer*)>(&GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::$GetConnectedPlayerByUserId$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*), "<GetConnectedPlayerByUserId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

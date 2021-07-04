@@ -75,10 +75,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesModelSO*, "", "MultiplayerBadgesModelSO");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesModelSO::get_positiveBadges
 // Il2CppName: get_positiveBadges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* (GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&GlobalNamespace::MultiplayerBadgesModelSO::get_positiveBadges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesModelSO*), "get_positiveBadges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesModelSO::get_negativeBadges
 // Il2CppName: get_negativeBadges
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* (GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&GlobalNamespace::MultiplayerBadgesModelSO::get_negativeBadges)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesModelSO*), "get_negativeBadges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesModelSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

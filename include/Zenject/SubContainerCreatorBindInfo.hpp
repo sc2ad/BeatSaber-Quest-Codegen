@@ -84,22 +84,52 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_DefaultParentName
 // Il2CppName: get_DefaultParentName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_DefaultParentName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "get_DefaultParentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::set_DefaultParentName
 // Il2CppName: set_DefaultParentName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(::Il2CppString*)>(&Zenject::SubContainerCreatorBindInfo::set_DefaultParentName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "set_DefaultParentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_CreateKernel
 // Il2CppName: get_CreateKernel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_CreateKernel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "get_CreateKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::set_CreateKernel
 // Il2CppName: set_CreateKernel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(bool)>(&Zenject::SubContainerCreatorBindInfo::set_CreateKernel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "set_CreateKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_KernelType
 // Il2CppName: get_KernelType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_KernelType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "get_KernelType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::set_KernelType
 // Il2CppName: set_KernelType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(System::Type*)>(&Zenject::SubContainerCreatorBindInfo::set_KernelType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "set_KernelType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

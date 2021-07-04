@@ -151,46 +151,116 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext
 // Il2CppName: get_DebugContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_DebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_TriangulationMode
 // Il2CppName: get_TriangulationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_TriangulationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_TriangulationMode
 // Il2CppName: set_TriangulationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_TriangulationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_Triangulatable
 // Il2CppName: get_Triangulatable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_Triangulatable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_Triangulatable
 // Il2CppName: set_Triangulatable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_Triangulatable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_StepCount
 // Il2CppName: get_StepCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_StepCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_StepCount
 // Il2CppName: set_StepCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(int)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_StepCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done
 // Il2CppName: Done
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Done", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::PrepareTriangulation
 // Il2CppName: PrepareTriangulation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::PrepareTriangulation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "PrepareTriangulation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::NewConstraint
 // Il2CppName: NewConstraint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::NewConstraint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "NewConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_IsDebugEnabled
 // Il2CppName: get_IsDebugEnabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_IsDebugEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_IsDebugEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DTDebugContext
 // Il2CppName: get_DTDebugContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DTDebugContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_DTDebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

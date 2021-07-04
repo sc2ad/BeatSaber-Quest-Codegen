@@ -99,10 +99,25 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetC
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::GetProtocolId
 // Il2CppName: GetProtocolId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "GetProtocolId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::FromData
 // Il2CppName: FromData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectRequestPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::FromData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::Make
 // Il2CppName: Make
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(LiteNetLib::Utils::NetDataWriter*, System::Net::SocketAddress*, int64_t)>(&LiteNetLib::NetConnectRequestPacket::Make)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "Make", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};

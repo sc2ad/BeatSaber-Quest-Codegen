@@ -73,16 +73,36 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
 // Writing MetadataGetter for method: System::MarshalByRefObject::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::get_ObjectIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "get_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MarshalByRefObject::set_ObjectIdentity
 // Il2CppName: set_ObjectIdentity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::MarshalByRefObject::set_ObjectIdentity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "set_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MarshalByRefObject::CreateObjRef
 // Il2CppName: CreateObjRef
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::MarshalByRefObject::*)(System::Type*)>(&System::MarshalByRefObject::CreateObjRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MarshalByRefObject::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::InitializeLifetimeService)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MarshalByRefObject::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

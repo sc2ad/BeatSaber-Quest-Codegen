@@ -53,7 +53,12 @@ namespace System::Security::Cryptography::X509Certificates {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper*, "System.Security.Cryptography.X509Certificates", "X509Helper2/MyNativeHelper");
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::Import
 // Il2CppName: Import
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::Import)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

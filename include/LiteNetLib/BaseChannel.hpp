@@ -82,13 +82,33 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::get_PacketsInQueue
 // Il2CppName: get_PacketsInQueue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::BaseChannel::*)()>(&LiteNetLib::BaseChannel::get_PacketsInQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "get_PacketsInQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::AddToQueue
 // Il2CppName: AddToQueue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::AddToQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "AddToQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::SendNextPackets
 // Il2CppName: SendNextPackets
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)()>(&LiteNetLib::BaseChannel::SendNextPackets)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::ProcessPacket
 // Il2CppName: ProcessPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::ProcessPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+  }
+};

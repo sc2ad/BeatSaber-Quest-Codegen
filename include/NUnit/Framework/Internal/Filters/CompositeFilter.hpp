@@ -117,26 +117,61 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "N
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters
 // Il2CppName: get_Filters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "get_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::set_Filters
 // Il2CppName: set_Filters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::set_Filters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "set_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_ElementName
 // Il2CppName: get_ElementName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::get_ElementName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::Pass
 // Il2CppName: Pass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::Pass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::Match
 // Il2CppName: Match
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::Match)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::IsExplicitMatch
 // Il2CppName: IsExplicitMatch
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::IsExplicitMatch)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::AddToXml
 // Il2CppName: AddToXml
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NUnit::Framework::Internal::Filters::CompositeFilter::AddToXml)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

@@ -245,71 +245,171 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_endPoint
 // Il2CppName: get_endPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_endPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_isAuthenticated
 // Il2CppName: get_isAuthenticated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_isAuthenticated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_isAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_isAuthenticating
 // Il2CppName: get_isAuthenticating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_isAuthenticating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_isAuthenticating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_hasAuthenticationFailed
 // Il2CppName: get_hasAuthenticationFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_hasAuthenticationFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_hasAuthenticationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest
 // Il2CppName: SendOrderedAuthenticatedRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "SendOrderedAuthenticatedRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequestAsync
 // Il2CppName: SendOrderedAuthenticatedRequestAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(System::Threading::Tasks::Task*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequestAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "SendOrderedAuthenticatedRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync
 // Il2CppName: SendAuthenticatedRequestAsync
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync
 // Il2CppName: SendAuthenticatedRequestAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::OnSendFailed
 // Il2CppName: OnSendFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::OnSendFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "OnSendFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::OnSendFailedAwaitResponse
 // Il2CppName: OnSendFailedAwaitResponse
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::ReauthenticateWithMasterServer
 // Il2CppName: ReauthenticateWithMasterServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::ReauthenticateWithMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ReauthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::UnauthenticateWithMasterServer
 // Il2CppName: UnauthenticateWithMasterServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::UnauthenticateWithMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "UnauthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsync
 // Il2CppName: AuthenticateWithMasterServerAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServer
 // Il2CppName: AuthenticateWithMasterServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternalVerbose
 // Il2CppName: AuthenticateWithMasterServerAsyncInternalVerbose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternalVerbose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsyncInternalVerbose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternal
 // Il2CppName: AuthenticateWithMasterServerAsyncInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::GetAuthenticationRequest
 // Il2CppName: GetAuthenticationRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::GetAuthenticationRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "GetAuthenticationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::VerifySignature
 // Il2CppName: VerifySignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::BaseClientMessageHandler::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<::Array<uint8_t>*>*)>(&MasterServer::BaseClientMessageHandler::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::HandshakeLog
 // Il2CppName: HandshakeLog
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*)>(&MasterServer::BaseClientMessageHandler::HandshakeLog)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "HandshakeLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::ShouldHandleHandshakeMessage
 // Il2CppName: ShouldHandleHandshakeMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)(MasterServer::IHandshakeMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::BaseClientMessageHandler::ShouldHandleHandshakeMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ShouldHandleHandshakeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IHandshakeMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::ShouldHandleMessageFromEndPoint
 // Il2CppName: ShouldHandleMessageFromEndPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::BaseClientMessageHandler::ShouldHandleMessageFromEndPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};

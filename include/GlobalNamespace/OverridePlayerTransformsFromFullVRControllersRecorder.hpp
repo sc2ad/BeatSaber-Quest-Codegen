@@ -94,13 +94,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::HandleFullVRControllersRecorderDidSetControllerTransform
 // Il2CppName: HandleFullVRControllersRecorderDidSetControllerTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)(GlobalNamespace::VRController*)>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::HandleFullVRControllersRecorderDidSetControllerTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "HandleFullVRControllersRecorderDidSetControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

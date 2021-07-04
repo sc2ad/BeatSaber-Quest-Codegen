@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_GetControllerStatePacked*, "OVR.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::_GetControllerStatePacked::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_GetControllerStatePacked::*)(uint, OVR::OpenVR::VRControllerState_t_Packed&, uint)>(&OVR::OpenVR::CVRSystem::_GetControllerStatePacked::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem::_GetControllerStatePacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::_GetControllerStatePacked::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::CVRSystem::_GetControllerStatePacked::*)(uint, OVR::OpenVR::VRControllerState_t_Packed&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::CVRSystem::_GetControllerStatePacked::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem::_GetControllerStatePacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::_GetControllerStatePacked::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_GetControllerStatePacked::*)(OVR::OpenVR::VRControllerState_t_Packed&, System::IAsyncResult*)>(&OVR::OpenVR::CVRSystem::_GetControllerStatePacked::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem::_GetControllerStatePacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

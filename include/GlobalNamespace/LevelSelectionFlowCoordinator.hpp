@@ -235,118 +235,308 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_isInRootViewController
 // Il2CppName: get_isInRootViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_isInRootViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_isInRootViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedLevelCategory
 // Il2CppName: get_selectedLevelCategory
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedLevelCategory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_selectedLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevelPack
 // Il2CppName: get_selectedBeatmapLevelPack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_selectedBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedDifficultyBeatmap
 // Il2CppName: get_selectedDifficultyBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedDifficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevel
 // Il2CppName: get_selectedBeatmapLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_selectedBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_initialTopScreenViewController
 // Il2CppName: get_initialTopScreenViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_initialLeftScreenViewController
 // Il2CppName: get_initialLeftScreenViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_initialLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_initialRightScreenViewController
 // Il2CppName: get_initialRightScreenViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_initialRightScreenViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_initialRightScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController
 // Il2CppName: get_showBackButtonForMainViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_showBackButtonForMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone
 // Il2CppName: get_hidePacksIfOneOrNone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_hidePacksIfOneOrNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePracticeButton
 // Il2CppName: get_hidePracticeButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePracticeButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_hidePracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView
 // Il2CppName: get_showPlayerStatsInDetailView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_actionButtonText
 // Il2CppName: get_actionButtonText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_actionButtonText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_actionButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_mainTitle
 // Il2CppName: get_mainTitle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_mainTitle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_mainTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_enableCustomLevels
 // Il2CppName: get_enableCustomLevels
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_enableCustomLevels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_enableCustomLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_songPackMask
 // Il2CppName: get_songPackMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_songPackMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_songPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask
 // Il2CppName: get_allowedBeatmapDifficultyMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_allowedBeatmapDifficultyMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics
 // Il2CppName: get_notAllowedCharacteristics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_notAllowedCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate
 // Il2CppName: LevelSelectionFlowCoordinatorDidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate
 // Il2CppName: LevelSelectionFlowCoordinatorDidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool)>(&GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange
 // Il2CppName: LevelSelectionFlowCoordinatorTopViewControllerWillChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorTopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::ActionButtonWasPressed
 // Il2CppName: ActionButtonWasPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "ActionButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::PracticeButtonWasPressed
 // Il2CppName: PracticeButtonWasPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "PracticeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange
 // Il2CppName: SelectionDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::Setup
 // Il2CppName: Setup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator::State*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator::State*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidSelectPack
 // Il2CppName: HandleLevelSelectionNavigationControllerDidSelectPack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidSelectPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidSelectPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleSearchFilterParamsViewControllerDidFinish
 // Il2CppName: HandleSearchFilterParamsViewControllerDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleSearchFilterParamsViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleSearchFilterParamsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SearchFilterParamsViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSearchViewControllerDidPressSearchButton
 // Il2CppName: HandleLevelSearchViewControllerDidPressSearchButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSearchViewControllerDidPressSearchButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSearchViewControllerDidPressSearchButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSearchViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressActionButton
 // Il2CppName: HandleLevelSelectionNavigationControllerDidPressActionButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressActionButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidPressActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressPracticeButton
 // Il2CppName: HandleLevelSelectionNavigationControllerDidPressPracticeButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressPracticeButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap
 // Il2CppName: HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent
 // Il2CppName: HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType)>(&GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::Refresh
 // Il2CppName: Refresh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::IsMainViewController
 // Il2CppName: IsMainViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelSelectionFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::LevelSelectionFlowCoordinator::IsMainViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "IsMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::PresentMainViewController
 // Il2CppName: PresentMainViewController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(System::Action*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::LevelSelectionFlowCoordinator::PresentMainViewController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "PresentMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::LevelSelectionFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::LevelSelectionFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::TopViewControllerWillChange
 // Il2CppName: TopViewControllerWillChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::LevelSelectionFlowCoordinator::TopViewControllerWillChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

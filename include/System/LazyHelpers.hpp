@@ -28,4 +28,9 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::LazyHelpers*, "System", "LazyHelpers");
 // Writing MetadataGetter for method: System::LazyHelpers::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::LazyHelpers::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LazyHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

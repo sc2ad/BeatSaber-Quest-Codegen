@@ -64,7 +64,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAss
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_name
 // Il2CppName: get_name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_hash
 // Il2CppName: get_hash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_hash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -34,7 +34,17 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestTexture*, "UnityEngine.Networking", "UnityWebRequestTexture");
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, bool)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

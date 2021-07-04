@@ -66,16 +66,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityObjectsHelper");
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes
 // Il2CppName: GetMonoBehavioursInLoadedScenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetMonoBehavioursInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes
 // Il2CppName: GetAllRootGameObjectsInLoadedScenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllRootGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInGameObject
 // Il2CppName: GetAllGameObjectsInGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes
 // Il2CppName: GetAllGameObjectsInLoadedScenes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetComponentsInGameObjects
 // Il2CppName: GetComponentsInGameObjects
 // Cannot write MetadataGetter for generic methods!

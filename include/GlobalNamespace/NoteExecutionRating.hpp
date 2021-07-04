@@ -152,34 +152,84 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecution
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_rating
 // Il2CppName: get_rating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteExecutionRating::Rating (GlobalNamespace::NoteExecutionRating::*)()>(&GlobalNamespace::NoteExecutionRating::get_rating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "get_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::set_rating
 // Il2CppName: set_rating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteExecutionRating::*)(GlobalNamespace::NoteExecutionRating::Rating)>(&GlobalNamespace::NoteExecutionRating::set_rating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteExecutionRating::Rating>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_cutScore
 // Il2CppName: get_cutScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NoteExecutionRating::*)()>(&GlobalNamespace::NoteExecutionRating::get_cutScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "get_cutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::set_cutScore
 // Il2CppName: set_cutScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteExecutionRating::*)(int)>(&GlobalNamespace::NoteExecutionRating::set_cutScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "set_cutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_cutDistanceScore
 // Il2CppName: get_cutDistanceScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NoteExecutionRating::*)()>(&GlobalNamespace::NoteExecutionRating::get_cutDistanceScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "get_cutDistanceScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::set_cutDistanceScore
 // Il2CppName: set_cutDistanceScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteExecutionRating::*)(int)>(&GlobalNamespace::NoteExecutionRating::set_cutDistanceScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "set_cutDistanceScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_cutTimeDeviation
 // Il2CppName: get_cutTimeDeviation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteExecutionRating::*)()>(&GlobalNamespace::NoteExecutionRating::get_cutTimeDeviation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "get_cutTimeDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::set_cutTimeDeviation
 // Il2CppName: set_cutTimeDeviation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteExecutionRating::*)(float)>(&GlobalNamespace::NoteExecutionRating::set_cutTimeDeviation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "set_cutTimeDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_cutDirDeviation
 // Il2CppName: get_cutDirDeviation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteExecutionRating::*)()>(&GlobalNamespace::NoteExecutionRating::get_cutDirDeviation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "get_cutDirDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::set_cutDirDeviation
 // Il2CppName: set_cutDirDeviation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteExecutionRating::*)(float)>(&GlobalNamespace::NoteExecutionRating::set_cutDirDeviation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteExecutionRating*), "set_cutDirDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

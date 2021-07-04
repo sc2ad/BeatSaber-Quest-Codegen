@@ -63,7 +63,12 @@ namespace NUnit::Compatibility {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*, "NUnit.Compatibility", "AdditionalTypeExtensions/<>c__DisplayClass2_0");
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0
 // Il2CppName: <IsCastableFrom>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::*)(System::Reflection::MethodInfo*)>(&NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), "<IsCastableFrom>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

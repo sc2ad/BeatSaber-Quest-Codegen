@@ -52,10 +52,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestRichPresencePlatformHandler*, "", "TestRichPresencePlatformHandler");
 // Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::TestRichPresencePlatformHandler::SetPresence)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestRichPresencePlatformHandler::*)()>(&GlobalNamespace::TestRichPresencePlatformHandler::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TestRichPresencePlatformHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

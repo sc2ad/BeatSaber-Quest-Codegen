@@ -239,45 +239,105 @@ namespace System::Net::Sockets {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Net::Sockets::SocketAsyncResult::*)()>(&System::Net::Sockets::SocketAsyncResult::get_Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(System::Net::Sockets::Socket*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&System::Net::Sockets::SocketAsyncResult::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_ErrorCode
 // Il2CppName: get_ErrorCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketError (System::Net::Sockets::SocketAsyncResult::*)()>(&System::Net::Sockets::SocketAsyncResult::get_ErrorCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "get_ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::CheckIfThrowDelayedException
 // Il2CppName: CheckIfThrowDelayedException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)()>(&System::Net::Sockets::SocketAsyncResult::CheckIfThrowDelayedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "CheckIfThrowDelayedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)()>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(bool)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(int)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(System::Exception*, bool)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(System::Exception*)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)(System::Net::Sockets::Socket*, int)>(&System::Net::Sockets::SocketAsyncResult::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::CompleteDisposed
 // Il2CppName: CompleteDisposed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncResult::*)()>(&System::Net::Sockets::SocketAsyncResult::CompleteDisposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncResult*), "CompleteDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

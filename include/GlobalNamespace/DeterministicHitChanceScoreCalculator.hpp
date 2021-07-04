@@ -73,4 +73,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator*, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DeterministicHitChanceScoreCalculator::GetScoreForNote
 // Il2CppName: GetScoreForNote
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::DeterministicHitChanceScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::DeterministicHitChanceScoreCalculator::GetScoreForNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeterministicHitChanceScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+  }
+};

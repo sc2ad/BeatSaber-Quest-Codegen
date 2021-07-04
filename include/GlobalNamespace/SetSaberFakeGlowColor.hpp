@@ -100,13 +100,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberFakeGlowColor*, "", "SetSaberFakeGlowColor");
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::set_saberType
 // Il2CppName: set_saberType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetSaberFakeGlowColor::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::SetSaberFakeGlowColor::set_saberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetSaberFakeGlowColor::*)()>(&GlobalNamespace::SetSaberFakeGlowColor::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::SetColors
 // Il2CppName: SetColors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetSaberFakeGlowColor::*)()>(&GlobalNamespace::SetSaberFakeGlowColor::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

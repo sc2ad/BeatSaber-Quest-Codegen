@@ -67,4 +67,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxations
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CompilationRelaxationsAttribute::get_CompilationRelaxations
 // Il2CppName: get_CompilationRelaxations
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::CompilerServices::CompilationRelaxationsAttribute::*)()>(&System::Runtime::CompilerServices::CompilationRelaxationsAttribute::get_CompilationRelaxations)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*), "get_CompilationRelaxations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

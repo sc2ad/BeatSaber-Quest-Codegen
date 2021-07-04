@@ -105,16 +105,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackHeaderTableCell*, "", "LevelPackHeaderTableCell");
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SetData
 // Il2CppName: SetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)(::Il2CppString*)>(&GlobalNamespace::LevelPackHeaderTableCell::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::RefreshVisuals
 // Il2CppName: RefreshVisuals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)()>(&GlobalNamespace::LevelPackHeaderTableCell::RefreshVisuals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::LevelPackHeaderTableCell::SelectionDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::HighlightDidChange
 // Il2CppName: HighlightDidChange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::LevelPackHeaderTableCell::HighlightDidChange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

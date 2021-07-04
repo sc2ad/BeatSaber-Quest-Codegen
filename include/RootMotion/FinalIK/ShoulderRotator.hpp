@@ -95,19 +95,44 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::RotateShoulders
 // Il2CppName: RotateShoulders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "RotateShoulders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::RotateShoulder
 // Il2CppName: RotateShoulder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain, float, float)>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "RotateShoulder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap
 // Il2CppName: GetParentBoneMap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMapping::BoneMap* (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "GetParentBoneMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

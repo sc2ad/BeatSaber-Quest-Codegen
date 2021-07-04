@@ -104,37 +104,97 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRTrackedCamera*, "Valve.VR", "CVRTrackedCame
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraErrorNameFromEnum
 // Il2CppName: GetCameraErrorNameFromEnum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRTrackedCamera::*)(Valve::VR::EVRTrackedCameraError)>(&Valve::VR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetCameraErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraError>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::HasCamera
 // Il2CppName: HasCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, bool&)>(&Valve::VR::CVRTrackedCamera::HasCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "HasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraFrameSize
 // Il2CppName: GetCameraFrameSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, uint&, uint&, uint&)>(&Valve::VR::CVRTrackedCamera::GetCameraFrameSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetCameraFrameSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraIntrinsics
 // Il2CppName: GetCameraIntrinsics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::HmdVector2_t&, Valve::VR::HmdVector2_t&)>(&Valve::VR::CVRTrackedCamera::GetCameraIntrinsics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetCameraIntrinsics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdVector2_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraProjection
 // Il2CppName: GetCameraProjection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, float, float, Valve::VR::HmdMatrix44_t&)>(&Valve::VR::CVRTrackedCamera::GetCameraProjection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetCameraProjection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix44_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::AcquireVideoStreamingService
 // Il2CppName: AcquireVideoStreamingService
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, uint64_t&)>(&Valve::VR::CVRTrackedCamera::AcquireVideoStreamingService)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "AcquireVideoStreamingService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::ReleaseVideoStreamingService
 // Il2CppName: ReleaseVideoStreamingService
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t)>(&Valve::VR::CVRTrackedCamera::ReleaseVideoStreamingService)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "ReleaseVideoStreamingService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamFrameBuffer
 // Il2CppName: GetVideoStreamFrameBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, uint, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetVideoStreamFrameBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::CameraVideoStreamFrameHeader_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureSize
 // Il2CppName: GetVideoStreamTextureSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::VRTextureBounds_t&, uint&, uint&)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetVideoStreamTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureD3D11
 // Il2CppName: GetVideoStreamTextureD3D11
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, System::IntPtr&, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetVideoStreamTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::CameraVideoStreamFrameHeader_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureGL
 // Il2CppName: GetVideoStreamTextureGL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, uint&, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetVideoStreamTextureGL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRTrackedCameraFrameType>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::CameraVideoStreamFrameHeader_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::ReleaseVideoStreamTextureGL
 // Il2CppName: ReleaseVideoStreamTextureGL
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, uint)>(&Valve::VR::CVRTrackedCamera::ReleaseVideoStreamTextureGL)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "ReleaseVideoStreamTextureGL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

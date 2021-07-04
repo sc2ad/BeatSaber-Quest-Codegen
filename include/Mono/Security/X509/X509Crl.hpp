@@ -160,34 +160,89 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X5
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::Parse
 // Il2CppName: Parse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_Extensions
 // Il2CppName: get_Extensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Extensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_Hash
 // Il2CppName: get_Hash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Hash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_IssuerName
 // Il2CppName: get_IssuerName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_IssuerName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_IssuerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_NextUpdate
 // Il2CppName: get_NextUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_NextUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::GetCrlEntry
 // Il2CppName: GetCrlEntry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::GetCrlEntry
 // Il2CppName: GetCrlEntry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::DSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSA*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::RSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSA*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsymmetricAlgorithm*>()});
+  }
+};

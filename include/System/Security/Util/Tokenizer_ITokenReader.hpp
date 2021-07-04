@@ -26,4 +26,9 @@ namespace System::Security::Util {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::ITokenReader*, "System.Security.Util", "Tokenizer/ITokenReader");
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::ITokenReader::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::ITokenReader::*)()>(&System::Security::Util::Tokenizer::ITokenReader::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::ITokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

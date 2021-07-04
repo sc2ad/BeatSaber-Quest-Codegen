@@ -64,10 +64,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id
 // Il2CppName: get_id
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference
 // Il2CppName: get_prefabAssetReference
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), "get_prefabAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

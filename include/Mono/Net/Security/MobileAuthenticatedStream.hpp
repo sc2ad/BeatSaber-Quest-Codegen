@@ -410,136 +410,361 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Ne
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_Settings
 // Il2CppName: get_Settings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_Settings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_Provider
 // Il2CppName: get_Provider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_Provider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_Provider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::CheckThrow
 // Il2CppName: CheckThrow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(bool, bool)>(&Mono::Net::Security::MobileAuthenticatedStream::CheckThrow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "CheckThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::GetSSPIException
 // Il2CppName: GetSSPIException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&Mono::Net::Security::MobileAuthenticatedStream::GetSSPIException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "GetSSPIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::GetIOException
 // Il2CppName: GetIOException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*, ::Il2CppString*)>(&Mono::Net::Security::MobileAuthenticatedStream::GetIOException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "GetIOException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::SetException
 // Il2CppName: SetException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (Mono::Net::Security::MobileAuthenticatedStream::*)(System::Exception*)>(&Mono::Net::Security::MobileAuthenticatedStream::SetException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsClient
 // Il2CppName: AuthenticateAsClient
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Authentication::SslProtocols, bool)>(&Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsClient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "AuthenticateAsClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsServer
 // Il2CppName: AuthenticateAsServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool, System::Security::Authentication::SslProtocols, bool)>(&Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "AuthenticateAsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_AuthenticatedStream
 // Il2CppName: get_AuthenticatedStream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::AuthenticatedStream* (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_AuthenticatedStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_AuthenticatedStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ProcessAuthentication
 // Il2CppName: ProcessAuthentication
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::MobileAuthenticatedStream::*)(bool, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Net::Security::MobileAuthenticatedStream::ProcessAuthentication)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "ProcessAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::CreateContext
 // Il2CppName: CreateContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileTlsContext* (Mono::Net::Security::MobileAuthenticatedStream::*)(bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Net::Security::MobileAuthenticatedStream::CreateContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "CreateContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::StartOperation
 // Il2CppName: StartOperation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::MobileAuthenticatedStream::OperationType, Mono::Net::Security::AsyncProtocolRequest*, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::StartOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream::OperationType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalRead
 // Il2CppName: InternalRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, bool&)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalRead
 // Il2CppName: InternalRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize*, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalWrite
 // Il2CppName: InternalWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalWrite
 // Il2CppName: InternalWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize2*, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncProtocolRequest*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InnerRead
 // Il2CppName: InnerRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (Mono::Net::Security::MobileAuthenticatedStream::*)(bool, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::InnerRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InnerRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InnerWrite
 // Il2CppName: InnerWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::MobileAuthenticatedStream::*)(bool, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::InnerWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InnerWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ProcessHandshake
 // Il2CppName: ProcessHandshake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncOperationStatus)>(&Mono::Net::Security::MobileAuthenticatedStream::ProcessHandshake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ProcessRead
 // Il2CppName: ProcessRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&Mono::Net::Security::MobileAuthenticatedStream::ProcessRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "ProcessRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ProcessWrite
 // Il2CppName: ProcessWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::BufferOffsetSize*)>(&Mono::Net::Security::MobileAuthenticatedStream::ProcessWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "ProcessWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::BufferOffsetSize*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_InternalLocalCertificate
 // Il2CppName: get_InternalLocalCertificate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_InternalLocalCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_InternalLocalCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::$InnerWrite$b__67_0
 // Il2CppName: <InnerWrite>b__67_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::$InnerWrite$b__67_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "<InnerWrite>b__67_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::BeginRead
 // Il2CppName: BeginRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::EndRead
 // Il2CppName: EndRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&Mono::Net::Security::MobileAuthenticatedStream::EndRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::BeginWrite
 // Il2CppName: BeginWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::EndWrite
 // Il2CppName: EndWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(System::IAsyncResult*)>(&Mono::Net::Security::MobileAuthenticatedStream::EndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Write
 // Il2CppName: Write
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Write)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ReadAsync
 // Il2CppName: ReadAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::ReadAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::WriteAsync
 // Il2CppName: WriteAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::WriteAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_IsAuthenticated
 // Il2CppName: get_IsAuthenticated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_IsAuthenticated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(bool)>(&Mono::Net::Security::MobileAuthenticatedStream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Flush
 // Il2CppName: Flush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::Flush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Seek
 // Il2CppName: Seek
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t, System::IO::SeekOrigin)>(&Mono::Net::Security::MobileAuthenticatedStream::Seek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::SetLength
 // Il2CppName: SetLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t)>(&Mono::Net::Security::MobileAuthenticatedStream::SetLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_CanRead
 // Il2CppName: get_CanRead
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_CanRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_CanWrite
 // Il2CppName: get_CanWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_CanWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_CanSeek
 // Il2CppName: get_CanSeek
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_CanSeek)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_Length
 // Il2CppName: get_Length
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_Length)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_Position
 // Il2CppName: get_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::set_Position
 // Il2CppName: set_Position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t)>(&Mono::Net::Security::MobileAuthenticatedStream::set_Position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_ReadTimeout
 // Il2CppName: get_ReadTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_ReadTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_WriteTimeout
 // Il2CppName: get_WriteTimeout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::get_WriteTimeout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::Security::MobileAuthenticatedStream::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

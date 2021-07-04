@@ -65,7 +65,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
 // Il2CppName: get_RemainingMilliseconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)()>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), "get_RemainingMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_IsExpired
 // Il2CppName: get_IsExpired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)()>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_IsExpired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), "get_IsExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

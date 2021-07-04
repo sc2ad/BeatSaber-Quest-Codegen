@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBra
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorDirectiveAttribute::get_Directive
 // Il2CppName: get_Directive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorDirectiveAttribute::*)()>(&JetBrains::Annotations::RazorDirectiveAttribute::get_Directive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorDirectiveAttribute*), "get_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorDirectiveAttribute::set_Directive
 // Il2CppName: set_Directive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorDirectiveAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorDirectiveAttribute::set_Directive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorDirectiveAttribute*), "set_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

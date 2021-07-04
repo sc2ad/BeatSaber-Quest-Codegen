@@ -183,25 +183,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::CheckBeatmaps
 // Il2CppName: CheckBeatmaps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::WaypointsTestMenuViewController::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*)>(&GlobalNamespace::WaypointsTestMenuViewController::CheckBeatmaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "CheckBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::HandleMainGameSceneDidFinish
 // Il2CppName: HandleMainGameSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::WaypointsTestMenuViewController::HandleMainGameSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_0
 // Il2CppName: <Start>b__11_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_1
 // Il2CppName: <Start>b__11_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0
 // Il2CppName: <HandleMainGameSceneDidFinish>b__14_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)(Zenject::DiContainer*)>(&GlobalNamespace::WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<HandleMainGameSceneDidFinish>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

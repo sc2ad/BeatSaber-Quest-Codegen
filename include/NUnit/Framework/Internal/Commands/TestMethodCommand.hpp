@@ -75,10 +75,25 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*,
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestMethodCommand::RunTestMethod
 // Il2CppName: RunTestMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::Commands::TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::TestMethodCommand::RunTestMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestMethodCommand*), "RunTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestMethodCommand::RunNonAsyncTestMethod
 // Il2CppName: RunNonAsyncTestMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::Commands::TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::TestMethodCommand::RunNonAsyncTestMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestMethodCommand*), "RunNonAsyncTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestMethodCommand::Execute
 // Il2CppName: Execute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::Commands::TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::TestMethodCommand::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestMethodCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

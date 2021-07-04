@@ -175,64 +175,164 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTweens
 // Il2CppName: StartTweens
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::StartTweens)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "StartTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTween
 // Il2CppName: StartTween
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, System::Action*, Tweening::ColorTween*&)>(&GlobalNamespace::GradientImageViewStateTransition::StartTween)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<Tweening::ColorTween*&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetColors
 // Il2CppName: SetColors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::SetColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0
 // Il2CppName: <StartTweens>g__Color1CompleteAction|17_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$g__Color1CompleteAction_17_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>g__Color1CompleteAction|17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1
 // Il2CppName: <StartTweens>g__Color2CompleteAction|17_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$g__Color2CompleteAction_17_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>g__Color2CompleteAction|17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_2
 // Il2CppName: <StartTweens>b__17_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_3
 // Il2CppName: <StartTweens>b__17_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>b__17_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::get_transition
 // Il2CppName: get_transition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::get_transition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToNormalState
 // Il2CppName: TransitionToNormalState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToHighlightedState
 // Il2CppName: TransitionToHighlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToPressedState
 // Il2CppName: TransitionToPressedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToDisabledState
 // Il2CppName: TransitionToDisabledState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedState
 // Il2CppName: TransitionToSelectedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState
 // Il2CppName: TransitionToSelectedAndHighlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetNormalState
 // Il2CppName: SetNormalState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetNormalState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetHighlightedState
 // Il2CppName: SetHighlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetPressedState
 // Il2CppName: SetPressedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetPressedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetDisabledState
 // Il2CppName: SetDisabledState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetDisabledState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetSelectedState
 // Il2CppName: SetSelectedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetSelectedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetSelectedAndHighlightedState
 // Il2CppName: SetSelectedAndHighlightedState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::SetSelectedAndHighlightedState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

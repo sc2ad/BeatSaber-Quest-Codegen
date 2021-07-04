@@ -156,43 +156,113 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpResponseMessage*, "System.Net.Http
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Content
 // Il2CppName: get_Content
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpContent* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_Content
 // Il2CppName: set_Content
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::Http::HttpContent*)>(&System::Net::Http::HttpResponseMessage::set_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpContent*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Headers
 // Il2CppName: get_Headers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpResponseHeaders* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Headers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode
 // Il2CppName: get_IsSuccessStatusCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_IsSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_ReasonPhrase
 // Il2CppName: get_ReasonPhrase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_ReasonPhrase
 // Il2CppName: set_ReasonPhrase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(::Il2CppString*)>(&System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_RequestMessage
 // Il2CppName: set_RequestMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::Http::HttpRequestMessage*)>(&System::Net::Http::HttpResponseMessage::set_RequestMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_RequestMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_StatusCode
 // Il2CppName: get_StatusCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpStatusCode (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_StatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_StatusCode
 // Il2CppName: set_StatusCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&System::Net::Http::HttpResponseMessage::set_StatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Version
 // Il2CppName: get_Version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(bool)>(&System::Net::Http::HttpResponseMessage::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode
 // Il2CppName: EnsureSuccessStatusCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpResponseMessage* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "EnsureSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

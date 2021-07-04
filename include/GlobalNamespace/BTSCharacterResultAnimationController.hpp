@@ -90,10 +90,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController*, "", "BTSCharacterResultAnimationController");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter
 // Il2CppName: SetCharacter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterResultAnimationController::*)(GlobalNamespace::BTSCharacter*)>(&GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterResultAnimationController*), "SetCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::StopAnimation
 // Il2CppName: StopAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterResultAnimationController::*)()>(&GlobalNamespace::BTSCharacterResultAnimationController::StopAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterResultAnimationController*), "StopAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

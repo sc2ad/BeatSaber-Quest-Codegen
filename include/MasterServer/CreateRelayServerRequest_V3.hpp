@@ -55,10 +55,20 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerRequest::V3*, "MasterServer", "CreateRelayServerRequest/V3");
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::V3::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::CreateRelayServerRequest::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::CreateRelayServerRequest::V3::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::CreateRelayServerRequest::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::V3::Deserialize
 // Il2CppName: Deserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::CreateRelayServerRequest::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::CreateRelayServerRequest::V3::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::CreateRelayServerRequest::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::V3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

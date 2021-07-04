@@ -66,16 +66,41 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigIn
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::BarrettReduction
 // Il2CppName: BarrettReduction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::BarrettReduction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "BarrettReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Multiply
 // Il2CppName: Multiply
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Multiply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Difference
 // Il2CppName: Difference
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Difference)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Difference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
 // Il2CppName: Pow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
 // Il2CppName: Pow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(uint, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+  }
+};

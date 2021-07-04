@@ -67,10 +67,20 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlElementAttributesAttribute*, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(&JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::HtmlElementAttributesAttribute*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name
 // Il2CppName: set_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::HtmlElementAttributesAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::HtmlElementAttributesAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

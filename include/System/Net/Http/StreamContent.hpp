@@ -127,10 +127,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StreamContent*, "System.Net.Http", "St
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::StreamContent::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::StreamContent::*)(bool)>(&System::Net::Http::StreamContent::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::StreamContent::SerializeToStreamAsync
 // Il2CppName: SerializeToStreamAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Net::Http::StreamContent::*)(System::IO::Stream*, System::Net::TransportContext*)>(&System::Net::Http::StreamContent::SerializeToStreamAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "SerializeToStreamAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::TransportContext*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::StreamContent::TryComputeLength
 // Il2CppName: TryComputeLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::StreamContent::*)(int64_t&)>(&System::Net::Http::StreamContent::TryComputeLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "TryComputeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+  }
+};

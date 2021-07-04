@@ -30,4 +30,9 @@ namespace UnityEngine::Experimental::Animations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
 // Writing MetadataGetter for method: UnityEngine::Experimental::Animations::IAnimationWindowPreview::UpdatePreviewGraph
 // Il2CppName: UpdatePreviewGraph
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Animations::IAnimationWindowPreview::*)(UnityEngine::Playables::PlayableGraph)>(&UnityEngine::Experimental::Animations::IAnimationWindowPreview::UpdatePreviewGraph)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Animations::IAnimationWindowPreview*), "UpdatePreviewGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
+  }
+};

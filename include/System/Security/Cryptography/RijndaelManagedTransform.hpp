@@ -243,58 +243,153 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)()>(&System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(bool)>(&System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize
 // Il2CppName: get_InputBlockSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)()>(&System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::get_OutputBlockSize
 // Il2CppName: get_OutputBlockSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)()>(&System::Security::Cryptography::RijndaelManagedTransform::get_OutputBlockSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::get_CanTransformMultipleBlocks
 // Il2CppName: get_CanTransformMultipleBlocks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RijndaelManagedTransform::*)()>(&System::Security::Cryptography::RijndaelManagedTransform::get_CanTransformMultipleBlocks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::TransformBlock
 // Il2CppName: TransformBlock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformBlock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)()>(&System::Security::Cryptography::RijndaelManagedTransform::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::EncryptData
 // Il2CppName: EncryptData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*&, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::EncryptData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "EncryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::DecryptData
 // Il2CppName: DecryptData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*&, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::DecryptData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "DecryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::Enc
 // Il2CppName: Enc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(int*, int*, int*, int*, int*, int*)>(&System::Security::Cryptography::RijndaelManagedTransform::Enc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "Enc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::Dec
 // Il2CppName: Dec
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(int*, int*, int*, int*, int*, int*)>(&System::Security::Cryptography::RijndaelManagedTransform::Dec)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "Dec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion
 // Il2CppName: GenerateKeyExpansion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "GenerateKeyExpansion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::rot1
 // Il2CppName: rot1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Security::Cryptography::RijndaelManagedTransform::rot1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "rot1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::rot2
 // Il2CppName: rot2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Security::Cryptography::RijndaelManagedTransform::rot2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "rot2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::rot3
 // Il2CppName: rot3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Security::Cryptography::RijndaelManagedTransform::rot3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "rot3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::SubWord
 // Il2CppName: SubWord
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Security::Cryptography::RijndaelManagedTransform::SubWord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "SubWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::MulX
 // Il2CppName: MulX
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Security::Cryptography::RijndaelManagedTransform::MulX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "MulX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::RijndaelManagedTransform::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

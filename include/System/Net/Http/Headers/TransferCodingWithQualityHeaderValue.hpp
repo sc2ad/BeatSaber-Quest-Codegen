@@ -57,10 +57,20 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*, "System.Net.Http.Headers", "TransferCodingWithQualityHeaderValue");
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParse
 // Il2CppName: TryParse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*&)>(&System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParseElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

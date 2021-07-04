@@ -588,203 +588,523 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::Connectio
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionState, "", "MasterServerConnectionManager/ConnectionState");
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onConnectedEvent
 // Il2CppName: remove_onConnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onDisconnectedEvent
 // Il2CppName: add_onDisconnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onDisconnectedEvent
 // Il2CppName: remove_onDisconnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectionFailedEvent
 // Il2CppName: add_onConnectionFailedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onConnectionFailedEvent
 // Il2CppName: remove_onConnectionFailedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionFailedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectionConnectedEvent
 // Il2CppName: add_onConnectionConnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onConnectionConnectedEvent
 // Il2CppName: remove_onConnectionConnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionConnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectionDisconnectedEvent
 // Il2CppName: add_onConnectionDisconnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onConnectionDisconnectedEvent
 // Il2CppName: remove_onConnectionDisconnectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionDisconnectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onLatencyUpdatedEvent
 // Il2CppName: add_onLatencyUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onLatencyUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onLatencyUpdatedEvent
 // Il2CppName: remove_onLatencyUpdatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onLatencyUpdatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onReceivedDataEvent
 // Il2CppName: add_onReceivedDataEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onReceivedDataEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::remove_onReceivedDataEvent
 // Il2CppName: remove_onReceivedDataEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onReceivedDataEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_userId
 // Il2CppName: get_userId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_userName
 // Il2CppName: get_userName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_isConnected
 // Il2CppName: get_isConnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_isConnecting
 // Il2CppName: get_isConnecting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_isDisconnecting
 // Il2CppName: get_isDisconnecting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isDisconnecting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_connectionCount
 // Il2CppName: get_connectionCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_connectionCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnectionOwner)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_isDisposed
 // Il2CppName: get_isDisposed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isDisposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_port
 // Il2CppName: get_port
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_secret
 // Il2CppName: get_secret
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_secret)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_serverName
 // Il2CppName: get_serverName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_serverPassword
 // Il2CppName: get_serverPassword
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_maxPlayerCount
 // Il2CppName: get_maxPlayerCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_maxPlayerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_discoveryPolicy
 // Il2CppName: get_discoveryPolicy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_discoveryPolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_invitePolicy
 // Il2CppName: get_invitePolicy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::InvitePolicy (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_invitePolicy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_invitePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_configuration
 // Il2CppName: get_configuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_configuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_code
 // Il2CppName: get_code
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_code)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_serverEndPoint
 // Il2CppName: get_serverEndPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverEndPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_serverUserId
 // Il2CppName: get_serverUserId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_serverUserName
 // Il2CppName: get_serverUserName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverUserName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::SendToAll
 // Il2CppName: SendToAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::MasterServerConnectionManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::SendToAll
 // Il2CppName: SendToAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, GlobalNamespace::IConnection*)>(&GlobalNamespace::MasterServerConnectionManager::SendToAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::PollUpdate
 // Il2CppName: PollUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::PollUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::InitMasterServerHandler
 // Il2CppName: InitMasterServerHandler
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::MasterServerEndPoint*, GlobalNamespace::IAuthenticationTokenProvider*)>(&GlobalNamespace::MasterServerConnectionManager::InitMasterServerHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "InitMasterServerHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAuthenticationTokenProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::DisposeMasterServerHandler
 // Il2CppName: DisposeMasterServerHandler
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::DisposeMasterServerHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisposeMasterServerHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::Init
 // Il2CppName: Init
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::SetServerStatus
 // Il2CppName: SetServerStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MasterServerConnectionManager::SetServerStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SetServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::SetCurrentPlayerCount
 // Il2CppName: SetCurrentPlayerCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(int)>(&GlobalNamespace::MasterServerConnectionManager::SetCurrentPlayerCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SetCurrentPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::Disconnect
 // Il2CppName: Disconnect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MasterServerConnectionManager::Disconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::DisconnectInternal
 // Il2CppName: DisconnectInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::DisconnectInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::DisconnectInternal
 // Il2CppName: DisconnectInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::DisconnectedReason, GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::DisconnectInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::GetConnection
 // Il2CppName: GetConnection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (GlobalNamespace::MasterServerConnectionManager::*)(int)>(&GlobalNamespace::MasterServerConnectionManager::GetConnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnected
 // Il2CppName: HandleConnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::HandleConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectionConnected
 // Il2CppName: HandleConnectionConnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectionDisconnected
 // Il2CppName: HandleConnectionDisconnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionDisconnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectionFailed
 // Il2CppName: HandleConnectionFailed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionFailed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleLatencyUpdate
 // Il2CppName: HandleLatencyUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, float)>(&GlobalNamespace::MasterServerConnectionManager::HandleLatencyUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleReceivedData
 // Il2CppName: HandleReceivedData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::MasterServerConnectionManager::HandleReceivedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleReceivedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient
 // Il2CppName: HandleConnectToClient
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectToClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleBroadcastingStopped
 // Il2CppName: HandleBroadcastingStopped
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::HandleBroadcastingStopped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleBroadcastingStopped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::AttemptConnection
 // Il2CppName: AttemptConnection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::AttemptConnection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "AttemptConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::SetConnectionAttempt
 // Il2CppName: SetConnectionAttempt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt)>(&GlobalNamespace::MasterServerConnectionManager::SetConnectionAttempt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SetConnectionAttempt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToMatchmaking
 // Il2CppName: MasterServerConnectToMatchmaking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToMatchmaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "MasterServerConnectToMatchmaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer
 // Il2CppName: MasterServerConnectToServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "MasterServerConnectToServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::StartBroadcastingServer
 // Il2CppName: StartBroadcastingServer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::StartBroadcastingServer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "StartBroadcastingServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess
 // Il2CppName: HandleConnectToServerSuccess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectToServerSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint
 // Il2CppName: ConnectToEndPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "ConnectToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::GetPublicServers
 // Il2CppName: GetPublicServers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>*, System::Action_1<GlobalNamespace::ConnectionFailedReason>*, int, int, GlobalNamespace::GameplayServerFilter)>(&GlobalNamespace::MasterServerConnectionManager::GetPublicServers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "GetPublicServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_0
 // Il2CppName: <StartBroadcastingServer>b__112_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "<StartBroadcastingServer>b__112_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_1
 // Il2CppName: <StartBroadcastingServer>b__112_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "<StartBroadcastingServer>b__112_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -54,7 +54,17 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/OperatorStack");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::get_Empty
 // Il2CppName: get_Empty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::get_Empty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*), "get_Empty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::Pop
 // Il2CppName: Pop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintOperator* (NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::Pop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

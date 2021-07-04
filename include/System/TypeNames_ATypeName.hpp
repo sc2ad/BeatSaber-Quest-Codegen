@@ -57,16 +57,36 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::get_DisplayName
 // Il2CppName: get_DisplayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeNames::ATypeName::*)()>(&System::TypeNames::ATypeName::get_DisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNames::ATypeName*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypeNames::ATypeName::*)(System::TypeName*)>(&System::TypeNames::ATypeName::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNames::ATypeName*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeName*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TypeNames::ATypeName::*)()>(&System::TypeNames::ATypeName::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNames::ATypeName*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypeNames::ATypeName::*)(::Il2CppObject*)>(&System::TypeNames::ATypeName::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNames::ATypeName*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

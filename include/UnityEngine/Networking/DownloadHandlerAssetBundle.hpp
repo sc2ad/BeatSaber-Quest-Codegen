@@ -84,16 +84,36 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached
 // Il2CppName: CreateCached
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "CreateCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundle
 // Il2CppName: InternalCreateAssetBundle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::Il2CppString*, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "InternalCreateAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundleCached
 // Il2CppName: InternalCreateAssetBundleCached
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundleCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "InternalCreateAssetBundleCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -104,13 +124,33 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "Un
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle
 // Il2CppName: get_assetBundle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected
 // Il2CppName: CreateCached_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128&, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "CreateCached_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::GetData
 // Il2CppName: GetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::GetText
 // Il2CppName: GetText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

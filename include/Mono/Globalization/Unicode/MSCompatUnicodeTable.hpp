@@ -185,64 +185,169 @@ namespace Mono::Globalization::Unicode {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo
 // Il2CppName: GetTailoringInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::TailoringInfo* (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "GetTailoringInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables
 // Il2CppName: BuildTailoringTables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ::Array<Mono::Globalization::Unicode::Contraction*>*&, ::Array<Mono::Globalization::Unicode::Level2Map*>*&)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "BuildTailoringTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::TailoringInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Level2Map*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences
 // Il2CppName: SetCJKReferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "SetCJKReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::Category
 // Il2CppName: Category
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::Category)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::Level1
 // Il2CppName: Level1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::Level1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::Level2
 // Il2CppName: Level2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::Level2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::Level3
 // Il2CppName: Level3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::Level3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "Level3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorable
 // Il2CppName: IsIgnorable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, uint8_t)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorableNonSpacing
 // Il2CppName: IsIgnorableNonSpacing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorableNonSpacing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "IsIgnorableNonSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::ToKanaTypeInsensitive
 // Il2CppName: ToKanaTypeInsensitive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::ToKanaTypeInsensitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "ToKanaTypeInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::ToWidthCompat
 // Il2CppName: ToWidthCompat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::ToWidthCompat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "ToWidthCompat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::HasSpecialWeight
 // Il2CppName: HasSpecialWeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::HasSpecialWeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "HasSpecialWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHalfWidthKana
 // Il2CppName: IsHalfWidthKana
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHalfWidthKana)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "IsHalfWidthKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHiragana
 // Il2CppName: IsHiragana
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHiragana)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "IsHiragana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::IsJapaneseSmallLetter
 // Il2CppName: IsJapaneseSmallLetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::IsJapaneseSmallLetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "IsJapaneseSmallLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::get_IsReady
 // Il2CppName: get_IsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::get_IsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "get_IsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource
 // Il2CppName: GetResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "GetResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr
 // Il2CppName: UInt32FromBytePtr
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint8_t*, uint)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "UInt32FromBytePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK
 // Il2CppName: FillCJK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "FillCJK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore
 // Il2CppName: FillCJKCore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "FillCJKCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};

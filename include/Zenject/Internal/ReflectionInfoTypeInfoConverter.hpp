@@ -108,34 +108,89 @@ namespace Zenject::Internal {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter");
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertMethod
 // Il2CppName: ConvertMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectMethodInfo* (*)(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "ConvertMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertConstructor
 // Il2CppName: ConvertConstructor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectConstructorInfo* (*)(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*, System::Type*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "ConvertConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertField
 // Il2CppName: ConvertField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectMemberInfo* (*)(System::Type*, Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "ConvertField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertProperty
 // Il2CppName: ConvertProperty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectMemberInfo* (*)(System::Type*, Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertProperty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "ConvertProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethod
 // Il2CppName: TryCreateFactoryMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenFactoryMethod* (*)(System::Type*, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "TryCreateFactoryMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethodCompiledLambdaExpression
 // Il2CppName: TryCreateFactoryMethodCompiledLambdaExpression
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenFactoryMethod* (*)(System::Type*, System::Reflection::ConstructorInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethodCompiledLambdaExpression)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "TryCreateFactoryMethodCompiledLambdaExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateActionForMethod
 // Il2CppName: TryCreateActionForMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenInjectMethod* (*)(System::Reflection::MethodInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateActionForMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "TryCreateActionForMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::GetAllFields
 // Il2CppName: GetAllFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* (*)(System::Type*, System::Reflection::BindingFlags)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::GetAllFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "GetAllFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter
 // Il2CppName: GetOnlyPropertySetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenMemberSetterMethod* (*)(System::Type*, ::Il2CppString*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "GetOnlyPropertySetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::GetSetter
 // Il2CppName: GetSetter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenMemberSetterMethod* (*)(System::Type*, System::Reflection::MemberInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::GetSetter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "GetSetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::TryGetSetterAsCompiledExpression
 // Il2CppName: TryGetSetterAsCompiledExpression
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenMemberSetterMethod* (*)(System::Type*, System::Reflection::MemberInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::TryGetSetterAsCompiledExpression)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter*), "TryGetSetterAsCompiledExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
+  }
+};

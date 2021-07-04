@@ -63,10 +63,20 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::GraphicRaycaster::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0
 // Il2CppName: <Raycast>b__24_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::$$c::*)(UnityEngine::UI::Graphic*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

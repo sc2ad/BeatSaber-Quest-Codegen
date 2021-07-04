@@ -84,10 +84,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuild
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::FromRGB
 // Il2CppName: FromRGB
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::HSVColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::HSVColor::FromRGB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::SqrDistance
 // Il2CppName: SqrDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::HSVColor::*)(UnityEngine::ProBuilder::HSVColor*)>(&UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "SqrDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::HSVColor*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::HSVColor::*)()>(&UnityEngine::ProBuilder::HSVColor::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

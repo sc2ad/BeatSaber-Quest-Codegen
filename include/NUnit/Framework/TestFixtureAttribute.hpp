@@ -130,16 +130,41 @@ namespace NUnit::Framework {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_RunState
 // Il2CppName: get_RunState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::RunState (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_RunState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_RunState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_Arguments
 // Il2CppName: get_Arguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_Arguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_Properties
 // Il2CppName: get_Properties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IPropertyBag* (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_TypeArgs
 // Il2CppName: get_TypeArgs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_TypeArgs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::BuildFrom
 // Il2CppName: BuildFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::TestFixtureAttribute::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::TestFixtureAttribute::BuildFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+  }
+};

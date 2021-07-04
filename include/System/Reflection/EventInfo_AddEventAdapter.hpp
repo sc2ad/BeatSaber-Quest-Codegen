@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo::AddEventAdapter*, "System.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Reflection::EventInfo::AddEventAdapter::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::EventInfo::AddEventAdapter::*)(::Il2CppObject*, System::Delegate*)>(&System::Reflection::EventInfo::AddEventAdapter::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo::AddEventAdapter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::EventInfo::AddEventAdapter::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Reflection::EventInfo::AddEventAdapter::*)(::Il2CppObject*, System::Delegate*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Reflection::EventInfo::AddEventAdapter::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo::AddEventAdapter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Reflection::EventInfo::AddEventAdapter::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::EventInfo::AddEventAdapter::*)(System::IAsyncResult*)>(&System::Reflection::EventInfo::AddEventAdapter::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo::AddEventAdapter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

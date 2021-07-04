@@ -82,17 +82,37 @@ namespace System::Net::NetworkInformation {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath
 // Il2CppName: get_IfacePath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "get_IfacePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine
 // Il2CppName: ReadLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties
 // Il2CppName: GetIPProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus
 // Il2CppName: get_OperationalStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

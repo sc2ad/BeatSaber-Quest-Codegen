@@ -87,4 +87,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, ""
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle
 // Il2CppName: GetTiltAngle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::*)()>(&GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*), "GetTiltAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

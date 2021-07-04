@@ -102,7 +102,17 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d, "MasterServer", "UserMessageHandler/<>c__DisplayClass38_0/<<SendConnectToServerRequest>b__0>d");
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::*)()>(&MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass38_0::$$SendConnectToServerRequest$b__0$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

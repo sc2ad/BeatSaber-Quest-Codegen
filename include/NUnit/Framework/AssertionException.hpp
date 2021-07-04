@@ -71,4 +71,9 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::AssertionException*, "NUnit.Framework",
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::AssertionException::get_ResultState
 // Il2CppName: get_ResultState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (NUnit::Framework::AssertionException::*)()>(&NUnit::Framework::AssertionException::get_ResultState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::AssertionException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

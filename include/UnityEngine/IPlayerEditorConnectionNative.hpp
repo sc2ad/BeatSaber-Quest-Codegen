@@ -56,25 +56,65 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::Initialize
 // Il2CppName: Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::DisconnectAll
 // Il2CppName: DisconnectAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::DisconnectAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::SendMessage
 // Il2CppName: SendMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::IPlayerEditorConnectionNative::SendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::TrySendMessage
 // Il2CppName: TrySendMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::IPlayerEditorConnectionNative::TrySendMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::Poll
 // Il2CppName: Poll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::Poll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::RegisterInternal
 // Il2CppName: RegisterInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::RegisterInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal
 // Il2CppName: UnregisterInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::IsConnected
 // Il2CppName: IsConnected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::IsConnected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

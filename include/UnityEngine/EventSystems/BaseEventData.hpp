@@ -72,10 +72,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.E
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::get_currentInputModule
 // Il2CppName: get_currentInputModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInputModule* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_currentInputModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_currentInputModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::get_selectedObject
 // Il2CppName: get_selectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_selectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::set_selectedObject
 // Il2CppName: set_selectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::BaseEventData::set_selectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "set_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};

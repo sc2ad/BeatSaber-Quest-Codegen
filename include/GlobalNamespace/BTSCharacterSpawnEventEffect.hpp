@@ -211,31 +211,76 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent
 // Il2CppName: add_startCharacterAnimationEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "add_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent
 // Il2CppName: remove_startCharacterAnimationEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "remove_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BTSCharacter*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized
 // Il2CppName: get_isInitialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::LoadAddressables
 // Il2CppName: LoadAddressables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::LoadAddressables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "LoadAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::CleanupAddressables
 // Il2CppName: CleanupAddressables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::CleanupAddressables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "CleanupAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip
 // Il2CppName: GetCharacterWithAnimationClip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* (*)(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*, int, int)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "GetCharacterWithAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

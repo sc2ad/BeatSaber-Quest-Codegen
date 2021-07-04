@@ -286,79 +286,199 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtension
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DerivesFrom
 // Il2CppName: DerivesFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&ModestTree::TypeExtensions::DerivesFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "DerivesFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DerivesFromOrEqual
 // Il2CppName: DerivesFromOrEqual
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DerivesFromOrEqual
 // Il2CppName: DerivesFromOrEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&ModestTree::TypeExtensions::DerivesFromOrEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "DerivesFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsAssignableToGenericType
 // Il2CppName: IsAssignableToGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&ModestTree::TypeExtensions::IsAssignableToGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsAssignableToGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsEnum
 // Il2CppName: IsEnum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsValueType
 // Il2CppName: IsValueType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsValueType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DeclaredInstanceMethods
 // Il2CppName: DeclaredInstanceMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::DeclaredInstanceMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "DeclaredInstanceMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DeclaredInstanceProperties
 // Il2CppName: DeclaredInstanceProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::DeclaredInstanceProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "DeclaredInstanceProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DeclaredInstanceFields
 // Il2CppName: DeclaredInstanceFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::DeclaredInstanceFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "DeclaredInstanceFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::BaseType
 // Il2CppName: BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&ModestTree::TypeExtensions::BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsGenericType
 // Il2CppName: IsGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsGenericTypeDefinition
 // Il2CppName: IsGenericTypeDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsPrimitive
 // Il2CppName: IsPrimitive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsPrimitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsInterface
 // Il2CppName: IsInterface
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsInterface)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::ContainsGenericParameters
 // Il2CppName: ContainsGenericParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::ContainsGenericParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsAbstract
 // Il2CppName: IsAbstract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsAbstract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsSealed
 // Il2CppName: IsSealed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsSealed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsSealed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::Method
 // Il2CppName: Method
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Delegate*)>(&ModestTree::TypeExtensions::Method)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::GenericArguments
 // Il2CppName: GenericArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::GenericArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "GenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::Interfaces
 // Il2CppName: Interfaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::Interfaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "Interfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::Constructors
 // Il2CppName: Constructors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::Constructors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "Constructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::GetDefaultValue
 // Il2CppName: GetDefaultValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&ModestTree::TypeExtensions::GetDefaultValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "GetDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsClosedGenericType
 // Il2CppName: IsClosedGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsClosedGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsClosedGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::GetParentTypes
 // Il2CppName: GetParentTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (*)(System::Type*)>(&ModestTree::TypeExtensions::GetParentTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "GetParentTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::IsOpenGenericType
 // Il2CppName: IsOpenGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ModestTree::TypeExtensions::IsOpenGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "IsOpenGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::GetAttribute
 // Il2CppName: GetAttribute
 // Cannot write MetadataGetter for generic methods!
@@ -367,7 +487,12 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtension
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::HasAttribute
 // Il2CppName: HasAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::HasAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "HasAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::HasAttribute
 // Il2CppName: HasAttribute
 // Cannot write MetadataGetter for generic methods!
@@ -376,10 +501,20 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtension
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::AllAttributes
 // Il2CppName: AllAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::MemberInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::AllAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "AllAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::HasAttribute
 // Il2CppName: HasAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ParameterInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::HasAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "HasAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::HasAttribute
 // Il2CppName: HasAttribute
 // Cannot write MetadataGetter for generic methods!
@@ -388,7 +523,17 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtension
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::AllAttributes
 // Il2CppName: AllAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::ParameterInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::AllAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "AllAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::TypeExtensions::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

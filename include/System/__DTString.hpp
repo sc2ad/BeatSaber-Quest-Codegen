@@ -187,73 +187,193 @@ DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::__DTString::get_CompareInfo
 // Il2CppName: get_CompareInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (System::__DTString::*)()>(&System::__DTString::get_CompareInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "get_CompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetNext
 // Il2CppName: GetNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)()>(&System::__DTString::GetNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::AtEnd
 // Il2CppName: AtEnd
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)()>(&System::__DTString::AtEnd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "AtEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::Advance
 // Il2CppName: Advance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(int)>(&System::__DTString::Advance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetRegularToken
 // Il2CppName: GetRegularToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)(System::TokenType&, int&, System::Globalization::DateTimeFormatInfo*)>(&System::__DTString::GetRegularToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetRegularToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TokenType&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetSeparatorToken
 // Il2CppName: GetSeparatorToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TokenType (System::__DTString::*)(System::Globalization::DateTimeFormatInfo*, int&, ::Il2CppChar&)>(&System::__DTString::GetSeparatorToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetSeparatorToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar&>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWord
 // Il2CppName: MatchSpecifiedWord
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*)>(&System::__DTString::MatchSpecifiedWord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchSpecifiedWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWord
 // Il2CppName: MatchSpecifiedWord
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*, int)>(&System::__DTString::MatchSpecifiedWord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchSpecifiedWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWords
 // Il2CppName: MatchSpecifiedWords
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*, bool, int&)>(&System::__DTString::MatchSpecifiedWords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchSpecifiedWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::Match
 // Il2CppName: Match
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*)>(&System::__DTString::Match)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::Match
 // Il2CppName: Match
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppChar)>(&System::__DTString::Match)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::MatchLongestWords
 // Il2CppName: MatchLongestWords
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::Array<::Il2CppString*>*, int&)>(&System::__DTString::MatchLongestWords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchLongestWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetRepeatCount
 // Il2CppName: GetRepeatCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)()>(&System::__DTString::GetRepeatCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetRepeatCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetNextDigit
 // Il2CppName: GetNextDigit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)()>(&System::__DTString::GetNextDigit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetNextDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetChar
 // Il2CppName: GetChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::__DTString::*)()>(&System::__DTString::GetChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetDigit
 // Il2CppName: GetDigit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)()>(&System::__DTString::GetDigit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::SkipWhiteSpaces
 // Il2CppName: SkipWhiteSpaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)()>(&System::__DTString::SkipWhiteSpaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "SkipWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::SkipWhiteSpaceCurrent
 // Il2CppName: SkipWhiteSpaceCurrent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)()>(&System::__DTString::SkipWhiteSpaceCurrent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "SkipWhiteSpaceCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::TrimTail
 // Il2CppName: TrimTail
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)()>(&System::__DTString::TrimTail)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "TrimTail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::RemoveTrailingInQuoteSpaces
 // Il2CppName: RemoveTrailingInQuoteSpaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)()>(&System::__DTString::RemoveTrailingInQuoteSpaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "RemoveTrailingInQuoteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::RemoveLeadingInQuoteSpaces
 // Il2CppName: RemoveLeadingInQuoteSpaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)()>(&System::__DTString::RemoveLeadingInQuoteSpaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "RemoveLeadingInQuoteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::GetSubString
 // Il2CppName: GetSubString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DTSubString (System::__DTString::*)()>(&System::__DTString::GetSubString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "GetSubString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::ConsumeSubString
 // Il2CppName: ConsumeSubString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::__DTString::*)(System::DTSubString)>(&System::__DTString::ConsumeSubString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), "ConsumeSubString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DTSubString>()});
+  }
+};
 // Writing MetadataGetter for method: System::__DTString::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::__DTString::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__DTString), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

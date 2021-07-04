@@ -38,7 +38,17 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec*, "System", "ModifierSpec");
 // Writing MetadataGetter for method: System::ModifierSpec::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::ModifierSpec::*)(System::Type*)>(&System::ModifierSpec::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ModifierSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::ModifierSpec::Append
 // Il2CppName: Append
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::ModifierSpec::*)(System::Text::StringBuilder*)>(&System::ModifierSpec::Append)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ModifierSpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};

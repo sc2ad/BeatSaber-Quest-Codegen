@@ -26,4 +26,9 @@ namespace Org::BouncyCastle::Asn1 {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IAsn1String::GetString
 // Il2CppName: GetString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::IAsn1String::*)()>(&Org::BouncyCastle::Asn1::IAsn1String::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::IAsn1String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

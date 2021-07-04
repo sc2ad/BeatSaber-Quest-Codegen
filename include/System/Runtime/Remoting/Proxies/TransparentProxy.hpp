@@ -93,22 +93,52 @@ namespace System::Runtime::Remoting::Proxies {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType
 // Il2CppName: GetProxyType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "GetProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject
 // Il2CppName: get_IsContextBoundObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "get_IsContextBoundObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext
 // Il2CppName: get_TargetContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "get_TargetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::InCurrentContext
 // Il2CppName: InCurrentContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::InCurrentContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "InCurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew
 // Il2CppName: LoadRemoteFieldNew
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr)>(&System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "LoadRemoteFieldNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField
 // Il2CppName: StoreRemoteField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "StoreRemoteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

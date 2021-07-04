@@ -86,25 +86,65 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperone*, "OVR.OpenVR", "CVRChaperone")
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetCalibrationState
 // Il2CppName: GetCalibrationState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ChaperoneCalibrationState (OVR::OpenVR::CVRChaperone::*)()>(&OVR::OpenVR::CVRChaperone::GetCalibrationState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "GetCalibrationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetPlayAreaSize
 // Il2CppName: GetPlayAreaSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(float&, float&)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "GetPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetPlayAreaRect
 // Il2CppName: GetPlayAreaRect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(OVR::OpenVR::HmdQuad_t&)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaRect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "GetPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdQuad_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::ReloadInfo
 // Il2CppName: ReloadInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)()>(&OVR::OpenVR::CVRChaperone::ReloadInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "ReloadInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::SetSceneColor
 // Il2CppName: SetSceneColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)(OVR::OpenVR::HmdColor_t)>(&OVR::OpenVR::CVRChaperone::SetSceneColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "SetSceneColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetBoundsColor
 // Il2CppName: GetBoundsColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)(OVR::OpenVR::HmdColor_t&, int, float, OVR::OpenVR::HmdColor_t&)>(&OVR::OpenVR::CVRChaperone::GetBoundsColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "GetBoundsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::AreBoundsVisible
 // Il2CppName: AreBoundsVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)()>(&OVR::OpenVR::CVRChaperone::AreBoundsVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "AreBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::ForceBoundsVisible
 // Il2CppName: ForceBoundsVisible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)(bool)>(&OVR::OpenVR::CVRChaperone::ForceBoundsVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "ForceBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

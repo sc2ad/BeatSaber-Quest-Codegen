@@ -31,4 +31,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformUtils*, "", "VRPlatformUtils");
 // Writing MetadataGetter for method: GlobalNamespace::VRPlatformUtils::GetXRDeviceModel
 // Il2CppName: GetXRDeviceModel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (*)()>(&GlobalNamespace::VRPlatformUtils::GetXRDeviceModel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRPlatformUtils*), "GetXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

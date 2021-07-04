@@ -55,4 +55,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName
 // Il2CppName: set_FrameworkDisplayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Versioning::TargetFrameworkAttribute::*)(::Il2CppString*)>(&System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Versioning::TargetFrameworkAttribute*), "set_FrameworkDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

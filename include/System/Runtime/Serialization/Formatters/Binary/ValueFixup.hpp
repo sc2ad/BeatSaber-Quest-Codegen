@@ -120,4 +120,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Value
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ValueFixup::Fixup
 // Il2CppName: Fixup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ValueFixup::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&System::Runtime::Serialization::Formatters::Binary::ValueFixup::Fixup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ValueFixup*), "Fixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+  }
+};

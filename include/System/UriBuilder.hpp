@@ -176,7 +176,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriBuilder::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(System::Uri*)>(&System::UriBuilder::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -187,35 +192,85 @@ DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriBuilder::set_Host
 // Il2CppName: set_Host
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Host)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::set_Path
 // Il2CppName: set_Path
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Path)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::set_Port
 // Il2CppName: set_Port
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(int)>(&System::UriBuilder::set_Port)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::set_Query
 // Il2CppName: set_Query
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Query)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Query", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::set_Scheme
 // Il2CppName: set_Scheme
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Scheme)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::get_Uri
 // Il2CppName: get_Uri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::UriBuilder::*)()>(&System::UriBuilder::get_Uri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::SetFieldsFromUri
 // Il2CppName: SetFieldsFromUri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(System::Uri*)>(&System::UriBuilder::SetFieldsFromUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "SetFieldsFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UriBuilder::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UriBuilder::*)(::Il2CppObject*)>(&System::UriBuilder::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::UriBuilder::*)()>(&System::UriBuilder::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UriBuilder::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriBuilder::*)()>(&System::UriBuilder::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

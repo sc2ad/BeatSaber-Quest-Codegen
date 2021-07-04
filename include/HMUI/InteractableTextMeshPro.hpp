@@ -92,7 +92,12 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");
 // Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::OnCanvasGroupChanged
 // Il2CppName: OnCanvasGroupChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InteractableTextMeshPro::*)()>(&HMUI::InteractableTextMeshPro::OnCanvasGroupChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InteractableTextMeshPro*), "OnCanvasGroupChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

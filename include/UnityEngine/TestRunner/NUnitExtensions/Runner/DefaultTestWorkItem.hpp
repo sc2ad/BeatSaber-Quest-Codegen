@@ -81,4 +81,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::Default
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::PerformWork
 // Il2CppName: PerformWork
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::PerformWork)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

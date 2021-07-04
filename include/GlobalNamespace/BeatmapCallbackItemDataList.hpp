@@ -183,16 +183,41 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "Beatm
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapObjectData
 // Il2CppName: InsertBeatmapObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "InsertBeatmapObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapEventData
 // Il2CppName: InsertBeatmapEventData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapEventData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "InsertBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::ProcessData
 // Il2CppName: ProcessData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)()>(&GlobalNamespace::BeatmapCallbackItemDataList::ProcessData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "ProcessData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::ProcessNotesByColorType
 // Il2CppName: ProcessNotesByColorType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapCallbackItemDataList::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&GlobalNamespace::BeatmapCallbackItemDataList::ProcessNotesByColorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "ProcessNotesByColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteOrLongNote
 // Il2CppName: SpawnNoteOrLongNote
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::NoteData*, float)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteOrLongNote)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "SpawnNoteOrLongNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};

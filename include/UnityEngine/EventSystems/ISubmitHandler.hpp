@@ -36,4 +36,9 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ISubmitHandler*, "UnityEngine.EventSystems", "ISubmitHandler");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ISubmitHandler::OnSubmit
 // Il2CppName: OnSubmit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ISubmitHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ISubmitHandler::OnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ISubmitHandler*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};

@@ -64,22 +64,57 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*, "UnityEngine.Experimental.GlobalIllumination", "LightmapperUtils");
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractIndirect
 // Il2CppName: ExtractIndirect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Light*)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractIndirect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "ExtractIndirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractInnerCone
 // Il2CppName: ExtractInnerCone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Light*)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractInnerCone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "ExtractInnerCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DirectionalLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::PointLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::SpotLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::RectangleLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Light*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DiscLight&>()});
+  }
+};

@@ -46,10 +46,25 @@ namespace System::ComponentModel {
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISite*, "System.ComponentModel", "ISite");
 // Writing MetadataGetter for method: System::ComponentModel::ISite::get_Container
 // Il2CppName: get_Container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::IContainer* (System::ComponentModel::ISite::*)()>(&System::ComponentModel::ISite::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISite*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::ISite::get_DesignMode
 // Il2CppName: get_DesignMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::ISite::*)()>(&System::ComponentModel::ISite::get_DesignMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISite*), "get_DesignMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::ISite::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::ISite::*)()>(&System::ComponentModel::ISite::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISite*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

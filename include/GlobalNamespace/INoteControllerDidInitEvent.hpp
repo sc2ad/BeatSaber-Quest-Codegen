@@ -30,4 +30,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerDidInitEvent*, "", "INoteControllerDidInitEvent");
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerDidInitEvent::HandleNoteControllerDidInit
 // Il2CppName: HandleNoteControllerDidInit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerDidInitEvent::*)(GlobalNamespace::NoteControllerBase*)>(&GlobalNamespace::INoteControllerDidInitEvent::HandleNoteControllerDidInit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteControllerDidInitEvent*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+  }
+};

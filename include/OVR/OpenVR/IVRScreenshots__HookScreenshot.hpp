@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots::_HookScreenshot*, "OVR.OpenV
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRScreenshots::_HookScreenshot::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::IVRScreenshots::_HookScreenshot::*)(::Array<OVR::OpenVR::EVRScreenshotType>*&, int)>(&OVR::OpenVR::IVRScreenshots::_HookScreenshot::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRScreenshots::_HookScreenshot*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::EVRScreenshotType>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRScreenshots::_HookScreenshot::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRScreenshots::_HookScreenshot::*)(::Array<OVR::OpenVR::EVRScreenshotType>*&, int, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRScreenshots::_HookScreenshot::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRScreenshots::_HookScreenshot*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::EVRScreenshotType>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRScreenshots::_HookScreenshot::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::IVRScreenshots::_HookScreenshot::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRScreenshots::_HookScreenshot::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRScreenshots::_HookScreenshot*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

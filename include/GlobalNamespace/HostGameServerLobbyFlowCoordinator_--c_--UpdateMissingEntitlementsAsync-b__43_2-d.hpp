@@ -85,7 +85,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d, "", "HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__43_2>d");
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

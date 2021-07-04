@@ -101,7 +101,12 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");
 // Writing MetadataGetter for method: System::MissingMemberException::FormatSignature
 // Il2CppName: FormatSignature
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&System::MissingMemberException::FormatSignature)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "FormatSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::MissingMemberException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -116,7 +121,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMember
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::MissingMemberException::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::MissingMemberException::*)()>(&System::MissingMemberException::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::MissingMemberException::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MissingMemberException::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::MissingMemberException::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};

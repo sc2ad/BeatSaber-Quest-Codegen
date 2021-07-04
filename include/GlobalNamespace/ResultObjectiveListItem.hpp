@@ -116,28 +116,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_iconColor
 // Il2CppName: set_iconColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(UnityEngine::Color)>(&GlobalNamespace::ResultObjectiveListItem::set_iconColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_iconColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_icon
 // Il2CppName: set_icon
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&GlobalNamespace::ResultObjectiveListItem::set_icon)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_iconGlow
 // Il2CppName: set_iconGlow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(UnityEngine::Sprite*)>(&GlobalNamespace::ResultObjectiveListItem::set_iconGlow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_iconGlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_title
 // Il2CppName: set_title
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ResultObjectiveListItem::set_title)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_conditionText
 // Il2CppName: set_conditionText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ResultObjectiveListItem::set_conditionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_conditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_hideConditionText
 // Il2CppName: set_hideConditionText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(bool)>(&GlobalNamespace::ResultObjectiveListItem::set_hideConditionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_hideConditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_valueText
 // Il2CppName: set_valueText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ResultObjectiveListItem::set_valueText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_valueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_hideValueText
 // Il2CppName: set_hideValueText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultObjectiveListItem::*)(bool)>(&GlobalNamespace::ResultObjectiveListItem::set_hideValueText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultObjectiveListItem*), "set_hideValueText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

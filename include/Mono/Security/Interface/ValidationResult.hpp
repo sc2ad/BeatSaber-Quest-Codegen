@@ -66,7 +66,17 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Secur
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_Trusted
 // Il2CppName: get_Trusted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_Trusted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_Trusted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_UserDenied
 // Il2CppName: get_UserDenied
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_UserDenied)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_UserDenied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

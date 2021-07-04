@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController::OnOverrideContro
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)()>(&UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::*)(System::IAsyncResult*)>(&UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -73,7 +73,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerAvailabilityModel*, "", "MockMasterServerAvailabilityModel");
 // Writing MetadataGetter for method: GlobalNamespace::MockMasterServerAvailabilityModel::GetAvailabilityAsync
 // Il2CppName: GetAvailabilityAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* (GlobalNamespace::MockMasterServerAvailabilityModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MockMasterServerAvailabilityModel::GetAvailabilityAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMasterServerAvailabilityModel*), "GetAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockMasterServerAvailabilityModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

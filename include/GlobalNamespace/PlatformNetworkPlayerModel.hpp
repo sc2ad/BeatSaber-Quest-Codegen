@@ -59,7 +59,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel*, "", "PlatformNetworkPlayerModel");
 // Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::get_friends
 // Il2CppName: get_friends
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&GlobalNamespace::PlatformNetworkPlayerModel::get_friends)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

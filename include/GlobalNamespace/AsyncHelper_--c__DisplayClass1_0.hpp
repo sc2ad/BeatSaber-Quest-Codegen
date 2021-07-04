@@ -69,7 +69,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0*, "", "AsyncHelper/<>c__DisplayClass1_0");
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$RunSync$b__0
 // Il2CppName: <RunSync>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::*)()>(&GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$RunSync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0*), "<RunSync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

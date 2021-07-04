@@ -88,28 +88,68 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetDataStore
 // Il2CppName: SetDataStore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::RoomOptions::SetDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::ClearDataStore
 // Il2CppName: ClearDataStore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::ClearDataStore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetExcludeRecentlyMet
 // Il2CppName: SetExcludeRecentlyMet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(bool)>(&Oculus::Platform::RoomOptions::SetExcludeRecentlyMet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetMaxUserResults
 // Il2CppName: SetMaxUserResults
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(uint)>(&Oculus::Platform::RoomOptions::SetMaxUserResults)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetOrdering
 // Il2CppName: SetOrdering
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::UserOrdering)>(&Oculus::Platform::RoomOptions::SetOrdering)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow
 // Il2CppName: SetRecentlyMetTimeWindow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::TimeWindow)>(&Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetRoomId
 // Il2CppName: SetRoomId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(uint64_t)>(&Oculus::Platform::RoomOptions::SetRoomId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetTurnOffUpdates
 // Il2CppName: SetTurnOffUpdates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(bool)>(&Oculus::Platform::RoomOptions::SetTurnOffUpdates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -119,4 +159,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomO
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

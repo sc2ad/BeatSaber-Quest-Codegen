@@ -33,4 +33,9 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ITupleInternal*, "System", "ITupleInternal");
 // Writing MetadataGetter for method: System::ITupleInternal::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ITupleInternal::*)(System::Text::StringBuilder*)>(&System::ITupleInternal::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ITupleInternal*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+  }
+};

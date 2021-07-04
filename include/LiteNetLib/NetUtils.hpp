@@ -83,31 +83,81 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::MakeEndPoint
 // Il2CppName: MakeEndPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (*)(::Il2CppString*, int)>(&LiteNetLib::NetUtils::MakeEndPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "MakeEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::ResolveAddress
 // Il2CppName: ResolveAddress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::ResolveAddress
 // Il2CppName: ResolveAddress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*, System::Net::Sockets::AddressFamily)>(&LiteNetLib::NetUtils::ResolveAddress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::ResolveAddresses
 // Il2CppName: ResolveAddresses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddresses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::GetLocalIpList
 // Il2CppName: GetLocalIpList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIpList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::GetLocalIpList
 // Il2CppName: GetLocalIpList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<::Il2CppString*>*, LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIpList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::GetLocalIp
 // Il2CppName: GetLocalIp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::PrintInterfaceInfos
 // Il2CppName: PrintInterfaceInfos
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::PrintInterfaceInfos)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "PrintInterfaceInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::RelativeSequenceNumber
 // Il2CppName: RelativeSequenceNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&LiteNetLib::NetUtils::RelativeSequenceNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "RelativeSequenceNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

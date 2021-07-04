@@ -37,4 +37,9 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableFactory::CreateFileNameIterator
 // Il2CppName: CreateFileNameIterator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableFactory*), "CreateFileNameIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

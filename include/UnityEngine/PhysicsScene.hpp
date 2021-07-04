@@ -141,73 +141,193 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene, "UnityEngine", "PhysicsScene");
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::PhysicsScene)>(&UnityEngine::PhysicsScene::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
 // Il2CppName: Raycast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastTest
 // Il2CppName: Internal_RaycastTest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastTest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
 // Il2CppName: Raycast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_Raycast
 // Il2CppName: Internal_Raycast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
 // Il2CppName: Raycast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastNonAlloc
 // Il2CppName: Internal_RaycastNonAlloc
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastNonAlloc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_CapsuleCast
 // Il2CppName: Query_CapsuleCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_CapsuleCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_CapsuleCast
 // Il2CppName: Internal_CapsuleCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_CapsuleCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::CapsuleCast
 // Il2CppName: CapsuleCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::CapsuleCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_SphereCast
 // Il2CppName: Query_SphereCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_SphereCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_SphereCast
 // Il2CppName: Internal_SphereCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_SphereCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::SphereCast
 // Il2CppName: SphereCast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::SphereCast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal
 // Il2CppName: OverlapBoxNonAlloc_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBox
 // Il2CppName: OverlapBox
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBox)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastTest_Injected
 // Il2CppName: Internal_RaycastTest_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastTest_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_Raycast_Injected
 // Il2CppName: Internal_Raycast_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_Raycast_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastNonAlloc_Injected
 // Il2CppName: Internal_RaycastNonAlloc_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastNonAlloc_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_CapsuleCast_Injected
 // Il2CppName: Query_CapsuleCast_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, UnityEngine::Vector3&, float, UnityEngine::Vector3&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_CapsuleCast_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_SphereCast_Injected
 // Il2CppName: Query_SphereCast_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, float, UnityEngine::Vector3&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_SphereCast_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal_Injected
 // Il2CppName: OverlapBoxNonAlloc_Internal_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, UnityEngine::Vector3&, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::PhysicsScene::*)()>(&UnityEngine::PhysicsScene::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene::*)()>(&UnityEngine::PhysicsScene::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(::Il2CppObject*)>(&UnityEngine::PhysicsScene::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

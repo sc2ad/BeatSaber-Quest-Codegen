@@ -101,13 +101,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::GetPlatformUserIdAsync
 // Il2CppName: GetPlatformUserIdAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetPlatformUserIdAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::UserAuthenticationDataAsync
 // Il2CppName: UserAuthenticationDataAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::UserAuthenticationDataAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds
 // Il2CppName: GetUserFriendsUserIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

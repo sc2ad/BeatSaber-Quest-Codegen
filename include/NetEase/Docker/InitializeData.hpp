@@ -56,10 +56,25 @@ namespace NetEase::Docker {
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::get_InitializeSuccessful
 // Il2CppName: get_InitializeSuccessful
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEase::Docker::InitializeData::*)()>(&NetEase::Docker::InitializeData::get_InitializeSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "get_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::set_InitializeSuccessful
 // Il2CppName: set_InitializeSuccessful
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::InitializeData::*)(bool)>(&NetEase::Docker::InitializeData::set_InitializeSuccessful)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "set_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::set_InitializeCode
 // Il2CppName: set_InitializeCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::InitializeData::*)(int)>(&NetEase::Docker::InitializeData::set_InitializeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "set_InitializeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

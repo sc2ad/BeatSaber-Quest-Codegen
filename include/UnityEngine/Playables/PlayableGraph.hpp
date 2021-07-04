@@ -138,61 +138,156 @@ namespace UnityEngine::Playables {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Playables::PlayableGraph::*)(int)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::Connect
 // Il2CppName: Connect
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsValid
 // Il2CppName: IsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsPlaying
 // Il2CppName: IsPlaying
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::IsPlaying)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetResolver
 // Il2CppName: GetResolver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetResolver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetPlayableCount
 // Il2CppName: GetPlayableCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetPlayableCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableCount
 // Il2CppName: GetRootPlayableCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreatePlayableHandle
 // Il2CppName: CreatePlayableHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::CreatePlayableHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreatePlayableHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal
 // Il2CppName: CreateScriptOutputInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreateScriptOutputInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal
 // Il2CppName: GetRootPlayableInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableGraph::*)(int)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::ConnectInternal
 // Il2CppName: ConnectInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(UnityEngine::Playables::PlayableHandle, int, UnityEngine::Playables::PlayableHandle, int)>(&UnityEngine::Playables::PlayableGraph::ConnectInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "ConnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsValid_Injected
 // Il2CppName: IsValid_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::IsValid_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsPlaying_Injected
 // Il2CppName: IsPlaying_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::IsPlaying_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsPlaying_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetResolver_Injected
 // Il2CppName: GetResolver_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetResolver_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetResolver_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected
 // Il2CppName: GetPlayableCount_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected
 // Il2CppName: GetRootPlayableCount_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected
 // Il2CppName: CreatePlayableHandle_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreatePlayableHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected
 // Il2CppName: CreateScriptOutputInternal_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreateScriptOutputInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injected
 // Il2CppName: GetRootPlayableInternal_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, int, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected
 // Il2CppName: ConnectInternal_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&, int, UnityEngine::Playables::PlayableHandle&, int)>(&UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "ConnectInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

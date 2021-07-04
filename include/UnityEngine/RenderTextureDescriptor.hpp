@@ -257,67 +257,172 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_width
 // Il2CppName: get_width
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_width)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_width
 // Il2CppName: set_width
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_width)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_height
 // Il2CppName: get_height
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_height)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_height
 // Il2CppName: set_height
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_height)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_msaaSamples
 // Il2CppName: get_msaaSamples
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_msaaSamples)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_msaaSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_msaaSamples
 // Il2CppName: set_msaaSamples
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_msaaSamples)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_msaaSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_volumeDepth
 // Il2CppName: get_volumeDepth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_volumeDepth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_volumeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_volumeDepth
 // Il2CppName: set_volumeDepth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_volumeDepth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_volumeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_mipCount
 // Il2CppName: set_mipCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_mipCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_mipCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_graphicsFormat
 // Il2CppName: get_graphicsFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_graphicsFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_graphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_graphicsFormat
 // Il2CppName: set_graphicsFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::Experimental::Rendering::GraphicsFormat)>(&UnityEngine::RenderTextureDescriptor::set_graphicsFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_graphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_colorFormat
 // Il2CppName: get_colorFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureFormat (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_colorFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_colorFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_colorFormat
 // Il2CppName: set_colorFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::RenderTextureFormat)>(&UnityEngine::RenderTextureDescriptor::set_colorFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_colorFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureFormat>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_sRGB
 // Il2CppName: get_sRGB
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_sRGB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_sRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_sRGB
 // Il2CppName: set_sRGB
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_sRGB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_sRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_depthBufferBits
 // Il2CppName: get_depthBufferBits
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTextureDescriptor::*)()>(&UnityEngine::RenderTextureDescriptor::get_depthBufferBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "get_depthBufferBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_depthBufferBits
 // Il2CppName: set_depthBufferBits
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(int)>(&UnityEngine::RenderTextureDescriptor::set_depthBufferBits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_depthBufferBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_dimension
 // Il2CppName: set_dimension
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::Rendering::TextureDimension)>(&UnityEngine::RenderTextureDescriptor::set_dimension)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::TextureDimension>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_shadowSamplingMode
 // Il2CppName: set_shadowSamplingMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::Rendering::ShadowSamplingMode)>(&UnityEngine::RenderTextureDescriptor::set_shadowSamplingMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_shadowSamplingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowSamplingMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_vrUsage
 // Il2CppName: set_vrUsage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::VRTextureUsage)>(&UnityEngine::RenderTextureDescriptor::set_vrUsage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_vrUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::VRTextureUsage>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_memoryless
 // Il2CppName: set_memoryless
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(UnityEngine::RenderTextureMemoryless)>(&UnityEngine::RenderTextureDescriptor::set_memoryless)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_memoryless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureMemoryless>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::RenderTextureDescriptor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -332,22 +437,57 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "Ren
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::SetOrClearRenderTextureCreationFlag
 // Il2CppName: SetOrClearRenderTextureCreationFlag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool, UnityEngine::RenderTextureCreationFlags)>(&UnityEngine::RenderTextureDescriptor::SetOrClearRenderTextureCreationFlag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "SetOrClearRenderTextureCreationFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureCreationFlags>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_useMipMap
 // Il2CppName: set_useMipMap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_useMipMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_useMipMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_autoGenerateMips
 // Il2CppName: set_autoGenerateMips
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_autoGenerateMips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_autoGenerateMips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_enableRandomWrite
 // Il2CppName: set_enableRandomWrite
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_enableRandomWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_enableRandomWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_createdFromScript
 // Il2CppName: set_createdFromScript
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_createdFromScript)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_createdFromScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::set_useDynamicScale
 // Il2CppName: set_useDynamicScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTextureDescriptor::*)(bool)>(&UnityEngine::RenderTextureDescriptor::set_useDynamicScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), "set_useDynamicScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::RenderTextureDescriptor::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTextureDescriptor), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -62,10 +62,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::GameplayModifi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::*)(GlobalNamespace::GameplayModifiers*, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::*)(System::IAsyncResult*)>(&GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

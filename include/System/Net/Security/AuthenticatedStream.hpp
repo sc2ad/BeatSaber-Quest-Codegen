@@ -62,10 +62,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_InnerStream
 // Il2CppName: get_InnerStream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::Security::AuthenticatedStream::*)()>(&System::Net::Security::AuthenticatedStream::get_InnerStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "get_InnerStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_IsAuthenticated
 // Il2CppName: get_IsAuthenticated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::AuthenticatedStream::*)()>(&System::Net::Security::AuthenticatedStream::get_IsAuthenticated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::AuthenticatedStream::*)(bool)>(&System::Net::Security::AuthenticatedStream::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

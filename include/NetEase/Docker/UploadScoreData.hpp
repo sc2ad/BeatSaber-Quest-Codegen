@@ -113,7 +113,17 @@ namespace NetEase::Docker {
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::UploadScoreData, "NetEase.Docker", "UploadScoreData");
 // Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Track
 // Il2CppName: set_Track
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(::Il2CppString*)>(&NetEase::Docker::UploadScoreData::set_Track)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Score
 // Il2CppName: set_Score
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(int)>(&NetEase::Docker::UploadScoreData::set_Score)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

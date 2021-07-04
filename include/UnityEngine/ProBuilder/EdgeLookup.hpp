@@ -129,16 +129,36 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::get_local
 // Il2CppName: get_local
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::EdgeLookup::*)()>(&UnityEngine::ProBuilder::EdgeLookup::get_local)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "get_local", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::set_local
 // Il2CppName: set_local
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::EdgeLookup::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeLookup::set_local)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "set_local", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::get_common
 // Il2CppName: get_common
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::EdgeLookup::*)()>(&UnityEngine::ProBuilder::EdgeLookup::get_common)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "get_common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::set_common
 // Il2CppName: set_common
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::EdgeLookup::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeLookup::set_common)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "set_common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::EdgeLookup
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -149,22 +169,52 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuil
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::EdgeLookup::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::EdgeLookup::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookup
 // Il2CppName: GetEdgeLookup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::EdgeLookup>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "GetEdgeLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookupHashSet
 // Il2CppName: GetEdgeLookupHashSet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::EdgeLookup>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::EdgeLookup::GetEdgeLookupHashSet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "GetEdgeLookupHashSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::EdgeLookup::*)(::Il2CppObject*)>(&UnityEngine::ProBuilder::EdgeLookup::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::EdgeLookup::*)()>(&UnityEngine::ProBuilder::EdgeLookup::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::EdgeLookup::*)()>(&UnityEngine::ProBuilder::EdgeLookup::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeLookup), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::operator ==
 // Il2CppName: op_Equality
 // Cannot perform method pointer template specialization from operators!

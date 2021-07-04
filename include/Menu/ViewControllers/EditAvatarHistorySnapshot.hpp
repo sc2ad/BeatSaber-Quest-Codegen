@@ -64,10 +64,20 @@ namespace Menu::ViewControllers {
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart
 // Il2CppName: get_avatarEditPart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EditAvatarViewController::AvatarEditPart (Menu::ViewControllers::EditAvatarHistorySnapshot::*)()>(&Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Menu::ViewControllers::EditAvatarHistorySnapshot*), "get_avatarEditPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarData
 // Il2CppName: get_avatarData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (Menu::ViewControllers::EditAvatarHistorySnapshot::*)()>(&Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Menu::ViewControllers::EditAvatarHistorySnapshot*), "get_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

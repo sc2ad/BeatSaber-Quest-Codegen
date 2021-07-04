@@ -62,7 +62,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder*, "System", "LocalDataStoreH
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::LocalDataStoreHolder::get_Store
 // Il2CppName: get_Store
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::get_Store)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreHolder*), "get_Store", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreHolder::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreHolder*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

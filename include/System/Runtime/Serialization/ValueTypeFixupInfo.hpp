@@ -71,10 +71,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "Sys
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID
 // Il2CppName: get_ContainerID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ContainerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField
 // Il2CppName: get_ParentField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ParentField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentIndex
 // Il2CppName: get_ParentIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ParentIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

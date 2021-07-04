@@ -126,34 +126,84 @@ namespace System::Security::Util {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream*, "System.Security.Util", "TokenizerStream");
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::AddToken
 // Il2CppName: AddToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int16_t)>(&System::Security::Util::TokenizerStream::AddToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "AddToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::AddString
 // Il2CppName: AddString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(::Il2CppString*)>(&System::Security::Util::TokenizerStream::AddString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "AddString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::GetNextFullToken
 // Il2CppName: GetNextFullToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextFullToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextFullToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::GetNextToken
 // Il2CppName: GetNextToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::GetNextString
 // Il2CppName: GetNextString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::ThrowAwayNextString
 // Il2CppName: ThrowAwayNextString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::ThrowAwayNextString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "ThrowAwayNextString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::TagLastToken
 // Il2CppName: TagLastToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int16_t)>(&System::Security::Util::TokenizerStream::TagLastToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "TagLastToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::GetTokenCount
 // Il2CppName: GetTokenCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetTokenCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetTokenCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::GoToPosition
 // Il2CppName: GoToPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int)>(&System::Security::Util::TokenizerStream::GoToPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GoToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

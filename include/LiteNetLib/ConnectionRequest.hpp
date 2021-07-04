@@ -152,50 +152,125 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::get_Result
 // Il2CppName: get_Result
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectionRequestResult (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::get_Result)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::set_Result
 // Il2CppName: set_Result
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::ConnectionRequestResult)>(&LiteNetLib::ConnectionRequest::set_Result)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequestResult>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::TryActivate
 // Il2CppName: TryActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::TryActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "TryActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::UpdateRequest
 // Il2CppName: UpdateRequest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::NetConnectRequestPacket*)>(&LiteNetLib::ConnectionRequest::UpdateRequest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "UpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetConnectRequestPacket*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::AcceptIfKey
 // Il2CppName: AcceptIfKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)(::Il2CppString*)>(&LiteNetLib::ConnectionRequest::AcceptIfKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "AcceptIfKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Accept
 // Il2CppName: Accept
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::Accept)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::Array<uint8_t>*, int, int, bool)>(&LiteNetLib::ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::Array<uint8_t>*)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::Array<uint8_t>*)>(&LiteNetLib::ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::Reject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};

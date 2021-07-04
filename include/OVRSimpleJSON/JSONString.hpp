@@ -103,25 +103,65 @@ DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::get_Tag
 // Il2CppName: get_Tag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (OVRSimpleJSON::JSONString::*)()>(&OVRSimpleJSON::JSONString::get_Tag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::get_IsString
 // Il2CppName: get_IsString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONString::*)()>(&OVRSimpleJSON::JSONString::get_IsString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "get_IsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (OVRSimpleJSON::JSONString::*)()>(&OVRSimpleJSON::JSONString::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRSimpleJSON::JSONString::*)()>(&OVRSimpleJSON::JSONString::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::set_Value
 // Il2CppName: set_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONString::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONString::set_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::WriteToStringBuilder
 // Il2CppName: WriteToStringBuilder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONString::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&OVRSimpleJSON::JSONString::WriteToStringBuilder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "WriteToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONTextMode>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONString::*)(::Il2CppObject*)>(&OVRSimpleJSON::JSONString::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONString::*)()>(&OVRSimpleJSON::JSONString::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONString*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

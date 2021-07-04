@@ -66,10 +66,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer
 // Il2CppName: get_renderer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs
 // Il2CppName: get_materialPairs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_materialPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

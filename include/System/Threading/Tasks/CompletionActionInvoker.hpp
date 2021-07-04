@@ -75,7 +75,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CompletionActionInvoker*, "Syst
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::Tasks::CompletionActionInvoker::ExecuteWorkItem
 // Il2CppName: ExecuteWorkItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)()>(&System::Threading::Tasks::CompletionActionInvoker::ExecuteWorkItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::Tasks::CompletionActionInvoker::MarkAborted
 // Il2CppName: MarkAborted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)(System::Threading::ThreadAbortException*)>(&System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+  }
+};

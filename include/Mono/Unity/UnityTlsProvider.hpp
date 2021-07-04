@@ -126,34 +126,84 @@ namespace Mono::Unity {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsProvider*, "Mono.Unity", "UnityTlsProvider");
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_ID
 // Il2CppName: get_ID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_ID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_SupportsSslStream
 // Il2CppName: get_SupportsSslStream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_SupportsSslStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_SupportsSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_SupportsMonoExtensions
 // Il2CppName: get_SupportsMonoExtensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_SupportsMonoExtensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_SupportsMonoExtensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_SupportsConnectionInfo
 // Il2CppName: get_SupportsConnectionInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_SupportsConnectionInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_SupportsConnectionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_SupportsCleanShutdown
 // Il2CppName: get_SupportsCleanShutdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_SupportsCleanShutdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_SupportsCleanShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_SupportedProtocols
 // Il2CppName: get_SupportedProtocols
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Authentication::SslProtocols (Mono::Unity::UnityTlsProvider::*)()>(&Mono::Unity::UnityTlsProvider::get_SupportedProtocols)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "get_SupportedProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::CreateSslStream
 // Il2CppName: CreateSslStream
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (Mono::Unity::UnityTlsProvider::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Unity::UnityTlsProvider::CreateSslStream)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "CreateSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::CreateSslStreamInternal
 // Il2CppName: CreateSslStreamInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (Mono::Unity::UnityTlsProvider::*)(System::Net::Security::SslStream*, System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Unity::UnityTlsProvider::CreateSslStreamInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "CreateSslStreamInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::ValidateCertificate
 // Il2CppName: ValidateCertificate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsProvider::*)(Mono::Security::Interface::ICertificateValidator2*, ::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool, System::Security::Cryptography::X509Certificates::X509Chain*&, Mono::Security::Interface::MonoSslPolicyErrors&, int&)>(&Mono::Unity::UnityTlsProvider::ValidateCertificate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsProvider*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::ICertificateValidator2*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

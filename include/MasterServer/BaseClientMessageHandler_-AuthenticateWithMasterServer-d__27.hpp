@@ -73,7 +73,17 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServer>d__27");
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::*)()>(&MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServer$d__27), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

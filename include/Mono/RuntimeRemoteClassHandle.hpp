@@ -52,4 +52,9 @@ namespace Mono {
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
 // Writing MetadataGetter for method: Mono::RuntimeRemoteClassHandle::get_ProxyClass
 // Il2CppName: get_ProxyClass
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::RuntimeClassHandle (Mono::RuntimeRemoteClassHandle::*)()>(&Mono::RuntimeRemoteClassHandle::get_ProxyClass)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeRemoteClassHandle), "get_ProxyClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

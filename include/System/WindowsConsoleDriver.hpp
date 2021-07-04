@@ -89,19 +89,44 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadKey
 // Il2CppName: ReadKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::WindowsConsoleDriver::*)(bool)>(&System::WindowsConsoleDriver::ReadKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::IsModifierKey
 // Il2CppName: IsModifierKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&System::WindowsConsoleDriver::IsModifierKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "IsModifierKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::GetStdHandle
 // Il2CppName: GetStdHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Handles)>(&System::WindowsConsoleDriver::GetStdHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "GetStdHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Handles>()});
+  }
+};
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::GetConsoleScreenBufferInfo
 // Il2CppName: GetConsoleScreenBufferInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::ConsoleScreenBufferInfo&)>(&System::WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "GetConsoleScreenBufferInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleScreenBufferInfo&>()});
+  }
+};
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadConsoleInput
 // Il2CppName: ReadConsoleInput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::InputRecord&, int, int&)>(&System::WindowsConsoleDriver::ReadConsoleInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "ReadConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::InputRecord&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

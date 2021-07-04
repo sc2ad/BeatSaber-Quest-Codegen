@@ -54,13 +54,28 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPoint*, "System.Net", "EndPoint");
 // Writing MetadataGetter for method: System::Net::EndPoint::get_AddressFamily
 // Il2CppName: get_AddressFamily
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (System::Net::EndPoint::*)()>(&System::Net::EndPoint::get_AddressFamily)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPoint::Serialize
 // Il2CppName: Serialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (System::Net::EndPoint::*)()>(&System::Net::EndPoint::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPoint::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::EndPoint::*)(System::Net::SocketAddress*)>(&System::Net::EndPoint::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::EndPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

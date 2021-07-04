@@ -58,13 +58,28 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");
 // Writing MetadataGetter for method: Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached
 // Il2CppName: AsCached
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle
 // Il2CppName: AsSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient
 // Il2CppName: AsTransient
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsTransient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

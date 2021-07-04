@@ -42,10 +42,25 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle*, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::CachedAssetBundle, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CachedAssetBundle>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

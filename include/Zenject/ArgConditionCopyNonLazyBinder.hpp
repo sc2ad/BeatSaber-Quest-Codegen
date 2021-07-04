@@ -133,10 +133,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgC
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(::Array<::Il2CppObject*>*)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit
 // Il2CppName: WithArgumentsExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArgumentsExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

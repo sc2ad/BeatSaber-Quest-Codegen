@@ -29,4 +29,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IHealthCheckService*, "", "IHealthCheckService");
 // Writing MetadataGetter for method: GlobalNamespace::IHealthCheckService::PollUpdate
 // Il2CppName: PollUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IHealthCheckService::*)()>(&GlobalNamespace::IHealthCheckService::PollUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IHealthCheckService*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

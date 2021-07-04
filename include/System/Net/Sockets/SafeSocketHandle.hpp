@@ -108,17 +108,37 @@ namespace System::Net::Sockets {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall
 // Il2CppName: RegisterForBlockingSyscall
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SafeSocketHandle::*)()>(&System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SafeSocketHandle*), "RegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall
 // Il2CppName: UnRegisterForBlockingSyscall
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SafeSocketHandle::*)()>(&System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SafeSocketHandle*), "UnRegisterForBlockingSyscall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Sockets::SafeSocketHandle::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SafeSocketHandle*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::SafeSocketHandle::*)()>(&System::Net::Sockets::SafeSocketHandle::ReleaseHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SafeSocketHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

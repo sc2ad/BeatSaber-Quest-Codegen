@@ -52,10 +52,20 @@ namespace BeatSaberAPI::DataTransferObjects {
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof
 // Il2CppName: get_proof
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatSaberAPI::DataTransferObjects::ResultProof::*)()>(&BeatSaberAPI::DataTransferObjects::ResultProof::get_proof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "get_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::set_proof
 // Il2CppName: set_proof
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatSaberAPI::DataTransferObjects::ResultProof::*)(::Il2CppString*)>(&BeatSaberAPI::DataTransferObjects::ResultProof::set_proof)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

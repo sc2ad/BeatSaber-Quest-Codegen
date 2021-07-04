@@ -115,10 +115,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnviro
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)()>(&GlobalNamespace::MenuEnvironmentManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType
 // Il2CppName: ShowEnvironmentType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)>(&GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "ShowEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

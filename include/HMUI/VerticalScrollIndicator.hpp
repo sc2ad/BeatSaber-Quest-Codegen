@@ -109,25 +109,60 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator*, "HMUI", "VerticalScrollIndicator");
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::set_progress
 // Il2CppName: set_progress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::VerticalScrollIndicator::*)(float)>(&HMUI::VerticalScrollIndicator::set_progress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "set_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::get_progress
 // Il2CppName: get_progress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::VerticalScrollIndicator::*)()>(&HMUI::VerticalScrollIndicator::get_progress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "get_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::set_normalizedPageHeight
 // Il2CppName: set_normalizedPageHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::VerticalScrollIndicator::*)(float)>(&HMUI::VerticalScrollIndicator::set_normalizedPageHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "set_normalizedPageHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::get_normalizedPageHeight
 // Il2CppName: get_normalizedPageHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::VerticalScrollIndicator::*)()>(&HMUI::VerticalScrollIndicator::get_normalizedPageHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "get_normalizedPageHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::set_disabled
 // Il2CppName: set_disabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::VerticalScrollIndicator::*)(bool)>(&HMUI::VerticalScrollIndicator::set_disabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "set_disabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::VerticalScrollIndicator::*)()>(&HMUI::VerticalScrollIndicator::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::RefreshHandle
 // Il2CppName: RefreshHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::VerticalScrollIndicator::*)()>(&HMUI::VerticalScrollIndicator::RefreshHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::VerticalScrollIndicator*), "RefreshHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

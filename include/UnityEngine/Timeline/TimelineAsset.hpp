@@ -391,100 +391,260 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timel
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UpgradeToLatestVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_editorSettings
 // Il2CppName: get_editorSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::EditorSettings* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_editorSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_editorSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_fixedDuration
 // Il2CppName: get_fixedDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_fixedDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::set_fixedDuration
 // Il2CppName: set_fixedDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(double)>(&UnityEngine::Timeline::TimelineAsset::set_fixedDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "set_fixedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_durationMode
 // Il2CppName: get_durationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset::DurationMode (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_durationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::set_durationMode
 // Il2CppName: set_durationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TimelineAsset::DurationMode)>(&UnityEngine::Timeline::TimelineAsset::set_durationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "set_durationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset::DurationMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_clipCaps
 // Il2CppName: get_clipCaps
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_clipCaps)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_outputTrackCount
 // Il2CppName: get_outputTrackCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_outputTrackCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_outputTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_rootTrackCount
 // Il2CppName: get_rootTrackCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_rootTrackCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_rootTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::OnValidate
 // Il2CppName: OnValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GetValidFramerate
 // Il2CppName: GetValidFramerate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&UnityEngine::Timeline::TimelineAsset::GetValidFramerate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GetValidFramerate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GetRootTrack
 // Il2CppName: GetRootTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(int)>(&UnityEngine::Timeline::TimelineAsset::GetRootTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GetRootTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GetRootTracks
 // Il2CppName: GetRootTracks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::GetRootTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GetRootTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GetOutputTrack
 // Il2CppName: GetOutputTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(int)>(&UnityEngine::Timeline::TimelineAsset::GetOutputTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GetOutputTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GetOutputTracks
 // Il2CppName: GetOutputTracks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::GetOutputTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GetOutputTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpdateRootTrackCache
 // Il2CppName: UpdateRootTrackCache
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UpdateRootTrackCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UpdateRootTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpdateOutputTrackCache
 // Il2CppName: UpdateOutputTrackCache
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UpdateOutputTrackCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UpdateOutputTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_flattenedTracks
 // Il2CppName: get_flattenedTracks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_flattenedTracks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_flattenedTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_markerTrack
 // Il2CppName: get_markerTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MarkerTrack* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_markerTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_markerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_trackObjects
 // Il2CppName: get_trackObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_trackObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_trackObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::AddTrackInternal
 // Il2CppName: AddTrackInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineAsset::AddTrackInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "AddTrackInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::RemoveTrack
 // Il2CppName: RemoveTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineAsset::RemoveTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "RemoveTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::__internalAwake
 // Il2CppName: __internalAwake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::__internalAwake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "__internalAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::GatherProperties
 // Il2CppName: GatherProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::TimelineAsset::GatherProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CreateMarkerTrack
 // Il2CppName: CreateMarkerTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::CreateMarkerTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "CreateMarkerTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::Invalidate
 // Il2CppName: Invalidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::Invalidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpdateFixedDurationWithItemsDuration
 // Il2CppName: UpdateFixedDurationWithItemsDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::UpdateFixedDurationWithItemsDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "UpdateFixedDurationWithItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CalculateItemsDuration
 // Il2CppName: CalculateItemsDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::CalculateItemsDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "CalculateItemsDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::AddSubTracksRecursive
 // Il2CppName: AddSubTracksRecursive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&)>(&UnityEngine::Timeline::TimelineAsset::AddSubTracksRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "AddSubTracksRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CreateTrack
 // Il2CppName: CreateTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(System::Type*, UnityEngine::Timeline::TrackAsset*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineAsset::CreateTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "CreateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CreateTrack
 // Il2CppName: CreateTrack
 // Cannot write MetadataGetter for generic methods!
@@ -496,31 +656,76 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "Unit
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::DeleteClip
 // Il2CppName: DeleteClip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineAsset::DeleteClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "DeleteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::DeleteTrack
 // Il2CppName: DeleteTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineAsset::DeleteTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "DeleteTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::MoveLastTrackBefore
 // Il2CppName: MoveLastTrackBefore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineAsset::MoveLastTrackBefore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "MoveLastTrackBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::AllocateTrack
 // Il2CppName: AllocateTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*, ::Il2CppString*, System::Type*)>(&UnityEngine::Timeline::TimelineAsset::AllocateTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "AllocateTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::DeleteRecordedAnimation
 // Il2CppName: DeleteRecordedAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineAsset::DeleteRecordedAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::DeleteRecordedAnimation
 // Il2CppName: DeleteRecordedAnimation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineAsset::DeleteRecordedAnimation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "DeleteRecordedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_duration
 // Il2CppName: get_duration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::get_outputs
 // Il2CppName: get_outputs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::TimelineAsset::*)()>(&UnityEngine::Timeline::TimelineAsset::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CreatePlayable
 // Il2CppName: CreatePlayable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Timeline::TimelineAsset::CreatePlayable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

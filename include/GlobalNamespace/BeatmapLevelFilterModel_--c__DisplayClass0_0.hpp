@@ -78,7 +78,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*, "", "BeatmapLevelFilterModel/<>c__DisplayClass0_0");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0
 // Il2CppName: <FilerBeatmapLevelPackCollectionAsync>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*), "<FilerBeatmapLevelPackCollectionAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

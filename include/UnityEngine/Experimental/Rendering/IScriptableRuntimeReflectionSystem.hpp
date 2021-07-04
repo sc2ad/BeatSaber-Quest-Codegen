@@ -29,4 +29,9 @@ namespace UnityEngine::Experimental::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem");
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::TickRealtimeProbes
 // Il2CppName: TickRealtimeProbes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::*)()>(&UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::TickRealtimeProbes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*), "TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

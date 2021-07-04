@@ -110,4 +110,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, ""
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition
 // Il2CppName: GetCurrentPathPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*), "GetCurrentPathPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

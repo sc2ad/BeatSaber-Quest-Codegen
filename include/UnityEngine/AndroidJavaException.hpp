@@ -54,4 +54,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "Andro
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaException::get_StackTrace
 // Il2CppName: get_StackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AndroidJavaException::*)()>(&UnityEngine::AndroidJavaException::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -156,43 +156,108 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator*, "", "MultiplayerCenterTextAnimator");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&GlobalNamespace::MultiplayerCenterTextAnimator::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&GlobalNamespace::MultiplayerCenterTextAnimator::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor
 // Il2CppName: AnimateTextColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(UnityEngine::Color, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateTextColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize
 // Il2CppName: AnimateFontSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateFontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize
 // Il2CppName: AnimatePositionOffsetSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(UnityEngine::Vector3, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimatePositionOffsetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled
 // Il2CppName: AnimateEnabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::SetText
 // Il2CppName: SetText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerCenterTextAnimator::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_0
 // Il2CppName: <Awake>b__8_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float)>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_1
 // Il2CppName: <Awake>b__8_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float)>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_5
 // Il2CppName: <Awake>b__8_5
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_5)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_2
 // Il2CppName: <Awake>b__8_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float)>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_3
 // Il2CppName: <Awake>b__8_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(UnityEngine::Color)>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_4
 // Il2CppName: <Awake>b__8_4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerCenterTextAnimator::$Awake$b__8_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "<Awake>b__8_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

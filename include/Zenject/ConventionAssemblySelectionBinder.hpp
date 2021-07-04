@@ -133,34 +133,84 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::get_BindInfo
 // Il2CppName: get_BindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionBindInfo* (Zenject::ConventionAssemblySelectionBinder::*)()>(&Zenject::ConventionAssemblySelectionBinder::get_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::set_BindInfo
 // Il2CppName: set_BindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(Zenject::ConventionBindInfo*)>(&Zenject::ConventionAssemblySelectionBinder::set_BindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ConventionBindInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAllAssemblies
 // Il2CppName: FromAllAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)()>(&Zenject::ConventionAssemblySelectionBinder::FromAllAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAllAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssemblyContaining
 // Il2CppName: FromAssemblyContaining
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining
 // Il2CppName: FromAssembliesContaining
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::Array<System::Type*>*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining
 // Il2CppName: FromAssembliesContaining
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromThisAssembly
 // Il2CppName: FromThisAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)()>(&Zenject::ConventionAssemblySelectionBinder::FromThisAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromThisAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssembly
 // Il2CppName: FromAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(System::Reflection::Assembly*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssemblies
 // Il2CppName: FromAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::Array<System::Reflection::Assembly*>*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssemblies
 // Il2CppName: FromAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssembliesWhere
 // Il2CppName: FromAssembliesWhere
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(System::Func_2<System::Reflection::Assembly*, bool>*)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembliesWhere)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssembliesWhere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::Assembly*, bool>*>()});
+  }
+};

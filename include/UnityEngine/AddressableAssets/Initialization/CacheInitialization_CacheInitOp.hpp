@@ -79,16 +79,36 @@ namespace UnityEngine::AddressableAssets::Initialization {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/CacheInitOp");
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::*)(System::Func_1<bool>*)>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::*)(float)>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::InvokeWaitForCompletion
 // Il2CppName: InvokeWaitForCompletion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::InvokeWaitForCompletion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Execute
 // Il2CppName: Execute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

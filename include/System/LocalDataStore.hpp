@@ -75,16 +75,41 @@ DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStore*, "System", "LocalDataStore");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::LocalDataStore::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStore::*)()>(&System::LocalDataStore::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStore*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStore::GetData
 // Il2CppName: GetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::LocalDataStore::*)(System::LocalDataStoreSlot*)>(&System::LocalDataStore::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStore*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>()});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStore::SetData
 // Il2CppName: SetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStore::*)(System::LocalDataStoreSlot*, ::Il2CppObject*)>(&System::LocalDataStore::SetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStore*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStore::FreeData
 // Il2CppName: FreeData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStore::*)(int, int64_t)>(&System::LocalDataStore::FreeData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStore*), "FreeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStore::PopulateElement
 // Il2CppName: PopulateElement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreElement* (System::LocalDataStore::*)(System::LocalDataStoreSlot*)>(&System::LocalDataStore::PopulateElement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStore*), "PopulateElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>()});
+  }
+};

@@ -60,7 +60,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "PlaymodeWorkItemFactory");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*, NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

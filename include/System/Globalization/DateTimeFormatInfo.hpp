@@ -900,287 +900,752 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InitPreferExistingTokens
 // Il2CppName: InitPreferExistingTokens
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Globalization::DateTimeFormatInfo::InitPreferExistingTokens)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InitPreferExistingTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_CultureName
 // Il2CppName: get_CultureName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_CultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_Culture
 // Il2CppName: get_Culture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_Culture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_Culture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_LanguageName
 // Il2CppName: get_LanguageName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LanguageName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedDayOfWeekNames
 // Il2CppName: internalGetAbbreviatedDayOfWeekNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedDayOfWeekNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetAbbreviatedDayOfWeekNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetDayOfWeekNames
 // Il2CppName: internalGetDayOfWeekNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetDayOfWeekNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetDayOfWeekNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedMonthNames
 // Il2CppName: internalGetAbbreviatedMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetAbbreviatedMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetMonthNames
 // Il2CppName: internalGetMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InitializeOverridableProperties
 // Il2CppName: InitializeOverridableProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Globalization::CultureData*, int)>(&System::Globalization::DateTimeFormatInfo::InitializeOverridableProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InitializeOverridableProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::OnDeserialized
 // Il2CppName: OnDeserialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::DateTimeFormatInfo::OnDeserialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::OnSerializing
 // Il2CppName: OnSerializing
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::DateTimeFormatInfo::OnSerializing)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_InvariantInfo
 // Il2CppName: get_InvariantInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::get_InvariantInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_InvariantInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_CurrentInfo
 // Il2CppName: get_CurrentInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::get_CurrentInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CurrentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetInstance
 // Il2CppName: GetInstance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)(System::IFormatProvider*)>(&System::Globalization::DateTimeFormatInfo::GetInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetFormat
 // Il2CppName: GetFormat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::DateTimeFormatInfo::*)(System::Type*)>(&System::Globalization::DateTimeFormatInfo::GetFormat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AMDesignator
 // Il2CppName: get_AMDesignator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AMDesignator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AMDesignator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_Calendar
 // Il2CppName: get_Calendar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::Calendar* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_Calendar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_Calendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_Calendar
 // Il2CppName: set_Calendar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Globalization::Calendar*)>(&System::Globalization::DateTimeFormatInfo::set_Calendar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_Calendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::Calendar*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_OptionalCalendars
 // Il2CppName: get_OptionalCalendars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_OptionalCalendars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_OptionalCalendars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_EraNames
 // Il2CppName: get_EraNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_EraNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_EraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetEraName
 // Il2CppName: GetEraName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetEraName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetEraName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AbbreviatedEraNames
 // Il2CppName: get_AbbreviatedEraNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedEraNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetAbbreviatedEraName
 // Il2CppName: GetAbbreviatedEraName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedEraName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedEraName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AbbreviatedEnglishEraNames
 // Il2CppName: get_AbbreviatedEnglishEraNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedEnglishEraNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedEnglishEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_DateSeparator
 // Il2CppName: get_DateSeparator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DateSeparator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DateSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_FullDateTimePattern
 // Il2CppName: get_FullDateTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullDateTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_LongDatePattern
 // Il2CppName: get_LongDatePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LongDatePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LongDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_LongDatePattern
 // Il2CppName: set_LongDatePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_LongDatePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_LongDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_LongTimePattern
 // Il2CppName: get_LongTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LongTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_LongTimePattern
 // Il2CppName: set_LongTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_LongTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_LongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_MonthDayPattern
 // Il2CppName: get_MonthDayPattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthDayPattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthDayPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_PMDesignator
 // Il2CppName: get_PMDesignator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_PMDesignator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_PMDesignator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_RFC1123Pattern
 // Il2CppName: get_RFC1123Pattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_RFC1123Pattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_RFC1123Pattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_ShortDatePattern
 // Il2CppName: get_ShortDatePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_ShortDatePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_ShortDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_ShortDatePattern
 // Il2CppName: set_ShortDatePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_ShortDatePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_ShortDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_ShortTimePattern
 // Il2CppName: get_ShortTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_ShortTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_ShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_ShortTimePattern
 // Il2CppName: set_ShortTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_ShortTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_ShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_SortableDateTimePattern
 // Il2CppName: get_SortableDateTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_SortableDateTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_SortableDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_GeneralShortTimePattern
 // Il2CppName: get_GeneralShortTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_GeneralShortTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_GeneralShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_GeneralLongTimePattern
 // Il2CppName: get_GeneralLongTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_GeneralLongTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_GeneralLongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_DateTimeOffsetPattern
 // Il2CppName: get_DateTimeOffsetPattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DateTimeOffsetPattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DateTimeOffsetPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_TimeSeparator
 // Il2CppName: get_TimeSeparator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_TimeSeparator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_TimeSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UniversalSortableDateTimePattern
 // Il2CppName: get_UniversalSortableDateTimePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UniversalSortableDateTimePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UniversalSortableDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_YearMonthPattern
 // Il2CppName: get_YearMonthPattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_YearMonthPattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_YearMonthPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::set_YearMonthPattern
 // Il2CppName: set_YearMonthPattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_YearMonthPattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_YearMonthPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AbbreviatedDayNames
 // Il2CppName: get_AbbreviatedDayNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedDayNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_DayNames
 // Il2CppName: get_DayNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DayNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AbbreviatedMonthNames
 // Il2CppName: get_AbbreviatedMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_MonthNames
 // Il2CppName: get_MonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_HasSpacesInMonthNames
 // Il2CppName: get_HasSpacesInMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasSpacesInMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasSpacesInMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_HasSpacesInDayNames
 // Il2CppName: get_HasSpacesInDayNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasSpacesInDayNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasSpacesInDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetMonthName
 // Il2CppName: internalGetMonthName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int, System::Globalization::MonthNameStyles, bool)>(&System::Globalization::DateTimeFormatInfo::internalGetMonthName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetMonthName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::MonthNameStyles>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetGenitiveMonthNames
 // Il2CppName: internalGetGenitiveMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)(bool)>(&System::Globalization::DateTimeFormatInfo::internalGetGenitiveMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetGenitiveMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::internalGetLeapYearMonthNames
 // Il2CppName: internalGetLeapYearMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetLeapYearMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetLeapYearMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetAbbreviatedDayName
 // Il2CppName: GetAbbreviatedDayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(System::DayOfWeek)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedDayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedDayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetCombinedPatterns
 // Il2CppName: GetCombinedPatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetCombinedPatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetCombinedPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetAllDateTimePatterns
 // Il2CppName: GetAllDateTimePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)(::Il2CppChar)>(&System::Globalization::DateTimeFormatInfo::GetAllDateTimePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAllDateTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetDayName
 // Il2CppName: GetDayName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(System::DayOfWeek)>(&System::Globalization::DateTimeFormatInfo::GetDayName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetDayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DayOfWeek>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetAbbreviatedMonthName
 // Il2CppName: GetAbbreviatedMonthName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedMonthName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedMonthName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetMonthName
 // Il2CppName: GetMonthName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetMonthName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetMonthName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetMergedPatterns
 // Il2CppName: GetMergedPatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetMergedPatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetMergedPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AllYearMonthPatterns
 // Il2CppName: get_AllYearMonthPatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllYearMonthPatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllYearMonthPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AllShortDatePatterns
 // Il2CppName: get_AllShortDatePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllShortDatePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllShortDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AllShortTimePatterns
 // Il2CppName: get_AllShortTimePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllShortTimePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllShortTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AllLongDatePatterns
 // Il2CppName: get_AllLongDatePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllLongDatePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllLongDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_AllLongTimePatterns
 // Il2CppName: get_AllLongTimePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllLongTimePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllLongTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UnclonedYearMonthPatterns
 // Il2CppName: get_UnclonedYearMonthPatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedYearMonthPatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedYearMonthPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UnclonedShortDatePatterns
 // Il2CppName: get_UnclonedShortDatePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedShortDatePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedShortDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UnclonedLongDatePatterns
 // Il2CppName: get_UnclonedLongDatePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedLongDatePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedLongDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UnclonedShortTimePatterns
 // Il2CppName: get_UnclonedShortTimePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedShortTimePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedShortTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_UnclonedLongTimePatterns
 // Il2CppName: get_UnclonedLongTimePatterns
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedLongTimePatterns)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedLongTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_IsReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_MonthGenitiveNames
 // Il2CppName: get_MonthGenitiveNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthGenitiveNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthGenitiveNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_FullTimeSpanPositivePattern
 // Il2CppName: get_FullTimeSpanPositivePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullTimeSpanPositivePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullTimeSpanPositivePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_FullTimeSpanNegativePattern
 // Il2CppName: get_FullTimeSpanNegativePattern
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullTimeSpanNegativePattern)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullTimeSpanNegativePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_CompareInfo
 // Il2CppName: get_CompareInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_CompareInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::ValidateStyles
 // Il2CppName: ValidateStyles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::DateTimeStyles, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::ValidateStyles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "ValidateStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeStyles>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_FormatFlags
 // Il2CppName: get_FormatFlags
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatFlags (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FormatFlags)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FormatFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_HasForceTwoDigitYears
 // Il2CppName: get_HasForceTwoDigitYears
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasForceTwoDigitYears)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasForceTwoDigitYears", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_HasYearMonthAdjustment
 // Il2CppName: get_HasYearMonthAdjustment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasYearMonthAdjustment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasYearMonthAdjustment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::YearMonthAdjustment
 // Il2CppName: YearMonthAdjustment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)(int&, int&, bool)>(&System::Globalization::DateTimeFormatInfo::YearMonthAdjustment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "YearMonthAdjustment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetJapaneseCalendarDTFI
 // Il2CppName: GetJapaneseCalendarDTFI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::GetJapaneseCalendarDTFI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetJapaneseCalendarDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::GetTaiwanCalendarDTFI
 // Il2CppName: GetTaiwanCalendarDTFI
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::GetTaiwanCalendarDTFI)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetTaiwanCalendarDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::ClearTokenHashTable
 // Il2CppName: ClearTokenHashTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::ClearTokenHashTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "ClearTokenHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::CreateTokenHashTable
 // Il2CppName: CreateTokenHashTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Globalization::TokenHashValue*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::CreateTokenHashTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "CreateTokenHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::AddMonthNames
 // Il2CppName: AddMonthNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::AddMonthNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "AddMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::TokenHashValue*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::TryParseHebrewNumber
 // Il2CppName: TryParseHebrewNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, bool&, int&)>(&System::Globalization::DateTimeFormatInfo::TryParseHebrewNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "TryParseHebrewNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::__DTString&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::IsHebrewChar
 // Il2CppName: IsHebrewChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::DateTimeFormatInfo::IsHebrewChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "IsHebrewChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::Tokenize
 // Il2CppName: Tokenize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)(System::TokenType, System::TokenType&, int&, System::__DTString&)>(&System::Globalization::DateTimeFormatInfo::Tokenize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "Tokenize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TokenType>(), ::il2cpp_utils::ExtractIndependentType<System::TokenType&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::__DTString&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InsertAtCurrentHashNode
 // Il2CppName: InsertAtCurrentHashNode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*, ::Il2CppChar, System::TokenType, int, int, int, int)>(&System::Globalization::DateTimeFormatInfo::InsertAtCurrentHashNode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InsertAtCurrentHashNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::TokenHashValue*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::TokenType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InsertHash
 // Il2CppName: InsertHash
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*, System::TokenType, int)>(&System::Globalization::DateTimeFormatInfo::InsertHash)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InsertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Globalization::TokenHashValue*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TokenType>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::DateTimeFormatInfo::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

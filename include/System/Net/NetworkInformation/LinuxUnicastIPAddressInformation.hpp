@@ -61,4 +61,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInf
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address
 // Il2CppName: get_Address
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)()>(&System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

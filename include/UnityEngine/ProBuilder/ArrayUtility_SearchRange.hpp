@@ -66,10 +66,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "Unit
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::Valid
 // Il2CppName: Valid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ArrayUtility::SearchRange::*)()>(&UnityEngine::ProBuilder::ArrayUtility::SearchRange::Valid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ArrayUtility::SearchRange), "Valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::Center
 // Il2CppName: Center
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::ArrayUtility::SearchRange::*)()>(&UnityEngine::ProBuilder::ArrayUtility::SearchRange::Center)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ArrayUtility::SearchRange), "Center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::ArrayUtility::SearchRange::*)()>(&UnityEngine::ProBuilder::ArrayUtility::SearchRange::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ArrayUtility::SearchRange), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

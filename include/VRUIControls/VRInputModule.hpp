@@ -243,68 +243,173 @@ namespace VRUIControls {
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::get_useMouseForPressInput
 // Il2CppName: get_useMouseForPressInput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::get_useMouseForPressInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "get_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::set_useMouseForPressInput
 // Il2CppName: set_useMouseForPressInput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(bool)>(&VRUIControls::VRInputModule::set_useMouseForPressInput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "set_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::add_onProcessMousePressEvent
 // Il2CppName: add_onProcessMousePressEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRUIControls::VRInputModule::add_onProcessMousePressEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "add_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::remove_onProcessMousePressEvent
 // Il2CppName: remove_onProcessMousePressEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRUIControls::VRInputModule::remove_onProcessMousePressEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "remove_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetPointerData
 // Il2CppName: GetPointerData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(int, UnityEngine::EventSystems::PointerEventData*&, bool)>(&VRUIControls::VRInputModule::GetPointerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetMousePointerEventData
 // Il2CppName: GetMousePointerEventData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseState* (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::GetMousePointerEventData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetLastPointerEventData
 // Il2CppName: GetLastPointerEventData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData* (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::GetLastPointerEventData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetLastPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ShouldStartDrag
 // Il2CppName: ShouldStartDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, bool)>(&VRUIControls::VRInputModule::ShouldStartDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ProcessMove
 // Il2CppName: ProcessMove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRInputModule::ProcessMove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ProcessDrag
 // Il2CppName: ProcessDrag
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRInputModule::ProcessDrag)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ClearSelection
 // Il2CppName: ClearSelection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::ClearSelection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::DeselectIfSelectionChanged
 // Il2CppName: DeselectIfSelectionChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::GameObject*, UnityEngine::EventSystems::BaseEventData*)>(&VRUIControls::VRInputModule::DeselectIfSelectionChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "DeselectIfSelectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::SendUpdateEventToSelectedObject
 // Il2CppName: SendUpdateEventToSelectedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::SendUpdateEventToSelectedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ProcessMousePress
 // Il2CppName: ProcessMousePress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(VRUIControls::MouseButtonEventData*)>(&VRUIControls::VRInputModule::ProcessMousePress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::RaycastComparer
 // Il2CppName: RaycastComparer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::EventSystems::RaycastResult, UnityEngine::EventSystems::RaycastResult)>(&VRUIControls::VRInputModule::RaycastComparer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "RaycastComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::IsPointerOverGameObject
 // Il2CppName: IsPointerOverGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::IsPointerOverGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::Process
 // Il2CppName: Process
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)()>(&VRUIControls::VRInputModule::Process)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::HandlePointerExitAndEnter
 // Il2CppName: HandlePointerExitAndEnter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::GameObject*)>(&VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRInputModule::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

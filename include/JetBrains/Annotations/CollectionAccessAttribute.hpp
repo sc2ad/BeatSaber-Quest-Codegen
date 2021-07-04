@@ -59,7 +59,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetB
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType
 // Il2CppName: get_CollectionAccessType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::CollectionAccessType (JetBrains::Annotations::CollectionAccessAttribute::*)()>(&JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "get_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType
 // Il2CppName: set_CollectionAccessType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
+  }
+};

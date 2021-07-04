@@ -171,64 +171,164 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
 // Writing MetadataGetter for method: Zenject::Context::get_Installers
 // Il2CppName: get_Installers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* (Zenject::Context::*)()>(&Zenject::Context::get_Installers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_Installers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::set_Installers
 // Il2CppName: set_Installers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::set_Installers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_Installers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::get_InstallerPrefabs
 // Il2CppName: get_InstallerPrefabs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* (Zenject::Context::*)()>(&Zenject::Context::get_InstallerPrefabs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_InstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::set_InstallerPrefabs
 // Il2CppName: set_InstallerPrefabs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::set_InstallerPrefabs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_InstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::get_ScriptableObjectInstallers
 // Il2CppName: get_ScriptableObjectInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* (Zenject::Context::*)()>(&Zenject::Context::get_ScriptableObjectInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_ScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::set_ScriptableObjectInstallers
 // Il2CppName: set_ScriptableObjectInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*)>(&Zenject::Context::set_ScriptableObjectInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_ScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::get_NormalInstallerTypes
 // Il2CppName: get_NormalInstallerTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::Context::*)()>(&Zenject::Context::get_NormalInstallerTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_NormalInstallerTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::set_NormalInstallerTypes
 // Il2CppName: set_NormalInstallerTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::Context::set_NormalInstallerTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallerTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::get_NormalInstallers
 // Il2CppName: get_NormalInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>* (Zenject::Context::*)()>(&Zenject::Context::get_NormalInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_NormalInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::set_NormalInstallers
 // Il2CppName: set_NormalInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>*)>(&Zenject::Context::set_NormalInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::get_Container
 // Il2CppName: get_Container
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::Context::*)()>(&Zenject::Context::get_Container)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (Zenject::Context::*)()>(&Zenject::Context::GetRootGameObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::AddNormalInstallerType
 // Il2CppName: AddNormalInstallerType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Type*)>(&Zenject::Context::AddNormalInstallerType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstallerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::AddNormalInstaller
 // Il2CppName: AddNormalInstaller
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(Zenject::InstallerBase*)>(&Zenject::Context::AddNormalInstaller)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InstallerBase*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::CheckInstallerPrefabTypes
 // Il2CppName: CheckInstallerPrefabTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<Zenject::MonoInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::CheckInstallerPrefabTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "CheckInstallerPrefabTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::InstallInstallers
 // Il2CppName: InstallInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)()>(&Zenject::Context::InstallInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::InstallInstallers
 // Il2CppName: InstallInstallers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<Zenject::InstallerBase*>*, System::Collections::Generic::List_1<System::Type*>*, System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::InstallInstallers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::InstallerBase*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::InstallSceneBindings
 // Il2CppName: InstallSceneBindings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Context::InstallSceneBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallSceneBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::InstallZenjectBinding
 // Il2CppName: InstallZenjectBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(Zenject::ZenjectBinding*)>(&Zenject::Context::InstallZenjectBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallZenjectBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectBinding*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::GetInjectableMonoBehaviours
 // Il2CppName: GetInjectableMonoBehaviours
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Context::GetInjectableMonoBehaviours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Context::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

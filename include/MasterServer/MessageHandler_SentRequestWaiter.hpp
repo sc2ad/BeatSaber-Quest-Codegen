@@ -83,16 +83,41 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::SentRequestWaiter*, "Master
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::SentRequestWaiter::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)(bool)>(&MasterServer::MessageHandler::SentRequestWaiter::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::SentRequestWaiter::Cancel
 // Il2CppName: Cancel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::SentRequestWaiter::get_task
 // Il2CppName: get_task
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::get_task)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::SentRequestWaiter::get_isWaiting
 // Il2CppName: get_isWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::get_isWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "get_isWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::MessageHandler::SentRequestWaiter::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

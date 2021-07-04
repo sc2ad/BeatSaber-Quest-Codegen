@@ -96,16 +96,41 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoro
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

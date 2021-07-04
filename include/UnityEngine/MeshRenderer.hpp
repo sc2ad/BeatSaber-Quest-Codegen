@@ -37,7 +37,17 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshRenderer*, "UnityEngine", "MeshRenderer");
 // Writing MetadataGetter for method: UnityEngine::MeshRenderer::DontStripMeshRenderer
 // Il2CppName: DontStripMeshRenderer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MeshRenderer::*)()>(&UnityEngine::MeshRenderer::DontStripMeshRenderer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshRenderer*), "DontStripMeshRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::MeshRenderer::get_additionalVertexStreams
 // Il2CppName: get_additionalVertexStreams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::MeshRenderer::*)()>(&UnityEngine::MeshRenderer::get_additionalVertexStreams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshRenderer*), "get_additionalVertexStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

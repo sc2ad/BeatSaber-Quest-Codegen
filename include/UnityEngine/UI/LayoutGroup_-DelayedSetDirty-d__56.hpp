@@ -88,16 +88,41 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "U
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::*)()>(&UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::*)()>(&UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::*)()>(&UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::*)()>(&UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::*)()>(&UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

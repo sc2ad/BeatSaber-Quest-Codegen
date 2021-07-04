@@ -372,149 +372,384 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_template
 // Il2CppName: get_template
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_template)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_template
 // Il2CppName: set_template
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::RectTransform*)>(&TMPro::TMP_Dropdown::set_template)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_captionText
 // Il2CppName: get_captionText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_captionText
 // Il2CppName: set_captionText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_captionText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_captionImage
 // Il2CppName: get_captionImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_captionImage
 // Il2CppName: set_captionImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_captionImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_itemText
 // Il2CppName: get_itemText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_itemText
 // Il2CppName: set_itemText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_itemText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_itemImage
 // Il2CppName: get_itemImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_itemImage
 // Il2CppName: set_itemImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_itemImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_options
 // Il2CppName: get_options
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_options)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_options
 // Il2CppName: set_options
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::set_options)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_onValueChanged
 // Il2CppName: get_onValueChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownEvent* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_onValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_onValueChanged
 // Il2CppName: set_onValueChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownEvent*)>(&TMPro::TMP_Dropdown::set_onValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Dropdown::DropdownEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_value
 // Il2CppName: get_value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_value
 // Il2CppName: set_value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int)>(&TMPro::TMP_Dropdown::set_value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::SetValueWithoutNotify
 // Il2CppName: SetValueWithoutNotify
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int)>(&TMPro::TMP_Dropdown::SetValueWithoutNotify)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetValueWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::SetValue
 // Il2CppName: SetValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int, bool)>(&TMPro::TMP_Dropdown::SetValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_IsExpanded
 // Il2CppName: get_IsExpanded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_IsExpanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_IsExpanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::RefreshShownValue
 // Il2CppName: RefreshShownValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::RefreshShownValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "RefreshShownValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::Sprite*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Sprite*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::ClearOptions
 // Il2CppName: ClearOptions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::ClearOptions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "ClearOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::SetupTemplate
 // Il2CppName: SetupTemplate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::SetupTemplate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetupTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::GetOrAddComponent
 // Il2CppName: GetOrAddComponent
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnPointerClick
 // Il2CppName: OnPointerClick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMPro::TMP_Dropdown::OnPointerClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnSubmit
 // Il2CppName: OnSubmit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnSubmit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnCancel
 // Il2CppName: OnCancel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnCancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::Show
 // Il2CppName: Show
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Show)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateBlocker
 // Il2CppName: CreateBlocker
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::Canvas*)>(&TMPro::TMP_Dropdown::CreateBlocker)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyBlocker
 // Il2CppName: DestroyBlocker
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyBlocker)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateDropdownList
 // Il2CppName: CreateDropdownList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::CreateDropdownList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyDropdownList
 // Il2CppName: DestroyDropdownList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyDropdownList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateItem
 // Il2CppName: CreateItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::CreateItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Dropdown::DropdownItem*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyItem
 // Il2CppName: DestroyItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::DestroyItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Dropdown::DropdownItem*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddItem
 // Il2CppName: AddItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::OptionData*, bool, TMPro::TMP_Dropdown::DropdownItem*, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*)>(&TMPro::TMP_Dropdown::AddItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Dropdown::OptionData*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Dropdown::DropdownItem*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AlphaFadeList
 // Il2CppName: AlphaFadeList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float, float)>(&TMPro::TMP_Dropdown::AlphaFadeList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AlphaFadeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AlphaFadeList
 // Il2CppName: AlphaFadeList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float, float, float)>(&TMPro::TMP_Dropdown::AlphaFadeList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AlphaFadeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::SetAlpha
 // Il2CppName: SetAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::SetAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::Hide
 // Il2CppName: Hide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DelayedDestroyDropdownList
 // Il2CppName: DelayedDestroyDropdownList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DelayedDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::ImmediateDestroyDropdownList
 // Il2CppName: ImmediateDestroyDropdownList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::ImmediateDestroyDropdownList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "ImmediateDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnSelectItem
 // Il2CppName: OnSelectItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Toggle*)>(&TMPro::TMP_Dropdown::OnSelectItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnDisable
 // Il2CppName: OnDisable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_Dropdown::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

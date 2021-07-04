@@ -53,4 +53,9 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncWriteRequest*, "Mono.Net.Securi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncWriteRequest::Run
 // Il2CppName: Run
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (Mono::Net::Security::AsyncWriteRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&Mono::Net::Security::AsyncWriteRequest::Run)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncWriteRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+  }
+};

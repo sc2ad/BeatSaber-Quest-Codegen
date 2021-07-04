@@ -67,7 +67,12 @@ namespace UnityEngine::AddressableAssets::Utility {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::Il2CppString*, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

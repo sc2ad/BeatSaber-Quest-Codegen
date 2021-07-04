@@ -237,28 +237,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleSimpleDemoViewControllerDidFinish
 // Il2CppName: HandleSimpleDemoViewControllerDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleSimpleDemoViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "HandleSimpleDemoViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SimpleRetailDemoViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SimpleRetailDemoViewController::MenuButton>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleResultsViewControllerContinueButtonPressed
 // Il2CppName: HandleResultsViewControllerContinueButtonPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "HandleResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::QuitApplicationCoroutine
 // Il2CppName: QuitApplicationCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)()>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::QuitApplicationCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "QuitApplicationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleResultsViewControllerRestartButtonPressed
 // Il2CppName: HandleResultsViewControllerRestartButtonPressed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "HandleResultsViewControllerRestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::StartLevel
 // Il2CppName: StartLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(System::Action*)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::StartLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleLevelDidFinish
 // Il2CppName: HandleLevelDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleLevelDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "HandleLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleRetailDemoFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::SimpleRetailDemoFlowCoordinator::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

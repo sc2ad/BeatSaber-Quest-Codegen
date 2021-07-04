@@ -273,22 +273,47 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnSpawned
 // Il2CppName: OnSpawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnSpawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnDespawned
 // Il2CppName: OnDespawned
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnDespawned)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::LazyInitializeDisposableList
 // Il2CppName: LazyInitializeDisposableList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)()>(&Zenject::DisposeBlock::LazyInitializeDisposableList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "LazyInitializeDisposableList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::AddRange
 // Il2CppName: AddRange
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DisposeBlock::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::Remove
 // Il2CppName: Remove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::StoreSpawnedObject
 // Il2CppName: StoreSpawnedObject
 // Cannot write MetadataGetter for generic methods!
@@ -324,13 +349,28 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", 
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DisposeBlock::Spawn
 // Il2CppName: Spawn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DisposeBlock* (*)()>(&Zenject::DisposeBlock::Spawn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Spawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)()>(&Zenject::DisposeBlock::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::DisposeBlock::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DisposeBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

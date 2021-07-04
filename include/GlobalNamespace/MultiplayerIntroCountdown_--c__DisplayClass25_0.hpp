@@ -77,19 +77,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__0
 // Il2CppName: <PhaseRoutine>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__1
 // Il2CppName: <PhaseRoutine>b__1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__2
 // Il2CppName: <PhaseRoutine>b__2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__3
 // Il2CppName: <PhaseRoutine>b__3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__4
 // Il2CppName: <PhaseRoutine>b__4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

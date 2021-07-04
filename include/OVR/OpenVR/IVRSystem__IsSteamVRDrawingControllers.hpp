@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*, "O
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::*)()>(&OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::*)(System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

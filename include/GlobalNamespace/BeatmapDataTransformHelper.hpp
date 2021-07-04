@@ -53,7 +53,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData
 // Il2CppName: CreateTransformedBeatmapData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PracticeSettings*, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions*)>(&GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataTransformHelper*), "CreateTransformedBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentIntensityReductionOptions*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataTransformHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

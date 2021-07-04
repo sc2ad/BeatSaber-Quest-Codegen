@@ -101,16 +101,36 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CreateClip
 // Il2CppName: CreateClip
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::AudioClip*)>(&UnityEngine::Timeline::AudioTrack::CreateClip)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::OnValidate
 // Il2CppName: OnValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::OnValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CompileClips
 // Il2CppName: CompileClips
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::AudioTrack::CompileClips)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::get_outputs
 // Il2CppName: get_outputs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::get_outputs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

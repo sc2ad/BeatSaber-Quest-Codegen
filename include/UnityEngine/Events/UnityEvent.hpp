@@ -86,23 +86,53 @@ namespace UnityEngine::Events {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::AddListener
 // Il2CppName: AddListener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::AddListener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "AddListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::RemoveListener
 // Il2CppName: RemoveListener
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::RemoveListener)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "RemoveListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::GetDelegate
 // Il2CppName: GetDelegate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)()>(&UnityEngine::Events::UnityEvent::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::FindMethod_Impl
 // Il2CppName: FindMethod_Impl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (UnityEngine::Events::UnityEvent::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::Events::UnityEvent::FindMethod_Impl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "FindMethod_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::GetDelegate
 // Il2CppName: GetDelegate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (UnityEngine::Events::UnityEvent::*)(::Il2CppObject*, System::Reflection::MethodInfo*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};

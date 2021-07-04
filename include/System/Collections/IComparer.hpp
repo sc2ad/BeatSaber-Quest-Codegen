@@ -27,4 +27,9 @@ namespace System::Collections {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IComparer*, "System.Collections", "IComparer");
 // Writing MetadataGetter for method: System::Collections::IComparer::Compare
 // Il2CppName: Compare
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::IComparer::Compare)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

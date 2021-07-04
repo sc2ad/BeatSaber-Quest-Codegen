@@ -61,4 +61,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::Invo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationContext::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::InvocationContext::*)()>(&System::Threading::OSSpecificSynchronizationContext::InvocationContext::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::InvocationContext*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

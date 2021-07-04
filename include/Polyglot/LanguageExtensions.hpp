@@ -38,10 +38,25 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageExtensions*, "Polyglot", "LanguageExtensions");
 // Writing MetadataGetter for method: Polyglot::LanguageExtensions::ToSerializedName
 // Il2CppName: ToSerializedName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&Polyglot::LanguageExtensions::ToSerializedName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LanguageExtensions::ToCultureInfoName
 // Il2CppName: ToCultureInfoName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&Polyglot::LanguageExtensions::ToCultureInfoName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToCultureInfoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LanguageExtensions::ToLanguage
 // Il2CppName: ToLanguage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (*)(::Il2CppString*)>(&Polyglot::LanguageExtensions::ToLanguage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

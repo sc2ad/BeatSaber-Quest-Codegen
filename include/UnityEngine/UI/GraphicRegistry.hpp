@@ -98,19 +98,44 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::get_instance
 // Il2CppName: get_instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GraphicRegistry* (*)()>(&UnityEngine::UI::GraphicRegistry::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas
 // Il2CppName: RegisterGraphicForCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "RegisterGraphicForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas
 // Il2CppName: UnregisterGraphicForCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "UnregisterGraphicForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas
 // Il2CppName: GetGraphicsForCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* (*)(UnityEngine::Canvas*)>(&UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "GetGraphicsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::GraphicRegistry::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

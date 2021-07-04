@@ -94,31 +94,76 @@ namespace UnityEngine::TestTools::Logging {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_Message
 // Il2CppName: set_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogEvent::set_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_StackTrace
 // Il2CppName: get_StackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_StackTrace
 // Il2CppName: set_StackTrace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogEvent::set_StackTrace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_LogType
 // Il2CppName: get_LogType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LogType (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_LogType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_LogType
 // Il2CppName: set_LogType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogEvent::set_LogType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_IsHandled
 // Il2CppName: get_IsHandled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_IsHandled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_IsHandled
 // Il2CppName: set_IsHandled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(bool)>(&UnityEngine::TestTools::Logging::LogEvent::set_IsHandled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_IsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

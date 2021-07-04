@@ -65,4 +65,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentO
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)()>(&Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

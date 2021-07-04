@@ -59,4 +59,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runt
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::InteropServices::HandleRef::get_Handle
 // Il2CppName: get_Handle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Runtime::InteropServices::HandleRef::*)()>(&System::Runtime::InteropServices::HandleRef::get_Handle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::HandleRef), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

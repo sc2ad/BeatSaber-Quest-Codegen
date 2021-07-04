@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*, "Val
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(Valve::VR::EOverlayDirection, uint64_t)>(&Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(Valve::VR::EOverlayDirection, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

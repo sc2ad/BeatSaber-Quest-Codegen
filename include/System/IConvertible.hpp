@@ -89,52 +89,137 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::IConvertible*, "System", "IConvertible");
 // Writing MetadataGetter for method: System::IConvertible::GetTypeCode
 // Il2CppName: GetTypeCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::IConvertible::*)()>(&System::IConvertible::GetTypeCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToBoolean
 // Il2CppName: ToBoolean
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToBoolean)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToChar
 // Il2CppName: ToChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToSByte
 // Il2CppName: ToSByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToSByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToByte
 // Il2CppName: ToByte
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToByte)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToInt16
 // Il2CppName: ToInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToUInt16
 // Il2CppName: ToUInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToUInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToInt32
 // Il2CppName: ToInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToUInt32
 // Il2CppName: ToUInt32
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToUInt32)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToInt64
 // Il2CppName: ToInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToUInt64
 // Il2CppName: ToUInt64
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToUInt64)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToSingle
 // Il2CppName: ToSingle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToSingle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToDouble
 // Il2CppName: ToDouble
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToDouble)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToDecimal
 // Il2CppName: ToDecimal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToDecimal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToDateTime
 // Il2CppName: ToDateTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToDateTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IConvertible::ToType
 // Il2CppName: ToType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IConvertible::*)(System::Type*, System::IFormatProvider*)>(&System::IConvertible::ToType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};

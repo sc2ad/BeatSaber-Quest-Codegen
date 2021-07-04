@@ -60,10 +60,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset
 // Il2CppName: get_headNeckOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::HeadBodyOffsetSO::*)()>(&GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HeadBodyOffsetSO*), "get_headNeckOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_verticalOffset
 // Il2CppName: get_verticalOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::HeadBodyOffsetSO::*)()>(&GlobalNamespace::HeadBodyOffsetSO::get_verticalOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HeadBodyOffsetSO*), "get_verticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

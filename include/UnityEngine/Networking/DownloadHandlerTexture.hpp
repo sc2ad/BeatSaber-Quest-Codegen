@@ -96,26 +96,61 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerTexture*, bool)>(&UnityEngine::Networking::DownloadHandlerTexture::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerTexture*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::InternalCreateTexture
 // Il2CppName: InternalCreateTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerTexture::*)(bool)>(&UnityEngine::Networking::DownloadHandlerTexture::InternalCreateTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalCreateTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::get_texture
 // Il2CppName: get_texture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::get_texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::InternalGetTexture
 // Il2CppName: InternalGetTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::InternalGetTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalGetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative
 // Il2CppName: InternalGetTextureNative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalGetTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::GetContent
 // Il2CppName: GetContent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::DownloadHandlerTexture::GetContent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::GetData
 // Il2CppName: GetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

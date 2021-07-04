@@ -258,55 +258,140 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartStandardLevel
 // Il2CppName: StartStandardLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::OverrideEnvironmentSettings*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartStandardLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartStandardLevel
 // Il2CppName: StartStandardLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::OverrideEnvironmentSettings*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartStandardLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartMissionLevel
 // Il2CppName: StartMissionLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, ::Array<GlobalNamespace::MissionObjective*>*, GlobalNamespace::PlayerSpecificSettings*, System::Action*, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartMissionLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MissionObjective*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel
 // Il2CppName: StartMultiplayerLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*, System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartMultiplayerLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel
 // Il2CppName: StartMultiplayerLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*, System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartMultiplayerLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartTutorial
 // Il2CppName: StartTutorial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action*)>(&GlobalNamespace::MenuTransitionsHelper::StartTutorial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::ShowCredits
 // Il2CppName: ShowCredits
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)()>(&GlobalNamespace::MenuTransitionsHelper::ShowCredits)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "ShowCredits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor
 // Il2CppName: StartBeatmapEditor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action*)>(&GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartBeatmapEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::RestartGame
 // Il2CppName: RestartGame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::MenuTransitionsHelper::RestartGame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "RestartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleMainGameSceneDidFinish
 // Il2CppName: HandleMainGameSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMainGameSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidFinish
 // Il2CppName: HandleMultiplayerLevelDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMultiplayerLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidDisconnect
 // Il2CppName: HandleMultiplayerLevelDidDisconnect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidDisconnect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMultiplayerLevelDidDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleMissionLevelSceneDidFinish
 // Il2CppName: HandleMissionLevelSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMissionLevelSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMissionLevelSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleTutorialSceneDidFinish
 // Il2CppName: HandleTutorialSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType)>(&GlobalNamespace::MenuTransitionsHelper::HandleTutorialSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleTutorialSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish
 // Il2CppName: HandleCreditsSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::CreditsScenesTransitionSetupDataSO*)>(&GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleCreditsSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::HandleBeatmapEditorSceneDidFinish
 // Il2CppName: HandleBeatmapEditorSceneDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*)>(&GlobalNamespace::MenuTransitionsHelper::HandleBeatmapEditorSceneDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleBeatmapEditorSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$HandleBeatmapEditorSceneDidFinish$b__29_0
 // Il2CppName: <HandleBeatmapEditorSceneDidFinish>b__29_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(Zenject::DiContainer*)>(&GlobalNamespace::MenuTransitionsHelper::$HandleBeatmapEditorSceneDidFinish$b__29_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "<HandleBeatmapEditorSceneDidFinish>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

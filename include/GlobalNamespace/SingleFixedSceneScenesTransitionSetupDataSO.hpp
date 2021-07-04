@@ -62,10 +62,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*, "", "SingleFixedSceneScenesTransitionSetupDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo
 // Il2CppName: get_sceneInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SceneInfo* (GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*), "get_sceneInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)(GlobalNamespace::SceneSetupData*)>(&GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SceneSetupData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -36,4 +36,9 @@ namespace NUnit {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Env*, "NUnit", "Env");
 // Writing MetadataGetter for method: NUnit::Env::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Env::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Env*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

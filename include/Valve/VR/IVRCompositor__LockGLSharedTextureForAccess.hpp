@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*,
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::*)(System::IntPtr)>(&Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::*)(System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

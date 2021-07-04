@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_IsQuitUserPromptRequested*, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_IsQuitUserPromptRequested::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_IsQuitUserPromptRequested::*)()>(&Valve::VR::IVRApplications::_IsQuitUserPromptRequested::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_IsQuitUserPromptRequested*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_IsQuitUserPromptRequested::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_IsQuitUserPromptRequested::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_IsQuitUserPromptRequested::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_IsQuitUserPromptRequested*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_IsQuitUserPromptRequested::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_IsQuitUserPromptRequested::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_IsQuitUserPromptRequested::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_IsQuitUserPromptRequested*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -48,10 +48,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsHandler*, "", "PlatformAchievementsHandler");
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::UnlockAchievement
 // Il2CppName: UnlockAchievement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsHandler::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsHandler::UnlockAchievement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::GetUnlockedAchievements
 // Il2CppName: GetUnlockedAchievements
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsHandler::GetUnlockedAchievements)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

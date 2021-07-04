@@ -53,10 +53,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath
 // Il2CppName: get_levelDirPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEditorSceneSetupData*), "get_levelDirPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::get_levelAssetPath
 // Il2CppName: get_levelAssetPath
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&GlobalNamespace::BeatmapEditorSceneSetupData::get_levelAssetPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEditorSceneSetupData*), "get_levelAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

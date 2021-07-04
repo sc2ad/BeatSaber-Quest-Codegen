@@ -45,10 +45,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::MatchesColorType
 // Il2CppName: MatchesColorType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SaberType, GlobalNamespace::ColorType)>(&GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MatchesColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::Node
 // Il2CppName: Node
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (*)(GlobalNamespace::SaberType)>(&GlobalNamespace::SaberTypeExtensions::Node)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "Node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::MainSaber
 // Il2CppName: MainSaber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (*)(bool)>(&GlobalNamespace::SaberTypeExtensions::MainSaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

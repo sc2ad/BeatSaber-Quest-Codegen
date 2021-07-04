@@ -24,4 +24,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VersionStringHelper*, "", "VersionStringHelper");
 // Writing MetadataGetter for method: GlobalNamespace::VersionStringHelper::GetMajorVersionNumber
 // Il2CppName: GetMajorVersionNumber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&GlobalNamespace::VersionStringHelper::GetMajorVersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VersionStringHelper*), "GetMajorVersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

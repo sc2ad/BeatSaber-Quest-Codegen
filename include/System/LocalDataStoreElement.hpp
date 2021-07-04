@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStore
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::LocalDataStoreElement::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::LocalDataStoreElement::*)()>(&System::LocalDataStoreElement::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreElement*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreElement::set_Value
 // Il2CppName: set_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreElement::*)(::Il2CppObject*)>(&System::LocalDataStoreElement::set_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreElement*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::LocalDataStoreElement::get_Cookie
 // Il2CppName: get_Cookie
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::LocalDataStoreElement::*)()>(&System::LocalDataStoreElement::get_Cookie)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreElement*), "get_Cookie", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

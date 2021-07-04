@@ -431,104 +431,269 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
 // Writing MetadataGetter for method: System::TermInfoDriver::TryTermInfoDir
 // Il2CppName: TryTermInfoDir
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::TermInfoDriver::TryTermInfoDir)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "TryTermInfoDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::SearchTerminfo
 // Il2CppName: SearchTerminfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TermInfoDriver::SearchTerminfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SearchTerminfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteConsole
 // Il2CppName: WriteConsole
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppString*)>(&System::TermInfoDriver::WriteConsole)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::TermInfoDriver::get_Initialized
 // Il2CppName: get_Initialized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)()>(&System::TermInfoDriver::get_Initialized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "get_Initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::IncrementX
 // Il2CppName: IncrementX
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::IncrementX)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IncrementX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteSpecialKey
 // Il2CppName: WriteSpecialKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::WriteSpecialKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteSpecialKey
 // Il2CppName: WriteSpecialKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::WriteSpecialKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::IsSpecialKey
 // Il2CppName: IsSpecialKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::IsSpecialKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::IsSpecialKey
 // Il2CppName: IsSpecialKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::IsSpecialKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::GetCursorPosition
 // Il2CppName: GetCursorPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::GetCursorPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "GetCursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::CheckWindowDimensions
 // Il2CppName: CheckWindowDimensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::CheckWindowDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "CheckWindowDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::get_WindowHeight
 // Il2CppName: get_WindowHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)()>(&System::TermInfoDriver::get_WindowHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "get_WindowHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::get_WindowWidth
 // Il2CppName: get_WindowWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)()>(&System::TermInfoDriver::get_WindowWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "get_WindowWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::AddToBuffer
 // Il2CppName: AddToBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(int)>(&System::TermInfoDriver::AddToBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::AdjustBuffer
 // Il2CppName: AdjustBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::AdjustBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AdjustBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::CreateKeyInfoFromInt
 // Il2CppName: CreateKeyInfoFromInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(int, bool)>(&System::TermInfoDriver::CreateKeyInfoFromInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "CreateKeyInfoFromInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::GetKeyFromBuffer
 // Il2CppName: GetKeyFromBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::GetKeyFromBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "GetKeyFromBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadKeyInternal
 // Il2CppName: ReadKeyInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(bool&)>(&System::TermInfoDriver::ReadKeyInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKeyInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::InputPending
 // Il2CppName: InputPending
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)()>(&System::TermInfoDriver::InputPending)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "InputPending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::QueueEcho
 // Il2CppName: QueueEcho
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::QueueEcho)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "QueueEcho", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::Echo
 // Il2CppName: Echo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::Echo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Echo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::EchoFlush
 // Il2CppName: EchoFlush
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::EchoFlush)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "EchoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(::Array<::Il2CppChar>*&, int, int)>(&System::TermInfoDriver::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadKey
 // Il2CppName: ReadKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadLine
 // Il2CppName: ReadLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadToEnd
 // Il2CppName: ReadToEnd
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadToEnd)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadUntilConditionInternal
 // Il2CppName: ReadUntilConditionInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadUntilConditionInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadUntilConditionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::SetCursorPosition
 // Il2CppName: SetCursorPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(int, int)>(&System::TermInfoDriver::SetCursorPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SetCursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::CreateKeyMap
 // Il2CppName: CreateKeyMap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::CreateKeyMap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "CreateKeyMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::InitKeys
 // Il2CppName: InitKeys
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)()>(&System::TermInfoDriver::InitKeys)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "InitKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::AddStringMapping
 // Il2CppName: AddStringMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::TermInfoStrings)>(&System::TermInfoDriver::AddStringMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddStringMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoDriver::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::TermInfoDriver::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

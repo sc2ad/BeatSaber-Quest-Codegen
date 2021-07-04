@@ -71,10 +71,25 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemObject*, "Org.B
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type
 // Il2CppName: get_Type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Headers
 // Il2CppName: get_Headers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Headers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content
 // Il2CppName: get_Content
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

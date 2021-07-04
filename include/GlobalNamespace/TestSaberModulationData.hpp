@@ -137,7 +137,12 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData*, "", "TestSaber
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData::ModulationType, "", "TestSaberModulationData/ModulationType");
 // Writing MetadataGetter for method: GlobalNamespace::TestSaberModulationData::Evaluate
 // Il2CppName: Evaluate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TestSaberModulationData::*)(float)>(&GlobalNamespace::TestSaberModulationData::Evaluate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestSaberModulationData*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TestSaberModulationData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -67,10 +67,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedD
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetWindowBounds
 // Il2CppName: GetWindowBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetWindowBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetWindowBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetEyeOutputViewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo
 // Il2CppName: GetDXGIOutputInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&)>(&Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

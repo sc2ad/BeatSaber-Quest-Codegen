@@ -97,7 +97,12 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode
 // Il2CppName: get_useEditMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimeFieldAttribute::UseEditMode (UnityEngine::Timeline::TimeFieldAttribute::*)()>(&UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeFieldAttribute*), "get_useEditMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeFieldAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

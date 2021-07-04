@@ -59,10 +59,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEve
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*)>(&Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::*)(::Il2CppObject*, System::EventArgs*, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::*)(System::IAsyncResult*)>(&Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

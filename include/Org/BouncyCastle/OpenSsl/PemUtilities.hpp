@@ -47,13 +47,33 @@ namespace Org::BouncyCastle::OpenSsl {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities*, "Org.BouncyCastle.OpenSsl", "PemUtilities");
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::OpenSsl::PemUtilities::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName
 // Il2CppName: ParseDekAlgName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&)>(&Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "ParseDekAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::Crypt
 // Il2CppName: Crypt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(bool, ::Array<uint8_t>*, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "Crypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters
 // Il2CppName: GetCipherParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "GetCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};

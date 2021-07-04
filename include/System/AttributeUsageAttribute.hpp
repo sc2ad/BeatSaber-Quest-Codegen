@@ -80,16 +80,41 @@ DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsa
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::get_AllowMultiple
 // Il2CppName: get_AllowMultiple
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::AttributeUsageAttribute::*)()>(&System::AttributeUsageAttribute::get_AllowMultiple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::AttributeUsageAttribute*), "get_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::set_AllowMultiple
 // Il2CppName: set_AllowMultiple
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AttributeUsageAttribute::*)(bool)>(&System::AttributeUsageAttribute::set_AllowMultiple)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::AttributeUsageAttribute*), "set_AllowMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::get_Inherited
 // Il2CppName: get_Inherited
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::AttributeUsageAttribute::*)()>(&System::AttributeUsageAttribute::get_Inherited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::AttributeUsageAttribute*), "get_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::set_Inherited
 // Il2CppName: set_Inherited
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AttributeUsageAttribute::*)(bool)>(&System::AttributeUsageAttribute::set_Inherited)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::AttributeUsageAttribute*), "set_Inherited", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::AttributeUsageAttribute::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::AttributeUsageAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

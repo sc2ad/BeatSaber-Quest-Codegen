@@ -38,10 +38,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMaskExtensions*, "", "GameplayModifierMaskExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::Contains
 // Il2CppName: Contains
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom
 // Il2CppName: DifferenceFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "DifferenceFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::ToHexString
 // Il2CppName: ToHexString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+  }
+};

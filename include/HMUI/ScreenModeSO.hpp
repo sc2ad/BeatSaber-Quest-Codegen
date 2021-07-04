@@ -57,7 +57,12 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO*, "HMUI", "ScreenModeSO");
 // Writing MetadataGetter for method: HMUI::ScreenModeSO::get_data
 // Il2CppName: get_data
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScreenModeData* (HMUI::ScreenModeSO::*)()>(&HMUI::ScreenModeSO::get_data)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenModeSO*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ScreenModeSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

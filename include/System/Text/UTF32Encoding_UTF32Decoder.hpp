@@ -63,7 +63,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF32Encoding::UTF32Decoder::*)()>(&System::Text::UTF32Encoding::UTF32Decoder::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::get_HasState
 // Il2CppName: get_HasState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::UTF32Encoding::UTF32Decoder::*)()>(&System::Text::UTF32Encoding::UTF32Decoder::get_HasState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

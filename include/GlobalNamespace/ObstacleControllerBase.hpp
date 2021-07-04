@@ -86,22 +86,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleControllerBase*, "", "ObstacleControllerBase");
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::add_didInitEvent
 // Il2CppName: add_didInitEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&GlobalNamespace::ObstacleControllerBase::add_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::remove_didInitEvent
 // Il2CppName: remove_didInitEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(System::Action_1<GlobalNamespace::ObstacleControllerBase*>*)>(&GlobalNamespace::ObstacleControllerBase::remove_didInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ObstacleControllerBase*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent
 // Il2CppName: add_didStartDissolvingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "add_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent
 // Il2CppName: remove_didStartDissolvingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)>(&GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "remove_didStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::InvokeDidInitEvent
 // Il2CppName: InvokeDidInitEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*)>(&GlobalNamespace::ObstacleControllerBase::InvokeDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "InvokeDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::InvokeDidStartDissolvingEvent
 // Il2CppName: InvokeDidStartDissolvingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleControllerBase::*)(GlobalNamespace::ObstacleControllerBase*, float)>(&GlobalNamespace::ObstacleControllerBase::InvokeDidStartDissolvingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleControllerBase*), "InvokeDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -121,43 +121,108 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Timeline::SignalReceiver::OnNotify)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddReaction
 // Il2CppName: AddReaction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddReaction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddEmptyReaction
 // Il2CppName: AddEmptyReaction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddEmptyReaction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddEmptyReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Remove
 // Il2CppName: Remove
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::Remove)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals
 // Il2CppName: GetRegisteredSignals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::SignalAsset*>* (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetRegisteredSignals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetReaction
 // Il2CppName: GetReaction
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::GetReaction)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Count
 // Il2CppName: Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex
 // Il2CppName: ChangeSignalAtIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeSignalAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::RemoveAtIndex
 // Il2CppName: RemoveAtIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::RemoveAtIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "RemoveAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex
 // Il2CppName: ChangeReactionAtIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex
 // Il2CppName: GetReactionAtIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex
 // Il2CppName: GetSignalAssetAtIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetSignalAssetAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

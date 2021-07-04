@@ -88,16 +88,41 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*,
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::get_HasMethods
 // Il2CppName: get_HasMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)()>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::get_HasMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "get_HasMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUp
 // Il2CppName: RunSetUp
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunTearDown
 // Il2CppName: RunTearDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunTearDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUpOrTearDownMethod
 // Il2CppName: RunSetUpOrTearDownMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUpOrTearDownMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUpOrTearDownMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunNonAsyncMethod
 // Il2CppName: RunNonAsyncMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunNonAsyncMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunNonAsyncMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

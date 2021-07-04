@@ -129,22 +129,57 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_Generic_IEnumerator$NUnit_Framework_Internal_TestSuite$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<NUnit.Framework.Internal.TestSuite>.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_Generic_IEnumerator$NUnit_Framework_Internal_TestSuite$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.Collections.Generic.IEnumerator<NUnit.Framework.Internal.TestSuite>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_Generic_IEnumerable$NUnit_Framework_Internal_TestSuite$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<NUnit.Framework.Internal.TestSuite>.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_Generic_IEnumerable$NUnit_Framework_Internal_TestSuite$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.Collections.Generic.IEnumerable<NUnit.Framework.Internal.TestSuite>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::*)()>(&NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

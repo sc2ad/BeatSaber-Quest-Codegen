@@ -58,7 +58,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventArgs*, "System", "Unhandle
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UnhandledExceptionEventArgs::get_ExceptionObject
 // Il2CppName: get_ExceptionObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::UnhandledExceptionEventArgs::*)()>(&System::UnhandledExceptionEventArgs::get_ExceptionObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventArgs*), "get_ExceptionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::UnhandledExceptionEventArgs::get_IsTerminating
 // Il2CppName: get_IsTerminating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UnhandledExceptionEventArgs::*)()>(&System::UnhandledExceptionEventArgs::get_IsTerminating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventArgs*), "get_IsTerminating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

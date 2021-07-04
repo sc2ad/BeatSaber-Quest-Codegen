@@ -82,16 +82,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO*, "", "MissionObjectiveTypeSO");
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName
 // Il2CppName: get_objectiveName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized
 // Il2CppName: get_objectiveNameLocalized
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveNameLocalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_noConditionValue
 // Il2CppName: get_noConditionValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_noConditionValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_noConditionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_objectiveValueFormater
 // Il2CppName: get_objectiveValueFormater
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObjectiveValueFormatterSO* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveValueFormater)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveValueFormater", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -62,11 +62,21 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, "", "LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken");
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource
 // Il2CppName: get_cancellationTokenSource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenSource* (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "get_cancellationTokenSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel
 // Il2CppName: Cancel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

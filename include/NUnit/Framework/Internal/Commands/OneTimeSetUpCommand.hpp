@@ -105,4 +105,9 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeSetUpCommand
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::Execute
 // Il2CppName: Execute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::Execute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::OneTimeSetUpCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+  }
+};

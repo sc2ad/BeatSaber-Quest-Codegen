@@ -72,16 +72,36 @@ namespace System::Security::Cryptography {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm
 // Il2CppName: set_KeyAlgorithm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_KeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm
 // Il2CppName: set_DigestAlgorithm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_DigestAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm
 // Il2CppName: set_FormatterAlgorithm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_FormatterAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm
 // Il2CppName: set_DeformatterAlgorithm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_DeformatterAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

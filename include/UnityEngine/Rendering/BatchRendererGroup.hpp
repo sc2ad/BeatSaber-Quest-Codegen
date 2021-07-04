@@ -55,4 +55,9 @@ namespace UnityEngine::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling
 // Il2CppName: InvokeOnPerformCulling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchRendererCullingOutput&, UnityEngine::Rendering::LODParameters&)>(&UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup*), "InvokeOnPerformCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererCullingOutput&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters&>()});
+  }
+};

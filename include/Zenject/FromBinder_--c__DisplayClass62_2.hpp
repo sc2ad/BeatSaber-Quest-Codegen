@@ -70,10 +70,20 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass62_2*, "Zenject", "FromBinder/<>c__DisplayClass62_2");
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_2::$FromComponentsInParents$b__2
 // Il2CppName: <FromComponentsInParents>b__2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::FromBinder::$$c__DisplayClass62_2::*)(UnityEngine::Component*)>(&Zenject::FromBinder::$$c__DisplayClass62_2::$FromComponentsInParents$b__2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass62_2*), "<FromComponentsInParents>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_2::$FromComponentsInParents$b__3
 // Il2CppName: <FromComponentsInParents>b__3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::FromBinder::$$c__DisplayClass62_2::*)(UnityEngine::Component*)>(&Zenject::FromBinder::$$c__DisplayClass62_2::$FromComponentsInParents$b__3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass62_2*), "<FromComponentsInParents>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass62_2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

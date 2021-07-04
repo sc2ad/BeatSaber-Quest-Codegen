@@ -40,10 +40,25 @@ namespace System::Runtime::Remoting::Contexts {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty*, "System.Runtime.Remoting.Contexts", "IContextProperty");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Contexts::IContextProperty::*)()>(&System::Runtime::Remoting::Contexts::IContextProperty::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::Freeze
 // Il2CppName: Freeze
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::Freeze)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "Freeze", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK
 // Il2CppName: IsNewContextOK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "IsNewContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};

@@ -65,10 +65,20 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*, "Zenject", "TypeAnalyzer/<>c__DisplayClass23_0");
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0
 // Il2CppName: <CreateTypeInfoFromReflection>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectMemberInfo* (Zenject::TypeAnalyzer::$$c__DisplayClass23_0::*)(Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*)>(&Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*), "<CreateTypeInfoFromReflection>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__1
 // Il2CppName: <CreateTypeInfoFromReflection>b__1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo::InjectMemberInfo* (Zenject::TypeAnalyzer::$$c__DisplayClass23_0::*)(Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*)>(&Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*), "<CreateTypeInfoFromReflection>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

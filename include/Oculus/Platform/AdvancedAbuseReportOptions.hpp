@@ -73,13 +73,28 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Platform", "AdvancedAbuseReportOptions");
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(::Il2CppString*)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetReportType
 // Il2CppName: SetReportType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetReportType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode
 // Il2CppName: SetVideoMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(Oculus::Platform::AbuseReportVideoMode)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetVideoMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportVideoMode>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -89,4 +104,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Pl
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&Oculus::Platform::AdvancedAbuseReportOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetCalibrationState*, "Valve.VR
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_GetCalibrationState::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ChaperoneCalibrationState (Valve::VR::IVRChaperone::_GetCalibrationState::*)()>(&Valve::VR::IVRChaperone::_GetCalibrationState::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_GetCalibrationState*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_GetCalibrationState::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperone::_GetCalibrationState::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperone::_GetCalibrationState::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_GetCalibrationState*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_GetCalibrationState::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ChaperoneCalibrationState (Valve::VR::IVRChaperone::_GetCalibrationState::*)(System::IAsyncResult*)>(&Valve::VR::IVRChaperone::_GetCalibrationState::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_GetCalibrationState*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

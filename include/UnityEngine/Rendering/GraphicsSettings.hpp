@@ -64,22 +64,57 @@ namespace UnityEngine::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::get_lightsUseLinearIntensity
 // Il2CppName: get_lightsUseLinearIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_lightsUseLinearIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_lightsUseLinearIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::AllowEnlightenSupportForUpgradedProject
 // Il2CppName: AllowEnlightenSupportForUpgradedProject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Rendering::GraphicsSettings::AllowEnlightenSupportForUpgradedProject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "AllowEnlightenSupportForUpgradedProject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::get_renderPipelineAsset
 // Il2CppName: get_renderPipelineAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::RenderPipelineAsset* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_renderPipelineAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_renderPipelineAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_defaultRenderPipeline
 // Il2CppName: get_INTERNAL_defaultRenderPipeline
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_defaultRenderPipeline)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_INTERNAL_defaultRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::get_defaultRenderPipeline
 // Il2CppName: get_defaultRenderPipeline
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::RenderPipelineAsset* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_defaultRenderPipeline)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_defaultRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::SetShaderMode
 // Il2CppName: SetShaderMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BuiltinShaderType, UnityEngine::Rendering::BuiltinShaderMode)>(&UnityEngine::Rendering::GraphicsSettings::SetShaderMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "SetShaderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BuiltinShaderType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BuiltinShaderMode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::SetCustomShader
 // Il2CppName: SetCustomShader
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BuiltinShaderType, UnityEngine::Shader*)>(&UnityEngine::Rendering::GraphicsSettings::SetCustomShader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "SetCustomShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BuiltinShaderType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>()});
+  }
+};

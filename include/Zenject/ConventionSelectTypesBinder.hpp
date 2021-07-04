@@ -77,19 +77,49 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder*, "Zenject", "Conven
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::CreateNextBinder
 // Il2CppName: CreateNextBinder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::CreateNextBinder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "CreateNextBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::AllTypes
 // Il2CppName: AllTypes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::AllTypes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "AllTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::AllClasses
 // Il2CppName: AllClasses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::AllClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "AllClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::AllNonAbstractClasses
 // Il2CppName: AllNonAbstractClasses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::AllNonAbstractClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "AllNonAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::AllAbstractClasses
 // Il2CppName: AllAbstractClasses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::AllAbstractClasses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "AllAbstractClasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::AllInterfaces
 // Il2CppName: AllInterfaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionSelectTypesBinder::*)()>(&Zenject::ConventionSelectTypesBinder::AllInterfaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionSelectTypesBinder*), "AllInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

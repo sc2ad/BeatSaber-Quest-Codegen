@@ -71,13 +71,33 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position
 // Il2CppName: set_position
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::ShapeModule::set_position)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation
 // Il2CppName: set_rotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::ShapeModule::set_rotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position_Injected
 // Il2CppName: set_position_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&UnityEngine::ParticleSystem::ShapeModule::set_position_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation_Injected
 // Il2CppName: set_rotation_Injected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&UnityEngine::ParticleSystem::ShapeModule::set_rotation_Injected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};

@@ -65,7 +65,17 @@ namespace UnityEngine::Experimental::Playables {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle
 // Il2CppName: GetHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::MaterialEffectPlayable>()});
+  }
+};

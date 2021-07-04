@@ -142,19 +142,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)()>(&GlobalNamespace::OVRGridCube::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::SetOVRCameraController
 // Il2CppName: SetOVRCameraController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(GlobalNamespace::OVRCameraRig*&)>(&GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "SetOVRCameraController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::UpdateCubeGrid
 // Il2CppName: UpdateCubeGrid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)()>(&GlobalNamespace::OVRGridCube::UpdateCubeGrid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "UpdateCubeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::CreateCubeGrid
 // Il2CppName: CreateCubeGrid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)()>(&GlobalNamespace::OVRGridCube::CreateCubeGrid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "CreateCubeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::CubeGridSwitchColor
 // Il2CppName: CubeGridSwitchColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(bool)>(&GlobalNamespace::OVRGridCube::CubeGridSwitchColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "CubeGridSwitchColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

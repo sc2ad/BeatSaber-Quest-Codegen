@@ -43,4 +43,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaBlindingParameters");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_PublicKey
 // Il2CppName: get_PublicKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_PublicKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*), "get_PublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

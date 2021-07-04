@@ -278,22 +278,47 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize
 // Il2CppName: OnBeforeSerialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::OnAfterDeserialize
 // Il2CppName: OnAfterDeserialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::OnAfterDeserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetDefaultValues
 // Il2CppName: SetDefaultValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::SetDefaultValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::HasKey
 // Il2CppName: HasKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::PreferenceDictionary::HasKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "HasKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::HasKey
 // Il2CppName: HasKey
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::DeleteKey
 // Il2CppName: DeleteKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::PreferenceDictionary::DeleteKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "DeleteKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::Get
 // Il2CppName: Get
 // Cannot write MetadataGetter for generic methods!
@@ -302,61 +327,156 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEng
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetBool
 // Il2CppName: GetBool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, bool)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetInt
 // Il2CppName: GetInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, int)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetFloat
 // Il2CppName: GetFloat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, float)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetString
 // Il2CppName: GetString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetColor
 // Il2CppName: GetColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetMaterial
 // Il2CppName: GetMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&UnityEngine::ProBuilder::PreferenceDictionary::GetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetBool
 // Il2CppName: SetBool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, bool)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetBool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetInt
 // Il2CppName: SetInt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, int)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetFloat
 // Il2CppName: SetFloat
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, float)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetFloat)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetString
 // Il2CppName: SetString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetColor
 // Il2CppName: SetColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Color)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::SetMaterial
 // Il2CppName: SetMaterial
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)(::Il2CppString*, UnityEngine::Material*)>(&UnityEngine::ProBuilder::PreferenceDictionary::SetMaterial)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetBoolDictionary
 // Il2CppName: GetBoolDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetBoolDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetBoolDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetIntDictionary
 // Il2CppName: GetIntDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetIntDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetIntDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetFloatDictionary
 // Il2CppName: GetFloatDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetFloatDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetFloatDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetStringDictionary
 // Il2CppName: GetStringDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetStringDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetStringDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetColorDictionary
 // Il2CppName: GetColorDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetColorDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetColorDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::GetMaterialDictionary
 // Il2CppName: GetMaterialDictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::GetMaterialDictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "GetMaterialDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&UnityEngine::ProBuilder::PreferenceDictionary::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceDictionary*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

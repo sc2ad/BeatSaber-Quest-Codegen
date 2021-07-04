@@ -32,4 +32,9 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ICanvasRaycastFilter*, "UnityEngine", "ICanvasRaycastFilter");
 // Writing MetadataGetter for method: UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ICanvasRaycastFilter::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ICanvasRaycastFilter*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+  }
+};

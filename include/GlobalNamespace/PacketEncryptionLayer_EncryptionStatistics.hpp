@@ -133,52 +133,132 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext
 // Il2CppName: get_packetsReceivedPlaintext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedEncrypted
 // Il2CppName: get_packetsReceivedEncrypted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedRejected
 // Il2CppName: get_packetsReceivedRejected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedRejected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentPlaintext
 // Il2CppName: get_packetsSentPlaintext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentPlaintext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentEncrypted
 // Il2CppName: get_packetsSentEncrypted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentRejected
 // Il2CppName: get_packetsSentRejected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsSentRejected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_encryptionProcessingTime
 // Il2CppName: get_encryptionProcessingTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_encryptionProcessingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_encryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_decryptionProcessingTime
 // Il2CppName: get_decryptionProcessingTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_decryptionProcessingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "get_decryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedPlaintext
 // Il2CppName: IncrementPacketsReceivedPlaintext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedPlaintext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedEncrypted
 // Il2CppName: IncrementPacketsReceivedEncrypted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedRejected
 // Il2CppName: IncrementPacketsReceivedRejected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedRejected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentPlaintext
 // Il2CppName: IncrementPacketsSentPlaintext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentPlaintext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentEncrypted
 // Il2CppName: IncrementPacketsSentEncrypted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentEncrypted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentRejected
 // Il2CppName: IncrementPacketsSentRejected
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)()>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentRejected)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::AddEncryptionProcessingTime
 // Il2CppName: AddEncryptionProcessingTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)(int64_t)>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::AddEncryptionProcessingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "AddEncryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::AddDecryptionProcessingTime
 // Il2CppName: AddDecryptionProcessingTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::*)(int64_t)>(&GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::AddDecryptionProcessingTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*), "AddDecryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

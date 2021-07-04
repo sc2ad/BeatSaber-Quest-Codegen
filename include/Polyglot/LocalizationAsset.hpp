@@ -68,16 +68,36 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::get_TextAsset
 // Il2CppName: get_TextAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (Polyglot::LocalizationAsset::*)()>(&Polyglot::LocalizationAsset::get_TextAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "get_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::set_TextAsset
 // Il2CppName: set_TextAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationAsset::*)(UnityEngine::TextAsset*)>(&Polyglot::LocalizationAsset::set_TextAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::get_Format
 // Il2CppName: get_Format
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::GoogleDriveDownloadFormat (Polyglot::LocalizationAsset::*)()>(&Polyglot::LocalizationAsset::get_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::set_Format
 // Il2CppName: set_Format
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationAsset::*)(Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationAsset::set_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

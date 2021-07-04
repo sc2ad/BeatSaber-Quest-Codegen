@@ -49,11 +49,21 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetworkingPeer*, "Oculus.Platform", "MessageWithNetworkingPeer");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetworkingPeer::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetworkingPeer* (Oculus::Platform::MessageWithNetworkingPeer::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetworkingPeer::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetworkingPeer*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetworkingPeer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetworkingPeer::GetNetworkingPeer
 // Il2CppName: GetNetworkingPeer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetworkingPeer* (Oculus::Platform::MessageWithNetworkingPeer::*)()>(&Oculus::Platform::MessageWithNetworkingPeer::GetNetworkingPeer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetworkingPeer*), "GetNetworkingPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

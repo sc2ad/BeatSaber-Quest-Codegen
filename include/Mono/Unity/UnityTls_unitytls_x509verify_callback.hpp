@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509verify_callback*, "Mo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_x509verify_callback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (Mono::Unity::UnityTls::unitytls_x509verify_callback::*)(void*, Mono::Unity::UnityTls::unitytls_x509_ref, Mono::Unity::UnityTls::unitytls_x509verify_result, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTls::unitytls_x509verify_callback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_x509verify_callback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_x509verify_callback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Unity::UnityTls::unitytls_x509verify_callback::*)(void*, Mono::Unity::UnityTls::unitytls_x509_ref, Mono::Unity::UnityTls::unitytls_x509verify_result, Mono::Unity::UnityTls::unitytls_errorstate*, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Unity::UnityTls::unitytls_x509verify_callback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_x509verify_callback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_x509verify_callback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (Mono::Unity::UnityTls::unitytls_x509verify_callback::*)(System::IAsyncResult*)>(&Mono::Unity::UnityTls::unitytls_x509verify_callback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_x509verify_callback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

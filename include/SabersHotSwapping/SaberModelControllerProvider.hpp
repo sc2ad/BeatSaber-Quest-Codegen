@@ -115,28 +115,68 @@ namespace SabersHotSwapping {
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SaberModelControllerProvider*, "SabersHotSwapping", "SaberModelControllerProvider");
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::add_controllerChangedEvent
 // Il2CppName: add_controllerChangedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)(System::Action*)>(&SabersHotSwapping::SaberModelControllerProvider::add_controllerChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "add_controllerChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::remove_controllerChangedEvent
 // Il2CppName: remove_controllerChangedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)(System::Action*)>(&SabersHotSwapping::SaberModelControllerProvider::remove_controllerChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "remove_controllerChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::GetSaber
 // Il2CppName: GetSaber
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberModelController* (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetSaber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::GetNext
 // Il2CppName: GetNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::GetPrev
 // Il2CppName: GetPrev
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetPrev)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberModelController* (SabersHotSwapping::SaberModelControllerProvider::*)(GlobalNamespace::SaberModelController*)>(&SabersHotSwapping::SaberModelControllerProvider::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberModelController*>()});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

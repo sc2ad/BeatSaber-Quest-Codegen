@@ -32,7 +32,17 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServer", "IMasterServerReliableRequest");
 // Writing MetadataGetter for method: MasterServer::IMasterServerReliableRequest::get_requestId
 // Il2CppName: get_requestId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::IMasterServerReliableRequest::*)()>(&MasterServer::IMasterServerReliableRequest::get_requestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerReliableRequest*), "get_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::IMasterServerReliableRequest::WithRequestId
 // Il2CppName: WithRequestId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableRequest* (MasterServer::IMasterServerReliableRequest::*)(uint)>(&MasterServer::IMasterServerReliableRequest::WithRequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerReliableRequest*), "WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};

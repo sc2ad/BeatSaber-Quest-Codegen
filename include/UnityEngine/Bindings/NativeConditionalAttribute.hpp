@@ -59,10 +59,20 @@ namespace UnityEngine::Bindings {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::set_Condition
 // Il2CppName: set_Condition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeConditionalAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeConditionalAttribute::set_Condition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeConditionalAttribute*), "set_Condition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::set_Enabled
 // Il2CppName: set_Enabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeConditionalAttribute::*)(bool)>(&UnityEngine::Bindings::NativeConditionalAttribute::set_Enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeConditionalAttribute*), "set_Enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

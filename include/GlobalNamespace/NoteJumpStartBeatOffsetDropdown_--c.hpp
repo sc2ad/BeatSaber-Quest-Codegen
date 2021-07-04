@@ -61,10 +61,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*, "", "NoteJumpStartBeatOffsetDropdown/<>c");
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::$Start$b__7_0
 // Il2CppName: <Start>b__7_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::*)(System::Tuple_2<float, ::Il2CppString*>*)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::$Start$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Tuple_2<float, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

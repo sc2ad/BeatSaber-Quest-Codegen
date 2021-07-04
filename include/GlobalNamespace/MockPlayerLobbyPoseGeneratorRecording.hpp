@@ -56,4 +56,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*, 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::SendPoses
 // Il2CppName: SendPoses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::SendPoses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

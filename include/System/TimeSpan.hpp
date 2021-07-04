@@ -254,97 +254,252 @@ DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::TimeSpan::get_Ticks
 // Il2CppName: get_Ticks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::TimeSpan::*)()>(&System::TimeSpan::get_Ticks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Ticks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_Hours
 // Il2CppName: get_Hours
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Hours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_Minutes
 // Il2CppName: get_Minutes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Minutes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_Seconds
 // Il2CppName: get_Seconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Seconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_TotalHours
 // Il2CppName: get_TotalHours
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalHours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_TotalMilliseconds
 // Il2CppName: get_TotalMilliseconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalMilliseconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_TotalMinutes
 // Il2CppName: get_TotalMinutes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalMinutes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_TotalSeconds
 // Il2CppName: get_TotalSeconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalSeconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Add
 // Il2CppName: Add
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Add)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)(::Il2CppObject*)>(&System::TimeSpan::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::CompareTo
 // Il2CppName: CompareTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::CompareTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromDays
 // Il2CppName: FromDays
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromDays)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Duration
 // Il2CppName: Duration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)()>(&System::TimeSpan::Duration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromHours
 // Il2CppName: FromHours
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromHours)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Interval
 // Il2CppName: Interval
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double, int)>(&System::TimeSpan::Interval)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Interval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromMilliseconds
 // Il2CppName: FromMilliseconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromMilliseconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromMinutes
 // Il2CppName: FromMinutes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromMinutes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Negate
 // Il2CppName: Negate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)()>(&System::TimeSpan::Negate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromSeconds
 // Il2CppName: FromSeconds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromSeconds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Subtract
 // Il2CppName: Subtract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Subtract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::FromTicks
 // Il2CppName: FromTicks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(int64_t)>(&System::TimeSpan::FromTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::TimeToTicks
 // Il2CppName: TimeToTicks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&System::TimeSpan::TimeToTicks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "TimeToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)(::Il2CppString*)>(&System::TimeSpan::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)(::Il2CppString*, System::IFormatProvider*)>(&System::TimeSpan::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::GetLegacyFormatMode
 // Il2CppName: GetLegacyFormatMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::TimeSpan::GetLegacyFormatMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "GetLegacyFormatMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::get_LegacyMode
 // Il2CppName: get_LegacyMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::TimeSpan::get_LegacyMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_LegacyMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::TimeSpan::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TimeSpan::*)(::Il2CppObject*)>(&System::TimeSpan::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)()>(&System::TimeSpan::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::TimeSpan::operator-
 // Il2CppName: op_Subtraction
 // Cannot perform method pointer template specialization from operators!

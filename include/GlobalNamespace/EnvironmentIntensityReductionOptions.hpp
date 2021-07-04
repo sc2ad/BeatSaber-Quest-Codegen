@@ -142,10 +142,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::Co
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand
 // Il2CppName: get_compressExpand
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_compressExpand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings
 // Il2CppName: get_rotateRings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_rotateRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -85,10 +85,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::get_State
 // Il2CppName: get_State
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::StreamingContextStates (System::Runtime::Serialization::StreamingContext::*)()>(&System::Runtime::Serialization::StreamingContext::get_State)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::StreamingContext::*)(::Il2CppObject*)>(&System::Runtime::Serialization::StreamingContext::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::StreamingContext::*)()>(&System::Runtime::Serialization::StreamingContext::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

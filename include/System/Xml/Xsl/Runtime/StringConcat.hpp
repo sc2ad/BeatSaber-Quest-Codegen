@@ -95,13 +95,33 @@ namespace System::Xml::Xsl::Runtime {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::Clear
 // Il2CppName: Clear
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::Clear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::GetResult
 // Il2CppName: GetResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::GetResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter
 // Il2CppName: ConcatNoDelimiter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Xsl::Runtime::StringConcat::*)(::Il2CppString*)>(&System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "ConcatNoDelimiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

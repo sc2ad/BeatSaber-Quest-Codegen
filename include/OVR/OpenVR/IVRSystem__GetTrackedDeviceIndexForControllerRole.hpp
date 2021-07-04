@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControll
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::*)(OVR::OpenVR::ETrackedControllerRole)>(&OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedControllerRole>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::*)(OVR::OpenVR::ETrackedControllerRole, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedControllerRole>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

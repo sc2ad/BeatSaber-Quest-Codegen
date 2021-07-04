@@ -144,19 +144,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue
 // Il2CppName: TriggerValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::TriggerValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::VerticalAxisValue
 // Il2CppName: VerticalAxisValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::VerticalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::HorizontalAxisValue
 // Il2CppName: HorizontalAxisValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::HorizontalAxisValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::MenuButtonDown
 // Il2CppName: MenuButtonDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VRControllersInputManager::*)()>(&GlobalNamespace::VRControllersInputManager::MenuButtonDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "MenuButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::MenuButton
 // Il2CppName: MenuButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VRControllersInputManager::*)()>(&GlobalNamespace::VRControllersInputManager::MenuButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "MenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -86,10 +86,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValue
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current
 // Il2CppName: get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -67,13 +67,28 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderBindingFinalizer::$$c*, "Zenject", "ProviderBindingFinalizer/<>c");
 // Writing MetadataGetter for method: Zenject::ProviderBindingFinalizer::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ProviderBindingFinalizer::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProviderBindingFinalizer::$$c::$GetScope$b__7_0
 // Il2CppName: <GetScope>b__7_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::ProviderBindingFinalizer::$$c::*)(System::Type*)>(&Zenject::ProviderBindingFinalizer::$$c::$GetScope$b__7_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer::$$c*), "<GetScope>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0
 // Il2CppName: <FinalizeBinding>b__8_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::ProviderBindingFinalizer::$$c::*)(System::Type*)>(&Zenject::ProviderBindingFinalizer::$$c::$FinalizeBinding$b__8_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer::$$c*), "<FinalizeBinding>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ProviderBindingFinalizer::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

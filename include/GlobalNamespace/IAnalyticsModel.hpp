@@ -49,19 +49,49 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnalyticsModel*, "", "IAnalyticsModel");
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::get_supportsOpenDataPrivacyPage
 // Il2CppName: get_supportsOpenDataPrivacyPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IAnalyticsModel::*)()>(&GlobalNamespace::IAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::OpenDataPrivacyPage
 // Il2CppName: OpenDataPrivacyPage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IAnalyticsModel::*)()>(&GlobalNamespace::IAnalyticsModel::OpenDataPrivacyPage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::LogEvent
 // Il2CppName: LogEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IAnalyticsModel::LogEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::LogClick
 // Il2CppName: LogClick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IAnalyticsModel::LogClick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::LogImpression
 // Il2CppName: LogImpression
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IAnalyticsModel::LogImpression)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::LogExposure
 // Il2CppName: LogExposure
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IAnalyticsModel::LogExposure)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};

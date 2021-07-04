@@ -54,13 +54,33 @@ namespace System::Security::Cryptography {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable, "System.Security.Cryptography", "CryptoStream/HopToThreadPoolAwaitable");
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetAwaiter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted
 // Il2CppName: get_IsCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::OnCompleted
 // Il2CppName: OnCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)(System::Action*)>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::OnCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetResult
 // Il2CppName: GetResult
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetResult)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

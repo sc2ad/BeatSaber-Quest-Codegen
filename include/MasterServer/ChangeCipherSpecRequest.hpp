@@ -58,10 +58,20 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ChangeCipherSpecRequest*, "MasterServer", "ChangeCipherSpecRequest");
 // Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::get_pool
 // Il2CppName: get_pool
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ChangeCipherSpecRequest*>* (*)()>(&MasterServer::ChangeCipherSpecRequest::get_pool)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ChangeCipherSpecRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::Release
 // Il2CppName: Release
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ChangeCipherSpecRequest::*)()>(&MasterServer::ChangeCipherSpecRequest::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ChangeCipherSpecRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

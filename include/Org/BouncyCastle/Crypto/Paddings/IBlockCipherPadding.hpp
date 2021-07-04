@@ -41,10 +41,25 @@ namespace Org::BouncyCastle::Crypto::Paddings {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::AddPadding
 // Il2CppName: AddPadding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::AddPadding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCount
 // Il2CppName: PadCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};

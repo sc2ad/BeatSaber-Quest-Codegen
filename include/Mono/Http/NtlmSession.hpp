@@ -64,7 +64,12 @@ namespace Mono::Http {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate
 // Il2CppName: Authenticate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (Mono::Http::NtlmSession::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&Mono::Http::NtlmSession::Authenticate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmSession*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

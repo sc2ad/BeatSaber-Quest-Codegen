@@ -31,4 +31,9 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm*, "UnityEngine", "WWWForm");
 // Writing MetadataGetter for method: UnityEngine::WWWForm::get_DefaultEncoding
 // Il2CppName: get_DefaultEncoding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&UnityEngine::WWWForm::get_DefaultEncoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

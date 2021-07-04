@@ -67,10 +67,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, "", "DlcPromoExperimentDataSO/MusicPackPromoInfo");
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack
 // Il2CppName: get_previewBeatmapLevelPack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PreviewBeatmapLevelPackSO* (GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_previewBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage
 // Il2CppName: get_bannerImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_bannerImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*), "get_bannerImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

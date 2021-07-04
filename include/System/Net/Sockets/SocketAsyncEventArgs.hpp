@@ -229,62 +229,157 @@ namespace System::Net::Sockets {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_AcceptSocket
 // Il2CppName: get_AcceptSocket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::get_AcceptSocket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "get_AcceptSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_AcceptSocket
 // Il2CppName: set_AcceptSocket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::SocketAsyncEventArgs::set_AcceptSocket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_AcceptSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_BufferList
 // Il2CppName: get_BufferList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::get_BufferList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "get_BufferList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_BytesTransferred
 // Il2CppName: set_BytesTransferred
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(int)>(&System::Net::Sockets::SocketAsyncEventArgs::set_BytesTransferred)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_BytesTransferred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_Count
 // Il2CppName: get_Count
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::get_Count)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_LastOperation
 // Il2CppName: set_LastOperation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncOperation)>(&System::Net::Sockets::SocketAsyncEventArgs::set_LastOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_LastOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncOperation>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_SendPacketsSendSize
 // Il2CppName: set_SendPacketsSendSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(int)>(&System::Net::Sockets::SocketAsyncEventArgs::set_SendPacketsSendSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_SendPacketsSendSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_SocketError
 // Il2CppName: get_SocketError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketError (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::get_SocketError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "get_SocketError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_SocketError
 // Il2CppName: set_SocketError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::Net::Sockets::SocketError)>(&System::Net::Sockets::SocketAsyncEventArgs::set_SocketError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_SocketError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_UserToken
 // Il2CppName: get_UserToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::get_UserToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "get_UserToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::set_UserToken
 // Il2CppName: set_UserToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(::Il2CppObject*)>(&System::Net::Sockets::SocketAsyncEventArgs::set_UserToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "set_UserToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::add_Completed
 // Il2CppName: add_Completed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)>(&System::Net::Sockets::SocketAsyncEventArgs::add_Completed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "add_Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::remove_Completed
 // Il2CppName: remove_Completed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)>(&System::Net::Sockets::SocketAsyncEventArgs::remove_Completed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "remove_Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(bool)>(&System::Net::Sockets::SocketAsyncEventArgs::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::SetLastOperation
 // Il2CppName: SetLastOperation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncOperation)>(&System::Net::Sockets::SocketAsyncEventArgs::SetLastOperation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "SetLastOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncOperation>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Complete
 // Il2CppName: Complete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::Complete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::OnCompleted
 // Il2CppName: OnCompleted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::Sockets::SocketAsyncEventArgs::OnCompleted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::SocketAsyncEventArgs::*)()>(&System::Net::Sockets::SocketAsyncEventArgs::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::SocketAsyncEventArgs*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

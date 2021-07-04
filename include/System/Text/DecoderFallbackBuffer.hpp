@@ -71,28 +71,68 @@ namespace System::Text {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::Fallback
 // Il2CppName: Fallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderFallbackBuffer::Fallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::GetNextChar
 // Il2CppName: GetNextChar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::DecoderFallbackBuffer::*)()>(&System::Text::DecoderFallbackBuffer::GetNextChar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)()>(&System::Text::DecoderFallbackBuffer::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalReset
 // Il2CppName: InternalReset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)()>(&System::Text::DecoderFallbackBuffer::InternalReset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "InternalReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalInitialize
 // Il2CppName: InternalInitialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)(uint8_t*, ::Il2CppChar*)>(&System::Text::DecoderFallbackBuffer::InternalInitialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "InternalInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::Array<uint8_t>*, uint8_t*, ::Il2CppChar*&)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderFallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive
 // Il2CppName: ThrowLastBytesRecursive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)(::Array<uint8_t>*)>(&System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "ThrowLastBytesRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

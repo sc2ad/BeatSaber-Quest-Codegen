@@ -85,10 +85,25 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetReferenceUILabelRestriction*, "UnityEng
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset
 // Il2CppName: ValidateAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AssetReferenceUILabelRestriction::*)(UnityEngine::Object*)>(&UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetReferenceUILabelRestriction*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset
 // Il2CppName: ValidateAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AssetReferenceUILabelRestriction::*)(::Il2CppString*)>(&UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetReferenceUILabelRestriction*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetReferenceUILabelRestriction::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AssetReferenceUILabelRestriction::*)()>(&UnityEngine::AssetReferenceUILabelRestriction::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetReferenceUILabelRestriction*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

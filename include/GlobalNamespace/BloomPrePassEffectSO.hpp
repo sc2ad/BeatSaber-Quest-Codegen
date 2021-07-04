@@ -100,22 +100,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectSO*, "", "BloomPrePassEffectSO");
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureEffect
 // Il2CppName: get_textureEffect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TextureEffectSO* (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureWidth
 // Il2CppName: get_textureWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureHeight
 // Il2CppName: get_textureHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_fov
 // Il2CppName: get_fov
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_fov)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_fov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_linesWidth
 // Il2CppName: get_linesWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_linesWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_linesWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_toneMapping
 // Il2CppName: get_toneMapping
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ToneMapping (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_toneMapping)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

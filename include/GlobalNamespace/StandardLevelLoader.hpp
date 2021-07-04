@@ -31,4 +31,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelLoader*, "", "StandardLevelLoader");
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelLoader::LoadStandardLevelSaveData
 // Il2CppName: LoadStandardLevelSaveData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelLoader::LoadStandardLevelSaveData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelLoader*), "LoadStandardLevelSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

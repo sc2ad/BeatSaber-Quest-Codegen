@@ -70,7 +70,12 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazy
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel
 // Il2CppName: WithKernel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel
 // Il2CppName: WithKernel
 // Cannot write MetadataGetter for generic methods!

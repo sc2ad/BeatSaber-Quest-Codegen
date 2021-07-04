@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonL
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::get_SubContainerCreatorBindInfo
 // Il2CppName: get_SubContainerCreatorBindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerCreatorBindInfo* (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::get_SubContainerCreatorBindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "get_SubContainerCreatorBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::set_SubContainerCreatorBindInfo
 // Il2CppName: set_SubContainerCreatorBindInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::SubContainerCreatorBindInfo*)>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::set_SubContainerCreatorBindInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "set_SubContainerCreatorBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithDefaultGameObjectParent
 // Il2CppName: WithDefaultGameObjectParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithDefaultGameObjectParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithDefaultGameObjectParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

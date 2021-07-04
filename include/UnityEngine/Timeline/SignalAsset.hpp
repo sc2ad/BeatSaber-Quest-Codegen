@@ -60,13 +60,28 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::add_OnEnableCallback
 // Il2CppName: add_OnEnableCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&UnityEngine::Timeline::SignalAsset::add_OnEnableCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "add_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback
 // Il2CppName: remove_OnEnableCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "remove_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalAsset::*)()>(&UnityEngine::Timeline::SignalAsset::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -54,10 +54,20 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::IPEndPointComparer*, "LiteNetLib", "NetManager/IPEndPointComparer");
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetManager::IPEndPointComparer::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::IPEndPointComparer::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager::IPEndPointComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetManager::IPEndPointComparer::*)(System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::IPEndPointComparer::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager::IPEndPointComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

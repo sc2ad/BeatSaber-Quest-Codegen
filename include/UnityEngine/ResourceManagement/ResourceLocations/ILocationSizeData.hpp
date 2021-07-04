@@ -36,4 +36,9 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*, "UnityEngine.ResourceManagement.ResourceLocations", "ILocationSizeData");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData::ComputeSize
 // Il2CppName: ComputeSize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceManager*)>(&UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData::ComputeSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*), "ComputeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>()});
+  }
+};

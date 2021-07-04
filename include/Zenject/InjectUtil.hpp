@@ -117,7 +117,12 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");
 // Writing MetadataGetter for method: Zenject::InjectUtil::CreateArgList
 // Il2CppName: CreateArgList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::InjectUtil::CreateArgList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil*), "CreateArgList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InjectUtil::CreateTypePair
 // Il2CppName: CreateTypePair
 // Cannot write MetadataGetter for generic methods!
@@ -141,4 +146,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::InjectUtil::PopValueWithType
 // Il2CppName: PopValueWithType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ::Il2CppObject*&)>(&Zenject::InjectUtil::PopValueWithType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil*), "PopValueWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+  }
+};

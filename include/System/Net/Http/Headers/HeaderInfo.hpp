@@ -145,25 +145,65 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HeaderInfo*, "System.Net.Http
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::CreateCollection
 // Il2CppName: CreateCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::HeaderInfo::*)(System::Net::Http::Headers::HttpHeaders*)>(&System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "CreateCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HttpHeaders*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::get_CustomToString
 // Il2CppName: get_CustomToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<::Il2CppObject*, ::Il2CppString*>* (System::Net::Http::Headers::HeaderInfo::*)()>(&System::Net::Http::Headers::HeaderInfo::get_CustomToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "get_CustomToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::set_CustomToString
 // Il2CppName: set_CustomToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HeaderInfo::*)(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)>(&System::Net::Http::Headers::HeaderInfo::set_CustomToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "set_CustomToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppObject*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::get_Separator
 // Il2CppName: get_Separator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::HeaderInfo::*)()>(&System::Net::Http::Headers::HeaderInfo::get_Separator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "get_Separator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::AddToCollection
 // Il2CppName: AddToCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::Http::Headers::HeaderInfo::AddToCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "AddToCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::CreateCollection
 // Il2CppName: CreateCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::HeaderInfo::*)(System::Net::Http::Headers::HttpHeaders*, System::Net::Http::Headers::HeaderInfo*)>(&System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "CreateCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HttpHeaders*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::ToStringCollection
 // Il2CppName: ToStringCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppObject*)>(&System::Net::Http::Headers::HeaderInfo::ToStringCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "ToStringCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::TryParse
 // Il2CppName: TryParse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppString*, ::Il2CppObject*&)>(&System::Net::Http::Headers::HeaderInfo::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+  }
+};

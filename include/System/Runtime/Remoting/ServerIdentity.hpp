@@ -141,34 +141,89 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runti
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_ObjectType
 // Il2CppName: get_ObjectType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime
 // Il2CppName: StartTrackingLifetime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "StartTrackingLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired
 // Il2CppName: OnLifetimeExpired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "OnLifetimeExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::AttachServerObject
 // Il2CppName: AttachServerObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::AttachServerObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AttachServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_Lease
 // Il2CppName: get_Lease
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::Lease* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Lease)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Lease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_Context
 // Il2CppName: get_Context
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Context)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::set_Context
 // Il2CppName: set_Context
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::set_Context)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::SyncObjectProcessMessage
 // Il2CppName: SyncObjectProcessMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::ServerIdentity::SyncObjectProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "SyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::AsyncObjectProcessMessage
 // Il2CppName: AsyncObjectProcessMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::ServerIdentity::AsyncObjectProcessMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AsyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::DisposeServerObject
 // Il2CppName: DisposeServerObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::DisposeServerObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "DisposeServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::CreateObjRef
 // Il2CppName: CreateObjRef
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ServerIdentity::*)(System::Type*)>(&System::Runtime::Remoting::ServerIdentity::CreateObjRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

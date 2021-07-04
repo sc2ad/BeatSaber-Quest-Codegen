@@ -29,7 +29,17 @@ namespace UnityEngine::AddressableAssets {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::IKeyEvaluator::get_RuntimeKey
 // Il2CppName: get_RuntimeKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::AddressableAssets::IKeyEvaluator::*)()>(&UnityEngine::AddressableAssets::IKeyEvaluator::get_RuntimeKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::IKeyEvaluator*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::IKeyEvaluator::RuntimeKeyIsValid
 // Il2CppName: RuntimeKeyIsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::IKeyEvaluator::*)()>(&UnityEngine::AddressableAssets::IKeyEvaluator::RuntimeKeyIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::IKeyEvaluator*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

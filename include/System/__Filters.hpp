@@ -56,16 +56,36 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::__Filters*, "System", "__Filters");
 // Writing MetadataGetter for method: System::__Filters::FilterAttribute
 // Il2CppName: FilterAttribute
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterAttribute)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__Filters::FilterName
 // Il2CppName: FilterName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__Filters::FilterIgnoreCase
 // Il2CppName: FilterIgnoreCase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterIgnoreCase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::__Filters::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::__Filters::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::__Filters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::__Filters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

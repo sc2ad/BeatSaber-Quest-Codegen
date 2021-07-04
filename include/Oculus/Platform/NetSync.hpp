@@ -38,7 +38,17 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");
 // Writing MetadataGetter for method: Oculus::Platform::NetSync::SetConnectionStatusChangedNotificationCallback
 // Il2CppName: SetConnectionStatusChangedNotificationCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback*)>(&Oculus::Platform::NetSync::SetConnectionStatusChangedNotificationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::NetSync*), "SetConnectionStatusChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::NetSync::SetSessionsChangedNotificationCallback
 // Il2CppName: SetSessionsChangedNotificationCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback*)>(&Oculus::Platform::NetSync::SetSessionsChangedNotificationCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::NetSync*), "SetSessionsChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback*>()});
+  }
+};

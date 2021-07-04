@@ -65,10 +65,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

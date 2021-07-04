@@ -91,10 +91,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles
 // Il2CppName: get_intersectingObstacles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "get_intersectingObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint
 // Il2CppName: GetObstaclesContainingPoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)(UnityEngine::Vector3, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "GetObstaclesContainingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

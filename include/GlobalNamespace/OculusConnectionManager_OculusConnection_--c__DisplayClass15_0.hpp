@@ -72,7 +72,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, "", "OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0");
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::$Ping$b__0
 // Il2CppName: <Ping>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::$Ping$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*), "<Ping>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

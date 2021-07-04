@@ -78,4 +78,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChec
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::LateDispose
 // Il2CppName: LateDispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolCleanupChecker::*)()>(&Zenject::PoolCleanupChecker::LateDispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -171,35 +171,80 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Http.Headers", "HttpHeaders");
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::HttpHeaders::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::AddInternal
 // Il2CppName: AddInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, System::Net::Http::Headers::HeaderInfo*, bool)>(&System::Net::Http::Headers::HttpHeaders::AddInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation
 // Il2CppName: TryAddWithoutValidation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryAddWithoutValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::TryCheckName
 // Il2CppName: TryCheckName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Net::Http::Headers::HeaderInfo*&)>(&System::Net::Http::Headers::HttpHeaders::TryCheckName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryCheckName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>* (System::Net::Http::Headers::HttpHeaders::*)()>(&System::Net::Http::Headers::HttpHeaders::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Net::Http::Headers::HttpHeaders::*)()>(&System::Net::Http::Headers::HttpHeaders::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetSingleHeaderString
 // Il2CppName: GetSingleHeaderString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&System::Net::Http::Headers::HttpHeaders::GetSingleHeaderString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetSingleHeaderString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetAllHeaderValues
 // Il2CppName: GetAllHeaderValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (System::Net::Http::Headers::HttpHeaders::*)(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, System::Net::Http::Headers::HeaderInfo*)>(&System::Net::Http::Headers::HttpHeaders::GetAllHeaderValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetAllHeaderValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HttpHeaders::HeaderBucket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetKnownHeaderKind
 // Il2CppName: GetKnownHeaderKind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpHeaderKind (*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpHeaders::GetKnownHeaderKind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetKnownHeaderKind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetValue
 // Il2CppName: GetValue
 // Cannot write MetadataGetter for generic methods!
@@ -215,4 +260,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Htt
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::HttpHeaders::*)()>(&System::Net::Http::Headers::HttpHeaders::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

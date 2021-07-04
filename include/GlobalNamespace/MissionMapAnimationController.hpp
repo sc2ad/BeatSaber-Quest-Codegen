@@ -152,25 +152,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired
 // Il2CppName: get_animatedUpdateIsRequired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission
 // Il2CppName: ScrollToTopMostNotClearedMission
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "ScrollToTopMostNotClearedMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared
 // Il2CppName: UpdateMissionMapAfterMissionWasCleared
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionMapAnimationController::*)(bool, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapAfterMissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine
 // Il2CppName: UpdateMissionMapCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine
 // Il2CppName: UpdateClearedNodeStateCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateClearedNodeStateCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine
 // Il2CppName: UpdateStageCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateStageCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateNodesAndConnectionCoroutine
 // Il2CppName: UpdateNodesAndConnectionCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::UpdateNodesAndConnectionCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateNodesAndConnectionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

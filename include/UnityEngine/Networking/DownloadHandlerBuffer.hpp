@@ -58,17 +58,37 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::Create
 // Il2CppName: Create
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerBuffer*)>(&UnityEngine::Networking::DownloadHandlerBuffer::Create)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandlerBuffer*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::InternalCreateBuffer
 // Il2CppName: InternalCreateBuffer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::InternalCreateBuffer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "InternalCreateBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::InternalGetData
 // Il2CppName: InternalGetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::InternalGetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "InternalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::GetData
 // Il2CppName: GetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::GetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

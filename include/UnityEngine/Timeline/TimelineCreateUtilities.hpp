@@ -67,16 +67,41 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities*, "UnityEngine.Timeline", "TimelineCreateUtilities");
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::GenerateUniqueActorName
 // Il2CppName: GenerateUniqueActorName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineCreateUtilities::GenerateUniqueActorName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities*), "GenerateUniqueActorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::SaveAssetIntoObject
 // Il2CppName: SaveAssetIntoObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineCreateUtilities::SaveAssetIntoObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities*), "SaveAssetIntoObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::RemoveAssetFromObject
 // Il2CppName: RemoveAssetFromObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineCreateUtilities::RemoveAssetFromObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities*), "RemoveAssetFromObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::CreateAnimationClipForTrack
 // Il2CppName: CreateAnimationClipForTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::Il2CppString*, UnityEngine::Timeline::TrackAsset*, bool)>(&UnityEngine::Timeline::TimelineCreateUtilities::CreateAnimationClipForTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities*), "CreateAnimationClipForTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::ValidateParentTrack
 // Il2CppName: ValidateParentTrack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TrackAsset*, System::Type*)>(&UnityEngine::Timeline::TimelineCreateUtilities::ValidateParentTrack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities*), "ValidateParentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

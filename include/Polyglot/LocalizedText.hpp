@@ -71,19 +71,44 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedText*, "Polyglot", "LocalizedText");
 // Writing MetadataGetter for method: Polyglot::LocalizedText::SetText
 // Il2CppName: SetText
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedText::*)(UnityEngine::UI::Text*, ::Il2CppString*)>(&Polyglot::LocalizedText::SetText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizedText::UpdateAlignment
 // Il2CppName: UpdateAlignment
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedText::*)(UnityEngine::UI::Text*, Polyglot::LanguageDirection)>(&Polyglot::LocalizedText::UpdateAlignment)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizedText::IsOppositeDirection
 // Il2CppName: IsOppositeDirection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor, Polyglot::LanguageDirection)>(&Polyglot::LocalizedText::IsOppositeDirection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsOppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizedText::IsAlignmentRight
 // Il2CppName: IsAlignmentRight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor)>(&Polyglot::LocalizedText::IsAlignmentRight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizedText::IsAlignmentLeft
 // Il2CppName: IsAlignmentLeft
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor)>(&Polyglot::LocalizedText::IsAlignmentLeft)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+  }
+};
 // Writing MetadataGetter for method: Polyglot::LocalizedText::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

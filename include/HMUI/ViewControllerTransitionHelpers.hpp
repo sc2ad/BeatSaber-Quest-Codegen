@@ -103,22 +103,52 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoPresentTransition
 // Il2CppName: DoPresentTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoPresentTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "DoPresentTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoDismissTransition
 // Il2CppName: DoDismissTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoDismissTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "DoDismissTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition
 // Il2CppName: DoHorizontalTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "DoHorizontalTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoVerticalTransition
 // Il2CppName: DoVerticalTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoVerticalTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "DoVerticalTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::ImmediateTransition
 // Il2CppName: ImmediateTransition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HMUI::ViewController*, HMUI::ViewController*)>(&HMUI::ViewControllerTransitionHelpers::ImmediateTransition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "ImmediateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::AnimationCoroutine
 // Il2CppName: AnimationCoroutine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Action_1<float>*)>(&HMUI::ViewControllerTransitionHelpers::AnimationCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

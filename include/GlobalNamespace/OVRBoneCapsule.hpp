@@ -92,22 +92,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_BoneIndex
 // Il2CppName: get_BoneIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_BoneIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_BoneIndex
 // Il2CppName: set_BoneIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(int16_t)>(&GlobalNamespace::OVRBoneCapsule::set_BoneIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody
 // Il2CppName: get_CapsuleRigidbody
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody
 // Il2CppName: set_CapsuleRigidbody
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::Rigidbody*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider
 // Il2CppName: get_CapsuleCollider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CapsuleCollider* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider
 // Il2CppName: set_CapsuleCollider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

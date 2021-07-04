@@ -63,10 +63,25 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::_PollNextOverlayEventPacked*, "Val
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::_PollNextOverlayEventPacked::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::_PollNextOverlayEventPacked::*)(uint64_t, Valve::VR::VREvent_t_Packed&, uint)>(&Valve::VR::CVROverlay::_PollNextOverlayEventPacked::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay::_PollNextOverlayEventPacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::_PollNextOverlayEventPacked::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::CVROverlay::_PollNextOverlayEventPacked::*)(uint64_t, Valve::VR::VREvent_t_Packed&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::CVROverlay::_PollNextOverlayEventPacked::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay::_PollNextOverlayEventPacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::_PollNextOverlayEventPacked::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::_PollNextOverlayEventPacked::*)(Valve::VR::VREvent_t_Packed&, System::IAsyncResult*)>(&Valve::VR::CVROverlay::_PollNextOverlayEventPacked::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay::_PollNextOverlayEventPacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

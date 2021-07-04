@@ -138,61 +138,141 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync_Internal
 // Il2CppName: LoadFromFileAsync_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFileAsync_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFileAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync
 // Il2CppName: LoadFromFileAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync
 // Il2CppName: LoadFromFileAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::Il2CppString*, uint)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFile_Internal
 // Il2CppName: LoadFromFile_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::Il2CppString*, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFile_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFile_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFile
 // Il2CppName: LoadFromFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::Il2CppString*)>(&UnityEngine::AssetBundle::LoadFromFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset
 // Il2CppName: LoadAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::Il2CppString*)>(&UnityEngine::AssetBundle::LoadAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset
 // Il2CppName: LoadAsset
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset
 // Il2CppName: LoadAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset_Internal
 // Il2CppName: LoadAsset_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAsset_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAsset_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetAsync
 // Il2CppName: LoadAssetAsync
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetAsync
 // Il2CppName: LoadAssetAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAssetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync
 // Il2CppName: LoadAssetWithSubAssetsAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAssetWithSubAssetsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAllAssetsAsync
 // Il2CppName: LoadAllAssetsAsync
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAllAssetsAsync
 // Il2CppName: LoadAllAssetsAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(System::Type*)>(&UnityEngine::AssetBundle::LoadAllAssetsAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAllAssetsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetAsync_Internal
 // Il2CppName: LoadAssetAsync_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAssetAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::Unload
 // Il2CppName: Unload
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AssetBundle::*)(bool)>(&UnityEngine::AssetBundle::Unload)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllAssetNames
 // Il2CppName: GetAllAssetNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllAssetNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllAssetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllScenePaths
 // Il2CppName: GetAllScenePaths
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllScenePaths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllScenePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal
 // Il2CppName: LoadAssetWithSubAssetsAsync_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::Il2CppString*, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAssetWithSubAssetsAsync_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

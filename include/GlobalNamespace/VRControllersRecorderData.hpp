@@ -129,16 +129,41 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::AddKeyFrame
 // Il2CppName: AddKeyFrame
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorderData::*)(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*, float)>(&GlobalNamespace::VRControllersRecorderData::AddKeyFrame)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "AddKeyFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::GetPositionAndRotation
 // Il2CppName: GetPositionAndRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderData::PositionAndRotation (GlobalNamespace::VRControllersRecorderData::*)(int, UnityEngine::XR::XRNode, int)>(&GlobalNamespace::VRControllersRecorderData::GetPositionAndRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "GetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::GetLerpedPositionAndRotation
 // Il2CppName: GetLerpedPositionAndRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderData::PositionAndRotation (GlobalNamespace::VRControllersRecorderData::*)(int, float, UnityEngine::XR::XRNode, int)>(&GlobalNamespace::VRControllersRecorderData::GetLerpedPositionAndRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "GetLerpedPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::GetFrameTime
 // Il2CppName: GetFrameTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersRecorderData::*)(int)>(&GlobalNamespace::VRControllersRecorderData::GetFrameTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "GetFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes
 // Il2CppName: get_numberOfKeyframes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::VRControllersRecorderData::*)()>(&GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "get_numberOfKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

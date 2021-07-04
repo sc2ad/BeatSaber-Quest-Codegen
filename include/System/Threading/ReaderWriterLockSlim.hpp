@@ -370,146 +370,381 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::InitializeThreadCounts
 // Il2CppName: InitializeThreadCounts
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::InitializeThreadCounts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "InitializeThreadCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::IsRWEntryEmpty
 // Il2CppName: IsRWEntryEmpty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::ReaderWriterCount*)>(&System::Threading::ReaderWriterLockSlim::IsRWEntryEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "IsRWEntryEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::IsRwHashEntryChanged
 // Il2CppName: IsRwHashEntryChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterCount*)>(&System::Threading::ReaderWriterLockSlim::IsRwHashEntryChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "IsRwHashEntryChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterCount*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::GetThreadRWCount
 // Il2CppName: GetThreadRWCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ReaderWriterCount* (System::Threading::ReaderWriterLockSlim::*)(bool)>(&System::Threading::ReaderWriterLockSlim::GetThreadRWCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "GetThreadRWCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::EnterReadLock
 // Il2CppName: EnterReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::EnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "EnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterReadLock
 // Il2CppName: TryEnterReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(int)>(&System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterReadLock
 // Il2CppName: TryEnterReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterReadLockCore
 // Il2CppName: TryEnterReadLockCore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterReadLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::EnterWriteLock
 // Il2CppName: EnterWriteLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::EnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "EnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterWriteLock
 // Il2CppName: TryEnterWriteLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(int)>(&System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterWriteLock
 // Il2CppName: TryEnterWriteLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterWriteLockCore
 // Il2CppName: TryEnterWriteLockCore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterWriteLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterWriteLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::EnterUpgradeableReadLock
 // Il2CppName: EnterUpgradeableReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::EnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "EnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock
 // Il2CppName: TryEnterUpgradeableReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(int)>(&System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock
 // Il2CppName: TryEnterUpgradeableReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore
 // Il2CppName: TryEnterUpgradeableReadLockCore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::ReaderWriterLockSlim::TimeoutTracker)>(&System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "TryEnterUpgradeableReadLockCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitReadLock
 // Il2CppName: ExitReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitWriteLock
 // Il2CppName: ExitWriteLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitWriteLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitWriteLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitUpgradeableReadLock
 // Il2CppName: ExitUpgradeableReadLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitUpgradeableReadLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitUpgradeableReadLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::LazyCreateEvent
 // Il2CppName: LazyCreateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*&, bool)>(&System::Threading::ReaderWriterLockSlim::LazyCreateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "LazyCreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::WaitOnEvent
 // Il2CppName: WaitOnEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)(System::Threading::EventWaitHandle*, uint&, System::Threading::ReaderWriterLockSlim::TimeoutTracker, bool)>(&System::Threading::ReaderWriterLockSlim::WaitOnEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "WaitOnEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::EventWaitHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ReaderWriterLockSlim::TimeoutTracker>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters
 // Il2CppName: ExitAndWakeUpAppropriateWaiters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters
 // Il2CppName: ExitAndWakeUpAppropriateWaitersPreferringWriters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateWaitersPreferringWriters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters
 // Il2CppName: ExitAndWakeUpAppropriateReadWaiters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitAndWakeUpAppropriateReadWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::IsWriterAcquired
 // Il2CppName: IsWriterAcquired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::IsWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "IsWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::SetWriterAcquired
 // Il2CppName: SetWriterAcquired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::SetWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "SetWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ClearWriterAcquired
 // Il2CppName: ClearWriterAcquired
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ClearWriterAcquired)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ClearWriterAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::SetWritersWaiting
 // Il2CppName: SetWritersWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::SetWritersWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "SetWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ClearWritersWaiting
 // Il2CppName: ClearWritersWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ClearWritersWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ClearWritersWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::SetUpgraderWaiting
 // Il2CppName: SetUpgraderWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::SetUpgraderWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "SetUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ClearUpgraderWaiting
 // Il2CppName: ClearUpgraderWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ClearUpgraderWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ClearUpgraderWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::GetNumReaders
 // Il2CppName: GetNumReaders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::GetNumReaders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "GetNumReaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::EnterMyLock
 // Il2CppName: EnterMyLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::EnterMyLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "EnterMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::EnterMyLockSpin
 // Il2CppName: EnterMyLockSpin
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::EnterMyLockSpin)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "EnterMyLockSpin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::ExitMyLock
 // Il2CppName: ExitMyLock
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::ExitMyLock)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "ExitMyLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::SpinWait
 // Il2CppName: SpinWait
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Threading::ReaderWriterLockSlim::SpinWait)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::*)(bool)>(&System::Threading::ReaderWriterLockSlim::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_IsReadLockHeld
 // Il2CppName: get_IsReadLockHeld
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_IsReadLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_IsReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld
 // Il2CppName: get_IsUpgradeableReadLockHeld
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_IsUpgradeableReadLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_IsWriteLockHeld
 // Il2CppName: get_IsWriteLockHeld
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_IsWriteLockHeld)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_IsWriteLockHeld", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_RecursiveReadCount
 // Il2CppName: get_RecursiveReadCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_RecursiveReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_RecursiveReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_RecursiveUpgradeCount
 // Il2CppName: get_RecursiveUpgradeCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_RecursiveUpgradeCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_RecursiveUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_RecursiveWriteCount
 // Il2CppName: get_RecursiveWriteCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_RecursiveWriteCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_RecursiveWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_WaitingReadCount
 // Il2CppName: get_WaitingReadCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_WaitingReadCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_WaitingReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_WaitingUpgradeCount
 // Il2CppName: get_WaitingUpgradeCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_WaitingUpgradeCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_WaitingUpgradeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::get_WaitingWriteCount
 // Il2CppName: get_WaitingWriteCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::*)()>(&System::Threading::ReaderWriterLockSlim::get_WaitingWriteCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim*), "get_WaitingWriteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

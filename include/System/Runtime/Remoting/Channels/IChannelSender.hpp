@@ -41,4 +41,9 @@ namespace System::Runtime::Remoting::Channels {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelSender*, "System.Runtime.Remoting.Channels", "IChannelSender");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink
 // Il2CppName: CreateMessageSink
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::IChannelSender::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IChannelSender*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};

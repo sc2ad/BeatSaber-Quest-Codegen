@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::UnmanagedRe
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IntPtr, int, System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IntPtr, int, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IAsyncResult*)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

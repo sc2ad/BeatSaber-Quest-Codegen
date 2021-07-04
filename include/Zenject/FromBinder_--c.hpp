@@ -149,40 +149,100 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c*, "Zenject", "FromBinder/<>c");
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::FromBinder::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentsOnRoot$b__33_0
 // Il2CppName: <FromComponentsOnRoot>b__33_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::FromBinder::$$c::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c::$FromComponentsOnRoot$b__33_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentsOnRoot>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentOnRoot$b__34_0
 // Il2CppName: <FromComponentOnRoot>b__34_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::FromBinder::$$c::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c::$FromComponentOnRoot$b__34_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentOnRoot>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromNewComponentOnRoot$b__38_0
 // Il2CppName: <FromNewComponentOnRoot>b__38_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::FromBinder::$$c::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c::$FromNewComponentOnRoot$b__38_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromNewComponentOnRoot>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0
 // Il2CppName: <FromNewComponentOnNewPrefabResource>b__40_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromNewComponentOnNewPrefabResource$b__40_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromNewComponentOnNewPrefabResource>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0
 // Il2CppName: <FromNewComponentOnNewPrefab>b__42_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromNewComponentOnNewPrefab$b__42_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromNewComponentOnNewPrefab>b__42_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentInNewPrefab$b__44_0
 // Il2CppName: <FromComponentInNewPrefab>b__44_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromComponentInNewPrefab$b__44_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentInNewPrefab>b__44_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0
 // Il2CppName: <FromComponentsInNewPrefab>b__46_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromComponentsInNewPrefab$b__46_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentsInNewPrefab>b__46_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0
 // Il2CppName: <FromComponentInNewPrefabResource>b__48_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromComponentInNewPrefabResource$b__48_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentInNewPrefabResource>b__48_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0
 // Il2CppName: <FromComponentsInNewPrefabResource>b__50_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(System::Type*, Zenject::IPrefabInstantiator*)>(&Zenject::FromBinder::$$c::$FromComponentsInNewPrefabResource$b__50_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentsInNewPrefabResource>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IPrefabInstantiator*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentSibling$b__63_0
 // Il2CppName: <FromComponentSibling>b__63_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::FromBinder::$$c::$FromComponentSibling$b__63_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentSibling>b__63_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::$FromComponentsSibling$b__64_0
 // Il2CppName: <FromComponentsSibling>b__64_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::$$c::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::FromBinder::$$c::$FromComponentsSibling$b__64_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c*), "<FromComponentsSibling>b__64_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

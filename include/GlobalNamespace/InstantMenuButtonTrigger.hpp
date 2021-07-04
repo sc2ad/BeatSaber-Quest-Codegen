@@ -82,13 +82,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent
 // Il2CppName: add_menuButtonTriggeredEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)(System::Action*)>(&GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent
 // Il2CppName: remove_menuButtonTriggeredEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)(System::Action*)>(&GlobalNamespace::InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::Tick
 // Il2CppName: Tick
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)()>(&GlobalNamespace::InstantMenuButtonTrigger::Tick)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

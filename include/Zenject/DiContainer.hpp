@@ -1770,109 +1770,279 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DiContainer::get_Settings
 // Il2CppName: get_Settings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_Settings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::set_Settings
 // Il2CppName: set_Settings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::ZenjectSettings*)>(&Zenject::DiContainer::set_Settings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectSettings*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_SingletonMarkRegistry
 // Il2CppName: get_SingletonMarkRegistry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::SingletonMarkRegistry* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_SingletonMarkRegistry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_SingletonMarkRegistry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_AllProviders
 // Il2CppName: get_AllProviders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::IProvider*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AllProviders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AllProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstallDefaultBindings
 // Il2CppName: InstallDefaultBindings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::InstallDefaultBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstallDefaultBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateLazyBinding
 // Il2CppName: CreateLazyBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::CreateLazyBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateLazyBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::QueueForValidate
 // Il2CppName: QueueForValidate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::IValidatable*)>(&Zenject::DiContainer::QueueForValidate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "QueueForValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IValidatable*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ShouldInheritBinding
 // Il2CppName: ShouldInheritBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(Zenject::BindStatement*, Zenject::DiContainer*)>(&Zenject::DiContainer::ShouldInheritBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ShouldInheritBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_ContextTransform
 // Il2CppName: get_ContextTransform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ContextTransform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ContextTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_AssertOnNewGameObjects
 // Il2CppName: get_AssertOnNewGameObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AssertOnNewGameObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AssertOnNewGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::set_AssertOnNewGameObjects
 // Il2CppName: set_AssertOnNewGameObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::set_AssertOnNewGameObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_AssertOnNewGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_InheritedDefaultParent
 // Il2CppName: get_InheritedDefaultParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_InheritedDefaultParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_InheritedDefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_DefaultParent
 // Il2CppName: get_DefaultParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_DefaultParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_DefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::set_DefaultParent
 // Il2CppName: set_DefaultParent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(UnityEngine::Transform*)>(&Zenject::DiContainer::set_DefaultParent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_DefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_ParentContainers
 // Il2CppName: get_ParentContainers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ParentContainers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ParentContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_AncestorContainers
 // Il2CppName: get_AncestorContainers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AncestorContainers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AncestorContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_ChecksForCircularDependencies
 // Il2CppName: get_ChecksForCircularDependencies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ChecksForCircularDependencies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ChecksForCircularDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_IsValidating
 // Il2CppName: get_IsValidating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_IsValidating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_IsValidating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_IsInstalling
 // Il2CppName: get_IsInstalling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_IsInstalling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_IsInstalling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::set_IsInstalling
 // Il2CppName: set_IsInstalling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::set_IsInstalling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_IsInstalling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::get_AllContracts
 // Il2CppName: get_AllContracts
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::BindingId>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AllContracts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AllContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveRoots
 // Il2CppName: ResolveRoots
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ResolveRoots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveDependencyRoots
 // Il2CppName: ResolveDependencyRoots
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ResolveDependencyRoots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveDependencyRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ValidateFullResolve
 // Il2CppName: ValidateFullResolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ValidateFullResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ValidateFullResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::FlushValidationQueue
 // Il2CppName: FlushValidationQueue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlushValidationQueue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlushValidationQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateSubContainer
 // Il2CppName: CreateSubContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::CreateSubContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::QueueForInject
 // Il2CppName: QueueForInject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*)>(&Zenject::DiContainer::QueueForInject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "QueueForInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::LazyInject
 // Il2CppName: LazyInject
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateSubContainer
 // Il2CppName: CreateSubContainer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::CreateSubContainer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::RegisterProvider
 // Il2CppName: RegisterProvider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, Zenject::BindingCondition*, Zenject::IProvider*, bool)>(&Zenject::DiContainer::RegisterProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "RegisterProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindingCondition*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetProviderMatches
 // Il2CppName: GetProviderMatches
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetProviderMatches)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetProviderMatches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::TryGetUniqueProvider
 // Il2CppName: TryGetUniqueProvider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer::ProviderInfo* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::TryGetUniqueProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryGetUniqueProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::FlattenInheritanceChain
 // Il2CppName: FlattenInheritanceChain
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlattenInheritanceChain)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlattenInheritanceChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetLocalProviders
 // Il2CppName: GetLocalProviders
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetLocalProviders)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetLocalProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetProvidersForContract
 // Il2CppName: GetProvidersForContract
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, Zenject::InjectSources, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetProvidersForContract)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetProvidersForContract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Install
 // Il2CppName: Install
 // Cannot write MetadataGetter for generic methods!
@@ -1881,100 +2051,245 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveAll
 // Il2CppName: ResolveAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveAll
 // Il2CppName: ResolveAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::ResolveAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CheckForInstallWarning
 // Il2CppName: CheckForInstallWarning
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::CheckForInstallWarning)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CheckForInstallWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveType
 // Il2CppName: ResolveType
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveType
 // Il2CppName: ResolveType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveType
 // Il2CppName: ResolveType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveTypeAll
 // Il2CppName: ResolveTypeAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveTypeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveTypeAll
 // Il2CppName: ResolveTypeAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveTypeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveTypeAll
 // Il2CppName: ResolveTypeAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveTypeAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::BindingId)>(&Zenject::DiContainer::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::SafeGetInstances
 // Il2CppName: SafeGetInstances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::DiContainer::ProviderInfo*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::SafeGetInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "SafeGetInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer::ProviderInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Decorate
 // Il2CppName: Decorate
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::GetDecoratedInstances
 // Il2CppName: GetDecoratedInstances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::GetDecoratedInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetDecoratedInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::TryGetDecoratorProvider
 // Il2CppName: TryGetDecoratorProvider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::IDecoratorProvider* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::TryGetDecoratorProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryGetDecoratorProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetContainerHeirarchyDistance
 // Il2CppName: GetContainerHeirarchyDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::DiContainer::*)(Zenject::DiContainer*)>(&Zenject::DiContainer::GetContainerHeirarchyDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetContainerHeirarchyDistance
 // Il2CppName: GetContainerHeirarchyDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (Zenject::DiContainer::*)(Zenject::DiContainer*, int)>(&Zenject::DiContainer::GetContainerHeirarchyDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetDependencyContracts
 // Il2CppName: GetDependencyContracts
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::GetDependencyContracts
 // Il2CppName: GetDependencyContracts
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::GetDependencyContracts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetDependencyContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateInternal
 // Il2CppName: InstantiateInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, bool, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InstantiateInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectExplicit
 // Il2CppName: InjectExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InjectExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectExplicit
 // Il2CppName: InjectExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CallInjectMethodsTopDown
 // Il2CppName: CallInjectMethodsTopDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, Zenject::InjectTypeInfo*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, bool)>(&Zenject::DiContainer::CallInjectMethodsTopDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CallInjectMethodsTopDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectMembersTopDown
 // Il2CppName: InjectMembersTopDown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, Zenject::InjectTypeInfo*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, bool)>(&Zenject::DiContainer::InjectMembersTopDown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectMembersTopDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectExplicitInternal
 // Il2CppName: InjectExplicitInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectExplicitInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectExplicitInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateAndParentPrefabResource
 // Il2CppName: CreateAndParentPrefabResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*, Zenject::InjectContext*, bool&)>(&Zenject::DiContainer::CreateAndParentPrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateAndParentPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetPrefabAsGameObject
 // Il2CppName: GetPrefabAsGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*)>(&Zenject::DiContainer::GetPrefabAsGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetPrefabAsGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateAndParentPrefab
 // Il2CppName: CreateAndParentPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*, Zenject::InjectContext*, bool&)>(&Zenject::DiContainer::CreateAndParentPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateAndParentPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateEmptyGameObject
 // Il2CppName: CreateEmptyGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::CreateEmptyGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateEmptyGameObject
 // Il2CppName: CreateEmptyGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(Zenject::GameObjectCreationParameters*, Zenject::InjectContext*)>(&Zenject::DiContainer::CreateEmptyGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::GetTransformGroup
 // Il2CppName: GetTransformGroup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)(Zenject::GameObjectCreationParameters*, Zenject::InjectContext*)>(&Zenject::DiContainer::GetTransformGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::CreateTransformGroup
 // Il2CppName: CreateTransformGroup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::CreateTransformGroup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Instantiate
 // Il2CppName: Instantiate
 // Cannot write MetadataGetter for generic methods!
@@ -1983,10 +2298,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateComponent
 // Il2CppName: InstantiateComponent
 // Cannot write MetadataGetter for generic methods!
@@ -1995,10 +2320,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateComponent
 // Il2CppName: InstantiateComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*)>(&Zenject::DiContainer::InstantiateComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateComponent
 // Il2CppName: InstantiateComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiateComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateComponentOnNewGameObject
 // Il2CppName: InstantiateComponentOnNewGameObject
 // Cannot write MetadataGetter for generic methods!
@@ -2013,28 +2348,68 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*)>(&Zenject::DiContainer::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResource
 // Il2CppName: InstantiatePrefabResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResource
 // Il2CppName: InstantiatePrefabResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResource
 // Il2CppName: InstantiatePrefabResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResource
 // Il2CppName: InstantiatePrefabResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponent
 // Il2CppName: InstantiatePrefabForComponent
 // Cannot write MetadataGetter for generic methods!
@@ -2055,10 +2430,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponent
 // Il2CppName: InstantiatePrefabForComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiatePrefabForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponent
 // Il2CppName: InstantiatePrefabForComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResourceForComponent
 // Il2CppName: InstantiatePrefabResourceForComponent
 // Cannot write MetadataGetter for generic methods!
@@ -2079,7 +2464,12 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResourceForComponent
 // Il2CppName: InstantiatePrefabResourceForComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateScriptableObjectResource
 // Il2CppName: InstantiateScriptableObjectResource
 // Cannot write MetadataGetter for generic methods!
@@ -2088,13 +2478,28 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateScriptableObjectResource
 // Il2CppName: InstantiateScriptableObjectResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*)>(&Zenject::DiContainer::InstantiateScriptableObjectResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateScriptableObjectResource
 // Il2CppName: InstantiateScriptableObjectResource
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiateScriptableObjectResource)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectGameObject
 // Il2CppName: InjectGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(UnityEngine::GameObject*)>(&Zenject::DiContainer::InjectGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectGameObjectForComponent
 // Il2CppName: InjectGameObjectForComponent
 // Cannot write MetadataGetter for generic methods!
@@ -2103,112 +2508,227 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectGameObjectForComponent
 // Il2CppName: InjectGameObjectForComponent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(UnityEngine::GameObject*, System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InjectGameObjectForComponent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectGameObjectForComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InjectGameObjectForComponentExplicit
 // Il2CppName: InjectGameObjectForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(UnityEngine::GameObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectGameObjectForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectGameObjectForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Inject
 // Il2CppName: Inject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*)>(&Zenject::DiContainer::Inject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Inject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Inject
 // Il2CppName: Inject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::Inject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Inject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Resolve
 // Il2CppName: Resolve
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveId
 // Il2CppName: ResolveId
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveId
 // Il2CppName: ResolveId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::TryResolve
 // Il2CppName: TryResolve
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::TryResolve
 // Il2CppName: TryResolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::TryResolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::TryResolveId
 // Il2CppName: TryResolveId
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::TryResolveId
 // Il2CppName: TryResolveId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::TryResolveId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryResolveId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveAll
 // Il2CppName: ResolveAll
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveAll
 // Il2CppName: ResolveAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveIdAll
 // Il2CppName: ResolveIdAll
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::ResolveIdAll
 // Il2CppName: ResolveIdAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveIdAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveIdAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindAll
 // Il2CppName: UnbindAll
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::UnbindAll)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Unbind
 // Il2CppName: Unbind
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Unbind
 // Il2CppName: Unbind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Unbind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Unbind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindId
 // Il2CppName: UnbindId
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindId
 // Il2CppName: UnbindId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::UnbindId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindInterfacesTo
 // Il2CppName: UnbindInterfacesTo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindInterfacesTo
 // Il2CppName: UnbindInterfacesTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::UnbindInterfacesTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindInterfacesTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Unbind
 // Il2CppName: Unbind
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Unbind
 // Il2CppName: Unbind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, System::Type*)>(&Zenject::DiContainer::Unbind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Unbind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindId
 // Il2CppName: UnbindId
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::UnbindId
 // Il2CppName: UnbindId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::UnbindId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBinding
 // Il2CppName: HasBinding
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBinding
 // Il2CppName: HasBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::HasBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBindingId
 // Il2CppName: HasBindingId
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBindingId
 // Il2CppName: HasBindingId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::HasBindingId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBindingId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBindingId
 // Il2CppName: HasBindingId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*, Zenject::InjectSources)>(&Zenject::DiContainer::HasBindingId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBindingId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::HasBinding
 // Il2CppName: HasBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::HasBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::FlushBindings
 // Il2CppName: FlushBindings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlushBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlushBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::FinalizeBinding
 // Il2CppName: FinalizeBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindStatement*)>(&Zenject::DiContainer::FinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::StartBinding
 // Il2CppName: StartBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::StartBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "StartBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Rebind
 // Il2CppName: Rebind
 // Cannot write MetadataGetter for generic methods!
@@ -2217,10 +2737,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Rebind
 // Il2CppName: Rebind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Rebind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::RebindId
 // Il2CppName: RebindId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::RebindId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "RebindId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Bind
 // Il2CppName: Bind
 // Cannot write MetadataGetter for generic methods!
@@ -2232,34 +2762,69 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::Bind
 // Il2CppName: Bind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(::Array<System::Type*>*)>(&Zenject::DiContainer::Bind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Bind
 // Il2CppName: Bind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::DiContainer::Bind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInternal
 // Il2CppName: BindInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(Zenject::BindInfo*, Zenject::BindStatement*)>(&Zenject::DiContainer::BindInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::Bind
 // Il2CppName: Bind
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(System::Action_1<Zenject::ConventionSelectTypesBinder*>*)>(&Zenject::DiContainer::Bind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::ConventionSelectTypesBinder*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInterfacesTo
 // Il2CppName: BindInterfacesTo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInterfacesTo
 // Il2CppName: BindInterfacesTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::BindInterfacesTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInterfacesTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInterfacesAndSelfTo
 // Il2CppName: BindInterfacesAndSelfTo
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInterfacesAndSelfTo
 // Il2CppName: BindInterfacesAndSelfTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::BindInterfacesAndSelfTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInterfacesAndSelfTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInstance
 // Il2CppName: BindInstance
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInstances
 // Il2CppName: BindInstances
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Array<::Il2CppObject*>*)>(&Zenject::DiContainer::BindInstances)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindFactoryInternal
 // Il2CppName: BindFactoryInternal
 // Cannot write MetadataGetter for generic methods!
@@ -2376,49 +2941,109 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateExplicit
 // Il2CppName: InstantiateExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateExplicit
 // Il2CppName: InstantiateExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, bool, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InstantiateExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateComponentExplicit
 // Il2CppName: InstantiateComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiateScriptableObjectResourceExplicit
 // Il2CppName: InstantiateScriptableObjectResourceExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateScriptableObjectResourceExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateScriptableObjectResourceExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit
 // Il2CppName: InstantiatePrefabResourceForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResourceForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit
 // Il2CppName: InstantiatePrefabResourceForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResourceForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponentExplicit
 // Il2CppName: InstantiatePrefabForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponentExplicit
 // Il2CppName: InstantiatePrefabForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::InstantiatePrefabForComponentExplicit
 // Il2CppName: InstantiatePrefabForComponentExplicit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindExecutionOrder
 // Il2CppName: BindExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindExecutionOrder
 // Il2CppName: BindExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindTickableExecutionOrder
 // Il2CppName: BindTickableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindTickableExecutionOrder
 // Il2CppName: BindTickableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindTickableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInitializableExecutionOrder
 // Il2CppName: BindInitializableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInitializableExecutionOrder
 // Il2CppName: BindInitializableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindInitializableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInitializableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindDisposableExecutionOrder
 // Il2CppName: BindDisposableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
@@ -2427,28 +3052,53 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindDisposableExecutionOrder
 // Il2CppName: BindDisposableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindDisposableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindDisposableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindLateDisposableExecutionOrder
 // Il2CppName: BindLateDisposableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindLateDisposableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindLateDisposableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindFixedTickableExecutionOrder
 // Il2CppName: BindFixedTickableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindFixedTickableExecutionOrder
 // Il2CppName: BindFixedTickableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindFixedTickableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindFixedTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindLateTickableExecutionOrder
 // Il2CppName: BindLateTickableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindLateTickableExecutionOrder
 // Il2CppName: BindLateTickableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindLateTickableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindLateTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::BindPoolableExecutionOrder
 // Il2CppName: BindPoolableExecutionOrder
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::DiContainer::BindPoolableExecutionOrder
 // Il2CppName: BindPoolableExecutionOrder
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindPoolableExecutionOrder)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindPoolableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::DiContainer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

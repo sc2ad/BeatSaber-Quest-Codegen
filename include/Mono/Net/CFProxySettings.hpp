@@ -82,11 +82,21 @@ namespace Mono::Net {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxySettings*, "Mono.Net", "CFProxySettings");
 // Writing MetadataGetter for method: Mono::Net::CFProxySettings::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFProxySettings::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFProxySettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::CFProxySettings::get_Dictionary
 // Il2CppName: get_Dictionary
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFDictionary* (Mono::Net::CFProxySettings::*)()>(&Mono::Net::CFProxySettings::get_Dictionary)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), "get_Dictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

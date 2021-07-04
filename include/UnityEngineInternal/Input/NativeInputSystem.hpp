@@ -80,19 +80,49 @@ namespace UnityEngineInternal::Input {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngineInternal::Input::NativeInputSystem::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate
 // Il2CppName: NotifyBeforeUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "NotifyBeforeUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputUpdateType>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate
 // Il2CppName: NotifyUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType, System::IntPtr)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "NotifyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputUpdateType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered
 // Il2CppName: NotifyDeviceDiscovered
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "NotifyDeviceDiscovered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate
 // Il2CppName: ShouldRunUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType, bool&)>(&UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "ShouldRunUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngineInternal::Input::NativeInputUpdateType>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback
 // Il2CppName: set_hasDeviceDiscoveredCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "set_hasDeviceDiscoveredCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

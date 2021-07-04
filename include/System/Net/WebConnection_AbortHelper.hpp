@@ -57,7 +57,12 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");
 // Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::Abort
 // Il2CppName: Abort
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::WebConnection::AbortHelper::Abort)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection::AbortHelper*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

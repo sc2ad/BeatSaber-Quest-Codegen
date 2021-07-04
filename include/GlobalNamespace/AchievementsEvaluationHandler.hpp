@@ -265,28 +265,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)()>(&GlobalNamespace::AchievementsEvaluationHandler::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)()>(&GlobalNamespace::AchievementsEvaluationHandler::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate
 // Il2CppName: HandleSoloFreePlayOverallStatsDataDidUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandleSoloFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate
 // Il2CppName: HandlePartyFreePlayOverallStatsDataDidUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandlePartyFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate
 // Il2CppName: HandleCampaignOverallStatsDataDidUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandleCampaignOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::ProcessMissionFinishData
 // Il2CppName: ProcessMissionFinishData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessMissionFinishData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessMissionFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData
 // Il2CppName: ProcessSoloFreePlayLevelFinishData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessSoloFreePlayLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::ProcessLevelFinishData
 // Il2CppName: ProcessLevelFinishData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessLevelFinishData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

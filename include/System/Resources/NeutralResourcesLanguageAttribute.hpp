@@ -61,7 +61,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "S
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Resources::NeutralResourcesLanguageAttribute::get_CultureName
 // Il2CppName: get_CultureName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::NeutralResourcesLanguageAttribute::*)()>(&System::Resources::NeutralResourcesLanguageAttribute::get_CultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::NeutralResourcesLanguageAttribute*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Resources::NeutralResourcesLanguageAttribute::get_Location
 // Il2CppName: get_Location
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::UltimateResourceFallbackLocation (System::Resources::NeutralResourcesLanguageAttribute::*)()>(&System::Resources::NeutralResourcesLanguageAttribute::get_Location)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::NeutralResourcesLanguageAttribute*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -58,22 +58,57 @@ namespace UnityEngine::Experimental::XR {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetDimensions
 // Il2CppName: TryGetDimensions
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensions)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "TryGetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetDimensionsInternal
 // Il2CppName: TryGetDimensionsInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensionsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "TryGetDimensionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::get_visible
 // Il2CppName: get_visible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Experimental::XR::Boundary::get_visible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::set_visible
 // Il2CppName: set_visible
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Experimental::XR::Boundary::set_visible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::get_configured
 // Il2CppName: get_configured
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Experimental::XR::Boundary::get_configured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "get_configured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetGeometry
 // Il2CppName: TryGetGeometry
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometry)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "TryGetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal
 // Il2CppName: TryGetGeometryScriptingInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::XR::Boundary*), "TryGetGeometryScriptingInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::XR::Boundary::Type>()});
+  }
+};

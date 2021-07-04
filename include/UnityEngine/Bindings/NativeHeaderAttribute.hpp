@@ -52,7 +52,12 @@ namespace UnityEngine::Bindings {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeHeaderAttribute::set_Header
 // Il2CppName: set_Header
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeHeaderAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeHeaderAttribute::set_Header)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeHeaderAttribute*), "set_Header", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeHeaderAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

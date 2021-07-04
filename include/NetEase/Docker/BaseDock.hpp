@@ -121,37 +121,92 @@ namespace NetEase::Docker {
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&NetEase::Docker::BaseDock::SetInitializeCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::Initialize
 // Il2CppName: Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)()>(&NetEase::Docker::BaseDock::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetLoginCallback
 // Il2CppName: SetLoginCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(System::Action_1<NetEase::Docker::LoginData>*)>(&NetEase::Docker::BaseDock::SetLoginCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::Login
 // Il2CppName: Login
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)()>(&NetEase::Docker::BaseDock::Login)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetLogoutCallback
 // Il2CppName: SetLogoutCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&NetEase::Docker::BaseDock::SetLogoutCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::Logout
 // Il2CppName: Logout
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)()>(&NetEase::Docker::BaseDock::Logout)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::UploadScore
 // Il2CppName: UploadScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(NetEase::Docker::UploadScoreData)>(&NetEase::Docker::BaseDock::UploadScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::WillProvideHighscore
 // Il2CppName: WillProvideHighscore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEase::Docker::BaseDock::*)()>(&NetEase::Docker::BaseDock::WillProvideHighscore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetHighscoreReceivedCallback
 // Il2CppName: SetHighscoreReceivedCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&NetEase::Docker::BaseDock::SetHighscoreReceivedCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::RequestHighscoreList
 // Il2CppName: RequestHighscoreList
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)(NetEase::Docker::RequestHighscoreData)>(&NetEase::Docker::BaseDock::RequestHighscoreList)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::UpdateLoop
 // Il2CppName: UpdateLoop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::BaseDock::*)()>(&NetEase::Docker::BaseDock::UpdateLoop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::BaseDock*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

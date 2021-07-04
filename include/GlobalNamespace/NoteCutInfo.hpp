@@ -144,13 +144,28 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_allIsOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_allIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allExceptSaberTypeIsOK
 // Il2CppName: get_allExceptSaberTypeIsOK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_allExceptSaberTypeIsOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_allExceptSaberTypeIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_failReason
 // Il2CppName: get_failReason
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutInfo::FailReason (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_failReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_failReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::NoteCutInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

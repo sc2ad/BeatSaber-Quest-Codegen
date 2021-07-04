@@ -41,7 +41,12 @@ namespace System::Runtime::CompilerServices {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CustomConstantAttribute*, "System.Runtime.CompilerServices", "CustomConstantAttribute");
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CustomConstantAttribute::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::CompilerServices::CustomConstantAttribute::*)()>(&System::Runtime::CompilerServices::CustomConstantAttribute::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::CustomConstantAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CustomConstantAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

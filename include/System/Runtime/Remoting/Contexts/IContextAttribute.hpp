@@ -39,7 +39,17 @@ namespace System::Runtime::Remoting::Contexts {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextAttribute*, "System.Runtime.Remoting.Contexts", "IContextAttribute");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextAttribute::GetPropertiesForNewContext
 // Il2CppName: GetPropertiesForNewContext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextAttribute::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::GetPropertiesForNewContext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextAttribute*), "GetPropertiesForNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextAttribute::IsContextOK
 // Il2CppName: IsContextOK
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextAttribute::*)(System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::IsContextOK)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextAttribute*), "IsContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};

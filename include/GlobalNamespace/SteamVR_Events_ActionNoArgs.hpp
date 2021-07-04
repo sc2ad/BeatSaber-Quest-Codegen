@@ -65,4 +65,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "Stea
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::Enable
 // Il2CppName: Enable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::ActionNoArgs::*)(bool)>(&GlobalNamespace::SteamVR_Events::ActionNoArgs::Enable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::ActionNoArgs*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

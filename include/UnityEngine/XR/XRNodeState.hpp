@@ -135,37 +135,97 @@ namespace UnityEngine::XR {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_uniqueID
 // Il2CppName: set_uniqueID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(uint64_t)>(&UnityEngine::XR::XRNodeState::set_uniqueID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_uniqueID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::get_nodeType
 // Il2CppName: get_nodeType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (UnityEngine::XR::XRNodeState::*)()>(&UnityEngine::XR::XRNodeState::get_nodeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "get_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_nodeType
 // Il2CppName: set_nodeType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(UnityEngine::XR::XRNode)>(&UnityEngine::XR::XRNodeState::set_nodeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_tracked
 // Il2CppName: set_tracked
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(bool)>(&UnityEngine::XR::XRNodeState::set_tracked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_tracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetPosition
 // Il2CppName: TryGetPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetRotation
 // Il2CppName: TryGetRotation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGetRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetVelocity
 // Il2CppName: TryGetVelocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAngularVelocity
 // Il2CppName: TryGetAngularVelocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAcceleration
 // Il2CppName: TryGetAcceleration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAcceleration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAngularAcceleration
 // Il2CppName: TryGetAngularAcceleration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularAcceleration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGet
 // Il2CppName: TryGet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3, UnityEngine::XR::AvailableTrackingData, UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGet
 // Il2CppName: TryGet
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion, UnityEngine::XR::AvailableTrackingData, UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};

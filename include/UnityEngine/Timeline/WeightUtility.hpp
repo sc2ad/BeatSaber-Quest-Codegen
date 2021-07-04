@@ -31,4 +31,9 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::WeightUtility*, "UnityEngine.Timeline", "WeightUtility");
 // Writing MetadataGetter for method: UnityEngine::Timeline::WeightUtility::NormalizeMixer
 // Il2CppName: NormalizeMixer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::WeightUtility::NormalizeMixer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::WeightUtility*), "NormalizeMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+  }
+};

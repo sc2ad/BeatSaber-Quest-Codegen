@@ -29,10 +29,25 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");
 // Writing MetadataGetter for method: UnityEngine::Timeline::ITimeControl::SetTime
 // Il2CppName: SetTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)(double)>(&UnityEngine::Timeline::ITimeControl::SetTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ITimeControl::OnControlTimeStart
 // Il2CppName: OnControlTimeStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)()>(&UnityEngine::Timeline::ITimeControl::OnControlTimeStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "OnControlTimeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ITimeControl::OnControlTimeStop
 // Il2CppName: OnControlTimeStop
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)()>(&UnityEngine::Timeline::ITimeControl::OnControlTimeStop)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "OnControlTimeStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

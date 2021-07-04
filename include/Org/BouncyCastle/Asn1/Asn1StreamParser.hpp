@@ -99,16 +99,41 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1StreamParser*, "Org.BouncyCa
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1StreamParser::ReadIndef
 // Il2CppName: ReadIndef
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::IAsn1Convertible* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(int)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadIndef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadIndef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1StreamParser::ReadTaggedObject
 // Il2CppName: ReadTaggedObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(bool, int)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadTaggedObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadTaggedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1StreamParser::ReadObject
 // Il2CppName: ReadObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::IAsn1Convertible* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)()>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1StreamParser::Set00Check
 // Il2CppName: Set00Check
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(bool)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::Set00Check)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "Set00Check", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1StreamParser::ReadVector
 // Il2CppName: ReadVector
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)()>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadVector)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

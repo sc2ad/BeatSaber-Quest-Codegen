@@ -23,4 +23,9 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IHasDefault::SetDefaultValues
 // Il2CppName: SetDefaultValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::IHasDefault::*)()>(&UnityEngine::ProBuilder::IHasDefault::SetDefaultValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IHasDefault*), "SetDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

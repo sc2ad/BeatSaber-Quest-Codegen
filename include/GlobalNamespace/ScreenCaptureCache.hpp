@@ -116,10 +116,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureC
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::GetLastScreenshot
 // Il2CppName: GetLastScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (GlobalNamespace::ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType)>(&GlobalNamespace::ScreenCaptureCache::GetLastScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureCache*), "GetLastScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenCaptureCache::ScreenshotType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::StoreScreenshot
 // Il2CppName: StoreScreenshot
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*)>(&GlobalNamespace::ScreenCaptureCache::StoreScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureCache*), "StoreScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenCaptureCache::ScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -35,4 +35,9 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ICustomFormatter*, "System", "ICustomFormatter");
 // Writing MetadataGetter for method: System::ICustomFormatter::Format
 // Il2CppName: Format
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ICustomFormatter::*)(::Il2CppString*, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ICustomFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+  }
+};

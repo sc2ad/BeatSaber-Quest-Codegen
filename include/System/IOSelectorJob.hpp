@@ -89,10 +89,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)()>(&System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)(System::Threading::ThreadAbortException*)>(&System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IOSelectorJob::MarkDisposed
 // Il2CppName: MarkDisposed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)()>(&System::IOSelectorJob::MarkDisposed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "MarkDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

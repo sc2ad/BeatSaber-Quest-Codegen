@@ -53,25 +53,65 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool&, ::Il2CppString*&)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ParseCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::CreateCanonicalName
 // Il2CppName: CreateCanonicalName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint16_t*)>(&System::IPv6AddressHelper::CreateCanonicalName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "CreateCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::FindCompressionRange
 // Il2CppName: FindCompressionRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (*)(uint16_t*)>(&System::IPv6AddressHelper::FindCompressionRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "FindCompressionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ShouldHaveIpv4Embedded
 // Il2CppName: ShouldHaveIpv4Embedded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t*)>(&System::IPv6AddressHelper::ShouldHaveIpv4Embedded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ShouldHaveIpv4Embedded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::InternalIsValid
 // Il2CppName: InternalIsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&, bool)>(&System::IPv6AddressHelper::InternalIsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "InternalIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValid
 // Il2CppName: IsValid
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValid)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValidStrict
 // Il2CppName: IsValidStrict
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValidStrict)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValidStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::IPv6AddressHelper::Parse
 // Il2CppName: Parse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, uint16_t*, int, ::Il2CppString*&)>(&System::IPv6AddressHelper::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};

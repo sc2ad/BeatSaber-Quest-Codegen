@@ -113,25 +113,65 @@ DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::TermInfoReader::ReadHeader
 // Il2CppName: ReadHeader
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, int&)>(&System::TermInfoReader::ReadHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "ReadHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::ReadNames
 // Il2CppName: ReadNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, int&)>(&System::TermInfoReader::ReadNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "ReadNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoReader::*)(System::TermInfoNumbers)>(&System::TermInfoReader::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoNumbers>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::Get
 // Il2CppName: Get
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::Get)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::GetStringBytes
 // Il2CppName: GetStringBytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::GetStringBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::GetInt16
 // Il2CppName: GetInt16
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::TermInfoReader::*)(::Array<uint8_t>*, int)>(&System::TermInfoReader::GetInt16)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::GetString
 // Il2CppName: GetString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(::Array<uint8_t>*, int)>(&System::TermInfoReader::GetString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::TermInfoReader::GetStringBytes
 // Il2CppName: GetStringBytes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::TermInfoReader::*)(::Array<uint8_t>*, int)>(&System::TermInfoReader::GetStringBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "Je
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName
 // Il2CppName: get_FormatParameterName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::StringFormatMethodAttribute::*)()>(&JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "get_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName
 // Il2CppName: set_FormatParameterName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "set_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

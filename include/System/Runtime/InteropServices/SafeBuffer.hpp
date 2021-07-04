@@ -41,7 +41,17 @@ namespace System::Runtime::InteropServices {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeBuffer::AcquirePointer
 // Il2CppName: AcquirePointer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeBuffer::*)(uint8_t*&)>(&System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeBuffer*), "AcquirePointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeBuffer::ReleasePointer
 // Il2CppName: ReleasePointer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeBuffer::*)()>(&System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeBuffer*), "ReleasePointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -62,10 +62,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, "", "ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword");
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword
 // Il2CppName: get_keyword
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*), "get_keyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_resultsEnvironmentController
 // Il2CppName: get_resultsEnvironmentController
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_resultsEnvironmentController)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*), "get_resultsEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

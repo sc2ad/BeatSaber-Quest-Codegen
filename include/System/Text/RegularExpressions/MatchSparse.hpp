@@ -70,4 +70,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.T
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::MatchSparse::get_Groups
 // Il2CppName: get_Groups
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::GroupCollection* (System::Text::RegularExpressions::MatchSparse::*)()>(&System::Text::RegularExpressions::MatchSparse::get_Groups)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchSparse*), "get_Groups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

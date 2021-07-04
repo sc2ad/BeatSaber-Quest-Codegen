@@ -115,22 +115,52 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_Signals
 // Il2CppName: get_Signals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings::SignalSettings* (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_Signals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_Signals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationErrorResponse
 // Il2CppName: get_ValidationErrorResponse
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ValidationErrorResponses (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationErrorResponse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationErrorResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationRootResolveMethod
 // Il2CppName: get_ValidationRootResolveMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::RootResolveMethods (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationRootResolveMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationRootResolveMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall
 // Il2CppName: get_DisplayWarningWhenResolvingDuringInstall
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_DisplayWarningWhenResolvingDuringInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit
 // Il2CppName: get_EnsureDeterministicDestructionOrderOnApplicationQuit
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_EnsureDeterministicDestructionOrderOnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ZenjectSettings::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

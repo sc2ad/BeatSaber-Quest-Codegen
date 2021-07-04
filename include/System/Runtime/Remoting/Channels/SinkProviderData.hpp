@@ -75,7 +75,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::SinkProviderData*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::SinkProviderData::get_Children
 // Il2CppName: get_Children
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Runtime::Remoting::Channels::SinkProviderData::*)()>(&System::Runtime::Remoting::Channels::SinkProviderData::get_Children)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::SinkProviderData*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::SinkProviderData::get_Properties
 // Il2CppName: get_Properties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Channels::SinkProviderData::*)()>(&System::Runtime::Remoting::Channels::SinkProviderData::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::SinkProviderData*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

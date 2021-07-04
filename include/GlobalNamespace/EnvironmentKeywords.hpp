@@ -62,11 +62,21 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentKeywords::get_environmentKeywords
 // Il2CppName: get_environmentKeywords
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* (GlobalNamespace::EnvironmentKeywords::*)()>(&GlobalNamespace::EnvironmentKeywords::get_environmentKeywords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentKeywords*), "get_environmentKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentKeywords::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentKeywords::HasKeyword
 // Il2CppName: HasKeyword
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnvironmentKeywords::*)(::Il2CppString*)>(&GlobalNamespace::EnvironmentKeywords::HasKeyword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentKeywords*), "HasKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

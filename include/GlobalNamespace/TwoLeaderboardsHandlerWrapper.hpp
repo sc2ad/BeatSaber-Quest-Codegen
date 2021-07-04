@@ -88,13 +88,33 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "Two
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0
 // Il2CppName: <GetScores>b__5_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TwoLeaderboardsHandlerWrapper*), "<GetScores>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::$UploadScore$b__6_0
 // Il2CppName: <UploadScore>b__6_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$UploadScore$b__6_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TwoLeaderboardsHandlerWrapper*), "<UploadScore>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::GetScores
 // Il2CppName: GetScores
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::GetScores)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TwoLeaderboardsHandlerWrapper*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::UploadScore
 // Il2CppName: UploadScore
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::UploadScore)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TwoLeaderboardsHandlerWrapper*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+  }
+};

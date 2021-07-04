@@ -299,61 +299,156 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData*, "", "BeatmapObjectSpawnMovementData");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_spawnAheadTime
 // Il2CppName: get_spawnAheadTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_spawnAheadTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_spawnAheadTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_moveDuration
 // Il2CppName: get_moveDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_moveDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDuration
 // Il2CppName: get_jumpDuration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDuration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteLinesDistance
 // Il2CppName: get_noteLinesDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteLinesDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_noteLinesDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_verticalLayersDistance
 // Il2CppName: get_verticalLayersDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_verticalLayersDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_verticalLayersDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDistance
 // Il2CppName: get_jumpDistance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDistance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_jumpDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteJumpMovementSpeed
 // Il2CppName: get_noteJumpMovementSpeed
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteJumpMovementSpeed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, float, float, float, float, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(float, float)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::GetObstacleSpawnData
 // Il2CppName: GetObstacleSpawnData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetObstacleSpawnData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetObstacleSpawnData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::GetJumpingNoteSpawnData
 // Il2CppName: GetJumpingNoteSpawnData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetJumpingNoteSpawnData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetJumpingNoteSpawnData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::GetNoteOffset
 // Il2CppName: GetNoteOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetNoteOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::Get2DNoteOffset
 // Il2CppName: Get2DNoteOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Get2DNoteOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "Get2DNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 // Il2CppName: JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, float)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayer
 // Il2CppName: HighestJumpPosYForLineLayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "HighestJumpPosYForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayerWithoutJumpOffset
 // Il2CppName: HighestJumpPosYForLineLayerWithoutJumpOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayerWithoutJumpOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "HighestJumpPosYForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::LineYPosForLineLayer
 // Il2CppName: LineYPosForLineLayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::LineYPosForLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "LineYPosForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayer
 // Il2CppName: NoteJumpGravityForLineLayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayerWithoutJumpOffset
 // Il2CppName: NoteJumpGravityForLineLayerWithoutJumpOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayerWithoutJumpOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -57,16 +57,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction*, "", "PosePrediction");
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPose
 // Il2CppName: PredictPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, float, UnityEngine::Pose, float, float)>(&GlobalNamespace::PosePrediction::PredictPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosePrediction*), "PredictPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::InterpolatePose
 // Il2CppName: InterpolatePose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::PosePrediction::InterpolatePose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosePrediction*), "InterpolatePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPoseSerializable
 // Il2CppName: PredictPoseSerializable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, float, GlobalNamespace::PoseSerializable, float, float)>(&GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosePrediction*), "PredictPoseSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::InterpolatePoseSerializable
 // Il2CppName: InterpolatePoseSerializable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, float)>(&GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosePrediction*), "InterpolatePoseSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

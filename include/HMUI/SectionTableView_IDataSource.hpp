@@ -44,16 +44,41 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::RowHeight
 // Il2CppName: RowHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::SectionTableView::IDataSource::*)()>(&HMUI::SectionTableView::IDataSource::RowHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "RowHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::NumberOfSections
 // Il2CppName: NumberOfSections
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SectionTableView::IDataSource::*)()>(&HMUI::SectionTableView::IDataSource::NumberOfSections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "NumberOfSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::NumberOfRowsInSection
 // Il2CppName: NumberOfRowsInSection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SectionTableView::IDataSource::*)(int)>(&HMUI::SectionTableView::IDataSource::NumberOfRowsInSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "NumberOfRowsInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::CellForSectionHeader
 // Il2CppName: CellForSectionHeader
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, bool)>(&HMUI::SectionTableView::IDataSource::CellForSectionHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "CellForSectionHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::CellForRowInSection
 // Il2CppName: CellForRowInSection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, int)>(&HMUI::SectionTableView::IDataSource::CellForRowInSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "CellForRowInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -57,10 +57,25 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::*)()>(&GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::*)(System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

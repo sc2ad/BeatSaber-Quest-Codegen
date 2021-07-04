@@ -79,13 +79,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownClientTypeEntry*, "Sy
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl
 // Il2CppName: get_ApplicationUrl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ApplicationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType
 // Il2CppName: get_ObjectType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl
 // Il2CppName: get_ObjectUrl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ObjectUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -69,4 +69,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::PasswordFinder*,
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::PasswordFinder::GetPassword
 // Il2CppName: GetPassword
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (GlobalNamespace::X509CertificateUtility::PasswordFinder::*)()>(&GlobalNamespace::X509CertificateUtility::PasswordFinder::GetPassword)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::PasswordFinder*), "GetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

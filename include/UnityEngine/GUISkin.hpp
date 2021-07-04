@@ -410,178 +410,468 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
 // Writing MetadataGetter for method: UnityEngine::GUISkin::OnEnable
 // Il2CppName: OnEnable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::CleanupRoots
 // Il2CppName: CleanupRoots
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUISkin::CleanupRoots)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "CleanupRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_font
 // Il2CppName: get_font
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_font)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_font
 // Il2CppName: set_font
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::Font*)>(&UnityEngine::GUISkin::set_font)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_box
 // Il2CppName: get_box
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_box)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_box
 // Il2CppName: set_box
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_box)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_label
 // Il2CppName: get_label
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_label)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_label
 // Il2CppName: set_label
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_label)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_textField
 // Il2CppName: get_textField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_textField
 // Il2CppName: set_textField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_textArea
 // Il2CppName: get_textArea
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textArea)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_textArea
 // Il2CppName: set_textArea
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textArea)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_button
 // Il2CppName: get_button
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_button)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_button
 // Il2CppName: set_button
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_button)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_toggle
 // Il2CppName: get_toggle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_toggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_toggle
 // Il2CppName: set_toggle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_toggle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_window
 // Il2CppName: get_window
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_window)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_window
 // Il2CppName: set_window
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_window)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSlider
 // Il2CppName: get_horizontalSlider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSlider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSlider
 // Il2CppName: set_horizontalSlider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSlider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSliderThumb
 // Il2CppName: get_horizontalSliderThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSliderThumb
 // Il2CppName: set_horizontalSliderThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSliderThumbExtent
 // Il2CppName: get_horizontalSliderThumbExtent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumbExtent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSliderThumbExtent
 // Il2CppName: set_horizontalSliderThumbExtent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumbExtent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSlider
 // Il2CppName: get_verticalSlider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSlider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSlider
 // Il2CppName: set_verticalSlider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSlider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSliderThumb
 // Il2CppName: get_verticalSliderThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSliderThumb
 // Il2CppName: set_verticalSliderThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSliderThumbExtent
 // Il2CppName: get_verticalSliderThumbExtent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumbExtent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSliderThumbExtent
 // Il2CppName: set_verticalSliderThumbExtent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumbExtent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbar
 // Il2CppName: get_horizontalScrollbar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbar
 // Il2CppName: set_horizontalScrollbar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarThumb
 // Il2CppName: get_horizontalScrollbarThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarThumb
 // Il2CppName: set_horizontalScrollbarThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarLeftButton
 // Il2CppName: get_horizontalScrollbarLeftButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarLeftButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarLeftButton
 // Il2CppName: set_horizontalScrollbarLeftButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarLeftButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarRightButton
 // Il2CppName: get_horizontalScrollbarRightButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarRightButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarRightButton
 // Il2CppName: set_horizontalScrollbarRightButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarRightButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbar
 // Il2CppName: get_verticalScrollbar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbar
 // Il2CppName: set_verticalScrollbar
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbar)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarThumb
 // Il2CppName: get_verticalScrollbarThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarThumb
 // Il2CppName: set_verticalScrollbarThumb
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarThumb)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarUpButton
 // Il2CppName: get_verticalScrollbarUpButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarUpButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarUpButton
 // Il2CppName: set_verticalScrollbarUpButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarUpButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarDownButton
 // Il2CppName: get_verticalScrollbarDownButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarDownButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarDownButton
 // Il2CppName: set_verticalScrollbarDownButton
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarDownButton)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_scrollView
 // Il2CppName: get_scrollView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_scrollView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_scrollView
 // Il2CppName: set_scrollView
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_scrollView)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_customStyles
 // Il2CppName: get_customStyles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GUIStyle*>* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_customStyles
 // Il2CppName: set_customStyles
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::Array<UnityEngine::GUIStyle*>*)>(&UnityEngine::GUISkin::set_customStyles)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUIStyle*>*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_settings
 // Il2CppName: get_settings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISettings* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_settings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_error
 // Il2CppName: get_error
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&UnityEngine::GUISkin::get_error)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::Apply
 // Il2CppName: Apply
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::Apply)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::BuildStyleCache
 // Il2CppName: BuildStyleCache
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::BuildStyleCache)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "BuildStyleCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::GetStyle
 // Il2CppName: GetStyle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::GetStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::FindStyle
 // Il2CppName: FindStyle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::FindStyle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "FindStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::MakeCurrent
 // Il2CppName: MakeCurrent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::MakeCurrent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "MakeCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::GetEnumerator
 // Il2CppName: GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUISkin::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

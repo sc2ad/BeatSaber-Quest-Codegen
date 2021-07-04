@@ -45,4 +45,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::IODescriptionAttribute*, "System.IO", "IODesc
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::IODescriptionAttribute::get_Description
 // Il2CppName: get_Description
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::IODescriptionAttribute::*)()>(&System::IO::IODescriptionAttribute::get_Description)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::IODescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

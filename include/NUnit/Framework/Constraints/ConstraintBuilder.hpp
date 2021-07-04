@@ -58,7 +58,17 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::Resolve
 // Il2CppName: Resolve
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::Resolve)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable
 // Il2CppName: get_IsResolvable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

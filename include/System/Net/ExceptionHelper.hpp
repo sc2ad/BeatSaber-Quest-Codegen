@@ -47,13 +47,33 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ExceptionHelper*, "System.Net", "ExceptionHelper");
 // Writing MetadataGetter for method: System::Net::ExceptionHelper::get_MethodNotImplementedException
 // Il2CppName: get_MethodNotImplementedException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&System::Net::ExceptionHelper::get_MethodNotImplementedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ExceptionHelper*), "get_MethodNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::ExceptionHelper::get_PropertyNotImplementedException
 // Il2CppName: get_PropertyNotImplementedException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotImplementedException* (*)()>(&System::Net::ExceptionHelper::get_PropertyNotImplementedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ExceptionHelper*), "get_PropertyNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::ExceptionHelper::get_PropertyNotSupportedException
 // Il2CppName: get_PropertyNotSupportedException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotSupportedException* (*)()>(&System::Net::ExceptionHelper::get_PropertyNotSupportedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ExceptionHelper*), "get_PropertyNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::ExceptionHelper::get_RequestAbortedException
 // Il2CppName: get_RequestAbortedException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebException* (*)()>(&System::Net::ExceptionHelper::get_RequestAbortedException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ExceptionHelper*), "get_RequestAbortedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

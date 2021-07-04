@@ -75,4 +75,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabDynamicContext*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject
 // Il2CppName: CreateGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorByNewPrefabDynamicContext::*)(bool&)>(&Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};

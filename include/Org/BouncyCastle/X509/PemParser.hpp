@@ -79,7 +79,17 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X5
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::ReadLine
 // Il2CppName: ReadLine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadLine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::ReadPemObject
 // Il2CppName: ReadPemObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Sequence* (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadPemObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};

@@ -563,209 +563,549 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version
 // Il2CppName: get_version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_version
 // Il2CppName: set_version
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::set_version)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_sourceFontFile
 // Il2CppName: get_sourceFontFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_sourceFontFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_sourceFontFile
 // Il2CppName: set_sourceFontFile
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::Font*)>(&TMPro::TMP_FontAsset::set_sourceFontFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasPopulationMode
 // Il2CppName: get_atlasPopulationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::AtlasPopulationMode (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasPopulationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasPopulationMode
 // Il2CppName: set_atlasPopulationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::AtlasPopulationMode)>(&TMPro::TMP_FontAsset::set_atlasPopulationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_faceInfo
 // Il2CppName: get_faceInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::FaceInfo (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_faceInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_faceInfo
 // Il2CppName: set_faceInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::TextCore::FaceInfo)>(&TMPro::TMP_FontAsset::set_faceInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::FaceInfo>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_glyphTable
 // Il2CppName: get_glyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_glyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_glyphTable
 // Il2CppName: set_glyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*)>(&TMPro::TMP_FontAsset::set_glyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_glyphLookupTable
 // Il2CppName: get_glyphLookupTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_glyphLookupTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_glyphLookupTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_characterTable
 // Il2CppName: get_characterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_Character*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_characterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_characterTable
 // Il2CppName: set_characterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)>(&TMPro::TMP_FontAsset::set_characterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Character*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_characterLookupTable
 // Il2CppName: get_characterLookupTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_characterLookupTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_characterLookupTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasTexture
 // Il2CppName: get_atlasTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasTextures
 // Il2CppName: get_atlasTextures
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Texture2D*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasTextures)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasTextures
 // Il2CppName: set_atlasTextures
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Array<UnityEngine::Texture2D*>*)>(&TMPro::TMP_FontAsset::set_atlasTextures)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Texture2D*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_usedGlyphRects
 // Il2CppName: get_usedGlyphRects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_usedGlyphRects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_usedGlyphRects
 // Il2CppName: set_usedGlyphRects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMPro::TMP_FontAsset::set_usedGlyphRects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_freeGlyphRects
 // Il2CppName: get_freeGlyphRects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_freeGlyphRects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_freeGlyphRects
 // Il2CppName: set_freeGlyphRects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMPro::TMP_FontAsset::set_freeGlyphRects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontInfo
 // Il2CppName: get_fontInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FaceInfo_Legacy* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fontInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_fontInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasWidth
 // Il2CppName: get_atlasWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasWidth
 // Il2CppName: set_atlasWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasHeight
 // Il2CppName: get_atlasHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasHeight
 // Il2CppName: set_atlasHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasPadding
 // Il2CppName: get_atlasPadding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasPadding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasPadding
 // Il2CppName: set_atlasPadding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasPadding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasRenderMode
 // Il2CppName: get_atlasRenderMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphRenderMode (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasRenderMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasRenderMode
 // Il2CppName: set_atlasRenderMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(&TMPro::TMP_FontAsset::set_atlasRenderMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontFeatureTable
 // Il2CppName: get_fontFeatureTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontFeatureTable* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fontFeatureTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_fontFeatureTable
 // Il2CppName: set_fontFeatureTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::TMP_FontFeatureTable*)>(&TMPro::TMP_FontAsset::set_fontFeatureTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontFeatureTable*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fallbackFontAssetTable
 // Il2CppName: get_fallbackFontAssetTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fallbackFontAssetTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_fallbackFontAssetTable
 // Il2CppName: set_fallbackFontAssetTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*)>(&TMPro::TMP_FontAsset::set_fallbackFontAssetTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_creationSettings
 // Il2CppName: get_creationSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FontAssetCreationSettings (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_creationSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_creationSettings
 // Il2CppName: set_creationSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::FontAssetCreationSettings)>(&TMPro::TMP_FontAsset::set_creationSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontAssetCreationSettings>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontWeightTable
 // Il2CppName: get_fontWeightTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMPro::TMP_FontWeightPair>* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fontWeightTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_fontWeightTable
 // Il2CppName: set_fontWeightTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Array<TMPro::TMP_FontWeightPair>*)>(&TMPro::TMP_FontAsset::set_fontWeightTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_FontWeightPair>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::CreateFontAsset
 // Il2CppName: CreateFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*)>(&TMPro::TMP_FontAsset::CreateFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::CreateFontAsset
 // Il2CppName: CreateFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, TMPro::AtlasPopulationMode)>(&TMPro::TMP_FontAsset::CreateFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::InitializeDictionaryLookupTables
 // Il2CppName: InitializeDictionaryLookupTables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::InitializeDictionaryLookupTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "InitializeDictionaryLookupTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::ReadFontAssetDefinition
 // Il2CppName: ReadFontAssetDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::ReadFontAssetDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "ReadFontAssetDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::SortCharacterTable
 // Il2CppName: SortCharacterTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::SortCharacterTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "SortCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::SortGlyphTable
 // Il2CppName: SortGlyphTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::SortGlyphTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "SortGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::SortGlyphAndCharacterTables
 // Il2CppName: SortGlyphAndCharacterTables
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::SortGlyphAndCharacterTables)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "SortGlyphAndCharacterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter
 // Il2CppName: HasCharacter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::HasCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter
 // Il2CppName: HasCharacter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar)>(&TMPro::TMP_FontAsset::HasCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter
 // Il2CppName: HasCharacter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMPro::TMP_FontAsset::HasCharacter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter_Internal
 // Il2CppName: HasCharacter_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMPro::TMP_FontAsset::HasCharacter_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
 // Il2CppName: HasCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, System::Collections::Generic::List_1<::Il2CppChar>*&)>(&TMPro::TMP_FontAsset::HasCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppChar>*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
 // Il2CppName: HasCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::HasCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharacters
 // Il2CppName: GetCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharactersArray
 // Il2CppName: GetCharactersArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharactersArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharactersArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*, ::Array<uint>*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ::Il2CppString*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacter_Internal
 // Il2CppName: TryAddCharacter_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint)>(&TMPro::TMP_FontAsset::TryAddCharacter_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::AddCharacter_Internal
 // Il2CppName: AddCharacter_Internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (TMPro::TMP_FontAsset::*)(uint, UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::AddCharacter_Internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "AddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacterInternal
 // Il2CppName: TryAddCharacterInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint, TMPro::TMP_Character*&)>(&TMPro::TMP_FontAsset::TryAddCharacterInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetGlyphIndex
 // Il2CppName: GetGlyphIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::*)(uint)>(&TMPro::TMP_FontAsset::GetGlyphIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpdateAtlasTexture
 // Il2CppName: UpdateAtlasTexture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::UpdateAtlasTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpdateAtlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpdateGlyphAdjustmentRecords
 // Il2CppName: UpdateGlyphAdjustmentRecords
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(uint, uint)>(&TMPro::TMP_FontAsset::UpdateGlyphAdjustmentRecords)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpdateGlyphAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::ClearFontAssetData
 // Il2CppName: ClearFontAssetData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(bool)>(&TMPro::TMP_FontAsset::ClearFontAssetData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "ClearFontAssetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpgradeFontAsset
 // Il2CppName: UpgradeFontAsset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::UpgradeFontAsset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpgradeFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpgradeGlyphAdjustmentTableToFontFeatureTable
 // Il2CppName: UpgradeGlyphAdjustmentTableToFontFeatureTable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::UpgradeGlyphAdjustmentTableToFontFeatureTable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpgradeGlyphAdjustmentTableToFontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_FontAsset::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

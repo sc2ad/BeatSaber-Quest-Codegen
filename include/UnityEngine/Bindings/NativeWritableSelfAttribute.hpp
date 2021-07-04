@@ -55,7 +55,12 @@ namespace UnityEngine::Bindings {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf
 // Il2CppName: set_WritableSelf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeWritableSelfAttribute::*)(bool)>(&UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeWritableSelfAttribute*), "set_WritableSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

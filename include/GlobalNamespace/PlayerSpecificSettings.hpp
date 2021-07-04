@@ -198,56 +198,136 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded
 // Il2CppName: get_leftHanded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_leftHanded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_playerHeight
 // Il2CppName: get_playerHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_playerHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight
 // Il2CppName: get_automaticPlayerHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_automaticPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_sfxVolume
 // Il2CppName: get_sfxVolume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_sfxVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_reduceDebris
 // Il2CppName: get_reduceDebris
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_reduceDebris)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_reduceDebris", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds
 // Il2CppName: get_noTextsAndHuds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noTextsAndHuds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noFailEffects
 // Il2CppName: get_noFailEffects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noFailEffects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noFailEffects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_advancedHud
 // Il2CppName: get_advancedHud
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_advancedHud)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_advancedHud", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_autoRestart
 // Il2CppName: get_autoRestart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_autoRestart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_autoRestart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity
 // Il2CppName: get_saberTrailIntensity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_saberTrailIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset
 // Il2CppName: get_noteJumpStartBeatOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect
 // Il2CppName: get_hideNoteSpawnEffect
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_hideNoteSpawnEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx
 // Il2CppName: get_adaptiveSfx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_adaptiveSfx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset
 // Il2CppName: get_environmentEffectsFilterDefaultPreset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterDefaultPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset
 // Il2CppName: get_environmentEffectsFilterExpertPlusPreset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterExpertPlusPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::CopyWith
 // Il2CppName: CopyWith
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSpecificSettings::*)(System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

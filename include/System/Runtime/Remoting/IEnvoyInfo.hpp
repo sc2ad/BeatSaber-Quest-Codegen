@@ -31,4 +31,9 @@ namespace System::Runtime::Remoting {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IEnvoyInfo*, "System.Runtime.Remoting", "IEnvoyInfo");
 // Writing MetadataGetter for method: System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks
 // Il2CppName: get_EnvoySinks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::IEnvoyInfo::*)()>(&System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IEnvoyInfo*), "get_EnvoySinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

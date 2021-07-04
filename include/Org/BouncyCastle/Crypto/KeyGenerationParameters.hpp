@@ -62,7 +62,17 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random
 // Il2CppName: get_Random
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Security::SecureRandom* (Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(&Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::KeyGenerationParameters*), "get_Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Strength
 // Il2CppName: get_Strength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(&Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Strength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::KeyGenerationParameters*), "get_Strength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

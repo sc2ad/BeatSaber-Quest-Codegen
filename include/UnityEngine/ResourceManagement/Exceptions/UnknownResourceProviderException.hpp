@@ -119,10 +119,20 @@ namespace UnityEngine::ResourceManagement::Exceptions {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*, "UnityEngine.ResourceManagement.Exceptions", "UnknownResourceProviderException");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location
 // Il2CppName: get_Location
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(&UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::set_Location
 // Il2CppName: set_Location
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::set_Location)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*), "set_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -145,7 +155,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::UnknownResou
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(&UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::*)()>(&UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

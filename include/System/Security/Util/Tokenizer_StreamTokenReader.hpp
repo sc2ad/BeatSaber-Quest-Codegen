@@ -70,7 +70,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "S
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::Read
 // Il2CppName: Read
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::Read)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered
 // Il2CppName: get_NumCharEncountered
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "get_NumCharEncountered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

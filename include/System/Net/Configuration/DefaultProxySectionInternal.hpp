@@ -71,19 +71,44 @@ namespace System::Net::Configuration {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode
 // Il2CppName: GetDefaultProxy_UsingOldMonoCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&System::Net::Configuration::DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySectionInternal*), "GetDefaultProxy_UsingOldMonoCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::GetSystemWebProxy
 // Il2CppName: GetSystemWebProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&System::Net::Configuration::DefaultProxySectionInternal::GetSystemWebProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySectionInternal*), "GetSystemWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::get_ClassSyncObject
 // Il2CppName: get_ClassSyncObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::Net::Configuration::DefaultProxySectionInternal::get_ClassSyncObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySectionInternal*), "get_ClassSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::GetSection
 // Il2CppName: GetSection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::DefaultProxySectionInternal* (*)()>(&System::Net::Configuration::DefaultProxySectionInternal::GetSection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySectionInternal*), "GetSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::get_WebProxy
 // Il2CppName: get_WebProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (System::Net::Configuration::DefaultProxySectionInternal::*)()>(&System::Net::Configuration::DefaultProxySectionInternal::get_WebProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Configuration::DefaultProxySectionInternal*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

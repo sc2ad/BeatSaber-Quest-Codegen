@@ -95,16 +95,36 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedCanvasSettingsHelper::*)()>(&HMUI::CurvedCanvasSettingsHelper::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings
 // Il2CppName: GetCurvedCanvasSettings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (HMUI::CurvedCanvasSettingsHelper::*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas
 // Il2CppName: GetCurvedCanvasSettingsForCanvas
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+  }
+};
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::CurvedCanvasSettingsHelper::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

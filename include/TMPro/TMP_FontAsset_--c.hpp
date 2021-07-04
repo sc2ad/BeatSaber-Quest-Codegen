@@ -75,13 +75,28 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_FontAsset::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0
 // Il2CppName: <SortCharacterTable>b__100_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(TMPro::TMP_Character*)>(&TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortCharacterTable>b__100_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0
 // Il2CppName: <SortGlyphTable>b__101_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortGlyphTable>b__101_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

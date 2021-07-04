@@ -102,10 +102,20 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotationOffset*, "RootMoti
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::get_rotationChanged
 // Il2CppName: get_rotationChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::get_rotationChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), "get_rotationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::UpdateConstraint
 // Il2CppName: UpdateConstraint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::UpdateConstraint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

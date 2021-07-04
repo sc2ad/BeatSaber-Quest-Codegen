@@ -110,16 +110,41 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "Onlin
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatus
 // Il2CppName: ServerStatus
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "ServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist
 // Il2CppName: LeaderboardsExist
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "LeaderboardsExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards
 // Il2CppName: CreateOrUpdateLeaderboards
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "CreateOrUpdateLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::SendWebRequestAsync
 // Il2CppName: SendWebRequestAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::SendWebRequestAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "SendWebRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::SendAndWaitAsync
 // Il2CppName: SendAndWaitAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::SendAndWaitAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};

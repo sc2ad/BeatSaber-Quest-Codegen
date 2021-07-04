@@ -113,28 +113,68 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier
 // Il2CppName: get_musicVolumeMultiplier
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_musicVolumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold
 // Il2CppName: get_threshold
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_threshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact
 // Il2CppName: get_impact
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_impact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime
 // Il2CppName: get_attackTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_attackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime
 // Il2CppName: get_releaseTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_releaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume
 // Il2CppName: get_minVolume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_minVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume
 // Il2CppName: get_maxVolume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth
 // Il2CppName: get_volumeSmooth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_volumeSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -56,4 +56,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstalle
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::AnimatorInstaller::InstallBindings
 // Il2CppName: InstallBindings
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::AnimatorInstaller::*)()>(&Zenject::AnimatorInstaller::InstallBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AnimatorInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

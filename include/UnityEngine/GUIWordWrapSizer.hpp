@@ -78,7 +78,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIWordWrapSizer*, "UnityEngine", "GUIWordWr
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::GUIWordWrapSizer::CalcWidth
 // Il2CppName: CalcWidth
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIWordWrapSizer::*)()>(&UnityEngine::GUIWordWrapSizer::CalcWidth)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIWordWrapSizer*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::GUIWordWrapSizer::CalcHeight
 // Il2CppName: CalcHeight
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIWordWrapSizer::*)()>(&UnityEngine::GUIWordWrapSizer::CalcHeight)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIWordWrapSizer*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

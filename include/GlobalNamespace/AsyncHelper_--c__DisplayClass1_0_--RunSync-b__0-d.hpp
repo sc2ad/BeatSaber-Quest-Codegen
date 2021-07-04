@@ -66,7 +66,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d, "", "AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d");
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::*)()>(&GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

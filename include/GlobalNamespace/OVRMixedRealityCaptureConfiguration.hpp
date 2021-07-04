@@ -212,169 +212,449 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, "", "OVRMixedRealityCaptureConfiguration");
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_enableMixedReality
 // Il2CppName: get_enableMixedReality
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_enableMixedReality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_enableMixedReality
 // Il2CppName: set_enableMixedReality
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_enableMixedReality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraHiddenLayers
 // Il2CppName: get_extraHiddenLayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraHiddenLayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraHiddenLayers
 // Il2CppName: set_extraHiddenLayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::LayerMask)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraHiddenLayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraVisibleLayers
 // Il2CppName: get_extraVisibleLayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraVisibleLayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraVisibleLayers
 // Il2CppName: set_extraVisibleLayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::LayerMask)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraVisibleLayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicCullingMask
 // Il2CppName: get_dynamicCullingMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicCullingMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicCullingMask
 // Il2CppName: set_dynamicCullingMask
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicCullingMask)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_compositionMethod
 // Il2CppName: get_compositionMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_compositionMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_compositionMethod
 // Il2CppName: set_compositionMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_CompositionMethod)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_compositionMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_CompositionMethod>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorRift
 // Il2CppName: get_externalCompositionBackdropColorRift
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorRift)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorRift
 // Il2CppName: set_externalCompositionBackdropColorRift
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorRift)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorQuest
 // Il2CppName: get_externalCompositionBackdropColorQuest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorQuest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorQuest
 // Il2CppName: set_externalCompositionBackdropColorQuest
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorQuest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_capturingCameraDevice
 // Il2CppName: get_capturingCameraDevice
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CameraDevice (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_capturingCameraDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_capturingCameraDevice
 // Il2CppName: set_capturingCameraDevice
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_CameraDevice)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_capturingCameraDevice)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_CameraDevice>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameHorizontally
 // Il2CppName: get_flipCameraFrameHorizontally
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameHorizontally)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameHorizontally
 // Il2CppName: set_flipCameraFrameHorizontally
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameHorizontally)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameVertically
 // Il2CppName: get_flipCameraFrameVertically
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameVertically)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameVertically
 // Il2CppName: set_flipCameraFrameVertically
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameVertically)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_handPoseStateLatency
 // Il2CppName: get_handPoseStateLatency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_handPoseStateLatency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_handPoseStateLatency
 // Il2CppName: set_handPoseStateLatency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_handPoseStateLatency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionRenderLatency
 // Il2CppName: get_sandwichCompositionRenderLatency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionRenderLatency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionRenderLatency
 // Il2CppName: set_sandwichCompositionRenderLatency
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionRenderLatency)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionBufferedFrames
 // Il2CppName: get_sandwichCompositionBufferedFrames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionBufferedFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionBufferedFrames
 // Il2CppName: set_sandwichCompositionBufferedFrames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(int)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionBufferedFrames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeyColor
 // Il2CppName: get_chromaKeyColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeyColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeyColor
 // Il2CppName: set_chromaKeyColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeyColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySimilarity
 // Il2CppName: get_chromaKeySimilarity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySimilarity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySimilarity
 // Il2CppName: set_chromaKeySimilarity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySimilarity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySmoothRange
 // Il2CppName: get_chromaKeySmoothRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySmoothRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySmoothRange
 // Il2CppName: set_chromaKeySmoothRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySmoothRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySpillRange
 // Il2CppName: get_chromaKeySpillRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySpillRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySpillRange
 // Il2CppName: set_chromaKeySpillRange
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySpillRange)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_useDynamicLighting
 // Il2CppName: get_useDynamicLighting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_useDynamicLighting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_useDynamicLighting
 // Il2CppName: set_useDynamicLighting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_useDynamicLighting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_depthQuality
 // Il2CppName: get_depthQuality
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_DepthQuality (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_depthQuality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_depthQuality
 // Il2CppName: set_depthQuality
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_DepthQuality)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_depthQuality)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_DepthQuality>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingSmoothFactor
 // Il2CppName: get_dynamicLightingSmoothFactor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingSmoothFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingSmoothFactor
 // Il2CppName: set_dynamicLightingSmoothFactor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingSmoothFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingDepthVariationClampingValue
 // Il2CppName: get_dynamicLightingDepthVariationClampingValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingDepthVariationClampingValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingDepthVariationClampingValue
 // Il2CppName: set_dynamicLightingDepthVariationClampingValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingDepthVariationClampingValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenType
 // Il2CppName: get_virtualGreenScreenType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_VirtualGreenScreenType (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenType
 // Il2CppName: set_virtualGreenScreenType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_VirtualGreenScreenType)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_VirtualGreenScreenType>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenTopY
 // Il2CppName: get_virtualGreenScreenTopY
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenTopY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenTopY
 // Il2CppName: set_virtualGreenScreenTopY
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenTopY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenBottomY
 // Il2CppName: get_virtualGreenScreenBottomY
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenBottomY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenBottomY
 // Il2CppName: set_virtualGreenScreenBottomY
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenBottomY)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenApplyDepthCulling
 // Il2CppName: get_virtualGreenScreenApplyDepthCulling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenApplyDepthCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenApplyDepthCulling
 // Il2CppName: set_virtualGreenScreenApplyDepthCulling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenApplyDepthCulling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenDepthTolerance
 // Il2CppName: get_virtualGreenScreenDepthTolerance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenDepthTolerance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenDepthTolerance
 // Il2CppName: set_virtualGreenScreenDepthTolerance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenDepthTolerance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_mrcActivationMode
 // Il2CppName: get_mrcActivationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_MrcActivationMode (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_mrcActivationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_mrcActivationMode
 // Il2CppName: set_mrcActivationMode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_MrcActivationMode)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_mrcActivationMode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcActivationMode>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_instantiateMixedRealityCameraGameObject
 // Il2CppName: get_instantiateMixedRealityCameraGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_instantiateMixedRealityCameraGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_instantiateMixedRealityCameraGameObject
 // Il2CppName: set_instantiateMixedRealityCameraGameObject
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_instantiateMixedRealityCameraGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*>()});
+  }
+};

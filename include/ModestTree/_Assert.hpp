@@ -230,10 +230,20 @@ namespace ModestTree {
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ModestTree::_Assert::That)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotEmpty
 // Il2CppName: IsNotEmpty
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ModestTree::_Assert::IsNotEmpty)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsEmpty
 // Il2CppName: IsEmpty
 // Cannot write MetadataGetter for generic methods!
@@ -254,91 +264,231 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::_Assert::DerivesFrom
 // Il2CppName: DerivesFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&ModestTree::_Assert::DerivesFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "DerivesFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::DerivesFromOrEqual
 // Il2CppName: DerivesFromOrEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&ModestTree::_Assert::DerivesFromOrEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "DerivesFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsEqual
 // Il2CppName: IsEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsEqual
 // Il2CppName: IsEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::IsEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsApproximately
 // Il2CppName: IsApproximately
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float)>(&ModestTree::_Assert::IsApproximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsApproximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsEqual
 // Il2CppName: IsEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotEqual
 // Il2CppName: IsNotEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotEqual
 // Il2CppName: IsNotEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::IsNotEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNull
 // Il2CppName: IsNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ModestTree::_Assert::IsNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNull
 // Il2CppName: IsNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNull
 // Il2CppName: IsNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotNull
 // Il2CppName: IsNotNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotNull
 // Il2CppName: IsNotNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNotNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotNull
 // Il2CppName: IsNotNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotNull
 // Il2CppName: IsNotNull
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotEmpty
 // Il2CppName: IsNotEmpty
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::_Assert::IsNotEqual
 // Il2CppName: IsNotEqual
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNotEqual)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::Warn
 // Il2CppName: Warn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ModestTree::_Assert::Warn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::Warn
 // Il2CppName: Warn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::Warn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&ModestTree::_Assert::That)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::Warn
 // Il2CppName: Warn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&ModestTree::_Assert::Warn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::Throws
 // Il2CppName: Throws
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&ModestTree::_Assert::Throws)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Throws", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::Throws
 // Il2CppName: Throws
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)()>(&ModestTree::_Assert::CreateException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*)>(&ModestTree::_Assert::CreateException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::_Assert::CreateException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(System::Exception*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::_Assert::CreateException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};

@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewLocationFormatAttribute
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcViewLocationFormatAttribute::get_Format
 // Il2CppName: get_Format
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)()>(&JetBrains::Annotations::AspMvcViewLocationFormatAttribute::get_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcViewLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcViewLocationFormatAttribute::set_Format
 // Il2CppName: set_Format
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcViewLocationFormatAttribute::set_Format)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcViewLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

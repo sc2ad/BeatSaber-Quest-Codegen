@@ -36,7 +36,17 @@ namespace System::Runtime::Remoting::Channels {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelReceiver*, "System.Runtime.Remoting.Channels", "IChannelReceiver");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannelReceiver::get_ChannelData
 // Il2CppName: get_ChannelData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Channels::IChannelReceiver::*)()>(&System::Runtime::Remoting::Channels::IChannelReceiver::get_ChannelData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IChannelReceiver*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannelReceiver::StartListening
 // Il2CppName: StartListening
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::IChannelReceiver::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Channels::IChannelReceiver::StartListening)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IChannelReceiver*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};

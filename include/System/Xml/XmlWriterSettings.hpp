@@ -325,103 +325,268 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Async
 // Il2CppName: get_Async
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_Async)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Encoding
 // Il2CppName: get_Encoding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_Encoding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_OmitXmlDeclaration
 // Il2CppName: get_OmitXmlDeclaration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_OmitXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_OmitXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NewLineHandling
 // Il2CppName: get_NewLineHandling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::NewLineHandling (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NewLineHandling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NewLineHandling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NewLineChars
 // Il2CppName: get_NewLineChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NewLineChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NewLineChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Indent
 // Il2CppName: get_Indent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_Indent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_Indent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_Indent
 // Il2CppName: set_Indent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(bool)>(&System::Xml::XmlWriterSettings::set_Indent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_Indent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_IndentChars
 // Il2CppName: get_IndentChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_IndentChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_IndentChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NewLineOnAttributes
 // Il2CppName: get_NewLineOnAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NewLineOnAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NewLineOnAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_CloseOutput
 // Il2CppName: get_CloseOutput
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_CloseOutput)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_CloseOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_ConformanceLevel
 // Il2CppName: get_ConformanceLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::ConformanceLevel (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_ConformanceLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_ConformanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_ConformanceLevel
 // Il2CppName: set_ConformanceLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(System::Xml::ConformanceLevel)>(&System::Xml::XmlWriterSettings::set_ConformanceLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_ConformanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::ConformanceLevel>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_CheckCharacters
 // Il2CppName: get_CheckCharacters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_CheckCharacters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_CheckCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NamespaceHandling
 // Il2CppName: get_NamespaceHandling
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::NamespaceHandling (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NamespaceHandling)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NamespaceHandling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_WriteEndDocumentOnClose
 // Il2CppName: get_WriteEndDocumentOnClose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_WriteEndDocumentOnClose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_WriteEndDocumentOnClose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_OutputMethod
 // Il2CppName: get_OutputMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlOutputMethod (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_OutputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_OutputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_OutputMethod
 // Il2CppName: set_OutputMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(System::Xml::XmlOutputMethod)>(&System::Xml::XmlWriterSettings::set_OutputMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_OutputMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlOutputMethod>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlWriterSettings* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_CDataSectionElements
 // Il2CppName: get_CDataSectionElements
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_CDataSectionElements)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_CDataSectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_DoNotEscapeUriAttributes
 // Il2CppName: get_DoNotEscapeUriAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DoNotEscapeUriAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_DoNotEscapeUriAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_MergeCDataSections
 // Il2CppName: get_MergeCDataSections
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_MergeCDataSections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_MergeCDataSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_MediaType
 // Il2CppName: get_MediaType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_MediaType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_MediaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_DocTypeSystem
 // Il2CppName: get_DocTypeSystem
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypeSystem)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_DocTypeSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_DocTypePublic
 // Il2CppName: get_DocTypePublic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypePublic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_DocTypePublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Standalone
 // Il2CppName: get_Standalone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlStandalone (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_Standalone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_Standalone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_AutoXmlDeclaration
 // Il2CppName: get_AutoXmlDeclaration
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_AutoXmlDeclaration)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_AutoXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_IndentInternal
 // Il2CppName: get_IndentInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::TriState (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_IndentInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_IndentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_IsQuerySpecific
 // Il2CppName: get_IsQuerySpecific
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_IsQuerySpecific)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_IsQuerySpecific", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::CreateWriter
 // Il2CppName: CreateWriter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlWriter* (System::Xml::XmlWriterSettings::*)(System::IO::Stream*)>(&System::Xml::XmlWriterSettings::CreateWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "CreateWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::CreateWriter
 // Il2CppName: CreateWriter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlWriter* (System::Xml::XmlWriterSettings::*)(System::IO::TextWriter*)>(&System::Xml::XmlWriterSettings::CreateWriter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "CreateWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_ReadOnly
 // Il2CppName: set_ReadOnly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(bool)>(&System::Xml::XmlWriterSettings::set_ReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::CheckReadOnly
 // Il2CppName: CheckReadOnly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(::Il2CppString*)>(&System::Xml::XmlWriterSettings::CheckReadOnly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "CheckReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::Initialize
 // Il2CppName: Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

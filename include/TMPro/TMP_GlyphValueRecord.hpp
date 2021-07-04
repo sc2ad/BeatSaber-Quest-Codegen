@@ -105,28 +105,68 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_GlyphValueRecord::*)()>(&TMPro::TMP_GlyphValueRecord::get_xPlacement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "get_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::set_xPlacement
 // Il2CppName: set_xPlacement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphValueRecord::*)(float)>(&TMPro::TMP_GlyphValueRecord::set_xPlacement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "set_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_yPlacement
 // Il2CppName: get_yPlacement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_GlyphValueRecord::*)()>(&TMPro::TMP_GlyphValueRecord::get_yPlacement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "get_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::set_yPlacement
 // Il2CppName: set_yPlacement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphValueRecord::*)(float)>(&TMPro::TMP_GlyphValueRecord::set_yPlacement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "set_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_xAdvance
 // Il2CppName: get_xAdvance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_GlyphValueRecord::*)()>(&TMPro::TMP_GlyphValueRecord::get_xAdvance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "get_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::set_xAdvance
 // Il2CppName: set_xAdvance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphValueRecord::*)(float)>(&TMPro::TMP_GlyphValueRecord::set_xAdvance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "set_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_yAdvance
 // Il2CppName: get_yAdvance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_GlyphValueRecord::*)()>(&TMPro::TMP_GlyphValueRecord::get_yAdvance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "get_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::set_yAdvance
 // Il2CppName: set_yAdvance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphValueRecord::*)(float)>(&TMPro::TMP_GlyphValueRecord::set_yAdvance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphValueRecord), "set_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::TMP_GlyphValueRecord
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

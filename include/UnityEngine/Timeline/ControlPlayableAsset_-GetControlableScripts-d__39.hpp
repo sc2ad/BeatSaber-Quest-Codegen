@@ -132,22 +132,57 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset::$GetControla
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_Generic_IEnumerable$UnityEngine_MonoBehaviour$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>* (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_Generic_IEnumerable$UnityEngine_MonoBehaviour$_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_IEnumerable_GetEnumerator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -68,13 +68,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray
 // Il2CppName: get_BinaryStackTraceArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "get_BinaryStackTraceArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::Capture
 // Il2CppName: Capture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (*)(System::Exception*)>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::Capture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "Capture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_SourceException
 // Il2CppName: get_SourceException
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_SourceException)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "get_SourceException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw
 // Il2CppName: Throw
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

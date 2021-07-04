@@ -212,64 +212,164 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientLobbySetupViewController*, "", "ClientLobbySetupViewController");
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_suggestBeatmapEvent
 // Il2CppName: add_suggestBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::add_suggestBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "add_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::remove_suggestBeatmapEvent
 // Il2CppName: remove_suggestBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::remove_suggestBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "remove_suggestBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent
 // Il2CppName: add_clearSuggestedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::add_clearSuggestedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "add_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent
 // Il2CppName: remove_clearSuggestedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::remove_clearSuggestedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "remove_clearSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_suggestModifiersEvent
 // Il2CppName: add_suggestModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::add_suggestModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "add_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::remove_suggestModifiersEvent
 // Il2CppName: remove_suggestModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::remove_suggestModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "remove_suggestModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_clearSuggestedModifiersEvent
 // Il2CppName: add_clearSuggestedModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::add_clearSuggestedModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "add_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent
 // Il2CppName: remove_clearSuggestedModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action*)>(&GlobalNamespace::ClientLobbySetupViewController::remove_clearSuggestedModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "remove_clearSuggestedModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_setPlayerReadyEvent
 // Il2CppName: add_setPlayerReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::ClientLobbySetupViewController::add_setPlayerReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "add_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::remove_setPlayerReadyEvent
 // Il2CppName: remove_setPlayerReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::ClientLobbySetupViewController::remove_setPlayerReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "remove_setPlayerReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::SetLocalLobbyPlayerData
 // Il2CppName: SetLocalLobbyPlayerData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&GlobalNamespace::ClientLobbySetupViewController::SetLocalLobbyPlayerData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "SetLocalLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::SetLobbyState
 // Il2CppName: SetLobbyState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&GlobalNamespace::ClientLobbySetupViewController::SetLobbyState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::SetPlayerActiveState
 // Il2CppName: SetPlayerActiveState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(bool)>(&GlobalNamespace::ClientLobbySetupViewController::SetPlayerActiveState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_0
 // Il2CppName: <DidActivate>b__24_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_1
 // Il2CppName: <DidActivate>b__24_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_2
 // Il2CppName: <DidActivate>b__24_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_3
 // Il2CppName: <DidActivate>b__24_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_4
 // Il2CppName: <DidActivate>b__24_4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_5
 // Il2CppName: <DidActivate>b__24_5
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)()>(&GlobalNamespace::ClientLobbySetupViewController::$DidActivate$b__24_5)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "<DidActivate>b__24_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClientLobbySetupViewController::*)(bool, bool, bool)>(&GlobalNamespace::ClientLobbySetupViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClientLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

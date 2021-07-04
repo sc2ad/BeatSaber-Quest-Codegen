@@ -89,19 +89,44 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyI
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm
 // Il2CppName: get_Algorithm
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_EncryptedData
 // Il2CppName: get_EncryptedData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_EncryptedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "get_EncryptedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Salt
 // Il2CppName: get_Salt
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Salt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "get_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_IterationCount
 // Il2CppName: get_IterationCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_IterationCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::Decode
 // Il2CppName: Decode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::Decode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -60,10 +60,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Securi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)()>(&Mono::Net::Security::BufferOffsetSize2::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::BufferOffsetSize2*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::MakeRoom
 // Il2CppName: MakeRoom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(int)>(&Mono::Net::Security::BufferOffsetSize2::MakeRoom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::BufferOffsetSize2*), "MakeRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::AppendData
 // Il2CppName: AppendData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::BufferOffsetSize2*), "AppendData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

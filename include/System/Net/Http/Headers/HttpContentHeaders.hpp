@@ -68,7 +68,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpContentHeaders*, "System.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::get_ContentLength
 // Il2CppName: get_ContentLength
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (System::Net::Http::Headers::HttpContentHeaders::*)()>(&System::Net::Http::Headers::HttpContentHeaders::get_ContentLength)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpContentHeaders*), "get_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::get_ContentType
 // Il2CppName: get_ContentType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::MediaTypeHeaderValue* (System::Net::Http::Headers::HttpContentHeaders::*)()>(&System::Net::Http::Headers::HttpContentHeaders::get_ContentType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpContentHeaders*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

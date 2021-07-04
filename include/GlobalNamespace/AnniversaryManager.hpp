@@ -80,19 +80,44 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryManager");
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish
 // Il2CppName: HandleMainMenuViewControllerDidFinish
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StartFireworks
 // Il2CppName: StartFireworks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StartFireworks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StartFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StopFireworks
 // Il2CppName: StopFireworks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StopFireworks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StopFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

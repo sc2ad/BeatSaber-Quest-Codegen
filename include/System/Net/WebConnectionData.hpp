@@ -135,16 +135,36 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnec
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::WebConnectionData::get_request
 // Il2CppName: get_request
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (System::Net::WebConnectionData::*)()>(&System::Net::WebConnectionData::get_request)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "get_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnectionData::set_request
 // Il2CppName: set_request
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnectionData::set_request)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnectionData::get_ReadState
 // Il2CppName: get_ReadState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ReadState (System::Net::WebConnectionData::*)()>(&System::Net::WebConnectionData::get_ReadState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "get_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnectionData::set_ReadState
 // Il2CppName: set_ReadState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::ReadState)>(&System::Net::WebConnectionData::set_ReadState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ReadState>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::WebConnectionData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -69,10 +69,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayTexture*, "OVR.OpenVR
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayTexture::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayTexture*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayTexture::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayTexture*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayTexture::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(System::IntPtr&, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayTexture*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETextureType&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EColorSpace&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRTextureBounds_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

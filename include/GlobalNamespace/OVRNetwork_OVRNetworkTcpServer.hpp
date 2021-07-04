@@ -93,22 +93,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*, "", "OVRNetwork/OVRNetworkTcpServer");
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening
 // Il2CppName: StartListening
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StopListening
 // Il2CppName: StopListening
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StopListening)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "StopListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoAcceptTcpClientCallback
 // Il2CppName: DoAcceptTcpClientCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoAcceptTcpClientCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "DoAcceptTcpClientCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::HasConnectedClient
 // Il2CppName: HasConnectedClient
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::HasConnectedClient)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "HasConnectedClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast
 // Il2CppName: Broadcast
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::Array<uint8_t>*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "Broadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoWriteDataCallback
 // Il2CppName: DoWriteDataCallback
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoWriteDataCallback)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "DoWriteDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

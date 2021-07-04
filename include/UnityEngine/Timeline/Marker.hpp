@@ -87,22 +87,52 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::get_parent
 // Il2CppName: get_parent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::Marker::*)()>(&UnityEngine::Timeline::Marker::get_parent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::set_parent
 // Il2CppName: set_parent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::Marker::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Marker::set_parent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "set_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::get_time
 // Il2CppName: get_time
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::Marker::*)()>(&UnityEngine::Timeline::Marker::get_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::set_time
 // Il2CppName: set_time
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::Marker::*)(double)>(&UnityEngine::Timeline::Marker::set_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::UnityEngine_Timeline_IMarker_Initialize
 // Il2CppName: UnityEngine.Timeline.IMarker.Initialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::Marker::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Marker::UnityEngine_Timeline_IMarker_Initialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "UnityEngine.Timeline.IMarker.Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::OnInitialize
 // Il2CppName: OnInitialize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::Marker::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Marker::OnInitialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Marker*), "OnInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

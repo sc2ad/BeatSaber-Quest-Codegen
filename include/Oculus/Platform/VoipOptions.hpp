@@ -70,10 +70,20 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipOptions*, "Oculus.Platform", "VoipOptions");
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetBitrateForNewConnections
 // Il2CppName: SetBitrateForNewConnections
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipOptions::*)(Oculus::Platform::VoipBitrate)>(&Oculus::Platform::VoipOptions::SetBitrateForNewConnections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetBitrateForNewConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipBitrate>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetCreateNewConnectionUseDtx
 // Il2CppName: SetCreateNewConnectionUseDtx
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipOptions::*)(Oculus::Platform::VoipDtxState)>(&Oculus::Platform::VoipOptions::SetCreateNewConnectionUseDtx)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetCreateNewConnectionUseDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipDtxState>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
@@ -83,4 +93,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipOptions*, "Oculus.Platform", "VoipO
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::Finalize
 // Il2CppName: Finalize
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipOptions::*)()>(&Oculus::Platform::VoipOptions::Finalize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

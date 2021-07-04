@@ -52,7 +52,12 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::MovementData::get_localPositionOffset
 // Il2CppName: get_localPositionOffset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::MovementBeatmapEventEffect::MovementData::*)()>(&GlobalNamespace::MovementBeatmapEventEffect::MovementData::get_localPositionOffset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementBeatmapEventEffect::MovementData*), "get_localPositionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::MovementData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

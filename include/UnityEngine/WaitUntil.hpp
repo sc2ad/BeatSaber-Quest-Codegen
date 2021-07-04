@@ -62,4 +62,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::WaitUntil::get_keepWaiting
 // Il2CppName: get_keepWaiting
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::WaitUntil::*)()>(&UnityEngine::WaitUntil::get_keepWaiting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WaitUntil*), "get_keepWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

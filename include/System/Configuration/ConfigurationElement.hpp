@@ -41,13 +41,33 @@ namespace System::Configuration {
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElement*, "System.Configuration", "ConfigurationElement");
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::get_Properties
 // Il2CppName: get_Properties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::get_Properties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::IsModified
 // Il2CppName: IsModified
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::IsModified)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)(System::Configuration::ConfigurationElement*)>(&System::Configuration::ConfigurationElement::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::ResetModified
 // Il2CppName: ResetModified
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::ResetModified)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

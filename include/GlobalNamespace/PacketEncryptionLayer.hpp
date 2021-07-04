@@ -223,71 +223,181 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer*, "", "PacketEncryptionLayer");
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::get_filterUnencryptedTraffic
 // Il2CppName: get_filterUnencryptedTraffic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)()>(&GlobalNamespace::PacketEncryptionLayer::get_filterUnencryptedTraffic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "get_filterUnencryptedTraffic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::set_filterUnencryptedTraffic
 // Il2CppName: set_filterUnencryptedTraffic
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(bool)>(&GlobalNamespace::PacketEncryptionLayer::set_filterUnencryptedTraffic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "set_filterUnencryptedTraffic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::get_enableStatistics
 // Il2CppName: get_enableStatistics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)()>(&GlobalNamespace::PacketEncryptionLayer::get_enableStatistics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "get_enableStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::set_enableStatistics
 // Il2CppName: set_enableStatistics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(bool)>(&GlobalNamespace::PacketEncryptionLayer::set_enableStatistics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "set_enableStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter
 // Il2CppName: SetUnencryptedTrafficFilter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*)>(&GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "SetUnencryptedTrafficFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint
 // Il2CppName: AddEncryptedEndpoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync
 // Il2CppName: AddEncryptedEndpointAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::RemoveEncryptedEndpoint
 // Il2CppName: RemoveEncryptedEndpoint
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&GlobalNamespace::PacketEncryptionLayer::RemoveEncryptedEndpoint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "RemoveEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync
 // Il2CppName: AddPendingEncryptedEndpointAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddPendingEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PollUpdate
 // Il2CppName: PollUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)()>(&GlobalNamespace::PacketEncryptionLayer::PollUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::RemoveAllEndpoints
 // Il2CppName: RemoveAllEndpoints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)()>(&GlobalNamespace::PacketEncryptionLayer::RemoveAllEndpoints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "RemoveAllEndpoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::TryGetEncryptionState
 // Il2CppName: TryGetEncryptionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&GlobalNamespace::PacketEncryptionLayer::TryGetEncryptionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "TryGetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::TryGetPendingEncryptionState
 // Il2CppName: TryGetPendingEncryptionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&GlobalNamespace::PacketEncryptionLayer::TryGetPendingEncryptionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "TryGetPendingEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates
 // Il2CppName: TryGetPotentialPendingEncryptionStates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*&)>(&GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "TryGetPotentialPendingEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PromotePendingEncryptionState
 // Il2CppName: PromotePendingEncryptionState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&GlobalNamespace::PacketEncryptionLayer::PromotePendingEncryptionState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "PromotePendingEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::MatchesFilter
 // Il2CppName: MatchesFilter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::PacketEncryptionLayer::MatchesFilter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "MatchesFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal
 // Il2CppName: ProcessInboundPacketInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessInboundPacketInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal
 // Il2CppName: ProcessOutBoundPacketInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessOutBoundPacketInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::Log
 // Il2CppName: Log
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::PacketEncryptionLayer::Log)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::LogV
 // Il2CppName: LogV
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::PacketEncryptionLayer::LogV)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "LogV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket
 // Il2CppName: ProcessInboundPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket
 // Il2CppName: ProcessOutBoundPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

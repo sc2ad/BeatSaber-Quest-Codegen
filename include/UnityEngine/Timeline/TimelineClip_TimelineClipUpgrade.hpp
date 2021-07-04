@@ -26,4 +26,9 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*, "UnityEngine.Timeline", "TimelineClip/TimelineClipUpgrade");
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade::UpgradeClipInFromGlobalToLocal
 // Il2CppName: UpgradeClipInFromGlobalToLocal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade::UpgradeClipInFromGlobalToLocal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*), "UpgradeClipInFromGlobalToLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+  }
+};

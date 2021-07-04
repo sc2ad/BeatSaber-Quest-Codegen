@@ -38,10 +38,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerRichPresenceData*, "", "IMultiplayerRichPresenceData");
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerLobbyCode
 // Il2CppName: get_multiplayerLobbyCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IMultiplayerRichPresenceData::*)()>(&GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerLobbyCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "get_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerLobbyCode
 // Il2CppName: set_multiplayerLobbyCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerLobbyCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_isJoinable
 // Il2CppName: get_isJoinable
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerRichPresenceData::*)()>(&GlobalNamespace::IMultiplayerRichPresenceData::get_isJoinable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "get_isJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

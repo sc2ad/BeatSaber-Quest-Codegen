@@ -57,7 +57,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventWaitHandle*, "System.Threading", 
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::EventWaitHandle::Reset
 // Il2CppName: Reset
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::EventWaitHandle::*)()>(&System::Threading::EventWaitHandle::Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Threading::EventWaitHandle::Set
 // Il2CppName: Set
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::EventWaitHandle::*)()>(&System::Threading::EventWaitHandle::Set)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

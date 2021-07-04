@@ -84,16 +84,41 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode
 // Il2CppName: ErrorCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason
 // Il2CppName: TryGetMultiplayerUnavailableReason
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MasterServerAvailabilityData*, GlobalNamespace::MultiplayerUnavailableReason&)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "TryGetMultiplayerUnavailableReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason&>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage
 // Il2CppName: GetLocalizedMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MasterServerAvailabilityData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "GetLocalizedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan
 // Il2CppName: VersionLessThan
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "VersionLessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

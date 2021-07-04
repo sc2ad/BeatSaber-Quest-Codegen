@@ -54,16 +54,41 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator*, "RootMotion.FinalIK", "VRIKCalibrator");
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale
 // Il2CppName: RecalibrateScale
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*)>(&RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "RecalibrateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::Calibrate
 // Il2CppName: Calibrate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::VRIKCalibrator::CalibrationData* (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg
 // Il2CppName: CalibrateLeg
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::Calibrate
 // Il2CppName: Calibrate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg
 // Il2CppName: CalibrateLeg
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

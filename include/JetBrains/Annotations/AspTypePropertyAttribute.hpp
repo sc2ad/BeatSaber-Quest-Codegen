@@ -53,10 +53,20 @@ namespace JetBrains::Annotations {
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences
 // Il2CppName: get_CreateConstructorReferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::AspTypePropertyAttribute::*)()>(&JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "get_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences
 // Il2CppName: set_CreateConstructorReferences
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

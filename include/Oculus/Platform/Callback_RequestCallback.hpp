@@ -63,7 +63,12 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Pla
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RequestCallback::HandleMessage
 // Il2CppName: HandleMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Callback::RequestCallback::*)(Oculus::Platform::Message*)>(&Oculus::Platform::Callback::RequestCallback::HandleMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback::RequestCallback*), "HandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message*>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RequestCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

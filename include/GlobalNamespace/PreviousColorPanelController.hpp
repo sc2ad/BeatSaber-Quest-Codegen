@@ -131,25 +131,60 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviousColorPanelController*, "", "PreviousColorPanelController");
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::add_colorWasSelectedEvent
 // Il2CppName: add_colorWasSelectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)(System::Action_1<UnityEngine::Color>*)>(&GlobalNamespace::PreviousColorPanelController::add_colorWasSelectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "add_colorWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::remove_colorWasSelectedEvent
 // Il2CppName: remove_colorWasSelectedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)(System::Action_1<UnityEngine::Color>*)>(&GlobalNamespace::PreviousColorPanelController::remove_colorWasSelectedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "remove_colorWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::Awake
 // Il2CppName: Awake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)()>(&GlobalNamespace::PreviousColorPanelController::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)()>(&GlobalNamespace::PreviousColorPanelController::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::AddColor
 // Il2CppName: AddColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::PreviousColorPanelController::AddColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "AddColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::DiscardUpcomingColor
 // Il2CppName: DiscardUpcomingColor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)()>(&GlobalNamespace::PreviousColorPanelController::DiscardUpcomingColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "DiscardUpcomingColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::$Awake$b__9_0
 // Il2CppName: <Awake>b__9_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviousColorPanelController::*)()>(&GlobalNamespace::PreviousColorPanelController::$Awake$b__9_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviousColorPanelController*), "<Awake>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

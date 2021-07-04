@@ -73,16 +73,36 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume
 // Il2CppName: set_volume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume
 // Il2CppName: get_volume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume
 // Il2CppName: get_maxVolume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume
 // Il2CppName: set_maxVolume
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

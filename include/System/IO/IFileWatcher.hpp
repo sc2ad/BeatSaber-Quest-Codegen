@@ -33,7 +33,17 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IFileWatcher*, "System.IO", "IFileWatcher");
 // Writing MetadataGetter for method: System::IO::IFileWatcher::StartDispatching
 // Il2CppName: StartDispatching
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StartDispatching)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::IFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::IFileWatcher::StopDispatching
 // Il2CppName: StopDispatching
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StopDispatching)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::IFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+  }
+};

@@ -103,22 +103,52 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*, "", "SongPackMaskModelSO/SongPackMaskItem/<>c");
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_0
 // Il2CppName: <get_songPackMask>b__11_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_1
 // Il2CppName: <get_songPackMask>b__11_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::BeatmapLevelPackSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelPackSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_2
 // Il2CppName: <get_songPackMask>b__11_2
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::PreviewBeatmapLevelPackSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_2)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PreviewBeatmapLevelPackSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_3
 // Il2CppName: <get_songPackMask>b__11_3
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::BeatmapLevelPackCollectionSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_3)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelPackCollectionSO*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_4
 // Il2CppName: <get_songPackMask>b__11_4
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_4)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

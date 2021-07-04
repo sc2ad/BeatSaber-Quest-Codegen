@@ -273,64 +273,164 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent
 // Il2CppName: add_didPressSearchButtonEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "add_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent
 // Il2CppName: remove_didPressSearchButtonEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*)>(&GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "remove_didPressSearchButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent
 // Il2CppName: add_didFilterBeatmapLevelCollectionEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&GlobalNamespace::LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "add_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent
 // Il2CppName: remove_didFilterBeatmapLevelCollectionEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&GlobalNamespace::LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "remove_didFilterBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent
 // Il2CppName: add_didStartLoadingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "add_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent
 // Il2CppName: remove_didStartLoadingEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(System::Action_1<GlobalNamespace::LevelSearchViewController*>*)>(&GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "remove_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelSearchViewController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::Setup
 // Il2CppName: Setup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::LevelSearchViewController::Setup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::ResetFilterParams
 // Il2CppName: ResetFilterParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(bool)>(&GlobalNamespace::LevelSearchViewController::ResetFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "ResetFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::UpdateSearchLevelFilterParams
 // Il2CppName: UpdateSearchLevelFilterParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::LevelSearchViewController::UpdateSearchLevelFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "UpdateSearchLevelFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::ResetCurrentFilterParams
 // Il2CppName: ResetCurrentFilterParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::ResetCurrentFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "ResetCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync
 // Il2CppName: UpdateBeatmapLevelPackCollectionAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::UpdateBeatmapLevelPackCollectionAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "UpdateBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::SearchTextInputFieldViewOnValueChanged
 // Il2CppName: SearchTextInputFieldViewOnValueChanged
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(HMUI::InputFieldView*)>(&GlobalNamespace::LevelSearchViewController::SearchTextInputFieldViewOnValueChanged)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "SearchTextInputFieldViewOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::UpdateCurrentFilterParams
 // Il2CppName: UpdateCurrentFilterParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::UpdateCurrentFilterParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "UpdateCurrentFilterParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay
 // Il2CppName: RefreshAfterIncreaseNumberOfGameplay
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::RefreshAfterIncreaseNumberOfGameplay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "RefreshAfterIncreaseNumberOfGameplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::Refresh
 // Il2CppName: Refresh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription
 // Il2CppName: LocalizedLevelFilterParamsDescription
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelSearchViewController::*)(GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "LocalizedLevelFilterParamsDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::$DidActivate$b__27_0
 // Il2CppName: <DidActivate>b__27_0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::$DidActivate$b__27_0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::$DidActivate$b__27_1
 // Il2CppName: <DidActivate>b__27_1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)()>(&GlobalNamespace::LevelSearchViewController::$DidActivate$b__27_1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::DidActivate
 // Il2CppName: DidActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(bool, bool, bool)>(&GlobalNamespace::LevelSearchViewController::DidActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::DidDeactivate
 // Il2CppName: DidDeactivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(bool, bool)>(&GlobalNamespace::LevelSearchViewController::DidDeactivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

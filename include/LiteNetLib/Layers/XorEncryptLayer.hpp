@@ -92,17 +92,37 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::XorEncryptLayer*, "LiteNetLib.Layers"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::SetKey
 // Il2CppName: SetKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(::Il2CppString*)>(&LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Layers::XorEncryptLayer*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::SetKey
 // Il2CppName: SetKey
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(::Array<uint8_t>*)>(&LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Layers::XorEncryptLayer*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket
 // Il2CppName: ProcessInboundPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Layers::XorEncryptLayer*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket
 // Il2CppName: ProcessOutBoundPacket
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Layers::XorEncryptLayer*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};

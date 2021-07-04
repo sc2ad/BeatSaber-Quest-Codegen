@@ -66,13 +66,33 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorInjectionAttribute*, "JetBra
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::get_Type
 // Il2CppName: get_Type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorInjectionAttribute::*)()>(&JetBrains::Annotations::RazorInjectionAttribute::get_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::set_Type
 // Il2CppName: set_Type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::set_Type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::get_FieldName
 // Il2CppName: get_FieldName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorInjectionAttribute::*)()>(&JetBrains::Annotations::RazorInjectionAttribute::get_FieldName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "get_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::set_FieldName
 // Il2CppName: set_FieldName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::set_FieldName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "set_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

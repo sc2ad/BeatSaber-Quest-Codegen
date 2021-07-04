@@ -160,19 +160,49 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DirectionalLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::PointLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::SpotLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::RectangleLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::GlobalIllumination::DiscLight&>()});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake
 // Il2CppName: InitNoBake
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(int)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "InitNoBake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

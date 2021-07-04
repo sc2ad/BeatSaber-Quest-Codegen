@@ -44,7 +44,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProviderManager*, "", "IServerBeatmapProviderManager");
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProviderManager::GetServerBeatmapProvider
 // Il2CppName: GetServerBeatmapProvider
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IServerBeatmapProvider* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::GetServerBeatmapProvider)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "GetServerBeatmapProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProviderManager::RefreshAsync
 // Il2CppName: RefreshAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::RefreshAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "RefreshAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

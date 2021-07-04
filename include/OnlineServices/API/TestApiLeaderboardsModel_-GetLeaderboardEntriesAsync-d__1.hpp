@@ -68,7 +68,17 @@ namespace OnlineServices::API {
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1, "OnlineServices.API", "TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1");
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::*)()>(&OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

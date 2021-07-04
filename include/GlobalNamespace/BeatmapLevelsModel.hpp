@@ -380,67 +380,172 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpda
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState, "", "BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent
 // Il2CppName: add_levelDownloadingUpdateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "add_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent
 // Il2CppName: remove_levelDownloadingUpdateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "remove_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_ostAndExtrasPackCollection
 // Il2CppName: get_ostAndExtrasPackCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapLevelPackCollectionSO* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_ostAndExtrasPackCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_ostAndExtrasPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection
 // Il2CppName: get_dlcBeatmapLevelPackCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_dlcBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection
 // Il2CppName: get_allLoadedBeatmapLevelPackCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_allLoadedBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection
 // Il2CppName: get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_customLevelPackCollection
 // Il2CppName: get_customLevelPackCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_customLevelPackCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_customLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::Init
 // Il2CppName: Init
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::Init)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::Start
 // Il2CppName: Start
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::OnDestroy
 // Il2CppName: OnDestroy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches
 // Il2CppName: ClearLoadedBeatmapLevelsCaches
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "ClearLoadedBeatmapLevelsCaches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync
 // Il2CppName: ReloadCustomLevelPackCollectionAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelPackCollection*>* (GlobalNamespace::BeatmapLevelsModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "ReloadCustomLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPackForLevelId
 // Il2CppName: GetLevelPackForLevelId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPackForLevelId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPackForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPack
 // Il2CppName: GetLevelPack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPreviewForLevelId
 // Il2CppName: GetLevelPreviewForLevelId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPreviewForLevelId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPreviewForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::IsBeatmapLevelLoaded
 // Il2CppName: IsBeatmapLevelLoaded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::IsBeatmapLevelLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "IsBeatmapLevelLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelIfLoaded
 // Il2CppName: GetBeatmapLevelIfLoaded
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevel* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelIfLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetBeatmapLevelIfLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelAsync
 // Il2CppName: GetBeatmapLevelAsync
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate
 // Il2CppName: HandleLevelDataAssetDownloadUpdate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(GlobalNamespace::LevelDataAssetDownloadUpdate)>(&GlobalNamespace::BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "HandleLevelDataAssetDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelDataAssetDownloadUpdate>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::UpdateLoadedPreviewLevels
 // Il2CppName: UpdateLoadedPreviewLevels
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::UpdateLoadedPreviewLevels)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "UpdateLoadedPreviewLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks
 // Il2CppName: UpdateAllLoadedBeatmapLevelPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "UpdateAllLoadedBeatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

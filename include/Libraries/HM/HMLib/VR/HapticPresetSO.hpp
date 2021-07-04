@@ -68,7 +68,12 @@ namespace Libraries::HM::HMLib::VR {
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom
 // Il2CppName: CopyFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Libraries::HM::HMLib::VR::HapticPresetSO::*)(Libraries::HM::HMLib::VR::HapticPresetSO*)>(&Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Libraries::HM::HMLib::VR::HapticPresetSO*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Libraries::HM::HMLib::VR::HapticPresetSO*>()});
+  }
+};
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

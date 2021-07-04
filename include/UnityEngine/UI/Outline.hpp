@@ -59,4 +59,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::Outline::ModifyMesh
 // Il2CppName: ModifyMesh
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Outline::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::Outline::ModifyMesh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Outline*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+  }
+};

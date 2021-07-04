@@ -65,7 +65,12 @@ namespace Zenject::Internal {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_0");
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0::$GetPropertyInfos$b__1
 // Il2CppName: <GetPropertyInfos>b__1
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0::*)(System::Reflection::PropertyInfo*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0::$GetPropertyInfos$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0*), "<GetPropertyInfos>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

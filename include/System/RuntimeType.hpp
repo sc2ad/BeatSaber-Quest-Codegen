@@ -813,413 +813,1088 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
 // Writing MetadataGetter for method: System::RuntimeType::ThrowIfTypeNeverValidGenericArgument
 // Il2CppName: ThrowIfTypeNeverValidGenericArgument
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::RuntimeType*)>(&System::RuntimeType::ThrowIfTypeNeverValidGenericArgument)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "ThrowIfTypeNeverValidGenericArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::SanityCheckGenericArguments
 // Il2CppName: SanityCheckGenericArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::RuntimeType*>*, ::Array<System::RuntimeType*>*)>(&System::RuntimeType::SanityCheckGenericArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SanityCheckGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::SplitName
 // Il2CppName: SplitName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*&, ::Il2CppString*&)>(&System::RuntimeType::SplitName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SplitName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterHelper
 // Il2CppName: FilterHelper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::BindingFlags, ::Il2CppString*&, bool, bool&, bool&, System::RuntimeType::MemberListType&)>(&System::RuntimeType::FilterHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType::MemberListType&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterHelper
 // Il2CppName: FilterHelper
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::BindingFlags, ::Il2CppString*&, bool&, System::RuntimeType::MemberListType&)>(&System::RuntimeType::FilterHelper)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType::MemberListType&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyPrefixLookup
 // Il2CppName: FilterApplyPrefixLookup
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, ::Il2CppString*, bool)>(&System::RuntimeType::FilterApplyPrefixLookup)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyPrefixLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyBase
 // Il2CppName: FilterApplyBase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Reflection::BindingFlags, bool, bool, bool, ::Il2CppString*, bool)>(&System::RuntimeType::FilterApplyBase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyType
 // Il2CppName: FilterApplyType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Reflection::BindingFlags, ::Il2CppString*, bool, ::Il2CppString*)>(&System::RuntimeType::FilterApplyType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodInfo
 // Il2CppName: FilterApplyMethodInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyConstructorInfo
 // Il2CppName: FilterApplyConstructorInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeConstructorInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyConstructorInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyConstructorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodBase
 // Il2CppName: FilterApplyMethodBase
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::BindingFlags, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodBase)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsSpecialSerializableType
 // Il2CppName: IsSpecialSerializableType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsSpecialSerializableType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsSpecialSerializableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodCandidates
 // Il2CppName: GetMethodCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetMethodCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorCandidates
 // Il2CppName: GetConstructorCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetConstructorCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyCandidates
 // Il2CppName: GetPropertyCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetPropertyCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEventCandidates
 // Il2CppName: GetEventCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::EventInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetEventCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEventCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetFieldCandidates
 // Il2CppName: GetFieldCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::FieldInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetFieldCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFieldCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypeCandidates
 // Il2CppName: GetNestedTypeCandidates
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Type*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetNestedTypeCandidates)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypeCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetRuntimeModule
 // Il2CppName: GetRuntimeModule
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeModule* (System::RuntimeType::*)()>(&System::RuntimeType::GetRuntimeModule)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetRuntimeModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetRuntimeAssembly
 // Il2CppName: GetRuntimeAssembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (System::RuntimeType::*)()>(&System::RuntimeType::GetRuntimeAssembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetRuntimeAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetBaseType
 // Il2CppName: GetBaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::RuntimeType::*)()>(&System::RuntimeType::GetBaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetBaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArgumentsInternal
 // Il2CppName: GetGenericArgumentsInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::RuntimeType*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArgumentsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::Clone
 // Il2CppName: Clone
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)()>(&System::RuntimeType::Clone)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::RuntimeType::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::RuntimeType::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceCheckThis
 // Il2CppName: CreateInstanceCheckThis
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::RuntimeType::*)()>(&System::RuntimeType::CreateInstanceCheckThis)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceCheckThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceImpl
 // Il2CppName: CreateInstanceImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*, ::Array<::Il2CppObject*>*, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceDefaultCtor
 // Il2CppName: CreateInstanceDefaultCtor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool, bool, bool, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceDefaultCtor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceDefaultCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetDefaultConstructor
 // Il2CppName: GetDefaultConstructor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MonoCMethod* (System::RuntimeType::*)()>(&System::RuntimeType::GetDefaultConstructor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetDefaultConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetDefaultMemberName
 // Il2CppName: GetDefaultMemberName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::GetDefaultMemberName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetDefaultMemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetSerializationCtor
 // Il2CppName: GetSerializationCtor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeConstructorInfo* (System::RuntimeType::*)()>(&System::RuntimeType::GetSerializationCtor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetSerializationCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceSlow
 // Il2CppName: CreateInstanceSlow
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool, bool, bool, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceSlow)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceSlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceMono
 // Il2CppName: CreateInstanceMono
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool)>(&System::RuntimeType::CreateInstanceMono)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CheckValue
 // Il2CppName: CheckValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppObject*, System::Reflection::Binder*, System::Globalization::CultureInfo*, System::Reflection::BindingFlags)>(&System::RuntimeType::CheckValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CheckValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::TryConvertToType
 // Il2CppName: TryConvertToType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppObject*, bool&)>(&System::RuntimeType::TryConvertToType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "TryConvertToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsConvertibleToPrimitiveType
 // Il2CppName: IsConvertibleToPrimitiveType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*)>(&System::RuntimeType::IsConvertibleToPrimitiveType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsConvertibleToPrimitiveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetCachedName
 // Il2CppName: GetCachedName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(System::TypeNameKind)>(&System::RuntimeType::GetCachedName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCachedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeNameKind>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::make_array_type
 // Il2CppName: make_array_type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(int)>(&System::RuntimeType::make_array_type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "make_array_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::make_byref_type
 // Il2CppName: make_byref_type
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::make_byref_type)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "make_byref_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakePointerType
 // Il2CppName: MakePointerType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::RuntimeType::MakePointerType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakePointerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceForAnotherGenericParameter
 // Il2CppName: CreateInstanceForAnotherGenericParameter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::RuntimeType*)>(&System::RuntimeType::CreateInstanceForAnotherGenericParameter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceForAnotherGenericParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakeGenericType
 // Il2CppName: MakeGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodsByName_native
 // Il2CppName: GetMethodsByName_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetMethodsByName_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodsByName
 // Il2CppName: GetMethodsByName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeMethodInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetMethodsByName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertiesByName_native
 // Il2CppName: GetPropertiesByName_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetPropertiesByName_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors_native
 // Il2CppName: GetConstructors_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors_internal
 // Il2CppName: GetConstructors_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetConstructors_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertiesByName
 // Il2CppName: GetPropertiesByName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimePropertyInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetPropertiesByName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetTypeFromCLSIDImpl
 // Il2CppName: GetTypeFromCLSIDImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Guid, ::Il2CppString*, bool)>(&System::RuntimeType::GetTypeFromCLSIDImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeFromCLSIDImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetTypeCodeImplInternal
 // Il2CppName: GetTypeCodeImplInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(System::Type*)>(&System::RuntimeType::GetTypeCodeImplInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeCodeImplInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsGenericCOMObjectImpl
 // Il2CppName: IsGenericCOMObjectImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsGenericCOMObjectImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsGenericCOMObjectImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceInternal
 // Il2CppName: CreateInstanceInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::RuntimeType::CreateInstanceInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::getFullName
 // Il2CppName: getFullName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(bool, bool)>(&System::RuntimeType::getFullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "getFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArgumentsInternal
 // Il2CppName: GetGenericArgumentsInternal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetGenericArgumentsInternal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericParameterAttributes
 // Il2CppName: GetGenericParameterAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericParameterAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericParameterAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericParameterPosition
 // Il2CppName: GetGenericParameterPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericParameterPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericParameterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEvents_native
 // Il2CppName: GetEvents_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetEvents_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetFields_native
 // Il2CppName: GetFields_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetFields_internal
 // Il2CppName: GetFields_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeFieldInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetFields_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEvents_internal
 // Il2CppName: GetEvents_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeEventInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetEvents_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypes_native
 // Il2CppName: GetNestedTypes_native
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_native)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypes_internal
 // Il2CppName: GetNestedTypes_internal
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::RuntimeType*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_internal)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::RuntimeType::GetMethods
 // Il2CppName: GetMethods
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetMethods)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors
 // Il2CppName: GetConstructors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetProperties
 // Il2CppName: GetProperties
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetProperties)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetFields
 // Il2CppName: GetFields
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodImpl
 // Il2CppName: GetMethodImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetMethodImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorImpl
 // Il2CppName: GetConstructorImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetConstructorImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyImpl
 // Il2CppName: GetPropertyImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetPropertyImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEvent
 // Il2CppName: GetEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetField
 // Il2CppName: GetField
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetField)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedType
 // Il2CppName: GetNestedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetMember
 // Il2CppName: GetMember
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::MemberTypes, System::Reflection::BindingFlags)>(&System::RuntimeType::GetMember)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberTypes>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_Module
 // Il2CppName: get_Module
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::RuntimeType::*)()>(&System::RuntimeType::get_Module)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_Assembly
 // Il2CppName: get_Assembly
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::RuntimeType::*)()>(&System::RuntimeType::get_Assembly)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_TypeHandle
 // Il2CppName: get_TypeHandle
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeTypeHandle (System::RuntimeType::*)()>(&System::RuntimeType::get_TypeHandle)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_TypeHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsInstanceOfType
 // Il2CppName: IsInstanceOfType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::IsInstanceOfType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsInstanceOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsSubclassOf
 // Il2CppName: IsSubclassOf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsSubclassOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsSubclassOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsAssignableFrom
 // Il2CppName: IsAssignableFrom
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsAssignableFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsAssignableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsEquivalentTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_BaseType
 // Il2CppName: get_BaseType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::get_BaseType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_UnderlyingSystemType
 // Il2CppName: get_UnderlyingSystemType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::get_UnderlyingSystemType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_UnderlyingSystemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetAttributeFlagsImpl
 // Il2CppName: GetAttributeFlagsImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::TypeAttributes (System::RuntimeType::*)()>(&System::RuntimeType::GetAttributeFlagsImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetAttributeFlagsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsContextfulImpl
 // Il2CppName: IsContextfulImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsContextfulImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsContextfulImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsByRefImpl
 // Il2CppName: IsByRefImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsByRefImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsByRefImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsPrimitiveImpl
 // Il2CppName: IsPrimitiveImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsPrimitiveImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsPrimitiveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsPointerImpl
 // Il2CppName: IsPointerImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsPointerImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsPointerImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsCOMObjectImpl
 // Il2CppName: IsCOMObjectImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsCOMObjectImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsCOMObjectImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsValueTypeImpl
 // Il2CppName: IsValueTypeImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsValueTypeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsValueTypeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_IsEnum
 // Il2CppName: get_IsEnum
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_IsEnum)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_IsEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::HasElementTypeImpl
 // Il2CppName: HasElementTypeImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::HasElementTypeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "HasElementTypeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_GenericParameterAttributes
 // Il2CppName: get_GenericParameterAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (System::RuntimeType::*)()>(&System::RuntimeType::get_GenericParameterAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_GenericParameterAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_IsSzArray
 // Il2CppName: get_IsSzArray
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_IsSzArray)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_IsSzArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsArrayImpl
 // Il2CppName: IsArrayImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::IsArrayImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetArrayRank
 // Il2CppName: GetArrayRank
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeType::*)()>(&System::RuntimeType::GetArrayRank)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetArrayRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetElementType
 // Il2CppName: GetElementType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::GetElementType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumNames
 // Il2CppName: GetEnumNames
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetEnumNames)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumValues
 // Il2CppName: GetEnumValues
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (System::RuntimeType::*)()>(&System::RuntimeType::GetEnumValues)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumUnderlyingType
 // Il2CppName: GetEnumUnderlyingType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::GetEnumUnderlyingType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsEnumDefined
 // Il2CppName: IsEnumDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::IsEnumDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEnumDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumName
 // Il2CppName: GetEnumName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::GetEnumName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArguments
 // Il2CppName: GetGenericArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakeGenericType
 // Il2CppName: MakeGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_IsGenericTypeDefinition
 // Il2CppName: get_IsGenericTypeDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_IsGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_IsGenericParameter
 // Il2CppName: get_IsGenericParameter
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_IsGenericParameter)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_IsGenericParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_GenericParameterPosition
 // Il2CppName: get_GenericParameterPosition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeType::*)()>(&System::RuntimeType::get_GenericParameterPosition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_GenericParameterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericTypeDefinition
 // Il2CppName: GetGenericTypeDefinition
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericTypeDefinition)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_IsGenericType
 // Il2CppName: get_IsGenericType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_IsGenericType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::InvokeMember
 // Il2CppName: InvokeMember
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&System::RuntimeType::InvokeMember)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::Equals
 // Il2CppName: Equals
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::GetCustomAttributes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::IsDefined
 // Il2CppName: IsDefined
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::IsDefined)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributesData
 // Il2CppName: GetCustomAttributesData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetCustomAttributesData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::FormatTypeName
 // Il2CppName: FormatTypeName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(bool)>(&System::RuntimeType::FormatTypeName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FormatTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_MemberType
 // Il2CppName: get_MemberType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (System::RuntimeType::*)()>(&System::RuntimeType::get_MemberType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_ReflectedType
 // Il2CppName: get_ReflectedType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::get_ReflectedType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_ReflectedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_MetadataToken
 // Il2CppName: get_MetadataToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeType::*)()>(&System::RuntimeType::get_MetadataToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_MetadataToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakeArrayType
 // Il2CppName: MakeArrayType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::MakeArrayType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeArrayType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakeArrayType
 // Il2CppName: MakeArrayType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(int)>(&System::RuntimeType::MakeArrayType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeArrayType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakeByRefType
 // Il2CppName: MakeByRefType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::MakeByRefType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeByRefType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::MakePointerType
 // Il2CppName: MakePointerType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::MakePointerType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakePointerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_ContainsGenericParameters
 // Il2CppName: get_ContainsGenericParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)()>(&System::RuntimeType::get_ContainsGenericParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericParameterConstraints
 // Il2CppName: GetGenericParameterConstraints
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericParameterConstraints)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericParameterConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_GUID
 // Il2CppName: get_GUID
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (System::RuntimeType::*)()>(&System::RuntimeType::get_GUID)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_GUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetTypeCodeImpl
 // Il2CppName: GetTypeCodeImpl
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::RuntimeType::*)()>(&System::RuntimeType::GetTypeCodeImpl)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeCodeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::ToString
 // Il2CppName: ToString
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_DeclaringMethod
 // Il2CppName: get_DeclaringMethod
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::RuntimeType::*)()>(&System::RuntimeType::get_DeclaringMethod)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_DeclaringMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetInterfaces
 // Il2CppName: GetInterfaces
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetInterfaces)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_AssemblyQualifiedName
 // Il2CppName: get_AssemblyQualifiedName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::get_AssemblyQualifiedName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_AssemblyQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_DeclaringType
 // Il2CppName: get_DeclaringType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)()>(&System::RuntimeType::get_DeclaringType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_Namespace
 // Il2CppName: get_Namespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::get_Namespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::GetHashCode
 // Il2CppName: GetHashCode
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::RuntimeType::*)()>(&System::RuntimeType::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::get_FullName
 // Il2CppName: get_FullName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)()>(&System::RuntimeType::get_FullName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::RuntimeType::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::RuntimeType::operator ==
 // Il2CppName: op_Equality
 // Cannot perform method pointer template specialization from operators!

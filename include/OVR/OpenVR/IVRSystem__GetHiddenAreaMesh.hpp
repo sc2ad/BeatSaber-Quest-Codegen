@@ -67,10 +67,25 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*, "OVR.OpenVR"
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HiddenAreaMesh_t (OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::*)(OVR::OpenVR::EVREye, OVR::OpenVR::EHiddenAreaMeshType)>(&OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EHiddenAreaMeshType>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::*)(OVR::OpenVR::EVREye, OVR::OpenVR::EHiddenAreaMeshType, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EHiddenAreaMeshType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HiddenAreaMesh_t (OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

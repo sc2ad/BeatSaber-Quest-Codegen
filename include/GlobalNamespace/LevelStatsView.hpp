@@ -81,10 +81,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView*, "", "LevelStatsView");
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::Hide
 // Il2CppName: Hide
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelStatsView::*)()>(&GlobalNamespace::LevelStatsView::Hide)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelStatsView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::ShowStats
 // Il2CppName: ShowStats
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelStatsView::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlayerData*)>(&GlobalNamespace::LevelStatsView::ShowStats)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

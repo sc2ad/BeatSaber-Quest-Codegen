@@ -109,34 +109,84 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::get_instance
 // Il2CppName: get_instance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_UpdateRegistry* (*)()>(&TMPro::TMP_UpdateRegistry::get_instance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::RegisterCanvasElementForLayoutRebuild
 // Il2CppName: RegisterCanvasElementForLayoutRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "RegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild
 // Il2CppName: InternalRegisterCanvasElementForLayoutRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::RegisterCanvasElementForGraphicRebuild
 // Il2CppName: RegisterCanvasElementForGraphicRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "RegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild
 // Il2CppName: InternalRegisterCanvasElementForGraphicRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::PerformUpdateForCanvasRendererObjects
 // Il2CppName: PerformUpdateForCanvasRendererObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)()>(&TMPro::TMP_UpdateRegistry::PerformUpdateForCanvasRendererObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "PerformUpdateForCanvasRendererObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::PerformUpdateForMeshRendererObjects
 // Il2CppName: PerformUpdateForMeshRendererObjects
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)()>(&TMPro::TMP_UpdateRegistry::PerformUpdateForMeshRendererObjects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "PerformUpdateForMeshRendererObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::UnRegisterCanvasElementForRebuild
 // Il2CppName: UnRegisterCanvasElementForRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::UnRegisterCanvasElementForRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "UnRegisterCanvasElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild
 // Il2CppName: InternalUnRegisterCanvasElementForLayoutRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalUnRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild
 // Il2CppName: InternalUnRegisterCanvasElementForGraphicRebuild
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalUnRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

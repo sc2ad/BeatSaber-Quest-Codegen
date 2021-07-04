@@ -69,7 +69,12 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, "Zenject", "InstantiateCallbackConditionCopyNonLazyBinder");
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated
 // Il2CppName: OnInstantiated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConditionCopyNonLazyBinder* (Zenject::InstantiateCallbackConditionCopyNonLazyBinder::*)(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*), "OnInstantiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated
 // Il2CppName: OnInstantiated
 // Cannot write MetadataGetter for generic methods!

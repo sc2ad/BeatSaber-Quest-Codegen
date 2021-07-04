@@ -79,7 +79,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51, "", "PreviewBeatmapLevelSO/<GetPreviewAudioClipAsync>d__51");
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::MoveNext
 // Il2CppName: MoveNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::*)()>(&GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::SetStateMachine
 // Il2CppName: SetStateMachine
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO::$GetPreviewAudioClipAsync$d__51), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};

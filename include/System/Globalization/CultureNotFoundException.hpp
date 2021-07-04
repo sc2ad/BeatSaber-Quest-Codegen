@@ -112,16 +112,36 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException*, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_InvalidCultureId
 // Il2CppName: get_InvalidCultureId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_InvalidCultureId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_InvalidCultureId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_InvalidCultureName
 // Il2CppName: get_InvalidCultureName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_InvalidCultureName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_InvalidCultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_DefaultMessage
 // Il2CppName: get_DefaultMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Globalization::CultureNotFoundException::get_DefaultMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_DefaultMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId
 // Il2CppName: get_FormatedInvalidCultureId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_FormatedInvalidCultureId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -136,7 +156,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException*, "System
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::GetObjectData
 // Il2CppName: GetObjectData
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::CultureNotFoundException::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Globalization::CultureNotFoundException::GetObjectData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+  }
+};
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_Message
 // Il2CppName: get_Message
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_Message)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -158,52 +158,137 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTextur
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_undistorted
 // Il2CppName: get_undistorted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_undistorted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_undistorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::set_undistorted
 // Il2CppName: set_undistorted
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)(bool)>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::set_undistorted)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "set_undistorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_deviceIndex
 // Il2CppName: get_deviceIndex
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_deviceIndex)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_deviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_hasCamera
 // Il2CppName: get_hasCamera
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_hasCamera)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_hasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_hasTracking
 // Il2CppName: get_hasTracking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_hasTracking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_hasTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameId
 // Il2CppName: get_frameId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_frameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameBounds
 // Il2CppName: get_frameBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRTextureBounds_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_frameBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::set_frameBounds
 // Il2CppName: set_frameBounds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)(Valve::VR::VRTextureBounds_t)>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::set_frameBounds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "set_frameBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameType
 // Il2CppName: get_frameType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraFrameType (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_frameType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_frameType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_texture
 // Il2CppName: get_texture
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_texture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_transform
 // Il2CppName: get_transform
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_transform)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_velocity
 // Il2CppName: get_velocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_velocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_angularVelocity
 // Il2CppName: get_angularVelocity
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_angularVelocity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::GetPose
 // Il2CppName: GetPose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::GetPose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Acquire
 // Il2CppName: Acquire
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Acquire)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Release
 // Il2CppName: Release
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Release)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Update
 // Il2CppName: Update
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

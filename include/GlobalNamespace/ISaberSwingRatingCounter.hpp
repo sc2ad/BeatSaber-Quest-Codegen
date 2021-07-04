@@ -47,19 +47,49 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounter*, "", "ISaberSwingRatingCounter");
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::get_beforeCutRating
 // Il2CppName: get_beforeCutRating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ISaberSwingRatingCounter::*)()>(&GlobalNamespace::ISaberSwingRatingCounter::get_beforeCutRating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "get_beforeCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::get_afterCutRating
 // Il2CppName: get_afterCutRating
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ISaberSwingRatingCounter::*)()>(&GlobalNamespace::ISaberSwingRatingCounter::get_afterCutRating)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "get_afterCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::RegisterDidChangeReceiver
 // Il2CppName: RegisterDidChangeReceiver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::RegisterDidChangeReceiver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "RegisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::RegisterDidFinishReceiver
 // Il2CppName: RegisterDidFinishReceiver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::RegisterDidFinishReceiver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "RegisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidChangeReceiver
 // Il2CppName: UnregisterDidChangeReceiver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidChangeReceiver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "UnregisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidFinishReceiver
 // Il2CppName: UnregisterDidFinishReceiver
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidFinishReceiver)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "UnregisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
+  }
+};

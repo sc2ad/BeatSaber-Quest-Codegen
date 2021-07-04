@@ -81,13 +81,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientIdentity*, "System.Runti
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientIdentity::get_ClientProxy
 // Il2CppName: get_ClientProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (System::Runtime::Remoting::ClientIdentity::*)()>(&System::Runtime::Remoting::ClientIdentity::get_ClientProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ClientIdentity*), "get_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientIdentity::set_ClientProxy
 // Il2CppName: set_ClientProxy
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ClientIdentity::*)(System::MarshalByRefObject*)>(&System::Runtime::Remoting::ClientIdentity::set_ClientProxy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ClientIdentity*), "set_ClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientIdentity::get_TargetUri
 // Il2CppName: get_TargetUri
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ClientIdentity::*)()>(&System::Runtime::Remoting::ClientIdentity::get_TargetUri)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ClientIdentity*), "get_TargetUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientIdentity::CreateObjRef
 // Il2CppName: CreateObjRef
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ClientIdentity::*)(System::Type*)>(&System::Runtime::Remoting::ClientIdentity::CreateObjRef)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ClientIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};

@@ -105,13 +105,33 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::AddAddress
 // Il2CppName: AddAddress
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::UnixNetworkInterface::AddAddress)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "AddAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo
 // Il2CppName: SetLinkLayerInfo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::Array<uint8_t>*, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "SetLinkLayerInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceType>()});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::get_Name
 // Il2CppName: get_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType
 // Il2CppName: get_NetworkInterfaceType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

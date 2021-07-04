@@ -73,7 +73,17 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta
 // Il2CppName: get_Beta
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_Beta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams
 // Il2CppName: get_SplitParams
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_SplitParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

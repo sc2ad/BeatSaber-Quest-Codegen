@@ -37,7 +37,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAuthenticationTokenProvider*, "", "IAuthenticationTokenProvider");
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken
 // Il2CppName: GetAuthenticationToken
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "GetAuthenticationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId
 // Il2CppName: get_hashedUserId
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

@@ -88,7 +88,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuf
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Number::NumberBuffer::PackForNative
 // Il2CppName: PackForNative
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (System::Number::NumberBuffer::*)()>(&System::Number::NumberBuffer::PackForNative)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number::NumberBuffer), "PackForNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Number::NumberBuffer::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Number::NumberBuffer::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Number::NumberBuffer), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

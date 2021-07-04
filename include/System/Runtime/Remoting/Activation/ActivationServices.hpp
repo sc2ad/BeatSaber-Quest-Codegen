@@ -75,25 +75,65 @@ namespace System::Runtime::Remoting::Activation {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ActivationServices*, "System.Runtime.Remoting.Activation", "ActivationServices");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator
 // Il2CppName: get_ConstructionActivator
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (*)()>(&System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "get_ConstructionActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::Activate
 // Il2CppName: Activate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Proxies::RemotingProxy*, System::Runtime::Remoting::Messaging::ConstructionCall*)>(&System::Runtime::Remoting::Activation::ActivationServices::Activate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Proxies::RemotingProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ConstructionCall*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate
 // Il2CppName: RemoteActivate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "RemoteActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall
 // Il2CppName: CreateConstructionCall
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::ConstructionCall* (*)(System::Type*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "CreateConstructionCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage
 // Il2CppName: CreateInstanceFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "CreateInstanceFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType
 // Il2CppName: CreateProxyForType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "CreateProxyForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance
 // Il2CppName: AllocateUninitializedClassInstance
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "AllocateUninitializedClassInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation
 // Il2CppName: EnableProxyActivation
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, bool)>(&System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "EnableProxyActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};

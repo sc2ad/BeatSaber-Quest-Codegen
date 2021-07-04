@@ -67,10 +67,25 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_ChangeType
 // Il2CppName: set_ChangeType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(System::IO::WatcherChangeTypes)>(&System::IO::WaitForChangedResult::set_ChangeType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::WatcherChangeTypes>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_Name
 // Il2CppName: set_Name
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_Name)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_OldName
 // Il2CppName: set_OldName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_OldName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_OldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

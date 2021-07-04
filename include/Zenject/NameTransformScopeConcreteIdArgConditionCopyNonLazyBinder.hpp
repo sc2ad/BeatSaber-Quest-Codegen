@@ -48,7 +48,12 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder");
 // Writing MetadataGetter for method: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName
 // Il2CppName: WithGameObjectName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -44,10 +44,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, "", "IAnnotatedBeatmapLevelCollection");
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName
 // Il2CppName: get_collectionName
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_coverImage
 // Il2CppName: get_coverImage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_coverImage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection
 // Il2CppName: get_beatmapLevelCollection
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelCollection* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

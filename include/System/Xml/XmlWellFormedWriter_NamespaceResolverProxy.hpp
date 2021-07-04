@@ -61,7 +61,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupNamespace
 // Il2CppName: System.Xml.IXmlNamespaceResolver.LookupNamespace
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*), "System.Xml.IXmlNamespaceResolver.LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupPrefix
 // Il2CppName: System.Xml.IXmlNamespaceResolver.LookupPrefix
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*), "System.Xml.IXmlNamespaceResolver.LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};

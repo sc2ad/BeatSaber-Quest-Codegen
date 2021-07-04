@@ -105,25 +105,65 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::get_ActualValue
 // Il2CppName: get_ActualValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Constraints::ConstraintResult::*)()>(&NUnit::Framework::Constraints::ConstraintResult::get_ActualValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "get_ActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::set_ActualValue
 // Il2CppName: set_ActualValue
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintResult::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::ConstraintResult::set_ActualValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "set_ActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::get_Status
 // Il2CppName: get_Status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintStatus (NUnit::Framework::Constraints::ConstraintResult::*)()>(&NUnit::Framework::Constraints::ConstraintResult::get_Status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::set_Status
 // Il2CppName: set_Status
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintResult::*)(NUnit::Framework::Constraints::ConstraintStatus)>(&NUnit::Framework::Constraints::ConstraintResult::set_Status)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "set_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintStatus>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::get_IsSuccess
 // Il2CppName: get_IsSuccess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintResult::*)()>(&NUnit::Framework::Constraints::ConstraintResult::get_IsSuccess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "get_IsSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::get_Description
 // Il2CppName: get_Description
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::ConstraintResult::*)()>(&NUnit::Framework::Constraints::ConstraintResult::get_Description)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::WriteMessageTo
 // Il2CppName: WriteMessageTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&NUnit::Framework::Constraints::ConstraintResult::WriteMessageTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "WriteMessageTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::WriteActualValueTo
 // Il2CppName: WriteActualValueTo
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&NUnit::Framework::Constraints::ConstraintResult::WriteActualValueTo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintResult*), "WriteActualValueTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>()});
+  }
+};

@@ -126,23 +126,53 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredCubeNoteController*, "", "MirroredCubeNoteController");
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent
 // Il2CppName: add_cubeNoteControllerDidInitEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&GlobalNamespace::MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent
 // Il2CppName: remove_cubeNoteControllerDidInitEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&GlobalNamespace::MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_noteMovement
 // Il2CppName: get_noteMovement
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_noteMovement)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_gameNoteType
 // Il2CppName: get_gameNoteType
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_gameNoteType)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::Mirror
 // Il2CppName: Mirror
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(GlobalNamespace::ICubeNoteMirrorable*)>(&GlobalNamespace::MirroredCubeNoteController::Mirror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ICubeNoteMirrorable*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::_cctor
 // Il2CppName: .cctor
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MirroredCubeNoteController::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

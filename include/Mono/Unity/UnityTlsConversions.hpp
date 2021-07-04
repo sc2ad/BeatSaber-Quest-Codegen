@@ -54,16 +54,41 @@ namespace Mono::Unity {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsConversions*, "Mono.Unity", "UnityTlsConversions");
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::GetMinProtocol
 // Il2CppName: GetMinProtocol
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&Mono::Unity::UnityTlsConversions::GetMinProtocol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsConversions*), "GetMinProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::GetMaxProtocol
 // Il2CppName: GetMaxProtocol
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_protocol (*)(System::Security::Authentication::SslProtocols)>(&Mono::Unity::UnityTlsConversions::GetMaxProtocol)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsConversions*), "GetMaxProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::ConvertProtocolVersion
 // Il2CppName: ConvertProtocolVersion
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::TlsProtocols (*)(Mono::Unity::UnityTls::unitytls_protocol)>(&Mono::Unity::UnityTlsConversions::ConvertProtocolVersion)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsConversions*), "ConvertProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_protocol>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::VerifyResultToAlertDescription
 // Il2CppName: VerifyResultToAlertDescription
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertDescription (*)(Mono::Unity::UnityTls::unitytls_x509verify_result, Mono::Security::Interface::AlertDescription)>(&Mono::Unity::UnityTlsConversions::VerifyResultToAlertDescription)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsConversions*), "VerifyResultToAlertDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::VerifyResultToPolicyErrror
 // Il2CppName: VerifyResultToPolicyErrror
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoSslPolicyErrors (*)(Mono::Unity::UnityTls::unitytls_x509verify_result)>(&Mono::Unity::UnityTlsConversions::VerifyResultToPolicyErrror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsConversions*), "VerifyResultToPolicyErrror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>()});
+  }
+};

@@ -64,10 +64,25 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionEventD
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, RootMotion::FinalIK::InteractionObject::InteractionEvent*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject::InteractionEvent*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, RootMotion::FinalIK::InteractionObject::InteractionEvent*, System::AsyncCallback*, ::Il2CppObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject::InteractionEvent*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(System::IAsyncResult*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

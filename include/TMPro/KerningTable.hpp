@@ -86,22 +86,52 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)()>(&TMPro::KerningTable::AddKerningPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, uint, float)>(&TMPro::KerningTable::AddKerningPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::AddGlyphPairAdjustmentRecord
 // Il2CppName: AddGlyphPairAdjustmentRecord
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddGlyphPairAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::RemoveKerningPair
 // Il2CppName: RemoveKerningPair
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)(int, int)>(&TMPro::KerningTable::RemoveKerningPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::RemoveKerningPair
 // Il2CppName: RemoveKerningPair
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)(int)>(&TMPro::KerningTable::RemoveKerningPair)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::SortKerningPairs
 // Il2CppName: SortKerningPairs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)()>(&TMPro::KerningTable::SortKerningPairs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "SortKerningPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: TMPro::KerningTable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

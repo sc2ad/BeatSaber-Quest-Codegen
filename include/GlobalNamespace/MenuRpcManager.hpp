@@ -895,362 +895,957 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager
 // Il2CppName: get_multiplayerSessionManager
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSessionManager* (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "get_multiplayerSessionManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_enabled
 // Il2CppName: get_enabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::get_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::set_enabled
 // Il2CppName: set_enabled
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(bool)>(&GlobalNamespace::MenuRpcManager::set_enabled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_enabledForAllPlayers
 // Il2CppName: get_enabledForAllPlayers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::get_enabledForAllPlayers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "get_enabledForAllPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_syncTime
 // Il2CppName: get_syncTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::get_syncTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::Dispose
 // Il2CppName: Dispose
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::EnabledForPlayer
 // Il2CppName: EnabledForPlayer
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MenuRpcManager::EnabledForPlayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "EnabledForPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getIsEntitledToLevelEvent
 // Il2CppName: add_getIsEntitledToLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getIsEntitledToLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getIsEntitledToLevelEvent
 // Il2CppName: remove_getIsEntitledToLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getIsEntitledToLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetIsEntitledToLevel
 // Il2CppName: GetIsEntitledToLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::GetIsEntitledToLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetIsEntitledToLevel
 // Il2CppName: InvokeGetIsEntitledToLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetIsEntitledToLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setIsEntitledToLevelEvent
 // Il2CppName: add_setIsEntitledToLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::MenuRpcManager::add_setIsEntitledToLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setIsEntitledToLevelEvent
 // Il2CppName: remove_setIsEntitledToLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::MenuRpcManager::remove_setIsEntitledToLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetIsEntitledToLevel
 // Il2CppName: SetIsEntitledToLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::EntitlementsStatus)>(&GlobalNamespace::MenuRpcManager::SetIsEntitledToLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetIsEntitledToLevel
 // Il2CppName: InvokeSetIsEntitledToLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*, int)>(&GlobalNamespace::MenuRpcManager::InvokeSetIsEntitledToLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent
 // Il2CppName: add_levelEntitlementStatusesInvalidatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent
 // Il2CppName: remove_levelEntitlementStatusesInvalidatedEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatuses
 // Il2CppName: InvalidateLevelEntitlementStatuses
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatuses)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvalidateLevelEntitlementStatuses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated
 // Il2CppName: InvokeLevelEntitlementStatusesInvalidated
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeLevelEntitlementStatusesInvalidated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_selectedLevelPackEvent
 // Il2CppName: add_selectedLevelPackEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_selectedLevelPackEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_selectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_selectedLevelPackEvent
 // Il2CppName: remove_selectedLevelPackEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_selectedLevelPackEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_selectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SelectLevelPack
 // Il2CppName: SelectLevelPack
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::SelectLevelPack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SelectLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeOnSelectedLevelPackEvent
 // Il2CppName: InvokeOnSelectedLevelPackEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeOnSelectedLevelPackEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeOnSelectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_selectedBeatmapEvent
 // Il2CppName: add_selectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::MenuRpcManager::add_selectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_selectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_selectedBeatmapEvent
 // Il2CppName: remove_selectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::MenuRpcManager::remove_selectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_selectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SelectBeatmap
 // Il2CppName: SelectBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&GlobalNamespace::MenuRpcManager::SelectBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SelectBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSelectedBeatmap
 // Il2CppName: InvokeSelectedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&GlobalNamespace::MenuRpcManager::InvokeSelectedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_clearSelectedBeatmapEvent
 // Il2CppName: add_clearSelectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_clearSelectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_clearSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_clearSelectedBeatmapEvent
 // Il2CppName: remove_clearSelectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_clearSelectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_clearSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::ClearSelectedBeatmap
 // Il2CppName: ClearSelectedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::ClearSelectedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "ClearSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeClearSelectedBeatmap
 // Il2CppName: InvokeClearSelectedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeClearSelectedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeClearSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getSelectedBeatmapEvent
 // Il2CppName: add_getSelectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getSelectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getSelectedBeatmapEvent
 // Il2CppName: remove_getSelectedBeatmapEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getSelectedBeatmapEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetSelectedBeatmap
 // Il2CppName: GetSelectedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetSelectedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetSelectedBeatmap
 // Il2CppName: InvokeGetSelectedBeatmap
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetSelectedBeatmap)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_selectedGameplayModifiersEvent
 // Il2CppName: add_selectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::MenuRpcManager::add_selectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_selectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_selectedGameplayModifiersEvent
 // Il2CppName: remove_selectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::MenuRpcManager::remove_selectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_selectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SelectGameplayModifiers
 // Il2CppName: SelectGameplayModifiers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::MenuRpcManager::SelectGameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SelectGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeOnSelectedGameplayModifiersEvent
 // Il2CppName: InvokeOnSelectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::MenuRpcManager::InvokeOnSelectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeOnSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_clearSelectedGameplayModifiersEvent
 // Il2CppName: add_clearSelectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_clearSelectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_clearSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_clearSelectedGameplayModifiersEvent
 // Il2CppName: remove_clearSelectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_clearSelectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_clearSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::ClearSelectedGameplayModifiers
 // Il2CppName: ClearSelectedGameplayModifiers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::ClearSelectedGameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "ClearSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeClearSelectedGameplayModifiers
 // Il2CppName: InvokeClearSelectedGameplayModifiers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeClearSelectedGameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeClearSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getSelectedGameplayModifiersEvent
 // Il2CppName: add_getSelectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getSelectedGameplayModifiersEvent
 // Il2CppName: remove_getSelectedGameplayModifiersEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetSelectedGameplayModifiers
 // Il2CppName: GetSelectedGameplayModifiers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetSelectedGameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetSelectedGameplayModifiers
 // Il2CppName: InvokeGetSelectedGameplayModifiers
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetSelectedGameplayModifiers)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_levelLoadErrorEvent
 // Il2CppName: add_levelLoadErrorEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_levelLoadErrorEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_levelLoadErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_levelLoadErrorEvent
 // Il2CppName: remove_levelLoadErrorEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_levelLoadErrorEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_levelLoadErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::LevelLoadError
 // Il2CppName: LevelLoadError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::LevelLoadError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "LevelLoadError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeLevelLoadError
 // Il2CppName: InvokeLevelLoadError
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeLevelLoadError)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeLevelLoadError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_levelLoadSuccessEvent
 // Il2CppName: add_levelLoadSuccessEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_levelLoadSuccessEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_levelLoadSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_levelLoadSuccessEvent
 // Il2CppName: remove_levelLoadSuccessEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_levelLoadSuccessEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_levelLoadSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::LevelLoadSuccess
 // Il2CppName: LevelLoadSuccess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::LevelLoadSuccess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "LevelLoadSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeLevelLoadSuccess
 // Il2CppName: InvokeLevelLoadSuccess
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeLevelLoadSuccess)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeLevelLoadSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_startedLevelEvent
 // Il2CppName: add_startedLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::MenuRpcManager::add_startedLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_startedLevelEvent
 // Il2CppName: remove_startedLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::MenuRpcManager::remove_startedLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::StartLevel
 // Il2CppName: StartLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&GlobalNamespace::MenuRpcManager::StartLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeStartLevel
 // Il2CppName: InvokeStartLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&GlobalNamespace::MenuRpcManager::InvokeStartLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeStartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getStartedLevelEvent
 // Il2CppName: add_getStartedLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getStartedLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getStartedLevelEvent
 // Il2CppName: remove_getStartedLevelEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getStartedLevelEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetStartedLevel
 // Il2CppName: GetStartedLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetStartedLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetStartedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetStartedLevel
 // Il2CppName: InvokeGetStartedLevel
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetStartedLevel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetStartedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getMultiplayerGameStateEvent
 // Il2CppName: add_getMultiplayerGameStateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getMultiplayerGameStateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getMultiplayerGameStateEvent
 // Il2CppName: remove_getMultiplayerGameStateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getMultiplayerGameStateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetMultiplayerGameState
 // Il2CppName: GetMultiplayerGameState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetMultiplayerGameState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetMultiplayerGameState
 // Il2CppName: InvokeGetMultiplayerGameState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetMultiplayerGameState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setMultiplayerGameStateEvent
 // Il2CppName: add_setMultiplayerGameStateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::MenuRpcManager::add_setMultiplayerGameStateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setMultiplayerGameStateEvent
 // Il2CppName: remove_setMultiplayerGameStateEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::MenuRpcManager::remove_setMultiplayerGameStateEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetMultiplayerGameState
 // Il2CppName: SetMultiplayerGameState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::MenuRpcManager::SetMultiplayerGameState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetMultiplayerGameState
 // Il2CppName: InvokeSetMultiplayerGameState
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::MenuRpcManager::InvokeSetMultiplayerGameState)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_cancelCountdownEvent
 // Il2CppName: add_cancelCountdownEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_cancelCountdownEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_cancelCountdownEvent
 // Il2CppName: remove_cancelCountdownEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_cancelCountdownEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelCountdown
 // Il2CppName: CancelCountdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::CancelCountdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "CancelCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeCancelCountdown
 // Il2CppName: InvokeCancelCountdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeCancelCountdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeCancelCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setCountdownEndTimeEvent
 // Il2CppName: add_setCountdownEndTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::MenuRpcManager::add_setCountdownEndTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setCountdownEndTimeEvent
 // Il2CppName: remove_setCountdownEndTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::MenuRpcManager::remove_setCountdownEndTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetCountdownEndTime
 // Il2CppName: SetCountdownEndTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(float)>(&GlobalNamespace::MenuRpcManager::SetCountdownEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetCountdownEndTime
 // Il2CppName: InvokeSetCountdownEndTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, float)>(&GlobalNamespace::MenuRpcManager::InvokeSetCountdownEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getCountdownEndTimeEvent
 // Il2CppName: add_getCountdownEndTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getCountdownEndTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getCountdownEndTimeEvent
 // Il2CppName: remove_getCountdownEndTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getCountdownEndTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetCountdownEndTime
 // Il2CppName: GetCountdownEndTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetCountdownEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetCountdownEndTime
 // Il2CppName: InvokeGetCountdownEndTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetCountdownEndTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_cancelledLevelStartEvent
 // Il2CppName: add_cancelledLevelStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_cancelledLevelStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_cancelledLevelStartEvent
 // Il2CppName: remove_cancelledLevelStartEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_cancelledLevelStartEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelLevelStart
 // Il2CppName: CancelLevelStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::CancelLevelStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "CancelLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeCancelLevelStart
 // Il2CppName: InvokeCancelLevelStart
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeCancelLevelStart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeCancelLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getIsReadyEvent
 // Il2CppName: add_getIsReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getIsReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getIsReadyEvent
 // Il2CppName: remove_getIsReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getIsReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetIsReady
 // Il2CppName: GetIsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetIsReady
 // Il2CppName: InvokeGetIsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setIsReadyEvent
 // Il2CppName: add_setIsReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::MenuRpcManager::add_setIsReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setIsReadyEvent
 // Il2CppName: remove_setIsReadyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::MenuRpcManager::remove_setIsReadyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetIsReady
 // Il2CppName: SetIsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(bool)>(&GlobalNamespace::MenuRpcManager::SetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetIsReady
 // Il2CppName: InvokeSetIsReady
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::MenuRpcManager::InvokeSetIsReady)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setStartGameTimeEvent
 // Il2CppName: add_setStartGameTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::MenuRpcManager::add_setStartGameTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setStartGameTimeEvent
 // Il2CppName: remove_setStartGameTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::MenuRpcManager::remove_setStartGameTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetStartGameTime
 // Il2CppName: SetStartGameTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(float)>(&GlobalNamespace::MenuRpcManager::SetStartGameTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetStartGameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetStartGameCountdown
 // Il2CppName: InvokeSetStartGameCountdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, float)>(&GlobalNamespace::MenuRpcManager::InvokeSetStartGameCountdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetStartGameCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_cancelStartGameTimeEvent
 // Il2CppName: add_cancelStartGameTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_cancelStartGameTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_cancelStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_cancelStartGameTimeEvent
 // Il2CppName: remove_cancelStartGameTimeEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_cancelStartGameTimeEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_cancelStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelStartGameTime
 // Il2CppName: CancelStartGameTime
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::CancelStartGameTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "CancelStartGameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeCancelStartGameCountdown
 // Il2CppName: InvokeCancelStartGameCountdown
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeCancelStartGameCountdown)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeCancelStartGameCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getIsInLobbyEvent
 // Il2CppName: add_getIsInLobbyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getIsInLobbyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getIsInLobbyEvent
 // Il2CppName: remove_getIsInLobbyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getIsInLobbyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetIsInLobby
 // Il2CppName: GetIsInLobby
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetIsInLobby)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetIsInLobby
 // Il2CppName: InvokeGetIsInLobby
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetIsInLobby)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setIsInLobbyEvent
 // Il2CppName: add_setIsInLobbyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::MenuRpcManager::add_setIsInLobbyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setIsInLobbyEvent
 // Il2CppName: remove_setIsInLobbyEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::MenuRpcManager::remove_setIsInLobbyEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetIsInLobby
 // Il2CppName: SetIsInLobby
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(bool)>(&GlobalNamespace::MenuRpcManager::SetIsInLobby)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetIsInLobby
 // Il2CppName: InvokeSetIsInLobby
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::MenuRpcManager::InvokeSetIsInLobby)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_getOwnedSongPacksEvent
 // Il2CppName: add_getOwnedSongPacksEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::add_getOwnedSongPacksEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_getOwnedSongPacksEvent
 // Il2CppName: remove_getOwnedSongPacksEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MenuRpcManager::remove_getOwnedSongPacksEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetOwnedSongPacks
 // Il2CppName: GetOwnedSongPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)()>(&GlobalNamespace::MenuRpcManager::GetOwnedSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "GetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeGetOwnedSongPacks
 // Il2CppName: InvokeGetOwnedSongPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::MenuRpcManager::InvokeGetOwnedSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeGetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::add_setOwnedSongPacksEvent
 // Il2CppName: add_setOwnedSongPacksEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::MenuRpcManager::add_setOwnedSongPacksEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "add_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::remove_setOwnedSongPacksEvent
 // Il2CppName: remove_setOwnedSongPacksEvent
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::MenuRpcManager::remove_setOwnedSongPacksEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "remove_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetOwnedSongPacks
 // Il2CppName: SetOwnedSongPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::MenuRpcManager::SetOwnedSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "SetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvokeSetOwnedSongPacks
 // Il2CppName: InvokeSetOwnedSongPacks
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::SongPackMask)>(&GlobalNamespace::MenuRpcManager::InvokeSetOwnedSongPacks)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuRpcManager*), "InvokeSetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};

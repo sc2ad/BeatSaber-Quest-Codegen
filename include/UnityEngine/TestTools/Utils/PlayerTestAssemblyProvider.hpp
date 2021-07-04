@@ -74,7 +74,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::GetUserAssemblies
 // Il2CppName: GetUserAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* (UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::*)()>(&UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::GetUserAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*), "GetUserAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::LoadAssemblies
 // Il2CppName: LoadAssemblies
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::*)()>(&UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::LoadAssemblies)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*), "LoadAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

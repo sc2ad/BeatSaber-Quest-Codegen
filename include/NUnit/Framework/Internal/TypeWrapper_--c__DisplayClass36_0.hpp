@@ -63,7 +63,12 @@ namespace NUnit::Framework::Internal {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0
 // Il2CppName: <GetConstructor>b__0
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::*)(System::Reflection::ConstructorInfo*)>(&NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*), "<GetConstructor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

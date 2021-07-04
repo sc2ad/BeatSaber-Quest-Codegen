@@ -49,4 +49,9 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
 // Writing MetadataGetter for method: UnityEngine::CullingGroup::SendEvents
 // Il2CppName: SendEvents
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CullingGroup*, System::IntPtr, int)>(&UnityEngine::CullingGroup::SendEvents)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroup*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};

@@ -49,11 +49,21 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata
 // Il2CppName: GetCloudStorageConflictMetadata
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)()>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), "GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

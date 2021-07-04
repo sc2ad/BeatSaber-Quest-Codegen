@@ -100,16 +100,41 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiatorCached*, "Zenject", "PrefabIns
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::get_ExtraArguments
 // Il2CppName: get_ExtraArguments
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (Zenject::PrefabInstantiatorCached::*)()>(&Zenject::PrefabInstantiatorCached::get_ExtraArguments)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiatorCached*), "get_ExtraArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::get_ArgumentTarget
 // Il2CppName: get_ArgumentTarget
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::PrefabInstantiatorCached::*)()>(&Zenject::PrefabInstantiatorCached::get_ArgumentTarget)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiatorCached*), "get_ArgumentTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::get_GameObjectCreationParameters
 // Il2CppName: get_GameObjectCreationParameters
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::GameObjectCreationParameters* (Zenject::PrefabInstantiatorCached::*)()>(&Zenject::PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiatorCached*), "get_GameObjectCreationParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::GetPrefab
 // Il2CppName: GetPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (Zenject::PrefabInstantiatorCached::*)()>(&Zenject::PrefabInstantiatorCached::GetPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiatorCached*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::Instantiate
 // Il2CppName: Instantiate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::PrefabInstantiatorCached::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&)>(&Zenject::PrefabInstantiatorCached::Instantiate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiatorCached*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>()});
+  }
+};

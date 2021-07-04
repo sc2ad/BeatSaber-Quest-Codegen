@@ -61,7 +61,17 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::DictionaryEntry::get_Key
 // Il2CppName: get_Key
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::DictionaryEntry::*)()>(&System::Collections::DictionaryEntry::get_Key)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::DictionaryEntry), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::DictionaryEntry::get_Value
 // Il2CppName: get_Value
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::DictionaryEntry::*)()>(&System::Collections::DictionaryEntry::get_Value)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::DictionaryEntry), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

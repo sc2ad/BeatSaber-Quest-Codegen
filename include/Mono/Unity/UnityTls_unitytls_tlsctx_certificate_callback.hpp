@@ -58,10 +58,25 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callba
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::Invoke
 // Il2CppName: Invoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::*)(void*, Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::BeginInvoke
 // Il2CppName: BeginInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::*)(void*, Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::EndInvoke
 // Il2CppName: EndInvoke
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::*)(System::IAsyncResult*)>(&Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};

@@ -113,10 +113,25 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabBindingFinalizer*, "Zenject", "PrefabBindi
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PrefabBindingFinalizer::FinalizeBindingConcrete
 // Il2CppName: FinalizeBindingConcrete
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::PrefabBindingFinalizer::FinalizeBindingConcrete)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabBindingFinalizer::FinalizeBindingSelf
 // Il2CppName: FinalizeBindingSelf
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::PrefabBindingFinalizer::FinalizeBindingSelf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};
 // Writing MetadataGetter for method: Zenject::PrefabBindingFinalizer::OnFinalizeBinding
 // Il2CppName: OnFinalizeBinding
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::PrefabBindingFinalizer::OnFinalizeBinding)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+  }
+};

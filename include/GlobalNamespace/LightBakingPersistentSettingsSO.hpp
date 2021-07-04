@@ -301,55 +301,140 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightBakingPersistentSettingsSO*, "", "LightBakingPersistentSettingsSO");
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount
 // Il2CppName: get_reflectionsCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount
 // Il2CppName: set_reflectionsCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(int)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha
 // Il2CppName: get_colorFromSchemeAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha
 // Il2CppName: set_colorFromSchemeAlpha
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(float)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors
 // Il2CppName: get_bakedLightEditorColors
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedLightEditorColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror
 // Il2CppName: get_defaultDepthOnlyWriteMaterialForFakeMirror
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn
 // Il2CppName: get_mainEffectForBakingIsOn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn
 // Il2CppName: set_mainEffectForBakingIsOn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab
 // Il2CppName: get_bakedLightDataLoaderPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedLightDataLoader* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedLightDataLoaderPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab
 // Il2CppName: get_bakedReflectionProbePrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedReflectionProbe* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedReflectionProbePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightWithIds
 // Il2CppName: get_lightmapLightWithIds
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightWithIds* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightWithIds)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab
 // Il2CppName: get_fakeMirrorObjectsInstallerPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorObjectsInstaller* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_fakeMirrorObjectsInstallerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab
 // Il2CppName: get_fakeMirrorSettingsPrefab
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorSettings* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_fakeMirrorSettingsPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking
 // Il2CppName: SetGraphicsSettingsForBaking
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetGraphicsSettingsForBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::SetPlatformGraphics
 // Il2CppName: SetPlatformGraphics
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetPlatformGraphics)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetPlatformGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::SetToneMappingOn
 // Il2CppName: SetToneMappingOn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetToneMappingOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::IsToneMappingOn
 // Il2CppName: IsToneMappingOn
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::IsToneMappingOn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "IsToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

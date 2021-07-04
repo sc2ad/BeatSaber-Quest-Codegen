@@ -82,7 +82,17 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext
 // Il2CppName: get_HasNext
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(&UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*), "get_HasNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev
 // Il2CppName: get_HasPrev
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(&UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*), "get_HasPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

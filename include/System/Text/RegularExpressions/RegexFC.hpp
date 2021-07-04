@@ -98,10 +98,25 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.
 // Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::AddFC
 // Il2CppName: AddFC
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)(System::Text::RegularExpressions::RegexFC*, bool)>(&System::Text::RegularExpressions::RegexFC::AddFC)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "AddFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexFC*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::GetFirstChars
 // Il2CppName: GetFirstChars
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::RegexFC::*)(System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "GetFirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::IsCaseInsensitive
 // Il2CppName: IsCaseInsensitive
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)()>(&System::Text::RegularExpressions::RegexFC::IsCaseInsensitive)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "IsCaseInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

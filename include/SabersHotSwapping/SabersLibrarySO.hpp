@@ -61,10 +61,20 @@ namespace SabersHotSwapping {
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SabersLibrarySO*, "SabersHotSwapping", "SabersLibrarySO");
 // Writing MetadataGetter for method: SabersHotSwapping::SabersLibrarySO::get_saberModelControllerPrefabs
 // Il2CppName: get_saberModelControllerPrefabs
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SaberModelController*>* (SabersHotSwapping::SabersLibrarySO::*)()>(&SabersHotSwapping::SabersLibrarySO::get_saberModelControllerPrefabs)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SabersLibrarySO*), "get_saberModelControllerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SabersLibrarySO::get_sabersCount
 // Il2CppName: get_sabersCount
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SabersHotSwapping::SabersLibrarySO::*)()>(&SabersHotSwapping::SabersLibrarySO::get_sabersCount)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SabersLibrarySO*), "get_sabersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: SabersHotSwapping::SabersLibrarySO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

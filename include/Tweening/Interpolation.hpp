@@ -31,4 +31,9 @@ namespace Tweening {
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");
 // Writing MetadataGetter for method: Tweening::Interpolation::Interpolate
 // Il2CppName: Interpolate
-// Cannot perform method pointer template specialization from operators!
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, Tweening::EaseType)>(&Tweening::Interpolation::Interpolate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tweening::Interpolation*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+  }
+};
