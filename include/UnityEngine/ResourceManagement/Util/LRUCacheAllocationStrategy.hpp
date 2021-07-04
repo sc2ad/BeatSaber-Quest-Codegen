@@ -99,47 +99,17 @@ namespace UnityEngine::ResourceManagement::Util {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "LRUCacheAllocationStrategy");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int, int, int, int)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int, int, int, int)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool
 // Il2CppName: GetPool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)()>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool
 // Il2CppName: ReleasePool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "ReleasePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New
 // Il2CppName: New
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(System::Type*, int)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release
 // Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int, ::Il2CppObject*)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

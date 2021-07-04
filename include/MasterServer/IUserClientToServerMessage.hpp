@@ -35,17 +35,7 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IUserClientToServerMessage*, "MasterServer", "IUserClientToServerMessage");
 // Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userId
 // Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userName
 // Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -86,63 +86,23 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart
 // Il2CppName: get_intervalStart
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd
 // Il2CppName: get_intervalEnd
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::set_enable
 // Il2CppName: set_enable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(bool)>(&UnityEngine::Timeline::InfiniteRuntimeClip::set_enable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt
 // Il2CppName: EvaluateAt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt
 // Il2CppName: DisableAt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

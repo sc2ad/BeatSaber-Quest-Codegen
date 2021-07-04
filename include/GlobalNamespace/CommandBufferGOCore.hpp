@@ -107,63 +107,23 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::OnDisable
 // Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::OnWillRenderObject
 // Il2CppName: OnWillRenderObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::OnWillRenderObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "OnWillRenderObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::CommandBufferCameraEvent
 // Il2CppName: CommandBufferCameraEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::CommandBufferCameraEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (GlobalNamespace::CommandBufferGOCore::*)(UnityEngine::Camera*)>(&GlobalNamespace::CommandBufferGOCore::CreateCommandBuffer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::CamerasDict
 // Il2CppName: CamerasDict
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::CamerasDict)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGOCore::*)()>(&GlobalNamespace::CommandBufferGOCore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGOCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

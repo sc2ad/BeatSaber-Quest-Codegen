@@ -289,215 +289,80 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_didInitEvent
 // Il2CppName: add_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_didInitEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_didInitEvent
 // Il2CppName: remove_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_didInitEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event
 // Il2CppName: add_gameEnergyDidReach0Event
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event
 // Il2CppName: remove_gameEnergyDidReach0Event
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent
 // Il2CppName: add_gameEnergyDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent
 // Il2CppName: remove_gameEnergyDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_isInitialized
 // Il2CppName: get_isInitialized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_isInitialized)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_energy
 // Il2CppName: get_energy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_energy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::set_energy
 // Il2CppName: set_energy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(float)>(&GlobalNamespace::GameEnergyCounter::set_energy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_batteryEnergy
 // Il2CppName: get_batteryEnergy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_batteryEnergy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_batteryEnergy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_batteryLives
 // Il2CppName: get_batteryLives
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_batteryLives)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_batteryLives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_energyType
 // Il2CppName: get_energyType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnergyType (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_energyType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::set_energyType
 // Il2CppName: set_energyType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(GlobalNamespace::GameplayModifiers::EnergyType)>(&GlobalNamespace::GameEnergyCounter::set_energyType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnergyType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_noFail
 // Il2CppName: get_noFail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_noFail)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_noFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::set_noFail
 // Il2CppName: set_noFail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(bool)>(&GlobalNamespace::GameEnergyCounter::set_noFail)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_noFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_instaFail
 // Il2CppName: get_instaFail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_instaFail)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::set_instaFail
 // Il2CppName: set_instaFail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(bool)>(&GlobalNamespace::GameEnergyCounter::set_instaFail)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_failOnSaberClash
 // Il2CppName: get_failOnSaberClash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::get_failOnSaberClash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "get_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::set_failOnSaberClash
 // Il2CppName: set_failOnSaberClash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(bool)>(&GlobalNamespace::GameEnergyCounter::set_failOnSaberClash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::Start
 // Il2CppName: Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::OnDestroy
 // Il2CppName: OnDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::OnDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::LateUpdate
 // Il2CppName: LateUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::LateUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::GameEnergyCounter::HandleNoteWasCut)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::HandleNoteWasMissed
 // Il2CppName: HandleNoteWasMissed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::GameEnergyCounter::HandleNoteWasMissed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::ProcessEnergyChange
 // Il2CppName: ProcessEnergyChange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(float)>(&GlobalNamespace::GameEnergyCounter::ProcessEnergyChange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "ProcessEnergyChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)()>(&GlobalNamespace::GameEnergyCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

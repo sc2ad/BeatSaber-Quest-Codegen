@@ -58,23 +58,8 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");
 // Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::InstallBindings
 // Il2CppName: InstallBindings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)()>(&Zenject::ExecutionOrderInstaller::InstallBindings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

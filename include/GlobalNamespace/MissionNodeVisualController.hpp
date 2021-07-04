@@ -174,191 +174,71 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController*, "", "MissionNodeVisualController");
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent
 // Il2CppName: add_nodeWasSelectEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "add_nodeWasSelectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent
 // Il2CppName: remove_nodeWasSelectEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "remove_nodeWasSelectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent
 // Il2CppName: add_nodeWasDisplayedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "add_nodeWasDisplayedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent
 // Il2CppName: remove_nodeWasDisplayedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "remove_nodeWasDisplayedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_missionNode
 // Il2CppName: get_missionNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::get_missionNode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "get_missionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_selected
 // Il2CppName: get_selected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::get_selected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "get_selected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_isInitialized
 // Il2CppName: get_isInitialized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::get_isInitialized)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_cleared
 // Il2CppName: get_cleared
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::get_cleared)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "get_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_interactable
 // Il2CppName: get_interactable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::get_interactable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::SetSelected
 // Il2CppName: SetSelected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(bool)>(&GlobalNamespace::MissionNodeVisualController::SetSelected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "SetSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::Awake
 // Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::Awake)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::Start
 // Il2CppName: Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::Reset
 // Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::OnDestroy
 // Il2CppName: OnDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::OnDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::Setup
 // Il2CppName: Setup
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(bool, bool)>(&GlobalNamespace::MissionNodeVisualController::Setup)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::SetupToggle
 // Il2CppName: SetupToggle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::SetupToggle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "SetupToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::SetMissionCleared
 // Il2CppName: SetMissionCleared
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::SetMissionCleared)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::SetInteractable
 // Il2CppName: SetInteractable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::SetInteractable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "SetInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::ChangeNodeSelection
 // Il2CppName: ChangeNodeSelection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(bool)>(&GlobalNamespace::MissionNodeVisualController::ChangeNodeSelection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "ChangeNodeSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::HandleMissionToggleSelectionDidChange
 // Il2CppName: HandleMissionToggleSelectionDidChange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)(GlobalNamespace::MissionToggle*)>(&GlobalNamespace::MissionNodeVisualController::HandleMissionToggleSelectionDidChange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), "HandleMissionToggleSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionToggle*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeVisualController::*)()>(&GlobalNamespace::MissionNodeVisualController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeVisualController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

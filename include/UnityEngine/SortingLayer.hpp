@@ -43,9 +43,4 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
 // Writing MetadataGetter for method: UnityEngine::SortingLayer::GetLayerValueFromID
 // Il2CppName: GetLayerValueFromID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::SortingLayer::GetLayerValueFromID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

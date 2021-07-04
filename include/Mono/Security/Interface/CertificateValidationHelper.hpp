@@ -46,17 +46,7 @@ namespace Mono::Security::Interface {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CertificateValidationHelper*, "Mono.Security.Interface", "CertificateValidationHelper");
 // Writing MetadataGetter for method: Mono::Security::Interface::CertificateValidationHelper::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Interface::CertificateValidationHelper::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::CertificateValidationHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Security::Interface::CertificateValidationHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator2* (*)(Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&Mono::Security::Interface::CertificateValidationHelper::GetInternalValidator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::CertificateValidationHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

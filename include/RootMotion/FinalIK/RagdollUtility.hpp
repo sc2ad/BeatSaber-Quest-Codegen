@@ -227,151 +227,56 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::EnableRagdoll
 // Il2CppName: EnableRagdoll
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::EnableRagdoll)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "EnableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::DisableRagdoll
 // Il2CppName: DisableRagdoll
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::DisableRagdoll)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "DisableRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Start
 // Il2CppName: Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::DisableRagdollSmooth
 // Il2CppName: DisableRagdollSmooth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::DisableRagdollSmooth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "DisableRagdollSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Update
 // Il2CppName: Update
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::Update)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::FixedUpdate
 // Il2CppName: FixedUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::FixedUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::LateUpdate
 // Il2CppName: LateUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::LateUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::AfterLastIK
 // Il2CppName: AfterLastIK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::AfterLastIK)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "AfterLastIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::AfterAnimation
 // Il2CppName: AfterAnimation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::AfterAnimation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "AfterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::OnFinalPose
 // Il2CppName: OnFinalPose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::OnFinalPose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "OnFinalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::RagdollEnabler
 // Il2CppName: RagdollEnabler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::RagdollEnabler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "RagdollEnabler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::get_isRagdoll
 // Il2CppName: get_isRagdoll
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::get_isRagdoll)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "get_isRagdoll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::RecordVelocities
 // Il2CppName: RecordVelocities
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::RecordVelocities)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "RecordVelocities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::get_ikUsed
 // Il2CppName: get_ikUsed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::get_ikUsed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "get_ikUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::StoreLocalState
 // Il2CppName: StoreLocalState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::StoreLocalState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "StoreLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::FixTransforms
 // Il2CppName: FixTransforms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)(float)>(&RootMotion::FinalIK::RagdollUtility::FixTransforms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::OnDestroy
 // Il2CppName: OnDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::OnDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)()>(&RootMotion::FinalIK::RagdollUtility::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

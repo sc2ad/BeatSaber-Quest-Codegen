@@ -88,95 +88,35 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetDataStore
 // Il2CppName: SetDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::RoomOptions::SetDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::ClearDataStore
 // Il2CppName: ClearDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::ClearDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetExcludeRecentlyMet
 // Il2CppName: SetExcludeRecentlyMet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(bool)>(&Oculus::Platform::RoomOptions::SetExcludeRecentlyMet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetMaxUserResults
 // Il2CppName: SetMaxUserResults
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(uint)>(&Oculus::Platform::RoomOptions::SetMaxUserResults)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetOrdering
 // Il2CppName: SetOrdering
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::UserOrdering)>(&Oculus::Platform::RoomOptions::SetOrdering)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow
 // Il2CppName: SetRecentlyMetTimeWindow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::TimeWindow)>(&Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetRoomId
 // Il2CppName: SetRoomId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(uint64_t)>(&Oculus::Platform::RoomOptions::SetRoomId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetTurnOffUpdates
 // Il2CppName: SetTurnOffUpdates
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(bool)>(&Oculus::Platform::RoomOptions::SetTurnOffUpdates)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::RoomOptions::operator System::IntPtr)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::Finalize
 // Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)()>(&Oculus::Platform::RoomOptions::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

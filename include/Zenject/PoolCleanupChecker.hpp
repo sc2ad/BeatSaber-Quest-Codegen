@@ -74,23 +74,8 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChecker");
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolCleanupChecker::*)(System::Collections::Generic::List_1<Zenject::IMemoryPool*>*, System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::PoolCleanupChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IMemoryPool*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::LateDispose
 // Il2CppName: LateDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolCleanupChecker::*)()>(&Zenject::PoolCleanupChecker::LateDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

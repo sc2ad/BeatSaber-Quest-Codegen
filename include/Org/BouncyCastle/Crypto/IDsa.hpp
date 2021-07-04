@@ -43,17 +43,7 @@ namespace Org::BouncyCastle::Crypto {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDsa*, "Org.BouncyCastle.Crypto", "IDsa");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDsa::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IDsa::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::IDsa::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDsa*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDsa::GenerateSignature
 // Il2CppName: GenerateSignature
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Crypto::IDsa::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::IDsa::GenerateSignature)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDsa*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -51,9 +51,4 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");
 // Writing MetadataGetter for method: System::Xml::AsyncHelper::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::AsyncHelper::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::AsyncHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

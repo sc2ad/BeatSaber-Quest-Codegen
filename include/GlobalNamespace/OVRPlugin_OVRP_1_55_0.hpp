@@ -49,41 +49,16 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_55_0*, "", "OVRPlugin/OVRP_1_55_0");
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2
 // Il2CppName: ovrp_GetSkeleton2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::SkeletonType, GlobalNamespace::OVRPlugin::Skeleton2Internal&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_GetSkeleton2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::SkeletonType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Skeleton2Internal&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_PollEvent
 // Il2CppName: ovrp_PollEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::EventDataBuffer&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_PollEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_PollEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::EventDataBuffer&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeXrApiType
 // Il2CppName: ovrp_GetNativeXrApiType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::XrApi&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeXrApiType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_GetNativeXrApiType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::XrApi&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeOpenXRHandles
 // Il2CppName: ovrp_GetNativeOpenXRHandles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint64_t&, uint64_t&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeOpenXRHandles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_GetNativeOpenXRHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -79,55 +79,20 @@ namespace System::Runtime::Serialization {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::FindElement
 // Il2CppName: FindElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::FindElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "FindElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::GetId
 // Il2CppName: GetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::GetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::HasId
 // Il2CppName: HasId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::HasId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "HasId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::Rehash
 // Il2CppName: Rehash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectIDGenerator::*)()>(&System::Runtime::Serialization::ObjectIDGenerator::Rehash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "Rehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Serialization::ObjectIDGenerator::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectIDGenerator::*)()>(&System::Runtime::Serialization::ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectIDGenerator::*)()>(&System::Runtime::Serialization::ObjectIDGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -36,9 +36,4 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerUpHandler*, "UnityEngine.EventSystems", "IPointerUpHandler");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IPointerUpHandler::OnPointerUp
 // Il2CppName: OnPointerUp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IPointerUpHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::IPointerUpHandler::OnPointerUp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IPointerUpHandler*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

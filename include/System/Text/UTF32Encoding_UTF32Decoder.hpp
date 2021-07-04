@@ -59,31 +59,11 @@ namespace System::Text {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&System::Text::UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF32Encoding::UTF32Decoder::*)(System::Text::UTF32Encoding*)>(&System::Text::UTF32Encoding::UTF32Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF32Encoding*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::Reset
 // Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF32Encoding::UTF32Decoder::*)()>(&System::Text::UTF32Encoding::UTF32Decoder::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::get_HasState
 // Il2CppName: get_HasState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::UTF32Encoding::UTF32Decoder::*)()>(&System::Text::UTF32Encoding::UTF32Decoder::get_HasState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF32Encoding::UTF32Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -345,391 +345,146 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fontAsset
 // Il2CppName: get_fontAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fontAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fontAsset
 // Il2CppName: set_fontAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_SubMeshUI::set_fontAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_spriteAsset
 // Il2CppName: get_spriteAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_spriteAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_spriteAsset
 // Il2CppName: set_spriteAsset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::TMP_SubMeshUI::set_spriteAsset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_sharedMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_sharedMaterial
 // Il2CppName: set_sharedMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_sharedMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fallbackMaterial
 // Il2CppName: get_fallbackMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fallbackMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fallbackMaterial
 // Il2CppName: set_fallbackMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_fallbackMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fallbackSourceMaterial
 // Il2CppName: get_fallbackSourceMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fallbackSourceMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fallbackSourceMaterial
 // Il2CppName: set_fallbackSourceMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_fallbackSourceMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_isDefaultMaterial
 // Il2CppName: get_isDefaultMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_isDefaultMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_isDefaultMaterial
 // Il2CppName: set_isDefaultMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(bool)>(&TMPro::TMP_SubMeshUI::set_isDefaultMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_padding
 // Il2CppName: get_padding
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_padding)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_padding
 // Il2CppName: set_padding
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(float)>(&TMPro::TMP_SubMeshUI::set_padding)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_mesh
 // Il2CppName: get_mesh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_mesh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_mesh
 // Il2CppName: set_mesh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Mesh*)>(&TMPro::TMP_SubMeshUI::set_mesh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::AddSubTextObject
 // Il2CppName: AddSubTextObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SubMeshUI* (*)(TMPro::TextMeshProUGUI*, TMPro::MaterialReference)>(&TMPro::TMP_SubMeshUI::AddSubTextObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "AddSubTextObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::MaterialReference>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateMeshPadding
 // Il2CppName: UpdateMeshPadding
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(bool, bool)>(&TMPro::TMP_SubMeshUI::UpdateMeshPadding)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetPivotDirty
 // Il2CppName: SetPivotDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetPivotDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetPivotDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RefreshMaterial
 // Il2CppName: RefreshMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RefreshMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RefreshMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetMaterial
 // Il2CppName: GetMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetMaterial
 // Il2CppName: GetMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::CreateMaterialInstance
 // Il2CppName: CreateMaterialInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::CreateMaterialInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "CreateMaterialInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetSharedMaterial
 // Il2CppName: GetSharedMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetSharedMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetSharedMaterial
 // Il2CppName: SetSharedMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::SetSharedMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_mainTexture
 // Il2CppName: get_mainTexture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_mainTexture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_material
 // Il2CppName: get_material
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_material)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_material
 // Il2CppName: set_material
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_material)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_materialForRendering
 // Il2CppName: get_materialForRendering
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_materialForRendering)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_canvasRenderer
 // Il2CppName: get_canvasRenderer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_canvasRenderer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnDisable
 // Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnDestroy
 // Il2CppName: OnDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnTransformParentChanged
 // Il2CppName: OnTransformParentChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnTransformParentChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetModifiedMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetAllDirty
 // Il2CppName: SetAllDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetAllDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetVerticesDirty
 // Il2CppName: SetVerticesDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetVerticesDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetLayoutDirty
 // Il2CppName: SetLayoutDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetLayoutDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetMaterialDirty
 // Il2CppName: SetMaterialDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetMaterialDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::Cull
 // Il2CppName: Cull
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Rect, bool)>(&TMPro::TMP_SubMeshUI::Cull)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateGeometry
 // Il2CppName: UpdateGeometry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::UpdateGeometry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::Rebuild
 // Il2CppName: Rebuild
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::TMP_SubMeshUI::Rebuild)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateMaterial
 // Il2CppName: UpdateMaterial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::UpdateMaterial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RecalculateClipping
 // Il2CppName: RecalculateClipping
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RecalculateClipping)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RecalculateMasking
 // Il2CppName: RecalculateMasking
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RecalculateMasking)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -80,63 +80,23 @@ namespace System::Configuration {
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IgnoreSection*, "System.Configuration", "IgnoreSection");
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::get_Properties
 // Il2CppName: get_Properties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::get_Properties)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::DeserializeSection
 // Il2CppName: DeserializeSection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)(System::Xml::XmlReader*)>(&System::Configuration::IgnoreSection::DeserializeSection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "DeserializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlReader*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::IsModified
 // Il2CppName: IsModified
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::IsModified)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::Reset
 // Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)(System::Configuration::ConfigurationElement*)>(&System::Configuration::IgnoreSection::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::ResetModified
 // Il2CppName: ResetModified
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::ResetModified)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::SerializeSection
 // Il2CppName: SerializeSection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Configuration::IgnoreSection::*)(System::Configuration::ConfigurationElement*, ::Il2CppString*, System::Configuration::ConfigurationSaveMode)>(&System::Configuration::IgnoreSection::SerializeSection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "SerializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationSaveMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

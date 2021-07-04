@@ -28,9 +28,4 @@ namespace System::Collections {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IHashCodeProvider*, "System.Collections", "IHashCodeProvider");
 // Writing MetadataGetter for method: System::Collections::IHashCodeProvider::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IHashCodeProvider::*)(::Il2CppObject*)>(&System::Collections::IHashCodeProvider::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::IHashCodeProvider*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

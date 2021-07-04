@@ -105,79 +105,29 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext*, "System.Threading", "OSSpecificSynchronizationContext");
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::*)(::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::*)(::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::Get
 // Il2CppName: Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::OSSpecificSynchronizationContext* (*)()>(&System::Threading::OSSpecificSynchronizationContext::Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationEntry
 // Il2CppName: InvocationEntry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&System::Threading::OSSpecificSynchronizationContext::InvocationEntry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "InvocationEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::GetOSContext
 // Il2CppName: GetOSContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::Threading::OSSpecificSynchronizationContext::GetOSContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "GetOSContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::PostInternal
 // Il2CppName: PostInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::IntPtr, System::IntPtr)>(&System::Threading::OSSpecificSynchronizationContext::PostInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "PostInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::OSSpecificSynchronizationContext::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::CreateCopy
 // Il2CppName: CreateCopy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::OSSpecificSynchronizationContext::*)()>(&System::Threading::OSSpecificSynchronizationContext::CreateCopy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::Send
 // Il2CppName: Send
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::Send)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::Post
 // Il2CppName: Post
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::OSSpecificSynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::Post)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext*), "Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

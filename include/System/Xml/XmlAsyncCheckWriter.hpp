@@ -192,231 +192,86 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::CheckAsync
 // Il2CppName: CheckAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::CheckAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "CheckAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteDocType
 // Il2CppName: WriteDocType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteDocType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartElement
 // Il2CppName: WriteStartElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteStartElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEndElement
 // Il2CppName: WriteEndElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteEndElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteFullEndElement
 // Il2CppName: WriteFullEndElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteFullEndElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartAttribute
 // Il2CppName: WriteStartAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteStartAttribute)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEndAttribute
 // Il2CppName: WriteEndAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteEndAttribute)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteCData
 // Il2CppName: WriteCData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteCData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteComment
 // Il2CppName: WriteComment
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteComment)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction
 // Il2CppName: WriteProcessingInstruction
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEntityRef
 // Il2CppName: WriteEntityRef
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteEntityRef)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteCharEntity
 // Il2CppName: WriteCharEntity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppChar)>(&System::Xml::XmlAsyncCheckWriter::WriteCharEntity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteWhitespace
 // Il2CppName: WriteWhitespace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteWhitespace)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteString
 // Il2CppName: WriteString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity
 // Il2CppName: WriteSurrogateCharEntity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteChars
 // Il2CppName: WriteChars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteChars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteRaw
 // Il2CppName: WriteRaw
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteRaw
 // Il2CppName: WriteRaw
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteBase64
 // Il2CppName: WriteBase64
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteBase64)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteBinHex
 // Il2CppName: WriteBinHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteBinHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::get_WriteState
 // Il2CppName: get_WriteState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::get_WriteState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Close
 // Il2CppName: Close
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::Close)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Flush
 // Il2CppName: Flush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::Flush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::LookupPrefix
 // Il2CppName: LookupPrefix
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::LookupPrefix)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteValue
 // Il2CppName: WriteValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Dispose
 // Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(bool)>(&System::Xml::XmlAsyncCheckWriter::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

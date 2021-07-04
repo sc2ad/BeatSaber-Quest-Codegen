@@ -157,207 +157,77 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::OpenUserManual
 // Il2CppName: OpenUserManual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::OpenUserManual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::OpenScriptReference
 // Il2CppName: OpenScriptReference
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::OpenScriptReference)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SupportGroup
 // Il2CppName: SupportGroup
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::SupportGroup)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::ASThread
 // Il2CppName: ASThread
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::ASThread)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKPositionWeight
 // Il2CppName: GetIKPositionWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPositionWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKRotationWeight
 // Il2CppName: GetIKRotationWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotationWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKPositionWeight
 // Il2CppName: SetIKPositionWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKPositionWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKRotationWeight
 // Il2CppName: SetIKRotationWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKRotationWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKPosition
 // Il2CppName: SetIKPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetIKPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKRotation
 // Il2CppName: SetIKRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&RootMotion::FinalIK::BipedIK::SetIKRotation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKPosition
 // Il2CppName: GetIKPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKRotation
 // Il2CppName: GetIKRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(float, float, float, float, float, float, float)>(&RootMotion::FinalIK::BipedIK::SetLookAtWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetLookAtPosition
 // Il2CppName: SetLookAtPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetLookAtPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetSpinePosition
 // Il2CppName: SetSpinePosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetSpinePosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetSpinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetSpineWeight
 // Il2CppName: SetSpineWeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(float)>(&RootMotion::FinalIK::BipedIK::SetSpineWeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetSpineWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetGoalIK
 // Il2CppName: GetGoalIK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverLimb* (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetGoalIK)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetGoalIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::InitiateBipedIK
 // Il2CppName: InitiateBipedIK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::InitiateBipedIK)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "InitiateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::UpdateBipedIK
 // Il2CppName: UpdateBipedIK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::UpdateBipedIK)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "UpdateBipedIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetToDefaults
 // Il2CppName: SetToDefaults
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::SetToDefaults)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetToDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::LogWarning
 // Il2CppName: LogWarning
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::Il2CppString*)>(&RootMotion::FinalIK::BipedIK::LogWarning)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::FixTransforms
 // Il2CppName: FixTransforms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::FixTransforms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::InitiateSolver
 // Il2CppName: InitiateSolver
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::InitiateSolver)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::UpdateSolver
 // Il2CppName: UpdateSolver
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::UpdateSolver)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)()>(&RootMotion::FinalIK::BipedIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

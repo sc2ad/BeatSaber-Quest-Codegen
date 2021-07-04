@@ -58,31 +58,11 @@ namespace System::Threading::Tasks {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation/<>c");
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::$Run$b__2_0
 // Il2CppName: <Run>b__2_0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::*)(::Il2CppObject*)>(&System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::$Run$b__2_0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*), "<Run>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::*)()>(&System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::*)()>(&System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

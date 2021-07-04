@@ -98,95 +98,35 @@ namespace System::Runtime::Remoting::Messaging {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage*, "System.Runtime.Remoting.Messaging", "ErrorMessage");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_ArgCount
 // Il2CppName: get_ArgCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_ArgCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_ArgCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_Args
 // Il2CppName: get_Args
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Args)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_Args", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodBase
 // Il2CppName: get_MethodBase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodBase)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_MethodBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName
 // Il2CppName: get_MethodName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodSignature
 // Il2CppName: get_MethodSignature
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodSignature)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_MethodSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_Properties
 // Il2CppName: get_Properties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Properties)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName
 // Il2CppName: get_TypeName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri
 // Il2CppName: get_Uri
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::GetArg
 // Il2CppName: GetArg
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::ErrorMessage::*)(int)>(&System::Runtime::Remoting::Messaging::ErrorMessage::GetArg)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "GetArg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_LogicalCallContext
 // Il2CppName: get_LogicalCallContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_LogicalCallContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

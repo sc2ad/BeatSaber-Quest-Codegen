@@ -35,17 +35,7 @@ namespace LiteNetLib::Utils {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::INetSerializable*, "LiteNetLib.Utils", "INetSerializable");
 // Writing MetadataGetter for method: LiteNetLib::Utils::INetSerializable::Serialize
 // Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::Utils::INetSerializable::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::INetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: LiteNetLib::Utils::INetSerializable::Deserialize
 // Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::INetSerializable::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::INetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

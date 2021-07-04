@@ -35,17 +35,7 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Res*, "System.Xml", "Res");
 // Writing MetadataGetter for method: System::Xml::Res::GetString
 // Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Xml::Res::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Res*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::Res::GetString
 // Il2CppName: GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Xml::Res::GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Res*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

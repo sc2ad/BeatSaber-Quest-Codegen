@@ -63,47 +63,17 @@ namespace Mono::Security::Interface {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::get_Level
 // Il2CppName: get_Level
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertLevel (Mono::Security::Interface::Alert::*)()>(&Mono::Security::Interface::Alert::get_Level)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), "get_Level", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::get_Description
 // Il2CppName: get_Description
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertDescription (Mono::Security::Interface::Alert::*)()>(&Mono::Security::Interface::Alert::get_Description)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::Alert::*)(Mono::Security::Interface::AlertDescription)>(&Mono::Security::Interface::Alert::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::Alert::*)(Mono::Security::Interface::AlertDescription)>(&Mono::Security::Interface::Alert::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::inferAlertLevel
 // Il2CppName: inferAlertLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::Alert::*)()>(&Mono::Security::Interface::Alert::inferAlertLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), "inferAlertLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Interface::Alert::*)()>(&Mono::Security::Interface::Alert::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::Alert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

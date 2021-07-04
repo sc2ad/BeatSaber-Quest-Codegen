@@ -134,79 +134,29 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$GetDependencyContracts$d__96*, "Zenject", "DiContainer/<GetDependencyContracts>d__96");
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)(int)>(&Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)(int)>(&Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::$$m__Finally1
 // Il2CppName: <>m__Finally1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::$$m__Finally1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Type>.get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Type*>* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

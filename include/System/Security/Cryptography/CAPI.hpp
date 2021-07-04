@@ -34,17 +34,7 @@ namespace System::Security::Cryptography {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CAPI*, "System.Security.Cryptography", "CAPI");
 // Writing MetadataGetter for method: System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey
 // Il2CppName: CryptFindOIDInfoNameFromKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CAPI*), "CryptFindOIDInfoNameFromKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName
 // Il2CppName: CryptFindOIDInfoKeyFromName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CAPI*), "CryptFindOIDInfoKeyFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

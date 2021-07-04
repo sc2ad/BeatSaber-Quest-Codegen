@@ -39,17 +39,7 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterInfo*, "NUnit.Framework.Interfaces", "IParameterInfo");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IParameterInfo::get_IsOptional
 // Il2CppName: get_IsOptional
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::IParameterInfo::*)()>(&NUnit::Framework::Interfaces::IParameterInfo::get_IsOptional)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IParameterInfo*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IParameterInfo::get_ParameterType
 // Il2CppName: get_ParameterType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (NUnit::Framework::Interfaces::IParameterInfo::*)()>(&NUnit::Framework::Interfaces::IParameterInfo::get_ParameterType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IParameterInfo*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

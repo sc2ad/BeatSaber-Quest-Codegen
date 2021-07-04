@@ -47,9 +47,4 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
 // Writing MetadataGetter for method: Polyglot::GoogleDownload::DownloadSheet
 // Il2CppName: DownloadSheet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<::Il2CppString*>*, Polyglot::GoogleDriveDownloadFormat, System::Func_2<float, bool>*)>(&Polyglot::GoogleDownload::DownloadSheet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::GoogleDownload*), "DownloadSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<float, bool>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

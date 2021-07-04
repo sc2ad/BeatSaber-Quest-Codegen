@@ -129,53 +129,18 @@ DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JS
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator::Type, "OVRSimpleJSON", "JSONNode/Enumerator/Type");
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_IsValid
 // Il2CppName: get_IsValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONNode::Enumerator::*)()>(&OVRSimpleJSON::JSONNode::Enumerator::get_IsValid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), "get_IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::Enumerator
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::Enumerator::*)(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)>(&OVRSimpleJSON::JSONNode::Enumerator::Enumerator<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::Enumerator::*)(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)>(&OVRSimpleJSON::JSONNode::Enumerator::Enumerator<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::Enumerator
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::Enumerator::*)(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator)>(&OVRSimpleJSON::JSONNode::Enumerator::Enumerator<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::Enumerator::*)(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator)>(&OVRSimpleJSON::JSONNode::Enumerator::Enumerator<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_Current
 // Il2CppName: get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> (OVRSimpleJSON::JSONNode::Enumerator::*)()>(&OVRSimpleJSON::JSONNode::Enumerator::get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONNode::Enumerator::*)()>(&OVRSimpleJSON::JSONNode::Enumerator::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::Enumerator), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

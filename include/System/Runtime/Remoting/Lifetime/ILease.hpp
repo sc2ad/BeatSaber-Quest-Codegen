@@ -45,33 +45,13 @@ namespace System::Runtime::Remoting::Lifetime {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ILease*, "System.Runtime.Remoting.Lifetime", "ILease");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::ILease::get_CurrentLeaseTime
 // Il2CppName: get_CurrentLeaseTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::ILease::*)()>(&System::Runtime::Remoting::Lifetime::ILease::get_CurrentLeaseTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ILease*), "get_CurrentLeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::ILease::get_CurrentState
 // Il2CppName: get_CurrentState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::LeaseState (System::Runtime::Remoting::Lifetime::ILease::*)()>(&System::Runtime::Remoting::Lifetime::ILease::get_CurrentState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ILease*), "get_CurrentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::ILease::get_RenewOnCallTime
 // Il2CppName: get_RenewOnCallTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::ILease::*)()>(&System::Runtime::Remoting::Lifetime::ILease::get_RenewOnCallTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ILease*), "get_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::ILease::Renew
 // Il2CppName: Renew
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::ILease::*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::ILease::Renew)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ILease*), "Renew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -37,17 +37,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XRNodeExtensions*, "", "XRNodeExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::XRNodeExtensions::OculusNode
 // Il2CppName: OculusNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Node (*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::OculusNode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::XRNodeExtensions*), "OculusNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::XRNodeExtensions::PSMoveDeviceIndex
 // Il2CppName: PSMoveDeviceIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::PSMoveDeviceIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::XRNodeExtensions*), "PSMoveDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

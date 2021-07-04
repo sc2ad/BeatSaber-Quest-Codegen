@@ -181,121 +181,46 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenMode");
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_startColor
 // Il2CppName: get_startColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::get_startColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "get_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::set_startColor
 // Il2CppName: set_startColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(UnityEngine::Color)>(&UnityEngine::UI::CoroutineTween::ColorTween::set_startColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_targetColor
 // Il2CppName: get_targetColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::get_targetColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "get_targetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::set_targetColor
 // Il2CppName: set_targetColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(UnityEngine::Color)>(&UnityEngine::UI::CoroutineTween::ColorTween::set_targetColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "set_targetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_tweenMode
 // Il2CppName: get_tweenMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::get_tweenMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "get_tweenMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::set_tweenMode
 // Il2CppName: set_tweenMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode)>(&UnityEngine::UI::CoroutineTween::ColorTween::set_tweenMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "set_tweenMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_duration
 // Il2CppName: get_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::get_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::set_duration
 // Il2CppName: set_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(float)>(&UnityEngine::UI::CoroutineTween::ColorTween::set_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_ignoreTimeScale
 // Il2CppName: get_ignoreTimeScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::get_ignoreTimeScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::set_ignoreTimeScale
 // Il2CppName: set_ignoreTimeScale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(bool)>(&UnityEngine::UI::CoroutineTween::ColorTween::set_ignoreTimeScale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "set_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::TweenValue
 // Il2CppName: TweenValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(float)>(&UnityEngine::UI::CoroutineTween::ColorTween::TweenValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::AddOnChangedCallback
 // Il2CppName: AddOnChangedCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::ColorTween::*)(UnityEngine::Events::UnityAction_1<UnityEngine::Color>*)>(&UnityEngine::UI::CoroutineTween::ColorTween::AddOnChangedCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "AddOnChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Color>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::GetIgnoreTimescale
 // Il2CppName: GetIgnoreTimescale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::GetIgnoreTimescale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "GetIgnoreTimescale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::GetDuration
 // Il2CppName: GetDuration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::GetDuration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::ValidTarget
 // Il2CppName: ValidTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::ColorTween::*)()>(&UnityEngine::UI::CoroutineTween::ColorTween::ValidTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::ColorTween), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

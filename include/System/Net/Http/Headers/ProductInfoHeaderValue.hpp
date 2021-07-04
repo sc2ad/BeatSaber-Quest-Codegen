@@ -113,109 +113,39 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductInfoHeaderValue*, "System.Net.Http.Headers", "ProductInfoHeaderValue");
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(System::Net::Http::Headers::ProductHeaderValue*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ProductHeaderValue*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(System::Net::Http::Headers::ProductHeaderValue*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ProductHeaderValue*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment
 // Il2CppName: get_Comment
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment
 // Il2CppName: set_Comment
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::get_Product
 // Il2CppName: get_Product
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::ProductHeaderValue* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::get_Product)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "get_Product", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::set_Product
 // Il2CppName: set_Product
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(System::Net::Http::Headers::ProductHeaderValue*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::set_Product)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "set_Product", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ProductHeaderValue*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::System_ICloneable_Clone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::TryParse
 // Il2CppName: TryParse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*&)>(&System::Net::Http::Headers::ProductInfoHeaderValue::TryParse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::ProductInfoHeaderValue*&)>(&System::Net::Http::Headers::ProductInfoHeaderValue::TryParseElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ProductInfoHeaderValue*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::ProductInfoHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

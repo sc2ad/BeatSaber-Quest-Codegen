@@ -3497,8655 +3497,3245 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ArrayOfStructsToIntPtr
 // Il2CppName: ArrayOfStructsToIntPtr
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*)>(&Oculus::Platform::CAPI::ArrayOfStructsToIntPtr)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ArrayOfStructsToIntPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs
 // Il2CppName: DictionaryToOVRKeyValuePairs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* (*)(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DictionaryToOVRKeyValuePairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::IntPtrToByteArray
 // Il2CppName: IntPtrToByteArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::IntPtrToByteArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "IntPtrToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DataStoreFromNative
 // Il2CppName: DataStoreFromNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::DataStoreFromNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DataStoreFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::StringFromNative
 // Il2CppName: StringFromNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::StringFromNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "StringFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::GetNativeStringLengthNotIncludingNullTerminator
 // Il2CppName: GetNativeStringLengthNotIncludingNullTerminator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::GetNativeStringLengthNotIncludingNullTerminator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "GetNativeStringLengthNotIncludingNullTerminator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DateTimeFromNative
 // Il2CppName: DateTimeFromNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(uint64_t)>(&Oculus::Platform::CAPI::DateTimeFromNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DateTimeFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DateTimeToNative
 // Il2CppName: DateTimeToNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::DateTime)>(&Oculus::Platform::CAPI::DateTimeToNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DateTimeToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::BlobFromNative
 // Il2CppName: BlobFromNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint, System::IntPtr)>(&Oculus::Platform::CAPI::BlobFromNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "BlobFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::FiledataFromNative
 // Il2CppName: FiledataFromNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint, System::IntPtr)>(&Oculus::Platform::CAPI::FiledataFromNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "FiledataFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::StringToNative
 // Il2CppName: StringToNative
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::StringToNative)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "StringToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapper
 // Il2CppName: ovr_UnityInitWrapper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitGlobals
 // Il2CppName: ovr_UnityInitGlobals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitGlobals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitGlobals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous
 // Il2CppName: ovr_UnityInitWrapperAsynchronous
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapperAsynchronous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone
 // Il2CppName: ovr_UnityInitWrapperStandalone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapperStandalone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Platform_InitializeStandaloneOculus
 // Il2CppName: ovr_Platform_InitializeStandaloneOculus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::CAPI::OculusInitParams&)>(&Oculus::Platform::CAPI::ovr_Platform_InitializeStandaloneOculus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Platform_InitializeStandaloneOculus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::OculusInitParams&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken
 // Il2CppName: ovr_PlatformInitializeWithAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PlatformInitializeWithAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows
 // Il2CppName: ovr_UnityInitWrapperWindows
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapperWindows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous
 // Il2CppName: ovr_UnityInitWrapperWindowsAsynchronous
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapperWindowsAsynchronous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken
 // Il2CppName: ovr_SetDeveloperAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SetDeveloperAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale
 // Il2CppName: ovr_GetLoggedInUserLocale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale_Native
 // Il2CppName: ovr_GetLoggedInUserLocale_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GetLoggedInUserLocale_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PopMessage
 // Il2CppName: ovr_PopMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_PopMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PopMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_FreeMessage
 // Il2CppName: ovr_FreeMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_FreeMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_FreeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_CreateEncoder
 // Il2CppName: ovr_Voip_CreateEncoder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_Voip_CreateEncoder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_CreateEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_DestroyEncoder
 // Il2CppName: ovr_Voip_DestroyEncoder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_DestroyEncoder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_DestroyEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_CreateDecoder
 // Il2CppName: ovr_Voip_CreateDecoder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_Voip_CreateDecoder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_CreateDecoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_DestroyDecoder
 // Il2CppName: ovr_Voip_DestroyDecoder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_DestroyDecoder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_DestroyDecoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipDecoder_Decode
 // Il2CppName: ovr_VoipDecoder_Decode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, uint64_t)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_Create
 // Il2CppName: ovr_Microphone_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_Microphone_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_Destroy
 // Il2CppName: ovr_Microphone_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipPassthrough
 // Il2CppName: ovr_Voip_SetSystemVoipPassthrough
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipPassthrough)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetSystemVoipPassthrough", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipMicrophoneMuted
 // Il2CppName: ovr_Voip_SetSystemVoipMicrophoneMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipMicrophoneMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityResetTestPlatform
 // Il2CppName: ovr_UnityResetTestPlatform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::CAPI::ovr_UnityResetTestPlatform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityResetTestPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType
 // Il2CppName: ovr_HTTP_GetWithMessageType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int)>(&Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_GetWithMessageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CrashApplication
 // Il2CppName: ovr_CrashApplication
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::CAPI::ovr_CrashApplication)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CrashApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallback
 // Il2CppName: ovr_Voip_SetMicrophoneFilterCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*)>(&Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetMicrophoneFilterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer
 // Il2CppName: ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::LogNewEvent
 // Il2CppName: LogNewEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&Oculus::Platform::CAPI::LogNewEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "LogNewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Log_NewEvent
 // Il2CppName: ovr_Log_NewEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<System::IntPtr>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Log_NewEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Log_NewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::IntPtr>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetLaunchDetails
 // Il2CppName: ovr_ApplicationLifecycle_GetLaunchDetails
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetLaunchDetails)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult
 // Il2CppName: ovr_ApplicationLifecycle_LogDeeplinkResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Oculus::Platform::LaunchResult)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_LogDeeplinkResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult_Native
 // Il2CppName: ovr_ApplicationLifecycle_LogDeeplinkResult_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::LaunchResult)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_LogDeeplinkResult_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_StartTransfer
 // Il2CppName: ovr_HTTP_StartTransfer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_StartTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_StartTransfer_Native
 // Il2CppName: ovr_HTTP_StartTransfer_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_StartTransfer_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Write
 // Il2CppName: ovr_HTTP_Write
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Array<uint8_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_Write)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_WriteEOM
 // Il2CppName: ovr_HTTP_WriteEOM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_HTTP_WriteEOM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_WriteEOM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript
 // Il2CppName: ovr_Message_GetStringForJavascript
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetStringForJavascript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript_Native
 // Il2CppName: ovr_Message_GetStringForJavascript_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetStringForJavascript_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicFloatPCM
 // Il2CppName: ovr_NetSync_GetAmbisonicFloatPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicFloatPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInt16PCM
 // Il2CppName: ovr_NetSync_GetAmbisonicInt16PCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<int16_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInt16PCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM
 // Il2CppName: ovr_NetSync_GetAmbisonicInterleavedFloatPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInterleavedFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM
 // Il2CppName: ovr_NetSync_GetAmbisonicInterleavedInt16PCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<int16_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInterleavedInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetListenerPosition
 // Il2CppName: ovr_NetSync_GetListenerPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, Oculus::Platform::CAPI::ovrNetSyncVec3&)>(&Oculus::Platform::CAPI::ovr_NetSync_GetListenerPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetListenerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::ovrNetSyncVec3&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamFloatPCM
 // Il2CppName: ovr_NetSync_GetMonostreamFloatPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, uint64_t, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamFloatPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetMonostreamFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamInt16PCM
 // Il2CppName: ovr_NetSync_GetMonostreamInt16PCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, uint64_t, ::Array<int16_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamInt16PCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetMonostreamInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetPcmBufferMaxSamples
 // Il2CppName: ovr_NetSync_GetPcmBufferMaxSamples
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)()>(&Oculus::Platform::CAPI::ovr_NetSync_GetPcmBufferMaxSamples)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetPcmBufferMaxSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetVoipAmplitude
 // Il2CppName: ovr_NetSync_GetVoipAmplitude
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, float&)>(&Oculus::Platform::CAPI::ovr_NetSync_GetVoipAmplitude)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetVoipAmplitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetListenerPosition
 // Il2CppName: ovr_NetSync_SetListenerPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, Oculus::Platform::CAPI::ovrNetSyncVec3&)>(&Oculus::Platform::CAPI::ovr_NetSync_SetListenerPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetListenerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::ovrNetSyncVec3&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_Accept
 // Il2CppName: ovr_Net_Accept
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Net_Accept)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_AcceptForCurrentRoom
 // Il2CppName: ovr_Net_AcceptForCurrentRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Oculus::Platform::CAPI::ovr_Net_AcceptForCurrentRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_AcceptForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_Close
 // Il2CppName: ovr_Net_Close
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Net_Close)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_CloseForCurrentRoom
 // Il2CppName: ovr_Net_CloseForCurrentRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::CAPI::ovr_Net_CloseForCurrentRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_CloseForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_Connect
 // Il2CppName: ovr_Net_Connect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Net_Connect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_IsConnected
 // Il2CppName: ovr_Net_IsConnected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Net_IsConnected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_Ping
 // Il2CppName: ovr_Net_Ping
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Net_Ping)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_ReadPacket
 // Il2CppName: ovr_Net_ReadPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_Net_ReadPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_SendPacket
 // Il2CppName: ovr_Net_SendPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, System::UIntPtr, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::CAPI::ovr_Net_SendPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Net_SendPacketToCurrentRoom
 // Il2CppName: ovr_Net_SendPacketToCurrentRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UIntPtr, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::CAPI::ovr_Net_SendPacketToCurrentRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_PluginGetSharedMemHandle
 // Il2CppName: ovr_Party_PluginGetSharedMemHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Oculus::Platform::CAPI::ovr_Party_PluginGetSharedMemHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_PluginGetSharedMemHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_PluginGetVoipMicrophoneMuted
 // Il2CppName: ovr_Party_PluginGetVoipMicrophoneMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&Oculus::Platform::CAPI::ovr_Party_PluginGetVoipMicrophoneMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_PluginGetVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_PluginGetVoipPassthrough
 // Il2CppName: ovr_Party_PluginGetVoipPassthrough
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Oculus::Platform::CAPI::ovr_Party_PluginGetVoipPassthrough)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_PluginGetVoipPassthrough", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_PluginGetVoipStatus
 // Il2CppName: ovr_Party_PluginGetVoipStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&Oculus::Platform::CAPI::ovr_Party_PluginGetVoipStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_PluginGetVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_Accept
 // Il2CppName: ovr_Voip_Accept
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_Accept)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetIsConnectionUsingDtx
 // Il2CppName: ovr_Voip_GetIsConnectionUsingDtx
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipDtxState (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_GetIsConnectionUsingDtx)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetIsConnectionUsingDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetLocalBitrate
 // Il2CppName: ovr_Voip_GetLocalBitrate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_GetLocalBitrate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetLocalBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetOutputBufferMaxSize
 // Il2CppName: ovr_Voip_GetOutputBufferMaxSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)()>(&Oculus::Platform::CAPI::ovr_Voip_GetOutputBufferMaxSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetOutputBufferMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetPCM
 // Il2CppName: ovr_Voip_GetPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<int16_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetPCMFloat
 // Il2CppName: ovr_Voip_GetPCMFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetPCMSize
 // Il2CppName: ovr_Voip_GetPCMSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestamp
 // Il2CppName: ovr_Voip_GetPCMWithTimestamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<int16_t>*, System::UIntPtr, ::Array<uint>*)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMWithTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestampFloat
 // Il2CppName: ovr_Voip_GetPCMWithTimestampFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<float>*, System::UIntPtr, ::Array<uint>*)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestampFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMWithTimestampFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetRemoteBitrate
 // Il2CppName: ovr_Voip_GetRemoteBitrate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_GetRemoteBitrate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetRemoteBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestamp
 // Il2CppName: ovr_Voip_GetSyncTimestamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetSyncTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestampDifference
 // Il2CppName: ovr_Voip_GetSyncTimestampDifference
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint, uint)>(&Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestampDifference)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetSyncTimestampDifference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipMicrophoneMuted
 // Il2CppName: ovr_Voip_GetSystemVoipMicrophoneMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipMicrophoneMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipStatus
 // Il2CppName: ovr_Voip_GetSystemVoipStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetSystemVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneMuted
 // Il2CppName: ovr_Voip_SetMicrophoneMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetNewConnectionOptions
 // Il2CppName: ovr_Voip_SetNewConnectionOptions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_SetNewConnectionOptions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetNewConnectionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetOutputSampleRate
 // Il2CppName: ovr_Voip_SetOutputSampleRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipSampleRate)>(&Oculus::Platform::CAPI::ovr_Voip_SetOutputSampleRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetOutputSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipSampleRate>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_Start
 // Il2CppName: ovr_Voip_Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_Stop
 // Il2CppName: ovr_Voip_Stop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Voip_Stop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReport_LaunchAdvancedReportFlow
 // Il2CppName: ovr_AbuseReport_LaunchAdvancedReportFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReport_LaunchAdvancedReportFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReport_LaunchAdvancedReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddCount
 // Il2CppName: ovr_Achievements_AddCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint64_t)>(&Oculus::Platform::CAPI::ovr_Achievements_AddCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_AddCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddCount_Native
 // Il2CppName: ovr_Achievements_AddCount_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_Achievements_AddCount_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_AddCount_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddFields
 // Il2CppName: ovr_Achievements_AddFields
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Achievements_AddFields)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_AddFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddFields_Native
 // Il2CppName: ovr_Achievements_AddFields_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Achievements_AddFields_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_AddFields_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetAllDefinitions
 // Il2CppName: ovr_Achievements_GetAllDefinitions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Achievements_GetAllDefinitions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetAllDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetAllProgress
 // Il2CppName: ovr_Achievements_GetAllProgress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Achievements_GetAllProgress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetAllProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName
 // Il2CppName: ovr_Achievements_GetDefinitionsByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName
 // Il2CppName: ovr_Achievements_GetProgressByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_Unlock
 // Il2CppName: ovr_Achievements_Unlock
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Achievements_Unlock)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_Unlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_Unlock_Native
 // Il2CppName: ovr_Achievements_Unlock_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Achievements_Unlock_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_Unlock_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Application_ExecuteCoordinatedLaunch
 // Il2CppName: ovr_Application_ExecuteCoordinatedLaunch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Oculus::Platform::CAPI::ovr_Application_ExecuteCoordinatedLaunch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Application_ExecuteCoordinatedLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Application_GetInstalledApplications
 // Il2CppName: ovr_Application_GetInstalledApplications
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Application_GetInstalledApplications)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Application_GetInstalledApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Application_GetVersion
 // Il2CppName: ovr_Application_GetVersion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Application_GetVersion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Application_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Application_LaunchOtherApp
 // Il2CppName: ovr_Application_LaunchOtherApp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Application_LaunchOtherApp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Application_LaunchOtherApp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetRegisteredPIDs
 // Il2CppName: ovr_ApplicationLifecycle_GetRegisteredPIDs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetRegisteredPIDs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_GetRegisteredPIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetSessionKey
 // Il2CppName: ovr_ApplicationLifecycle_GetSessionKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetSessionKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_GetSessionKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey
 // Il2CppName: ovr_ApplicationLifecycle_RegisterSessionKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_RegisterSessionKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey_Native
 // Il2CppName: ovr_ApplicationLifecycle_RegisterSessionKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_RegisterSessionKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_Delete
 // Il2CppName: ovr_AssetFile_Delete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_Delete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DeleteById
 // Il2CppName: ovr_AssetFile_DeleteById
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_DeleteById)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DeleteById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName
 // Il2CppName: ovr_AssetFile_DeleteByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DeleteByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName_Native
 // Il2CppName: ovr_AssetFile_DeleteByName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DeleteByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_Download
 // Il2CppName: ovr_AssetFile_Download
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_Download)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_Download", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadById
 // Il2CppName: ovr_AssetFile_DownloadById
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadById)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName
 // Il2CppName: ovr_AssetFile_DownloadByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName_Native
 // Il2CppName: ovr_AssetFile_DownloadByName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancel
 // Il2CppName: ovr_AssetFile_DownloadCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelById
 // Il2CppName: ovr_AssetFile_DownloadCancelById
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelById)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadCancelById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName
 // Il2CppName: ovr_AssetFile_DownloadCancelByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadCancelByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName_Native
 // Il2CppName: ovr_AssetFile_DownloadCancelByName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadCancelByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_GetList
 // Il2CppName: ovr_AssetFile_GetList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_AssetFile_GetList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_Status
 // Il2CppName: ovr_AssetFile_Status
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_Status)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_StatusById
 // Il2CppName: ovr_AssetFile_StatusById
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_AssetFile_StatusById)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_StatusById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_StatusByName
 // Il2CppName: ovr_AssetFile_StatusByName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_StatusByName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_StatusByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_StatusByName_Native
 // Il2CppName: ovr_AssetFile_StatusByName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFile_StatusByName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_StatusByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData
 // Il2CppName: ovr_Avatar_UpdateMetaData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Avatar_UpdateMetaData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData_Native
 // Il2CppName: ovr_Avatar_UpdateMetaData_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Avatar_UpdateMetaData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Cal_FinalizeApplication
 // Il2CppName: ovr_Cal_FinalizeApplication
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Cal_FinalizeApplication)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_FinalizeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Cal_GetSuggestedApplications
 // Il2CppName: ovr_Cal_GetSuggestedApplications
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int)>(&Oculus::Platform::CAPI::ovr_Cal_GetSuggestedApplications)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_GetSuggestedApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Cal_ProposeApplication
 // Il2CppName: ovr_Cal_ProposeApplication
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Cal_ProposeApplication)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_ProposeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Create
 // Il2CppName: ovr_Challenges_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Create_Native
 // Il2CppName: ovr_Challenges_Create_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_Create_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Create_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_DeclineInvite
 // Il2CppName: ovr_Challenges_DeclineInvite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_DeclineInvite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_DeclineInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Delete
 // Il2CppName: ovr_Challenges_Delete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_Delete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Get
 // Il2CppName: ovr_Challenges_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetEntries
 // Il2CppName: ovr_Challenges_GetEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::CAPI::ovr_Challenges_GetEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetEntriesAfterRank
 // Il2CppName: ovr_Challenges_GetEntriesAfterRank
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_GetEntriesAfterRank)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetEntriesByIds
 // Il2CppName: ovr_Challenges_GetEntriesByIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&Oculus::Platform::CAPI::ovr_Challenges_GetEntriesByIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetList
 // Il2CppName: ovr_Challenges_GetList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_Challenges_GetList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetNextChallenges
 // Il2CppName: ovr_Challenges_GetNextChallenges
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_GetNextChallenges)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetNextChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetNextEntries
 // Il2CppName: ovr_Challenges_GetNextEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_GetNextEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetPreviousChallenges
 // Il2CppName: ovr_Challenges_GetPreviousChallenges
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_GetPreviousChallenges)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetPreviousChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_GetPreviousEntries
 // Il2CppName: ovr_Challenges_GetPreviousEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_GetPreviousEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Join
 // Il2CppName: ovr_Challenges_Join
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_Join)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Leave
 // Il2CppName: ovr_Challenges_Leave
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Challenges_Leave)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_UpdateInfo
 // Il2CppName: ovr_Challenges_UpdateInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_UpdateInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_UpdateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Delete
 // Il2CppName: ovr_CloudStorage_Delete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Delete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Delete_Native
 // Il2CppName: ovr_CloudStorage_Delete_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Delete_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Delete_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Load
 // Il2CppName: ovr_CloudStorage_Load
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Load)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Load_Native
 // Il2CppName: ovr_CloudStorage_Load_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Load_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Load_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata
 // Il2CppName: ovr_CloudStorage_LoadBucketMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata_Native
 // Il2CppName: ovr_CloudStorage_LoadBucketMetadata_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadBucketMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata
 // Il2CppName: ovr_CloudStorage_LoadConflictMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata_Native
 // Il2CppName: ovr_CloudStorage_LoadConflictMetadata_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadConflictMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle
 // Il2CppName: ovr_CloudStorage_LoadHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle_Native
 // Il2CppName: ovr_CloudStorage_LoadHandle_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata
 // Il2CppName: ovr_CloudStorage_LoadMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata_Native
 // Il2CppName: ovr_CloudStorage_LoadMetadata_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal
 // Il2CppName: ovr_CloudStorage_ResolveKeepLocal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal_Native
 // Il2CppName: ovr_CloudStorage_ResolveKeepLocal_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_ResolveKeepLocal_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote
 // Il2CppName: ovr_CloudStorage_ResolveKeepRemote
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote_Native
 // Il2CppName: ovr_CloudStorage_ResolveKeepRemote_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_ResolveKeepRemote_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Save
 // Il2CppName: ovr_CloudStorage_Save
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, uint, int64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Save)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Save_Native
 // Il2CppName: ovr_CloudStorage_Save_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, ::Array<uint8_t>*, uint, int64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Save_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_Save_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage2_GetUserDirectoryPath
 // Il2CppName: ovr_CloudStorage2_GetUserDirectoryPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_CloudStorage2_GetUserDirectoryPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage2_GetUserDirectoryPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_GetCurrentMapUuid
 // Il2CppName: ovr_Colocation_GetCurrentMapUuid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Colocation_GetCurrentMapUuid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_GetCurrentMapUuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_RequestMap
 // Il2CppName: ovr_Colocation_RequestMap
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Colocation_RequestMap)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_RequestMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_RequestMap_Native
 // Il2CppName: ovr_Colocation_RequestMap_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Colocation_RequestMap_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_RequestMap_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_ShareMap
 // Il2CppName: ovr_Colocation_ShareMap
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Colocation_ShareMap)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_ShareMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_ShareMap_Native
 // Il2CppName: ovr_Colocation_ShareMap_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Colocation_ShareMap_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_ShareMap_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Entitlement_GetIsViewerEntitled
 // Il2CppName: ovr_Entitlement_GetIsViewerEntitled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Entitlement_GetIsViewerEntitled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Entitlement_GetIsViewerEntitled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Get
 // Il2CppName: ovr_GraphAPI_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Get_Native
 // Il2CppName: ovr_GraphAPI_Get_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Get_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Post
 // Il2CppName: ovr_GraphAPI_Post
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Post)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Post_Native
 // Il2CppName: ovr_GraphAPI_Post_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Post_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Post_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresence_LaunchInvitePanel
 // Il2CppName: ovr_GroupPresence_LaunchInvitePanel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresence_LaunchInvitePanel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresence_LaunchInvitePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Get
 // Il2CppName: ovr_HTTP_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Get_Native
 // Il2CppName: ovr_HTTP_Get_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_Get_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_GetToFile
 // Il2CppName: ovr_HTTP_GetToFile
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_GetToFile)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_GetToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_GetToFile_Native
 // Il2CppName: ovr_HTTP_GetToFile_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_GetToFile_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_GetToFile_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost
 // Il2CppName: ovr_HTTP_MultiPartPost
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_MultiPartPost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost_Native
 // Il2CppName: ovr_HTTP_MultiPartPost_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr, System::IntPtr, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_MultiPartPost_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Post
 // Il2CppName: ovr_HTTP_Post
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_Post)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Post_Native
 // Il2CppName: ovr_HTTP_Post_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_Post_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Post_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase
 // Il2CppName: ovr_IAP_ConsumePurchase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_ConsumePurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase_Native
 // Il2CppName: ovr_IAP_ConsumePurchase_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_ConsumePurchase_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU
 // Il2CppName: ovr_IAP_GetProductsBySKU
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchases
 // Il2CppName: ovr_IAP_GetViewerPurchases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_GetViewerPurchases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchasesDurableCache
 // Il2CppName: ovr_IAP_GetViewerPurchasesDurableCache
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchasesDurableCache)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_GetViewerPurchasesDurableCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow
 // Il2CppName: ovr_IAP_LaunchCheckoutFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow_Native
 // Il2CppName: ovr_IAP_LaunchCheckoutFlow_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_LaunchCheckoutFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePack_GetCurrent
 // Il2CppName: ovr_LanguagePack_GetCurrent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_LanguagePack_GetCurrent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePack_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent
 // Il2CppName: ovr_LanguagePack_SetCurrent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePack_SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent_Native
 // Il2CppName: ovr_LanguagePack_SetCurrent_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePack_SetCurrent_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_Get
 // Il2CppName: ovr_Leaderboard_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Leaderboard_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_Get_Native
 // Il2CppName: ovr_Leaderboard_Get_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_Get_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries
 // Il2CppName: ovr_Leaderboard_GetEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries_Native
 // Il2CppName: ovr_Leaderboard_GetEntries_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntries_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank
 // Il2CppName: ovr_Leaderboard_GetEntriesAfterRank
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank_Native
 // Il2CppName: ovr_Leaderboard_GetEntriesAfterRank_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesAfterRank_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds
 // Il2CppName: ovr_Leaderboard_GetEntriesByIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds_Native
 // Il2CppName: ovr_Leaderboard_GetEntriesByIds_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesByIds_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetNextEntries
 // Il2CppName: ovr_Leaderboard_GetNextEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetNextEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetPreviousEntries
 // Il2CppName: ovr_Leaderboard_GetPreviousEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetPreviousEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry
 // Il2CppName: ovr_Leaderboard_WriteEntry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, ::Array<uint8_t>*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry_Native
 // Il2CppName: ovr_Leaderboard_WriteEntry_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int64_t, ::Array<uint8_t>*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric
 // Il2CppName: ovr_Leaderboard_WriteEntryWithSupplementaryMetric
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, int64_t, ::Array<uint8_t>*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native
 // Il2CppName: ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int64_t, int64_t, ::Array<uint8_t>*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_GetStatus
 // Il2CppName: ovr_Livestreaming_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication
 // Il2CppName: ovr_Livestreaming_IsAllowedForApplication
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_IsAllowedForApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication_Native
 // Il2CppName: ovr_Livestreaming_IsAllowedForApplication_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_IsAllowedForApplication_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_LaunchLivestreamingFlow
 // Il2CppName: ovr_Livestreaming_LaunchLivestreamingFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_LaunchLivestreamingFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_LaunchLivestreamingFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_PauseStream
 // Il2CppName: ovr_Livestreaming_PauseStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_PauseStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_PauseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_ResumeStream
 // Il2CppName: ovr_Livestreaming_ResumeStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_ResumeStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_ResumeStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_StartPartyStream
 // Il2CppName: ovr_Livestreaming_StartPartyStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_StartPartyStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_StartPartyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_StartStream
 // Il2CppName: ovr_Livestreaming_StartStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::LivestreamingAudience, Oculus::Platform::LivestreamingMicrophoneStatus)>(&Oculus::Platform::CAPI::ovr_Livestreaming_StartStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_StartStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingAudience>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingMicrophoneStatus>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_StopPartyStream
 // Il2CppName: ovr_Livestreaming_StopPartyStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_StopPartyStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_StopPartyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_StopStream
 // Il2CppName: ovr_Livestreaming_StopStream
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Livestreaming_StopStream)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_StopStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_UpdateCommentsOverlayVisibility
 // Il2CppName: ovr_Livestreaming_UpdateCommentsOverlayVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&Oculus::Platform::CAPI::ovr_Livestreaming_UpdateCommentsOverlayVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_UpdateCommentsOverlayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_UpdateMicStatus
 // Il2CppName: ovr_Livestreaming_UpdateMicStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::LivestreamingMicrophoneStatus)>(&Oculus::Platform::CAPI::ovr_Livestreaming_UpdateMicStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_UpdateMicStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingMicrophoneStatus>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse
 // Il2CppName: ovr_Matchmaking_Browse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Browse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse_Native
 // Il2CppName: ovr_Matchmaking_Browse_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Browse_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse2
 // Il2CppName: ovr_Matchmaking_Browse2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Browse2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse2_Native
 // Il2CppName: ovr_Matchmaking_Browse2_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse2_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Browse2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Cancel
 // Il2CppName: ovr_Matchmaking_Cancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Cancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Cancel_Native
 // Il2CppName: ovr_Matchmaking_Cancel_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Cancel_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Cancel_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Cancel2
 // Il2CppName: ovr_Matchmaking_Cancel2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Matchmaking_Cancel2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Cancel2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom_Native
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, bool, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2_Native
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom2_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom
 // Il2CppName: ovr_Matchmaking_CreateRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom_Native
 // Il2CppName: ovr_Matchmaking_CreateRoom_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, bool)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateRoom_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2
 // Il2CppName: ovr_Matchmaking_CreateRoom2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2_Native
 // Il2CppName: ovr_Matchmaking_CreateRoom2_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_CreateRoom2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue
 // Il2CppName: ovr_Matchmaking_Enqueue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue_Native
 // Il2CppName: ovr_Matchmaking_Enqueue_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Enqueue_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2
 // Il2CppName: ovr_Matchmaking_Enqueue2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Enqueue2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2_Native
 // Il2CppName: ovr_Matchmaking_Enqueue2_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_Enqueue2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_EnqueueRoom
 // Il2CppName: ovr_Matchmaking_EnqueueRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_EnqueueRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_EnqueueRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_EnqueueRoom2
 // Il2CppName: ovr_Matchmaking_EnqueueRoom2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_EnqueueRoom2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_EnqueueRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_GetAdminSnapshot
 // Il2CppName: ovr_Matchmaking_GetAdminSnapshot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Matchmaking_GetAdminSnapshot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_GetAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_GetStats
 // Il2CppName: ovr_Matchmaking_GetStats
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::CAPI::ovr_Matchmaking_GetStats)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_GetStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingStatApproach>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_GetStats_Native
 // Il2CppName: ovr_Matchmaking_GetStats_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::CAPI::ovr_Matchmaking_GetStats_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_GetStats_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingStatApproach>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_JoinRoom
 // Il2CppName: ovr_Matchmaking_JoinRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, bool)>(&Oculus::Platform::CAPI::ovr_Matchmaking_JoinRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_JoinRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure
 // Il2CppName: ovr_Matchmaking_ReportResultInsecure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_ReportResultInsecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure_Native
 // Il2CppName: ovr_Matchmaking_ReportResultInsecure_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_ReportResultInsecure_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_StartMatch
 // Il2CppName: ovr_Matchmaking_StartMatch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Matchmaking_StartMatch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_StartMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Media_ShareToFacebook
 // Il2CppName: ovr_Media_ShareToFacebook
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, Oculus::Platform::MediaContentType)>(&Oculus::Platform::CAPI::ovr_Media_ShareToFacebook)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Media_ShareToFacebook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MediaContentType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Media_ShareToFacebook_Native
 // Il2CppName: ovr_Media_ShareToFacebook_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, Oculus::Platform::MediaContentType)>(&Oculus::Platform::CAPI::ovr_Media_ShareToFacebook_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Media_ShareToFacebook_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MediaContentType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_Connect
 // Il2CppName: ovr_NetSync_Connect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_Connect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_Disconnect
 // Il2CppName: ovr_NetSync_Disconnect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&Oculus::Platform::CAPI::ovr_NetSync_Disconnect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetSessions
 // Il2CppName: ovr_NetSync_GetSessions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&Oculus::Platform::CAPI::ovr_NetSync_GetSessions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetSessions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuation
 // Il2CppName: ovr_NetSync_GetVoipAttenuation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetVoipAttenuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuationDefault
 // Il2CppName: ovr_NetSync_GetVoipAttenuationDefault
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuationDefault)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetVoipAttenuationDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuation
 // Il2CppName: ovr_NetSync_SetVoipAttenuation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel
 // Il2CppName: ovr_NetSync_SetVoipAttenuationModel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuationModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel_Native
 // Il2CppName: ovr_NetSync_SetVoipAttenuationModel_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuationModel_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg
 // Il2CppName: ovr_NetSync_SetVoipChannelCfg
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::Il2CppString*, bool)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipChannelCfg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg_Native
 // Il2CppName: ovr_NetSync_SetVoipChannelCfg_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr, System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipChannelCfg_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup
 // Il2CppName: ovr_NetSync_SetVoipGroup
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup_Native
 // Il2CppName: ovr_NetSync_SetVoipGroup_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels
 // Il2CppName: ovr_NetSync_SetVoipListentoChannels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<::Il2CppString*>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipListentoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipMicSource
 // Il2CppName: ovr_NetSync_SetVoipMicSource
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, Oculus::Platform::NetSyncVoipMicSource)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipMicSource)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipMicSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipMicSource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipSessionMuted
 // Il2CppName: ovr_NetSync_SetVoipSessionMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, bool)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipSessionMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipSessionMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels
 // Il2CppName: ovr_NetSync_SetVoipSpeaktoChannels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<::Il2CppString*>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipSpeaktoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipStreamMode
 // Il2CppName: ovr_NetSync_SetVoipStreamMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, Oculus::Platform::NetSyncVoipStreamMode)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipStreamMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipStreamMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipStreamMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Notification_GetRoomInvites
 // Il2CppName: ovr_Notification_GetRoomInvites
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Notification_GetRoomInvites)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Notification_GetRoomInvites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Notification_MarkAsRead
 // Il2CppName: ovr_Notification_MarkAsRead
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Notification_MarkAsRead)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Notification_MarkAsRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_Create
 // Il2CppName: ovr_Party_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Party_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GatherInApplication
 // Il2CppName: ovr_Party_GatherInApplication
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_GatherInApplication)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GatherInApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_Get
 // Il2CppName: ovr_Party_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetCurrent
 // Il2CppName: ovr_Party_GetCurrent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Party_GetCurrent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetCurrentForUser
 // Il2CppName: ovr_Party_GetCurrentForUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_GetCurrentForUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_Invite
 // Il2CppName: ovr_Party_Invite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_Invite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_Join
 // Il2CppName: ovr_Party_Join
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_Join)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_Leave
 // Il2CppName: ovr_Party_Leave
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Party_Leave)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_Clear
 // Il2CppName: ovr_RichPresence_Clear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_RichPresence_Clear)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_GetDestinations
 // Il2CppName: ovr_RichPresence_GetDestinations
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_RichPresence_GetDestinations)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_GetDestinations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_Set
 // Il2CppName: ovr_RichPresence_Set
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresence_Set)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetDestination
 // Il2CppName: ovr_RichPresence_SetDestination
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetDestination)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetDestination_Native
 // Il2CppName: ovr_RichPresence_SetDestination_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetDestination_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetDestination_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetIsJoinable
 // Il2CppName: ovr_RichPresence_SetIsJoinable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetIsJoinable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession
 // Il2CppName: ovr_RichPresence_SetLobbySession
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetLobbySession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession_Native
 // Il2CppName: ovr_RichPresence_SetLobbySession_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetLobbySession_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession
 // Il2CppName: ovr_RichPresence_SetMatchSession
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetMatchSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession_Native
 // Il2CppName: ovr_RichPresence_SetMatchSession_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetMatchSession_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_CreateAndJoinPrivate
 // Il2CppName: ovr_Room_CreateAndJoinPrivate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::RoomJoinPolicy, uint, bool)>(&Oculus::Platform::CAPI::ovr_Room_CreateAndJoinPrivate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_CreateAndJoinPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_CreateAndJoinPrivate2
 // Il2CppName: ovr_Room_CreateAndJoinPrivate2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::RoomJoinPolicy, uint, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_CreateAndJoinPrivate2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_CreateAndJoinPrivate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_Get
 // Il2CppName: ovr_Room_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetCurrent
 // Il2CppName: ovr_Room_GetCurrent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Room_GetCurrent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetCurrentForUser
 // Il2CppName: ovr_Room_GetCurrentForUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_GetCurrentForUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetInvitableUsers
 // Il2CppName: ovr_Room_GetInvitableUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Room_GetInvitableUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetInvitableUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetInvitableUsers2
 // Il2CppName: ovr_Room_GetInvitableUsers2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetInvitableUsers2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetInvitableUsers2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetModeratedRooms
 // Il2CppName: ovr_Room_GetModeratedRooms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_Room_GetModeratedRooms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetModeratedRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetSocialRooms
 // Il2CppName: ovr_Room_GetSocialRooms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_GetSocialRooms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetSocialRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_InviteUser
 // Il2CppName: ovr_Room_InviteUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Room_InviteUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_InviteUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_InviteUser_Native
 // Il2CppName: ovr_Room_InviteUser_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_InviteUser_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_InviteUser_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_Join
 // Il2CppName: ovr_Room_Join
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, bool)>(&Oculus::Platform::CAPI::ovr_Room_Join)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_Join2
 // Il2CppName: ovr_Room_Join2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_Join2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_Join2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_KickUser
 // Il2CppName: ovr_Room_KickUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, int)>(&Oculus::Platform::CAPI::ovr_Room_KickUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_KickUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_LaunchInvitableUserFlow
 // Il2CppName: ovr_Room_LaunchInvitableUserFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_LaunchInvitableUserFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_LaunchInvitableUserFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_Leave
 // Il2CppName: ovr_Room_Leave
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_Leave)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_SetDescription
 // Il2CppName: ovr_Room_SetDescription
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Room_SetDescription)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_SetDescription_Native
 // Il2CppName: ovr_Room_SetDescription_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_SetDescription_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_SetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_UpdateDataStore
 // Il2CppName: ovr_Room_UpdateDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&Oculus::Platform::CAPI::ovr_Room_UpdateDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_UpdateDataStore_Native
 // Il2CppName: ovr_Room_UpdateDataStore_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Room_UpdateDataStore_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateDataStore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_UpdateMembershipLockStatus
 // Il2CppName: ovr_Room_UpdateMembershipLockStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, Oculus::Platform::RoomMembershipLockStatus)>(&Oculus::Platform::CAPI::ovr_Room_UpdateMembershipLockStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateMembershipLockStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomMembershipLockStatus>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_UpdateOwner
 // Il2CppName: ovr_Room_UpdateOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Oculus::Platform::CAPI::ovr_Room_UpdateOwner)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_UpdatePrivateRoomJoinPolicy
 // Il2CppName: ovr_Room_UpdatePrivateRoomJoinPolicy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, Oculus::Platform::RoomJoinPolicy)>(&Oculus::Platform::CAPI::ovr_Room_UpdatePrivateRoomJoinPolicy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdatePrivateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemPermissions_GetStatus
 // Il2CppName: ovr_SystemPermissions_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::PermissionType)>(&Oculus::Platform::CAPI::ovr_SystemPermissions_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemPermissions_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PermissionType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemPermissions_LaunchDeeplink
 // Il2CppName: ovr_SystemPermissions_LaunchDeeplink
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::PermissionType)>(&Oculus::Platform::CAPI::ovr_SystemPermissions_LaunchDeeplink)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemPermissions_LaunchDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PermissionType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow
 // Il2CppName: ovr_User_CancelRecordingForReportFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_CancelRecordingForReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow_Native
 // Il2CppName: ovr_User_CancelRecordingForReportFlow_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_CancelRecordingForReportFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_Get
 // Il2CppName: ovr_User_Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetAccessToken
 // Il2CppName: ovr_User_GetAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetLinkedAccounts
 // Il2CppName: ovr_User_GetLinkedAccounts
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetLinkedAccounts)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetLoggedInUser
 // Il2CppName: ovr_User_GetLoggedInUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetLoggedInUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetLoggedInUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriends
 // Il2CppName: ovr_User_GetLoggedInUserFriends
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriends)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetLoggedInUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriendsAndRooms
 // Il2CppName: ovr_User_GetLoggedInUserFriendsAndRooms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriendsAndRooms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetLoggedInUserFriendsAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms
 // Il2CppName: ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetOrgScopedID
 // Il2CppName: ovr_User_GetOrgScopedID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_GetOrgScopedID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetSdkAccounts
 // Il2CppName: ovr_User_GetSdkAccounts
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetSdkAccounts)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetSdkAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetUserProof
 // Il2CppName: ovr_User_GetUserProof
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_GetUserProof)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchBlockFlow
 // Il2CppName: ovr_User_LaunchBlockFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_LaunchBlockFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchBlockFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchFriendRequestFlow
 // Il2CppName: ovr_User_LaunchFriendRequestFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_LaunchFriendRequestFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchFriendRequestFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchProfile
 // Il2CppName: ovr_User_LaunchProfile
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_LaunchProfile)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchProfile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchReportFlow
 // Il2CppName: ovr_User_LaunchReportFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_LaunchReportFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchReportFlow2
 // Il2CppName: ovr_User_LaunchReportFlow2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_LaunchReportFlow2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchReportFlow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_LaunchUnblockFlow
 // Il2CppName: ovr_User_LaunchUnblockFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_User_LaunchUnblockFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_LaunchUnblockFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_NewEntitledTestUser
 // Il2CppName: ovr_User_NewEntitledTestUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_NewEntitledTestUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_NewEntitledTestUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_NewTestUser
 // Il2CppName: ovr_User_NewTestUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_NewTestUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_NewTestUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_NewTestUserFriends
 // Il2CppName: ovr_User_NewTestUserFriends
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_NewTestUserFriends)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_NewTestUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StartRecordingForReportFlow
 // Il2CppName: ovr_User_StartRecordingForReportFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&Oculus::Platform::CAPI::ovr_User_StartRecordingForReportFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_StartRecordingForReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow_Native
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2_Native
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow2_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest
 // Il2CppName: ovr_User_TestUserCreateDeviceManifest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Array<uint64_t>*, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_TestUserCreateDeviceManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest_Native
 // Il2CppName: ovr_User_TestUserCreateDeviceManifest_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::Array<uint64_t>*, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_TestUserCreateDeviceManifest_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey
 // Il2CppName: ovr_UserDataStore_PrivateDeleteEntryByKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native
 // Il2CppName: ovr_UserDataStore_PrivateDeleteEntryByKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateDeleteEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntries
 // Il2CppName: ovr_UserDataStore_PrivateGetEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey
 // Il2CppName: ovr_UserDataStore_PrivateGetEntryByKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native
 // Il2CppName: ovr_UserDataStore_PrivateGetEntryByKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateGetEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry
 // Il2CppName: ovr_UserDataStore_PrivateWriteEntry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry_Native
 // Il2CppName: ovr_UserDataStore_PrivateWriteEntry_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PrivateWriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey
 // Il2CppName: ovr_UserDataStore_PublicDeleteEntryByKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native
 // Il2CppName: ovr_UserDataStore_PublicDeleteEntryByKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicDeleteEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntries
 // Il2CppName: ovr_UserDataStore_PublicGetEntries
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntries)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey
 // Il2CppName: ovr_UserDataStore_PublicGetEntryByKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native
 // Il2CppName: ovr_UserDataStore_PublicGetEntryByKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicGetEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry
 // Il2CppName: ovr_UserDataStore_PublicWriteEntry
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry_Native
 // Il2CppName: ovr_UserDataStore_PublicWriteEntry_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStore_PublicWriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipSuppressed
 // Il2CppName: ovr_Voip_SetSystemVoipSuppressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipSuppressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_SetSystemVoipSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid
 // Il2CppName: ovr_AbuseReportRecording_GetRecordingUuid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportRecording_GetRecordingUuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid_Native
 // Il2CppName: ovr_AbuseReportRecording_GetRecordingUuid_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportRecording_GetRecordingUuid_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetBitfieldLength
 // Il2CppName: ovr_AchievementDefinition_GetBitfieldLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetBitfieldLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetBitfieldLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName
 // Il2CppName: ovr_AchievementDefinition_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName_Native
 // Il2CppName: ovr_AchievementDefinition_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetTarget
 // Il2CppName: ovr_AchievementDefinition_GetTarget
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetTarget)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetType
 // Il2CppName: ovr_AchievementDefinition_GetType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::AchievementType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetElement
 // Il2CppName: ovr_AchievementDefinitionArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl
 // Il2CppName: ovr_AchievementDefinitionArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl_Native
 // Il2CppName: ovr_AchievementDefinitionArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetSize
 // Il2CppName: ovr_AchievementDefinitionArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_HasNextPage
 // Il2CppName: ovr_AchievementDefinitionArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield
 // Il2CppName: ovr_AchievementProgress_GetBitfield
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetBitfield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield_Native
 // Il2CppName: ovr_AchievementProgress_GetBitfield_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetBitfield_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetCount
 // Il2CppName: ovr_AchievementProgress_GetCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetIsUnlocked
 // Il2CppName: ovr_AchievementProgress_GetIsUnlocked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetIsUnlocked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetIsUnlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetName
 // Il2CppName: ovr_AchievementProgress_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetName_Native
 // Il2CppName: ovr_AchievementProgress_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime
 // Il2CppName: ovr_AchievementProgress_GetUnlockTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetUnlockTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime_Native
 // Il2CppName: ovr_AchievementProgress_GetUnlockTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetUnlockTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetElement
 // Il2CppName: ovr_AchievementProgressArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl
 // Il2CppName: ovr_AchievementProgressArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl_Native
 // Il2CppName: ovr_AchievementProgressArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetSize
 // Il2CppName: ovr_AchievementProgressArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_HasNextPage
 // Il2CppName: ovr_AchievementProgressArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementUpdate_GetJustUnlocked
 // Il2CppName: ovr_AchievementUpdate_GetJustUnlocked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementUpdate_GetJustUnlocked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementUpdate_GetJustUnlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName
 // Il2CppName: ovr_AchievementUpdate_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementUpdate_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName_Native
 // Il2CppName: ovr_AchievementUpdate_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementUpdate_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Application_GetID
 // Il2CppName: ovr_Application_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Application_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Application_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentCode
 // Il2CppName: ovr_ApplicationVersion_GetCurrentCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetCurrentCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName
 // Il2CppName: ovr_ApplicationVersion_GetCurrentName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetCurrentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName_Native
 // Il2CppName: ovr_ApplicationVersion_GetCurrentName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetCurrentName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestCode
 // Il2CppName: ovr_ApplicationVersion_GetLatestCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetLatestCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName
 // Il2CppName: ovr_ApplicationVersion_GetLatestName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetLatestName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName_Native
 // Il2CppName: ovr_ApplicationVersion_GetLatestName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetLatestName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetId
 // Il2CppName: ovr_AssetDetails_GetAssetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType
 // Il2CppName: ovr_AssetDetails_GetAssetType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetAssetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType_Native
 // Il2CppName: ovr_AssetDetails_GetAssetType_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetAssetType_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus
 // Il2CppName: ovr_AssetDetails_GetDownloadStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus_Native
 // Il2CppName: ovr_AssetDetails_GetDownloadStatus_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetDownloadStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath
 // Il2CppName: ovr_AssetDetails_GetFilepath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath_Native
 // Il2CppName: ovr_AssetDetails_GetFilepath_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus
 // Il2CppName: ovr_AssetDetails_GetIapStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetIapStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus_Native
 // Il2CppName: ovr_AssetDetails_GetIapStatus_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetIapStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetLanguage
 // Il2CppName: ovr_AssetDetails_GetLanguage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetLanguage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata
 // Il2CppName: ovr_AssetDetails_GetMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata_Native
 // Il2CppName: ovr_AssetDetails_GetMetadata_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetElement
 // Il2CppName: ovr_AssetDetailsArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetailsArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetSize
 // Il2CppName: ovr_AssetDetailsArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetailsArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetFileId
 // Il2CppName: ovr_AssetFileDeleteResult_GetAssetFileId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetFileId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetId
 // Il2CppName: ovr_AssetFileDeleteResult_GetAssetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath
 // Il2CppName: ovr_AssetFileDeleteResult_GetFilepath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath_Native
 // Il2CppName: ovr_AssetFileDeleteResult_GetFilepath_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetSuccess
 // Il2CppName: ovr_AssetFileDeleteResult_GetSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetFileId
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetAssetFileId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetFileId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetId
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetAssetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetFilepath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath_Native
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetFilepath_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetSuccess
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetAssetId
 // Il2CppName: ovr_AssetFileDownloadResult_GetAssetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetAssetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath
 // Il2CppName: ovr_AssetFileDownloadResult_GetFilepath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath_Native
 // Il2CppName: ovr_AssetFileDownloadResult_GetFilepath_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetFileId
 // Il2CppName: ovr_AssetFileDownloadUpdate_GetAssetFileId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetFileId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadUpdate_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetId
 // Il2CppName: ovr_AssetFileDownloadUpdate_GetAssetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadUpdate_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotal
 // Il2CppName: ovr_AssetFileDownloadUpdate_GetBytesTotal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadUpdate_GetBytesTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferred
 // Il2CppName: ovr_AssetFileDownloadUpdate_GetBytesTransferred
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferred)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadUpdate_GetBytesTransferred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetCompleted
 // Il2CppName: ovr_AssetFileDownloadUpdate_GetCompleted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetCompleted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadUpdate_GetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetCountdownMS
 // Il2CppName: ovr_CalApplicationFinalized_GetCountdownMS
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetCountdownMS)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationFinalized_GetCountdownMS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetID
 // Il2CppName: ovr_CalApplicationFinalized_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationFinalized_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails
 // Il2CppName: ovr_CalApplicationFinalized_GetLaunchDetails
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationFinalized_GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails_Native
 // Il2CppName: ovr_CalApplicationFinalized_GetLaunchDetails_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationFinalized_GetLaunchDetails_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationProposed_GetID
 // Il2CppName: ovr_CalApplicationProposed_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationProposed_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationProposed_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetID
 // Il2CppName: ovr_CalApplicationSuggestion_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestion_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext
 // Il2CppName: ovr_CalApplicationSuggestion_GetSocialContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestion_GetSocialContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext_Native
 // Il2CppName: ovr_CalApplicationSuggestion_GetSocialContext_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestion_GetSocialContext_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestionArray_GetElement
 // Il2CppName: ovr_CalApplicationSuggestionArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestionArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestionArray_GetSize
 // Il2CppName: ovr_CalApplicationSuggestionArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestionArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetCreationType
 // Il2CppName: ovr_Challenge_GetCreationType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ChallengeCreationType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetCreationType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetCreationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetDescription
 // Il2CppName: ovr_Challenge_GetDescription
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetDescription)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetDescription_Native
 // Il2CppName: ovr_Challenge_GetDescription_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetDescription_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetEndDate
 // Il2CppName: ovr_Challenge_GetEndDate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetEndDate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetEndDate_Native
 // Il2CppName: ovr_Challenge_GetEndDate_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetEndDate_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetEndDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetID
 // Il2CppName: ovr_Challenge_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetInvitedUsers
 // Il2CppName: ovr_Challenge_GetInvitedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetInvitedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetLeaderboard
 // Il2CppName: ovr_Challenge_GetLeaderboard
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetLeaderboard)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetParticipants
 // Il2CppName: ovr_Challenge_GetParticipants
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetParticipants)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetParticipants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetStartDate
 // Il2CppName: ovr_Challenge_GetStartDate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetStartDate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetStartDate_Native
 // Il2CppName: ovr_Challenge_GetStartDate_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetStartDate_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetStartDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetTitle
 // Il2CppName: ovr_Challenge_GetTitle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetTitle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetTitle_Native
 // Il2CppName: ovr_Challenge_GetTitle_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetTitle_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetTitle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetVisibility
 // Il2CppName: ovr_Challenge_GetVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ChallengeVisibility (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetElement
 // Il2CppName: ovr_ChallengeArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl
 // Il2CppName: ovr_ChallengeArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl_Native
 // Il2CppName: ovr_ChallengeArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl
 // Il2CppName: ovr_ChallengeArray_GetPreviousUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl_Native
 // Il2CppName: ovr_ChallengeArray_GetPreviousUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetSize
 // Il2CppName: ovr_ChallengeArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetTotalCount
 // Il2CppName: ovr_ChallengeArray_GetTotalCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetTotalCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_HasNextPage
 // Il2CppName: ovr_ChallengeArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_HasPreviousPage
 // Il2CppName: ovr_ChallengeArray_HasPreviousPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_HasPreviousPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore
 // Il2CppName: ovr_ChallengeEntry_GetDisplayScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore_Native
 // Il2CppName: ovr_ChallengeEntry_GetDisplayScore_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetDisplayScore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData
 // Il2CppName: ovr_ChallengeEntry_GetExtraData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData_Native
 // Il2CppName: ovr_ChallengeEntry_GetExtraData_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraDataLength
 // Il2CppName: ovr_ChallengeEntry_GetExtraDataLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraDataLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetExtraDataLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetRank
 // Il2CppName: ovr_ChallengeEntry_GetRank
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetRank)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetScore
 // Il2CppName: ovr_ChallengeEntry_GetScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp
 // Il2CppName: ovr_ChallengeEntry_GetTimestamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp_Native
 // Il2CppName: ovr_ChallengeEntry_GetTimestamp_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetUser
 // Il2CppName: ovr_ChallengeEntry_GetUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetElement
 // Il2CppName: ovr_ChallengeEntryArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl
 // Il2CppName: ovr_ChallengeEntryArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl_Native
 // Il2CppName: ovr_ChallengeEntryArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl
 // Il2CppName: ovr_ChallengeEntryArray_GetPreviousUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl_Native
 // Il2CppName: ovr_ChallengeEntryArray_GetPreviousUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetSize
 // Il2CppName: ovr_ChallengeEntryArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetTotalCount
 // Il2CppName: ovr_ChallengeEntryArray_GetTotalCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetTotalCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasNextPage
 // Il2CppName: ovr_ChallengeEntryArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasPreviousPage
 // Il2CppName: ovr_ChallengeEntryArray_HasPreviousPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasPreviousPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath
 // Il2CppName: ovr_CloudStorage2UserDirectoryPathResponse_GetPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage2UserDirectoryPathResponse_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native
 // Il2CppName: ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageConflictMetadata_GetLocal
 // Il2CppName: ovr_CloudStorageConflictMetadata_GetLocal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageConflictMetadata_GetLocal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageConflictMetadata_GetLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageConflictMetadata_GetRemote
 // Il2CppName: ovr_CloudStorageConflictMetadata_GetRemote
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageConflictMetadata_GetRemote)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageConflictMetadata_GetRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket
 // Il2CppName: ovr_CloudStorageData_GetBucket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket_Native
 // Il2CppName: ovr_CloudStorageData_GetBucket_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetData
 // Il2CppName: ovr_CloudStorageData_GetData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetData_Native
 // Il2CppName: ovr_CloudStorageData_GetData_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetData_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetDataSize
 // Il2CppName: ovr_CloudStorageData_GetDataSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetDataSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey
 // Il2CppName: ovr_CloudStorageData_GetKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey_Native
 // Il2CppName: ovr_CloudStorageData_GetKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket
 // Il2CppName: ovr_CloudStorageMetadata_GetBucket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket_Native
 // Il2CppName: ovr_CloudStorageMetadata_GetBucket_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetCounter
 // Il2CppName: ovr_CloudStorageMetadata_GetCounter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetCounter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetDataSize
 // Il2CppName: ovr_CloudStorageMetadata_GetDataSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetDataSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData
 // Il2CppName: ovr_CloudStorageMetadata_GetExtraData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData_Native
 // Il2CppName: ovr_CloudStorageMetadata_GetExtraData_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey
 // Il2CppName: ovr_CloudStorageMetadata_GetKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey_Native
 // Il2CppName: ovr_CloudStorageMetadata_GetKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetSaveTime
 // Il2CppName: ovr_CloudStorageMetadata_GetSaveTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetSaveTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetSaveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetStatus
 // Il2CppName: ovr_CloudStorageMetadata_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::CloudStorageDataStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle
 // Il2CppName: ovr_CloudStorageMetadata_GetVersionHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle_Native
 // Il2CppName: ovr_CloudStorageMetadata_GetVersionHandle_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetVersionHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetElement
 // Il2CppName: ovr_CloudStorageMetadataArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl
 // Il2CppName: ovr_CloudStorageMetadataArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl_Native
 // Il2CppName: ovr_CloudStorageMetadataArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetSize
 // Il2CppName: ovr_CloudStorageMetadataArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_HasNextPage
 // Il2CppName: ovr_CloudStorageMetadataArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetBucket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket_Native
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetBucket_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey_Native
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetStatus
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::CloudStorageUpdateStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetVersionHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle_Native
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetVersionHandle_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetVersionHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_Contains
 // Il2CppName: ovr_DataStore_Contains
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_DataStore_Contains)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_Contains_Native
 // Il2CppName: ovr_DataStore_Contains_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DataStore_Contains_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_Contains_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetKey
 // Il2CppName: ovr_DataStore_GetKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_DataStore_GetKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetKey_Native
 // Il2CppName: ovr_DataStore_GetKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_DataStore_GetKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetNumKeys
 // Il2CppName: ovr_DataStore_GetNumKeys
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DataStore_GetNumKeys)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_GetNumKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetValue
 // Il2CppName: ovr_DataStore_GetValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_DataStore_GetValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetValue_Native
 // Il2CppName: ovr_DataStore_GetValue_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DataStore_GetValue_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DataStore_GetValue_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetApiName
 // Il2CppName: ovr_Destination_GetApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetApiName_Native
 // Il2CppName: ovr_Destination_GetApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage
 // Il2CppName: ovr_Destination_GetDeeplinkMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage_Native
 // Il2CppName: ovr_Destination_GetDeeplinkMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDisplayName
 // Il2CppName: ovr_Destination_GetDisplayName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDisplayName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDisplayName_Native
 // Il2CppName: ovr_Destination_GetDisplayName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDisplayName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDisplayName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_GetElement
 // Il2CppName: ovr_DestinationArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl
 // Il2CppName: ovr_DestinationArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl_Native
 // Il2CppName: ovr_DestinationArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_GetSize
 // Il2CppName: ovr_DestinationArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_HasNextPage
 // Il2CppName: ovr_DestinationArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetCode
 // Il2CppName: ovr_Error_GetCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage
 // Il2CppName: ovr_Error_GetDisplayableMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetDisplayableMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage_Native
 // Il2CppName: ovr_Error_GetDisplayableMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetDisplayableMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetHttpCode
 // Il2CppName: ovr_Error_GetHttpCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetHttpCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetHttpCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetMessage
 // Il2CppName: ovr_Error_GetMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetMessage_Native
 // Il2CppName: ovr_Error_GetMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetDestinationApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetLobbySessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetMatchSessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetBytes
 // Il2CppName: ovr_HttpTransferUpdate_GetBytes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetBytes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HttpTransferUpdate_GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetID
 // Il2CppName: ovr_HttpTransferUpdate_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HttpTransferUpdate_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetSize
 // Il2CppName: ovr_HttpTransferUpdate_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HttpTransferUpdate_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HttpTransferUpdate_IsCompleted
 // Il2CppName: ovr_HttpTransferUpdate_IsCompleted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_HttpTransferUpdate_IsCompleted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HttpTransferUpdate_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId
 // Il2CppName: ovr_InstalledApplication_GetApplicationId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetApplicationId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId_Native
 // Il2CppName: ovr_InstalledApplication_GetApplicationId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetApplicationId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName
 // Il2CppName: ovr_InstalledApplication_GetPackageName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetPackageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName_Native
 // Il2CppName: ovr_InstalledApplication_GetPackageName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetPackageName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus
 // Il2CppName: ovr_InstalledApplication_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus_Native
 // Il2CppName: ovr_InstalledApplication_GetStatus_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionCode
 // Il2CppName: ovr_InstalledApplication_GetVersionCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetVersionCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName
 // Il2CppName: ovr_InstalledApplication_GetVersionName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetVersionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName_Native
 // Il2CppName: ovr_InstalledApplication_GetVersionName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetVersionName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetElement
 // Il2CppName: ovr_InstalledApplicationArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplicationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetSize
 // Il2CppName: ovr_InstalledApplicationArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplicationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InvitePanelResultInfo_GetInvitesSent
 // Il2CppName: ovr_InvitePanelResultInfo_GetInvitesSent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InvitePanelResultInfo_GetInvitesSent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InvitePanelResultInfo_GetInvitesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName
 // Il2CppName: ovr_LanguagePackInfo_GetEnglishName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName_Native
 // Il2CppName: ovr_LanguagePackInfo_GetEnglishName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetEnglishName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName
 // Il2CppName: ovr_LanguagePackInfo_GetNativeName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName_Native
 // Il2CppName: ovr_LanguagePackInfo_GetNativeName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetNativeName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag
 // Il2CppName: ovr_LanguagePackInfo_GetTag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag_Native
 // Il2CppName: ovr_LanguagePackInfo_GetTag_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetTag_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidBlock
 // Il2CppName: ovr_LaunchBlockFlowResult_GetDidBlock
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidBlock)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchBlockFlowResult_GetDidBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidCancel
 // Il2CppName: ovr_LaunchBlockFlowResult_GetDidCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchBlockFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage
 // Il2CppName: ovr_LaunchDetails_GetDeeplinkMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage_Native
 // Il2CppName: ovr_LaunchDetails_GetDeeplinkMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName
 // Il2CppName: ovr_LaunchDetails_GetDestinationApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName_Native
 // Il2CppName: ovr_LaunchDetails_GetDestinationApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource
 // Il2CppName: ovr_LaunchDetails_GetLaunchSource
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetLaunchSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource_Native
 // Il2CppName: ovr_LaunchDetails_GetLaunchSource_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetLaunchSource_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchType
 // Il2CppName: ovr_LaunchDetails_GetLaunchType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::LaunchType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetLaunchType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetRoomID
 // Il2CppName: ovr_LaunchDetails_GetRoomID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetRoomID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetRoomID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID
 // Il2CppName: ovr_LaunchDetails_GetTrackingID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetTrackingID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID_Native
 // Il2CppName: ovr_LaunchDetails_GetTrackingID_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetTrackingID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetUsers
 // Il2CppName: ovr_LaunchDetails_GetUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidCancel
 // Il2CppName: ovr_LaunchFriendRequestFlowResult_GetDidCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchFriendRequestFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidSendRequest
 // Il2CppName: ovr_LaunchFriendRequestFlowResult_GetDidSendRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidSendRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchFriendRequestFlowResult_GetDidSendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchInvitePanelFlowResult_GetInvitedUsers
 // Il2CppName: ovr_LaunchInvitePanelFlowResult_GetInvitedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchInvitePanelFlowResult_GetInvitedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchInvitePanelFlowResult_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetDidCancel
 // Il2CppName: ovr_LaunchReportFlowResult_GetDidCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetDidCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchReportFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetUserReportId
 // Il2CppName: ovr_LaunchReportFlowResult_GetUserReportId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetUserReportId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchReportFlowResult_GetUserReportId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidCancel
 // Il2CppName: ovr_LaunchUnblockFlowResult_GetDidCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchUnblockFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidUnblock
 // Il2CppName: ovr_LaunchUnblockFlowResult_GetDidUnblock
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidUnblock)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchUnblockFlowResult_GetDidUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName
 // Il2CppName: ovr_Leaderboard_GetApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName_Native
 // Il2CppName: ovr_Leaderboard_GetApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetDestination
 // Il2CppName: ovr_Leaderboard_GetDestination
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetDestination)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetID
 // Il2CppName: ovr_Leaderboard_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_GetElement
 // Il2CppName: ovr_LeaderboardArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl
 // Il2CppName: ovr_LeaderboardArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl_Native
 // Il2CppName: ovr_LeaderboardArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_GetSize
 // Il2CppName: ovr_LeaderboardArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_HasNextPage
 // Il2CppName: ovr_LeaderboardArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore
 // Il2CppName: ovr_LeaderboardEntry_GetDisplayScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore_Native
 // Il2CppName: ovr_LeaderboardEntry_GetDisplayScore_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetDisplayScore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData
 // Il2CppName: ovr_LeaderboardEntry_GetExtraData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData_Native
 // Il2CppName: ovr_LeaderboardEntry_GetExtraData_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraDataLength
 // Il2CppName: ovr_LeaderboardEntry_GetExtraDataLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraDataLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetExtraDataLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetRank
 // Il2CppName: ovr_LeaderboardEntry_GetRank
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetRank)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetScore
 // Il2CppName: ovr_LeaderboardEntry_GetScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetSupplementaryMetric
 // Il2CppName: ovr_LeaderboardEntry_GetSupplementaryMetric
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetSupplementaryMetric)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp
 // Il2CppName: ovr_LeaderboardEntry_GetTimestamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp_Native
 // Il2CppName: ovr_LeaderboardEntry_GetTimestamp_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetUser
 // Il2CppName: ovr_LeaderboardEntry_GetUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetElement
 // Il2CppName: ovr_LeaderboardEntryArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl
 // Il2CppName: ovr_LeaderboardEntryArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl_Native
 // Il2CppName: ovr_LeaderboardEntryArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl
 // Il2CppName: ovr_LeaderboardEntryArray_GetPreviousUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl_Native
 // Il2CppName: ovr_LeaderboardEntryArray_GetPreviousUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetSize
 // Il2CppName: ovr_LeaderboardEntryArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetTotalCount
 // Il2CppName: ovr_LeaderboardEntryArray_GetTotalCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetTotalCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasNextPage
 // Il2CppName: ovr_LeaderboardEntryArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasPreviousPage
 // Il2CppName: ovr_LeaderboardEntryArray_HasPreviousPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasPreviousPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetDidUpdate
 // Il2CppName: ovr_LeaderboardUpdateStatus_GetDidUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetDidUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardUpdateStatus_GetDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId
 // Il2CppName: ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize
 // Il2CppName: ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken
 // Il2CppName: ovr_LinkedAccount_GetAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken_Native
 // Il2CppName: ovr_LinkedAccount_GetAccessToken_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetServiceProvider
 // Il2CppName: ovr_LinkedAccount_GetServiceProvider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ServiceProvider (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetServiceProvider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetServiceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId
 // Il2CppName: ovr_LinkedAccount_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId_Native
 // Il2CppName: ovr_LinkedAccount_GetUserId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetUserId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetElement
 // Il2CppName: ovr_LinkedAccountArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccountArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetSize
 // Il2CppName: ovr_LinkedAccountArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccountArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingApplicationStatus_GetStreamingEnabled
 // Il2CppName: ovr_LivestreamingApplicationStatus_GetStreamingEnabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingApplicationStatus_GetStreamingEnabled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingApplicationStatus_GetStreamingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStartResult_GetStreamingResult
 // Il2CppName: ovr_LivestreamingStartResult_GetStreamingResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::LivestreamingStartStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStartResult_GetStreamingResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStartResult_GetStreamingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetCommentsVisible
 // Il2CppName: ovr_LivestreamingStatus_GetCommentsVisible
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetCommentsVisible)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStatus_GetCommentsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetIsPaused
 // Il2CppName: ovr_LivestreamingStatus_GetIsPaused
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetIsPaused)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStatus_GetIsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingEnabled
 // Il2CppName: ovr_LivestreamingStatus_GetLivestreamingEnabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingEnabled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStatus_GetLivestreamingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingType
 // Il2CppName: ovr_LivestreamingStatus_GetLivestreamingType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStatus_GetLivestreamingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetMicEnabled
 // Il2CppName: ovr_LivestreamingStatus_GetMicEnabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetMicEnabled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingStatus_GetMicEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetCommentCount
 // Il2CppName: ovr_LivestreamingVideoStats_GetCommentCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetCommentCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingVideoStats_GetCommentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetReactionCount
 // Il2CppName: ovr_LivestreamingVideoStats_GetReactionCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetReactionCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingVideoStats_GetReactionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews
 // Il2CppName: ovr_LivestreamingVideoStats_GetTotalViews
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingVideoStats_GetTotalViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews_Native
 // Il2CppName: ovr_LivestreamingVideoStats_GetTotalViews_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingVideoStats_GetTotalViews_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshot_GetCandidates
 // Il2CppName: ovr_MatchmakingAdminSnapshot_GetCandidates
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshot_GetCandidates)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshot_GetCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold
 // Il2CppName: ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetElement
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidateArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidateArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetSize
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidateArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidateArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingBrowseResult_GetEnqueueResult
 // Il2CppName: ovr_MatchmakingBrowseResult_GetEnqueueResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingBrowseResult_GetEnqueueResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingBrowseResult_GetEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingBrowseResult_GetRooms
 // Il2CppName: ovr_MatchmakingBrowseResult_GetRooms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingBrowseResult_GetRooms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingBrowseResult_GetRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash
 // Il2CppName: ovr_MatchmakingCandidate_GetEntryHash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidate_GetEntryHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash_Native
 // Il2CppName: ovr_MatchmakingCandidate_GetEntryHash_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidate_GetEntryHash_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetUserId
 // Il2CppName: ovr_MatchmakingCandidate_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidate_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetElement
 // Il2CppName: ovr_MatchmakingCandidateArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl
 // Il2CppName: ovr_MatchmakingCandidateArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl_Native
 // Il2CppName: ovr_MatchmakingCandidateArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetSize
 // Il2CppName: ovr_MatchmakingCandidateArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_HasNextPage
 // Il2CppName: ovr_MatchmakingCandidateArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetAdminSnapshot
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetAdminSnapshot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetAdminSnapshot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetAverageWait
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetAverageWait
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetAverageWait)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetAverageWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetMaxExpectedWait
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetMaxExpectedWait
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetMaxExpectedWait)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetMaxExpectedWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetPool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool_Native
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetPool_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetPool_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetRequestHash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetRequestHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash_Native
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetRequestHash_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetRequestHash_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult
 // Il2CppName: ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetRoom
 // Il2CppName: ovr_MatchmakingEnqueueResultAndRoom_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResultAndRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserID
 // Il2CppName: ovr_MatchmakingEnqueuedUser_GetAdditionalUserID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUser_GetAdditionalUserID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize
 // Il2CppName: ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetCustomData
 // Il2CppName: ovr_MatchmakingEnqueuedUser_GetCustomData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetCustomData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUser_GetCustomData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetUser
 // Il2CppName: ovr_MatchmakingEnqueuedUser_GetUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUser_GetUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUser_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUserArray_GetElement
 // Il2CppName: ovr_MatchmakingEnqueuedUserArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUserArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUserArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUserArray_GetSize
 // Il2CppName: ovr_MatchmakingEnqueuedUserArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueuedUserArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueuedUserArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetAddedByUserId
 // Il2CppName: ovr_MatchmakingNotification_GetAddedByUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetAddedByUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingNotification_GetAddedByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetRoom
 // Il2CppName: ovr_MatchmakingNotification_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingNotification_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId
 // Il2CppName: ovr_MatchmakingNotification_GetTraceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingNotification_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId_Native
 // Il2CppName: ovr_MatchmakingNotification_GetTraceId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingNotification_GetTraceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingRoom_GetPingTime
 // Il2CppName: ovr_MatchmakingRoom_GetPingTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingRoom_GetPingTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingRoom_GetPingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingRoom_GetRoom
 // Il2CppName: ovr_MatchmakingRoom_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingRoom_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingRoom_HasPingTime
 // Il2CppName: ovr_MatchmakingRoom_HasPingTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingRoom_HasPingTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingRoom_HasPingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingRoomArray_GetElement
 // Il2CppName: ovr_MatchmakingRoomArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingRoomArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingRoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingRoomArray_GetSize
 // Il2CppName: ovr_MatchmakingRoomArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingRoomArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingRoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetDrawCount
 // Il2CppName: ovr_MatchmakingStats_GetDrawCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetDrawCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetDrawCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetLossCount
 // Il2CppName: ovr_MatchmakingStats_GetLossCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetLossCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetLossCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillLevel
 // Il2CppName: ovr_MatchmakingStats_GetSkillLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetSkillLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillMean
 // Il2CppName: ovr_MatchmakingStats_GetSkillMean
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillMean)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetSkillMean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillStandardDeviation
 // Il2CppName: ovr_MatchmakingStats_GetSkillStandardDeviation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetSkillStandardDeviation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetSkillStandardDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingStats_GetWinCount
 // Il2CppName: ovr_MatchmakingStats_GetWinCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingStats_GetWinCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingStats_GetWinCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAbuseReportRecording
 // Il2CppName: ovr_Message_GetAbuseReportRecording
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAbuseReportRecording)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAbuseReportRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAchievementDefinitionArray
 // Il2CppName: ovr_Message_GetAchievementDefinitionArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAchievementDefinitionArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAchievementDefinitionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAchievementProgressArray
 // Il2CppName: ovr_Message_GetAchievementProgressArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAchievementProgressArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAchievementProgressArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAchievementUpdate
 // Il2CppName: ovr_Message_GetAchievementUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAchievementUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetApplicationVersion
 // Il2CppName: ovr_Message_GetApplicationVersion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetApplicationVersion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetApplicationVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetDetails
 // Il2CppName: ovr_Message_GetAssetDetails
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetDetails)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetDetailsArray
 // Il2CppName: ovr_Message_GetAssetDetailsArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetDetailsArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetDetailsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetFileDeleteResult
 // Il2CppName: ovr_Message_GetAssetFileDeleteResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetFileDeleteResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadCancelResult
 // Il2CppName: ovr_Message_GetAssetFileDownloadCancelResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadCancelResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetFileDownloadCancelResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadResult
 // Il2CppName: ovr_Message_GetAssetFileDownloadResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetFileDownloadResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadUpdate
 // Il2CppName: ovr_Message_GetAssetFileDownloadUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetAssetFileDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCalApplicationFinalized
 // Il2CppName: ovr_Message_GetCalApplicationFinalized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCalApplicationFinalized)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCalApplicationProposed
 // Il2CppName: ovr_Message_GetCalApplicationProposed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCalApplicationProposed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCalApplicationProposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCalApplicationSuggestionArray
 // Il2CppName: ovr_Message_GetCalApplicationSuggestionArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCalApplicationSuggestionArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCalApplicationSuggestionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetChallenge
 // Il2CppName: ovr_Message_GetChallenge
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetChallenge)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetChallenge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetChallengeArray
 // Il2CppName: ovr_Message_GetChallengeArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetChallengeArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetChallengeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetChallengeEntryArray
 // Il2CppName: ovr_Message_GetChallengeEntryArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetChallengeEntryArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetChallengeEntryArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCloudStorageConflictMetadata
 // Il2CppName: ovr_Message_GetCloudStorageConflictMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCloudStorageConflictMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCloudStorageData
 // Il2CppName: ovr_Message_GetCloudStorageData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCloudStorageData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCloudStorageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCloudStorageMetadata
 // Il2CppName: ovr_Message_GetCloudStorageMetadata
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCloudStorageMetadata)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCloudStorageMetadataArray
 // Il2CppName: ovr_Message_GetCloudStorageMetadataArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCloudStorageMetadataArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCloudStorageMetadataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetCloudStorageUpdateResponse
 // Il2CppName: ovr_Message_GetCloudStorageUpdateResponse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetCloudStorageUpdateResponse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetDataStore
 // Il2CppName: ovr_Message_GetDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetDestinationArray
 // Il2CppName: ovr_Message_GetDestinationArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetDestinationArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetDestinationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetError
 // Il2CppName: ovr_Message_GetError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetGroupPresenceLeaveIntent
 // Il2CppName: ovr_Message_GetGroupPresenceLeaveIntent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetGroupPresenceLeaveIntent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetGroupPresenceLeaveIntent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetHttpTransferUpdate
 // Il2CppName: ovr_Message_GetHttpTransferUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetHttpTransferUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetInstalledApplicationArray
 // Il2CppName: ovr_Message_GetInstalledApplicationArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetInstalledApplicationArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetInstalledApplicationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetInvitePanelResultInfo
 // Il2CppName: ovr_Message_GetInvitePanelResultInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetInvitePanelResultInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLaunchBlockFlowResult
 // Il2CppName: ovr_Message_GetLaunchBlockFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLaunchBlockFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLaunchBlockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLaunchFriendRequestFlowResult
 // Il2CppName: ovr_Message_GetLaunchFriendRequestFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLaunchFriendRequestFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLaunchFriendRequestFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLaunchInvitePanelFlowResult
 // Il2CppName: ovr_Message_GetLaunchInvitePanelFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLaunchInvitePanelFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLaunchReportFlowResult
 // Il2CppName: ovr_Message_GetLaunchReportFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLaunchReportFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLaunchReportFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLaunchUnblockFlowResult
 // Il2CppName: ovr_Message_GetLaunchUnblockFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLaunchUnblockFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLeaderboardArray
 // Il2CppName: ovr_Message_GetLeaderboardArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLeaderboardArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLeaderboardArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLeaderboardEntryArray
 // Il2CppName: ovr_Message_GetLeaderboardEntryArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLeaderboardEntryArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLeaderboardEntryArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLeaderboardUpdateStatus
 // Il2CppName: ovr_Message_GetLeaderboardUpdateStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLeaderboardUpdateStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLeaderboardUpdateStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLinkedAccountArray
 // Il2CppName: ovr_Message_GetLinkedAccountArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLinkedAccountArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLinkedAccountArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLivestreamingApplicationStatus
 // Il2CppName: ovr_Message_GetLivestreamingApplicationStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLivestreamingApplicationStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLivestreamingApplicationStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStartResult
 // Il2CppName: ovr_Message_GetLivestreamingStartResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStartResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLivestreamingStartResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStatus
 // Il2CppName: ovr_Message_GetLivestreamingStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLivestreamingStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetLivestreamingVideoStats
 // Il2CppName: ovr_Message_GetLivestreamingVideoStats
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetLivestreamingVideoStats)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetLivestreamingVideoStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingAdminSnapshot
 // Il2CppName: ovr_Message_GetMatchmakingAdminSnapshot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingAdminSnapshot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingBrowseResult
 // Il2CppName: ovr_Message_GetMatchmakingBrowseResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingBrowseResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingBrowseResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingEnqueueResult
 // Il2CppName: ovr_Message_GetMatchmakingEnqueueResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingEnqueueResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingEnqueueResultAndRoom
 // Il2CppName: ovr_Message_GetMatchmakingEnqueueResultAndRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingEnqueueResultAndRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingEnqueueResultAndRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingRoomArray
 // Il2CppName: ovr_Message_GetMatchmakingRoomArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingRoomArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetMatchmakingStats
 // Il2CppName: ovr_Message_GetMatchmakingStats
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetMatchmakingStats)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetMatchmakingStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNativeMessage
 // Il2CppName: ovr_Message_GetNativeMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNativeMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNativeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetSyncConnection
 // Il2CppName: ovr_Message_GetNetSyncConnection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetSyncConnection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetSyncConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionArray
 // Il2CppName: ovr_Message_GetNetSyncSessionArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetSyncSessionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionsChangedNotification
 // Il2CppName: ovr_Message_GetNetSyncSessionsChangedNotification
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionsChangedNotification)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetSyncSessionsChangedNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetSyncSetSessionPropertyResult
 // Il2CppName: ovr_Message_GetNetSyncSetSessionPropertyResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetSyncSetSessionPropertyResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetSyncSetSessionPropertyResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetSyncVoipAttenuationValueArray
 // Il2CppName: ovr_Message_GetNetSyncVoipAttenuationValueArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetSyncVoipAttenuationValueArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetSyncVoipAttenuationValueArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetNetworkingPeer
 // Il2CppName: ovr_Message_GetNetworkingPeer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetNetworkingPeer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetNetworkingPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetOrgScopedID
 // Il2CppName: ovr_Message_GetOrgScopedID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetOrgScopedID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetParty
 // Il2CppName: ovr_Message_GetParty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetParty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPartyID
 // Il2CppName: ovr_Message_GetPartyID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPartyID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPartyID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPartyUpdateNotification
 // Il2CppName: ovr_Message_GetPartyUpdateNotification
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPartyUpdateNotification)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPidArray
 // Il2CppName: ovr_Message_GetPidArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPidArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPidArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPingResult
 // Il2CppName: ovr_Message_GetPingResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPingResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPlatformInitialize
 // Il2CppName: ovr_Message_GetPlatformInitialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPlatformInitialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPlatformInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetProductArray
 // Il2CppName: ovr_Message_GetProductArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetProductArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetProductArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPurchase
 // Il2CppName: ovr_Message_GetPurchase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPurchase)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetPurchaseArray
 // Il2CppName: ovr_Message_GetPurchaseArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetPurchaseArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetPurchaseArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetRequestID
 // Il2CppName: ovr_Message_GetRequestID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetRequestID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetRequestID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetRoom
 // Il2CppName: ovr_Message_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetRoomArray
 // Il2CppName: ovr_Message_GetRoomArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetRoomArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetRoomInviteNotification
 // Il2CppName: ovr_Message_GetRoomInviteNotification
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetRoomInviteNotification)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetRoomInviteNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetRoomInviteNotificationArray
 // Il2CppName: ovr_Message_GetRoomInviteNotificationArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetRoomInviteNotificationArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetRoomInviteNotificationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetSdkAccountArray
 // Il2CppName: ovr_Message_GetSdkAccountArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetSdkAccountArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetSdkAccountArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetShareMediaResult
 // Il2CppName: ovr_Message_GetShareMediaResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetShareMediaResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetShareMediaResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetString
 // Il2CppName: ovr_Message_GetString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetString_Native
 // Il2CppName: ovr_Message_GetString_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetString_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetSystemPermission
 // Il2CppName: ovr_Message_GetSystemPermission
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetSystemPermission)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetSystemPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetSystemVoipState
 // Il2CppName: ovr_Message_GetSystemVoipState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetSystemVoipState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetType
 // Il2CppName: ovr_Message_GetType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::MessageType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUser
 // Il2CppName: ovr_Message_GetUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUserAndRoomArray
 // Il2CppName: ovr_Message_GetUserAndRoomArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUserAndRoomArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUserAndRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUserArray
 // Il2CppName: ovr_Message_GetUserArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUserArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUserArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUserDataStoreUpdateResponse
 // Il2CppName: ovr_Message_GetUserDataStoreUpdateResponse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUserDataStoreUpdateResponse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUserDataStoreUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUserProof
 // Il2CppName: ovr_Message_GetUserProof
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUserProof)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetUserReportID
 // Il2CppName: ovr_Message_GetUserReportID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetUserReportID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_IsError
 // Il2CppName: ovr_Message_IsError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_IsError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_IsError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_GetNumSamplesAvailable
 // Il2CppName: ovr_Microphone_GetNumSamplesAvailable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetNumSamplesAvailable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetNumSamplesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_GetOutputBufferMaxSize
 // Il2CppName: ovr_Microphone_GetOutputBufferMaxSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetOutputBufferMaxSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetOutputBufferMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_GetPCM
 // Il2CppName: ovr_Microphone_GetPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<int16_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_GetPCMFloat
 // Il2CppName: ovr_Microphone_GetPCMFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetPCMFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_ReadData
 // Il2CppName: ovr_Microphone_ReadData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_ReadData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_ReadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_SetAcceptableRecordingDelayHint
 // Il2CppName: ovr_Microphone_SetAcceptableRecordingDelayHint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_SetAcceptableRecordingDelayHint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_SetAcceptableRecordingDelayHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_Start
 // Il2CppName: ovr_Microphone_Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Microphone_Stop
 // Il2CppName: ovr_Microphone_Stop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_Stop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetConnectionId
 // Il2CppName: ovr_NetSyncConnection_GetConnectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetConnectionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetDisconnectReason
 // Il2CppName: ovr_NetSyncConnection_GetDisconnectReason
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::NetSyncDisconnectReason (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetDisconnectReason)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetDisconnectReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetSessionId
 // Il2CppName: ovr_NetSyncConnection_GetSessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetSessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetStatus
 // Il2CppName: ovr_NetSyncConnection_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::NetSyncConnectionStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId
 // Il2CppName: ovr_NetSyncConnection_GetZoneId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId_Native
 // Il2CppName: ovr_NetSyncConnection_GetZoneId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetZoneId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetConnectionId
 // Il2CppName: ovr_NetSyncSession_GetConnectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetConnectionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetMuted
 // Il2CppName: ovr_NetSyncSession_GetMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetSessionId
 // Il2CppName: ovr_NetSyncSession_GetSessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetSessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetUserId
 // Il2CppName: ovr_NetSyncSession_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup
 // Il2CppName: ovr_NetSyncSession_GetVoipGroup
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup_Native
 // Il2CppName: ovr_NetSyncSession_GetVoipGroup_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetElement
 // Il2CppName: ovr_NetSyncSessionArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSessionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetSize
 // Il2CppName: ovr_NetSyncSessionArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSessionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetConnectionId
 // Il2CppName: ovr_NetSyncSessionsChangedNotification_GetConnectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetConnectionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSessionsChangedNotification_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetSessions
 // Il2CppName: ovr_NetSyncSessionsChangedNotification_GetSessions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetSessions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSessionsChangedNotification_GetSessions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSetSessionPropertyResult_GetSession
 // Il2CppName: ovr_NetSyncSetSessionPropertyResult_GetSession
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSetSessionPropertyResult_GetSession)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSetSessionPropertyResult_GetSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDecibels
 // Il2CppName: ovr_NetSyncVoipAttenuationValue_GetDecibels
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDecibels)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncVoipAttenuationValue_GetDecibels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDistance
 // Il2CppName: ovr_NetSyncVoipAttenuationValue_GetDistance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDistance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncVoipAttenuationValue_GetDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetElement
 // Il2CppName: ovr_NetSyncVoipAttenuationValueArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncVoipAttenuationValueArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetSize
 // Il2CppName: ovr_NetSyncVoipAttenuationValueArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncVoipAttenuationValueArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetworkingPeer_GetID
 // Il2CppName: ovr_NetworkingPeer_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetworkingPeer_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetworkingPeer_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetworkingPeer_GetState
 // Il2CppName: ovr_NetworkingPeer_GetState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PeerConnectionState (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetworkingPeer_GetState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetworkingPeer_GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_OrgScopedID_GetID
 // Il2CppName: ovr_OrgScopedID_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_OrgScopedID_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_OrgScopedID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Packet_Free
 // Il2CppName: ovr_Packet_Free
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Packet_Free)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Packet_Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Packet_GetBytes
 // Il2CppName: ovr_Packet_GetBytes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Packet_GetBytes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Packet_GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Packet_GetSendPolicy
 // Il2CppName: ovr_Packet_GetSendPolicy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SendPolicy (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Packet_GetSendPolicy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Packet_GetSendPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Packet_GetSenderID
 // Il2CppName: ovr_Packet_GetSenderID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Packet_GetSenderID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Packet_GetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Packet_GetSize
 // Il2CppName: ovr_Packet_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Packet_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Packet_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetID
 // Il2CppName: ovr_Party_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Party_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetInvitedUsers
 // Il2CppName: ovr_Party_GetInvitedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Party_GetInvitedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetLeader
 // Il2CppName: ovr_Party_GetLeader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Party_GetLeader)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetLeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetRoom
 // Il2CppName: ovr_Party_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Party_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Party_GetUsers
 // Il2CppName: ovr_Party_GetUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Party_GetUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Party_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyID_GetID
 // Il2CppName: ovr_PartyID_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyID_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetAction
 // Il2CppName: ovr_PartyUpdateNotification_GetAction
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PartyUpdateAction (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetAction)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetPartyId
 // Il2CppName: ovr_PartyUpdateNotification_GetPartyId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetPartyId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetPartyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetSenderId
 // Il2CppName: ovr_PartyUpdateNotification_GetSenderId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetSenderId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetSenderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp
 // Il2CppName: ovr_PartyUpdateNotification_GetUpdateTimestamp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUpdateTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp_Native
 // Il2CppName: ovr_PartyUpdateNotification_GetUpdateTimestamp_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUpdateTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias
 // Il2CppName: ovr_PartyUpdateNotification_GetUserAlias
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias_Native
 // Il2CppName: ovr_PartyUpdateNotification_GetUserAlias_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserAlias_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserId
 // Il2CppName: ovr_PartyUpdateNotification_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName
 // Il2CppName: ovr_PartyUpdateNotification_GetUserName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName_Native
 // Il2CppName: ovr_PartyUpdateNotification_GetUserName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Pid_GetId
 // Il2CppName: ovr_Pid_GetId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Pid_GetId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Pid_GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Pid_GetId_Native
 // Il2CppName: ovr_Pid_GetId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Pid_GetId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Pid_GetId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PidArray_GetElement
 // Il2CppName: ovr_PidArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_PidArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PidArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PidArray_GetSize
 // Il2CppName: ovr_PidArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PidArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PidArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PingResult_GetID
 // Il2CppName: ovr_PingResult_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PingResult_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PingResult_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PingResult_GetPingTimeUsec
 // Il2CppName: ovr_PingResult_GetPingTimeUsec
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PingResult_GetPingTimeUsec)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PingResult_GetPingTimeUsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PingResult_IsTimeout
 // Il2CppName: ovr_PingResult_IsTimeout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PingResult_IsTimeout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PingResult_IsTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PlatformInitialize_GetResult
 // Il2CppName: ovr_PlatformInitialize_GetResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PlatformInitializeResult (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PlatformInitialize_GetResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PlatformInitialize_GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetAmountInHundredths
 // Il2CppName: ovr_Price_GetAmountInHundredths
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetAmountInHundredths)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetAmountInHundredths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetCurrency
 // Il2CppName: ovr_Price_GetCurrency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetCurrency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetCurrency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetCurrency_Native
 // Il2CppName: ovr_Price_GetCurrency_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetCurrency_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetCurrency_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetFormatted
 // Il2CppName: ovr_Price_GetFormatted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetFormatted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetFormatted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetFormatted_Native
 // Il2CppName: ovr_Price_GetFormatted_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetFormatted_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetFormatted_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetDescription
 // Il2CppName: ovr_Product_GetDescription
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetDescription)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetDescription_Native
 // Il2CppName: ovr_Product_GetDescription_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetDescription_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice
 // Il2CppName: ovr_Product_GetFormattedPrice
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetFormattedPrice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice_Native
 // Il2CppName: ovr_Product_GetFormattedPrice_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetFormattedPrice_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetName
 // Il2CppName: ovr_Product_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetName_Native
 // Il2CppName: ovr_Product_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetSKU
 // Il2CppName: ovr_Product_GetSKU
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetSKU)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetSKU_Native
 // Il2CppName: ovr_Product_GetSKU_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetSKU_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetSKU_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_GetElement
 // Il2CppName: ovr_ProductArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl
 // Il2CppName: ovr_ProductArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl_Native
 // Il2CppName: ovr_ProductArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_GetSize
 // Il2CppName: ovr_ProductArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_HasNextPage
 // Il2CppName: ovr_ProductArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime
 // Il2CppName: ovr_Purchase_GetExpirationTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetExpirationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime_Native
 // Il2CppName: ovr_Purchase_GetExpirationTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetExpirationTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime
 // Il2CppName: ovr_Purchase_GetGrantTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetGrantTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime_Native
 // Il2CppName: ovr_Purchase_GetGrantTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetGrantTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseID
 // Il2CppName: ovr_Purchase_GetPurchaseID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetPurchaseID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID
 // Il2CppName: ovr_Purchase_GetPurchaseStrID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetPurchaseStrID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID_Native
 // Il2CppName: ovr_Purchase_GetPurchaseStrID_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetPurchaseStrID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetSKU
 // Il2CppName: ovr_Purchase_GetSKU
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetSKU)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetSKU_Native
 // Il2CppName: ovr_Purchase_GetSKU_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetSKU_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetSKU_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_GetElement
 // Il2CppName: ovr_PurchaseArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl
 // Il2CppName: ovr_PurchaseArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl_Native
 // Il2CppName: ovr_PurchaseArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_GetSize
 // Il2CppName: ovr_PurchaseArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_HasNextPage
 // Il2CppName: ovr_PurchaseArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetApplicationID
 // Il2CppName: ovr_Room_GetApplicationID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetApplicationID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetApplicationID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetDataStore
 // Il2CppName: ovr_Room_GetDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetDescription
 // Il2CppName: ovr_Room_GetDescription
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetDescription)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetDescription_Native
 // Il2CppName: ovr_Room_GetDescription_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetDescription_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetID
 // Il2CppName: ovr_Room_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetInvitedUsers
 // Il2CppName: ovr_Room_GetInvitedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetInvitedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetIsMembershipLocked
 // Il2CppName: ovr_Room_GetIsMembershipLocked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetIsMembershipLocked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetIsMembershipLocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetJoinPolicy
 // Il2CppName: ovr_Room_GetJoinPolicy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomJoinPolicy (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetJoinPolicy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetJoinability
 // Il2CppName: ovr_Room_GetJoinability
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomJoinability (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetJoinability)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetJoinability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetMatchedUsers
 // Il2CppName: ovr_Room_GetMatchedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetMatchedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetMatchedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetMaxUsers
 // Il2CppName: ovr_Room_GetMaxUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetMaxUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetName
 // Il2CppName: ovr_Room_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetName_Native
 // Il2CppName: ovr_Room_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetOwner
 // Il2CppName: ovr_Room_GetOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetOwner)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetTeams
 // Il2CppName: ovr_Room_GetTeams
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetTeams)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetTeams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetType
 // Il2CppName: ovr_Room_GetType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetUsers
 // Il2CppName: ovr_Room_GetUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetVersion
 // Il2CppName: ovr_Room_GetVersion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetVersion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_GetElement
 // Il2CppName: ovr_RoomArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl
 // Il2CppName: ovr_RoomArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl_Native
 // Il2CppName: ovr_RoomArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_GetSize
 // Il2CppName: ovr_RoomArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_HasNextPage
 // Il2CppName: ovr_RoomArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetID
 // Il2CppName: ovr_RoomInviteNotification_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotification_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetRoomID
 // Il2CppName: ovr_RoomInviteNotification_GetRoomID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetRoomID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotification_GetRoomID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSenderID
 // Il2CppName: ovr_RoomInviteNotification_GetSenderID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSenderID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotification_GetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSentTime
 // Il2CppName: ovr_RoomInviteNotification_GetSentTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSentTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotification_GetSentTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSentTime_Native
 // Il2CppName: ovr_RoomInviteNotification_GetSentTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotification_GetSentTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotification_GetSentTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetElement
 // Il2CppName: ovr_RoomInviteNotificationArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl
 // Il2CppName: ovr_RoomInviteNotificationArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl_Native
 // Il2CppName: ovr_RoomInviteNotificationArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetSize
 // Il2CppName: ovr_RoomInviteNotificationArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_HasNextPage
 // Il2CppName: ovr_RoomInviteNotificationArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SdkAccount_GetAccountType
 // Il2CppName: ovr_SdkAccount_GetAccountType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SdkAccountType (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SdkAccount_GetAccountType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SdkAccount_GetAccountType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SdkAccount_GetUserId
 // Il2CppName: ovr_SdkAccount_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SdkAccount_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SdkAccount_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SdkAccountArray_GetElement
 // Il2CppName: ovr_SdkAccountArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_SdkAccountArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SdkAccountArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SdkAccountArray_GetSize
 // Il2CppName: ovr_SdkAccountArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SdkAccountArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SdkAccountArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ShareMediaResult_GetStatus
 // Il2CppName: ovr_ShareMediaResult_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ShareMediaStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ShareMediaResult_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ShareMediaResult_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetID
 // Il2CppName: ovr_SupplementaryMetric_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SupplementaryMetric_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetMetric
 // Il2CppName: ovr_SupplementaryMetric_GetMetric
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetMetric)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SupplementaryMetric_GetMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemPermission_GetHasPermission
 // Il2CppName: ovr_SystemPermission_GetHasPermission
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SystemPermission_GetHasPermission)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemPermission_GetHasPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemPermission_GetPermissionGrantStatus
 // Il2CppName: ovr_SystemPermission_GetPermissionGrantStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PermissionGrantStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SystemPermission_GetPermissionGrantStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemPermission_GetPermissionGrantStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemVoipState_GetMicrophoneMuted
 // Il2CppName: ovr_SystemVoipState_GetMicrophoneMuted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SystemVoipState_GetMicrophoneMuted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemVoipState_GetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SystemVoipState_GetStatus
 // Il2CppName: ovr_SystemVoipState_GetStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_SystemVoipState_GetStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SystemVoipState_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetAssignedUsers
 // Il2CppName: ovr_Team_GetAssignedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetAssignedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetAssignedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetMaxUsers
 // Il2CppName: ovr_Team_GetMaxUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetMaxUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetMinUsers
 // Il2CppName: ovr_Team_GetMinUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetMinUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetMinUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetName
 // Il2CppName: ovr_Team_GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetName_Native
 // Il2CppName: ovr_Team_GetName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TeamArray_GetElement
 // Il2CppName: ovr_TeamArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_TeamArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TeamArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TeamArray_GetSize
 // Il2CppName: ovr_TeamArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TeamArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TeamArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken
 // Il2CppName: ovr_TestUser_GetAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken_Native
 // Il2CppName: ovr_TestUser_GetAccessToken_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetAppAccessArray
 // Il2CppName: ovr_TestUser_GetAppAccessArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetAppAccessArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetFbAppAccessArray
 // Il2CppName: ovr_TestUser_GetFbAppAccessArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFbAppAccessArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetFbAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken
 // Il2CppName: ovr_TestUser_GetFriendAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetFriendAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken_Native
 // Il2CppName: ovr_TestUser_GetFriendAccessToken_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetFriendAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetFriendAppAccessArray
 // Il2CppName: ovr_TestUser_GetFriendAppAccessArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFriendAppAccessArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetFriendAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias
 // Il2CppName: ovr_TestUser_GetUserAlias
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias_Native
 // Il2CppName: ovr_TestUser_GetUserAlias_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetUserAlias_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetUserFbid
 // Il2CppName: ovr_TestUser_GetUserFbid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserFbid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetUserFbid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetUserId
 // Il2CppName: ovr_TestUser_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken
 // Il2CppName: ovr_TestUserAppAccess_GetAccessToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccess_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken_Native
 // Il2CppName: ovr_TestUserAppAccess_GetAccessToken_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccess_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAppId
 // Il2CppName: ovr_TestUserAppAccess_GetAppId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAppId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccess_GetAppId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetUserId
 // Il2CppName: ovr_TestUserAppAccess_GetUserId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetUserId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccess_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetElement
 // Il2CppName: ovr_TestUserAppAccessArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccessArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetSize
 // Il2CppName: ovr_TestUserAppAccessArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccessArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetDisplayName
 // Il2CppName: ovr_User_GetDisplayName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetDisplayName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetDisplayName_Native
 // Il2CppName: ovr_User_GetDisplayName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetDisplayName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetDisplayName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetID
 // Il2CppName: ovr_User_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetImageUrl
 // Il2CppName: ovr_User_GetImageUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetImageUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetImageUrl_Native
 // Il2CppName: ovr_User_GetImageUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetImageUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetImageUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetInviteToken
 // Il2CppName: ovr_User_GetInviteToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetInviteToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetInviteToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetInviteToken_Native
 // Il2CppName: ovr_User_GetInviteToken_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetInviteToken_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetInviteToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetOculusID
 // Il2CppName: ovr_User_GetOculusID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetOculusID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetOculusID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetOculusID_Native
 // Il2CppName: ovr_User_GetOculusID_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetOculusID_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetOculusID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresence
 // Il2CppName: ovr_User_GetPresence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresence_Native
 // Il2CppName: ovr_User_GetPresence_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresence_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresence_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage
 // Il2CppName: ovr_User_GetPresenceDeeplinkMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage_Native
 // Il2CppName: ovr_User_GetPresenceDeeplinkMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName
 // Il2CppName: ovr_User_GetPresenceDestinationApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName_Native
 // Il2CppName: ovr_User_GetPresenceDestinationApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceStatus
 // Il2CppName: ovr_User_GetPresenceStatus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::UserPresenceStatus (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceStatus)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl
 // Il2CppName: ovr_User_GetSmallImageUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetSmallImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl_Native
 // Il2CppName: ovr_User_GetSmallImageUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetSmallImageUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoom_GetRoom
 // Il2CppName: ovr_UserAndRoom_GetRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoom_GetRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoom_GetUser
 // Il2CppName: ovr_UserAndRoom_GetUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoom_GetUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoom_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetElement
 // Il2CppName: ovr_UserAndRoomArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl
 // Il2CppName: ovr_UserAndRoomArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl_Native
 // Il2CppName: ovr_UserAndRoomArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetSize
 // Il2CppName: ovr_UserAndRoomArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_HasNextPage
 // Il2CppName: ovr_UserAndRoomArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_GetElement
 // Il2CppName: ovr_UserArray_GetElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl
 // Il2CppName: ovr_UserArray_GetNextUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl_Native
 // Il2CppName: ovr_UserArray_GetNextUrl_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_GetSize
 // Il2CppName: ovr_UserArray_GetSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_HasNextPage
 // Il2CppName: ovr_UserArray_HasNextPage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_HasNextPage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStoreUpdateResponse_GetSuccess
 // Il2CppName: ovr_UserDataStoreUpdateResponse_GetSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserDataStoreUpdateResponse_GetSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserDataStoreUpdateResponse_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserProof_GetNonce
 // Il2CppName: ovr_UserProof_GetNonce
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserProof_GetNonce)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserProof_GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserProof_GetNonce_Native
 // Il2CppName: ovr_UserProof_GetNonce_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserProof_GetNonce_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserProof_GetNonce_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserReportID_GetDidCancel
 // Il2CppName: ovr_UserReportID_GetDidCancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserReportID_GetDidCancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserReportID_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserReportID_GetID
 // Il2CppName: ovr_UserReportID_GetID
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserReportID_GetID)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserReportID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipDecoder_Decode
 // Il2CppName: ovr_VoipDecoder_Decode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipDecoder_GetDecodedPCM
 // Il2CppName: ovr_VoipDecoder_GetDecodedPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_GetDecodedPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_GetDecodedPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipEncoder_AddPCM
 // Il2CppName: ovr_VoipEncoder_AddPCM
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<float>*, uint)>(&Oculus::Platform::CAPI::ovr_VoipEncoder_AddPCM)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipEncoder_AddPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedData
 // Il2CppName: ovr_VoipEncoder_GetCompressedData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<uint8_t>*, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipEncoder_GetCompressedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedDataSize
 // Il2CppName: ovr_VoipEncoder_GetCompressedDataSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedDataSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipEncoder_GetCompressedDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportOptions_Create
 // Il2CppName: ovr_AbuseReportOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_AbuseReportOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportOptions_Destroy
 // Il2CppName: ovr_AbuseReportOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReportOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetPreventPeopleChooser
 // Il2CppName: ovr_AbuseReportOptions_SetPreventPeopleChooser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetPreventPeopleChooser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportOptions_SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetReportType
 // Il2CppName: ovr_AbuseReportOptions_SetReportType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportType)>(&Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetReportType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportOptions_SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Create
 // Il2CppName: ovr_AdvancedAbuseReportOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Destroy
 // Il2CppName: ovr_AdvancedAbuseReportOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType
 // Il2CppName: ovr_AdvancedAbuseReportOptions_SetObjectType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType_Native
 // Il2CppName: ovr_AdvancedAbuseReportOptions_SetObjectType_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_SetObjectType_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetReportType
 // Il2CppName: ovr_AdvancedAbuseReportOptions_SetReportType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportType)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetReportType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetVideoMode
 // Il2CppName: ovr_AdvancedAbuseReportOptions_SetVideoMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportVideoMode)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetVideoMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AdvancedAbuseReportOptions_SetVideoMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportVideoMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationOptions_Create
 // Il2CppName: ovr_ApplicationOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationOptions_Destroy
 // Il2CppName: ovr_ApplicationOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage
 // Il2CppName: ovr_ApplicationOptions_SetDeeplinkMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationOptions_SetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage_Native
 // Il2CppName: ovr_ApplicationOptions_SetDeeplinkMessage_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationOptions_SetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_Create
 // Il2CppName: ovr_ChallengeOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_Destroy
 // Il2CppName: ovr_ChallengeOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription
 // Il2CppName: ovr_ChallengeOptions_SetDescription
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription_Native
 // Il2CppName: ovr_ChallengeOptions_SetDescription_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate
 // Il2CppName: ovr_ChallengeOptions_SetEndDate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate_Native
 // Il2CppName: ovr_ChallengeOptions_SetEndDate_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetEndDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeActiveChallenges
 // Il2CppName: ovr_ChallengeOptions_SetIncludeActiveChallenges
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeActiveChallenges)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetIncludeActiveChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeFutureChallenges
 // Il2CppName: ovr_ChallengeOptions_SetIncludeFutureChallenges
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeFutureChallenges)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetIncludeFutureChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludePastChallenges
 // Il2CppName: ovr_ChallengeOptions_SetIncludePastChallenges
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludePastChallenges)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetIncludePastChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName
 // Il2CppName: ovr_ChallengeOptions_SetLeaderboardName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetLeaderboardName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName_Native
 // Il2CppName: ovr_ChallengeOptions_SetLeaderboardName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetLeaderboardName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate
 // Il2CppName: ovr_ChallengeOptions_SetStartDate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate_Native
 // Il2CppName: ovr_ChallengeOptions_SetStartDate_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetStartDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle
 // Il2CppName: ovr_ChallengeOptions_SetTitle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle_Native
 // Il2CppName: ovr_ChallengeOptions_SetTitle_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetTitle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetViewerFilter
 // Il2CppName: ovr_ChallengeOptions_SetViewerFilter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ChallengeViewerFilter)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetViewerFilter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetViewerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeViewerFilter>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetVisibility
 // Il2CppName: ovr_ChallengeOptions_SetVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ChallengeVisibility)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeOptions_SetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeVisibility>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InviteOptions_Create
 // Il2CppName: ovr_InviteOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_InviteOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InviteOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InviteOptions_Destroy
 // Il2CppName: ovr_InviteOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InviteOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InviteOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InviteOptions_AddSuggestedUser
 // Il2CppName: ovr_InviteOptions_AddSuggestedUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_InviteOptions_AddSuggestedUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InviteOptions_AddSuggestedUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InviteOptions_ClearSuggestedUsers
 // Il2CppName: ovr_InviteOptions_ClearSuggestedUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InviteOptions_ClearSuggestedUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InviteOptions_ClearSuggestedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_Create
 // Il2CppName: ovr_MatchmakingOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_Destroy
 // Il2CppName: ovr_MatchmakingOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString
 // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomDataStoreString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetCreateRoomDataStoreString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native
 // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearCreateRoomDataStore
 // Il2CppName: ovr_MatchmakingOptions_ClearCreateRoomDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearCreateRoomDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_ClearCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomJoinPolicy
 // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomJoinPolicy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::RoomJoinPolicy)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomJoinPolicy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetCreateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomMaxUsers
 // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomMaxUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomMaxUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetCreateRoomMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_AddEnqueueAdditionalUser
 // Il2CppName: ovr_MatchmakingOptions_AddEnqueueAdditionalUser
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_AddEnqueueAdditionalUser)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_AddEnqueueAdditionalUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers
 // Il2CppName: ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, int)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, double)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, double)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearEnqueueDataSettings
 // Il2CppName: ovr_MatchmakingOptions_ClearEnqueueDataSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_ClearEnqueueDataSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_ClearEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueIsDebug
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueIsDebug
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueIsDebug)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueIsDebug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueQueryKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey_Native
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueQueryKey_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingOptions_SetEnqueueQueryKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_Create
 // Il2CppName: ovr_NetSyncOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_Destroy
 // Il2CppName: ovr_NetSyncOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup
 // Il2CppName: ovr_NetSyncOptions_SetVoipGroup
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_SetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup_Native
 // Il2CppName: ovr_NetSyncOptions_SetVoipGroup_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_SetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipStreamDefault
 // Il2CppName: ovr_NetSyncOptions_SetVoipStreamDefault
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::NetSyncVoipStreamMode)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipStreamDefault)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_SetVoipStreamDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipStreamMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId
 // Il2CppName: ovr_NetSyncOptions_SetZoneId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_SetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId_Native
 // Il2CppName: ovr_NetSyncOptions_SetZoneId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncOptions_SetZoneId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_Create
 // Il2CppName: ovr_RichPresenceOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_Destroy
 // Il2CppName: ovr_RichPresenceOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName
 // Il2CppName: ovr_RichPresenceOptions_SetApiName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName_Native
 // Il2CppName: ovr_RichPresenceOptions_SetApiName_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString
 // Il2CppName: ovr_RichPresenceOptions_SetArgsString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetArgsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString_Native
 // Il2CppName: ovr_RichPresenceOptions_SetArgsString_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetArgsString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_ClearArgs
 // Il2CppName: ovr_RichPresenceOptions_ClearArgs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_ClearArgs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_ClearArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetCurrentCapacity
 // Il2CppName: ovr_RichPresenceOptions_SetCurrentCapacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetCurrentCapacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetCurrentCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride
 // Il2CppName: ovr_RichPresenceOptions_SetDeeplinkMessageOverride
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetDeeplinkMessageOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native
 // Il2CppName: ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetEndTime
 // Il2CppName: ovr_RichPresenceOptions_SetEndTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetEndTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetEndTime_Native
 // Il2CppName: ovr_RichPresenceOptions_SetEndTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetEndTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetEndTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetExtraContext
 // Il2CppName: ovr_RichPresenceOptions_SetExtraContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::RichPresenceExtraContext)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetExtraContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetExtraContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceExtraContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId
 // Il2CppName: ovr_RichPresenceOptions_SetInstanceId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetInstanceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId_Native
 // Il2CppName: ovr_RichPresenceOptions_SetInstanceId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetInstanceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetIsIdle
 // Il2CppName: ovr_RichPresenceOptions_SetIsIdle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetIsIdle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetIsIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetIsJoinable
 // Il2CppName: ovr_RichPresenceOptions_SetIsJoinable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetIsJoinable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId
 // Il2CppName: ovr_RichPresenceOptions_SetJoinableId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetJoinableId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId_Native
 // Il2CppName: ovr_RichPresenceOptions_SetJoinableId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetJoinableId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId
 // Il2CppName: ovr_RichPresenceOptions_SetLobbySessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId_Native
 // Il2CppName: ovr_RichPresenceOptions_SetLobbySessionId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetLobbySessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId
 // Il2CppName: ovr_RichPresenceOptions_SetMatchSessionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId_Native
 // Il2CppName: ovr_RichPresenceOptions_SetMatchSessionId_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetMatchSessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMaxCapacity
 // Il2CppName: ovr_RichPresenceOptions_SetMaxCapacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMaxCapacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetMaxCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetStartTime
 // Il2CppName: ovr_RichPresenceOptions_SetStartTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetStartTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetStartTime_Native
 // Il2CppName: ovr_RichPresenceOptions_SetStartTime_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetStartTime_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresenceOptions_SetStartTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_Create
 // Il2CppName: ovr_RoomOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_RoomOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_Destroy
 // Il2CppName: ovr_RoomOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString
 // Il2CppName: ovr_RoomOptions_SetDataStoreString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetDataStoreString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString_Native
 // Il2CppName: ovr_RoomOptions_SetDataStoreString_Native
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString_Native)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetDataStoreString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_ClearDataStore
 // Il2CppName: ovr_RoomOptions_ClearDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomOptions_ClearDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetExcludeRecentlyMet
 // Il2CppName: ovr_RoomOptions_SetExcludeRecentlyMet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetExcludeRecentlyMet)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetMaxUserResults
 // Il2CppName: ovr_RoomOptions_SetMaxUserResults
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetMaxUserResults)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetOrdering
 // Il2CppName: ovr_RoomOptions_SetOrdering
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::UserOrdering)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetOrdering)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetRecentlyMetTimeWindow
 // Il2CppName: ovr_RoomOptions_SetRecentlyMetTimeWindow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::TimeWindow)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetRecentlyMetTimeWindow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetRoomId
 // Il2CppName: ovr_RoomOptions_SetRoomId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetRoomId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetTurnOffUpdates
 // Il2CppName: ovr_RoomOptions_SetTurnOffUpdates
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetTurnOffUpdates)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomOptions_SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_Create
 // Il2CppName: ovr_UserOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_UserOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_Destroy
 // Il2CppName: ovr_UserOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_SetMaxUsers
 // Il2CppName: ovr_UserOptions_SetMaxUsers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&Oculus::Platform::CAPI::ovr_UserOptions_SetMaxUsers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_SetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_AddServiceProvider
 // Il2CppName: ovr_UserOptions_AddServiceProvider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ServiceProvider)>(&Oculus::Platform::CAPI::ovr_UserOptions_AddServiceProvider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_AddServiceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ServiceProvider>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_ClearServiceProviders
 // Il2CppName: ovr_UserOptions_ClearServiceProviders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserOptions_ClearServiceProviders)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_ClearServiceProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserOptions_SetTimeWindow
 // Il2CppName: ovr_UserOptions_SetTimeWindow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::TimeWindow)>(&Oculus::Platform::CAPI::ovr_UserOptions_SetTimeWindow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserOptions_SetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipOptions_Create
 // Il2CppName: ovr_VoipOptions_Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::CAPI::ovr_VoipOptions_Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipOptions_Destroy
 // Il2CppName: ovr_VoipOptions_Destroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_VoipOptions_Destroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipOptions_SetBitrateForNewConnections
 // Il2CppName: ovr_VoipOptions_SetBitrateForNewConnections
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::VoipBitrate)>(&Oculus::Platform::CAPI::ovr_VoipOptions_SetBitrateForNewConnections)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipOptions_SetBitrateForNewConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipBitrate>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_VoipOptions_SetCreateNewConnectionUseDtx
 // Il2CppName: ovr_VoipOptions_SetCreateNewConnectionUseDtx
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::VoipDtxState)>(&Oculus::Platform::CAPI::ovr_VoipOptions_SetCreateNewConnectionUseDtx)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipOptions_SetCreateNewConnectionUseDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipDtxState>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::CAPI::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::*)()>(&Oculus::Platform::CAPI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::*)()>(&Oculus::Platform::CAPI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

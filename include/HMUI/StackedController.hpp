@@ -82,63 +82,23 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController*, "HMUI", "StackedController");
 // Writing MetadataGetter for method: HMUI::StackedController::get_topStackedViewController
 // Il2CppName: get_topStackedViewController
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HMUI::StackedController::*)()>(&HMUI::StackedController::get_topStackedViewController)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "get_topStackedViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::PushViewController
 // Il2CppName: PushViewController
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(HMUI::ViewController*, System::Action*, bool)>(&HMUI::StackedController::PushViewController)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "PushViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::PopViewController
 // Il2CppName: PopViewController
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(System::Action*, bool)>(&HMUI::StackedController::PopViewController)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "PopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::PopViewControllers
 // Il2CppName: PopViewControllers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(int, System::Action*, bool)>(&HMUI::StackedController::PopViewControllers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "PopViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::SetupViewControllerRect
 // Il2CppName: SetupViewControllerRect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HMUI::ViewController*, int)>(&HMUI::StackedController::SetupViewControllerRect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "SetupViewControllerRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::LayoutViewControllers
 // Il2CppName: LayoutViewControllers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&HMUI::StackedController::LayoutViewControllers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::StackedController::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)()>(&HMUI::StackedController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)()>(&HMUI::StackedController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -90,89 +90,29 @@ namespace JetBrains::Annotations {
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::get_UseKindFlags
 // Il2CppName: get_UseKindFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::ImplicitUseKindFlags (JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(&JetBrains::Annotations::MeansImplicitUseAttribute::get_UseKindFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), "get_UseKindFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::set_UseKindFlags
 // Il2CppName: set_UseKindFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::set_UseKindFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), "set_UseKindFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::get_TargetFlags
 // Il2CppName: get_TargetFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::ImplicitUseTargetFlags (JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(&JetBrains::Annotations::MeansImplicitUseAttribute::get_TargetFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), "get_TargetFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::set_TargetFlags
 // Il2CppName: set_TargetFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)(JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::MeansImplicitUseAttribute::set_TargetFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), "set_TargetFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(&JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MeansImplicitUseAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

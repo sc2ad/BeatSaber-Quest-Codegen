@@ -78,53 +78,18 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMotion.FinalIK", "IKSolverLookAt/LookAtBone");
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::Initiate
 // Il2CppName: Initiate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::Initiate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::LookAt
 // Il2CppName: LookAt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::LookAt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::get_forward
 // Il2CppName: get_forward
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)()>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::get_forward)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "get_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)()>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)()>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

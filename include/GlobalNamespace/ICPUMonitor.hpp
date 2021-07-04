@@ -26,17 +26,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICPUMonitor*, "", "ICPUMonitor");
 // Writing MetadataGetter for method: GlobalNamespace::ICPUMonitor::get_utilization
 // Il2CppName: get_utilization
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ICPUMonitor::*)()>(&GlobalNamespace::ICPUMonitor::get_utilization)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ICPUMonitor::PollUpdate
 // Il2CppName: PollUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICPUMonitor::*)()>(&GlobalNamespace::ICPUMonitor::PollUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

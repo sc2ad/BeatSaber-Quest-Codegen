@@ -71,55 +71,20 @@ namespace OVR::OpenVR {
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRIOBuffer::*)(System::IntPtr)>(&OVR::OpenVR::CVRIOBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRIOBuffer::*)(System::IntPtr)>(&OVR::OpenVR::CVRIOBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Open
 // Il2CppName: Open
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, uint64_t&)>(&OVR::OpenVR::CVRIOBuffer::Open)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EIOBufferMode>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Close
 // Il2CppName: Close
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&OVR::OpenVR::CVRIOBuffer::Close)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Read
 // Il2CppName: Read
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint, uint&)>(&OVR::OpenVR::CVRIOBuffer::Read)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Write
 // Il2CppName: Write
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint)>(&OVR::OpenVR::CVRIOBuffer::Write)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::PropertyContainer
 // Il2CppName: PropertyContainer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&OVR::OpenVR::CVRIOBuffer::PropertyContainer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "PropertyContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

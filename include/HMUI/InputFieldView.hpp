@@ -344,199 +344,74 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_selectionState
 // Il2CppName: get_selectionState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::InputFieldView::SelectionState (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_selectionState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_keyboardPositionOffset
 // Il2CppName: get_keyboardPositionOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_keyboardPositionOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_keyboardPositionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::add_selectionStateDidChangeEvent
 // Il2CppName: add_selectionStateDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(System::Action_1<HMUI::InputFieldView::SelectionState>*)>(&HMUI::InputFieldView::add_selectionStateDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "add_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::InputFieldView::SelectionState>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::remove_selectionStateDidChangeEvent
 // Il2CppName: remove_selectionStateDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(System::Action_1<HMUI::InputFieldView::SelectionState>*)>(&HMUI::InputFieldView::remove_selectionStateDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::InputFieldView::SelectionState>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_onValueChanged
 // Il2CppName: get_onValueChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::InputFieldView::InputFieldChanged* (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_onValueChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::set_onValueChanged
 // Il2CppName: set_onValueChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(HMUI::InputFieldView::InputFieldChanged*)>(&HMUI::InputFieldView::set_onValueChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView::InputFieldChanged*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_useGlobalKeyboard
 // Il2CppName: get_useGlobalKeyboard
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_useGlobalKeyboard)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_useGlobalKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_text
 // Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_text)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::set_text
 // Il2CppName: set_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::Il2CppString*)>(&HMUI::InputFieldView::set_text)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::ActivateKeyboard
 // Il2CppName: ActivateKeyboard
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(HMUI::UIKeyboard*)>(&HMUI::InputFieldView::ActivateKeyboard)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "ActivateKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::UIKeyboard*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::DeactivateKeyboard
 // Il2CppName: DeactivateKeyboard
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(HMUI::UIKeyboard*)>(&HMUI::InputFieldView::DeactivateKeyboard)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "DeactivateKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::UIKeyboard*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::SetText
 // Il2CppName: SetText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::Il2CppString*)>(&HMUI::InputFieldView::SetText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::ClearInput
 // Il2CppName: ClearInput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::ClearInput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "ClearInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::KeyboardKeyPressed
 // Il2CppName: KeyboardKeyPressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::Il2CppChar)>(&HMUI::InputFieldView::KeyboardKeyPressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "KeyboardKeyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::KeyboardDeletePressed
 // Il2CppName: KeyboardDeletePressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::KeyboardDeletePressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "KeyboardDeletePressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::BlinkingCaretCoroutine
 // Il2CppName: BlinkingCaretCoroutine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::BlinkingCaretCoroutine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "BlinkingCaretCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::UpdateCaretPosition
 // Il2CppName: UpdateCaretPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::UpdateCaretPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "UpdateCaretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::UpdatePlaceholder
 // Il2CppName: UpdatePlaceholder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::UpdatePlaceholder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "UpdatePlaceholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::UpdateClearButton
 // Il2CppName: UpdateClearButton
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::UpdateClearButton)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "UpdateClearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::$Awake$b__34_0
 // Il2CppName: <Awake>b__34_0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::$Awake$b__34_0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "<Awake>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::Awake
 // Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::Awake)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::OnDestroy
 // Il2CppName: OnDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::OnDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::DoStateTransition
 // Il2CppName: DoStateTransition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&HMUI::InputFieldView::DoStateTransition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::InputFieldView::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

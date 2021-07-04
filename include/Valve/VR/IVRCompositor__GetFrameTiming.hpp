@@ -59,39 +59,14 @@ namespace Valve::VR {
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetFrameTiming*, "Valve.VR", "IVRCompositor/_GetFrameTiming");
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetFrameTiming::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetFrameTiming::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetFrameTiming::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetFrameTiming::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetFrameTiming::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetFrameTiming::Invoke
 // Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, uint)>(&Valve::VR::IVRCompositor::_GetFrameTiming::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_FrameTiming&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetFrameTiming::BeginInvoke
 // Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_GetFrameTiming::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_FrameTiming&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetFrameTiming::EndInvoke
 // Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_GetFrameTiming::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_FrameTiming&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

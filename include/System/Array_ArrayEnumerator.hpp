@@ -77,47 +77,17 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::ArrayEnumerator::*)(System::Array*)>(&System::Array::ArrayEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::ArrayEnumerator::*)(System::Array*)>(&System::Array::ArrayEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Array::ArrayEnumerator::*)()>(&System::Array::ArrayEnumerator::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::Reset
 // Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::ArrayEnumerator::*)()>(&System::Array::ArrayEnumerator::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::Clone
 // Il2CppName: Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::ArrayEnumerator::*)()>(&System::Array::ArrayEnumerator::Clone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::get_Current
 // Il2CppName: get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::ArrayEnumerator::*)()>(&System::Array::ArrayEnumerator::get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::ArrayEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

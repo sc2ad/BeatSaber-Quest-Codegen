@@ -59,47 +59,17 @@ namespace Mono::Math::Prime::Generator {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::PrimeGeneratorBase*, "Mono.Math.Prime.Generator", "PrimeGeneratorBase");
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence
 // Il2CppName: get_Confidence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::ConfidenceFactor (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_Confidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest
 // Il2CppName: get_PrimalityTest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::PrimalityTest* (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_PrimalityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds
 // Il2CppName: get_TrialDivisionBounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_TrialDivisionBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime
 // Il2CppName: GenerateNewPrime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)(int)>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

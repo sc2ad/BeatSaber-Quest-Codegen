@@ -36,17 +36,7 @@ namespace System::Collections {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralEquatable*, "System.Collections", "IStructuralEquatable");
 // Writing MetadataGetter for method: System::Collections::IStructuralEquatable::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::IStructuralEquatable::*)(::Il2CppObject*, System::Collections::IEqualityComparer*)>(&System::Collections::IStructuralEquatable::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralEquatable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::IStructuralEquatable::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IStructuralEquatable::*)(System::Collections::IEqualityComparer*)>(&System::Collections::IStructuralEquatable::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralEquatable*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEqualityComparer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

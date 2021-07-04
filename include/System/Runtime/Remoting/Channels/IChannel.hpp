@@ -30,17 +30,7 @@ namespace System::Runtime::Remoting::Channels {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannel*, "System.Runtime.Remoting.Channels", "IChannel");
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannel::get_ChannelName
 // Il2CppName: get_ChannelName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Channels::IChannel::*)()>(&System::Runtime::Remoting::Channels::IChannel::get_ChannelName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IChannel*), "get_ChannelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannel::get_ChannelPriority
 // Il2CppName: get_ChannelPriority
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Channels::IChannel::*)()>(&System::Runtime::Remoting::Channels::IChannel::get_ChannelPriority)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IChannel*), "get_ChannelPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

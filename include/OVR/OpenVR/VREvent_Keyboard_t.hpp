@@ -90,9 +90,4 @@ namespace OVR::OpenVR {
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");
 // Writing MetadataGetter for method: OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput
 // Il2CppName: get_cNewInput
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::VREvent_Keyboard_t::*)()>(&OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::VREvent_Keyboard_t), "get_cNewInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

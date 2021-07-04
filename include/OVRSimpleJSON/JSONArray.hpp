@@ -151,135 +151,50 @@ namespace OVRSimpleJSON {
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray*, "OVRSimpleJSON", "JSONArray");
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Inline
 // Il2CppName: get_Inline
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::get_Inline)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Inline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::set_Inline
 // Il2CppName: set_Inline
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)(bool)>(&OVRSimpleJSON::JSONArray::set_Inline)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "set_Inline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Tag
 // Il2CppName: get_Tag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::get_Tag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_IsArray
 // Il2CppName: get_IsArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::get_IsArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_IsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::GetEnumerator
 // Il2CppName: GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Item
 // Il2CppName: get_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONArray::*)(int)>(&OVRSimpleJSON::JSONArray::get_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::set_Item
 // Il2CppName: set_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)(int, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONArray::set_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Item
 // Il2CppName: get_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONArray::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONArray::get_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::set_Item
 // Il2CppName: set_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONArray::set_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Count
 // Il2CppName: get_Count
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::get_Count)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::Add
 // Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONArray::Add)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::Remove
 // Il2CppName: Remove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONArray::*)(int)>(&OVRSimpleJSON::JSONArray::Remove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::Remove
 // Il2CppName: Remove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONArray::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONArray::Remove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::get_Children
 // Il2CppName: get_Children
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>* (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::get_Children)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::WriteToStringBuilder
 // Il2CppName: WriteToStringBuilder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&OVRSimpleJSON::JSONArray::WriteToStringBuilder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), "WriteToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONTextMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONArray::*)()>(&OVRSimpleJSON::JSONArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -72,25 +72,10 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel*, "", "BeatmapLevelFilterModel");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::FilerBeatmapLevelPackCollectionAsync
 // Il2CppName: FilerBeatmapLevelPackCollectionAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelCollection*>* (*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*, GlobalNamespace::LevelFilterParams*, GlobalNamespace::PlayerDataModel*, GlobalNamespace::AdditionalContentModel*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelFilterModel::FilerBeatmapLevelPackCollectionAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "FilerBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::LevelContainsText
 // Il2CppName: LevelContainsText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Array<::Il2CppString*>*)>(&GlobalNamespace::BeatmapLevelFilterModel::LevelContainsText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "LevelContainsText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::GetAllBeatmapLevelsAsync
 // Il2CppName: GetAllBeatmapLevelsAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* (*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*, GlobalNamespace::SongPackMask, bool, GlobalNamespace::AdditionalContentModel*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelFilterModel::GetAllBeatmapLevelsAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "GetAllBeatmapLevelsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

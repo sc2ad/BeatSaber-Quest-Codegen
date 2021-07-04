@@ -105,119 +105,44 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetAscii)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetAscii)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::Convert
 // Il2CppName: Convert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int, bool)>(&System::Globalization::IdnMapping::Convert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToAscii
 // Il2CppName: ToAscii
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToAscii)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyLength
 // Il2CppName: VerifyLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::NamePrep
 // Il2CppName: NamePrep
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::NamePrep)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "NamePrep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyProhibitedCharacters
 // Il2CppName: VerifyProhibitedCharacters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyProhibitedCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyStd3AsciiRules
 // Il2CppName: VerifyStd3AsciiRules
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyStd3AsciiRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
 // Il2CppName: GetUnicode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetUnicode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
 // Il2CppName: GetUnicode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetUnicode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToUnicode
 // Il2CppName: ToUnicode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToUnicode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)()>(&System::Globalization::IdnMapping::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)()>(&System::Globalization::IdnMapping::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::IdnMapping::*)(::Il2CppObject*)>(&System::Globalization::IdnMapping::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::IdnMapping::*)()>(&System::Globalization::IdnMapping::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

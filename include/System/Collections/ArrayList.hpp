@@ -198,267 +198,97 @@ namespace System::Collections {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList*, "System.Collections", "ArrayList");
 // Writing MetadataGetter for method: System::Collections::ArrayList::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::ArrayList::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Collections::ICollection*)>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Collections::ICollection*)>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::ArrayList::set_Capacity
 // Il2CppName: set_Capacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::set_Capacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "set_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::get_Count
 // Il2CppName: get_Count
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::get_Count)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::get_IsReadOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::get_SyncRoot
 // Il2CppName: get_SyncRoot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::get_SyncRoot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::get_Item
 // Il2CppName: get_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::get_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::set_Item
 // Il2CppName: set_Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, ::Il2CppObject*)>(&System::Collections::ArrayList::set_Item)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Add
 // Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::ArrayList::*)(::Il2CppObject*)>(&System::Collections::ArrayList::Add)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::AddRange
 // Il2CppName: AddRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Collections::ICollection*)>(&System::Collections::ArrayList::AddRange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "AddRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Clear
 // Il2CppName: Clear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::Clear)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Clone
 // Il2CppName: Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::Clone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Contains
 // Il2CppName: Contains
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::ArrayList::*)(::Il2CppObject*)>(&System::Collections::ArrayList::Contains)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Array*)>(&System::Collections::ArrayList::CopyTo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Array*, int)>(&System::Collections::ArrayList::CopyTo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, System::Array*, int, int)>(&System::Collections::ArrayList::CopyTo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::EnsureCapacity
 // Il2CppName: EnsureCapacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::EnsureCapacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "EnsureCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::GetEnumerator
 // Il2CppName: GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::IndexOf
 // Il2CppName: IndexOf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::ArrayList::*)(::Il2CppObject*)>(&System::Collections::ArrayList::IndexOf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Insert
 // Il2CppName: Insert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, ::Il2CppObject*)>(&System::Collections::ArrayList::Insert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::InsertRange
 // Il2CppName: InsertRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, System::Collections::ICollection*)>(&System::Collections::ArrayList::InsertRange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "InsertRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::ReadOnly
 // Il2CppName: ReadOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (*)(System::Collections::ArrayList*)>(&System::Collections::ArrayList::ReadOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Remove
 // Il2CppName: Remove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(::Il2CppObject*)>(&System::Collections::ArrayList::Remove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::RemoveAt
 // Il2CppName: RemoveAt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int)>(&System::Collections::ArrayList::RemoveAt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::RemoveRange
 // Il2CppName: RemoveRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, int)>(&System::Collections::ArrayList::RemoveRange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "RemoveRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Reverse
 // Il2CppName: Reverse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::Reverse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::Reverse
 // Il2CppName: Reverse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, int)>(&System::Collections::ArrayList::Reverse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::ToArray
 // Il2CppName: ToArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::ToArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::ToArray
 // Il2CppName: ToArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (System::Collections::ArrayList::*)(System::Type*)>(&System::Collections::ArrayList::ToArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::ArrayList::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::ArrayList::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

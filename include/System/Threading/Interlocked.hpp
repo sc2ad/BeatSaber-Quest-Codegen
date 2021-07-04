@@ -106,159 +106,64 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked*, "System.Threading", "Interlocked");
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int, bool&)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*, ::Il2CppObject*)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float, float)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Decrement
 // Il2CppName: Decrement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&System::Threading::Interlocked::Decrement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Decrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Increment
 // Il2CppName: Increment
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&System::Threading::Interlocked::Increment)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Increment
 // Il2CppName: Increment
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&System::Threading::Interlocked::Increment)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t, int64_t)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr, System::IntPtr)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double, double)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange
 // Il2CppName: CompareExchange
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Exchange
 // Il2CppName: Exchange
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Read
 // Il2CppName: Read
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&System::Threading::Interlocked::Read)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Add
 // Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&System::Threading::Interlocked::Add)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Interlocked::Add
 // Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&System::Threading::Interlocked::Add)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

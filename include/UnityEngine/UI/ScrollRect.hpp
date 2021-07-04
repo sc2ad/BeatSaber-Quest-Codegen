@@ -732,735 +732,275 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.U
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_content
 // Il2CppName: get_content
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_content)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_content
 // Il2CppName: set_content
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::ScrollRect::set_content)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_horizontal
 // Il2CppName: get_horizontal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_horizontal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_horizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_horizontal
 // Il2CppName: set_horizontal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(bool)>(&UnityEngine::UI::ScrollRect::set_horizontal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_horizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_vertical
 // Il2CppName: get_vertical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_vertical)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_vertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_vertical
 // Il2CppName: set_vertical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(bool)>(&UnityEngine::UI::ScrollRect::set_vertical)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_vertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_movementType
 // Il2CppName: get_movementType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ScrollRect::MovementType (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_movementType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_movementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_movementType
 // Il2CppName: set_movementType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::ScrollRect::MovementType)>(&UnityEngine::UI::ScrollRect::set_movementType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_movementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::MovementType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_elasticity
 // Il2CppName: get_elasticity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_elasticity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_elasticity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_elasticity
 // Il2CppName: set_elasticity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_elasticity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_elasticity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_inertia
 // Il2CppName: get_inertia
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_inertia)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_inertia", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_inertia
 // Il2CppName: set_inertia
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(bool)>(&UnityEngine::UI::ScrollRect::set_inertia)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_inertia", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_decelerationRate
 // Il2CppName: get_decelerationRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_decelerationRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_decelerationRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_decelerationRate
 // Il2CppName: set_decelerationRate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_decelerationRate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_decelerationRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_scrollSensitivity
 // Il2CppName: get_scrollSensitivity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_scrollSensitivity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_scrollSensitivity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_scrollSensitivity
 // Il2CppName: set_scrollSensitivity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_scrollSensitivity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_scrollSensitivity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_viewport
 // Il2CppName: get_viewport
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_viewport)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_viewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_viewport
 // Il2CppName: set_viewport
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::ScrollRect::set_viewport)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_viewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_horizontalScrollbar
 // Il2CppName: get_horizontalScrollbar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_horizontalScrollbar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_horizontalScrollbar
 // Il2CppName: set_horizontalScrollbar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::Scrollbar*)>(&UnityEngine::UI::ScrollRect::set_horizontalScrollbar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_verticalScrollbar
 // Il2CppName: get_verticalScrollbar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_verticalScrollbar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_verticalScrollbar
 // Il2CppName: set_verticalScrollbar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::Scrollbar*)>(&UnityEngine::UI::ScrollRect::set_verticalScrollbar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_horizontalScrollbarVisibility
 // Il2CppName: get_horizontalScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ScrollRect::ScrollbarVisibility (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_horizontalScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_horizontalScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_horizontalScrollbarVisibility
 // Il2CppName: set_horizontalScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::ScrollRect::ScrollbarVisibility)>(&UnityEngine::UI::ScrollRect::set_horizontalScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_horizontalScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::ScrollbarVisibility>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_verticalScrollbarVisibility
 // Il2CppName: get_verticalScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ScrollRect::ScrollbarVisibility (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_verticalScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_verticalScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_verticalScrollbarVisibility
 // Il2CppName: set_verticalScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::ScrollRect::ScrollbarVisibility)>(&UnityEngine::UI::ScrollRect::set_verticalScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_verticalScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::ScrollbarVisibility>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_horizontalScrollbarSpacing
 // Il2CppName: get_horizontalScrollbarSpacing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_horizontalScrollbarSpacing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_horizontalScrollbarSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_horizontalScrollbarSpacing
 // Il2CppName: set_horizontalScrollbarSpacing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_horizontalScrollbarSpacing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_horizontalScrollbarSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_verticalScrollbarSpacing
 // Il2CppName: get_verticalScrollbarSpacing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_verticalScrollbarSpacing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_verticalScrollbarSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_verticalScrollbarSpacing
 // Il2CppName: set_verticalScrollbarSpacing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_verticalScrollbarSpacing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_verticalScrollbarSpacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_onValueChanged
 // Il2CppName: get_onValueChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ScrollRect::ScrollRectEvent* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_onValueChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_onValueChanged
 // Il2CppName: set_onValueChanged
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::ScrollRect::ScrollRectEvent*)>(&UnityEngine::UI::ScrollRect::set_onValueChanged)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::ScrollRectEvent*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_viewRect
 // Il2CppName: get_viewRect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_viewRect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_viewRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_velocity
 // Il2CppName: get_velocity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_velocity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_velocity
 // Il2CppName: set_velocity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::Vector2)>(&UnityEngine::UI::ScrollRect::set_velocity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_rectTransform
 // Il2CppName: get_rectTransform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_rectTransform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::Rebuild
 // Il2CppName: Rebuild
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::ScrollRect::Rebuild)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::LayoutComplete
 // Il2CppName: LayoutComplete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::LayoutComplete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::GraphicUpdateComplete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateCachedData
 // Il2CppName: UpdateCachedData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UpdateCachedData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateCachedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::EnsureLayoutHasRebuilt
 // Il2CppName: EnsureLayoutHasRebuilt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::EnsureLayoutHasRebuilt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "EnsureLayoutHasRebuilt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::StopMovement
 // Il2CppName: StopMovement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::StopMovement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "StopMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnScroll
 // Il2CppName: OnScroll
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::ScrollRect::OnScroll)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnScroll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::ScrollRect::OnInitializePotentialDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnBeginDrag
 // Il2CppName: OnBeginDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::ScrollRect::OnBeginDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnEndDrag
 // Il2CppName: OnEndDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::ScrollRect::OnEndDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnEndDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnDrag
 // Il2CppName: OnDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::ScrollRect::OnDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetContentAnchoredPosition
 // Il2CppName: SetContentAnchoredPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::Vector2)>(&UnityEngine::UI::ScrollRect::SetContentAnchoredPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetContentAnchoredPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::LateUpdate
 // Il2CppName: LateUpdate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::LateUpdate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdatePrevData
 // Il2CppName: UpdatePrevData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UpdatePrevData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdatePrevData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateScrollbars
 // Il2CppName: UpdateScrollbars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::Vector2)>(&UnityEngine::UI::ScrollRect::UpdateScrollbars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateScrollbars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_normalizedPosition
 // Il2CppName: get_normalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_normalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_normalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_normalizedPosition
 // Il2CppName: set_normalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(UnityEngine::Vector2)>(&UnityEngine::UI::ScrollRect::set_normalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_normalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_horizontalNormalizedPosition
 // Il2CppName: get_horizontalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_horizontalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_horizontalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_horizontalNormalizedPosition
 // Il2CppName: set_horizontalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_horizontalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_horizontalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_verticalNormalizedPosition
 // Il2CppName: get_verticalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_verticalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_verticalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::set_verticalNormalizedPosition
 // Il2CppName: set_verticalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::set_verticalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "set_verticalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetHorizontalNormalizedPosition
 // Il2CppName: SetHorizontalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::SetHorizontalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetHorizontalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetVerticalNormalizedPosition
 // Il2CppName: SetVerticalNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float)>(&UnityEngine::UI::ScrollRect::SetVerticalNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetVerticalNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetNormalizedPosition
 // Il2CppName: SetNormalizedPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)(float, int)>(&UnityEngine::UI::ScrollRect::SetNormalizedPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::RubberDelta
 // Il2CppName: RubberDelta
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&UnityEngine::UI::ScrollRect::RubberDelta)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "RubberDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_hScrollingNeeded
 // Il2CppName: get_hScrollingNeeded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_hScrollingNeeded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_hScrollingNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_vScrollingNeeded
 // Il2CppName: get_vScrollingNeeded
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_vScrollingNeeded)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_vScrollingNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::CalculateLayoutInputHorizontal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::CalculateLayoutInputVertical
 // Il2CppName: CalculateLayoutInputVertical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::CalculateLayoutInputVertical)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_minWidth
 // Il2CppName: get_minWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_minWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_preferredWidth
 // Il2CppName: get_preferredWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_preferredWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_flexibleWidth
 // Il2CppName: get_flexibleWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_flexibleWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_minHeight
 // Il2CppName: get_minHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_minHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_preferredHeight
 // Il2CppName: get_preferredHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_preferredHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_flexibleHeight
 // Il2CppName: get_flexibleHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_flexibleHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_layoutPriority
 // Il2CppName: get_layoutPriority
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::get_layoutPriority)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::SetLayoutHorizontal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::SetLayoutVertical)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateScrollbarVisibility
 // Il2CppName: UpdateScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UpdateScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateOneScrollbarVisibility
 // Il2CppName: UpdateOneScrollbarVisibility
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, UnityEngine::UI::ScrollRect::ScrollbarVisibility, UnityEngine::UI::Scrollbar*)>(&UnityEngine::UI::ScrollRect::UpdateOneScrollbarVisibility)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateOneScrollbarVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::ScrollbarVisibility>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateScrollbarLayout
 // Il2CppName: UpdateScrollbarLayout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UpdateScrollbarLayout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateScrollbarLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UpdateBounds
 // Il2CppName: UpdateBounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UpdateBounds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UpdateBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::AdjustBounds
 // Il2CppName: AdjustBounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Bounds&, UnityEngine::Vector2&, UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::UI::ScrollRect::AdjustBounds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "AdjustBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::GetBounds
 // Il2CppName: GetBounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::GetBounds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::InternalGetBounds
 // Il2CppName: InternalGetBounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, UnityEngine::Matrix4x4&)>(&UnityEngine::UI::ScrollRect::InternalGetBounds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "InternalGetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::CalculateOffset
 // Il2CppName: CalculateOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::ScrollRect::*)(UnityEngine::Vector2)>(&UnityEngine::UI::ScrollRect::CalculateOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "CalculateOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::InternalCalculateOffset
 // Il2CppName: InternalCalculateOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Bounds&, UnityEngine::Bounds&, bool, bool, UnityEngine::UI::ScrollRect::MovementType, UnityEngine::Vector2&)>(&UnityEngine::UI::ScrollRect::InternalCalculateOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "InternalCalculateOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ScrollRect::MovementType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetDirty
 // Il2CppName: SetDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::SetDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::SetDirtyCaching
 // Il2CppName: SetDirtyCaching
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::SetDirtyCaching)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "SetDirtyCaching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::UnityEngine_UI_ICanvasElement_get_transform
 // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::UnityEngine_UI_ICanvasElement_get_transform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnDisable
 // Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::IsActive
 // Il2CppName: IsActive
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::IsActive)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ScrollRect::*)()>(&UnityEngine::UI::ScrollRect::OnRectTransformDimensionsChange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

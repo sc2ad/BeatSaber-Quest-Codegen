@@ -49,31 +49,11 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDeleteResult*, "Oculus.Platform", "MessageWithAssetFileDeleteResult");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult
 // Il2CppName: GetAssetFileDeleteResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Oculus::Platform::MessageWithAssetFileDeleteResult::*)()>(&Oculus::Platform::MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), "GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

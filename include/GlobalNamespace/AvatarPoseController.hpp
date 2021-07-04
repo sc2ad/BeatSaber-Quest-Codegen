@@ -156,95 +156,35 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController*, "", "AvatarPoseController");
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback
 // Il2CppName: get_earlyPositionsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_earlyPositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::set_earlyPositionsWillBeSetCallback
 // Il2CppName: set_earlyPositionsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_earlyPositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_earlyPositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_latePositionsWillBeSetCallback
 // Il2CppName: get_latePositionsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_latePositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_latePositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::set_latePositionsWillBeSetCallback
 // Il2CppName: set_latePositionsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_latePositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_latePositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_earlyRotationsWillBeSetCallback
 // Il2CppName: get_earlyRotationsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_earlyRotationsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_earlyRotationsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::set_earlyRotationsWillBeSetCallback
 // Il2CppName: set_earlyRotationsWillBeSetCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_earlyRotationsWillBeSetCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_earlyRotationsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::add_didUpdatePoseEvent
 // Il2CppName: add_didUpdatePoseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(System::Action_1<UnityEngine::Vector3>*)>(&GlobalNamespace::AvatarPoseController::add_didUpdatePoseEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "add_didUpdatePoseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector3>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::remove_didUpdatePoseEvent
 // Il2CppName: remove_didUpdatePoseEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(System::Action_1<UnityEngine::Vector3>*)>(&GlobalNamespace::AvatarPoseController::remove_didUpdatePoseEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "remove_didUpdatePoseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Vector3>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::UpdateTransforms
 // Il2CppName: UpdateTransforms
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::AvatarPoseController::UpdateTransforms)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "UpdateTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::UpdateBodyPosition
 // Il2CppName: UpdateBodyPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::UpdateBodyPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "UpdateBodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

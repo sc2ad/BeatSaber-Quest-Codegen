@@ -116,97 +116,37 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls*, "TMPro", "TMP_DefaultControls");
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2)>(&TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*)>(&TMPro::TMP_DefaultControls::CreateUIObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::SetDefaultTextValues
 // Il2CppName: SetDefaultTextValues
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues
 // Il2CppName: SetDefaultColorTransitionValues
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::SetParentAndAlign
 // Il2CppName: SetParentAndAlign
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&TMPro::TMP_DefaultControls::SetParentAndAlign)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetParentAndAlign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::SetLayerRecursively
 // Il2CppName: SetLayerRecursively
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&TMPro::TMP_DefaultControls::SetLayerRecursively)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetLayerRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateScrollbar
 // Il2CppName: CreateScrollbar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateScrollbar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_DefaultControls::Resources>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateButton
 // Il2CppName: CreateButton
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateButton)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_DefaultControls::Resources>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateText
 // Il2CppName: CreateText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_DefaultControls::Resources>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateInputField
 // Il2CppName: CreateInputField
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateInputField)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_DefaultControls::Resources>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateDropdown
 // Il2CppName: CreateDropdown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateDropdown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_DefaultControls::Resources>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_DefaultControls::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

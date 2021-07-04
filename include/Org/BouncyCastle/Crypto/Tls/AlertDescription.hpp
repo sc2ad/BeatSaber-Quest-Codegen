@@ -27,17 +27,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName
 // Il2CppName: GetName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint8_t)>(&Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetText
 // Il2CppName: GetText
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint8_t)>(&Org::BouncyCastle::Crypto::Tls::AlertDescription::GetText)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

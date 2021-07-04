@@ -82,77 +82,27 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
 // Il2CppName: get_firstAdjustmentRecord
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(&TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord
 // Il2CppName: set_firstAdjustmentRecord
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "set_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord
 // Il2CppName: get_secondAdjustmentRecord
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphAdjustmentRecord (TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(&TMPro::TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord
 // Il2CppName: set_secondAdjustmentRecord
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "set_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags
 // Il2CppName: get_featureLookupFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FontFeatureLookupFlags (TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(&TMPro::TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "get_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags
 // Il2CppName: set_featureLookupFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(TMPro::FontFeatureLookupFlags)>(&TMPro::TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), "set_featureLookupFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontFeatureLookupFlags>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(TMPro::TMP_GlyphAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphAdjustmentRecord>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphPairAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphPairAdjustmentRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

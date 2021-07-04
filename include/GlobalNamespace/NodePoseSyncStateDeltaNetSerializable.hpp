@@ -129,103 +129,38 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*, "", "NodePoseSyncStateDeltaNetSerializable");
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId
 // Il2CppName: get_baseId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "get_baseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_baseId
 // Il2CppName: set_baseId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(GlobalNamespace::SyncStateId)>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_baseId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "set_baseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_timeOffsetMs
 // Il2CppName: get_timeOffsetMs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_timeOffsetMs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "get_timeOffsetMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_timeOffsetMs
 // Il2CppName: set_timeOffsetMs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(int)>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_timeOffsetMs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "set_timeOffsetMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_delta
 // Il2CppName: get_delta
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_delta)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_delta
 // Il2CppName: set_delta
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(GlobalNamespace::NodePoseSyncState)>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_delta)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::NoDomainReloadInit
 // Il2CppName: NoDomainReloadInit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::NoDomainReloadInit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "NoDomainReloadInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Serialize
 // Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Deserialize
 // Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Release
 // Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

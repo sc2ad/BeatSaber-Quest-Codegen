@@ -34,17 +34,7 @@ namespace Microsoft::Win32 {
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::GetMessage
 // Il2CppName: GetMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Microsoft::Win32::Win32Native::GetMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32Native*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::MakeHRFromErrorCode
 // Il2CppName: MakeHRFromErrorCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Microsoft::Win32::Win32Native::MakeHRFromErrorCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32Native*), "MakeHRFromErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

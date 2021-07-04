@@ -64,31 +64,11 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_id
 // Il2CppName: get_id
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_id)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference
 // Il2CppName: get_animationClipAssetReference
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), "get_animationClipAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

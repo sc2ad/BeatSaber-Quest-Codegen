@@ -144,79 +144,29 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetUnitySerializationInfo
 // Il2CppName: GetUnitySerializationInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, System::Reflection::Missing*)>(&System::UnitySerializationHolder::GetUnitySerializationInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Missing*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::AddElementTypes
 // Il2CppName: AddElementTypes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (*)(System::Runtime::Serialization::SerializationInfo*, System::RuntimeType*)>(&System::UnitySerializationHolder::AddElementTypes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "AddElementTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::MakeElementTypes
 // Il2CppName: MakeElementTypes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::UnitySerializationHolder::*)(System::Type*)>(&System::UnitySerializationHolder::MakeElementTypes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "MakeElementTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetUnitySerializationInfo
 // Il2CppName: GetUnitySerializationInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, System::RuntimeType*)>(&System::UnitySerializationHolder::GetUnitySerializationInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetUnitySerializationInfo
 // Il2CppName: GetUnitySerializationInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, int, ::Il2CppString*, System::Reflection::RuntimeAssembly*)>(&System::UnitySerializationHolder::GetUnitySerializationInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeAssembly*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::UnitySerializationHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::UnitySerializationHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::ThrowInsufficientInformation
 // Il2CppName: ThrowInsufficientInformation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(::Il2CppString*)>(&System::UnitySerializationHolder::ThrowInsufficientInformation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "ThrowInsufficientInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetObjectData
 // Il2CppName: GetObjectData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::UnitySerializationHolder::GetObjectData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetRealObject
 // Il2CppName: GetRealObject
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::UnitySerializationHolder::*)(System::Runtime::Serialization::StreamingContext)>(&System::UnitySerializationHolder::GetRealObject)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

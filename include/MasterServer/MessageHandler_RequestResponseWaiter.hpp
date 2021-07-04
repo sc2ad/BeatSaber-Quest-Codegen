@@ -93,63 +93,23 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::RequestResponseWaiter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::RequestResponseWaiter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Complete
 // Il2CppName: Complete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(MasterServer::IMasterServerMessage*)>(&MasterServer::MessageHandler::RequestResponseWaiter::Complete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Fail
 // Il2CppName: Fail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(System::Exception*)>(&MasterServer::MessageHandler::RequestResponseWaiter::Fail)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Cancel
 // Il2CppName: Cancel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)()>(&MasterServer::MessageHandler::RequestResponseWaiter::Cancel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::get_task
 // Il2CppName: get_task
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* (MasterServer::MessageHandler::RequestResponseWaiter::*)()>(&MasterServer::MessageHandler::RequestResponseWaiter::get_task)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::get_isWaiting
 // Il2CppName: get_isWaiting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::RequestResponseWaiter::*)()>(&MasterServer::MessageHandler::RequestResponseWaiter::get_isWaiting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "get_isWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Dispose
 // Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)()>(&MasterServer::MessageHandler::RequestResponseWaiter::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

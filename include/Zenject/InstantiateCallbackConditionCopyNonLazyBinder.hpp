@@ -69,26 +69,11 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, "Zenject", "InstantiateCallbackConditionCopyNonLazyBinder");
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated
 // Il2CppName: OnInstantiated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConditionCopyNonLazyBinder* (Zenject::InstantiateCallbackConditionCopyNonLazyBinder::*)(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*), "OnInstantiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated
 // Il2CppName: OnInstantiated
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InstantiateCallbackConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::InstantiateCallbackConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InstantiateCallbackConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::InstantiateCallbackConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

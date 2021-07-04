@@ -74,47 +74,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType
 // Il2CppName: get_appInitOverrideStartType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType
 // Il2CppName: set_appInitOverrideStartType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_appInitOverrideStartType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_appInitOverrideStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel
 // Il2CppName: get_overrideMockPlayersModel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayersModel* (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)()>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_overrideMockPlayersModel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "get_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel
 // Il2CppName: set_overrideMockPlayersModel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::MockPlayersModel*)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::set_overrideMockPlayersModel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), "set_overrideMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -49,31 +49,11 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*, "Oculus.Platform", "MessageWithLaunchInvitePanelFlowResult");
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult
 // Il2CppName: GetLaunchInvitePanelFlowResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)()>(&Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*), "GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

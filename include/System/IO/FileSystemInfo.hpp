@@ -142,125 +142,45 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemInfo*, "System.IO", "FileSystemInfo");
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IO::FileSystemInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IO::FileSystemInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_FullName
 // Il2CppName: get_FullName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_FullName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_Name
 // Il2CppName: get_Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_Name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_Exists
 // Il2CppName: get_Exists
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_Exists)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_CreationTime
 // Il2CppName: get_CreationTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_CreationTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_CreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_CreationTimeUtc
 // Il2CppName: get_CreationTimeUtc
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_CreationTimeUtc)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_CreationTimeUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_LastAccessTime
 // Il2CppName: get_LastAccessTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_LastAccessTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_LastAccessTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_LastAccessTimeUtc
 // Il2CppName: get_LastAccessTimeUtc
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_LastAccessTimeUtc)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_LastAccessTimeUtc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::Refresh
 // Il2CppName: Refresh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::Refresh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_Attributes
 // Il2CppName: get_Attributes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_Attributes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::GetObjectData
 // Il2CppName: GetObjectData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IO::FileSystemInfo::GetObjectData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_DisplayPath
 // Il2CppName: get_DisplayPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_DisplayPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_DisplayPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::set_DisplayPath
 // Il2CppName: set_DisplayPath
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(::Il2CppString*)>(&System::IO::FileSystemInfo::set_DisplayPath)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "set_DisplayPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

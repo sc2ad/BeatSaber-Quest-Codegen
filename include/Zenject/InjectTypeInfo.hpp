@@ -117,55 +117,20 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(System::Type*, Zenject::InjectTypeInfo::InjectConstructorInfo*, ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*, ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*)>(&Zenject::InjectTypeInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(System::Type*, Zenject::InjectTypeInfo::InjectConstructorInfo*, ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*, ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*)>(&Zenject::InjectTypeInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::get_BaseTypeInfo
 // Il2CppName: get_BaseTypeInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_BaseTypeInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::set_BaseTypeInfo
 // Il2CppName: set_BaseTypeInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(Zenject::InjectTypeInfo*)>(&Zenject::InjectTypeInfo::set_BaseTypeInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "set_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::get_AllInjectables
 // Il2CppName: get_AllInjectables
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_AllInjectables)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_AllInjectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::$get_AllInjectables$b__0
 // Il2CppName: <get_AllInjectables>b__0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (*)(Zenject::InjectTypeInfo::InjectMemberInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectMemberInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::$get_AllInjectables$b__1
 // Il2CppName: <get_AllInjectables>b__1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (*)(Zenject::InjectTypeInfo::InjectMethodInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectTypeInfo::InjectMethodInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

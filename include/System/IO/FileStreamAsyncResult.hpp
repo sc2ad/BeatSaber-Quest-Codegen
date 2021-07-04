@@ -126,55 +126,20 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStreamAsyncResult*, "System.IO", "FileStreamAsyncResult");
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStreamAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStreamAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStreamAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStreamAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::CBWrapper
 // Il2CppName: CBWrapper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&System::IO::FileStreamAsyncResult::CBWrapper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), "CBWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IO::FileStreamAsyncResult::*)()>(&System::IO::FileStreamAsyncResult::get_AsyncState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::get_CompletedSynchronously
 // Il2CppName: get_CompletedSynchronously
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::FileStreamAsyncResult::*)()>(&System::IO::FileStreamAsyncResult::get_CompletedSynchronously)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::get_AsyncWaitHandle
 // Il2CppName: get_AsyncWaitHandle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::IO::FileStreamAsyncResult::*)()>(&System::IO::FileStreamAsyncResult::get_AsyncWaitHandle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::get_IsCompleted
 // Il2CppName: get_IsCompleted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::FileStreamAsyncResult::*)()>(&System::IO::FileStreamAsyncResult::get_IsCompleted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileStreamAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

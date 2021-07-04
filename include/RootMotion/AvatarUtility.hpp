@@ -60,39 +60,14 @@ namespace RootMotion {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetPostRotation
 // Il2CppName: GetPostRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Avatar*, UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::GetPostRotation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetIKGoalTQ
 // Il2CppName: GetIKGoalTQ
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::TQ* (*)(UnityEngine::Avatar*, float, UnityEngine::AvatarIKGoal, RootMotion::TQ*, RootMotion::TQ*)>(&RootMotion::AvatarUtility::GetIKGoalTQ)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "GetIKGoalTQ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::TQ*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::TQ*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal
 // Il2CppName: HumanIDFromAvatarIKGoal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanBodyBones (*)(UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "HumanIDFromAvatarIKGoal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::AvatarUtility::*)()>(&RootMotion::AvatarUtility::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::AvatarUtility::*)()>(&RootMotion::AvatarUtility::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -187,154 +187,59 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_IgnoreCase
 // Il2CppName: get_IgnoreCase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::get_IgnoreCase)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "get_IgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_FailurePoints
 // Il2CppName: get_FailurePoints
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* (NUnit::Framework::Constraints::NUnitEqualityComparer::*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::get_FailurePoints)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "get_FailurePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_WithSameOffset
 // Il2CppName: get_WithSameOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::get_WithSameOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "get_WithSameOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::AreEqual
 // Il2CppName: AreEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::AreEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::FirstImplementsIEquatableOfSecond
 // Il2CppName: FirstImplementsIEquatableOfSecond
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, System::Type*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::FirstImplementsIEquatableOfSecond)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "FirstImplementsIEquatableOfSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::GetEquatableGenericArguments
 // Il2CppName: GetEquatableGenericArguments
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<System::Type*, System::Reflection::MethodInfo*>>* (*)(System::Type*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::GetEquatableGenericArguments)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetEquatableGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::InvokeFirstIEquatableEqualsSecond
 // Il2CppName: InvokeFirstIEquatableEqualsSecond
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::InvokeFirstIEquatableEqualsSecond)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "InvokeFirstIEquatableEqualsSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::GetExternalComparer
 // Il2CppName: GetExternalComparer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::EqualityAdapter* (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::GetExternalComparer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetExternalComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::ArraysEqual
 // Il2CppName: ArraysEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Array*, System::Array*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::ArraysEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "ArraysEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DictionariesEqual
 // Il2CppName: DictionariesEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::IDictionary*, System::Collections::IDictionary*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DictionariesEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionariesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DictionaryEntriesEqual
 // Il2CppName: DictionaryEntriesEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::DictionaryEntry, System::Collections::DictionaryEntry, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DictionaryEntriesEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionaryEntriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::DictionaryEntry>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::DictionaryEntry>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual
 // Il2CppName: StringsEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StringsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::CharsEqual
 // Il2CppName: CharsEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppChar, ::Il2CppChar)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::CharsEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "CharsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::EnumerablesEqual
 // Il2CppName: EnumerablesEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::IEnumerable*, System::Collections::IEnumerable*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::EnumerablesEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "EnumerablesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DirectoriesEqual
 // Il2CppName: DirectoriesEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::DirectoryInfo*, System::IO::DirectoryInfo*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DirectoriesEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DirectoriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DirectoryInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::DirectoryInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::StreamsEqual
 // Il2CppName: StreamsEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::IO::Stream*, System::IO::Stream*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StreamsEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StreamsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::CheckGameObjectReference
 // Il2CppName: CheckGameObjectReference
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::NUnitEqualityComparer::*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::NUnitEqualityComparer::*)()>(&NUnit::Framework::Constraints::NUnitEqualityComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

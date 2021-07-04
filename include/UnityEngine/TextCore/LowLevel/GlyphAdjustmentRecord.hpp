@@ -52,17 +52,7 @@ namespace UnityEngine::TextCore::LowLevel {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphIndex
 // Il2CppName: get_glyphIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphValueRecord
 // Il2CppName: get_glyphValueRecord
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphValueRecord (UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphValueRecord)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord), "get_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

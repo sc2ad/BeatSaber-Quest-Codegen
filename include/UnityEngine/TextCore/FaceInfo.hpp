@@ -268,273 +268,103 @@ namespace UnityEngine::TextCore {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_familyName
 // Il2CppName: set_familyName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::Il2CppString*)>(&UnityEngine::TextCore::FaceInfo::set_familyName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_familyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_styleName
 // Il2CppName: set_styleName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::Il2CppString*)>(&UnityEngine::TextCore::FaceInfo::set_styleName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_styleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_pointSize
 // Il2CppName: get_pointSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_pointSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_pointSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_pointSize
 // Il2CppName: set_pointSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(int)>(&UnityEngine::TextCore::FaceInfo::set_pointSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_pointSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_scale
 // Il2CppName: get_scale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_scale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_scale
 // Il2CppName: set_scale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_scale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_lineHeight
 // Il2CppName: get_lineHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_lineHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_lineHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_lineHeight
 // Il2CppName: set_lineHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_lineHeight)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_lineHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_ascentLine
 // Il2CppName: get_ascentLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_ascentLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_ascentLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_ascentLine
 // Il2CppName: set_ascentLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_ascentLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_ascentLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_capLine
 // Il2CppName: get_capLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_capLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_capLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_capLine
 // Il2CppName: set_capLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_capLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_capLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_meanLine
 // Il2CppName: set_meanLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_meanLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_meanLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_baseline
 // Il2CppName: get_baseline
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_baseline)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_baseline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_baseline
 // Il2CppName: set_baseline
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_baseline)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_baseline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_descentLine
 // Il2CppName: get_descentLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_descentLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_descentLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_descentLine
 // Il2CppName: set_descentLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_descentLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_descentLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_superscriptOffset
 // Il2CppName: get_superscriptOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_superscriptOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_superscriptOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_superscriptOffset
 // Il2CppName: set_superscriptOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_superscriptOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_superscriptOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_superscriptSize
 // Il2CppName: get_superscriptSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_superscriptSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_superscriptSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_superscriptSize
 // Il2CppName: set_superscriptSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_superscriptSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_superscriptSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_subscriptOffset
 // Il2CppName: get_subscriptOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_subscriptOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_subscriptOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_subscriptOffset
 // Il2CppName: set_subscriptOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_subscriptOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_subscriptOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_subscriptSize
 // Il2CppName: get_subscriptSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_subscriptSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_subscriptSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_subscriptSize
 // Il2CppName: set_subscriptSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_subscriptSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_subscriptSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_underlineOffset
 // Il2CppName: get_underlineOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_underlineOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_underlineOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_underlineOffset
 // Il2CppName: set_underlineOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_underlineOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_underlineOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_underlineThickness
 // Il2CppName: get_underlineThickness
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_underlineThickness)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_underlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_underlineThickness
 // Il2CppName: set_underlineThickness
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_underlineThickness)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_underlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_strikethroughOffset
 // Il2CppName: get_strikethroughOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_strikethroughOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_strikethroughOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_strikethroughOffset
 // Il2CppName: set_strikethroughOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_strikethroughOffset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_strikethroughOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_strikethroughThickness
 // Il2CppName: set_strikethroughThickness
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_strikethroughThickness)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_strikethroughThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::get_tabWidth
 // Il2CppName: get_tabWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::FaceInfo::*)()>(&UnityEngine::TextCore::FaceInfo::get_tabWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "get_tabWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_tabWidth
 // Il2CppName: set_tabWidth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(float)>(&UnityEngine::TextCore::FaceInfo::set_tabWidth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_tabWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

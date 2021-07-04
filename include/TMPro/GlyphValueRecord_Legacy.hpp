@@ -69,23 +69,8 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 // Writing MetadataGetter for method: TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphValueRecord_Legacy::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphValueRecord_Legacy), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: TMPro::GlyphValueRecord_Legacy::operator+
 // Il2CppName: op_Addition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::GlyphValueRecord_Legacy (*)(const TMPro::GlyphValueRecord_Legacy&, const TMPro::GlyphValueRecord_Legacy&)>(&TMPro::GlyphValueRecord_Legacy::operator+)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphValueRecord_Legacy), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>(), ::il2cpp_utils::ExtractIndependentType<const TMPro::GlyphValueRecord_Legacy&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

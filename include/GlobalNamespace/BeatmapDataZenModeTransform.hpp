@@ -31,9 +31,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataZenModeTransform*, "", "BeatmapDataZenModeTransform");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataZenModeTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataZenModeTransform::CreateTransformedData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataZenModeTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

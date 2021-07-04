@@ -61,39 +61,14 @@ namespace Valve::VR {
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetLastPoses*, "Valve.VR", "IVRCompositor/_GetLastPoses");
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetLastPoses::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetLastPoses::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetLastPoses::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetLastPoses*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetLastPoses::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetLastPoses::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetLastPoses*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetLastPoses::Invoke
 // Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_GetLastPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint)>(&Valve::VR::IVRCompositor::_GetLastPoses::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetLastPoses*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetLastPoses::BeginInvoke
 // Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_GetLastPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_GetLastPoses::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetLastPoses*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetLastPoses::EndInvoke
 // Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_GetLastPoses::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_GetLastPoses::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetLastPoses*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

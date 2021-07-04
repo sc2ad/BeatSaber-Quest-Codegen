@@ -227,207 +227,77 @@ namespace UnityEngine::TestTools::Logging {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.TestTools.Logging", "LogScope");
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::get_ExpectedLogs
 // Il2CppName: get_ExpectedLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_ExpectedLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_ExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_ExpectedLogs
 // Il2CppName: set_ExpectedLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>*)>(&UnityEngine::TestTools::Logging::LogScope::set_ExpectedLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_ExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::get_AllLogs
 // Il2CppName: get_AllLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_AllLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_AllLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::get_FailingLogs
 // Il2CppName: get_FailingLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_FailingLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_FailingLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::get_IgnoreFailingMessages
 // Il2CppName: get_IgnoreFailingMessages
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_IgnoreFailingMessages)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_IgnoreFailingMessages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_IgnoreFailingMessages
 // Il2CppName: set_IgnoreFailingMessages
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IgnoreFailingMessages)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IgnoreFailingMessages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_IsNUnitException
 // Il2CppName: set_IsNUnitException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_IsNUnitSuccessException
 // Il2CppName: set_IsNUnitSuccessException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitSuccessException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitSuccessException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_IsNUnitInconclusiveException
 // Il2CppName: set_IsNUnitInconclusiveException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitInconclusiveException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitInconclusiveException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_IsNUnitIgnoreException
 // Il2CppName: set_IsNUnitIgnoreException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitIgnoreException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitIgnoreException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage
 // Il2CppName: set_NUnitExceptionMessage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_NUnitExceptionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::Activate
 // Il2CppName: Activate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Activate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::Deactivate
 // Il2CppName: Deactivate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Deactivate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::RegisterScope
 // Il2CppName: RegisterScope
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestTools::Logging::LogScope*)>(&UnityEngine::TestTools::Logging::LogScope::RegisterScope)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "RegisterScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogScope*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::UnregisterScope
 // Il2CppName: UnregisterScope
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestTools::Logging::LogScope*)>(&UnityEngine::TestTools::Logging::LogScope::UnregisterScope)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "UnregisterScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogScope*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::AddLog
 // Il2CppName: AddLog
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::AddLog)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "AddLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException
 // Il2CppName: IsNUnitResultStateException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "IsNUnitResultStateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::IsFailingLog
 // Il2CppName: IsFailingLog
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsFailingLog)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "IsFailingLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::Dispose
 // Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::Dispose
 // Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::AnyFailingLogs
 // Il2CppName: AnyFailingLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::AnyFailingLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "AnyFailingLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::ProcessExpectedLogs
 // Il2CppName: ProcessExpectedLogs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::ProcessExpectedLogs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "ProcessExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::NoUnexpectedReceived
 // Il2CppName: NoUnexpectedReceived
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::NoUnexpectedReceived)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "NoUnexpectedReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::Logging::LogScope::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -30,9 +30,4 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICloseEx*, "System.Net", "ICloseEx");
 // Writing MetadataGetter for method: System::Net::ICloseEx::CloseEx
 // Il2CppName: CloseEx
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ICloseEx::*)(System::Net::CloseExState)>(&System::Net::ICloseEx::CloseEx)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::ICloseEx*), "CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CloseExState>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -59,39 +59,14 @@ namespace Valve::VR {
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_DestroyOverlay*, "Valve.VR", "IVROverlay/_DestroyOverlay");
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_DestroyOverlay::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_DestroyOverlay::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVROverlay::_DestroyOverlay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_DestroyOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_DestroyOverlay::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVROverlay::_DestroyOverlay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_DestroyOverlay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_DestroyOverlay::Invoke
 // Il2CppName: Invoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_DestroyOverlay::*)(uint64_t)>(&Valve::VR::IVROverlay::_DestroyOverlay::Invoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_DestroyOverlay*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_DestroyOverlay::BeginInvoke
 // Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_DestroyOverlay::*)(uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_DestroyOverlay::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_DestroyOverlay*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_DestroyOverlay::EndInvoke
 // Il2CppName: EndInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_DestroyOverlay::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_DestroyOverlay::EndInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_DestroyOverlay*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

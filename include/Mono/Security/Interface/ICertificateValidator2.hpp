@@ -46,9 +46,4 @@ namespace Mono::Security::Interface {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ICertificateValidator2*, "Mono.Security.Interface", "ICertificateValidator2");
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator2::ValidateCertificate
 // Il2CppName: ValidateCertificate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Security::Interface::ICertificateValidator2::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&Mono::Security::Interface::ICertificateValidator2::ValidateCertificate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ICertificateValidator2*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

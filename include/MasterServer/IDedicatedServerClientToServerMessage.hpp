@@ -36,17 +36,7 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IDedicatedServerClientToServerMessage*, "MasterServer", "IDedicatedServerClientToServerMessage");
 // Writing MetadataGetter for method: MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IDedicatedServerClientToServerMessage::*)()>(&MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IDedicatedServerClientToServerMessage*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerCreationTime
 // Il2CppName: get_dedicatedServerCreationTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MasterServer::IDedicatedServerClientToServerMessage::*)()>(&MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerCreationTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IDedicatedServerClientToServerMessage*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

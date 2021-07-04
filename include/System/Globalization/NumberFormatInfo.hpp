@@ -421,365 +421,135 @@ namespace System::Globalization {
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnSerializing
 // Il2CppName: OnSerializing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnSerializing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnDeserializing
 // Il2CppName: OnDeserializing
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnDeserializing)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnDeserialized
 // Il2CppName: OnDeserialized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnDeserialized)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::VerifyGroupSeparator
 // Il2CppName: VerifyGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "VerifyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Globalization::CultureData*)>(&System::Globalization::NumberFormatInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureData*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Globalization::CultureData*)>(&System::Globalization::NumberFormatInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureData*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::VerifyWritable
 // Il2CppName: VerifyWritable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::VerifyWritable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "VerifyWritable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_InvariantInfo
 // Il2CppName: get_InvariantInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)()>(&System::Globalization::NumberFormatInfo::get_InvariantInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_InvariantInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::GetInstance
 // Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)(System::IFormatProvider*)>(&System::Globalization::NumberFormatInfo::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::Clone
 // Il2CppName: Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::Clone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyDecimalDigits
 // Il2CppName: get_CurrencyDecimalDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyDecimalDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyDecimalDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator
 // Il2CppName: get_CurrencyDecimalSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_IsReadOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes
 // Il2CppName: get_CurrencyGroupSizes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberGroupSizes
 // Il2CppName: get_NumberGroupSizes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSizes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentGroupSizes
 // Il2CppName: get_PercentGroupSizes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSizes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator
 // Il2CppName: get_CurrencyGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator
 // Il2CppName: set_CurrencyGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencySymbol
 // Il2CppName: get_CurrencySymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencySymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrentInfo
 // Il2CppName: get_CurrentInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)()>(&System::Globalization::NumberFormatInfo::get_CurrentInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NaNSymbol
 // Il2CppName: get_NaNSymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NaNSymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NaNSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyNegativePattern
 // Il2CppName: get_CurrencyNegativePattern
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyNegativePattern)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyNegativePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberNegativePattern
 // Il2CppName: get_NumberNegativePattern
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberNegativePattern)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberNegativePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentPositivePattern
 // Il2CppName: get_PercentPositivePattern
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentPositivePattern)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentPositivePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentNegativePattern
 // Il2CppName: get_PercentNegativePattern
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentNegativePattern)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentNegativePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol
 // Il2CppName: get_NegativeInfinitySymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NegativeInfinitySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NegativeSign
 // Il2CppName: get_NegativeSign
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeSign)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NegativeSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberDecimalDigits
 // Il2CppName: get_NumberDecimalDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberDecimalDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberDecimalDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator
 // Il2CppName: get_NumberDecimalSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberGroupSeparator
 // Il2CppName: get_NumberGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_NumberGroupSeparator
 // Il2CppName: set_NumberGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyPositivePattern
 // Il2CppName: get_CurrencyPositivePattern
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyPositivePattern)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyPositivePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol
 // Il2CppName: get_PositiveInfinitySymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PositiveInfinitySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PositiveSign
 // Il2CppName: get_PositiveSign
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveSign)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PositiveSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentDecimalDigits
 // Il2CppName: get_PercentDecimalDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentDecimalDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentDecimalDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator
 // Il2CppName: get_PercentDecimalSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentGroupSeparator
 // Il2CppName: get_PercentGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_PercentGroupSeparator
 // Il2CppName: set_PercentGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_PercentGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentSymbol
 // Il2CppName: get_PercentSymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentSymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PerMilleSymbol
 // Il2CppName: get_PerMilleSymbol
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PerMilleSymbol)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PerMilleSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::GetFormat
 // Il2CppName: GetFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::NumberFormatInfo::*)(System::Type*)>(&System::Globalization::NumberFormatInfo::GetFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ReadOnly
 // Il2CppName: ReadOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)(System::Globalization::NumberFormatInfo*)>(&System::Globalization::NumberFormatInfo::ReadOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ValidateParseStyleInteger
 // Il2CppName: ValidateParseStyleInteger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberStyles)>(&System::Globalization::NumberFormatInfo::ValidateParseStyleInteger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint
 // Il2CppName: ValidateParseStyleFloatingPoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberStyles)>(&System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleFloatingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

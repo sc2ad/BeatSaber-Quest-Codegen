@@ -134,87 +134,32 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::CreateLocalDataStore
 // Il2CppName: CreateLocalDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreHolder* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::CreateLocalDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "CreateLocalDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::DeleteLocalDataStore
 // Il2CppName: DeleteLocalDataStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(System::LocalDataStore*)>(&System::LocalDataStoreMgr::DeleteLocalDataStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "DeleteLocalDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStore*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::AllocateDataSlot
 // Il2CppName: AllocateDataSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::AllocateDataSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "AllocateDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::AllocateNamedDataSlot
 // Il2CppName: AllocateNamedDataSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::Il2CppString*)>(&System::LocalDataStoreMgr::AllocateNamedDataSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::GetNamedDataSlot
 // Il2CppName: GetNamedDataSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::Il2CppString*)>(&System::LocalDataStoreMgr::GetNamedDataSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::FreeNamedDataSlot
 // Il2CppName: FreeNamedDataSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(::Il2CppString*)>(&System::LocalDataStoreMgr::FreeNamedDataSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::FreeDataSlot
 // Il2CppName: FreeDataSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(int, int64_t)>(&System::LocalDataStoreMgr::FreeDataSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "FreeDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::ValidateSlot
 // Il2CppName: ValidateSlot
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(System::LocalDataStoreSlot*)>(&System::LocalDataStoreMgr::ValidateSlot)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "ValidateSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::LocalDataStoreSlot*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::GetSlotTableLength
 // Il2CppName: GetSlotTableLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::GetSlotTableLength)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "GetSlotTableLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

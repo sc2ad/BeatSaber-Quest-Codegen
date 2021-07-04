@@ -71,55 +71,20 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPv6AddressFormatter::*)(::Array<uint16_t>*, int64_t)>(&System::Net::IPv6AddressFormatter::IPv6AddressFormatter<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPv6AddressFormatter::*)(::Array<uint16_t>*, int64_t)>(&System::Net::IPv6AddressFormatter::IPv6AddressFormatter<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::SwapUShort
 // Il2CppName: SwapUShort
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&System::Net::IPv6AddressFormatter::SwapUShort)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "SwapUShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::AsIPv4Int
 // Il2CppName: AsIPv4Int
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Net::IPv6AddressFormatter::*)()>(&System::Net::IPv6AddressFormatter::AsIPv4Int)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "AsIPv4Int", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IsIPv4Compatible
 // Il2CppName: IsIPv4Compatible
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IPv6AddressFormatter::*)()>(&System::Net::IPv6AddressFormatter::IsIPv4Compatible)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "IsIPv4Compatible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IsIPv4Mapped
 // Il2CppName: IsIPv4Mapped
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IPv6AddressFormatter::*)()>(&System::Net::IPv6AddressFormatter::IsIPv4Mapped)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "IsIPv4Mapped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::IPv6AddressFormatter::*)()>(&System::Net::IPv6AddressFormatter::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

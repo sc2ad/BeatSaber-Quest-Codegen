@@ -184,36 +184,16 @@ namespace ModestTree {
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUtil");
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::CreateArray
 // Il2CppName: CreateArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ModestTree::ReflectionUtil::CreateArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "CreateArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::CreateGenericList
 // Il2CppName: CreateGenericList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ModestTree::ReflectionUtil::CreateGenericList)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "CreateGenericList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::ToDebugString
 // Il2CppName: ToDebugString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodInfo*)>(&ModestTree::ReflectionUtil::ToDebugString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "ToDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::ToDebugString
 // Il2CppName: ToDebugString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Action*)>(&ModestTree::ReflectionUtil::ToDebugString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "ToDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::ToDebugString
 // Il2CppName: ToDebugString
 // Cannot write MetadataGetter for generic methods!

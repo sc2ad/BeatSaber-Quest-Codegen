@@ -54,89 +54,34 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::DomainNameHelper*, "System", "DomainNameHelper");
 // Writing MetadataGetter for method: System::DomainNameHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&System::DomainNameHelper::ParseCanonicalName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "ParseCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsValid
 // Il2CppName: IsValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool&, bool)>(&System::DomainNameHelper::IsValid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsValidByIri
 // Il2CppName: IsValidByIri
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool&, bool)>(&System::DomainNameHelper::IsValidByIri)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsValidByIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IdnEquivalent
 // Il2CppName: IdnEquivalent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, bool&)>(&System::DomainNameHelper::IdnEquivalent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IdnEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IdnEquivalent
 // Il2CppName: IdnEquivalent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, ::Il2CppString*&)>(&System::DomainNameHelper::IdnEquivalent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IdnEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsIdnAce
 // Il2CppName: IsIdnAce
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::DomainNameHelper::IsIdnAce)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsIdnAce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsIdnAce
 // Il2CppName: IsIdnAce
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int)>(&System::DomainNameHelper::IsIdnAce)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsIdnAce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::UnicodeEquivalent
 // Il2CppName: UnicodeEquivalent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppChar*, int, int)>(&System::DomainNameHelper::UnicodeEquivalent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "UnicodeEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::UnicodeEquivalent
 // Il2CppName: UnicodeEquivalent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, bool&)>(&System::DomainNameHelper::UnicodeEquivalent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "UnicodeEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsASCIILetterOrDigit
 // Il2CppName: IsASCIILetterOrDigit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool&)>(&System::DomainNameHelper::IsASCIILetterOrDigit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsASCIILetterOrDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DomainNameHelper::IsValidDomainLabelCharacter
 // Il2CppName: IsValidDomainLabelCharacter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool&)>(&System::DomainNameHelper::IsValidDomainLabelCharacter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsValidDomainLabelCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

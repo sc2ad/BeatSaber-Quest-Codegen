@@ -355,537 +355,192 @@ namespace System::Text {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*, int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*, int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*, int, int, int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*, int, int, int)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::StringBuilder::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_Capacity
 // Il2CppName: get_Capacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::get_Capacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "get_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::set_Capacity
 // Il2CppName: set_Capacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::set_Capacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "set_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_MaxCapacity
 // Il2CppName: get_MaxCapacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::get_MaxCapacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "get_MaxCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::EnsureCapacity
 // Il2CppName: EnsureCapacity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::EnsureCapacity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "EnsureCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::StringBuilder::*)(int, int)>(&System::Text::StringBuilder::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Clear
 // Il2CppName: Clear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::Clear)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_Length
 // Il2CppName: get_Length
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::get_Length)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::set_Length
 // Il2CppName: set_Length
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::set_Length)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "set_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_Chars
 // Il2CppName: get_Chars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::get_Chars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "get_Chars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::set_Chars
 // Il2CppName: set_Chars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, ::Il2CppChar)>(&System::Text::StringBuilder::set_Chars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "set_Chars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar, int)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendHelper
 // Il2CppName: AppendHelper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Il2CppString*)>(&System::Text::StringBuilder::AppendHelper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, int, int)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendLine
 // Il2CppName: AppendLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::AppendLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendLine
 // Il2CppName: AppendLine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*)>(&System::Text::StringBuilder::AppendLine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::Il2CppString*, int)>(&System::Text::StringBuilder::Insert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Remove
 // Il2CppName: Remove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, int)>(&System::Text::StringBuilder::Remove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(bool)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(uint8_t)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int64_t)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(double)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppObject*)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::Il2CppString*)>(&System::Text::StringBuilder::Insert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::Il2CppChar)>(&System::Text::StringBuilder::Insert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Text::StringBuilder::AppendFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::FormatError
 // Il2CppName: FormatError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Text::StringBuilder::FormatError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "FormatError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormatHelper
 // Il2CppName: AppendFormatHelper
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, System::ParamsArray)>(&System::Text::StringBuilder::AppendFormatHelper)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormatHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::ParamsArray>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Replace
 // Il2CppName: Replace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Il2CppString*)>(&System::Text::StringBuilder::Replace)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Replace
 // Il2CppName: Replace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&System::Text::StringBuilder::Replace)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Replace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar*, int)>(&System::Text::StringBuilder::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, ::Il2CppChar*, int)>(&System::Text::StringBuilder::Insert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ReplaceAllInChunk
 // Il2CppName: ReplaceAllInChunk
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Array<int>*, int, System::Text::StringBuilder*, int, ::Il2CppString*)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ReplaceAllInChunk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::StartsWith
 // Il2CppName: StartsWith
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::StringBuilder::*)(System::Text::StringBuilder*, int, int, ::Il2CppString*)>(&System::Text::StringBuilder::StartsWith)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ReplaceInPlaceAtChunk
 // Il2CppName: ReplaceInPlaceAtChunk
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Text::StringBuilder*&, int&, ::Il2CppChar*, int)>(&System::Text::StringBuilder::ReplaceInPlaceAtChunk)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ReplaceInPlaceAtChunk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ThreadSafeCopy
 // Il2CppName: ThreadSafeCopy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ThreadSafeCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ThreadSafeCopy
 // Il2CppName: ThreadSafeCopy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<::Il2CppChar>*, int, ::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ThreadSafeCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::FindChunkForIndex
 // Il2CppName: FindChunkForIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::FindChunkForIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "FindChunkForIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Next
 // Il2CppName: Next
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::Text::StringBuilder*)>(&System::Text::StringBuilder::Next)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ExpandByABlock
 // Il2CppName: ExpandByABlock
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::ExpandByABlock)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ExpandByABlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Text::StringBuilder*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Text::StringBuilder*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::MakeRoom
 // Il2CppName: MakeRoom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, System::Text::StringBuilder*&, int&, bool)>(&System::Text::StringBuilder::MakeRoom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "MakeRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, System::Text::StringBuilder*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, System::Text::StringBuilder*)>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::Remove
 // Il2CppName: Remove
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, System::Text::StringBuilder*&, int&)>(&System::Text::StringBuilder::Remove)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::StringBuilder::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

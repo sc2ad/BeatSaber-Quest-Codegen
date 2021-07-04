@@ -69,47 +69,17 @@ namespace JetBrains::Annotations {
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName
 // Il2CppName: get_TagName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(&JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "get_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName
 // Il2CppName: set_TagName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "set_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType
 // Il2CppName: get_ControlType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(&JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "get_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType
 // Il2CppName: set_ControlType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "set_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -79,47 +79,17 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$$c*, "", "CentralLeaderboardViewController/<>c");
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CentralLeaderboardViewController::$$c::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1
 // Il2CppName: <DidActivate>b__26_1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<DidActivate>b__26_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_2
 // Il2CppName: <DidActivate>b__26_2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControl::DataItem* (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<DidActivate>b__26_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$LoadScoresAsync$b__37_0
 // Il2CppName: <LoadScoresAsync>b__37_0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::GameplayModifierParamsSO*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$LoadScoresAsync$b__37_0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<LoadScoresAsync>b__37_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierParamsSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CentralLeaderboardViewController::$$c::*)()>(&GlobalNamespace::CentralLeaderboardViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CentralLeaderboardViewController::$$c::*)()>(&GlobalNamespace::CentralLeaderboardViewController::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

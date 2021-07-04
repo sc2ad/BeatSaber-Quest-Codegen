@@ -27,9 +27,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataExtensions::Name
 // Il2CppName: Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MissionObjective::ReferenceValueComparisonType)>(&GlobalNamespace::MissionDataExtensions::Name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataExtensions*), "Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective::ReferenceValueComparisonType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

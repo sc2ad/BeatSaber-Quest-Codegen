@@ -92,31 +92,11 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackInfo::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationCallbackInfo::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, System::Threading::SynchronizationContext*, System::Threading::ExecutionContext*, System::Threading::CancellationTokenSource*)>(&System::Threading::CancellationCallbackInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationCallbackInfo::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, System::Threading::SynchronizationContext*, System::Threading::ExecutionContext*, System::Threading::CancellationTokenSource*)>(&System::Threading::CancellationCallbackInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationTokenSource*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackInfo::ExecuteCallback
 // Il2CppName: ExecuteCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationCallbackInfo::*)()>(&System::Threading::CancellationCallbackInfo::ExecuteCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackInfo*), "ExecuteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackInfo::ExecutionContextCallback
 // Il2CppName: ExecutionContextCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::CancellationCallbackInfo::ExecutionContextCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackInfo*), "ExecutionContextCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

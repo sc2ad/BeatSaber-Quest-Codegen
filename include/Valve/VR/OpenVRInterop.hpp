@@ -71,79 +71,29 @@ namespace Valve::VR {
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVRInterop*, "Valve.VR", "OpenVRInterop");
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::InitInternal
 // Il2CppName: InitInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&Valve::VR::OpenVRInterop::InitInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "InitInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::ShutdownInternal
 // Il2CppName: ShutdownInternal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Valve::VR::OpenVRInterop::ShutdownInternal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "ShutdownInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::IsHmdPresent
 // Il2CppName: IsHmdPresent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Valve::VR::OpenVRInterop::IsHmdPresent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "IsHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::IsRuntimeInstalled
 // Il2CppName: IsRuntimeInstalled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Valve::VR::OpenVRInterop::IsRuntimeInstalled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "IsRuntimeInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::GetStringForHmdError
 // Il2CppName: GetStringForHmdError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(Valve::VR::EVRInitError)>(&Valve::VR::OpenVRInterop::GetStringForHmdError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "GetStringForHmdError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::GetGenericInterface
 // Il2CppName: GetGenericInterface
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*&, Valve::VR::EVRInitError&)>(&Valve::VR::OpenVRInterop::GetGenericInterface)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "GetGenericInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::IsInterfaceVersionValid
 // Il2CppName: IsInterfaceVersionValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*&)>(&Valve::VR::OpenVRInterop::IsInterfaceVersionValid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "IsInterfaceVersionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::GetInitToken
 // Il2CppName: GetInitToken
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&Valve::VR::OpenVRInterop::GetInitToken)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), "GetInitToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::OpenVRInterop::*)()>(&Valve::VR::OpenVRInterop::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::OpenVRInterop::*)()>(&Valve::VR::OpenVRInterop::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVRInterop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

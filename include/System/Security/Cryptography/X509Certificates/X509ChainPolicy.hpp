@@ -155,117 +155,42 @@ namespace System::Security::Cryptography::X509Certificates {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_ExtraStore
 // Il2CppName: get_ExtraStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_ExtraStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "get_ExtraStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationFlag
 // Il2CppName: get_RevocationFlag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509RevocationFlag (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationFlag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "get_RevocationFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationFlag
 // Il2CppName: set_RevocationFlag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509RevocationFlag)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationFlag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "set_RevocationFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509RevocationFlag>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationMode
 // Il2CppName: get_RevocationMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509RevocationMode (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "get_RevocationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationMode
 // Il2CppName: set_RevocationMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "set_RevocationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509RevocationMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_UrlRetrievalTimeout
 // Il2CppName: set_UrlRetrievalTimeout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::TimeSpan)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_UrlRetrievalTimeout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "set_UrlRetrievalTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationFlags
 // Il2CppName: get_VerificationFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509VerificationFlags (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "get_VerificationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationFlags
 // Il2CppName: set_VerificationFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509VerificationFlags)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationFlags)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "set_VerificationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509VerificationFlags>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationTime
 // Il2CppName: get_VerificationTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "get_VerificationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationTime
 // Il2CppName: set_VerificationTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(System::DateTime)>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "set_VerificationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::Reset
 // Il2CppName: Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

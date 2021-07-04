@@ -23,9 +23,4 @@ namespace Polyglot {
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::ILocalize*, "Polyglot", "ILocalize");
 // Writing MetadataGetter for method: Polyglot::ILocalize::OnLocalize
 // Il2CppName: OnLocalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::ILocalize::*)()>(&Polyglot::ILocalize::OnLocalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::ILocalize*), "OnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

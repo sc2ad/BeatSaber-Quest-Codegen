@@ -60,28 +60,13 @@ namespace System::Threading::Tasks {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.Tasks", "TaskToApm");
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::Begin
 // Il2CppName: Begin
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Threading::Tasks::TaskToApm::Begin)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::End
 // Il2CppName: End
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&System::Threading::Tasks::TaskToApm::End)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm*), "End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::End
 // Il2CppName: End
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::InvokeCallbackWhenTaskCompletes
 // Il2CppName: InvokeCallbackWhenTaskCompletes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, System::IAsyncResult*)>(&System::Threading::Tasks::TaskToApm::InvokeCallbackWhenTaskCompletes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm*), "InvokeCallbackWhenTaskCompletes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

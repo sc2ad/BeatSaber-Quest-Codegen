@@ -41,9 +41,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMasterServerAvailabilityModel*, "", "IMasterServerAvailabilityModel");
 // Writing MetadataGetter for method: GlobalNamespace::IMasterServerAvailabilityModel::GetAvailabilityAsync
 // Il2CppName: GetAvailabilityAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* (GlobalNamespace::IMasterServerAvailabilityModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IMasterServerAvailabilityModel::GetAvailabilityAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMasterServerAvailabilityModel*), "GetAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

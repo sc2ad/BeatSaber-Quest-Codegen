@@ -120,207 +120,77 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::MainModule
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::MainModule::MainModule<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::MainModule::MainModule<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_duration
 // Il2CppName: get_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_loop
 // Il2CppName: get_loop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_loop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startLifetime
 // Il2CppName: get_startLifetime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem::MinMaxCurve (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_startLifetime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startLifetime
 // Il2CppName: set_startLifetime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxCurve)>(&UnityEngine::ParticleSystem::MainModule::set_startLifetime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeed
 // Il2CppName: get_startSpeed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem::MinMaxCurve (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_startSpeed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeed
 // Il2CppName: set_startSpeed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxCurve)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier
 // Il2CppName: get_startSpeedMultiplier
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeedMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier
 // Il2CppName: set_startSpeedMultiplier
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(float)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startColor
 // Il2CppName: get_startColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem::MinMaxGradient (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_startColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startColor
 // Il2CppName: set_startColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxGradient)>(&UnityEngine::ParticleSystem::MainModule::set_startColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_maxParticles
 // Il2CppName: get_maxParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::MainModule::*)()>(&UnityEngine::ParticleSystem::MainModule::get_maxParticles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_maxParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_maxParticles
 // Il2CppName: set_maxParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(int)>(&UnityEngine::ParticleSystem::MainModule::set_maxParticles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_duration_Injected
 // Il2CppName: get_duration_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_duration_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_duration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_loop_Injected
 // Il2CppName: get_loop_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_loop_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_loop_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startLifetime_Injected
 // Il2CppName: get_startLifetime_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::get_startLifetime_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startLifetime_Injected
 // Il2CppName: set_startLifetime_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::set_startLifetime_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeed_Injected
 // Il2CppName: get_startSpeed_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::get_startSpeed_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeed_Injected
 // Il2CppName: set_startSpeed_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeed_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier_Injected
 // Il2CppName: get_startSpeedMultiplier_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier_Injected
 // Il2CppName: set_startSpeedMultiplier_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, float)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startColor_Injected
 // Il2CppName: get_startColor_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxGradient&)>(&UnityEngine::ParticleSystem::MainModule::get_startColor_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startColor_Injected
 // Il2CppName: set_startColor_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxGradient&)>(&UnityEngine::ParticleSystem::MainModule::set_startColor_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_maxParticles_Injected
 // Il2CppName: get_maxParticles_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_maxParticles_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_maxParticles_Injected
 // Il2CppName: set_maxParticles_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, int)>(&UnityEngine::ParticleSystem::MainModule::set_maxParticles_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -42,9 +42,4 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "Iso18033KdfParameters");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed
 // Il2CppName: GetSeed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters*), "GetSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

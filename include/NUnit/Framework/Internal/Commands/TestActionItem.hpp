@@ -63,31 +63,11 @@ namespace NUnit::Framework::Internal::Commands {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestActionItem*, "NUnit.Framework.Internal.Commands", "TestActionItem");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestActionItem::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::ITestAction*)>(&NUnit::Framework::Internal::Commands::TestActionItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::ITestAction*)>(&NUnit::Framework::Internal::Commands::TestActionItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestActionItem::BeforeTest
 // Il2CppName: BeforeTest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::BeforeTest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestActionItem::AfterTest
 // Il2CppName: AfterTest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::AfterTest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

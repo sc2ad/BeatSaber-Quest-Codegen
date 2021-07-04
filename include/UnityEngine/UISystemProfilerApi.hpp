@@ -41,25 +41,10 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi*, "UnityEngine", "UISystemProfilerApi");
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::BeginSample
 // Il2CppName: BeginSample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::BeginSample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "BeginSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::EndSample
 // Il2CppName: EndSample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::EndSample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "EndSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::AddMarker
 // Il2CppName: AddMarker
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Object*)>(&UnityEngine::UISystemProfilerApi::AddMarker)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

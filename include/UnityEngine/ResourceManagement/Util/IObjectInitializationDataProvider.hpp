@@ -36,17 +36,7 @@ namespace UnityEngine::ResourceManagement::Util {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name
 // Il2CppName: get_Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::CreateObjectInitializationData
 // Il2CppName: CreateObjectInitializationData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::ObjectInitializationData (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::CreateObjectInitializationData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*), "CreateObjectInitializationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

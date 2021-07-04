@@ -48,33 +48,13 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventDataExtension*, "UnityEngine.EventSystems", "PointerEventDataExtension");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer
 // Il2CppName: IsVRPointer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "IsVRPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventDataExtension::GetRay
 // Il2CppName: GetRay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::GetRay)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "GetRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart
 // Il2CppName: GetSwipeStart
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "GetSwipeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart
 // Il2CppName: SetSwipeStart
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "SetSwipeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

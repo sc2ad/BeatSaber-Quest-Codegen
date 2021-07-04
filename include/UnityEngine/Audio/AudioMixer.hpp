@@ -43,25 +43,10 @@ namespace UnityEngine::Audio {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::set_updateMode
 // Il2CppName: set_updateMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioMixer::*)(UnityEngine::Audio::AudioMixerUpdateMode)>(&UnityEngine::Audio::AudioMixer::set_updateMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixer*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Audio::AudioMixerUpdateMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::SetFloat
 // Il2CppName: SetFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixer::*)(::Il2CppString*, float)>(&UnityEngine::Audio::AudioMixer::SetFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixer*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::GetFloat
 // Il2CppName: GetFloat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixer::*)(::Il2CppString*, float&)>(&UnityEngine::Audio::AudioMixer::GetFloat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixer*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

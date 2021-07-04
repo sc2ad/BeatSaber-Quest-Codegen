@@ -88,39 +88,14 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite
 // Il2CppName: SetStartSprite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetStartSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite
 // Il2CppName: SetMiddleSprite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetMiddleSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite
 // Il2CppName: SetEndSprite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetEndSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

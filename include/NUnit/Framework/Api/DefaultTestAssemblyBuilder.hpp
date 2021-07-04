@@ -109,63 +109,23 @@ namespace NUnit::Framework::Api {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::Il2CppString*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures
 // Il2CppName: GetFixtures
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "GetFixtures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IList*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes
 // Il2CppName: GetCandidateFixtureTypes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Type*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "GetCandidateFixtureTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IList*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly
 // Il2CppName: BuildTestAssembly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::Il2CppString*, System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "BuildTestAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)()>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)()>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

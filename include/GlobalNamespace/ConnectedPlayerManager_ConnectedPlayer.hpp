@@ -272,287 +272,107 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, "", "ConnectedPlayerManager/ConnectedPlayer");
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connection
 // Il2CppName: get_connection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connectionId
 // Il2CppName: get_connectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connectionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_connectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_remoteConnectionId
 // Il2CppName: get_remoteConnectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_remoteConnectionId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_remoteConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnected
 // Il2CppName: get_isConnected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnectionOwner)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isKicked
 // Il2CppName: get_isKicked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isKicked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_disconnectedReason
 // Il2CppName: get_disconnectedReason
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_disconnectedReason)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_sortIndex
 // Il2CppName: get_sortIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_sortIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_sortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userId
 // Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userName
 // Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isMe
 // Il2CppName: get_isMe
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isMe)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_currentLatency
 // Il2CppName: get_currentLatency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_currentLatency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_currentLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_offsetSyncTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_multiplayerAvatarData
 // Il2CppName: get_multiplayerAvatarData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_multiplayerAvatarData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isDirectConnection
 // Il2CppName: get_isDirectConnection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isDirectConnection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isDirectConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, uint8_t, GlobalNamespace::IConnection*, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, ::Il2CppString*, ::Il2CppString*, bool, bool)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, uint8_t, GlobalNamespace::IConnection*, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, ::Il2CppString*, ::Il2CppString*, bool, bool)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateLocalPlayer
 // Il2CppName: CreateLocalPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateLocalPlayer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "CreateLocalPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateDirectlyConnectedPlayer
 // Il2CppName: CreateDirectlyConnectedPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, GlobalNamespace::IConnection*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateDirectlyConnectedPlayer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "CreateDirectlyConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateRemoteConnectedPlayer
 // Il2CppName: CreateRemoteConnectedPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateRemoteConnectedPlayer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "CreateRemoteConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerConnectedPacket
 // Il2CppName: GetPlayerConnectedPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerConnectedPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerConnectedPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerIdentityPacket
 // Il2CppName: GetPlayerIdentityPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerIdentityPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerIdentityPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerStatePacket
 // Il2CppName: GetPlayerStatePacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerStatePacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerStatePacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerAvatarPacket
 // Il2CppName: GetPlayerAvatarPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerAvatarPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerAvatarPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerSortOrderPacket
 // Il2CppName: GetPlayerSortOrderPacket
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerSortOrderPacket)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerSortOrderPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::Disconnect
 // Il2CppName: Disconnect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::Disconnect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateLatency
 // Il2CppName: UpdateLatency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(float)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateLatency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateSortIndex
 // Il2CppName: UpdateSortIndex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(int)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateSortIndex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateSortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetKicked
 // Il2CppName: SetKicked
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetKicked)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateIdentity
 // Il2CppName: UpdateIdentity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateIdentity)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateState
 // Il2CppName: UpdateState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateAvatar
 // Il2CppName: UpdateAvatar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateAvatar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::HasState
 // Il2CppName: HasState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(::Il2CppString*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::HasState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerState
 // Il2CppName: SetPlayerState
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::PlayerStateHash)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerState)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetPlayerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerAvatar
 // Il2CppName: SetPlayerAvatar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerAvatar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetPlayerAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

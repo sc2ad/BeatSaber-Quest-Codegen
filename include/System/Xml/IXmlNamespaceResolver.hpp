@@ -29,17 +29,7 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
 // Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupNamespace
 // Il2CppName: LookupNamespace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::IXmlNamespaceResolver::*)(::Il2CppString*)>(&System::Xml::IXmlNamespaceResolver::LookupNamespace)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupPrefix
 // Il2CppName: LookupPrefix
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::IXmlNamespaceResolver::*)(::Il2CppString*)>(&System::Xml::IXmlNamespaceResolver::LookupPrefix)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

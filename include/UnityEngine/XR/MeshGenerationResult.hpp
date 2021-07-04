@@ -121,65 +121,25 @@ namespace UnityEngine::XR {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_MeshId
 // Il2CppName: get_MeshId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshId (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::get_MeshId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "get_MeshId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_Mesh
 // Il2CppName: get_Mesh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::get_Mesh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "get_Mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_MeshCollider
 // Il2CppName: get_MeshCollider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshCollider* (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::get_MeshCollider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "get_MeshCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_Status
 // Il2CppName: get_Status
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshGenerationStatus (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::get_Status)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_Attributes
 // Il2CppName: get_Attributes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::MeshVertexAttributes (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::get_Attributes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::MeshGenerationResult::*)(UnityEngine::XR::MeshGenerationResult)>(&UnityEngine::XR::MeshGenerationResult::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::MeshGenerationResult::*)(::Il2CppObject*)>(&UnityEngine::XR::MeshGenerationResult::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::XR::MeshGenerationResult::*)()>(&UnityEngine::XR::MeshGenerationResult::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshGenerationResult), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

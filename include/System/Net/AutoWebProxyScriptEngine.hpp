@@ -40,17 +40,7 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine*, "System.Net", "AutoWebProxyScriptEngine");
 // Writing MetadataGetter for method: System::Net::AutoWebProxyScriptEngine::GetProxies
 // Il2CppName: GetProxies
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::AutoWebProxyScriptEngine*), "GetProxies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::AutoWebProxyScriptEngine::GetProxies
 // Il2CppName: GetProxies
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&, int&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::AutoWebProxyScriptEngine*), "GetProxies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

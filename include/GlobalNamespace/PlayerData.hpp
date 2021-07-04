@@ -506,629 +506,234 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerId
 // Il2CppName: get_playerId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerId
 // Il2CppName: set_playerId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*)>(&GlobalNamespace::PlayerData::set_playerId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerName
 // Il2CppName: get_playerName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerName
 // Il2CppName: set_playerName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*)>(&GlobalNamespace::PlayerData::set_playerName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_shouldShowTutorialPrompt
 // Il2CppName: get_shouldShowTutorialPrompt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_shouldShowTutorialPrompt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_shouldShowTutorialPrompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_shouldShowTutorialPrompt
 // Il2CppName: set_shouldShowTutorialPrompt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_shouldShowTutorialPrompt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_shouldShowTutorialPrompt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_shouldShow360Warning
 // Il2CppName: get_shouldShow360Warning
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_shouldShow360Warning)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_shouldShow360Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_shouldShow360Warning
 // Il2CppName: set_shouldShow360Warning
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_shouldShow360Warning)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_shouldShow360Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_agreedToEula
 // Il2CppName: get_agreedToEula
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_agreedToEula)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_agreedToEula", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_agreedToEula
 // Il2CppName: set_agreedToEula
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_agreedToEula)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_agreedToEula", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_didSelectLanguage
 // Il2CppName: get_didSelectLanguage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_didSelectLanguage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_didSelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_didSelectLanguage
 // Il2CppName: set_didSelectLanguage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_didSelectLanguage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_didSelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_agreedToMultiplayerDisclaimer
 // Il2CppName: get_agreedToMultiplayerDisclaimer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_agreedToMultiplayerDisclaimer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_agreedToMultiplayerDisclaimer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_agreedToMultiplayerDisclaimer
 // Il2CppName: set_agreedToMultiplayerDisclaimer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_agreedToMultiplayerDisclaimer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_agreedToMultiplayerDisclaimer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_avatarCreated
 // Il2CppName: get_avatarCreated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_avatarCreated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_avatarCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_avatarCreated
 // Il2CppName: set_avatarCreated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_avatarCreated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_avatarCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_shareMultiplayerLobbyCodeInRichPresence
 // Il2CppName: get_shareMultiplayerLobbyCodeInRichPresence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_shareMultiplayerLobbyCodeInRichPresence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_shareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_shareMultiplayerLobbyCodeInRichPresence
 // Il2CppName: set_shareMultiplayerLobbyCodeInRichPresence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::set_shareMultiplayerLobbyCodeInRichPresence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_shareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_lastSelectedBeatmapDifficulty
 // Il2CppName: get_lastSelectedBeatmapDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapDifficulty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_lastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_lastSelectedBeatmapDifficulty
 // Il2CppName: set_lastSelectedBeatmapDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapDifficulty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_lastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_lastSelectedBeatmapCharacteristic
 // Il2CppName: get_lastSelectedBeatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapCharacteristic)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_lastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_lastSelectedBeatmapCharacteristic
 // Il2CppName: set_lastSelectedBeatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapCharacteristic)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_lastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_gameplayModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_gameplayModifiers
 // Il2CppName: set_gameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::set_gameplayModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerSpecificSettings
 // Il2CppName: get_playerSpecificSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerSpecificSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerSpecificSettings
 // Il2CppName: set_playerSpecificSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::set_playerSpecificSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_practiceSettings
 // Il2CppName: get_practiceSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_practiceSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_practiceSettings
 // Il2CppName: set_practiceSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PracticeSettings*)>(&GlobalNamespace::PlayerData::set_practiceSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerAllOverallStatsData
 // Il2CppName: get_playerAllOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerAllOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerAllOverallStatsData
 // Il2CppName: set_playerAllOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerData::set_playerAllOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_levelsStatsData
 // Il2CppName: get_levelsStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_levelsStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_levelsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_levelsStatsData
 // Il2CppName: set_levelsStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*)>(&GlobalNamespace::PlayerData::set_levelsStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_levelsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_missionsStatsData
 // Il2CppName: get_missionsStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_missionsStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_missionsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_missionsStatsData
 // Il2CppName: set_missionsStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*)>(&GlobalNamespace::PlayerData::set_missionsStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_missionsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_showedMissionHelpIds
 // Il2CppName: get_showedMissionHelpIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_showedMissionHelpIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_showedMissionHelpIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_showedMissionHelpIds
 // Il2CppName: set_showedMissionHelpIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GlobalNamespace::PlayerData::set_showedMissionHelpIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_showedMissionHelpIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_guestPlayerNames
 // Il2CppName: get_guestPlayerNames
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_guestPlayerNames)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_guestPlayerNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_guestPlayerNames
 // Il2CppName: set_guestPlayerNames
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GlobalNamespace::PlayerData::set_guestPlayerNames)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_guestPlayerNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_colorSchemesSettings
 // Il2CppName: get_colorSchemesSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_colorSchemesSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_colorSchemesSettings
 // Il2CppName: set_colorSchemesSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::ColorSchemesSettings*)>(&GlobalNamespace::PlayerData::set_colorSchemesSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_overrideEnvironmentSettings
 // Il2CppName: get_overrideEnvironmentSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_overrideEnvironmentSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_overrideEnvironmentSettings
 // Il2CppName: set_overrideEnvironmentSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::PlayerData::set_overrideEnvironmentSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_favoritesLevelIds
 // Il2CppName: get_favoritesLevelIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_favoritesLevelIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_favoritesLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_favoritesLevelIds
 // Il2CppName: set_favoritesLevelIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::PlayerData::set_favoritesLevelIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_favoritesLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_multiplayerModeSettings
 // Il2CppName: get_multiplayerModeSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_multiplayerModeSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_multiplayerModeSettings
 // Il2CppName: set_multiplayerModeSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::set_multiplayerModeSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::add_favoriteLevelsSetDidChangeEvent
 // Il2CppName: add_favoriteLevelsSetDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::add_favoriteLevelsSetDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "add_favoriteLevelsSetDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::remove_favoriteLevelsSetDidChangeEvent
 // Il2CppName: remove_favoriteLevelsSetDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::remove_favoriteLevelsSetDidChangeEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "remove_favoriteLevelsSetDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::add_didIncreaseNumberOfGameplaysEvent
 // Il2CppName: add_didIncreaseNumberOfGameplaysEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::add_didIncreaseNumberOfGameplaysEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "add_didIncreaseNumberOfGameplaysEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::remove_didIncreaseNumberOfGameplaysEvent
 // Il2CppName: remove_didIncreaseNumberOfGameplaysEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::remove_didIncreaseNumberOfGameplaysEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "remove_didIncreaseNumberOfGameplaysEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::add_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
 // Il2CppName: add_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::add_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "add_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::remove_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
 // Il2CppName: remove_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::remove_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "remove_didChangeShareMultiplayerLobbyCodeInRichPresenceEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::ColorSchemesSettings*, GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::PlayerData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::ColorSchemesSettings*, GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::PlayerData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*, ::Il2CppString*, bool, bool, bool, bool, bool, bool, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, GlobalNamespace::PlayerAllOverallStatsData*, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*, System::Collections::Generic::List_1<::Il2CppString*>*, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::ColorSchemesSettings*, GlobalNamespace::OverrideEnvironmentSettings*, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*, ::Il2CppString*, bool, bool, bool, bool, bool, bool, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, GlobalNamespace::PlayerAllOverallStatsData*, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*, System::Collections::Generic::List_1<::Il2CppString*>*, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::ColorSchemesSettings*, GlobalNamespace::OverrideEnvironmentSettings*, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerLevelStatsData
 // Il2CppName: GetPlayerLevelStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "GetPlayerLevelStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerLevelStatsData
 // Il2CppName: GetPlayerLevelStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(::Il2CppString*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "GetPlayerLevelStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerMissionStatsData
 // Il2CppName: GetPlayerMissionStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerMissionStatsData* (GlobalNamespace::PlayerData::*)(::Il2CppString*)>(&GlobalNamespace::PlayerData::GetPlayerMissionStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "GetPlayerMissionStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::WasMissionHelpShowed
 // Il2CppName: WasMissionHelpShowed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::WasMissionHelpShowed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "WasMissionHelpShowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MissionHelpWasShowed
 // Il2CppName: MissionHelpWasShowed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::MissionHelpWasShowed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MissionHelpWasShowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionHelpSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::IncreaseNumberOfGameplays
 // Il2CppName: IncreaseNumberOfGameplays
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerLevelStatsData*)>(&GlobalNamespace::PlayerData::IncreaseNumberOfGameplays)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "IncreaseNumberOfGameplays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerLevelStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::IsLevelUserFavorite
 // Il2CppName: IsLevelUserFavorite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::IsLevelUserFavorite)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "IsLevelUserFavorite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::AddLevelToFavorites
 // Il2CppName: AddLevelToFavorites
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::AddLevelToFavorites)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "AddLevelToFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::RemoveLevelFromFavorites
 // Il2CppName: RemoveLevelFromFavorites
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::RemoveLevelFromFavorites)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "RemoveLevelFromFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MarkTutorialAsShown
 // Il2CppName: MarkTutorialAsShown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::MarkTutorialAsShown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MarkTutorialAsShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::Mark360WarningAsShown
 // Il2CppName: Mark360WarningAsShown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::Mark360WarningAsShown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "Mark360WarningAsShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MarkEulaAsAgreed
 // Il2CppName: MarkEulaAsAgreed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::MarkEulaAsAgreed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MarkEulaAsAgreed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MarkLanguageAsSelected
 // Il2CppName: MarkLanguageAsSelected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::MarkLanguageAsSelected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MarkLanguageAsSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MarkMultiplayerDisclaimerAsAgreed
 // Il2CppName: MarkMultiplayerDisclaimerAsAgreed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::MarkMultiplayerDisclaimerAsAgreed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MarkMultiplayerDisclaimerAsAgreed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MarkAvatarCreated
 // Il2CppName: MarkAvatarCreated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::MarkAvatarCreated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MarkAvatarCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::AddGuestPlayerName
 // Il2CppName: AddGuestPlayerName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::Il2CppString*)>(&GlobalNamespace::PlayerData::AddGuestPlayerName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "AddGuestPlayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::DeleteAllGuestPlayers
 // Il2CppName: DeleteAllGuestPlayers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::DeleteAllGuestPlayers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "DeleteAllGuestPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetLastSelectedBeatmapDifficulty
 // Il2CppName: SetLastSelectedBeatmapDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapDifficulty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetLastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetLastSelectedBeatmapCharacteristic
 // Il2CppName: SetLastSelectedBeatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapCharacteristic)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetLastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetGameplayModifiers
 // Il2CppName: SetGameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::SetGameplayModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetPlayerSpecificSettings
 // Il2CppName: SetPlayerSpecificSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::SetPlayerSpecificSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetMultiplayerModeSettings
 // Il2CppName: SetMultiplayerModeSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::SetMultiplayerModeSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetMultiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetShareMultiplayerLobbyCodeInRichPresence
 // Il2CppName: SetShareMultiplayerLobbyCodeInRichPresence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(bool)>(&GlobalNamespace::PlayerData::SetShareMultiplayerLobbyCodeInRichPresence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetShareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

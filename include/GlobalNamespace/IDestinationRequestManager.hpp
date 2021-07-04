@@ -48,41 +48,16 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDestinationRequestManager*, "", "IDestinationRequestManager");
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent
 // Il2CppName: add_didSendMenuDestinationRequestEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "add_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent
 // Il2CppName: remove_didSendMenuDestinationRequestEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::get_currentMenuDestinationRequest
 // Il2CppName: get_currentMenuDestinationRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (GlobalNamespace::IDestinationRequestManager::*)()>(&GlobalNamespace::IDestinationRequestManager::get_currentMenuDestinationRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::set_currentMenuDestinationRequest
 // Il2CppName: set_currentMenuDestinationRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::IDestinationRequestManager::set_currentMenuDestinationRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::Clear
 // Il2CppName: Clear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)()>(&GlobalNamespace::IDestinationRequestManager::Clear)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

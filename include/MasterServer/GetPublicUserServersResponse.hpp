@@ -162,79 +162,29 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse*, "MasterServe
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse::Result, "MasterServer", "GetPublicUserServersResponse/Result");
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_pool
 // Il2CppName: get_pool
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::GetPublicUserServersResponse*>* (*)()>(&MasterServer::GetPublicUserServersResponse::get_pool)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::InitForFailure
 // Il2CppName: InitForFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (MasterServer::GetPublicUserServersResponse::*)(MasterServer::GetPublicUserServersResponse::Result)>(&MasterServer::GetPublicUserServersResponse::InitForFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::GetPublicUserServersResponse::Result>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::InitForSuccess
 // Il2CppName: InitForSuccess
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (MasterServer::GetPublicUserServersResponse::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*)>(&MasterServer::GetPublicUserServersResponse::InitForSuccess)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_resultCode
 // Il2CppName: get_resultCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (MasterServer::GetPublicUserServersResponse::*)()>(&MasterServer::GetPublicUserServersResponse::get_resultCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::GetPublicUserServersResponse::*)()>(&MasterServer::GetPublicUserServersResponse::get_resultCodeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::Serialize
 // Il2CppName: Serialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::GetPublicUserServersResponse::Serialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::Deserialize
 // Il2CppName: Deserialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::GetPublicUserServersResponse::Deserialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::Release
 // Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)()>(&MasterServer::GetPublicUserServersResponse::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)()>(&MasterServer::GetPublicUserServersResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)()>(&MasterServer::GetPublicUserServersResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

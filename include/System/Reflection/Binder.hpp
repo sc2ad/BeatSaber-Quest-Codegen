@@ -78,63 +78,23 @@ namespace System::Reflection {
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder*, "System.Reflection", "Binder");
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToMethod
 // Il2CppName: BindToMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<::Il2CppObject*>*&, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*, ::Il2CppObject*&)>(&System::Reflection::Binder::BindToMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToField
 // Il2CppName: BindToField
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::FieldInfo*>*, ::Il2CppObject*, System::Globalization::CultureInfo*)>(&System::Reflection::Binder::BindToField)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::SelectMethod
 // Il2CppName: SelectMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Binder::SelectMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::SelectProperty
 // Il2CppName: SelectProperty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Binder::SelectProperty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::ChangeType
 // Il2CppName: ChangeType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Binder::*)(::Il2CppObject*, System::Type*, System::Globalization::CultureInfo*)>(&System::Reflection::Binder::ChangeType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::ReorderArgumentArray
 // Il2CppName: ReorderArgumentArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::Binder::*)(::Array<::Il2CppObject*>*&, ::Il2CppObject*)>(&System::Reflection::Binder::ReorderArgumentArray)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::Binder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::Binder::*)()>(&System::Reflection::Binder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::Binder::*)()>(&System::Reflection::Binder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

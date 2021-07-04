@@ -85,87 +85,32 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::Reader
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&System::Threading::ExecutionContext::Reader::Reader<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&System::Threading::ExecutionContext::Reader::Reader<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::DangerousGetRawExecutionContext
 // Il2CppName: DangerousGetRawExecutionContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::DangerousGetRawExecutionContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "DangerousGetRawExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsNull
 // Il2CppName: get_IsNull
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_IsNull)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::IsDefaultFTContext
 // Il2CppName: IsDefaultFTContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)(bool)>(&System::Threading::ExecutionContext::Reader::IsDefaultFTContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "IsDefaultFTContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsFlowSuppressed
 // Il2CppName: get_IsFlowSuppressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_IsFlowSuppressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_IsFlowSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_SynchronizationContext
 // Il2CppName: get_SynchronizationContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_SynchronizationContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_SynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_SynchronizationContextNoFlow
 // Il2CppName: get_SynchronizationContextNoFlow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_SynchronizationContextNoFlow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_SynchronizationContextNoFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_LogicalCallContext
 // Il2CppName: get_LogicalCallContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext::Reader (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_LogicalCallContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IllogicalCallContext
 // Il2CppName: get_IllogicalCallContext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader (System::Threading::ExecutionContext::Reader::*)()>(&System::Threading::ExecutionContext::Reader::get_IllogicalCallContext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "get_IllogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::HasSameLocalValues
 // Il2CppName: HasSameLocalValues
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&System::Threading::ExecutionContext::Reader::HasSameLocalValues)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "HasSameLocalValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

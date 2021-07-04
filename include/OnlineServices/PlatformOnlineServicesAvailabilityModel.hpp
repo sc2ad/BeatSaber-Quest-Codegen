@@ -81,39 +81,14 @@ namespace OnlineServices {
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent
 // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "add_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::remove_platformServicesAvailabilityInfoChangedEvent
 // Il2CppName: remove_platformServicesAvailabilityInfoChangedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::remove_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo
 // Il2CppName: GetPlatformServicesAvailabilityInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Threading::CancellationToken)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "GetPlatformServicesAvailabilityInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)()>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)()>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

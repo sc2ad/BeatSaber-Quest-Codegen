@@ -307,218 +307,83 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors
 // Il2CppName: get_controllingDirectors
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::set_controllingDirectors
 // Il2CppName: set_controllingDirectors
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(&UnityEngine::Timeline::ControlPlayableAsset::set_controllingDirectors)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "set_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_controllingParticles
 // Il2CppName: get_controllingParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_controllingParticles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::set_controllingParticles
 // Il2CppName: set_controllingParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(&UnityEngine::Timeline::ControlPlayableAsset::set_controllingParticles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "set_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_clipCaps
 // Il2CppName: get_clipCaps
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_clipCaps)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::ConnectPlayablesToMixer
 // Il2CppName: ConnectPlayablesToMixer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (*)(UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::ConnectPlayablesToMixer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "ConnectPlayablesToMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayable
 // Il2CppName: CreateActivationPlayable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::GameObject*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "CreateActivationPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem
 // Il2CppName: SearchHierarchyAndConnectParticleSystem
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "SearchHierarchyAndConnectParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector
 // Il2CppName: SearchHierarchyAndConnectDirector
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*, bool)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "SearchHierarchyAndConnectDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts
 // Il2CppName: SearchHierarchyAndConnectControlableScripts
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "SearchHierarchyAndConnectControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::ConnectMixerAndPlayable
 // Il2CppName: ConnectMixerAndPlayable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, int)>(&UnityEngine::Timeline::ControlPlayableAsset::ConnectMixerAndPlayable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "ConnectMixerAndPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::GetComponent
 // Il2CppName: GetComponent
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::GetControlableScripts
 // Il2CppName: GetControlableScripts
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* (*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControlableScripts)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GetControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag
 // Il2CppName: UpdateDurationAndLoopFlag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*, System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "UpdateDurationAndLoopFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems
 // Il2CppName: GetControllableParticleSystems
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems
 // Il2CppName: GetControllableParticleSystems
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters
 // Il2CppName: CacheSubEmitters
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "CacheSubEmitters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::GatherProperties
 // Il2CppName: GatherProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::ControlPlayableAsset::GatherProperties)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles
 // Il2CppName: PreviewParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation
 // Il2CppName: PreviewActivation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl
 // Il2CppName: PreviewTimeControl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, UnityEngine::Playables::PlayableDirector*, System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewTimeControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors
 // Il2CppName: PreviewDirectors
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_duration
 // Il2CppName: get_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::CreatePlayable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::ControlPlayableAsset::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

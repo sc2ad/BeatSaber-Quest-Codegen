@@ -32,9 +32,4 @@ namespace System::Runtime::Versioning {
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::BinaryCompatibility*, "System.Runtime.Versioning", "BinaryCompatibility");
 // Writing MetadataGetter for method: System::Runtime::Versioning::BinaryCompatibility::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Versioning::BinaryCompatibility::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Versioning::BinaryCompatibility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -60,17 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionParser*, "System.Ne
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionParser::TryParse
 // Il2CppName: TryParse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<::Il2CppString*>*&)>(&System::Net::Http::Headers::CollectionParser::TryParse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CollectionParser*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionParser::TryParseStringElement
 // Il2CppName: TryParseStringElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, ::Il2CppString*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::CollectionParser::TryParseStringElement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CollectionParser*), "TryParseStringElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

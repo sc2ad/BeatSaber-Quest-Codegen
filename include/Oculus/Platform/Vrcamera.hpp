@@ -26,9 +26,4 @@ namespace Oculus::Platform {
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
 // Writing MetadataGetter for method: Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback
 // Il2CppName: SetGetSurfaceUpdateNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Vrcamera*), "SetGetSurfaceUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -155,33 +155,13 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
 // Writing MetadataGetter for method: System::DateTimeResult::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)()>(&System::DateTimeResult::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DateTimeResult::SetDate
 // Il2CppName: SetDate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(int, int, int)>(&System::DateTimeResult::SetDate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::DateTimeResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*)>(&System::DateTimeResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -66,9 +66,4 @@ namespace UnityEngine::AI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshHit::get_position
 // Il2CppName: get_position
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::AI::NavMeshHit::*)()>(&UnityEngine::AI::NavMeshHit::get_position)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshHit), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

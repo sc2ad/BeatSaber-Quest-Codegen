@@ -88,47 +88,17 @@ namespace DataModels::Levels {
 DEFINE_IL2CPP_ARG_TYPE(DataModels::Levels::PerceivedLoudnessPerLevelModel*, "DataModels.Levels", "PerceivedLoudnessPerLevelModel");
 // Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::ContainsLevelId
 // Il2CppName: ContainsLevelId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "ContainsLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId
 // Il2CppName: GetLoudnessCorrectionByLevelId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessCorrectionByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId
 // Il2CppName: GetMaxSfxVolumeByLevelId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetMaxSfxVolumeByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId
 // Il2CppName: GetLoudnessByLevelId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

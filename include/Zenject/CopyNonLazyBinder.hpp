@@ -80,63 +80,23 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CopyNonLazyBinder*, "Zenject", "CopyNonLazyBinder");
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo
 // Il2CppName: AddSecondaryCopyBindInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "AddSecondaryCopyBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::CopyIntoAllSubContainers
 // Il2CppName: CopyIntoAllSubContainers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::CopyIntoAllSubContainers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "CopyIntoAllSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::CopyIntoDirectSubContainers
 // Il2CppName: CopyIntoDirectSubContainers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::CopyIntoDirectSubContainers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "CopyIntoDirectSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::MoveIntoAllSubContainers
 // Il2CppName: MoveIntoAllSubContainers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::MoveIntoAllSubContainers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "MoveIntoAllSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::MoveIntoDirectSubContainers
 // Il2CppName: MoveIntoDirectSubContainers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::MoveIntoDirectSubContainers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "MoveIntoDirectSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::SetInheritanceMethod
 // Il2CppName: SetInheritanceMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindingInheritanceMethods)>(&Zenject::CopyNonLazyBinder::SetInheritanceMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "SetInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingInheritanceMethods>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::CopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::CopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

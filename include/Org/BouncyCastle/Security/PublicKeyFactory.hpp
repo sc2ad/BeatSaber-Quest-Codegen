@@ -65,41 +65,16 @@ namespace Org::BouncyCastle::Security {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PublicKeyFactory*, "Org.BouncyCastle.Security", "PublicKeyFactory");
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::CreateKey
 // Il2CppName: CreateKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::CreateKey
 // Il2CppName: CreateKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::GetRawKey
 // Il2CppName: GetRawKey
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*, int)>(&Org::BouncyCastle::Security::PublicKeyFactory::GetRawKey)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "GetRawKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::IsPkcsDHParam
 // Il2CppName: IsPkcsDHParam
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::IsPkcsDHParam)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "IsPkcsDHParam", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::ReadPkcsDHParam
 // Il2CppName: ReadPkcsDHParam
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::ReadPkcsDHParam)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "ReadPkcsDHParam", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

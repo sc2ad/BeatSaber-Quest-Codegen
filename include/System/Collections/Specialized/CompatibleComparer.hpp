@@ -86,63 +86,23 @@ namespace System::Collections::Specialized {
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CompatibleComparer::*)(System::Collections::IComparer*, System::Collections::IHashCodeProvider*)>(&System::Collections::Specialized::CompatibleComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IHashCodeProvider*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CompatibleComparer::*)(System::Collections::IComparer*, System::Collections::IHashCodeProvider*)>(&System::Collections::Specialized::CompatibleComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IHashCodeProvider*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Specialized::CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Specialized::CompatibleComparer::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Specialized::CompatibleComparer::*)(::Il2CppObject*)>(&System::Collections::Specialized::CompatibleComparer::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_Comparer
 // Il2CppName: get_Comparer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (System::Collections::Specialized::CompatibleComparer::*)()>(&System::Collections::Specialized::CompatibleComparer::get_Comparer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "get_Comparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_HashCodeProvider
 // Il2CppName: get_HashCodeProvider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IHashCodeProvider* (System::Collections::Specialized::CompatibleComparer::*)()>(&System::Collections::Specialized::CompatibleComparer::get_HashCodeProvider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "get_HashCodeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_DefaultComparer
 // Il2CppName: get_DefaultComparer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (*)()>(&System::Collections::Specialized::CompatibleComparer::get_DefaultComparer)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "get_DefaultComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_DefaultHashCodeProvider
 // Il2CppName: get_DefaultHashCodeProvider
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IHashCodeProvider* (*)()>(&System::Collections::Specialized::CompatibleComparer::get_DefaultHashCodeProvider)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "get_DefaultHashCodeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -73,33 +73,13 @@ namespace UnityEngine::Profiling::Experimental {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");
 // Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_rawImageDataReference
 // Il2CppName: set_rawImageDataReference
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(Unity::Collections::NativeArray_1<uint8_t>)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_rawImageDataReference)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_rawImageDataReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<uint8_t>>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_imageFormat
 // Il2CppName: set_imageFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(UnityEngine::TextureFormat)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_imageFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_imageFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_width
 // Il2CppName: set_width
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(int)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_width)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_height
 // Il2CppName: set_height
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(int)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_height)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -58,12 +58,7 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
 // Writing MetadataGetter for method: HMUI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&HMUI::SetPropertyUtility::SetColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: HMUI::SetPropertyUtility::SetStruct
 // Il2CppName: SetStruct
 // Cannot write MetadataGetter for generic methods!

@@ -93,25 +93,10 @@ namespace System::Reflection {
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_property_info
 // Il2CppName: get_property_info
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoProperty*, System::Reflection::MonoPropertyInfo&, System::Reflection::PInfo)>(&System::Reflection::MonoPropertyInfo::get_property_info)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_property_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoPropertyInfo&>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::PInfo>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::GetTypeModifiers
 // Il2CppName: GetTypeModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "GetTypeModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_default_value
 // Il2CppName: get_default_value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MonoProperty*)>(&System::Reflection::MonoPropertyInfo::get_default_value)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_default_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

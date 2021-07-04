@@ -57,65 +57,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelGameplaySetupData*, "", "ILevelGameplaySetupData");
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::get_beatmapLevel
 // Il2CppName: get_beatmapLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::ILevelGameplaySetupData::*)()>(&GlobalNamespace::ILevelGameplaySetupData::get_beatmapLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::set_beatmapLevel
 // Il2CppName: set_beatmapLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelGameplaySetupData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::ILevelGameplaySetupData::set_beatmapLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "set_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::get_beatmapCharacteristic
 // Il2CppName: get_beatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::ILevelGameplaySetupData::*)()>(&GlobalNamespace::ILevelGameplaySetupData::get_beatmapCharacteristic)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::set_beatmapCharacteristic
 // Il2CppName: set_beatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelGameplaySetupData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::ILevelGameplaySetupData::set_beatmapCharacteristic)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::get_beatmapDifficulty
 // Il2CppName: get_beatmapDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::ILevelGameplaySetupData::*)()>(&GlobalNamespace::ILevelGameplaySetupData::get_beatmapDifficulty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "get_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::set_beatmapDifficulty
 // Il2CppName: set_beatmapDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelGameplaySetupData::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::ILevelGameplaySetupData::set_beatmapDifficulty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "set_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::ILevelGameplaySetupData::*)()>(&GlobalNamespace::ILevelGameplaySetupData::get_gameplayModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ILevelGameplaySetupData::set_gameplayModifiers
 // Il2CppName: set_gameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelGameplaySetupData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::ILevelGameplaySetupData::set_gameplayModifiers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelGameplaySetupData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

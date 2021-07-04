@@ -45,9 +45,4 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICombiningStrategy*, "NUnit.Framework.Interfaces", "ICombiningStrategy");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases
 // Il2CppName: GetTestCases
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Interfaces::ICombiningStrategy::*)(::Array<System::Collections::IEnumerable*>*)>(&NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ICombiningStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Collections::IEnumerable*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

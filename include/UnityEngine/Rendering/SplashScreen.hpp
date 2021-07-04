@@ -25,9 +25,4 @@ namespace UnityEngine::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SplashScreen*, "UnityEngine.Rendering", "SplashScreen");
 // Writing MetadataGetter for method: UnityEngine::Rendering::SplashScreen::get_isFinished
 // Il2CppName: get_isFinished
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Rendering::SplashScreen::get_isFinished)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SplashScreen*), "get_isFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

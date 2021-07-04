@@ -41,17 +41,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICubeNoteMirrorable*, "", "ICubeNoteMirrorable");
 // Writing MetadataGetter for method: GlobalNamespace::ICubeNoteMirrorable::get_noteMovement
 // Il2CppName: get_noteMovement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::ICubeNoteMirrorable::*)()>(&GlobalNamespace::ICubeNoteMirrorable::get_noteMovement)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICubeNoteMirrorable*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::ICubeNoteMirrorable::get_gameNoteType
 // Il2CppName: get_gameNoteType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::ICubeNoteMirrorable::*)()>(&GlobalNamespace::ICubeNoteMirrorable::get_gameNoteType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICubeNoteMirrorable*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

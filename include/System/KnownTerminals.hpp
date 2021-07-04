@@ -30,25 +30,10 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::KnownTerminals*, "System", "KnownTerminals");
 // Writing MetadataGetter for method: System::KnownTerminals::get_linux
 // Il2CppName: get_linux
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_linux)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_linux", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::KnownTerminals::get_xterm
 // Il2CppName: get_xterm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_xterm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_xterm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::KnownTerminals::get_ansi
 // Il2CppName: get_ansi
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_ansi)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_ansi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

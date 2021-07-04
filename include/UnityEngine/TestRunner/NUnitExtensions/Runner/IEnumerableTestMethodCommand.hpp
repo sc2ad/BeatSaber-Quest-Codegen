@@ -35,9 +35,4 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "IEnumerableTestMethodCommand");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

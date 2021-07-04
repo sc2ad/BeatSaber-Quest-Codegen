@@ -63,9 +63,4 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::RunSync
 // Il2CppName: RunSync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Func_1<System::Threading::Tasks::Task*>*)>(&GlobalNamespace::AsyncHelper::RunSync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper*), "RunSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Threading::Tasks::Task*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

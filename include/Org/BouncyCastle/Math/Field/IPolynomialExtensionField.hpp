@@ -36,9 +36,4 @@ namespace Org::BouncyCastle::Math::Field {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "IPolynomialExtensionField");
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IPolynomialExtensionField::get_MinimalPolynomial
 // Il2CppName: get_MinimalPolynomial
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomial* (Org::BouncyCastle::Math::Field::IPolynomialExtensionField::*)()>(&Org::BouncyCastle::Math::Field::IPolynomialExtensionField::get_MinimalPolynomial)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*), "get_MinimalPolynomial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

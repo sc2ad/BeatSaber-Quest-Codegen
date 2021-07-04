@@ -23,9 +23,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReturnToMenuController*, "", "IReturnToMenuController");
 // Writing MetadataGetter for method: GlobalNamespace::IReturnToMenuController::ReturnToMenu
 // Il2CppName: ReturnToMenu
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IReturnToMenuController::*)()>(&GlobalNamespace::IReturnToMenuController::ReturnToMenu)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReturnToMenuController*), "ReturnToMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

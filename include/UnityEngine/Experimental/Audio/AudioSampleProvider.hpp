@@ -54,17 +54,7 @@ namespace UnityEngine::Experimental::Audio {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
 // Writing MetadataGetter for method: UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable
 // Il2CppName: InvokeSampleFramesAvailable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int)>(&UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Audio::AudioSampleProvider*), "InvokeSampleFramesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOverflow
 // Il2CppName: InvokeSampleFramesOverflow
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int)>(&UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOverflow)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Audio::AudioSampleProvider*), "InvokeSampleFramesOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

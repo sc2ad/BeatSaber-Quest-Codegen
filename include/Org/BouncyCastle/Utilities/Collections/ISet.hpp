@@ -32,9 +32,4 @@ namespace Org::BouncyCastle::Utilities::Collections {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::ISet*, "Org.BouncyCastle.Utilities.Collections", "ISet");
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::ISet::Add
 // Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Collections::ISet::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Collections::ISet::Add)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::ISet*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

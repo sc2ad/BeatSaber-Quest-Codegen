@@ -106,23 +106,8 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::PlayerTransforms*, GlobalNamespace::BezierSplineEvaluator*, float, float, float, float, float, float)>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerTransforms*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::PlayerTransforms*, GlobalNamespace::BezierSplineEvaluator*, float, float, float, float, float, float)>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerTransforms*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition
 // Il2CppName: GetCurrentPathPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*), "GetCurrentPathPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

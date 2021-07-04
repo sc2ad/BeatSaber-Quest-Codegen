@@ -34,9 +34,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformExtensions*, "", "TransformExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::TransformExtensions::InverseTransformRotation
 // Il2CppName: InverseTransformRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Transform*, UnityEngine::Quaternion)>(&GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TransformExtensions*), "InverseTransformRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

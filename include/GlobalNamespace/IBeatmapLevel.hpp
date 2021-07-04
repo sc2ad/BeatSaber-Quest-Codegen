@@ -36,9 +36,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevel*, "", "IBeatmapLevel");
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevel::get_beatmapLevelData
 // Il2CppName: get_beatmapLevelData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (GlobalNamespace::IBeatmapLevel::*)()>(&GlobalNamespace::IBeatmapLevel::get_beatmapLevelData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

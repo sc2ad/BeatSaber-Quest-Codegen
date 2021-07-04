@@ -128,41 +128,16 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CheckConsistency
 // Il2CppName: CheckConsistency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ContactFilter2D::*)()>(&UnityEngine::ContactFilter2D::CheckConsistency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CheckConsistency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::SetLayerMask
 // Il2CppName: SetLayerMask
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ContactFilter2D::*)(UnityEngine::LayerMask)>(&UnityEngine::ContactFilter2D::SetLayerMask)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::SetDepth
 // Il2CppName: SetDepth
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ContactFilter2D::*)(float, float)>(&UnityEngine::ContactFilter2D::SetDepth)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CreateLegacyFilter
 // Il2CppName: CreateLegacyFilter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ContactFilter2D (*)(int, float, float)>(&UnityEngine::ContactFilter2D::CreateLegacyFilter)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CreateLegacyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CheckConsistency_Injected
 // Il2CppName: CheckConsistency_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ContactFilter2D&)>(&UnityEngine::ContactFilter2D::CheckConsistency_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CheckConsistency_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

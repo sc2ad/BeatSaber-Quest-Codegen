@@ -107,87 +107,32 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_Connection
 // Il2CppName: get_Connection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::get_Connection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "get_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::set_Connection
 // Il2CppName: set_Connection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::ConnectionState::*)(System::Net::WebConnection*)>(&System::Net::WebConnectionGroup::ConnectionState::set_Connection)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "set_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnection*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_Group
 // Il2CppName: get_Group
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::get_Group)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "get_Group", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::set_Group
 // Il2CppName: set_Group
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::ConnectionState::*)(System::Net::WebConnectionGroup*)>(&System::Net::WebConnectionGroup::ConnectionState::set_Group)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "set_Group", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionGroup*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_ServicePoint
 // Il2CppName: get_ServicePoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::get_ServicePoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "get_ServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_Busy
 // Il2CppName: get_Busy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::get_Busy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "get_Busy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_IdleSince
 // Il2CppName: get_IdleSince
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::get_IdleSince)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "get_IdleSince", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::TrySetBusy
 // Il2CppName: TrySetBusy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::TrySetBusy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "TrySetBusy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::SetIdle
 // Il2CppName: SetIdle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::ConnectionState::*)()>(&System::Net::WebConnectionGroup::ConnectionState::SetIdle)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), "SetIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::ConnectionState::*)(System::Net::WebConnectionGroup*)>(&System::Net::WebConnectionGroup::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionGroup*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::ConnectionState::*)(System::Net::WebConnectionGroup*)>(&System::Net::WebConnectionGroup::ConnectionState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup::ConnectionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionGroup*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

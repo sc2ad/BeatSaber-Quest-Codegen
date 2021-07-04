@@ -82,63 +82,23 @@ namespace VRUIControls {
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");
 // Writing MetadataGetter for method: VRUIControls::ButtonState::get_eventData
 // Il2CppName: get_eventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseButtonEventData* (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_eventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::set_eventData
 // Il2CppName: set_eventData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(VRUIControls::MouseButtonEventData*)>(&VRUIControls::ButtonState::set_eventData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::get_button
 // Il2CppName: get_button
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_button)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::set_button
 // Il2CppName: set_button
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&VRUIControls::ButtonState::set_button)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::get_pressedValue
 // Il2CppName: get_pressedValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_pressedValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::set_pressedValue
 // Il2CppName: set_pressedValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(float)>(&VRUIControls::ButtonState::set_pressedValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: VRUIControls::ButtonState::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

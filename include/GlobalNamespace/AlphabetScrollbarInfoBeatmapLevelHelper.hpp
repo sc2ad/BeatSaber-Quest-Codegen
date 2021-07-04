@@ -60,9 +60,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*, "", "AlphabetScrollbarInfoBeatmapLevelHelper");
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData
 // Il2CppName: CreateData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* (*)(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*, ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*&)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*), "CreateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

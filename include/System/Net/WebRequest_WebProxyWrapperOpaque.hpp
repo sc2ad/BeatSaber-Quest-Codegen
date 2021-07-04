@@ -64,25 +64,10 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapperOpaque*, "System.Net", "WebRequest/WebProxyWrapperOpaque");
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::GetProxy
 // Il2CppName: GetProxy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::GetProxy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::IsBypassed
 // Il2CppName: IsBypassed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::IsBypassed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::get_Credentials
 // Il2CppName: get_Credentials
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (System::Net::WebRequest::WebProxyWrapperOpaque::*)()>(&System::Net::WebRequest::WebProxyWrapperOpaque::get_Credentials)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

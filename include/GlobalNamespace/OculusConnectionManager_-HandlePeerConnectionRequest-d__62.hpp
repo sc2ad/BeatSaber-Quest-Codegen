@@ -86,17 +86,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62, "", "OculusConnectionManager/<HandlePeerConnectionRequest>d__62");
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::*)()>(&GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::SetStateMachine
 // Il2CppName: SetStateMachine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62::SetStateMachine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -445,655 +445,245 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
 // Writing MetadataGetter for method: System::NumberFormatter::GetFormatterTables
 // Il2CppName: GetFormatterTables
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*&, int*&, ::Il2CppChar*&, ::Il2CppChar*&, int64_t*&, int*&)>(&System::NumberFormatter::GetFormatterTables)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetFormatterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*&>(), ::il2cpp_utils::ExtractIndependentType<int*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<int64_t*&>(), ::il2cpp_utils::ExtractIndependentType<int*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::NumberFormatter::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::GetTenPowerOf
 // Il2CppName: GetTenPowerOf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&System::NumberFormatter::GetTenPowerOf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetTenPowerOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::InitDecHexDigits
 // Il2CppName: InitDecHexDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(uint)>(&System::NumberFormatter::InitDecHexDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::InitDecHexDigits
 // Il2CppName: InitDecHexDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(uint64_t)>(&System::NumberFormatter::InitDecHexDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::InitDecHexDigits
 // Il2CppName: InitDecHexDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(uint, uint64_t)>(&System::NumberFormatter::InitDecHexDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FastToDecHex
 // Il2CppName: FastToDecHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&System::NumberFormatter::FastToDecHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FastToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::ToDecHex
 // Il2CppName: ToDecHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&System::NumberFormatter::ToDecHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "ToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FastDecHexLen
 // Il2CppName: FastDecHexLen
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::NumberFormatter::FastDecHexLen)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FastDecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::DecHexLen
 // Il2CppName: DecHexLen
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&System::NumberFormatter::DecHexLen)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "DecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::DecHexLen
 // Il2CppName: DecHexLen
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::NumberFormatter::*)()>(&System::NumberFormatter::DecHexLen)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "DecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::ScaleOrder
 // Il2CppName: ScaleOrder
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&System::NumberFormatter::ScaleOrder)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "ScaleOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::InitialFloatingPrecision
 // Il2CppName: InitialFloatingPrecision
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::NumberFormatter::*)()>(&System::NumberFormatter::InitialFloatingPrecision)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "InitialFloatingPrecision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::ParsePrecision
 // Il2CppName: ParsePrecision
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::NumberFormatter::ParsePrecision)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "ParsePrecision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Threading::Thread*)>(&System::NumberFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Threading::Thread*)>(&System::NumberFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::InitHex
 // Il2CppName: InitHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(uint64_t)>(&System::NumberFormatter::InitHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "InitHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, int, int)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, uint, int)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, int64_t)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, uint64_t)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, double, int)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*, System::Decimal)>(&System::NumberFormatter::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::ResetCharBuf
 // Il2CppName: ResetCharBuf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::ResetCharBuf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "ResetCharBuf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Resize
 // Il2CppName: Resize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::Resize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Resize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppChar)>(&System::NumberFormatter::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppChar, int)>(&System::NumberFormatter::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Append
 // Il2CppName: Append
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Il2CppString*)>(&System::NumberFormatter::Append)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::GetNumberFormatInstance
 // Il2CppName: GetNumberFormatInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (System::NumberFormatter::*)(System::IFormatProvider*)>(&System::NumberFormatter::GetNumberFormatInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetNumberFormatInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::set_CurrentCulture
 // Il2CppName: set_CurrentCulture
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Globalization::CultureInfo*)>(&System::NumberFormatter::set_CurrentCulture)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::get_IntegerDigits
 // Il2CppName: get_IntegerDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::NumberFormatter::*)()>(&System::NumberFormatter::get_IntegerDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "get_IntegerDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::get_DecimalDigits
 // Il2CppName: get_DecimalDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::NumberFormatter::*)()>(&System::NumberFormatter::get_DecimalDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "get_DecimalDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::get_IsFloatingSource
 // Il2CppName: get_IsFloatingSource
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::NumberFormatter::*)()>(&System::NumberFormatter::get_IsFloatingSource)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "get_IsFloatingSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::get_IsZero
 // Il2CppName: get_IsZero
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::NumberFormatter::*)()>(&System::NumberFormatter::get_IsZero)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "get_IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::get_IsZeroInteger
 // Il2CppName: get_IsZeroInteger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::NumberFormatter::*)()>(&System::NumberFormatter::get_IsZeroInteger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "get_IsZeroInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::RoundPos
 // Il2CppName: RoundPos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::RoundPos)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "RoundPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::RoundDecimal
 // Il2CppName: RoundDecimal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::NumberFormatter::*)(int)>(&System::NumberFormatter::RoundDecimal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "RoundDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::RoundBits
 // Il2CppName: RoundBits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::NumberFormatter::*)(int)>(&System::NumberFormatter::RoundBits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "RoundBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::RemoveTrailingZeros
 // Il2CppName: RemoveTrailingZeros
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)()>(&System::NumberFormatter::RemoveTrailingZeros)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "RemoveTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AddOneToDecHex
 // Il2CppName: AddOneToDecHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)()>(&System::NumberFormatter::AddOneToDecHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AddOneToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AddOneToDecHex
 // Il2CppName: AddOneToDecHex
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&System::NumberFormatter::AddOneToDecHex)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AddOneToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::CountTrailingZeros
 // Il2CppName: CountTrailingZeros
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::NumberFormatter::*)()>(&System::NumberFormatter::CountTrailingZeros)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "CountTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::CountTrailingZeros
 // Il2CppName: CountTrailingZeros
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&System::NumberFormatter::CountTrailingZeros)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "CountTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::GetInstance
 // Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (*)(System::IFormatProvider*)>(&System::NumberFormatter::GetInstance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Release
 // Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)()>(&System::NumberFormatter::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint64_t, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int64_t, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, float, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, double, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Decimal, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::IntegerToString
 // Il2CppName: IntegerToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(::Il2CppString*, System::IFormatProvider*)>(&System::NumberFormatter::IntegerToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "IntegerToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::NumberToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatCurrency
 // Il2CppName: FormatCurrency
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCurrency)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatCurrency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatDecimal
 // Il2CppName: FormatDecimal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatDecimal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatHexadecimal
 // Il2CppName: FormatHexadecimal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int)>(&System::NumberFormatter::FormatHexadecimal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatHexadecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatFixedPoint
 // Il2CppName: FormatFixedPoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatFixedPoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatFixedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatRoundtrip
 // Il2CppName: FormatRoundtrip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(double, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatRoundtrip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatRoundtrip
 // Il2CppName: FormatRoundtrip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(float, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatRoundtrip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatGeneral
 // Il2CppName: FormatGeneral
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatGeneral)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatGeneral", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatNumber
 // Il2CppName: FormatNumber
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatNumber)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatPercent
 // Il2CppName: FormatPercent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatPercent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatPercent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatExponential
 // Il2CppName: FormatExponential
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatExponential)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatExponential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatExponential
 // Il2CppName: FormatExponential
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*, int)>(&System::NumberFormatter::FormatExponential)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatExponential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::FormatCustom
 // Il2CppName: FormatCustom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::*)(::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCustom)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "FormatCustom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::ZeroTrimEnd
 // Il2CppName: ZeroTrimEnd
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, bool)>(&System::NumberFormatter::ZeroTrimEnd)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "ZeroTrimEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::IsZeroOnly
 // Il2CppName: IsZeroOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Text::StringBuilder*)>(&System::NumberFormatter::IsZeroOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "IsZeroOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendNonNegativeNumber
 // Il2CppName: AppendNonNegativeNumber
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::NumberFormatter::AppendNonNegativeNumber)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendNonNegativeNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendIntegerString
 // Il2CppName: AppendIntegerString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendIntegerString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendIntegerString
 // Il2CppName: AppendIntegerString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::AppendIntegerString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDecimalString
 // Il2CppName: AppendDecimalString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDecimalString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendDecimalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDecimalString
 // Il2CppName: AppendDecimalString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::AppendDecimalString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendDecimalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendIntegerStringWithGroupSeparator
 // Il2CppName: AppendIntegerStringWithGroupSeparator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::Array<int>*, ::Il2CppString*)>(&System::NumberFormatter::AppendIntegerStringWithGroupSeparator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendIntegerStringWithGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendExponent
 // Il2CppName: AppendExponent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Globalization::NumberFormatInfo*, int, int)>(&System::NumberFormatter::AppendExponent)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendOneDigit
 // Il2CppName: AppendOneDigit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::AppendOneDigit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendOneDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDigits
 // Il2CppName: AppendDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, int)>(&System::NumberFormatter::AppendDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDigits
 // Il2CppName: AppendDigits
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDigits)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "AppendDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Multiply10
 // Il2CppName: Multiply10
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::Multiply10)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Multiply10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::Divide10
 // Il2CppName: Divide10
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int)>(&System::NumberFormatter::Divide10)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "Divide10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::NumberFormatter::GetClone
 // Il2CppName: GetClone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (System::NumberFormatter::*)()>(&System::NumberFormatter::GetClone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetClone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

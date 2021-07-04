@@ -39,17 +39,7 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");
 // Writing MetadataGetter for method: UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag
 // Il2CppName: GetRelativeMousePositionForDrag
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2&)>(&UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetRelativeMousePositionForDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution
 // Il2CppName: GetMousePositionRelativeToMainDisplayResolution
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::UI::MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetMousePositionRelativeToMainDisplayResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

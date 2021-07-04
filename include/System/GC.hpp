@@ -63,97 +63,37 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
 // Writing MetadataGetter for method: System::GC::GetMaxGeneration
 // Il2CppName: GetMaxGeneration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::GC::GetMaxGeneration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "GetMaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::InternalCollect
 // Il2CppName: InternalCollect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::GC::InternalCollect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "InternalCollect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::register_ephemeron_array
 // Il2CppName: register_ephemeron_array
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::Runtime::CompilerServices::Ephemeron>*)>(&System::GC::register_ephemeron_array)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::CompilerServices::Ephemeron>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::get_ephemeron_tombstone
 // Il2CppName: get_ephemeron_tombstone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::GC::get_ephemeron_tombstone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "get_ephemeron_tombstone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::Collect
 // Il2CppName: Collect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::GC::Collect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "Collect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::KeepAlive
 // Il2CppName: KeepAlive
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::GC::KeepAlive)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::get_MaxGeneration
 // Il2CppName: get_MaxGeneration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::GC::get_MaxGeneration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "get_MaxGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::_SuppressFinalize
 // Il2CppName: _SuppressFinalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::GC::_SuppressFinalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "_SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::SuppressFinalize
 // Il2CppName: SuppressFinalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::GC::SuppressFinalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "SuppressFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::_ReRegisterForFinalize
 // Il2CppName: _ReRegisterForFinalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::GC::_ReRegisterForFinalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "_ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::ReRegisterForFinalize
 // Il2CppName: ReRegisterForFinalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::GC::ReRegisterForFinalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), "ReRegisterForFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::GC::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::GC::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::GC*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -63,45 +63,15 @@ namespace JetBrains::Annotations {
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification
 // Il2CppName: get_Justification
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "get_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification
 // Il2CppName: set_Justification
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "set_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -71,47 +71,17 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
 // Writing MetadataGetter for method: System::ByteMatcher::AddMapping
 // Il2CppName: AddMapping
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)(System::TermInfoStrings, ::Array<uint8_t>*)>(&System::ByteMatcher::AddMapping)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "AddMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ByteMatcher::Sort
 // Il2CppName: Sort
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)()>(&System::ByteMatcher::Sort)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ByteMatcher::StartsWith
 // Il2CppName: StartsWith
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ByteMatcher::*)(int)>(&System::ByteMatcher::StartsWith)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ByteMatcher::Match
 // Il2CppName: Match
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, int&)>(&System::ByteMatcher::Match)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ByteMatcher::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)()>(&System::ByteMatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)()>(&System::ByteMatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

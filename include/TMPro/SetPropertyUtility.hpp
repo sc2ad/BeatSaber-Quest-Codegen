@@ -71,12 +71,7 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SetPropertyUtility*, "TMPro", "SetPropertyUtility");
 // Writing MetadataGetter for method: TMPro::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&TMPro::SetPropertyUtility::SetColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::SetPropertyUtility::SetEquatableStruct
 // Il2CppName: SetEquatableStruct
 // Cannot write MetadataGetter for generic methods!

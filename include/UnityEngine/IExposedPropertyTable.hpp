@@ -32,9 +32,4 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExposedPropertyTable");
 // Writing MetadataGetter for method: UnityEngine::IExposedPropertyTable::GetReferenceValue
 // Il2CppName: GetReferenceValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::IExposedPropertyTable::*)(UnityEngine::PropertyName, bool&)>(&UnityEngine::IExposedPropertyTable::GetReferenceValue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IExposedPropertyTable*), "GetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -137,95 +137,35 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AnimationTriggers*, "UnityEngine.UI", "AnimationTriggers");
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_normalTrigger
 // Il2CppName: get_normalTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_normalTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_normalTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_normalTrigger
 // Il2CppName: set_normalTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_normalTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_normalTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_highlightedTrigger
 // Il2CppName: get_highlightedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_highlightedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_highlightedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_highlightedTrigger
 // Il2CppName: set_highlightedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_highlightedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_highlightedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_pressedTrigger
 // Il2CppName: get_pressedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_pressedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_pressedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_pressedTrigger
 // Il2CppName: set_pressedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_pressedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_pressedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_selectedTrigger
 // Il2CppName: get_selectedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_selectedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_selectedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_selectedTrigger
 // Il2CppName: set_selectedTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_selectedTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_selectedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_disabledTrigger
 // Il2CppName: get_disabledTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_disabledTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_disabledTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_disabledTrigger
 // Il2CppName: set_disabledTrigger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_disabledTrigger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_disabledTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

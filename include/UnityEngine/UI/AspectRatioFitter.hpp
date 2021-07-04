@@ -205,135 +205,50 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "A
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter::AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_aspectMode
 // Il2CppName: get_aspectMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::AspectRatioFitter::AspectMode (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::get_aspectMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "get_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::set_aspectMode
 // Il2CppName: set_aspectMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)(UnityEngine::UI::AspectRatioFitter::AspectMode)>(&UnityEngine::UI::AspectRatioFitter::set_aspectMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AspectRatioFitter::AspectMode>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_aspectRatio
 // Il2CppName: get_aspectRatio
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::get_aspectRatio)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "get_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::set_aspectRatio
 // Il2CppName: set_aspectRatio
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)(float)>(&UnityEngine::UI::AspectRatioFitter::set_aspectRatio)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_rectTransform
 // Il2CppName: get_rectTransform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::get_rectTransform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::Update
 // Il2CppName: Update
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::Update)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::UpdateRect
 // Il2CppName: UpdateRect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::UpdateRect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "UpdateRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::GetSizeDeltaToProduceSize
 // Il2CppName: GetSizeDeltaToProduceSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::AspectRatioFitter::*)(float, int)>(&UnityEngine::UI::AspectRatioFitter::GetSizeDeltaToProduceSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "GetSizeDeltaToProduceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::GetParentSize
 // Il2CppName: GetParentSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::GetParentSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "GetParentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::SetLayoutHorizontal)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::SetLayoutVertical)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::SetDirty
 // Il2CppName: SetDirty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::SetDirty)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "SetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::OnEnable
 // Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::OnEnable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::OnDisable
 // Il2CppName: OnDisable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::OnDisable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)()>(&UnityEngine::UI::AspectRatioFitter::OnRectTransformDimensionsChange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

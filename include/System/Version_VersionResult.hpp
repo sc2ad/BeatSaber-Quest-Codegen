@@ -85,33 +85,13 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
 // Writing MetadataGetter for method: System::Version::VersionResult::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(::Il2CppString*, bool)>(&System::Version::VersionResult::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Version::VersionResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(System::Version::ParseFailureKind)>(&System::Version::VersionResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version::ParseFailureKind>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Version::VersionResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(System::Version::ParseFailureKind, ::Il2CppString*)>(&System::Version::VersionResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Version::VersionResult::GetVersionParseException
 // Il2CppName: GetVersionParseException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Version::VersionResult::*)()>(&System::Version::VersionResult::GetVersionParseException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "GetVersionParseException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

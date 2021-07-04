@@ -37,17 +37,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*, "", "AvatarDataMultiplayerAvatarDataConverter");
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateMultiplayerAvatarData
 // Il2CppName: CreateMultiplayerAvatarData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (*)(GlobalNamespace::AvatarData*)>(&GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateMultiplayerAvatarData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateMultiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateAvatarData
 // Il2CppName: CreateAvatarData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateAvatarData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

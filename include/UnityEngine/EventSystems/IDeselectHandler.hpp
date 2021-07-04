@@ -36,9 +36,4 @@ namespace UnityEngine::EventSystems {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IDeselectHandler*, "UnityEngine.EventSystems", "IDeselectHandler");
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IDeselectHandler::OnDeselect
 // Il2CppName: OnDeselect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IDeselectHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::IDeselectHandler::OnDeselect)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IDeselectHandler*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

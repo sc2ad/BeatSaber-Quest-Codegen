@@ -29,9 +29,4 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerAuthenticateResponse*, "MasterServer", "IMasterServerAuthenticateResponse");
 // Writing MetadataGetter for method: MasterServer::IMasterServerAuthenticateResponse::get_isAuthenticated
 // Il2CppName: get_isAuthenticated
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServerAuthenticateResponse::*)()>(&MasterServer::IMasterServerAuthenticateResponse::get_isAuthenticated)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerAuthenticateResponse*), "get_isAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

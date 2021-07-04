@@ -86,39 +86,14 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
 // Writing MetadataGetter for method: Zenject::PoolableManager::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)(System::Collections::Generic::List_1<Zenject::IPoolable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IPoolable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)(System::Collections::Generic::List_1<Zenject::IPoolable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IPoolable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PoolableManager::CreatePoolableInfo
 // Il2CppName: CreatePoolableInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::*)(Zenject::IPoolable*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::CreatePoolableInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "CreatePoolableInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPoolable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::PoolableManager::TriggerOnSpawned
 // Il2CppName: TriggerOnSpawned
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)()>(&Zenject::PoolableManager::TriggerOnSpawned)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "TriggerOnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::PoolableManager::TriggerOnDespawned
 // Il2CppName: TriggerOnDespawned
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)()>(&Zenject::PoolableManager::TriggerOnDespawned)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "TriggerOnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

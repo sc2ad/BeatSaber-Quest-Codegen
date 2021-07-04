@@ -34,17 +34,7 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes*, "System.Net", "NetRes");
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
 // Il2CppName: GetWebStatusString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
 // Il2CppName: GetWebStatusString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

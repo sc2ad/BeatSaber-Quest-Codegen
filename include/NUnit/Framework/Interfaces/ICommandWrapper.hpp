@@ -30,9 +30,4 @@ namespace NUnit::Framework::Interfaces {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICommandWrapper::Wrap
 // Il2CppName: Wrap
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (NUnit::Framework::Interfaces::ICommandWrapper::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&NUnit::Framework::Interfaces::ICommandWrapper::Wrap)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ICommandWrapper*), "Wrap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

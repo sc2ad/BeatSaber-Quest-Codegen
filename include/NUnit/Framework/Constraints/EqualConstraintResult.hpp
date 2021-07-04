@@ -161,87 +161,32 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::EqualConstraint*, ::Il2CppObject*, bool)>(&NUnit::Framework::Constraints::EqualConstraintResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::EqualConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::EqualConstraint*, ::Il2CppObject*, bool)>(&NUnit::Framework::Constraints::EqualConstraintResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::EqualConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayDifferences
 // Il2CppName: DisplayDifferences
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::Il2CppObject*, ::Il2CppObject*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayDifferences)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences
 // Il2CppName: DisplayStringDifferences
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayStringDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayStreamDifferences
 // Il2CppName: DisplayStreamDifferences
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::IO::Stream*, System::IO::Stream*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStreamDifferences)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayStreamDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayCollectionDifferences
 // Il2CppName: DisplayCollectionDifferences
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::ICollection*, System::Collections::ICollection*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayCollectionDifferences)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayCollectionDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayTypesAndSizes
 // Il2CppName: DisplayTypesAndSizes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayTypesAndSizes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayTypesAndSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayFailurePoint
 // Il2CppName: DisplayFailurePoint
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayFailurePoint)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayFailurePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayEnumerableDifferences
 // Il2CppName: DisplayEnumerableDifferences
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayEnumerableDifferences)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayEnumerableDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::EqualConstraintResult::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::WriteMessageTo
 // Il2CppName: WriteMessageTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&NUnit::Framework::Constraints::EqualConstraintResult::WriteMessageTo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "WriteMessageTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -304,485 +304,180 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetWebErrorString
 // Il2CppName: GetWebErrorString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError)>(&UnityEngine::Networking::UnityWebRequest::GetWebErrorString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetWebErrorString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString
 // Il2CppName: GetHTTPStatusString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t)>(&UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetHTTPStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_disposeCertificateHandlerOnDispose
 // Il2CppName: get_disposeCertificateHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_disposeCertificateHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_disposeCertificateHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_disposeCertificateHandlerOnDispose
 // Il2CppName: set_disposeCertificateHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(bool)>(&UnityEngine::Networking::UnityWebRequest::set_disposeCertificateHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_disposeCertificateHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_disposeDownloadHandlerOnDispose
 // Il2CppName: get_disposeDownloadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_disposeDownloadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_disposeDownloadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_disposeDownloadHandlerOnDispose
 // Il2CppName: set_disposeDownloadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(bool)>(&UnityEngine::Networking::UnityWebRequest::set_disposeDownloadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_disposeDownloadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_disposeUploadHandlerOnDispose
 // Il2CppName: get_disposeUploadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_disposeUploadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_disposeUploadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_disposeUploadHandlerOnDispose
 // Il2CppName: set_disposeUploadHandlerOnDispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(bool)>(&UnityEngine::Networking::UnityWebRequest::set_disposeUploadHandlerOnDispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_disposeUploadHandlerOnDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Create
 // Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::Networking::UnityWebRequest::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Release
 // Il2CppName: Release
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::Release)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalDestroy
 // Il2CppName: InternalDestroy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::InternalDestroy)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetDefaults
 // Il2CppName: InternalSetDefaults
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::InternalSetDefaults)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Networking::DownloadHandler*, UnityEngine::Networking::UploadHandler*)>(&UnityEngine::Networking::UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Networking::DownloadHandler*, UnityEngine::Networking::UploadHandler*)>(&UnityEngine::Networking::UnityWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Dispose
 // Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::DisposeHandlers
 // Il2CppName: DisposeHandlers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::DisposeHandlers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "DisposeHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::BeginWebRequest
 // Il2CppName: BeginWebRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequestAsyncOperation* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::BeginWebRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "BeginWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SendWebRequest
 // Il2CppName: SendWebRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequestAsyncOperation* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::SendWebRequest)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SendWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Abort
 // Il2CppName: Abort
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::Abort)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetMethod
 // Il2CppName: SetMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod)>(&UnityEngine::Networking::UnityWebRequest::SetMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetMethod
 // Il2CppName: InternalSetMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod)>(&UnityEngine::Networking::UnityWebRequest::InternalSetMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetCustomMethod
 // Il2CppName: SetCustomMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetCustomMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod
 // Il2CppName: InternalSetCustomMethod
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_method
 // Il2CppName: set_method
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::set_method)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetError
 // Il2CppName: GetError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::GetError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_error
 // Il2CppName: get_error
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_error)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_url
 // Il2CppName: get_url
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_url)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_url
 // Il2CppName: set_url
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::set_url)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetUrl
 // Il2CppName: GetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::GetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetUrl
 // Il2CppName: SetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetUrl
 // Il2CppName: InternalSetUrl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetUrl)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_responseCode
 // Il2CppName: get_responseCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_responseCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_responseCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::IsExecuting
 // Il2CppName: IsExecuting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::IsExecuting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "IsExecuting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_isModifiable
 // Il2CppName: get_isModifiable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_isModifiable)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_isModifiable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_isDone
 // Il2CppName: get_isDone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_isDone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_isDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_isNetworkError
 // Il2CppName: get_isNetworkError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_isNetworkError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_isNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_isHttpError
 // Il2CppName: get_isHttpError
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_isHttpError)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_isHttpError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetDownloadProgress
 // Il2CppName: GetDownloadProgress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::GetDownloadProgress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetDownloadProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_downloadProgress
 // Il2CppName: get_downloadProgress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_downloadProgress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_downloadProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_downloadedBytes
 // Il2CppName: get_downloadedBytes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_downloadedBytes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_downloadedBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetRedirectLimitFromScripting
 // Il2CppName: SetRedirectLimitFromScripting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(int)>(&UnityEngine::Networking::UnityWebRequest::SetRedirectLimitFromScripting)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetRedirectLimitFromScripting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_redirectLimit
 // Il2CppName: set_redirectLimit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(int)>(&UnityEngine::Networking::UnityWebRequest::set_redirectLimit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_redirectLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetRequestHeader
 // Il2CppName: InternalSetRequestHeader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetRequestHeader)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetRequestHeader
 // Il2CppName: SetRequestHeader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetRequestHeader)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetRequestHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetUploadHandler
 // Il2CppName: SetUploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::UploadHandler*)>(&UnityEngine::Networking::UnityWebRequest::SetUploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetUploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_uploadHandler
 // Il2CppName: get_uploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UploadHandler* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_uploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_uploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_uploadHandler
 // Il2CppName: set_uploadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::UploadHandler*)>(&UnityEngine::Networking::UnityWebRequest::set_uploadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_uploadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetDownloadHandler
 // Il2CppName: SetDownloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::DownloadHandler*)>(&UnityEngine::Networking::UnityWebRequest::SetDownloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetDownloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_downloadHandler
 // Il2CppName: get_downloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::DownloadHandler* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_downloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_downloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_downloadHandler
 // Il2CppName: set_downloadHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::DownloadHandler*)>(&UnityEngine::Networking::UnityWebRequest::set_downloadHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_downloadHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetCertificateHandler
 // Il2CppName: SetCertificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::CertificateHandler*)>(&UnityEngine::Networking::UnityWebRequest::SetCertificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetCertificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_certificateHandler
 // Il2CppName: get_certificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::CertificateHandler* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_certificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_certificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_certificateHandler
 // Il2CppName: set_certificateHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(UnityEngine::Networking::CertificateHandler*)>(&UnityEngine::Networking::UnityWebRequest::set_certificateHandler)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_certificateHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::CertificateHandler*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetTimeoutMsec
 // Il2CppName: SetTimeoutMsec
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(int)>(&UnityEngine::Networking::UnityWebRequest::SetTimeoutMsec)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetTimeoutMsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_timeout
 // Il2CppName: set_timeout
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(int)>(&UnityEngine::Networking::UnityWebRequest::set_timeout)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Get
 // Il2CppName: Get
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::Get)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::EscapeURL
 // Il2CppName: EscapeURL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "EscapeURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::EscapeURL
 // Il2CppName: EscapeURL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "EscapeURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Finalize
 // Il2CppName: Finalize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::Finalize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

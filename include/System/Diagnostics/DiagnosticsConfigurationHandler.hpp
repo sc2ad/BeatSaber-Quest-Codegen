@@ -50,23 +50,8 @@ namespace System::Diagnostics {
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::Create
 // Il2CppName: Create
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Diagnostics::DiagnosticsConfigurationHandler::*)(::Il2CppObject*, ::Il2CppObject*, System::Xml::XmlNode*)>(&System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DiagnosticsConfigurationHandler*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlNode*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DiagnosticsConfigurationHandler::*)()>(&System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DiagnosticsConfigurationHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DiagnosticsConfigurationHandler::*)()>(&System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DiagnosticsConfigurationHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

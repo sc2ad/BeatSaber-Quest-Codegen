@@ -45,25 +45,10 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel*, "", "FileBrowserModel");
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::GetContentOfDirectory
 // Il2CppName: GetContentOfDirectory
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel*), "GetContentOfDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::GetContentOfDirectory
 // Il2CppName: GetContentOfDirectory
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::FileBrowserItem*>* (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel*), "GetContentOfDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::CanOpenDirectory
 // Il2CppName: CanOpenDirectory
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserModel::CanOpenDirectory)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel*), "CanOpenDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

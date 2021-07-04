@@ -26,9 +26,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
 // Il2CppName: GetMeshRendererData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMeshRenderer::MeshRendererData (GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::*)()>(&GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*), "GetMeshRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

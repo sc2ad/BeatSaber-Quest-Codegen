@@ -33,9 +33,4 @@ namespace UnityEngine::TestTools::Utils {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "IAssemblyLoadProxy");
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load
 // Il2CppName: Load
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::IAssemblyLoadProxy::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

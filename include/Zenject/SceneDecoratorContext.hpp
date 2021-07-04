@@ -153,127 +153,47 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneDecoratorContext*, "Zenject", "SceneDecoratorContext");
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_LateInstallers
 // Il2CppName: get_LateInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_LateInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_LateInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::set_LateInstallers
 // Il2CppName: set_LateInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::SceneDecoratorContext::set_LateInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "set_LateInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_LateInstallerPrefabs
 // Il2CppName: get_LateInstallerPrefabs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_LateInstallerPrefabs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_LateInstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::set_LateInstallerPrefabs
 // Il2CppName: set_LateInstallerPrefabs
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::SceneDecoratorContext::set_LateInstallerPrefabs)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "set_LateInstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_LateScriptableObjectInstallers
 // Il2CppName: get_LateScriptableObjectInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_LateScriptableObjectInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_LateScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers
 // Il2CppName: set_LateScriptableObjectInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*)>(&Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "set_LateScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_DecoratedContractName
 // Il2CppName: get_DecoratedContractName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_DecoratedContractName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_DecoratedContractName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::Initialize
 // Il2CppName: Initialize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)(Zenject::DiContainer*)>(&Zenject::SceneDecoratorContext::Initialize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::InstallDecoratorSceneBindings
 // Il2CppName: InstallDecoratorSceneBindings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::InstallDecoratorSceneBindings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "InstallDecoratorSceneBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::InstallDecoratorInstallers
 // Il2CppName: InstallDecoratorInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::InstallDecoratorInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "InstallDecoratorInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::InstallLateDecoratorInstallers
 // Il2CppName: InstallLateDecoratorInstallers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::InstallLateDecoratorInstallers)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "InstallLateDecoratorInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_Container
 // Il2CppName: get_Container
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_Container)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::GetRootGameObjects)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours
 // Il2CppName: GetInjectableMonoBehaviours
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

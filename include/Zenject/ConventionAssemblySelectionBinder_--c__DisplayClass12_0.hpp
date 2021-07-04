@@ -64,23 +64,8 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, "Zenject", "ConventionAssemblySelectionBinder/<>c__DisplayClass12_0");
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::$FromAssemblies$b__0
 // Il2CppName: <FromAssemblies>b__0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::*)(System::Reflection::Assembly*)>(&Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::$FromAssemblies$b__0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*), "<FromAssemblies>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::*)()>(&Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::*)()>(&Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

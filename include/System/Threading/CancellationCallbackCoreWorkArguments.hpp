@@ -58,15 +58,5 @@ namespace System::Threading {
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationCallbackCoreWorkArguments::*)(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>*, int)>(&System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackCoreWorkArguments), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationCallbackCoreWorkArguments::*)(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>*, int)>(&System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationCallbackCoreWorkArguments), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

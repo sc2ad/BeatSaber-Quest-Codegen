@@ -104,39 +104,14 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer*, "Zenject", "PrefabResourceBindingFinalizer");
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabResourceBindingFinalizer::*)(Zenject::BindInfo*, Zenject::GameObjectCreationParameters*, ::Il2CppString*, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*)>(&Zenject::PrefabResourceBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabResourceBindingFinalizer::*)(Zenject::BindInfo*, Zenject::GameObjectCreationParameters*, ::Il2CppString*, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*)>(&Zenject::PrefabResourceBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::FinalizeBindingConcrete
 // Il2CppName: FinalizeBindingConcrete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabResourceBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::PrefabResourceBindingFinalizer::FinalizeBindingConcrete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::FinalizeBindingSelf
 // Il2CppName: FinalizeBindingSelf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabResourceBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::PrefabResourceBindingFinalizer::FinalizeBindingSelf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::OnFinalizeBinding
 // Il2CppName: OnFinalizeBinding
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabResourceBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::PrefabResourceBindingFinalizer::OnFinalizeBinding)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

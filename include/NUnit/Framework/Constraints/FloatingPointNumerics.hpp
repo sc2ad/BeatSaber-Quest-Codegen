@@ -36,17 +36,7 @@ namespace NUnit::Framework::Constraints {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, int)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, int64_t)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

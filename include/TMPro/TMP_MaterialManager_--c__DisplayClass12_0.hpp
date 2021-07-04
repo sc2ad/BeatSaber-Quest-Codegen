@@ -58,23 +58,8 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*, "TMPro", "TMP_MaterialManager/<>c__DisplayClass12_0");
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::$AddMaskingMaterial$b__0
 // Il2CppName: <AddMaskingMaterial>b__0
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::*)(TMPro::TMP_MaterialManager::MaskingMaterial*)>(&TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::$AddMaskingMaterial$b__0)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*), "<AddMaskingMaterial>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_MaterialManager::MaskingMaterial*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::*)()>(&TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::*)()>(&TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

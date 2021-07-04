@@ -76,84 +76,34 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentNullException
 // Il2CppName: ThrowArgumentNullException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument)>(&System::ThrowHelper::ThrowArgumentNullException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::CreateArgumentNullException
 // Il2CppName: CreateArgumentNullException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::ExceptionArgument)>(&System::ThrowHelper::CreateArgumentNullException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentOutOfRangeException
 // Il2CppName: ThrowArgumentOutOfRangeException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowWrongValueTypeArgumentException
 // Il2CppName: ThrowWrongValueTypeArgumentException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Type*)>(&System::ThrowHelper::ThrowWrongValueTypeArgumentException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowWrongValueTypeArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentException
 // Il2CppName: ThrowArgumentException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentOutOfRangeException
 // Il2CppName: ThrowArgumentOutOfRangeException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument, System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>(), ::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowInvalidOperationException
 // Il2CppName: ThrowInvalidOperationException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowInvalidOperationException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowInvalidOperationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowNotSupportedException
 // Il2CppName: ThrowNotSupportedException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowNotSupportedException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::IfNullAndNullsAreIllegalThenThrow
 // Il2CppName: IfNullAndNullsAreIllegalThenThrow
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::ThrowHelper::GetArgumentName
 // Il2CppName: GetArgumentName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionArgument)>(&System::ThrowHelper::GetArgumentName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetArgumentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ThrowHelper::GetResourceName
 // Il2CppName: GetResourceName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionResource)>(&System::ThrowHelper::GetResourceName)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetResourceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

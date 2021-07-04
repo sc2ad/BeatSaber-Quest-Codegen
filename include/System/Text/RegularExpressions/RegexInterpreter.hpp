@@ -249,335 +249,125 @@ namespace System::Text::RegularExpressions {
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter*, "System.Text.RegularExpressions", "RegexInterpreter");
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(System::Text::RegularExpressions::RegexCode*, System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexInterpreter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(System::Text::RegularExpressions::RegexCode*, System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexInterpreter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCode*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Advance
 // Il2CppName: Advance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Advance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Advance
 // Il2CppName: Advance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Advance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Goto
 // Il2CppName: Goto
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Goto)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Goto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Textto
 // Il2CppName: Textto
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Textto)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Textto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Trackto
 // Il2CppName: Trackto
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Trackto)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Trackto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Textstart
 // Il2CppName: Textstart
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Textstart)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Textstart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Textpos
 // Il2CppName: Textpos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Textpos)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Textpos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Trackpos
 // Il2CppName: Trackpos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Trackpos)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Trackpos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
 // Il2CppName: TrackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
 // Il2CppName: TrackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
 // Il2CppName: TrackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
 // Il2CppName: TrackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush2
 // Il2CppName: TrackPush2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush2
 // Il2CppName: TrackPush2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush2)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Backtrack
 // Il2CppName: Backtrack
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Backtrack)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Backtrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::SetOperator
 // Il2CppName: SetOperator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::SetOperator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "SetOperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPop
 // Il2CppName: TrackPop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::TrackPop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPop
 // Il2CppName: TrackPop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPeek
 // Il2CppName: TrackPeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::TrackPeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPeek
 // Il2CppName: TrackPeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPush
 // Il2CppName: StackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPush
 // Il2CppName: StackPush
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPush)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPop
 // Il2CppName: StackPop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::StackPop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPop
 // Il2CppName: StackPop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPeek
 // Il2CppName: StackPeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::StackPeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPeek
 // Il2CppName: StackPeek
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPeek)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Operator
 // Il2CppName: Operator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Operator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Operator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Operand
 // Il2CppName: Operand
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Operand)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Operand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Leftchars
 // Il2CppName: Leftchars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Leftchars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Leftchars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Rightchars
 // Il2CppName: Rightchars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Rightchars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Rightchars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Bump
 // Il2CppName: Bump
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Bump)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Bump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Forwardchars
 // Il2CppName: Forwardchars
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Forwardchars)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Forwardchars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Forwardcharnext
 // Il2CppName: Forwardcharnext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Forwardcharnext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Forwardcharnext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Stringmatch
 // Il2CppName: Stringmatch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexInterpreter::Stringmatch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Stringmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Refmatch
 // Il2CppName: Refmatch
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::Refmatch)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Refmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Backwardnext
 // Il2CppName: Backwardnext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Backwardnext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Backwardnext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::CharAt
 // Il2CppName: CharAt
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::CharAt)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "CharAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::InitTrackCount
 // Il2CppName: InitTrackCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::InitTrackCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "InitTrackCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::FindFirstChar
 // Il2CppName: FindFirstChar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::FindFirstChar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "FindFirstChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Go
 // Il2CppName: Go
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)()>(&System::Text::RegularExpressions::RegexInterpreter::Go)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Go", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

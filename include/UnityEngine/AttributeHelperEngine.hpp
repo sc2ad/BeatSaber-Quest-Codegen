@@ -82,52 +82,22 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion
 // Il2CppName: GetParentTypeDisallowingMultipleInclusion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetParentTypeDisallowingMultipleInclusion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetRequiredComponents
 // Il2CppName: GetRequiredComponents
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetRequiredComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetExecuteMode
 // Il2CppName: GetExecuteMode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetExecuteMode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetExecuteMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::CheckIsEditorScript
 // Il2CppName: CheckIsEditorScript
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::CheckIsEditorScript)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "CheckIsEditorScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor
 // Il2CppName: GetDefaultExecutionOrderFor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetDefaultExecutionOrderFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetCustomAttributeOfType
 // Il2CppName: GetCustomAttributeOfType
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AttributeHelperEngine::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

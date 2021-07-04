@@ -83,39 +83,14 @@ namespace System::Net::NetworkInformation {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPInterfaceProperties2*, "System.Net.NetworkInformation", "Win32IPInterfaceProperties2");
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPInterfaceProperties2::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, System::Net::NetworkInformation::Win32_MIB_IFROW, System::Net::NetworkInformation::Win32_MIB_IFROW)>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPInterfaceProperties2::Win32FromUnicast
 // Il2CppName: Win32FromUnicast
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (*)(System::IntPtr)>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::Win32FromUnicast)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "Win32FromUnicast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_GatewayAddresses
 // Il2CppName: get_GatewayAddresses
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)()>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_GatewayAddresses)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_UnicastAddresses
 // Il2CppName: get_UnicastAddresses
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)()>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_UnicastAddresses)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -31,17 +31,7 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpringJoint*, "UnityEngine", "SpringJoint");
 // Writing MetadataGetter for method: UnityEngine::SpringJoint::set_minDistance
 // Il2CppName: set_minDistance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SpringJoint::*)(float)>(&UnityEngine::SpringJoint::set_minDistance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SpringJoint*), "set_minDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::SpringJoint::set_maxDistance
 // Il2CppName: set_maxDistance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SpringJoint::*)(float)>(&UnityEngine::SpringJoint::set_maxDistance)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SpringJoint*), "set_maxDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

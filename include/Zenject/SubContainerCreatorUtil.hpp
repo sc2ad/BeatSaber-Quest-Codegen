@@ -33,9 +33,4 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorUtil*, "Zenject", "SubContainerCreatorUtil");
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorUtil::ApplyBindSettings
 // Il2CppName: ApplyBindSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::SubContainerCreatorBindInfo*, Zenject::DiContainer*)>(&Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorUtil*), "ApplyBindSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

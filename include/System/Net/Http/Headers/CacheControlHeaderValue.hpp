@@ -267,287 +267,107 @@ namespace System::Net::Http::Headers {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CacheControlHeaderValue*, "System.Net.Http.Headers", "CacheControlHeaderValue");
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions
 // Il2CppName: get_Extensions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_MaxAge
 // Il2CppName: get_MaxAge
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_MaxAge)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_MaxAge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_MaxAge
 // Il2CppName: set_MaxAge
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_MaxAge)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_MaxAge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStale
 // Il2CppName: get_MaxStale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_MaxStale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStale
 // Il2CppName: set_MaxStale
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStale)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_MaxStale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStaleLimit
 // Il2CppName: get_MaxStaleLimit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStaleLimit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_MaxStaleLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStaleLimit
 // Il2CppName: set_MaxStaleLimit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStaleLimit)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_MaxStaleLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_MinFresh
 // Il2CppName: get_MinFresh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_MinFresh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_MinFresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_MinFresh
 // Il2CppName: set_MinFresh
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_MinFresh)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_MinFresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_MustRevalidate
 // Il2CppName: get_MustRevalidate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_MustRevalidate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_MustRevalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_MustRevalidate
 // Il2CppName: set_MustRevalidate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_MustRevalidate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_MustRevalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_NoCache
 // Il2CppName: get_NoCache
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoCache)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_NoCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_NoCache
 // Il2CppName: set_NoCache
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_NoCache)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_NoCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders
 // Il2CppName: get_NoCacheHeaders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_NoCacheHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_NoStore
 // Il2CppName: get_NoStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_NoStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_NoStore
 // Il2CppName: set_NoStore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_NoStore)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_NoStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_NoTransform
 // Il2CppName: get_NoTransform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoTransform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_NoTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_NoTransform
 // Il2CppName: set_NoTransform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_NoTransform)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_NoTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_OnlyIfCached
 // Il2CppName: get_OnlyIfCached
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_OnlyIfCached)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_OnlyIfCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_OnlyIfCached
 // Il2CppName: set_OnlyIfCached
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_OnlyIfCached)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_OnlyIfCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_Private
 // Il2CppName: get_Private
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_Private)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_Private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_Private
 // Il2CppName: set_Private
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_Private)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_Private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders
 // Il2CppName: get_PrivateHeaders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_PrivateHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_ProxyRevalidate
 // Il2CppName: get_ProxyRevalidate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_ProxyRevalidate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_ProxyRevalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_ProxyRevalidate
 // Il2CppName: set_ProxyRevalidate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_ProxyRevalidate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_ProxyRevalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_Public
 // Il2CppName: get_Public
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_Public)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_Public", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_Public
 // Il2CppName: set_Public
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_Public)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_Public", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_SharedMaxAge
 // Il2CppName: get_SharedMaxAge
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_SharedMaxAge)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_SharedMaxAge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::set_SharedMaxAge
 // Il2CppName: set_SharedMaxAge
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&System::Net::Http::Headers::CacheControlHeaderValue::set_SharedMaxAge)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "set_SharedMaxAge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::System_ICloneable_Clone)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::TryParse
 // Il2CppName: TryParse
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::CacheControlHeaderValue*&)>(&System::Net::Http::Headers::CacheControlHeaderValue::TryParse)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::CacheControlHeaderValue*&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::Equals
 // Il2CppName: Equals
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::CacheControlHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::CacheControlHeaderValue::Equals)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::GetHashCode)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -46,49 +46,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*, "UnityEngine.TestRunner.TestLaunchers", "PlayerConnectionMessageIds");
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_runStartedMessageId
 // Il2CppName: get_runStartedMessageId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_runStartedMessageId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_runStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_runFinishedMessageId
 // Il2CppName: get_runFinishedMessageId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_runFinishedMessageId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_runFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_testStartedMessageId
 // Il2CppName: get_testStartedMessageId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_testStartedMessageId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_testStartedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_testFinishedMessageId
 // Il2CppName: get_testFinishedMessageId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_testFinishedMessageId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_testFinishedMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_quitPlayerMessageId
 // Il2CppName: get_quitPlayerMessageId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_quitPlayerMessageId)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_quitPlayerMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_playerAliveHeartbeat
 // Il2CppName: get_playerAliveHeartbeat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_playerAliveHeartbeat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*), "get_playerAliveHeartbeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

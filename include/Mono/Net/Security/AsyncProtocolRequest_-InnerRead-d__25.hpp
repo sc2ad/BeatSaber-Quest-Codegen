@@ -85,17 +85,7 @@ namespace Mono::Net::Security {
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::*)()>(&Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::SetStateMachine
 // Il2CppName: SetStateMachine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::SetStateMachine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

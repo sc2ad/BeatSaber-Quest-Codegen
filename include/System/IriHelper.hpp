@@ -40,33 +40,13 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
 // Writing MetadataGetter for method: System::IriHelper::CheckIriUnicodeRange
 // Il2CppName: CheckIriUnicodeRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IriHelper::CheckIriUnicodeRange
 // Il2CppName: CheckIriUnicodeRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, bool&, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IriHelper::CheckIsReserved
 // Il2CppName: CheckIsReserved
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::UriComponents)>(&System::IriHelper::CheckIsReserved)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "CheckIsReserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IriHelper::EscapeUnescapeIri
 // Il2CppName: EscapeUnescapeIri
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, System::UriComponents)>(&System::IriHelper::EscapeUnescapeIri)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "EscapeUnescapeIri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriComponents>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

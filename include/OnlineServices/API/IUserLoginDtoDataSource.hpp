@@ -52,25 +52,10 @@ namespace OnlineServices::API {
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IUserLoginDtoDataSource*, "OnlineServices.API", "IUserLoginDtoDataSource");
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::UserAuthenticationDataAsync
 // Il2CppName: UserAuthenticationDataAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::UserAuthenticationDataAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::GetUserFriendsUserIds
 // Il2CppName: GetUserFriendsUserIds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetUserFriendsUserIds)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::GetPlatformUserIdAsync
 // Il2CppName: GetPlatformUserIdAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetPlatformUserIdAsync)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

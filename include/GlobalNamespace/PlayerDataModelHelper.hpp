@@ -46,49 +46,19 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModelHelper*, "", "PlayerDataModelHelper");
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats
 // Il2CppName: ToPlayerOverallStats
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats
 // Il2CppName: ToPlayerOverallStats
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData
 // Il2CppName: ToPlayerOverallStatsData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

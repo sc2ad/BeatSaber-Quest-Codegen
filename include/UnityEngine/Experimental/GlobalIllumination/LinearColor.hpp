@@ -66,17 +66,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert
 // Il2CppName: Convert
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Color, float)>(&UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LinearColor), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LinearColor::Black
 // Il2CppName: Black
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(&UnityEngine::Experimental::GlobalIllumination::LinearColor::Black)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LinearColor), "Black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

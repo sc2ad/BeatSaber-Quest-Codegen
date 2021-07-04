@@ -28,17 +28,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*, "", "OVRSkeleton/IOVRSkeletonDataProvider");
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonType
 // Il2CppName: GetSkeletonType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeleton::SkeletonType (GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::*)()>(&GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*), "GetSkeletonType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonPoseData
 // Il2CppName: GetSkeletonPoseData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeleton::SkeletonPoseData (GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::*)()>(&GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonPoseData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*), "GetSkeletonPoseData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

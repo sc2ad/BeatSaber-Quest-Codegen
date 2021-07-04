@@ -100,41 +100,16 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
 // Writing MetadataGetter for method: System::Enum::EnumResult::Init
 // Il2CppName: Init
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(bool)>(&System::Enum::EnumResult::Init)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Enum::EnumResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Enum::EnumResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Exception*)>(&System::Enum::EnumResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Enum::EnumResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*)>(&System::Enum::EnumResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Enum::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Enum::EnumResult::SetFailure
 // Il2CppName: SetFailure
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::Enum::EnumResult::SetFailure)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Enum::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Enum::EnumResult::GetEnumParseException
 // Il2CppName: GetEnumParseException
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Enum::EnumResult::*)()>(&System::Enum::EnumResult::GetEnumParseException)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Enum::EnumResult), "GetEnumParseException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

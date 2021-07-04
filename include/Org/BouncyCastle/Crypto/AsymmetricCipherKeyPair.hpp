@@ -58,31 +58,11 @@ namespace Org::BouncyCastle::Crypto {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public
 // Il2CppName: get_Public
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Public", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private
 // Il2CppName: get_Private
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

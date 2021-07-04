@@ -109,17 +109,7 @@ namespace System::IO {
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
 // Writing MetadataGetter for method: System::IO::Stream::$CopyToAsyncInternal$d__27::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::$CopyToAsyncInternal$d__27::*)()>(&System::IO::Stream::$CopyToAsyncInternal$d__27::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$CopyToAsyncInternal$d__27), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::IO::Stream::$CopyToAsyncInternal$d__27::SetStateMachine
 // Il2CppName: SetStateMachine
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::$CopyToAsyncInternal$d__27::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&System::IO::Stream::$CopyToAsyncInternal$d__27::SetStateMachine)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$CopyToAsyncInternal$d__27), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -109,71 +109,26 @@ namespace MasterServer {
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*, "MasterServer", "ServerCertificateRequest/<get_certificateList>d__5");
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)(int)>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)(int)>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_IDisposable_Dispose)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::MoveNext
 // Il2CppName: MoveNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::MoveNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerator_Reset)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerator_get_Current)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>* (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MasterServer::ServerCertificateRequest::$get_certificateList$d__5::*)()>(&MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_IEnumerable_GetEnumerator)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

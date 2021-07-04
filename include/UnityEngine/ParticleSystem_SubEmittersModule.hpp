@@ -60,47 +60,17 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::SubEmittersModule
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::SubEmittersModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::SubEmittersModule::SubEmittersModule<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::SubEmittersModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::SubEmittersModule::SubEmittersModule<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount
 // Il2CppName: get_subEmittersCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::SubEmittersModule::*)()>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "get_subEmittersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem
 // Il2CppName: GetSubEmitterSystem
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (UnityEngine::ParticleSystem::SubEmittersModule::*)(int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "GetSubEmitterSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected
 // Il2CppName: get_subEmittersCount_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ParticleSystem::SubEmittersModule&)>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "get_subEmittersCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::SubEmittersModule&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected
 // Il2CppName: GetSubEmitterSystem_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (*)(UnityEngine::ParticleSystem::SubEmittersModule&, int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "GetSubEmitterSystem_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::SubEmittersModule&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

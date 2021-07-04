@@ -73,31 +73,11 @@ namespace System::Resources {
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&System::Resources::ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&System::Resources::ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage
 // Il2CppName: GetNeutralResourcesLanguage
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::UltimateResourceFallbackLocation&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute
 // Il2CppName: GetNeutralResourcesLanguageAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguageAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

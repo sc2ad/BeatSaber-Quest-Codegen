@@ -30,9 +30,4 @@ namespace Org::BouncyCastle::Asn1 {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Convertible*, "Org.BouncyCastle.Asn1", "IAsn1Convertible");
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IAsn1Convertible::ToAsn1Object
 // Il2CppName: ToAsn1Object
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::IAsn1Convertible::*)()>(&Org::BouncyCastle::Asn1::IAsn1Convertible::ToAsn1Object)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::IAsn1Convertible*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

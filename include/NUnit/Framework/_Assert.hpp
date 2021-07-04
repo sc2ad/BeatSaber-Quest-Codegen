@@ -49,7 +49,7 @@ namespace NUnit::Framework {
     // Creating TArgs -> initializer_list proxy for: System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     template<class TActual, class ...TParams>
     static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, TParams&&... args) {
-      That<class TActual>(actual, expression, message, {args...});
+      That<TActual>(actual, expression, message, {args...});
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x1721600
@@ -90,52 +90,22 @@ namespace NUnit::Framework {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::AreEqual
 // Il2CppName: AreEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::_Assert::AreEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::IncrementAssertCount
 // Il2CppName: IncrementAssertCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::_Assert::IncrementAssertCount)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::That
 // Il2CppName: That
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::GreaterOrEqual
 // Il2CppName: GreaterOrEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::GreaterOrEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "GreaterOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::LessOrEqual
 // Il2CppName: LessOrEqual
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::LessOrEqual)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "LessOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::IsTrue
 // Il2CppName: IsTrue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::IsTrue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "IsTrue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::IsTrue
 // Il2CppName: IsTrue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&NUnit::Framework::_Assert::IsTrue)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "IsTrue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

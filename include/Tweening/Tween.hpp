@@ -224,223 +224,83 @@ namespace Tweening {
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");
 // Writing MetadataGetter for method: Tweening::Tween::get_progress
 // Il2CppName: get_progress
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::Tween::*)()>(&Tweening::Tween::get_progress)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_time
 // Il2CppName: get_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::Tween::*)()>(&Tweening::Tween::get_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_time
 // Il2CppName: set_time
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::set_time)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_duration
 // Il2CppName: get_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::Tween::*)()>(&Tweening::Tween::get_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_duration
 // Il2CppName: set_duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::set_duration)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_loop
 // Il2CppName: get_loop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::Tween::*)()>(&Tweening::Tween::get_loop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_loop
 // Il2CppName: set_loop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(bool)>(&Tweening::Tween::set_loop)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_loop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_delay
 // Il2CppName: get_delay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::Tween::*)()>(&Tweening::Tween::get_delay)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_delay
 // Il2CppName: set_delay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::set_delay)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_isStarted
 // Il2CppName: get_isStarted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::Tween::*)()>(&Tweening::Tween::get_isStarted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_isStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_isStarted
 // Il2CppName: set_isStarted
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(bool)>(&Tweening::Tween::set_isStarted)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_isStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_isActive
 // Il2CppName: get_isActive
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::Tween::*)()>(&Tweening::Tween::get_isActive)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_isComplete
 // Il2CppName: get_isComplete
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::Tween::*)()>(&Tweening::Tween::get_isComplete)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_isComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_isKilled
 // Il2CppName: get_isKilled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::Tween::*)()>(&Tweening::Tween::get_isKilled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_isKilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_isKilled
 // Il2CppName: set_isKilled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(bool)>(&Tweening::Tween::set_isKilled)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_isKilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_interpolationType
 // Il2CppName: get_interpolationType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::InterpolationType (Tweening::Tween::*)()>(&Tweening::Tween::get_interpolationType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_interpolationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_interpolationType
 // Il2CppName: set_interpolationType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(Tweening::InterpolationType)>(&Tweening::Tween::set_interpolationType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_interpolationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::InterpolationType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_easeType
 // Il2CppName: get_easeType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::EaseType (Tweening::Tween::*)()>(&Tweening::Tween::get_easeType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_easeType
 // Il2CppName: set_easeType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(Tweening::EaseType)>(&Tweening::Tween::set_easeType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::get_animationCurve
 // Il2CppName: get_animationCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (Tweening::Tween::*)()>(&Tweening::Tween::get_animationCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_animationCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::set_animationCurve
 // Il2CppName: set_animationCurve
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(UnityEngine::AnimationCurve*)>(&Tweening::Tween::set_animationCurve)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_animationCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::Kill
 // Il2CppName: Kill
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)()>(&Tweening::Tween::Kill)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Kill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::Restart
 // Il2CppName: Restart
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)()>(&Tweening::Tween::Restart)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Restart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::Update
 // Il2CppName: Update
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::Update)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::Sample
 // Il2CppName: Sample
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::Sample)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::Interpolate
 // Il2CppName: Interpolate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::Tween::*)(float)>(&Tweening::Tween::Interpolate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Tweening::Tween::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)()>(&Tweening::Tween::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)()>(&Tweening::Tween::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

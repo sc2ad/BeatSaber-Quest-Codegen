@@ -73,31 +73,11 @@ namespace Zenject {
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct
 // Il2CppName: Construct
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)(Zenject::DiContainer*)>(&Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Start
 // Il2CppName: Start
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)()>(&Zenject::ZenjectStateMachineBehaviourAutoInjecter::Start)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)()>(&Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)()>(&Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

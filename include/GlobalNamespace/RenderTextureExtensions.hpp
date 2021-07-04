@@ -34,9 +34,4 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureExtensions*, "", "RenderTextureExtensions");
 // Writing MetadataGetter for method: GlobalNamespace::RenderTextureExtensions::GetTexture2D
 // Il2CppName: GetTexture2D
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::RenderTextureExtensions::GetTexture2D)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureExtensions*), "GetTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

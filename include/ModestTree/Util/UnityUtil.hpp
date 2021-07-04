@@ -109,137 +109,52 @@ namespace ModestTree::Util {
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil*, "ModestTree.Util", "UnityUtil");
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_AllScenes
 // Il2CppName: get_AllScenes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllScenes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_AllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_AllLoadedScenes
 // Il2CppName: get_AllLoadedScenes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllLoadedScenes)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_AllLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_IsAltKeyDown
 // Il2CppName: get_IsAltKeyDown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ModestTree::Util::UnityUtil::get_IsAltKeyDown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_IsAltKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_IsControlKeyDown
 // Il2CppName: get_IsControlKeyDown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ModestTree::Util::UnityUtil::get_IsControlKeyDown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_IsControlKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_IsShiftKeyDown
 // Il2CppName: get_IsShiftKeyDown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ModestTree::Util::UnityUtil::get_IsShiftKeyDown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_IsShiftKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_WasShiftKeyJustPressed
 // Il2CppName: get_WasShiftKeyJustPressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ModestTree::Util::UnityUtil::get_WasShiftKeyJustPressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_WasShiftKeyJustPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_WasAltKeyJustPressed
 // Il2CppName: get_WasAltKeyJustPressed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ModestTree::Util::UnityUtil::get_WasAltKeyJustPressed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_WasAltKeyJustPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDepthLevel
 // Il2CppName: GetDepthLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetDepthLevel)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDepthLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetRootParentOrSelf
 // Il2CppName: GetRootParentOrSelf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetRootParentOrSelf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetRootParentOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetParents
 // Il2CppName: GetParents
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParents)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetParentsAndSelf
 // Il2CppName: GetParentsAndSelf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParentsAndSelf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetParentsAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown
 // Il2CppName: GetComponentsInChildrenTopDown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetComponentsInChildrenTopDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp
 // Il2CppName: GetComponentsInChildrenBottomUp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetComponentsInChildrenBottomUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf
 // Il2CppName: GetDirectChildrenAndSelf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDirectChildrenAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDirectChildren
 // Il2CppName: GetDirectChildren
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildren)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDirectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetAllGameObjects
 // Il2CppName: GetAllGameObjects
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllGameObjects)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetAllGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetAllRootGameObjects
 // Il2CppName: GetAllRootGameObjects
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllRootGameObjects)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetAllRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

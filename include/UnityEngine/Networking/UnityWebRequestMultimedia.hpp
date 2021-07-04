@@ -36,9 +36,4 @@ namespace UnityEngine::Networking {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestMultimedia*, "UnityEngine.Networking", "UnityWebRequestMultimedia");
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestMultimedia::GetAudioClip
 // Il2CppName: GetAudioClip
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::UnityWebRequestMultimedia::GetAudioClip)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestMultimedia*), "GetAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

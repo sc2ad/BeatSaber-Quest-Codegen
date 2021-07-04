@@ -41,25 +41,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*, "Org.BouncyCastle.Utilities.Collections", "CollectionUtilities");
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly
 // Il2CppName: ReadOnly
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(System::Collections::IDictionary*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext
 // Il2CppName: RequireNext
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Collections::IEnumerator*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "RequireNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString
 // Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

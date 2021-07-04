@@ -51,17 +51,7 @@ namespace NUnit::Framework::Internal {
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(::Il2CppString*)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(System::Type*)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -102,17 +102,7 @@ namespace System::Reflection {
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
 // Writing MetadataGetter for method: System::Reflection::MonoEventInfo::get_event_info
 // Il2CppName: get_event_info
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoEvent*, System::Reflection::MonoEventInfo&)>(&System::Reflection::MonoEventInfo::get_event_info)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoEventInfo), "get_event_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEventInfo&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Reflection::MonoEventInfo::GetEventInfo
 // Il2CppName: GetEventInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MonoEventInfo (*)(System::Reflection::MonoEvent*)>(&System::Reflection::MonoEventInfo::GetEventInfo)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoEventInfo), "GetEventInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoEvent*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

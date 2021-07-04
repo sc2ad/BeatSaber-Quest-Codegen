@@ -70,97 +70,37 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::UriHelper*, "System", "UriHelper");
 // Writing MetadataGetter for method: System::UriHelper::EscapeString
 // Il2CppName: EscapeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, bool, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&System::UriHelper::EscapeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "EscapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::EnsureDestinationSize
 // Il2CppName: EnsureDestinationSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int16_t, int16_t, int&, int)>(&System::UriHelper::EnsureDestinationSize)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "EnsureDestinationSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "UnescapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UnescapeMode>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "UnescapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UnescapeMode>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::MatchUTF8Sequence
 // Il2CppName: MatchUTF8Sequence
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int&, ::Array<::Il2CppChar>*, int, ::Array<uint8_t>*, int, bool, bool)>(&System::UriHelper::MatchUTF8Sequence)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "MatchUTF8Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::EscapeAsciiChar
 // Il2CppName: EscapeAsciiChar
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar, ::Array<::Il2CppChar>*, int&)>(&System::UriHelper::EscapeAsciiChar)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "EscapeAsciiChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::EscapedAscii
 // Il2CppName: EscapedAscii
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar, ::Il2CppChar)>(&System::UriHelper::EscapedAscii)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "EscapedAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::IsNotSafeForUnescape
 // Il2CppName: IsNotSafeForUnescape
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::UriHelper::IsNotSafeForUnescape)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "IsNotSafeForUnescape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::IsReservedUnreservedOrHash
 // Il2CppName: IsReservedUnreservedOrHash
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::UriHelper::IsReservedUnreservedOrHash)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "IsReservedUnreservedOrHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::IsUnreserved
 // Il2CppName: IsUnreserved
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::UriHelper::IsUnreserved)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "IsUnreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::Is3986Unreserved
 // Il2CppName: Is3986Unreserved
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::UriHelper::Is3986Unreserved)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "Is3986Unreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::UriHelper::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::UriHelper::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

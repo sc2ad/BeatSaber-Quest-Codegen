@@ -34,9 +34,4 @@ namespace System {
 DEFINE_IL2CPP_ARG_TYPE(System::IFormatProvider*, "System", "IFormatProvider");
 // Writing MetadataGetter for method: System::IFormatProvider::GetFormat
 // Il2CppName: GetFormat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IFormatProvider::*)(System::Type*)>(&System::IFormatProvider::GetFormat)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IFormatProvider*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

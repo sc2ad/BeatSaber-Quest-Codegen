@@ -40,17 +40,7 @@ namespace System::ComponentModel {
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISynchronizeInvoke*, "System.ComponentModel", "ISynchronizeInvoke");
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::get_InvokeRequired
 // Il2CppName: get_InvokeRequired
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::ISynchronizeInvoke::*)()>(&System::ComponentModel::ISynchronizeInvoke::get_InvokeRequired)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISynchronizeInvoke*), "get_InvokeRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::BeginInvoke
 // Il2CppName: BeginInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

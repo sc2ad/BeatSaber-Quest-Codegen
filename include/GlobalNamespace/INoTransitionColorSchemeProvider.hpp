@@ -33,17 +33,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoTransitionColorSchemeProvider*, "", "INoTransitionColorSchemeProvider");
 // Writing MetadataGetter for method: GlobalNamespace::INoTransitionColorSchemeProvider::get_colorScheme
 // Il2CppName: get_colorScheme
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemeSO* (GlobalNamespace::INoTransitionColorSchemeProvider::*)()>(&GlobalNamespace::INoTransitionColorSchemeProvider::get_colorScheme)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoTransitionColorSchemeProvider*), "get_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::INoTransitionColorSchemeProvider::set_colorScheme
 // Il2CppName: set_colorScheme
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoTransitionColorSchemeProvider::*)(GlobalNamespace::ColorSchemeSO*)>(&GlobalNamespace::INoTransitionColorSchemeProvider::set_colorScheme)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoTransitionColorSchemeProvider*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

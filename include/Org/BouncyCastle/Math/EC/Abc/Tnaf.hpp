@@ -113,105 +113,40 @@ namespace Org::BouncyCastle::Math::EC::Abc {
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastle.Math.EC.Abc", "Tnaf");
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::Norm
 // Il2CppName: Norm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::Norm)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "Norm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::Round
 // Il2CppName: Round
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::Round)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::ApproximateDivisionByN
 // Il2CppName: ApproximateDivisionByN
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, int8_t, int, int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::ApproximateDivisionByN)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "ApproximateDivisionByN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetMu
 // Il2CppName: GetMu
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetMu)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetMu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas
 // Il2CppName: GetLucas
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(int8_t, int, bool)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetLucas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetTw
 // Il2CppName: GetTw
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetTw)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetTw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi
 // Il2CppName: GetSi
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mCurve*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mCurve*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetShiftsForCofactor
 // Il2CppName: GetShiftsForCofactor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetShiftsForCofactor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetShiftsForCofactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction
 // Il2CppName: PartModReduction
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::BigInteger*, int, int8_t, ::Array<Org::BouncyCastle::Math::BigInteger*>*, int8_t, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "PartModReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf
 // Il2CppName: MultiplyFromTnaf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "MultiplyFromTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf
 // Il2CppName: TauAdicWNaf
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int8_t>* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "TauAdicWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp
 // Il2CppName: GetPreComp
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetPreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::_cctor
 // Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::_cctor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

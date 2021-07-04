@@ -26,17 +26,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerObservable*, "", "IMultiplayerObservable");
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerObservable::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IMultiplayerObservable::*)()>(&GlobalNamespace::IMultiplayerObservable::get_offsetSyncTime)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerObservable::get_isFailed
 // Il2CppName: get_isFailed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerObservable::*)()>(&GlobalNamespace::IMultiplayerObservable::get_isFailed)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

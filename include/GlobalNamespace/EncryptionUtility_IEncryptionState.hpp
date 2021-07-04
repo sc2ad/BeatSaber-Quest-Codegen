@@ -38,25 +38,10 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::IEncryptionState*, "", "EncryptionUtility/IEncryptionState");
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::IEncryptionState::get_isValid
 // Il2CppName: get_isValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EncryptionUtility::IEncryptionState::*)()>(&GlobalNamespace::EncryptionUtility::IEncryptionState::get_isValid)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::IEncryptionState*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::IEncryptionState::EncryptData
 // Il2CppName: EncryptData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EncryptionUtility::IEncryptionState::*)(::Array<uint8_t>*, int&, int&, int)>(&GlobalNamespace::EncryptionUtility::IEncryptionState::EncryptData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::IEncryptionState*), "EncryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::IEncryptionState::TryDecryptData
 // Il2CppName: TryDecryptData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EncryptionUtility::IEncryptionState::*)(::Array<uint8_t>*, int&, int&)>(&GlobalNamespace::EncryptionUtility::IEncryptionState::TryDecryptData)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::IEncryptionState*), "TryDecryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

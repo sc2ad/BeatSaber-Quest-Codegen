@@ -28,17 +28,7 @@ namespace System::Security {
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityManager*, "System.Security", "SecurityManager");
 // Writing MetadataGetter for method: System::Security::SecurityManager::CheckElevatedPermissions
 // Il2CppName: CheckElevatedPermissions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::SecurityManager::CheckElevatedPermissions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityManager*), "CheckElevatedPermissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Security::SecurityManager::EnsureElevatedPermissions
 // Il2CppName: EnsureElevatedPermissions
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::SecurityManager::EnsureElevatedPermissions)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityManager*), "EnsureElevatedPermissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!

@@ -73,23 +73,8 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor
 // Il2CppName: get_lightColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::New_ctor
 // Il2CppName: .ctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

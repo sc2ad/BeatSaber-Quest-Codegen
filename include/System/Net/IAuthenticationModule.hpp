@@ -43,25 +43,10 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");
 // Writing MetadataGetter for method: System::Net::IAuthenticationModule::Authenticate
 // Il2CppName: Authenticate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::IAuthenticationModule::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::Authenticate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IAuthenticationModule*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IAuthenticationModule::PreAuthenticate
 // Il2CppName: PreAuthenticate
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::IAuthenticationModule::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::PreAuthenticate)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IAuthenticationModule*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Net::IAuthenticationModule::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::IAuthenticationModule::*)()>(&System::Net::IAuthenticationModule::get_AuthenticationType)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IAuthenticationModule*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
+// Cannot perform method pointer template specialization from operators!
