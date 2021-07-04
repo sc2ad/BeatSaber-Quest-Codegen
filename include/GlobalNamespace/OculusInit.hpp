@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusInit) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::Init
 // Il2CppName: Init
 template<>

@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DroneHover) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover*, "", "DroneHover");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DroneHover::Start
 // Il2CppName: Start
 template<>

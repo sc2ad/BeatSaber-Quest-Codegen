@@ -71,6 +71,9 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(ApplyChangesToContextCommand) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*, "NUnit.Framework.Internal.Commands", "ApplyChangesToContextCommand");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

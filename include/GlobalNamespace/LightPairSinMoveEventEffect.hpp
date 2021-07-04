@@ -172,6 +172,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairSinMoveEventEffect) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect*, "", "LightPairSinMoveEventEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
+#include "GlobalNamespace/LightPairSinMoveEventEffect_MovementData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::Start
 // Il2CppName: Start
 template<>

@@ -36,6 +36,8 @@ namespace Org::BouncyCastle::Crypto {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBufferedCipher*, "Org.BouncyCastle.Crypto", "IBufferedCipher");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IBufferedCipher::Init
 // Il2CppName: Init
 template<>

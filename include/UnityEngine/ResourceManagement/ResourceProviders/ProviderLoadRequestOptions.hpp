@@ -49,6 +49,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(ProviderLoadRequestOptions) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures
 // Il2CppName: get_IgnoreFailures
 template<>

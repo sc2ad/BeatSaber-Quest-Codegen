@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EncryptionUtility::$$c__DisplayClass18_0) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0
 // Il2CppName: <CreateEncryptionStateAsync>b__0
 template<>

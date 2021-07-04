@@ -408,6 +408,9 @@ namespace UnityEngine {
   static_assert(sizeof(GUISkin) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
+// Writing includes for template specializations
+#include "UnityEngine/Font.hpp"
+#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISkin::OnEnable
 // Il2CppName: OnEnable
 template<>

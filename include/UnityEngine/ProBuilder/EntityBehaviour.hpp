@@ -74,6 +74,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(EntityBehaviour) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour*, "UnityEngine.ProBuilder", "EntityBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/SceneManagement/Scene.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EntityBehaviour::Initialize
 // Il2CppName: Initialize
 template<>

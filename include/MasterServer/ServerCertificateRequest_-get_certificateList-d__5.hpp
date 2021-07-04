@@ -107,6 +107,7 @@ namespace MasterServer {
   static_assert(sizeof(ServerCertificateRequest::$get_certificateList$d__5) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*, "MasterServer", "ServerCertificateRequest/<get_certificateList>d__5");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

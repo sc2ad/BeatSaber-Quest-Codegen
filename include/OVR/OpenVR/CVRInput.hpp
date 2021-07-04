@@ -131,6 +131,16 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRInput) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");
+// Writing includes for template specializations
+#include "OVR/OpenVR/InputDigitalActionData_t.hpp"
+#include "OVR/OpenVR/InputAnalogActionData_t.hpp"
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/InputPoseActionData_t.hpp"
+#include "OVR/OpenVR/InputSkeletalActionData_t.hpp"
+#include "OVR/OpenVR/EVRSkeletalTransformSpace.hpp"
+#include "OVR/OpenVR/EVRSkeletalMotionRange.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "OVR/OpenVR/InputOriginInfo_t.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

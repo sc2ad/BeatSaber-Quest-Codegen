@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ActivateOnVisible) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnVisible*, "", "ActivateOnVisible");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ActivateOnVisible::Awake
 // Il2CppName: Awake
 template<>

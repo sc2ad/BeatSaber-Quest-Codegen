@@ -47,6 +47,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedPreset) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NamedPreset::get_presetNameLocalizationKey
 // Il2CppName: get_presetNameLocalizationKey
 template<>

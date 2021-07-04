@@ -95,6 +95,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRControllerTest::BoolMonitor) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OVRControllerTest/BoolMonitor");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRControllerTest_BoolMonitor_BoolGenerator.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BookmarksFoldersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders
 // Il2CppName: get_bookmarksFolders
 template<>

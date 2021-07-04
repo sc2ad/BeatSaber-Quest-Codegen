@@ -69,6 +69,8 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManaged*, "System.Security.Cryptography", "RijndaelManaged");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/RijndaelManagedTransformMode.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::NewEncryptor
 // Il2CppName: NewEncryptor
 template<>

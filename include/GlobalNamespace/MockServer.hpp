@@ -104,6 +104,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockServer) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/MockServerSettings.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/AvatarPartsModel.hpp"
+#include "GlobalNamespace/BeatmapLevelsModel.hpp"
+#include "GlobalNamespace/NodePoseSyncStateManager.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::add_joinedEvent
 // Il2CppName: add_joinedEvent
 template<>

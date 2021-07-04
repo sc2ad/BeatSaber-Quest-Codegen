@@ -89,6 +89,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsData*, "", "MultiplayerResultsData");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "GlobalNamespace/MultiplayerBadgesProvider.hpp"
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_gameId
 // Il2CppName: get_gameId
 template<>

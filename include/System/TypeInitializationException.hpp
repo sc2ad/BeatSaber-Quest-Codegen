@@ -87,6 +87,8 @@ namespace System {
   static_assert(sizeof(TypeInitializationException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeInitializationException*, "System", "TypeInitializationException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::TypeInitializationException::get_TypeName
 // Il2CppName: get_TypeName
 template<>

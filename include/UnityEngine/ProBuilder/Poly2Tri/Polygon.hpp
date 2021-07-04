@@ -113,6 +113,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(Polygon) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Polygon*, "UnityEngine.ProBuilder.Poly2Tri", "Polygon");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

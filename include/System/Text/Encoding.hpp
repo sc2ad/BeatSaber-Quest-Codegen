@@ -368,6 +368,13 @@ namespace System::Text {
   static_assert(sizeof(Encoding) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding*, "System.Text", "Encoding");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Text/EncoderFallback.hpp"
+#include "System/Text/DecoderFallback.hpp"
+#include "System/Text/EncoderNLS.hpp"
+#include "System/Text/DecoderNLS.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

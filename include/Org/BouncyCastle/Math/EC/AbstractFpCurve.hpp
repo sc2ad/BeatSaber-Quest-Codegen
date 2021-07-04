@@ -63,6 +63,9 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.BouncyCastle.Math.EC", "AbstractFpCurve");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpCurve::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

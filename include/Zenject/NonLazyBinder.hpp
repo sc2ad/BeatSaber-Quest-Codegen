@@ -47,6 +47,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::NonLazyBinder::NonLazy
 // Il2CppName: NonLazy
 template<>

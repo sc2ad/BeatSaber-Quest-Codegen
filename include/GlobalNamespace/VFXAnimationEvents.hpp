@@ -125,6 +125,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(VFXAnimationEvents) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents*, "", "VFXAnimationEvents");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::add_animationDidPauseEvent
 // Il2CppName: add_animationDidPauseEvent
 template<>

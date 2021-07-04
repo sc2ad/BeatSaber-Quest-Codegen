@@ -155,6 +155,14 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/WrapMode.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
+#include "UnityEngine/Bounds.hpp"
+#include "UnityEngine/AnimationEvent.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::Internal_CreateAnimationClip
 // Il2CppName: Internal_CreateAnimationClip
 template<>

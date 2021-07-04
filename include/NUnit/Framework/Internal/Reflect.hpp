@@ -107,6 +107,9 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect*, "NUnit.Framework.Internal", "Reflect");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::GetMethodsWithAttribute
 // Il2CppName: GetMethodsWithAttribute
 template<>

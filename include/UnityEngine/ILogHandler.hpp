@@ -47,6 +47,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::ILogHandler::LogFormat
 // Il2CppName: LogFormat
 template<>

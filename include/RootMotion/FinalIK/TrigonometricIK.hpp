@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(TrigonometricIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TrigonometricIK*, "RootMotion.FinalIK", "TrigonometricIK");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::TrigonometricIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

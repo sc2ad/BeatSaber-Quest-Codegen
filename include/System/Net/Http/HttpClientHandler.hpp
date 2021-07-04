@@ -198,6 +198,11 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpClientHandler) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");
+// Writing includes for template specializations
+#include "System/Net/Http/HttpRequestMessage.hpp"
+#include "System/Net/HttpWebResponse.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Net/Http/HttpMethod.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::get_CookieContainer
 // Il2CppName: get_CookieContainer
 template<>

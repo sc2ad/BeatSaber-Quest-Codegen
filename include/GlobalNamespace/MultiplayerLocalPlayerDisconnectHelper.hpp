@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalPlayerDisconnectHelper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect
 // Il2CppName: Disconnect
 template<>

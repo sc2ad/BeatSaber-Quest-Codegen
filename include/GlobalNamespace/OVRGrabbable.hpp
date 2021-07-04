@@ -152,6 +152,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGrabbable) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabbable*, "", "OVRGrabbable");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRGrabber.hpp"
+#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::get_allowOffhandGrab
 // Il2CppName: get_allowOffhandGrab
 template<>

@@ -22,6 +22,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VersionStringHelper*, "", "VersionStringHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VersionStringHelper::GetMajorVersionNumber
 // Il2CppName: GetMajorVersionNumber
 template<>

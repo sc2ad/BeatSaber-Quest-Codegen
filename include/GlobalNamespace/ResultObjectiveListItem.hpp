@@ -114,6 +114,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultObjectiveListItem) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_iconColor
 // Il2CppName: set_iconColor
 template<>

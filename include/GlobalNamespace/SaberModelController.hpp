@@ -107,6 +107,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberModelController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController*, "", "SaberModelController");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberModelController::Init
 // Il2CppName: Init
 template<>

@@ -43,6 +43,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::SpinWait::get_NextSpinWillYield
 // Il2CppName: get_NextSpinWillYield
 template<>

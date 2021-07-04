@@ -156,6 +156,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController::OptionsButton, "", "OptionsViewController/OptionsButton");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

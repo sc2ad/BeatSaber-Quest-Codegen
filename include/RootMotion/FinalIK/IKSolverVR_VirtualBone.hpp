@@ -115,6 +115,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::VirtualBone) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::VirtualBone*, "RootMotion.FinalIK", "IKSolverVR/VirtualBone");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

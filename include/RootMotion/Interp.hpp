@@ -133,6 +133,9 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Interp*, "RootMotion", "Interp");
+// Writing includes for template specializations
+#include "RootMotion/InterpolationMode.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: RootMotion::Interp::Float
 // Il2CppName: Float
 template<>

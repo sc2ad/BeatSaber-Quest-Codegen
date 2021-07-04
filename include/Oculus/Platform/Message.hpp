@@ -1541,6 +1541,8 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_ExtraMessageTypesHandler.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Message::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -561,6 +561,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSystemInit) == 0x1F0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockPlayersModel.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::Init
 // Il2CppName: Init
 template<>

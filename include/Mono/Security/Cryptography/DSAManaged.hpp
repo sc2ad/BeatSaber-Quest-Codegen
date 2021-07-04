@@ -192,6 +192,9 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(DSAManaged) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");
+// Writing includes for template specializations
+#include "Mono/Security/Cryptography/DSAManaged_KeyGeneratedEventHandler.hpp"
+#include "System/Security/Cryptography/DSAParameters.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

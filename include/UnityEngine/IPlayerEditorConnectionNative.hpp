@@ -54,6 +54,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
+// Writing includes for template specializations
+#include "System/Guid.hpp"
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::Initialize
 // Il2CppName: Initialize
 template<>

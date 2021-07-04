@@ -111,6 +111,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31, "System.Threading", "SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31::MoveNext
 // Il2CppName: MoveNext
 template<>

@@ -110,6 +110,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resources*, "UnityEngine", "Resources");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Resources::ConvertObjects
 // Il2CppName: ConvertObjects
 // Cannot write MetadataGetter for generic methods!

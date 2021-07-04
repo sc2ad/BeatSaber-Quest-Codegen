@@ -107,6 +107,13 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServer*, "MasterServer", "IMasterServer");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "System/Exception.hpp"
+#include "GlobalNamespace/AuthenticationToken.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
+#include "GlobalNamespace/InvitePolicy.hpp"
+#include "GlobalNamespace/GameplayServerFilter.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>

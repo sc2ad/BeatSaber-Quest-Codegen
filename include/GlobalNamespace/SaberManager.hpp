@@ -125,6 +125,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager*, "", "SaberManager");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/SaberType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberManager::get_leftSaber
 // Il2CppName: get_leftSaber
 template<>

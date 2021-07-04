@@ -96,6 +96,10 @@ namespace UnityEngine::Audio {
   static_assert(sizeof(AudioPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/AudioSource.hpp"
+#include "UnityEngine/Playables/PlayableOutput.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::Create
 // Il2CppName: Create
 template<>

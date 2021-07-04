@@ -279,6 +279,14 @@ namespace System::Net {
   static_assert(sizeof(HttpListener) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Net/Security/RemoteCertificateValidationCallback.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Net/HttpListenerContext.hpp"
+#include "System/Net/HttpConnection.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListener::LoadCertificateAndKey
 // Il2CppName: LoadCertificateAndKey
 template<>

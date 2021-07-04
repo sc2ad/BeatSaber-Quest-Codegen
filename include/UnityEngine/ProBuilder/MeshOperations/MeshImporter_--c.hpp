@@ -63,6 +63,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Vertex.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HMAutoincrementedRequestId) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::get_RequestId
 // Il2CppName: get_RequestId
 template<>

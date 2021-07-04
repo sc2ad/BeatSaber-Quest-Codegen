@@ -111,6 +111,7 @@ namespace System::Net {
   static_assert(sizeof(ListenerPrefix) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::ListenerPrefix::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

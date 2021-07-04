@@ -61,6 +61,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider*, "", "MockBeatmapProvider");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForConfiguration
 // Il2CppName: VerifyBeatmapForConfiguration
 template<>

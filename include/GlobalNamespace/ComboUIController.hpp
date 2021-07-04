@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ComboUIController) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ComboUIController::Start
 // Il2CppName: Start
 template<>

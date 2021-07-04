@@ -62,6 +62,7 @@ namespace System::Xml {
   static_assert(sizeof(Base64Encoder) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::Base64Encoder::WriteChars
 // Il2CppName: WriteChars
 template<>

@@ -60,6 +60,8 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/LinuxNetworkInterfaceAPI");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::FreeInterfaceAddresses
 // Il2CppName: FreeInterfaceAddresses
 template<>

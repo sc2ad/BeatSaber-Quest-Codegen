@@ -254,6 +254,23 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices*, "System.Runtime.Remoting", "RemotingServices");
+// Writing includes for template specializations
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Type.hpp"
+#include "System/MarshalByRefObject.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
+#include "System/Runtime/Remoting/ObjRef.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
+#include "System/Runtime/Remoting/WellKnownClientTypeEntry.hpp"
+#include "System/Runtime/Remoting/WellKnownObjectMode.hpp"
+#include "System/Runtime/Remoting/ServerIdentity.hpp"
+#include "System/Exception.hpp"
+#include "System/Runtime/Remoting/Identity.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::_cctor
 // Il2CppName: .cctor
 template<>

@@ -31,6 +31,9 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorUtil*, "Zenject", "SubContainerCreatorUtil");
+// Writing includes for template specializations
+#include "Zenject/SubContainerCreatorBindInfo.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorUtil::ApplyBindSettings
 // Il2CppName: ApplyBindSettings
 template<>

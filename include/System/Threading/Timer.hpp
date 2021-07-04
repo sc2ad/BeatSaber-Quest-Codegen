@@ -134,6 +134,8 @@ namespace System::Threading {
   static_assert(sizeof(Timer) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
+// Writing includes for template specializations
+#include "System/Threading/TimerCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::Timer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

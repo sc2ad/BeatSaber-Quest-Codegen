@@ -242,6 +242,8 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Finger::get_initiated
 // Il2CppName: get_initiated
 template<>

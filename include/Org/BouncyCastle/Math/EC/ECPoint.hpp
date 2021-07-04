@@ -236,6 +236,10 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECPoint) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint*, "Org.BouncyCastle.Math.EC", "ECPoint");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::GetInitialZCoords
 // Il2CppName: GetInitialZCoords
 template<>

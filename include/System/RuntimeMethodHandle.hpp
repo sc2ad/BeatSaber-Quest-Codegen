@@ -101,6 +101,10 @@ namespace System {
   static_assert(sizeof(RuntimeMethodHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeMethodHandle, "System", "RuntimeMethodHandle");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Reflection/RuntimeMethodInfo.hpp"
+#include "System/TypeNameFormatFlags.hpp"
 // Writing MetadataGetter for method: System::RuntimeMethodHandle::RuntimeMethodHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

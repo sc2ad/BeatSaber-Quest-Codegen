@@ -120,6 +120,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EulaViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController*, "", "EulaViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

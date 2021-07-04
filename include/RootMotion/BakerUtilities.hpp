@@ -45,6 +45,9 @@ namespace RootMotion {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationCurve.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::ReduceKeyframes
 // Il2CppName: ReduceKeyframes
 template<>

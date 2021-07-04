@@ -74,6 +74,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(HSVColor) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -44,6 +44,9 @@ namespace Mono::Security::Interface {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ICertificateValidator2*, "Mono.Security.Interface", "ICertificateValidator2");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator2::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>

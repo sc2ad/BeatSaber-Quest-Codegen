@@ -109,6 +109,9 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationLayerMixerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/AvatarMask.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::Create
 // Il2CppName: Create
 template<>

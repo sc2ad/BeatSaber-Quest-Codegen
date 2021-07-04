@@ -111,6 +111,9 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(GenericMethodHelper) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -74,6 +74,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelAnalytics) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelAnalytics*, "", "MissionLevelAnalytics");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelAnalytics::Start
 // Il2CppName: Start
 template<>

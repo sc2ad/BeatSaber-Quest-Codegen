@@ -142,6 +142,10 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Mask) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>

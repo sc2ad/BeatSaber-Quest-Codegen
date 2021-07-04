@@ -53,6 +53,9 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/BatchRendererCullingOutput.hpp"
+#include "UnityEngine/Rendering/LODParameters.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling
 // Il2CppName: InvokeOnPerformCulling
 template<>

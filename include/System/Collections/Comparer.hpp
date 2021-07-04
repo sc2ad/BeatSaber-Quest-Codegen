@@ -103,6 +103,9 @@ namespace System::Collections {
   static_assert(sizeof(Comparer) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Comparer");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Collections::Comparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

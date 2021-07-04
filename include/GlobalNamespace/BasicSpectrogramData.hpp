@@ -115,6 +115,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicSpectrogramData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicSpectrogramData*, "", "BasicSpectrogramData");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BasicSpectrogramData::get_Samples
 // Il2CppName: get_Samples
 template<>

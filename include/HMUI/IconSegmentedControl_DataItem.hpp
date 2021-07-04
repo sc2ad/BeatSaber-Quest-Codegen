@@ -66,6 +66,8 @@ namespace HMUI {
   static_assert(sizeof(IconSegmentedControl::DataItem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::DataItem::get_icon
 // Il2CppName: get_icon
 template<>

@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VFXController) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController*, "", "VFXController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::get_animation
 // Il2CppName: get_animation
 template<>

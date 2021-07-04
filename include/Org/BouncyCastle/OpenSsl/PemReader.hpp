@@ -118,6 +118,10 @@ namespace Org::BouncyCastle::OpenSsl {
   static_assert(sizeof(PemReader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemReader*, "Org.BouncyCastle.OpenSsl", "PemReader");
+// Writing includes for template specializations
+#include "System/IO/TextReader.hpp"
+#include "Org/BouncyCastle/OpenSsl/IPasswordFinder.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/PemObject.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

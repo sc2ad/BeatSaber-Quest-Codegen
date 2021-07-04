@@ -64,6 +64,9 @@ namespace UnityEngine::Events {
   static_assert(sizeof(PersistentCallGroup) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");
+// Writing includes for template specializations
+#include "UnityEngine/Events/InvokableCallList.hpp"
+#include "UnityEngine/Events/UnityEventBase.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::Initialize
 // Il2CppName: Initialize
 template<>

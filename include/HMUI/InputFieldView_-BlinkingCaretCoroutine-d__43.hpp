@@ -75,6 +75,7 @@ namespace HMUI {
   static_assert(sizeof(InputFieldView::$BlinkingCaretCoroutine$d__43) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*, "HMUI", "InputFieldView/<BlinkingCaretCoroutine>d__43");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

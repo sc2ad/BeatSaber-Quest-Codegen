@@ -145,6 +145,9 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(DSACryptoServiceProvider) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSACryptoServiceProvider*, "System.Security.Cryptography", "DSACryptoServiceProvider");
+// Writing includes for template specializations
+#include "System/EventArgs.hpp"
+#include "System/Security/Cryptography/DSAParameters.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSACryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -51,6 +51,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafL2RMultiplier");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::MultiplyPositive
 // Il2CppName: MultiplyPositive
 template<>

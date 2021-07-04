@@ -81,6 +81,12 @@ namespace UnityEngine {
   static_assert(sizeof(HumanPoseHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPoseHandler*, "UnityEngine", "HumanPoseHandler");
+// Writing includes for template specializations
+#include "UnityEngine/Avatar.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/HumanPose.hpp"
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Internal_Create
 // Il2CppName: Internal_Create
 template<>

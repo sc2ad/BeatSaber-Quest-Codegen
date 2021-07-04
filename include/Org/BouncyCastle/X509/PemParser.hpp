@@ -73,6 +73,8 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(PemParser) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

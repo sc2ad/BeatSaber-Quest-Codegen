@@ -264,6 +264,7 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableExtensions*, "UnityEngine.Playables", "PlayableExtensions");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableExtensions::IsValid
 // Il2CppName: IsValid
 // Cannot write MetadataGetter for generic methods!

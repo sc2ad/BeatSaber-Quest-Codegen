@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithShareMediaResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithShareMediaResult*, "Oculus.Platform", "MessageWithShareMediaResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithShareMediaResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

@@ -76,6 +76,11 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Activator*, "System", "Activator");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Activator::CreateInstance
 // Il2CppName: CreateInstance
 template<>

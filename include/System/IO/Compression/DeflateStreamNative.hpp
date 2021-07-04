@@ -143,6 +143,11 @@ namespace System::IO::Compression {
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/IO/Compression/CompressionMode.hpp"
+#include "System/IO/Compression/DeflateStreamNative_UnmanagedReadOrWrite.hpp"
+#include "System/IO/Compression/DeflateStreamNative_SafeDeflateStreamHandle.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Create
 // Il2CppName: Create
 template<>

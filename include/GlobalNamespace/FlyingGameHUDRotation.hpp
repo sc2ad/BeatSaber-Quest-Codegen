@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingGameHUDRotation) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::Start
 // Il2CppName: Start
 template<>

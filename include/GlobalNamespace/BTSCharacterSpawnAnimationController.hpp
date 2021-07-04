@@ -190,6 +190,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnAnimationController) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnAnimationController*, "", "BTSCharacterSpawnAnimationController");
+// Writing includes for template specializations
+#include "GlobalNamespace/BTSCharacter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnAnimationController::get_isCharacterVisible
 // Il2CppName: get_isCharacterVisible
 template<>

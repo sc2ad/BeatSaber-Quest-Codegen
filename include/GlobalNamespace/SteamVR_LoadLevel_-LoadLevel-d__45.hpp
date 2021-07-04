@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_LoadLevel::$LoadLevel$d__45) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45*, "", "SteamVR_LoadLevel/<LoadLevel>d__45");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

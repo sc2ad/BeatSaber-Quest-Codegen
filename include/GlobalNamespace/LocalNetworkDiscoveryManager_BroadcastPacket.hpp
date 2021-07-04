@@ -104,6 +104,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkDiscoveryManager::BroadcastPacket) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, "", "LocalNetworkDiscoveryManager/BroadcastPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket::Serialize
 // Il2CppName: Serialize
 template<>

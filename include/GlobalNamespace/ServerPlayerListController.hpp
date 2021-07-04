@@ -158,6 +158,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerPlayerListController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPlayerListController*, "", "ServerPlayerListController");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::add_selectSuggestedBeatmapEvent
 // Il2CppName: add_selectSuggestedBeatmapEvent
 template<>

@@ -56,6 +56,7 @@ namespace HMUI {
   static_assert(sizeof(TextPageScrollView) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::TextPageScrollView::SetText
 // Il2CppName: SetText
 template<>

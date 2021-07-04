@@ -144,6 +144,10 @@ namespace TMPro {
   static_assert(sizeof(TMP_UpdateManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateManager*, "TMPro", "TMP_UpdateManager");
+// Writing includes for template specializations
+#include "TMPro/TMP_Text.hpp"
+#include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::get_instance
 // Il2CppName: get_instance
 template<>

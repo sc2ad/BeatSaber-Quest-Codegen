@@ -77,6 +77,9 @@ namespace System::Runtime::Remoting::Contexts {
   static_assert(sizeof(DynamicPropertyCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/IDynamicProperty.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties
 // Il2CppName: get_HasProperties
 template<>

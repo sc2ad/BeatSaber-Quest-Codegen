@@ -165,6 +165,13 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::PropertyInfo* left, System::Reflection::PropertyInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PropertyInfo*, "System.Reflection", "PropertyInfo");
+// Writing includes for template specializations
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/IntPtr.hpp"
+#include "Mono/RuntimePropertyHandle.hpp"
+#include "System/RuntimeTypeHandle.hpp"
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::get_Attributes
 // Il2CppName: get_Attributes
 template<>

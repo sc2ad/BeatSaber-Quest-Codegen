@@ -51,6 +51,8 @@ namespace UnityEngine::Analytics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");
+// Writing includes for template specializations
+#include "UnityEngine/Analytics/AnalyticsSessionState.hpp"
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::CallSessionStateChanged
 // Il2CppName: CallSessionStateChanged
 template<>

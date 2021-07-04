@@ -105,6 +105,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferGOCore) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGOCore::OnEnable
 // Il2CppName: OnEnable
 template<>

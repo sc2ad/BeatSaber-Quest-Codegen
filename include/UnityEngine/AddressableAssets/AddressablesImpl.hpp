@@ -673,6 +673,24 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl*, "UnityEngine.AddressableAssets", "AddressablesImpl");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceProviders/IInstanceProvider.hpp"
+#include "UnityEngine/ResourceManagement/Util/IAllocationStrategy.hpp"
+#include "System/Func_2.hpp"
+#include "System/Exception.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/IResourceLocator.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::get_InstanceProvider
 // Il2CppName: get_InstanceProvider
 template<>

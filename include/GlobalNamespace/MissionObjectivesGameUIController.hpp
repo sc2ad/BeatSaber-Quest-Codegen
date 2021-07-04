@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectivesGameUIController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::Start
 // Il2CppName: Start
 template<>

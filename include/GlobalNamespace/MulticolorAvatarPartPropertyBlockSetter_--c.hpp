@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c*, "", "MulticolorAvatarPartPropertyBlockSetter/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MulticolorAvatarPartPropertyBlockSetter_ColorData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

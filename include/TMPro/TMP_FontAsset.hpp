@@ -561,6 +561,12 @@ namespace TMPro {
   static_assert(sizeof(TMP_FontAsset) == 0x1E0);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
+// Writing includes for template specializations
+#include "UnityEngine/Font.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "TMPro/TMP_FontFeatureTable.hpp"
+#include "UnityEngine/TextCore/Glyph.hpp"
+#include "TMPro/TMP_Character.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version
 // Il2CppName: get_version
 template<>

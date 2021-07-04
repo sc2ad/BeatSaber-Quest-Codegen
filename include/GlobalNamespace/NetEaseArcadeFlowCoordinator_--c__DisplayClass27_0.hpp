@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0*, "", "NetEaseArcadeFlowCoordinator/<>c__DisplayClass27_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>

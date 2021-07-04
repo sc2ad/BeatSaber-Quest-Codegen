@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RollingAverage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::RollingAverage::get_currentAverage
 // Il2CppName: get_currentAverage
 template<>

@@ -96,6 +96,7 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ChannelData) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ServerProviders
 // Il2CppName: get_ServerProviders
 template<>

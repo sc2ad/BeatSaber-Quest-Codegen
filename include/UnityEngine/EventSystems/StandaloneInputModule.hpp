@@ -261,6 +261,9 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(StandaloneInputModule) == 0xB1);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/PointerInputModule_MouseButtonEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::StandaloneInputModule::get_inputMode
 // Il2CppName: get_inputMode
 template<>

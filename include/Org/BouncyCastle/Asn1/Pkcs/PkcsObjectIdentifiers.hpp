@@ -554,6 +554,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers*, "Org.BouncyCastle.Asn1.Pkcs", "PkcsObjectIdentifiers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

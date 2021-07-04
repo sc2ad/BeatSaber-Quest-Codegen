@@ -110,6 +110,9 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(DHDomainParameters) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.BouncyCastle.Asn1.X9", "DHDomainParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPropertyBlockColorSetter) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::Awake
 // Il2CppName: Awake
 template<>

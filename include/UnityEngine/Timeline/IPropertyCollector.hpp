@@ -96,6 +96,12 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/AnimationClip.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/Component.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject
 // Il2CppName: PushActiveGameObject
 template<>

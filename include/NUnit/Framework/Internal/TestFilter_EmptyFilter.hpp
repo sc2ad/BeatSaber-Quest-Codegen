@@ -63,6 +63,9 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter::EmptyFilter*, "NUnit.Framework.Internal", "TestFilter/EmptyFilter");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/TNode.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::EmptyFilter::Match
 // Il2CppName: Match
 template<>

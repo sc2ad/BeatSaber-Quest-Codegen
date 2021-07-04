@@ -273,6 +273,19 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelSelectionNavigationController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionNavigationController*, "", "LevelSelectionNavigationController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/SongPackMask.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/LevelCollectionNavigationController.hpp"
+#include "GlobalNamespace/IBeatmapLevel.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/LevelFilteringNavigationController.hpp"
+#include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionNavigationController::add_didChangeLevelDetailContentEvent
 // Il2CppName: add_didChangeLevelDetailContentEvent
 template<>

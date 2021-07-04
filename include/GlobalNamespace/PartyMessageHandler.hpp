@@ -163,6 +163,16 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "PartyMessageHandler/MessageType");
+// Writing includes for template specializations
+#include "GlobalNamespace/ConnectedPlayerManager.hpp"
+#include "GlobalNamespace/PartyMessageHandler_ServerStatusUpdatedDelegate.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
+#include "GlobalNamespace/InvitePolicy.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "GlobalNamespace/PartyMessageHandler_ServerStatusUpdateMessage.hpp"
+#include "GlobalNamespace/PartyMessageHandler_ConnectToMasterServerDelegate.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "GlobalNamespace/PartyMessageHandler_ConnectToMasterServerMessage.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

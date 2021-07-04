@@ -32,6 +32,8 @@ namespace UnityEngine::_Scripting::APIUpdating {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
 // Il2CppName: GetMovedFromAttributeDataForType
 template<>

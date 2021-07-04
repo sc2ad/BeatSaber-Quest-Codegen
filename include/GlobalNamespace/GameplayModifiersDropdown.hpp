@@ -129,6 +129,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersDropdown) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

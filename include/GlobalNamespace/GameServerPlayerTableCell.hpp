@@ -277,6 +277,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerPlayerTableCell) == 0x100);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
+#include "System/Threading/Tasks/Task_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent
 // Il2CppName: add_kickPlayerEvent
 template<>

@@ -105,6 +105,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelModifiersViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::Setup
 // Il2CppName: Setup
 template<>

@@ -21,6 +21,7 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ISecurableChannel*, "System.Runtime.Remoting.Channels", "ISecurableChannel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::ISecurableChannel::set_IsSecured
 // Il2CppName: set_IsSecured
 template<>

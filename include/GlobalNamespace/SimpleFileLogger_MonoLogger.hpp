@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleFileLogger::MonoLogger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger::MonoLogger*, "", "SimpleFileLogger/MonoLogger");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::OnDestroy
 // Il2CppName: OnDestroy
 template<>

@@ -71,6 +71,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(DeleteElements::$$c__DisplayClass0_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass0_0");
+// Writing includes for template specializations
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__0
 // Il2CppName: <DeleteVertices>b__0
 template<>

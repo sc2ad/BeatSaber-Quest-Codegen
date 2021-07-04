@@ -92,6 +92,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSkeletonRenderer::CapsuleVisualization) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Material.hpp"
+#include "GlobalNamespace/OVRBoneCapsule.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

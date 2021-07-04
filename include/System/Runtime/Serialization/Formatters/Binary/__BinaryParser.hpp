@@ -381,6 +381,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(__BinaryParser) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryParser");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMap.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMapTyped.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectProgress.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

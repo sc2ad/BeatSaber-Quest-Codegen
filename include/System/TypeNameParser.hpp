@@ -47,6 +47,10 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser*, "System", "TypeNameParser");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "System/Func_4.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
 // Writing MetadataGetter for method: System::TypeNameParser::GetType
 // Il2CppName: GetType
 template<>

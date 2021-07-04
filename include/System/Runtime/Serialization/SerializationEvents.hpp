@@ -101,6 +101,10 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SerializationEvents) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Runtime/Serialization/SerializationEventHandler.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEvents::GetMethodsWithAttribute
 // Il2CppName: GetMethodsWithAttribute
 template<>

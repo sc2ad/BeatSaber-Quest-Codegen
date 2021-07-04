@@ -96,6 +96,10 @@ namespace UnityEngine::TestRunner::Utils {
   static_assert(sizeof(TestRunCallbackListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "System/Action_1.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::RunStarted
 // Il2CppName: RunStarted
 template<>

@@ -81,6 +81,10 @@ namespace LiteNetLib {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");
+// Writing includes for template specializations
+#include "System/Net/Sockets/AddressFamily.hpp"
+#include "LiteNetLib/LocalAddrType.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::MakeEndPoint
 // Il2CppName: MakeEndPoint
 template<>

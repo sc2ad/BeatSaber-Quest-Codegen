@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReflectionProbeDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
+// Writing includes for template specializations
+#include "UnityEngine/Cubemap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1
 // Il2CppName: get_reflectionProbeCubemap1
 template<>

@@ -50,6 +50,9 @@ namespace DataModels::PlayerAvatar {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::AvatarRandomizer*, "DataModels.PlayerAvatar", "AvatarRandomizer");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
+#include "GlobalNamespace/AvatarPartsModel.hpp"
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::AvatarRandomizer::_cctor
 // Il2CppName: .cctor
 template<>

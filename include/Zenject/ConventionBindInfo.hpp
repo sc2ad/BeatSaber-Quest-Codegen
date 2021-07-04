@@ -111,6 +111,10 @@ namespace Zenject {
   static_assert(sizeof(ConventionBindInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "System/Reflection/Assembly.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::AddAssemblyFilter
 // Il2CppName: AddAssemblyFilter
 template<>

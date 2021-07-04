@@ -60,6 +60,8 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext
 // Il2CppName: SetCurrentCallContext
 template<>

@@ -67,6 +67,7 @@ namespace HMUI {
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass35_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass35_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass35_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass35_0::$PresentFlowCoordinator$b__1
 // Il2CppName: <PresentFlowCoordinator>b__1
 template<>

@@ -34,6 +34,9 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotificationReceiver*, "UnityEngine.Playables", "INotificationReceiver");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::INotificationReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>

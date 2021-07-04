@@ -26,6 +26,7 @@ namespace System::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityManager*, "System.Security", "SecurityManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::SecurityManager::CheckElevatedPermissions
 // Il2CppName: CheckElevatedPermissions
 template<>

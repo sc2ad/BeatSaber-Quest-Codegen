@@ -276,6 +276,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(PreferenceDictionary) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize
 // Il2CppName: OnBeforeSerialize
 template<>

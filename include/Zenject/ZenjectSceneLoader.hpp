@@ -135,6 +135,12 @@ namespace Zenject {
   static_assert(sizeof(ZenjectSceneLoader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");
+// Writing includes for template specializations
+#include "Zenject/SceneContext.hpp"
+#include "Zenject/ProjectKernel.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "System/Action_1.hpp"
+#include "Zenject/LoadSceneRelationship.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

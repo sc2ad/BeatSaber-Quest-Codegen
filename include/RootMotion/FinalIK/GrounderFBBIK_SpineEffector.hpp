@@ -65,6 +65,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderFBBIK::SpineEffector) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnergyMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnergyMissionObjectiveChecker*, "", "EnergyMissionObjectiveChecker");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>

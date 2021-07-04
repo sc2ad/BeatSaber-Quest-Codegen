@@ -235,6 +235,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::Update
 // Il2CppName: Update
 template<>

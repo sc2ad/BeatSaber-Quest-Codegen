@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSO*, "", "ColorSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ColorSO::get_color
 // Il2CppName: get_color
 template<>

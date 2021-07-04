@@ -130,6 +130,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::$ConnectToEndPoint$d__114, "", "MasterServerConnectionManager/<ConnectToEndPoint>d__114");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::$ConnectToEndPoint$d__114::MoveNext
 // Il2CppName: MoveNext
 template<>

@@ -113,6 +113,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedColorListController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController*, "", "NamedColorListController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::add_valueChangedEvent
 // Il2CppName: add_valueChangedEvent
 template<>

@@ -575,6 +575,13 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image*, "UnityEngine.UI", "Image");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::FillMethod, "UnityEngine.UI", "Image/FillMethod");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/U2D/SpriteAtlas.hpp"
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Image::get_sprite
 // Il2CppName: get_sprite
 template<>

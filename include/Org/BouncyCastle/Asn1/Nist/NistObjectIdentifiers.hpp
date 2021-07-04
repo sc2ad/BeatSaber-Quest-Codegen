@@ -273,6 +273,7 @@ namespace Org::BouncyCastle::Asn1::Nist {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*, "Org.BouncyCastle.Asn1.Nist", "NistObjectIdentifiers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

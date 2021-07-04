@@ -125,6 +125,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static_assert(sizeof(ContentCatalogDataEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_InternalId
 // Il2CppName: get_InternalId
 template<>

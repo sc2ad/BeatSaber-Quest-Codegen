@@ -124,6 +124,14 @@ namespace Zenject {
   static_assert(sizeof(ScriptableObjectResourceProvider) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider*, "Zenject", "ScriptableObjectResourceProvider");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Action_2.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectResourceProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

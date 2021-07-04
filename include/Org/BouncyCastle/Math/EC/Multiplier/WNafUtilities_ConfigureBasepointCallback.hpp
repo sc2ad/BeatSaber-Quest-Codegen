@@ -66,6 +66,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(WNafUtilities::ConfigureBasepointCallback) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/ConfigureBasepointCallback");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

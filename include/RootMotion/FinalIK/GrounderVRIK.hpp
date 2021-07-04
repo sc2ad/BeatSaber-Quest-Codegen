@@ -112,6 +112,10 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderVRIK) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK*, "RootMotion.FinalIK", "GrounderVRIK");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverVR_PositionOffset.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/FinalIK/Grounding_Leg.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderVRIK::OpenTutorial
 // Il2CppName: OpenTutorial
 template<>

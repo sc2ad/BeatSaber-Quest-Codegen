@@ -75,6 +75,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c*, "", "LevelFilteringNavigationController/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

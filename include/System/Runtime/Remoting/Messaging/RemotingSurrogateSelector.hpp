@@ -89,6 +89,9 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(RemotingSurrogateSelector) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*, "System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate
 // Il2CppName: GetSurrogate
 template<>

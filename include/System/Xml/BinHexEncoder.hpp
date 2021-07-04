@@ -32,6 +32,8 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriter.hpp"
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode
 // Il2CppName: Encode
 template<>

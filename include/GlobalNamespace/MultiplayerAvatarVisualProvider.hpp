@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerAvatarVisualProvider) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarVisualProvider*, "", "MultiplayerAvatarVisualProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarVisualProvider::Start
 // Il2CppName: Start
 template<>

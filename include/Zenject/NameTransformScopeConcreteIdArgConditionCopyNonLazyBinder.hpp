@@ -46,6 +46,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
 // Writing MetadataGetter for method: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName
 // Il2CppName: WithGameObjectName
 template<>

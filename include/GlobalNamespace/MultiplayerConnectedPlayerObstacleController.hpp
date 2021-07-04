@@ -67,6 +67,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, "", "MultiplayerConnectedPlayerObstacleController");
+// Writing includes for template specializations
+#include "GlobalNamespace/ObstacleData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init
 // Il2CppName: Init
 template<>

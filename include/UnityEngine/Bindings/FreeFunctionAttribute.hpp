@@ -55,6 +55,7 @@ namespace UnityEngine::Bindings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::FreeFunctionAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmapDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapDataSO*, "", "LightmapDataSO");
+// Writing includes for template specializations
+#include "UnityEngine/Texture2D.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::get_lightmap1
 // Il2CppName: get_lightmap1
 template<>

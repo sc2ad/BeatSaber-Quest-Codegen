@@ -114,6 +114,7 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_bounds
 // Il2CppName: get_bounds
 template<>

@@ -54,6 +54,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlatformUserModel*, "", "IPlatformUserModel");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IPlatformUserModel::GetUserInfo
 // Il2CppName: GetUserInfo
 template<>

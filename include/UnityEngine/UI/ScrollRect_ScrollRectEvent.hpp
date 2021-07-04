@@ -37,6 +37,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ScrollRect/ScrollRectEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollRectEvent*, "UnityEngine.UI", "ScrollRect/ScrollRectEvent");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::ScrollRectEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

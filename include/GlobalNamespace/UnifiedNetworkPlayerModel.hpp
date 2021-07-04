@@ -564,6 +564,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel) == 0x130);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/INetworkPlayer.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
+#include "GlobalNamespace/InvitePolicy.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::add_partyRefreshingEvent
 // Il2CppName: add_partyRefreshingEvent
 template<>

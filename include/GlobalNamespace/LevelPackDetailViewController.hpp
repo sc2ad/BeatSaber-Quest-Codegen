@@ -204,6 +204,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelPackDetailViewController) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/LevelPackDetailViewController_ContentType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::SetData
 // Il2CppName: SetData
 template<>

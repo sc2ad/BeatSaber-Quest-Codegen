@@ -44,6 +44,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/StartLevelRpc
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::StartLevelRpc*, "", "MenuRpcManager/StartLevelRpc");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::StartLevelRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

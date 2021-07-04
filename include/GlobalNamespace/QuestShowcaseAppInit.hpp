@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuestShowcaseAppInit) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>

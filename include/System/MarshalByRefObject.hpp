@@ -71,6 +71,9 @@ namespace System {
   static_assert(sizeof(MarshalByRefObject) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/ServerIdentity.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::MarshalByRefObject::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity
 template<>

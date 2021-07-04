@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIds::LightData) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightData*, "", "LightWithIds/LightData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::get_lightId
 // Il2CppName: get_lightId
 template<>

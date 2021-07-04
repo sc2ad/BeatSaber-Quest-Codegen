@@ -84,6 +84,8 @@ namespace Org::BouncyCastle::Crypto {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedCipherBase*, "Org.BouncyCastle.Crypto", "BufferedCipherBase");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::Init
 // Il2CppName: Init
 template<>

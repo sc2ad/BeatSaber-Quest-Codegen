@@ -106,6 +106,7 @@ namespace Zenject {
   static_assert(sizeof(MonoKernel) == 0x32);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::MonoKernel::get_IsDestroyed
 // Il2CppName: get_IsDestroyed
 template<>

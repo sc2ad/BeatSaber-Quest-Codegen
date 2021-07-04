@@ -361,6 +361,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerLobbyFlowCoordinator) == 0x171);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator*, "", "GameServerLobbyFlowCoordinator");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/LevelSelectionFlowCoordinator_State.hpp"
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
+#include "GlobalNamespace/MultiplayerResultsViewController.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::Finish
 // Il2CppName: Finish
 template<>

@@ -112,6 +112,10 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices*, "System.Runtime.Remoting", "SoapServices");
+// Writing includes for template specializations
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly
 // Il2CppName: get_XmlNsForClrTypeWithAssembly
 template<>

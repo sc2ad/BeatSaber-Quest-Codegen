@@ -59,6 +59,8 @@ namespace Zenject {
   static_assert(sizeof(IfNotBoundBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::IfNotBoundBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

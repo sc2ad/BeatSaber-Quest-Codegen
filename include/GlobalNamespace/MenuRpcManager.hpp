@@ -893,6 +893,15 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");
+// Writing includes for template specializations
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "System/Action_4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager
 // Il2CppName: get_multiplayerSessionManager
 template<>

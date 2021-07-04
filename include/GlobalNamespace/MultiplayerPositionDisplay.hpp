@@ -183,6 +183,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerPositionDisplay) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay*, "", "MultiplayerPositionDisplay");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerScoreProvider_RankedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionDisplay::Start
 // Il2CppName: Start
 template<>

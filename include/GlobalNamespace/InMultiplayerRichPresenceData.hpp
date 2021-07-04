@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(InMultiplayerRichPresenceData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InMultiplayerRichPresenceData*, "", "InMultiplayerRichPresenceData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>

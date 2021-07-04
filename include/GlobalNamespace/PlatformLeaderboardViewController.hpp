@@ -251,6 +251,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresResult.hpp"
+#include "HMUI/SegmentedControl.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel
 // Il2CppName: get_leaderboardsModel
 template<>

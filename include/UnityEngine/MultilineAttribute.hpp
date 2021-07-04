@@ -48,6 +48,7 @@ namespace UnityEngine {
   static_assert(sizeof(MultilineAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MultilineAttribute*, "UnityEngine", "MultilineAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::MultilineAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -166,6 +166,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/NoteController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

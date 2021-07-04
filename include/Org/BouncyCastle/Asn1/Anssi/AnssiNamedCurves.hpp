@@ -91,6 +91,10 @@ namespace Org::BouncyCastle::Asn1::Anssi {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*, "Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/X9/X9ECParametersHolder.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

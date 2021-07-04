@@ -61,6 +61,8 @@ namespace UnityEngine::TestRunner::Utils {
   static_assert(sizeof(TestRunCallbackListener::$$c__DisplayClass6_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass6_0");
+// Writing includes for template specializations
+#include "UnityEngine/TestRunner/ITestRunCallback.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0::$TestFinished$b__0
 // Il2CppName: <TestFinished>b__0
 template<>

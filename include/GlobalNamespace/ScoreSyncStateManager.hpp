@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   }; // ScoreSyncStateManager
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreSyncStateManager*, "", "ScoreSyncStateManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_serializablePool
 // Il2CppName: get_serializablePool
 template<>

@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLaunchInvitePanelFlowResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*, "Oculus.Platform", "MessageWithLaunchInvitePanelFlowResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

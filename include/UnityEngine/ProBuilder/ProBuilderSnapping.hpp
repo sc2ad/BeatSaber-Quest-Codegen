@@ -65,6 +65,12 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderSnapping*, "UnityEngine.ProBuilder", "ProBuilderSnapping");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/ProBuilder/Vector3Mask.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue
 // Il2CppName: SnapValue
 template<>

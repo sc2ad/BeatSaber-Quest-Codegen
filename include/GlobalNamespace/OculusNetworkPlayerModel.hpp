@@ -411,6 +411,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusNetworkPlayerModel) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel*, "", "OculusNetworkPlayerModel");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_1.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::get_oculusConnectionManager
 // Il2CppName: get_oculusConnectionManager
 template<>

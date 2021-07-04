@@ -58,6 +58,9 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(MeshHandle) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Mesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandle::get_mesh
 // Il2CppName: get_mesh
 template<>

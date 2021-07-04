@@ -62,6 +62,10 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/BuiltinShaderType.hpp"
+#include "UnityEngine/Rendering/BuiltinShaderMode.hpp"
+#include "UnityEngine/Shader.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::GraphicsSettings::get_lightsUseLinearIntensity
 // Il2CppName: get_lightsUseLinearIntensity
 template<>

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialController::$OutroCoroutine$d__13) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController::$OutroCoroutine$d__13*, "", "TutorialController/<OutroCoroutine>d__13");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TutorialController::$OutroCoroutine$d__13::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

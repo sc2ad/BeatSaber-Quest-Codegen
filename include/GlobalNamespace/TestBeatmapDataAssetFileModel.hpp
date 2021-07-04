@@ -98,6 +98,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestBeatmapDataAssetFileModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestBeatmapDataAssetFileModel*, "", "TestBeatmapDataAssetFileModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>

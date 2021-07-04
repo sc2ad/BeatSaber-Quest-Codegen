@@ -34,6 +34,8 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerClickHandler*, "UnityEngine.EventSystems", "IPointerClickHandler");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IPointerClickHandler::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>

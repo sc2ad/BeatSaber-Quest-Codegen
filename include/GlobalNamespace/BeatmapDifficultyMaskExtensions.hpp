@@ -53,6 +53,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyMaskExtensions*, "", "BeatmapDifficultyMaskExtensions");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapDifficultyMask.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultyMaskExtensions::ToMask
 // Il2CppName: ToMask
 template<>

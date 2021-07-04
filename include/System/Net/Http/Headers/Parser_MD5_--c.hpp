@@ -44,6 +44,7 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::MD5::$$c*, "System.Net.Http.Headers", "Parser/MD5/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::$$c::_cctor
 // Il2CppName: .cctor
 template<>

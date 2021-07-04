@@ -52,6 +52,10 @@ namespace Mono::Unity {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_trace_callback*, "Mono.Unity", "UnityTls/unitytls_tlsctx_trace_callback");
+// Writing includes for template specializations
+#include "Mono/Unity/UnityTls_unitytls_tlsctx.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_tlsctx_trace_callback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -99,6 +99,7 @@ namespace System::Globalization {
   static_assert(sizeof(SortKey) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::SortKey::Compare
 // Il2CppName: Compare
 template<>

@@ -159,6 +159,13 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(EqualConstraintResult) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/EqualConstraint.hpp"
+#include "NUnit/Framework/Constraints/MessageWriter.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Collections/ICollection.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "NUnit/Framework/Constraints/NUnitEqualityComparer_FailurePoint.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

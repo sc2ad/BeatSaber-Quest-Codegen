@@ -59,6 +59,10 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*, "UnityEngine.Playables", "PlayableBinding/CreateOutputMethod");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::CreateOutputMethod::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

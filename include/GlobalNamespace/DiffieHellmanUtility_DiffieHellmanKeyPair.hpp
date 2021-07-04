@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::DiffieHellmanKeyPair) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/Parameters/DHPrivateKeyParameters.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>

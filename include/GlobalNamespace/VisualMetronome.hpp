@@ -182,6 +182,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(VisualMetronome) == 0x75);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualMetronome*, "", "VisualMetronome");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::set_tickerColor
 // Il2CppName: set_tickerColor
 template<>

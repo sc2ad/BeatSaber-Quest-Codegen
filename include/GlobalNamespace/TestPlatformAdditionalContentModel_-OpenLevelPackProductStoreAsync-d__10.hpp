@@ -75,6 +75,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10, "", "TestPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__10");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10::MoveNext
 // Il2CppName: MoveNext
 template<>

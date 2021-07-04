@@ -87,6 +87,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsUtilities");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteUint8
 // Il2CppName: WriteUint8
 template<>

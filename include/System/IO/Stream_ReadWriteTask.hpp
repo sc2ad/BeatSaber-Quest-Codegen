@@ -114,6 +114,9 @@ namespace System::IO {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "System/AsyncCallback.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::ClearBeginState
 // Il2CppName: ClearBeginState
 template<>

@@ -61,6 +61,9 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Empty*, "System", "Empty");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Empty::GetObjectData
 // Il2CppName: GetObjectData
 template<>

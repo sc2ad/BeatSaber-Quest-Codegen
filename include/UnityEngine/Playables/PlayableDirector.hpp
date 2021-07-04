@@ -155,6 +155,9 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
+// Writing includes for template specializations
+#include "UnityEngine/PropertyName.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_extrapolationMode
 // Il2CppName: get_extrapolationMode
 template<>

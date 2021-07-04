@@ -113,6 +113,7 @@ namespace HMUI {
   static_assert(sizeof(ButtonSpriteSwap) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwap*, "HMUI", "ButtonSpriteSwap");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ButtonSpriteSwap::Awake
 // Il2CppName: Awake
 template<>

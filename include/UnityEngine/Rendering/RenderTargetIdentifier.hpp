@@ -136,6 +136,8 @@ namespace UnityEngine::Rendering {
   static_assert(sizeof(RenderTargetIdentifier) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

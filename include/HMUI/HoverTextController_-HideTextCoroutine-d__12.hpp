@@ -75,6 +75,7 @@ namespace HMUI {
   static_assert(sizeof(HoverTextController::$HideTextCoroutine$d__12) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController::$HideTextCoroutine$d__12*, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::HoverTextController::$HideTextCoroutine$d__12::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

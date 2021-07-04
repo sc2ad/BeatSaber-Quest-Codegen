@@ -54,6 +54,9 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingServerRequest::V3*, "MasterServer", "ConnectToMatchmakingServerRequest/V3");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::ConnectToMatchmakingServerRequest::V3::Serialize
 // Il2CppName: Serialize
 template<>

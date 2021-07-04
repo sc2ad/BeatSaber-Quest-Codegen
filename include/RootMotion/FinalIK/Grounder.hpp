@@ -117,6 +117,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounder) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder*, "RootMotion.FinalIK", "Grounder");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/Grounding_Leg.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::ResetPosition
 // Il2CppName: ResetPosition
 template<>

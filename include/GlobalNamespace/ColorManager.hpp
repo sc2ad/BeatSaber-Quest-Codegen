@@ -75,6 +75,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorManager) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorType.hpp"
+#include "GlobalNamespace/SaberType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
 template<>

@@ -404,6 +404,23 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MobileAuthenticatedStream) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");
+// Writing includes for template specializations
+#include "System/Net/Security/SslStream.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "Mono/Security/Interface/MonoTlsProvider.hpp"
+#include "System/Exception.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Authentication/SslProtocols.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "Mono/Net/Security/MobileAuthenticatedStream_OperationType.hpp"
+#include "Mono/Net/Security/AsyncProtocolRequest.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "Mono/Net/Security/BufferOffsetSize.hpp"
+#include "Mono/Net/Security/BufferOffsetSize2.hpp"
+#include "Mono/Net/Security/AsyncOperationStatus.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

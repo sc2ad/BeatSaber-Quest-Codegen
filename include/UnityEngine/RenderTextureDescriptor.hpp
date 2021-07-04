@@ -255,6 +255,7 @@ namespace UnityEngine {
   static_assert(sizeof(RenderTextureDescriptor) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_width
 // Il2CppName: get_width
 template<>

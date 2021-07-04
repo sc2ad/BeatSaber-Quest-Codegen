@@ -114,6 +114,8 @@ namespace System::Net::Mail {
   static_assert(sizeof(MailAddress) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
+// Writing includes for template specializations
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

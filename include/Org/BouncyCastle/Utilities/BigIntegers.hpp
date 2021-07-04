@@ -46,6 +46,9 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::BigIntegers*, "Org.BouncyCastle.Utilities", "BigIntegers");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray
 // Il2CppName: AsUnsignedByteArray
 template<>

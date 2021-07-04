@@ -75,6 +75,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(Ed448PrivateKeyParameters) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed448PrivateKeyParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Rfc8032/Ed448_Algorithm.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

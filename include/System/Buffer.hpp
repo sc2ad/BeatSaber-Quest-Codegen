@@ -63,6 +63,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Buffer*, "System", "Buffer");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Buffer::InternalBlockCopy
 // Il2CppName: InternalBlockCopy
 template<>

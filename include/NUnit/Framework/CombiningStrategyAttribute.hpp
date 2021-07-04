@@ -99,6 +99,11 @@ namespace NUnit::Framework {
   static_assert(sizeof(CombiningStrategyAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ICombiningStrategy.hpp"
+#include "NUnit/Framework/Interfaces/IParameterDataProvider.hpp"
+#include "NUnit/Framework/Interfaces/IMethodInfo.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::CombiningStrategyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

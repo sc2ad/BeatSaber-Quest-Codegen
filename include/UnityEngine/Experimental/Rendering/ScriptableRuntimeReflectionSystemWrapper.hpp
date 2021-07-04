@@ -62,6 +62,8 @@ namespace UnityEngine::Experimental::Rendering {
   static_assert(sizeof(ScriptableRuntimeReflectionSystemWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");
+// Writing includes for template specializations
+#include "UnityEngine/Experimental/Rendering/IScriptableRuntimeReflectionSystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::get_implementation
 // Il2CppName: get_implementation
 template<>

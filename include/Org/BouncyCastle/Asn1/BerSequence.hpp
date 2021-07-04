@@ -84,6 +84,9 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerSequence*, "Org.BouncyCastle.Asn1", "BerSequence");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerSequence::FromVector
 // Il2CppName: FromVector
 template<>

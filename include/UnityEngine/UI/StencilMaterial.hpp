@@ -68,6 +68,11 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/Rendering/StencilOp.hpp"
+#include "UnityEngine/Rendering/CompareFunction.hpp"
+#include "UnityEngine/Rendering/ColorWriteMask.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::Add
 // Il2CppName: Add
 template<>

@@ -139,6 +139,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(Sha512tDigest) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha512tDigest*, "Org.BouncyCastle.Crypto.Digests", "Sha512tDigest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha512tDigest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -60,6 +60,10 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestListener*, "NUnit.Framework.Internal", "TestListener");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
+#include "NUnit/Framework/Interfaces/TestOutput.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::TestStarted
 // Il2CppName: TestStarted
 template<>

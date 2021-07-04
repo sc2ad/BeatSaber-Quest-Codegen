@@ -66,6 +66,9 @@ namespace Mono::Security::Protocol::Ntlm {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
+// Writing includes for template specializations
+#include "Mono/Security/Protocol/Ntlm/Type2Message.hpp"
+#include "Mono/Security/Protocol/Ntlm/NtlmAuthLevel.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM
 // Il2CppName: Compute_LM
 template<>

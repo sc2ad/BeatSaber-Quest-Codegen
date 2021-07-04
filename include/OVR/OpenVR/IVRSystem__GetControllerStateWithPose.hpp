@@ -61,6 +61,12 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetControllerStateWithPose*, "OVR.OpenVR", "IVRSystem/_GetControllerStateWithPose");
+// Writing includes for template specializations
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/VRControllerState_t.hpp"
+#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetControllerStateWithPose::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

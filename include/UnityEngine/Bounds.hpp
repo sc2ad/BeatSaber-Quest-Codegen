@@ -139,6 +139,8 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
+// Writing includes for template specializations
+#include "UnityEngine/Ray.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bounds::Bounds
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

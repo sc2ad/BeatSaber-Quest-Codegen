@@ -76,6 +76,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafMultiplier");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/AbstractF2mPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/Abc/ZTauElement.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyWTnaf
 // Il2CppName: MultiplyWTnaf
 template<>

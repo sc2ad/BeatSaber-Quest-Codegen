@@ -110,6 +110,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(DropdownSettingsController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DropdownSettingsController*, "", "DropdownSettingsController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent
 // Il2CppName: add_dropDownValueDidChangeEvent
 template<>

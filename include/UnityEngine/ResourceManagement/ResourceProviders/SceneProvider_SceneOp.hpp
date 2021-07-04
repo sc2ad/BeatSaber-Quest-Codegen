@@ -162,6 +162,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp*, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProvider/SceneOp");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

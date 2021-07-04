@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseLoginController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController*, "", "NetEaseLoginController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLoginController::Start
 // Il2CppName: Start
 template<>

@@ -174,6 +174,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Mathf::NextPowerOfTwo
 // Il2CppName: NextPowerOfTwo
 template<>

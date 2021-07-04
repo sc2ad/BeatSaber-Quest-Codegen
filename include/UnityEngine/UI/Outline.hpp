@@ -53,6 +53,8 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
+// Writing includes for template specializations
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Outline::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

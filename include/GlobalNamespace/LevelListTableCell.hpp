@@ -212,6 +212,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelListTableCell) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/AdditionalContentModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync
 // Il2CppName: SetDataFromLevelAsync
 template<>

@@ -134,6 +134,14 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture*, "UnityEngine", "Texture");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/TextureDimension.hpp"
+#include "UnityEngine/TextureWrapMode.hpp"
+#include "UnityEngine/FilterMode.hpp"
+#include "UnityEngine/TextureFormat.hpp"
+#include "UnityEngine/Experimental/Rendering/GraphicsFormat.hpp"
+#include "UnityEngine/Experimental/Rendering/FormatUsage.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture::get_mipmapCount
 // Il2CppName: get_mipmapCount
 template<>

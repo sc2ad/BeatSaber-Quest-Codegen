@@ -188,6 +188,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodesManager) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesManager*, "", "MissionNodesManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionNode.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "GlobalNamespace/MissionNodeVisualController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_rootMissionNode
 // Il2CppName: get_rootMissionNode
 template<>

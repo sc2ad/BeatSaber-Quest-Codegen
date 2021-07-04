@@ -97,6 +97,7 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal
 // Il2CppName: GetProviderInternal
 template<>

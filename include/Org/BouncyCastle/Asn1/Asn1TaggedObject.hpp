@@ -99,6 +99,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(Asn1TaggedObject) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1TaggedObject*, "Org.BouncyCastle.Asn1", "Asn1TaggedObject");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1TaggedObject::GetInstance
 // Il2CppName: GetInstance
 template<>

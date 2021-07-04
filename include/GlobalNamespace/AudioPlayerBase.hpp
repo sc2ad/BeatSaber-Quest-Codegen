@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPlayerBase*, "", "AudioPlayerBase");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AudioPlayerBase::get_activeAudioClip
 // Il2CppName: get_activeAudioClip
 template<>

@@ -124,6 +124,20 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleUtility*, "UnityEngine.ProBuilder", "HandleUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/ProBuilder/RaycastHit.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "UnityEngine/ProBuilder/CullingMode.hpp"
+#include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/HandleOrientation.hpp"
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleUtility::ScreenToGuiPoint
 // Il2CppName: ScreenToGuiPoint
 template<>

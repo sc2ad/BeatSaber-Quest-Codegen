@@ -54,6 +54,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallback*, "", "BeatmapObjectCallback");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapObjectData.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

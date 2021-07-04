@@ -178,6 +178,13 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingUtil*, "Zenject", "BindingUtil");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Type.hpp"
+#include "Zenject/InvalidBindResponses.hpp"
+#include "Zenject/IProvider.hpp"
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsValidPrefab
 // Il2CppName: AssertIsValidPrefab
 template<>

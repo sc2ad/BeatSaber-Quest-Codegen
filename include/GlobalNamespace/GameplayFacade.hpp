@@ -186,6 +186,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayFacade) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayFacade*, "", "GameplayFacade");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapObjectCallback.hpp"
+#include "GlobalNamespace/BeatmapObjectCallbackData.hpp"
+#include "GlobalNamespace/BeatmapEventCallback.hpp"
+#include "GlobalNamespace/BeatmapEventCallbackData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::get_difficultyBeatmap
 // Il2CppName: get_difficultyBeatmap
 template<>

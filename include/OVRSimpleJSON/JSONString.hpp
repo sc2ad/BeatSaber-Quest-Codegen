@@ -97,6 +97,9 @@ namespace OVRSimpleJSON {
   static_assert(sizeof(JSONString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVRSimpleJSON/JSONTextMode.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

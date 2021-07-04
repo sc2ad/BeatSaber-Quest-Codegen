@@ -58,6 +58,7 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::SubEmittersModule) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::SubEmittersModule
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

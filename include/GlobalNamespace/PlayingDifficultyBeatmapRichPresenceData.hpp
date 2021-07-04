@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayingDifficultyBeatmapRichPresenceData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*, "", "PlayingDifficultyBeatmapRichPresenceData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>

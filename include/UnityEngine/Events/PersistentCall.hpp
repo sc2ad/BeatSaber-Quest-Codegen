@@ -117,6 +117,11 @@ namespace UnityEngine::Events {
   static_assert(sizeof(PersistentCall) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityEventBase.hpp"
+#include "UnityEngine/Object.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "UnityEngine/Events/ArgumentCache.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_target
 // Il2CppName: get_target
 template<>

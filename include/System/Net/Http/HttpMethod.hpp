@@ -105,6 +105,7 @@ namespace System::Net::Http {
   bool operator ==(System::Net::Http::HttpMethod* left, System::Net::Http::HttpMethod& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMethod*, "System.Net.Http", "HttpMethod");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpMethod::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

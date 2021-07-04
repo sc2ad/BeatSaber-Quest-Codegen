@@ -106,6 +106,7 @@ namespace UnityEngine {
   static_assert(sizeof(Gradient) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Gradient::Init
 // Il2CppName: Init
 template<>

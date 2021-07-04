@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlexyFollow) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlexyFollow::Start
 // Il2CppName: Start
 template<>

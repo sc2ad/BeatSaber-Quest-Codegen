@@ -102,6 +102,10 @@ namespace ModestTree::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$$c*, "ModestTree.Util", "UnityUtil/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Component.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::_cctor
 // Il2CppName: .cctor
 template<>

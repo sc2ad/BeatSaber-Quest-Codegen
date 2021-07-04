@@ -45,6 +45,8 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::ContextCallbackObject*, "System.Runtime.Remoting.Contexts", "ContextCallbackObject");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/CrossContextDelegate.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack
 // Il2CppName: DoCallBack
 template<>

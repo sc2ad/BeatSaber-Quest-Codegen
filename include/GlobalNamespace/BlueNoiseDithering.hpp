@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
 // Il2CppName: SetBlueNoiseShaderParams
 template<>

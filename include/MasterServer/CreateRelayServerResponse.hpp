@@ -205,6 +205,9 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerResponse*, "MasterServer", "CreateRelayServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerResponse::Result, "MasterServer", "CreateRelayServerResponse/Result");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerResponse::get_pool
 // Il2CppName: get_pool
 template<>

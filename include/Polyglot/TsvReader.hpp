@@ -42,6 +42,7 @@ namespace Polyglot {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::TsvReader*, "Polyglot", "TsvReader");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Polyglot::TsvReader::Parse
 // Il2CppName: Parse
 template<>

@@ -116,6 +116,8 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(HybridDictionary) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::HybridDictionary*, "System.Collections.Specialized", "HybridDictionary");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::HybridDictionary::get_Item
 // Il2CppName: get_Item
 template<>

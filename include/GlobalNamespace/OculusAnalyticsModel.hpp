@@ -63,6 +63,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusAnalyticsModel*, "", "OculusAnalyticsModel");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage
 // Il2CppName: get_supportsOpenDataPrivacyPage
 template<>

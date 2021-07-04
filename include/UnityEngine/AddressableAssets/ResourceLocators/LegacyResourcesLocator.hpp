@@ -67,6 +67,9 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::Locate
 // Il2CppName: Locate
 template<>

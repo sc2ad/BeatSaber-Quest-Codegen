@@ -100,6 +100,7 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::TextReader::Close
 // Il2CppName: Close
 template<>

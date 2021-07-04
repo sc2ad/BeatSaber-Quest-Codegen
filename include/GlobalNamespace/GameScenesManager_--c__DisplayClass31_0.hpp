@@ -64,6 +64,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass31_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0*, "", "GameScenesManager/<>c__DisplayClass31_0");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0::$PopScenes$b__0
 // Il2CppName: <PopScenes>b__0
 template<>

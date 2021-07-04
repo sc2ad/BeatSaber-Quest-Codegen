@@ -56,6 +56,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController*, "", "ConnectionErrorDialogViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/DisconnectedReason.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::Init
 // Il2CppName: Init
 template<>

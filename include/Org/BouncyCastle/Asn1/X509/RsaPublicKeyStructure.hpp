@@ -73,6 +73,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(RsaPublicKeyStructure) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure*, "Org.BouncyCastle.Asn1.X509", "RsaPublicKeyStructure");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

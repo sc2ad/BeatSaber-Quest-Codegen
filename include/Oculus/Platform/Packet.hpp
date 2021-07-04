@@ -78,6 +78,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(Packet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet*, "Oculus.Platform", "Packet");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Packet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -73,6 +73,7 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Core*, "Oculus.Platform", "Core");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Core::IsInitialized
 // Il2CppName: IsInitialized
 template<>

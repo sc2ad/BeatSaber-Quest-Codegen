@@ -163,6 +163,17 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*, "", "MultiplayerConnectedPlayerBeatmapObjectManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerConnectedPlayerBeatmapObjectManager_InitData.hpp"
+#include "GlobalNamespace/IConnectedPlayerNoteEventManager.hpp"
+#include "GlobalNamespace/MultiplayerConnectedPlayerGameNoteController_Pool.hpp"
+#include "GlobalNamespace/MultiplayerConnectedPlayerBombNoteController_Pool.hpp"
+#include "GlobalNamespace/MultiplayerConnectedPlayerObstacleController_Pool.hpp"
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
+#include "GlobalNamespace/ObstacleData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_ObstacleSpawnData.hpp"
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_NoteSpawnData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

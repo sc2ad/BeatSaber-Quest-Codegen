@@ -82,6 +82,9 @@ namespace System::Runtime::Remoting::Lifetime {
   static_assert(sizeof(LeaseManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
+// Writing includes for template specializations
+#include "System/TimeSpan.hpp"
+#include "System/Runtime/Remoting/ServerIdentity.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime
 // Il2CppName: SetPollTime
 template<>

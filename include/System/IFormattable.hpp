@@ -32,6 +32,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IFormattable*, "System", "IFormattable");
+// Writing includes for template specializations
+#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::IFormattable::ToString
 // Il2CppName: ToString
 template<>

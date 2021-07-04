@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReflectionProbeBakingEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeBakingEffect*, "", "ReflectionProbeBakingEffect");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeBakingEffect::OnRenderImage
 // Il2CppName: OnRenderImage
 template<>

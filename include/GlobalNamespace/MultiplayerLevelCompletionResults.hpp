@@ -187,6 +187,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults*, "", "MultiplayerLevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState, "", "MultiplayerLevelCompletionResults/MultiplayerLevelEndState");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelCompletionResults::get_levelEndState
 // Il2CppName: get_levelEndState
 template<>

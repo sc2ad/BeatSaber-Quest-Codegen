@@ -147,6 +147,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogSO*, "", "BloomFogSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/BloomFogEnvironmentParams.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_transition
 // Il2CppName: set_transition
 template<>

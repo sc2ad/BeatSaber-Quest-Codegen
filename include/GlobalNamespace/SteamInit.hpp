@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamInit*, "", "SteamInit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamInit::Init
 // Il2CppName: Init
 template<>

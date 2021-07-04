@@ -415,6 +415,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2D*, "UnityEngine", "Texture2D");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture2D::get_format
 // Il2CppName: get_format
 template<>

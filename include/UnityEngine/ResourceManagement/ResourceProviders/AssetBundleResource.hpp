@@ -173,6 +173,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(AssetBundleResource) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/AsyncOperation.hpp"
+#include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::CreateWebRequest
 // Il2CppName: CreateWebRequest
 template<>

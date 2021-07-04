@@ -75,6 +75,9 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static_assert(sizeof(EndoPreCompInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::get_Endomorphism
 // Il2CppName: get_Endomorphism
 template<>

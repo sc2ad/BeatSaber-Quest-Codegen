@@ -254,6 +254,12 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/RuntimeType.hpp"
 // Writing MetadataGetter for method: System::Delegate::get_Method
 // Il2CppName: get_Method
 template<>

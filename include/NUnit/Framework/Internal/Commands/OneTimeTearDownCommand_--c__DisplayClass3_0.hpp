@@ -56,6 +56,7 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::$Execute$b__0
 // Il2CppName: <Execute>b__0
 template<>

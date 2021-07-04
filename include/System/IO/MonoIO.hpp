@@ -206,6 +206,15 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIO*, "System.IO", "MonoIO");
+// Writing includes for template specializations
+#include "System/IO/MonoIOError.hpp"
+#include "System/Runtime/InteropServices/SafeHandle.hpp"
+#include "System/IO/MonoIOStat.hpp"
+#include "System/IO/FileMode.hpp"
+#include "System/IO/FileAccess.hpp"
+#include "System/IO/FileShare.hpp"
+#include "System/IO/FileOptions.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: System::IO::MonoIO::GetException
 // Il2CppName: GetException
 template<>

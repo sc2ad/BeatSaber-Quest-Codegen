@@ -103,6 +103,9 @@ namespace System {
   static_assert(sizeof(TermInfoReader) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
+// Writing includes for template specializations
+#include "System/TermInfoNumbers.hpp"
+#include "System/TermInfoStrings.hpp"
 // Writing MetadataGetter for method: System::TermInfoReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

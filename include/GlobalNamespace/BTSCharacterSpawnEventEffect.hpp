@@ -209,6 +209,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnEventEffect) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapEventData.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent
 // Il2CppName: add_startCharacterAnimationEvent
 template<>

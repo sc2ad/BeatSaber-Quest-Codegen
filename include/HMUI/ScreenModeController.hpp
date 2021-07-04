@@ -94,6 +94,8 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");
+// Writing includes for template specializations
+#include "HMUI/ScreenModeData.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeController::Awake
 // Il2CppName: Awake
 template<>

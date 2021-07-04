@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_SphericalProjection*, "", "SteamVR_SphericalProjection");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_SphericalProjection::Set
 // Il2CppName: Set
 template<>

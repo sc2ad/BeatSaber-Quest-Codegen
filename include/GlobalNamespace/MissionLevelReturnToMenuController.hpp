@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelReturnToMenuController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelReturnToMenuController::ReturnToMenu
 // Il2CppName: ReturnToMenu
 template<>

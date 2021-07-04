@@ -199,6 +199,7 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer*, "System.Net", "CookieTokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

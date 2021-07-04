@@ -53,6 +53,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*, "Org.BouncyCastle.Crypto.Paddings", "Pkcs7Padding");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::Init
 // Il2CppName: Init
 template<>

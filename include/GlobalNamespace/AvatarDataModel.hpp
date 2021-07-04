@@ -99,6 +99,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarDataModel) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataModel*, "", "AvatarDataModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::get_avatarData
 // Il2CppName: get_avatarData
 template<>

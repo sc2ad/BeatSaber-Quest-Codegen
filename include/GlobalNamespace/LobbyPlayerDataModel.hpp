@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyPlayerDataModel) == 0x2F);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerDataModel*, "", "LobbyPlayerDataModel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerDataModel::get_isActive
 // Il2CppName: get_isActive
 template<>

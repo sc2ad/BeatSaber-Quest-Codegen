@@ -60,6 +60,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(KeyedHashAlgorithm) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeyedHashAlgorithm*, "System.Security.Cryptography", "KeyedHashAlgorithm");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::KeyedHashAlgorithm::get_Key
 // Il2CppName: get_Key
 template<>

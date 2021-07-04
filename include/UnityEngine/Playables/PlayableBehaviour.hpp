@@ -80,6 +80,9 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.Playables", "PlayableBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>

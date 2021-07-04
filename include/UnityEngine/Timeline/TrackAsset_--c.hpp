@@ -61,6 +61,8 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineClip.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>

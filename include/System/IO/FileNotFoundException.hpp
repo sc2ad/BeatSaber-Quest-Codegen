@@ -110,6 +110,8 @@ namespace System::IO {
   static_assert(sizeof(FileNotFoundException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileNotFoundException*, "System.IO", "FileNotFoundException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::IO::FileNotFoundException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

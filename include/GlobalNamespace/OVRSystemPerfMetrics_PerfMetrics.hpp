@@ -227,6 +227,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSystemPerfMetrics::PerfMetrics) == 0x7C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON
 // Il2CppName: ToJSON
 template<>

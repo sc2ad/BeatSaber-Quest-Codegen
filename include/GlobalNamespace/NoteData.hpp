@@ -205,6 +205,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteData::get_colorType
 // Il2CppName: get_colorType
 template<>

@@ -104,6 +104,10 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(ProductHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductHeaderValue*, "System.Net.Http.Headers", "ProductHeaderValue");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductHeaderValue::get_Name
 // Il2CppName: get_Name
 template<>

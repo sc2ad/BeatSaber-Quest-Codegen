@@ -142,6 +142,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(UIKeyboardManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
+// Writing includes for template specializations
+#include "HMUI/InputFieldView.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::get_keyboard
 // Il2CppName: get_keyboard
 template<>

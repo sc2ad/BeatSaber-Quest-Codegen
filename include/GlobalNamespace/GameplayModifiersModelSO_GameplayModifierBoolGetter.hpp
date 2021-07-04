@@ -56,6 +56,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*, "", "GameplayModifiersModelSO/GameplayModifierBoolGetter");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

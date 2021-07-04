@@ -73,6 +73,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProvider");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene
 // Il2CppName: ProvideScene
 template<>

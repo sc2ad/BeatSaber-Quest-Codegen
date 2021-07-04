@@ -214,6 +214,11 @@ namespace System::Net {
   static_assert(sizeof(HttpWebResponse) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebResponse*, "System.Net", "HttpWebResponse");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/WebConnectionData.hpp"
+#include "System/Net/CookieContainer.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebResponse::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

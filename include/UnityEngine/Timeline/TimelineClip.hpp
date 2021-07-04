@@ -619,6 +619,11 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::BlendCurveMode, "UnityEngine.Timeline", "TimelineClip/BlendCurveMode");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "UnityEngine/AnimationClip.hpp"
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>

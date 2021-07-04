@@ -45,6 +45,8 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RetryAttribute::RetryCommand*, "NUnit.Framework", "RetryAttribute/RetryCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::RetryAttribute::RetryCommand::Execute
 // Il2CppName: Execute
 template<>

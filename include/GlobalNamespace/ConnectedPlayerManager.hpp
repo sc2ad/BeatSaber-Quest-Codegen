@@ -711,6 +711,29 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");
+// Writing includes for template specializations
+#include "GlobalNamespace/ConnectedPlayerManager_ConnectedPlayer.hpp"
+#include "GlobalNamespace/IConnection.hpp"
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
+#include "GlobalNamespace/IConnectionManager.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_MessageType.hpp"
+#include "GlobalNamespace/INetworkPacketSubSerializer_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "LiteNetLib/Utils/INetSerializable.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerConnectedPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerIdentityPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerStatePacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerAvatarPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerLatencyPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerDisconnectedPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_KickPlayerPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerSortOrderPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_SyncTimePacket.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId
 // Il2CppName: GetNextConnectionId
 template<>

@@ -68,6 +68,10 @@ namespace Mono::Net::Security::Private {
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass5_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass5_0");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
+#include "System/Net/Security/SslPolicyErrors.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0
 // Il2CppName: <MonoToPublic>b__0
 template<>

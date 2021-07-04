@@ -58,6 +58,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryCrossAppDomainString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainString");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::Read
 // Il2CppName: Read
 template<>

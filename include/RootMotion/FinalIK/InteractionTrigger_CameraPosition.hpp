@@ -92,6 +92,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTrigger::CameraPosition) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation
 // Il2CppName: GetRotation
 template<>

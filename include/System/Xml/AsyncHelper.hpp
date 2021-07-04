@@ -49,6 +49,7 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::AsyncHelper::_cctor
 // Il2CppName: .cctor
 template<>

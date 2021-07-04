@@ -602,6 +602,18 @@ namespace LiteNetLib {
   static_assert(sizeof(NetManager) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager*, "LiteNetLib", "NetManager");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/INetEventListener.hpp"
+#include "LiteNetLib/Layers/PacketLayerBase.hpp"
+#include "LiteNetLib/NetPacket.hpp"
+#include "LiteNetLib/ConnectionRequest.hpp"
+#include "LiteNetLib/NetConnectRequestPacket.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "LiteNetLib/ConnectionState.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::get_IsRunning
 // Il2CppName: get_IsRunning
 template<>

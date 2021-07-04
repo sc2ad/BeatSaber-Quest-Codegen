@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::HapticInfo) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::HapticInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -103,6 +103,9 @@ namespace System::Threading {
   static_assert(sizeof(OSSpecificSynchronizationContext) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext*, "System.Threading", "OSSpecificSynchronizationContext");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "System/Threading/SendOrPostCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

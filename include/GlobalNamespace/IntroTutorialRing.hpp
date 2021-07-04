@@ -184,6 +184,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialRing) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRing");
+// Writing includes for template specializations
+#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::set_alpha
 // Il2CppName: set_alpha
 template<>

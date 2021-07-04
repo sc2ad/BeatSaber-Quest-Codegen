@@ -71,6 +71,9 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AudioMixerProperties) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties*, "UnityEngine.Timeline", "AudioMixerProperties");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioMixerProperties::PrepareFrame
 // Il2CppName: PrepareFrame
 template<>

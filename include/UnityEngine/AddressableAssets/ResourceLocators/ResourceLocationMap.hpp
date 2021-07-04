@@ -111,6 +111,11 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static_assert(sizeof(ResourceLocationMap) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationMap");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

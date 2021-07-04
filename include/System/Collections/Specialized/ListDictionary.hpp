@@ -127,6 +127,9 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(ListDictionary) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary*, "System.Collections.Specialized", "ListDictionary");
+// Writing includes for template specializations
+#include "System/Collections/IComparer.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

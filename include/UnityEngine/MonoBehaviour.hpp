@@ -137,6 +137,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MonoBehaviour*, "UnityEngine", "MonoBehaviour");
+// Writing includes for template specializations
+#include "System/Collections/IEnumerator.hpp"
+#include "UnityEngine/Coroutine.hpp"
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::IsInvoking
 // Il2CppName: IsInvoking
 template<>

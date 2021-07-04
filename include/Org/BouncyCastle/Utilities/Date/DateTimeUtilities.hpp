@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Utilities::Date {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs
 // Il2CppName: DateTimeToUnixMs
 template<>

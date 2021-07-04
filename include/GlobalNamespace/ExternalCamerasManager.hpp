@@ -84,6 +84,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/ExternalCamerasManager_InitData.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::Init
 // Il2CppName: Init
 template<>

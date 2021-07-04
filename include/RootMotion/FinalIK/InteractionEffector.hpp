@@ -345,6 +345,10 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionEffector) == 0xC9);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/InteractionObject.hpp"
+#include "RootMotion/FinalIK/InteractionSystem.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_effectorType
 // Il2CppName: get_effectorType
 template<>

@@ -185,6 +185,10 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(KeyHandler) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");
+// Writing includes for template specializations
+#include "Microsoft/Win32/RegistryKey.hpp"
+#include "System/Security/SecurityElement.hpp"
+#include "Microsoft/Win32/RegistryValueOptions.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::_cctor
 // Il2CppName: .cctor
 template<>

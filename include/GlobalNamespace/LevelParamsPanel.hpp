@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelParamsPanel) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_notesPerSecond
 // Il2CppName: set_notesPerSecond
 template<>

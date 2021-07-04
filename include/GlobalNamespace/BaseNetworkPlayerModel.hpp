@@ -293,6 +293,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseNetworkPlayerModel) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel*, "", "BaseNetworkPlayerModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseNetworkPlayerModel::get_connectedPlayerManager
 // Il2CppName: get_connectedPlayerManager
 template<>

@@ -143,6 +143,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BakedReflectionProbe) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedReflectionProbe*, "", "BakedReflectionProbe");
+// Writing includes for template specializations
+#include "GlobalNamespace/ReflectionProbeDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::get_reflectionProbeData
 // Il2CppName: get_reflectionProbeData
 template<>

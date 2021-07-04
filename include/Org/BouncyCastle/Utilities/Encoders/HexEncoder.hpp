@@ -70,6 +70,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   static_assert(sizeof(HexEncoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable
 // Il2CppName: InitialiseDecodingTable
 template<>

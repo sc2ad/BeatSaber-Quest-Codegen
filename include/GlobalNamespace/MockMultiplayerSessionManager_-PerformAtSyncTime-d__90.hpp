@@ -92,6 +92,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$PerformAtSyncTime$d__90, "", "MockMultiplayerSessionManager/<PerformAtSyncTime>d__90");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$PerformAtSyncTime$d__90::MoveNext
 // Il2CppName: MoveNext
 template<>

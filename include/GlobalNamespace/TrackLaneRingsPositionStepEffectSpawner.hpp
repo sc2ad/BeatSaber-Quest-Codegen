@@ -108,6 +108,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start
 // Il2CppName: Start
 template<>

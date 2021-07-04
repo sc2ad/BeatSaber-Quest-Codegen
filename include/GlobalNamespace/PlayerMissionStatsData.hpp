@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerMissionStatsData) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerMissionStatsData*, "", "PlayerMissionStatsData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PlayerMissionStatsData::get_missionId
 // Il2CppName: get_missionId
 template<>

@@ -237,6 +237,10 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
+// Writing includes for template specializations
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle
 template<>

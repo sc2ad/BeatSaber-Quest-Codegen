@@ -730,6 +730,13 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/UI/Scrollbar.hpp"
+#include "UnityEngine/UI/ScrollRect_ScrollRectEvent.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_content
 // Il2CppName: get_content
 template<>

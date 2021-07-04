@@ -32,6 +32,8 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/OidGroup.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo
 // Il2CppName: FindOidInfo
 template<>

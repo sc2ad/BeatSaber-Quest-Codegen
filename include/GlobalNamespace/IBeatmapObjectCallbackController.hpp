@@ -82,6 +82,15 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectCallbackController*, "", "IBeatmapObjectCallbackController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/BeatmapObjectCallback.hpp"
+#include "GlobalNamespace/BeatmapObjectCallbackData.hpp"
+#include "GlobalNamespace/BeatmapEventCallback.hpp"
+#include "GlobalNamespace/BeatmapEventCallbackData.hpp"
+#include "GlobalNamespace/BeatmapEventData.hpp"
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectCallbackController::add_beatmapEventDidTriggerEvent
 // Il2CppName: add_beatmapEventDidTriggerEvent
 template<>

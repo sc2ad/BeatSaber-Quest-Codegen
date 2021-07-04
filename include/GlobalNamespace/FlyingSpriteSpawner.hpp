@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingSpriteSpawner) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteSpawner");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteSpawner::SpawnFlyingSprite
 // Il2CppName: SpawnFlyingSprite
 template<>

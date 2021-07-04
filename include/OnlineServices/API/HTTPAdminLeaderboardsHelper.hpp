@@ -104,6 +104,9 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPAdminLeaderboardsHelper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

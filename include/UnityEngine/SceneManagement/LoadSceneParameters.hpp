@@ -58,6 +58,7 @@ namespace UnityEngine::SceneManagement {
   static_assert(sizeof(LoadSceneParameters) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::LoadSceneParameters::set_loadSceneMode
 // Il2CppName: set_loadSceneMode
 template<>

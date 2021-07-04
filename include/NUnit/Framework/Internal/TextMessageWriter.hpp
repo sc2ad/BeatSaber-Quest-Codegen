@@ -157,6 +157,10 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TextMessageWriter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Framework.Internal", "TextMessageWriter");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/ConstraintResult.hpp"
+#include "NUnit/Framework/Constraints/Tolerance.hpp"
+#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

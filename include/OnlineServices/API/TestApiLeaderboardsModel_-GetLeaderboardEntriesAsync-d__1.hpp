@@ -66,6 +66,7 @@ namespace OnlineServices::API {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1, "OnlineServices.API", "TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1::MoveNext
 // Il2CppName: MoveNext
 template<>

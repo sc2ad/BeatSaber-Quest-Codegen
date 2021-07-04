@@ -96,6 +96,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

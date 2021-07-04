@@ -92,6 +92,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntListSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntListSettingsController*, "", "IntListSettingsController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntListSettingsController::add_valueChangedEvent
 // Il2CppName: add_valueChangedEvent
 template<>

@@ -135,6 +135,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(HMAC) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC*, "System.Security.Cryptography", "HMAC");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::get_BlockSizeValue
 // Il2CppName: get_BlockSizeValue
 template<>

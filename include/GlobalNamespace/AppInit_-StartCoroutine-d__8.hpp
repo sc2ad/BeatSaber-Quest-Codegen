@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AppInit::$StartCoroutine$d__8) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$StartCoroutine$d__8*, "", "AppInit/<StartCoroutine>d__8");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::$StartCoroutine$d__8::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

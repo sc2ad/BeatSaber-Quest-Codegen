@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LiteNetLibConnectionManager::ConnectToServerParams) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams*, "", "LiteNetLibConnectionManager/ConnectToServerParams");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

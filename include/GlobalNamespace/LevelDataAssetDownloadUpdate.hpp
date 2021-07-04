@@ -107,6 +107,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloadUpdate
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

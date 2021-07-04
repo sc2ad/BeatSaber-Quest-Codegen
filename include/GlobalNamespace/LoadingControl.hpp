@@ -163,6 +163,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LoadingControl) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent
 // Il2CppName: add_didPressRefreshButtonEvent
 template<>

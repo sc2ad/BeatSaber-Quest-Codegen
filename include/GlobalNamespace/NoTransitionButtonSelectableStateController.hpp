@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // NoTransitionButtonSelectableStateController
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::OnEnable
 // Il2CppName: OnEnable
 template<>

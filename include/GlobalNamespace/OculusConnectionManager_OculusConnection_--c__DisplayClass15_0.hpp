@@ -70,6 +70,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, "", "OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::$Ping$b__0
 // Il2CppName: <Ping>b__0
 template<>

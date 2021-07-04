@@ -57,6 +57,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static_assert(sizeof(CacheInitialization::$$c__DisplayClass1_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::$InitializeAsync$b__0
 // Il2CppName: <InitializeAsync>b__0
 template<>

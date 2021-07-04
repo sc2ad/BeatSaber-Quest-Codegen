@@ -79,6 +79,9 @@ namespace Tweening {
   }; // Tweening.Vector3Tween
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween*, "Tweening", "Vector3Tween");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
 // Writing MetadataGetter for method: Tweening::Vector3Tween::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

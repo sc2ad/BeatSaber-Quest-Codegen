@@ -241,6 +241,8 @@ namespace UnityEngine {
   static_assert(sizeof(GUILayoutGroup) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");
+// Writing includes for template specializations
+#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ResetCursor
 // Il2CppName: ResetCursor
 template<>

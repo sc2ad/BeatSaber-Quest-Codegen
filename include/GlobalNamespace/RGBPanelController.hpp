@@ -116,6 +116,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(RGBPanelController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/ColorGradientSlider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

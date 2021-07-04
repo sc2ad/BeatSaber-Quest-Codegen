@@ -203,6 +203,8 @@ namespace GlobalNamespace {
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount
 // Il2CppName: get_goodCutsCount
 template<>

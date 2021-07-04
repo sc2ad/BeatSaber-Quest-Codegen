@@ -64,6 +64,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert
 // Il2CppName: Convert
 template<>

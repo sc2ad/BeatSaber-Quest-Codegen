@@ -75,6 +75,8 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentNullException*, "System", "ArgumentNullException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::ArgumentNullException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

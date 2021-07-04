@@ -102,6 +102,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRsenalLogger) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");
+// Writing includes for template specializations
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::Awake
 // Il2CppName: Awake
 template<>

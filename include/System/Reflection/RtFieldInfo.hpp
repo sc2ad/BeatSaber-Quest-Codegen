@@ -69,6 +69,11 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RtFieldInfo*, "System.Reflection", "RtFieldInfo");
+// Writing includes for template specializations
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/TypedReference.hpp"
 // Writing MetadataGetter for method: System::Reflection::RtFieldInfo::UnsafeGetValue
 // Il2CppName: UnsafeGetValue
 template<>

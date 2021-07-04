@@ -141,6 +141,12 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Action_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "GlobalNamespace/DelegateList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetResultAsObject
 // Il2CppName: GetResultAsObject
 template<>

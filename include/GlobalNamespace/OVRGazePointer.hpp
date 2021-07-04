@@ -227,6 +227,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGazePointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGazePointer::get_hidden
 // Il2CppName: get_hidden
 template<>

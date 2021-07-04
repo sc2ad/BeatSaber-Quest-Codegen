@@ -39,6 +39,7 @@ namespace Mono::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Length
 // Il2CppName: get_Length
 template<>

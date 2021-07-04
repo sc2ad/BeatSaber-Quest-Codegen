@@ -240,6 +240,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIUtility*, "UnityEngine", "GUIUtility");
+// Writing includes for template specializations
+#include "UnityEngine/FocusType.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "System/Type.hpp"
+#include "System/Exception.hpp"
+#include "UnityEngine/Event.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::get_pixelsPerPoint
 // Il2CppName: get_pixelsPerPoint
 template<>

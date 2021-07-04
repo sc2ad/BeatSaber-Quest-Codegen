@@ -342,6 +342,16 @@ namespace OVRSimpleJSON {
   bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVRSimpleJSON/JSONTextMode.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/RectOffset.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::get_Tag
 // Il2CppName: get_Tag
 template<>

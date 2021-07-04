@@ -295,6 +295,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounding::Leg) == 0x114);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Leg*, "RootMotion.FinalIK", "Grounding/Leg");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_isGrounded
 // Il2CppName: get_isGrounded
 template<>

@@ -49,6 +49,8 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::DesignerWebRequestCreate*, "System.Net", "WebRequest/DesignerWebRequestCreate");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::DesignerWebRequestCreate::Create
 // Il2CppName: Create
 template<>

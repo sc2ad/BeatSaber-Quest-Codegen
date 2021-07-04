@@ -82,6 +82,8 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorBindInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_DefaultParentName
 // Il2CppName: get_DefaultParentName
 template<>

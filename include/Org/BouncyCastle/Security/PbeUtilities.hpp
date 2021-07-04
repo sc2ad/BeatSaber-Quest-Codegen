@@ -84,6 +84,11 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PbeUtilities*, "Org.BouncyCastle.Security", "PbeUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IDigest.hpp"
+#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::_cctor
 // Il2CppName: .cctor
 template<>

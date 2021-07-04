@@ -49,6 +49,7 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::System_Collections_IComparer_Compare
 // Il2CppName: System.Collections.IComparer.Compare
 template<>

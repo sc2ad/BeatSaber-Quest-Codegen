@@ -46,6 +46,7 @@ namespace System::IO::Compression {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::get_IsInvalid
 // Il2CppName: get_IsInvalid
 template<>

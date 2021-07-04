@@ -35,6 +35,8 @@ namespace System::ComponentModel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IContainer*, "System.ComponentModel", "IContainer");
+// Writing includes for template specializations
+#include "System/ComponentModel/IComponent.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::IContainer::Remove
 // Il2CppName: Remove
 template<>

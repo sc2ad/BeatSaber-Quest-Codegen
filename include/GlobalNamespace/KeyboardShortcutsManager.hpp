@@ -109,6 +109,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(KeyboardShortcutsManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager*, "", "KeyboardShortcutsManager");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "GlobalNamespace/KeyboardShortcutsManager_KeyboardShortcut.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KeyboardShortcutsManager::Update
 // Il2CppName: Update
 template<>

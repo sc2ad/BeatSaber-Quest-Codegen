@@ -72,6 +72,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BadCutsMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadCutsMissionObjectiveChecker*, "", "BadCutsMissionObjectiveChecker");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BadCutsMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>

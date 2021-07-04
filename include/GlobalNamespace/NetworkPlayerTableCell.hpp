@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerTableCell) == 0xB9);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPlayerTableCell");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::get_showSeparator
 // Il2CppName: get_showSeparator
 template<>

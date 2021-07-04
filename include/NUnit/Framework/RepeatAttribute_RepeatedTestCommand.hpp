@@ -45,6 +45,8 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::RepeatAttribute::RepeatedTestCommand::Execute
 // Il2CppName: Execute
 template<>

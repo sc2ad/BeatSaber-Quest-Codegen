@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(WaypointData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::WaypointData::get_offsetDirection
 // Il2CppName: get_offsetDirection
 template<>

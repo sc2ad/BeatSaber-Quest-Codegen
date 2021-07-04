@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizationProvider) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LocalizationProvider::get_localization
 // Il2CppName: get_localization
 template<>

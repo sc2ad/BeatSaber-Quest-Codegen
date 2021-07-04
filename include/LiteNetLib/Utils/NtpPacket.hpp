@@ -179,6 +179,8 @@ namespace LiteNetLib::Utils {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NtpMode.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Bytes
 // Il2CppName: get_Bytes
 template<>

@@ -269,6 +269,13 @@ namespace System::Xml {
   static_assert(sizeof(XmlAutoDetectWriter) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAutoDetectWriter*, "System.Xml", "XmlAutoDetectWriter");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriterSettings.hpp"
+#include "System/IO/TextWriter.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Xml/XmlOutputMethod.hpp"
+#include "System/Xml/IXmlNamespaceResolver.hpp"
+#include "System/Xml/XmlStandalone.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlAutoDetectWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

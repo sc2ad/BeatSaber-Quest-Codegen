@@ -56,6 +56,8 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: HMUI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>

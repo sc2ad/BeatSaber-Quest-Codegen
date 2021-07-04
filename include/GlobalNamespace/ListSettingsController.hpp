@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ListSettingsController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListSettingsController*, "", "ListSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ListSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

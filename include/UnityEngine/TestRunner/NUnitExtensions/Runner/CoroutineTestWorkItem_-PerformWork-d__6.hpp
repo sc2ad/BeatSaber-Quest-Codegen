@@ -121,6 +121,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(CoroutineTestWorkItem::$PerformWork$d__6) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::$PerformWork$d__6*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem/<PerformWork>d__6");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::$PerformWork$d__6::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

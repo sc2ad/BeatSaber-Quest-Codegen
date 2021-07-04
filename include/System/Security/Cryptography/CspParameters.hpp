@@ -95,6 +95,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(CspParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::get_Flags
 // Il2CppName: get_Flags
 template<>

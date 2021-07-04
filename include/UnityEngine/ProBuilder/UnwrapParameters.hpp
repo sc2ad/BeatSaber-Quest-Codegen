@@ -133,6 +133,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(UnwrapParameters) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle
 // Il2CppName: get_hardAngle
 template<>

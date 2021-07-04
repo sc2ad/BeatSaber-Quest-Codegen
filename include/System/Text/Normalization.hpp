@@ -136,6 +136,10 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Normalization*, "System.Text", "Normalization");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "System/Text/NormalizationForm.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Text::Normalization::PropValue
 // Il2CppName: PropValue
 template<>

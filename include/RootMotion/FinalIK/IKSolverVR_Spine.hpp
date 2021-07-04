@@ -509,6 +509,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::Spine) == 0x228);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Spine*, "RootMotion.FinalIK", "IKSolverVR/Spine");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverVR_VirtualBone.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis
 // Il2CppName: get_pelvis
 template<>

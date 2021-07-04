@@ -29,6 +29,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityScenesHelper*, "", "UnityScenesHelper");
+// Writing includes for template specializations
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene
 // Il2CppName: SetActiveRootObjectsInScene
 template<>

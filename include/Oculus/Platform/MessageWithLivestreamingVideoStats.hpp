@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLivestreamingVideoStats
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingVideoStats*, "Oculus.Platform", "MessageWithLivestreamingVideoStats");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLivestreamingVideoStats::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

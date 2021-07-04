@@ -213,6 +213,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevronManager) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager*, "", "SpawnRotationChevronManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapObjectData.hpp"
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::Start
 // Il2CppName: Start
 template<>

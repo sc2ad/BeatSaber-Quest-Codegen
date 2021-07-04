@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerGameplayAnimator) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator*, "", "MultiplayerConnectedPlayerGameplayAnimator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::TransitionIntoFailedState
 // Il2CppName: TransitionIntoFailedState
 template<>

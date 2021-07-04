@@ -59,6 +59,10 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetDigitalActionData*, "OVR.OpenVR", "IVRInput/_GetDigitalActionData");
+// Writing includes for template specializations
+#include "OVR/OpenVR/InputDigitalActionData_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetDigitalActionData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

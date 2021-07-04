@@ -334,6 +334,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Char, "System", "Char");
+// Writing includes for template specializations
+#include "System/IFormatProvider.hpp"
+#include "System/Globalization/UnicodeCategory.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Char::IsLatin1
 // Il2CppName: IsLatin1
 template<>

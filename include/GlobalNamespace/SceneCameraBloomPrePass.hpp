@@ -89,6 +89,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneCameraBloomPrePass) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass*, "", "SceneCameraBloomPrePass");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneCameraBloomPrePass::OnCameraPreRender
 // Il2CppName: OnCameraPreRender
 template<>

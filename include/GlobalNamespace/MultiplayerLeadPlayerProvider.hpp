@@ -133,6 +133,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLeadPlayerProvider) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeadPlayerProvider*, "", "MultiplayerLeadPlayerProvider");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerScoreProvider_RankedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent
 // Il2CppName: add_newLeaderWasSelectedEvent
 template<>

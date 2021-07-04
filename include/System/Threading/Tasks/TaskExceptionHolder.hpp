@@ -146,6 +146,10 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskExceptionHolder) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/EventArgs.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

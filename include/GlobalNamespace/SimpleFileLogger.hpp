@@ -70,6 +70,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger*, "", "SimpleFileLogger");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::get_monoLogger
 // Il2CppName: get_monoLogger
 template<>

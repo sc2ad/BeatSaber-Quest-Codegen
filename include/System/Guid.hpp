@@ -288,6 +288,10 @@ namespace System {
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
+// Writing includes for template specializations
+#include "System/Guid_GuidStyles.hpp"
+#include "System/Guid_GuidResult.hpp"
+#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::Guid::Guid
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

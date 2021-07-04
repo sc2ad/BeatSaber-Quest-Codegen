@@ -69,6 +69,9 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(AsyncMethodBuilderCore::MoveNextRunner) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
+// Writing includes for template specializations
+#include "System/Threading/ExecutionContext.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

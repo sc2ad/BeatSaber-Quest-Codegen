@@ -148,6 +148,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(SM3Digest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest*, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::SM3Digest::_cctor
 // Il2CppName: .cctor
 template<>

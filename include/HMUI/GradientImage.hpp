@@ -192,6 +192,9 @@ namespace HMUI {
   static_assert(sizeof(GradientImage) == 0x120);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");
+// Writing includes for template specializations
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: HMUI::GradientImage::get_color0
 // Il2CppName: get_color0
 template<>

@@ -116,6 +116,10 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
+// Writing includes for template specializations
+#include "Unity/Collections/Allocator.hpp"
+#include "System/Type.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable
 // Il2CppName: IsBlittable
 // Cannot write MetadataGetter for generic methods!

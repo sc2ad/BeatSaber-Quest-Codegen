@@ -105,6 +105,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnifiedNetworkPlayerModel*, "", "IUnifiedNetworkPlayerModel");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/GameplayServerFilter.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_discoveryPolicy
 // Il2CppName: get_discoveryPolicy
 template<>

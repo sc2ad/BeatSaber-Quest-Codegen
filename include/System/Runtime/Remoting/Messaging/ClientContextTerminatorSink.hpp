@@ -67,6 +67,9 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ClientContextTerminatorSink) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ClientContextTerminatorSink");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/Context.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

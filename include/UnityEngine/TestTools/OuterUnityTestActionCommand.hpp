@@ -77,6 +77,11 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.OuterUnityTestActionCommand
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::OuterUnityTestActionCommand*, "UnityEngine.TestTools", "OuterUnityTestActionCommand");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
+#include "UnityEngine/TestTools/IOuterUnityTestAction.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityTestExecutionContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod
 // Il2CppName: GetUnityTestActionsFromMethod
 template<>

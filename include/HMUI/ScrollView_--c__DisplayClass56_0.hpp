@@ -49,6 +49,7 @@ namespace HMUI {
   static_assert(sizeof(ScrollView::$$c__DisplayClass56_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass56_0*, "HMUI", "ScrollView/<>c__DisplayClass56_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass56_0::$HandleJoystickWasCenteredThisFrame$b__0
 // Il2CppName: <HandleJoystickWasCenteredThisFrame>b__0
 template<>

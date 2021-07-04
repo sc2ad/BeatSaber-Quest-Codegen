@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRProgressIndicator) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProgressIndicator*, "", "OVRProgressIndicator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRProgressIndicator::Awake
 // Il2CppName: Awake
 template<>

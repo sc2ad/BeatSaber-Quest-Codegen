@@ -80,6 +80,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_GlyphPairAdjustmentRecord) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
 // Il2CppName: get_firstAdjustmentRecord
 template<>

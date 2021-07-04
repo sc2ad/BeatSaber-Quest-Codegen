@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedTextAsset) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset*, "", "LocalizedTextAsset");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::get_textInfos
 // Il2CppName: get_textInfos
 template<>

@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__31");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

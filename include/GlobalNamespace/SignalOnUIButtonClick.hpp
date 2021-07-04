@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalOnUIButtonClick) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick*, "", "SignalOnUIButtonClick");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::OnReset
 // Il2CppName: OnReset
 template<>

@@ -83,6 +83,9 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(StackBuilderSink) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::StackBuilderSink*, "System.Runtime.Remoting.Messaging", "StackBuilderSink");
+// Writing includes for template specializations
+#include "System/MarshalByRefObject.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::StackBuilderSink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

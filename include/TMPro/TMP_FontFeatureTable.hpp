@@ -72,6 +72,8 @@ namespace TMPro {
   static_assert(sizeof(TMP_FontFeatureTable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords
 // Il2CppName: get_glyphPairAdjustmentRecords
 template<>

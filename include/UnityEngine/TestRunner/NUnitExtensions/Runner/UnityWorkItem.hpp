@@ -216,6 +216,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityWorkItem) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");
+// Writing includes for template specializations
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityTestExecutionContext.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "NUnit/Framework/Internal/TestResult.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/WorkItemFactory.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_ResultedInDomainReload
 // Il2CppName: get_ResultedInDomainReload
 template<>

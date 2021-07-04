@@ -129,6 +129,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsRotationEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect*, "", "TrackLaneRingsRotationEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/TrackLaneRingsRotationEffect_RingRotationEffect.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::Awake
 // Il2CppName: Awake
 template<>

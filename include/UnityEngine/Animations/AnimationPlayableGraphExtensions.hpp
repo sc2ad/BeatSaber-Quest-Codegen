@@ -37,6 +37,9 @@ namespace UnityEngine::Animations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
 // Il2CppName: InternalCreateAnimationOutput
 template<>

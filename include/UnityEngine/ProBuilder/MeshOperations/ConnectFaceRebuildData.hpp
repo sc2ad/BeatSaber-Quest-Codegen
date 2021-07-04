@@ -56,6 +56,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(ConnectFaceRebuildData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/FaceRebuildData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

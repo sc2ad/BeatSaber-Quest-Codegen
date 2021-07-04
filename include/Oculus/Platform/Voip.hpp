@@ -93,6 +93,10 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Voip*, "Oculus.Platform", "Voip");
+// Writing includes for template specializations
+#include "Oculus/Platform/CAPI_FilterCallback.hpp"
+#include "Oculus/Platform/VoipMuteState.hpp"
+#include "Oculus/Platform/VoipOptions.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Voip::Start
 // Il2CppName: Start
 template<>

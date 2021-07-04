@@ -102,6 +102,16 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods");
+// Writing includes for template specializations
+#include "UnityEngine/LayerMask.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
+#include "System/Func_1.hpp"
+#include "System/Func_2.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/TextureFormat.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::ContainsLayer
 // Il2CppName: ContainsLayer
 template<>

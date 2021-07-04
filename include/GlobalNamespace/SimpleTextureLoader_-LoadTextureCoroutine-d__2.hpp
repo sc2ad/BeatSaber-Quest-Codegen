@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__2) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -389,6 +389,15 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Timeline/TimelineClip.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>

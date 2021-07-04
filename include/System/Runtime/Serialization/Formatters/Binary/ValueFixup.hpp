@@ -110,6 +110,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ValueFixup) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixup*, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ReadObjectInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ValueFixup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

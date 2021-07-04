@@ -45,6 +45,8 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ICanvasElement*, "UnityEngine.UI", "ICanvasElement");
+// Writing includes for template specializations
+#include "UnityEngine/UI/CanvasUpdate.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::Rebuild
 // Il2CppName: Rebuild
 template<>

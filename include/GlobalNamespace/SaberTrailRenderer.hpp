@@ -184,6 +184,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberTrailRenderer) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRenderer");
+// Writing includes for template specializations
+#include "GlobalNamespace/TrailElementCollection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::Init
 // Il2CppName: Init
 template<>

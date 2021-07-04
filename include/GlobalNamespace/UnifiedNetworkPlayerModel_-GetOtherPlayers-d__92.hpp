@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__92*, "", "UnifiedNetworkPlayerModel/<GetOtherPlayers>d__92");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__92::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

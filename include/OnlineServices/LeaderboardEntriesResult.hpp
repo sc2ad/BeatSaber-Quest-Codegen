@@ -81,6 +81,8 @@ namespace OnlineServices {
   static_assert(sizeof(LeaderboardEntriesResult) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
+// Writing includes for template specializations
+#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

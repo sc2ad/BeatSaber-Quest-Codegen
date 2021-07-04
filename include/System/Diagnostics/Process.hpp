@@ -413,6 +413,11 @@ namespace System::Diagnostics {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");
+// Writing includes for template specializations
+#include "System/Diagnostics/ProcessInfo.hpp"
+#include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
+#include "System/Diagnostics/Process_State.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Process::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

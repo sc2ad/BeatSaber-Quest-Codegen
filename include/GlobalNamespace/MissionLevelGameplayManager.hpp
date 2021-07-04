@@ -237,6 +237,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::add_levelFailedEvent
 // Il2CppName: add_levelFailedEvent
 template<>

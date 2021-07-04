@@ -55,6 +55,8 @@ namespace UnityEngine::XR {
   }; // UnityEngine.XR.XRMeshSubsystem
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate
 // Il2CppName: InvokeMeshReadyDelegate
 template<>

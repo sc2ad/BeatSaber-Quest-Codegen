@@ -41,6 +41,7 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*, "System.Net.NetworkInformation", "UnixNoLibCIPGlobalProperties");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::get_DomainName
 // Il2CppName: get_DomainName
 template<>

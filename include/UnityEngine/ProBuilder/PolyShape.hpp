@@ -194,6 +194,9 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_controlPoints
 // Il2CppName: get_controlPoints
 template<>

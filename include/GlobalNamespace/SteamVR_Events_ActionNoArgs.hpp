@@ -59,6 +59,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Events::ActionNoArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");
+// Writing includes for template specializations
+#include "GlobalNamespace/SteamVR_Events_Event.hpp"
+#include "UnityEngine/Events/UnityAction.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

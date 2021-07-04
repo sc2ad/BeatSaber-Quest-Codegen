@@ -923,6 +923,23 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(Task) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
+// Writing includes for template specializations
+#include "System/Delegate.hpp"
+#include "System/Threading/Tasks/TaskScheduler.hpp"
+#include "System/Threading/Tasks/TaskContinuation.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/Threading/ExecutionContext.hpp"
+#include "System/Action_1.hpp"
+#include "System/Threading/ThreadAbortException.hpp"
+#include "System/Exception.hpp"
+#include "System/Action.hpp"
+#include "System/Threading/Tasks/TaskContinuationOptions.hpp"
+#include "System/Action_2.hpp"
+#include "System/Threading/Tasks/ITaskCompletionAction.hpp"
+#include "System/OperationCanceledException.hpp"
+#include "System/Func_1.hpp"
+#include "System/TimeSpan.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::AddToActiveTasks
 // Il2CppName: AddToActiveTasks
 template<>

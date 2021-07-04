@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithSystemVoipState
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemVoipState*, "Oculus.Platform", "MessageWithSystemVoipState");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemVoipState::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

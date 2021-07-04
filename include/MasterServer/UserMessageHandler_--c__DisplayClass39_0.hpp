@@ -125,6 +125,7 @@ namespace MasterServer {
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass39_0) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass39_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass39_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass39_0::$GetPublicServers$b__0
 // Il2CppName: <GetPublicServers>b__0
 template<>

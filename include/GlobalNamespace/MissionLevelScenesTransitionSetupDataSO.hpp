@@ -123,6 +123,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelScenesTransitionSetupDataSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, "", "MissionLevelScenesTransitionSetupDataSO");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/ColorScheme.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/PlayerSpecificSettings.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

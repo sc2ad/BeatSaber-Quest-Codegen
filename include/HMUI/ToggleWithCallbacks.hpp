@@ -135,6 +135,9 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::add_stateDidChangeEvent
 // Il2CppName: add_stateDidChangeEvent
 template<>

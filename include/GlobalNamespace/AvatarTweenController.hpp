@@ -418,6 +418,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarTweenController) == 0x140);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController*, "", "AvatarTweenController");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::Awake
 // Il2CppName: Awake
 template<>

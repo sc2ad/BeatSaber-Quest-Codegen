@@ -609,6 +609,16 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest*, "System.Net", "FtpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest::RequestState, "System.Net", "FtpWebRequest/RequestState");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/FtpStatus.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "System/Exception.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Net/ICredentials.hpp"
+#include "System/Net/IWebProxy.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

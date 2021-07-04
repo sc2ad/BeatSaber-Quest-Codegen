@@ -68,6 +68,8 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c*, "TMPro", "KerningTable/<>c");
+// Writing includes for template specializations
+#include "TMPro/KerningPair.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>

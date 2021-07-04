@@ -119,6 +119,9 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(OVRPhysicsRaycaster) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::get_depth
 // Il2CppName: get_depth
 template<>

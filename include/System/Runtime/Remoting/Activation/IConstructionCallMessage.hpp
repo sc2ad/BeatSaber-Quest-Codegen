@@ -66,6 +66,8 @@ namespace System::Runtime::Remoting::Activation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IConstructionCallMessage*, "System.Runtime.Remoting.Activation", "IConstructionCallMessage");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Activation/IActivator.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationType
 // Il2CppName: get_ActivationType
 template<>

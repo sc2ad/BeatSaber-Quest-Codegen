@@ -66,6 +66,9 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(AsyncMethodBuilderCore::ContinuationWrapper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

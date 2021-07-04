@@ -38,6 +38,8 @@ namespace System::Diagnostics {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle*, "System.Diagnostics", "ProcessWaitHandle");
+// Writing includes for template specializations
+#include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ProcessWaitHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

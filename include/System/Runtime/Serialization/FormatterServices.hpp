@@ -133,6 +133,12 @@ namespace System::Runtime::Serialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices*, "System.Runtime.Serialization", "FormatterServices");
+// Writing includes for template specializations
+#include "System/RuntimeType.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Reflection/MemberInfo.hpp"
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::_cctor
 // Il2CppName: .cctor
 template<>

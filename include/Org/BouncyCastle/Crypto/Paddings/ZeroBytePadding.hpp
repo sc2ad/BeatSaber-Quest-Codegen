@@ -53,6 +53,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding*, "Org.BouncyCastle.Crypto.Paddings", "ZeroBytePadding");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::Init
 // Il2CppName: Init
 template<>

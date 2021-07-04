@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevronManager::DirectionData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager::DirectionData*, "", "SpawnRotationChevronManager/DirectionData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::DirectionData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

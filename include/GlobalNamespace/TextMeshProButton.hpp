@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TextMeshProButton) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButton");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TextMeshProButton::get_text
 // Il2CppName: get_text
 template<>

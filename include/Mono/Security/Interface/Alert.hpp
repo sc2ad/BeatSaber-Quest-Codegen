@@ -61,6 +61,7 @@ namespace Mono::Security::Interface {
   static_assert(sizeof(Alert) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::get_Level
 // Il2CppName: get_Level
 template<>

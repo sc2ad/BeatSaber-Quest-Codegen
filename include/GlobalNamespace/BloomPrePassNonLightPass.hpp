@@ -159,6 +159,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::get_executionTimeType
 // Il2CppName: get_executionTimeType
 template<>

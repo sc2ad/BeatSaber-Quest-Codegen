@@ -101,6 +101,9 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
+// Writing includes for template specializations
+#include "HMUI/ViewController_AnimationDirection.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoPresentTransition
 // Il2CppName: DoPresentTransition
 template<>

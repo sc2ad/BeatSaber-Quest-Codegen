@@ -28,6 +28,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMockPlayerScoreCalculator*, "", "IMockPlayerScoreCalculator");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockNoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote
 // Il2CppName: GetScoreForNote
 template<>

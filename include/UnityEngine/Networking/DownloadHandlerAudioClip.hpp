@@ -76,6 +76,8 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "UnityEngine.Networking", "DownloadHandlerAudioClip");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::Create
 // Il2CppName: Create
 template<>

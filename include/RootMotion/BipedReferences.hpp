@@ -224,6 +224,12 @@ namespace RootMotion {
   static_assert(sizeof(BipedReferences) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/BipedReferences_AutoDetectParams.hpp"
+#include "UnityEngine/Animator.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::get_isFilled
 // Il2CppName: get_isFilled
 template<>

@@ -51,6 +51,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(RazorDirectiveAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBrains.Annotations", "RazorDirectiveAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorDirectiveAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

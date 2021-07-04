@@ -113,6 +113,9 @@ namespace SabersHotSwapping {
   static_assert(sizeof(SaberModelControllerProvider) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SaberModelControllerProvider*, "SabersHotSwapping", "SaberModelControllerProvider");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/SaberModelController.hpp"
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelControllerProvider::add_controllerChangedEvent
 // Il2CppName: add_controllerChangedEvent
 template<>

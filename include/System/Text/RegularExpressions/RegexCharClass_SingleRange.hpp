@@ -45,6 +45,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexCharClass::SingleRange) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

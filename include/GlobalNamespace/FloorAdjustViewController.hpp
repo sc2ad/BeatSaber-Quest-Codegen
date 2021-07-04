@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FloorAdjustViewController) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::Update
 // Il2CppName: Update
 template<>

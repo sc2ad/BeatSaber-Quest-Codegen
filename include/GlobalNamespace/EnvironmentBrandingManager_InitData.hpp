@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentBrandingManager::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -106,6 +106,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectsInstaller) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInstaller*, "", "BeatmapObjectsInstaller");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

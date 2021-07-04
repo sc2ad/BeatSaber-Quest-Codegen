@@ -71,6 +71,9 @@ namespace Oculus::Platform {
   static_assert(sizeof(AdvancedAbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Platform", "AdvancedAbuseReportOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/AbuseReportType.hpp"
+#include "Oculus/Platform/AbuseReportVideoMode.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
 template<>

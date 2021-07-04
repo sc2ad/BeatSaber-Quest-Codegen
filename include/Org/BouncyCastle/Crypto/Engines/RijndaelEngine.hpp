@@ -240,6 +240,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RijndaelEngine) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*, "Org.BouncyCastle.Crypto.Engines", "RijndaelEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::Mul0x2
 // Il2CppName: Mul0x2
 template<>

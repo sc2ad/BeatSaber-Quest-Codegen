@@ -84,6 +84,11 @@ namespace MasterServer {
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass29_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass29_0");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "MasterServer/IMasterServerReliableRequest.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Threading/Tasks/Task_1.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__0
 // Il2CppName: <AuthenticateWithMasterServerAsyncInternal>b__0
 template<>

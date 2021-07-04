@@ -35,6 +35,7 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::WebRequestModuleElementCollection*, "System.Net.Configuration", "WebRequestModuleElementCollection");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Configuration::WebRequestModuleElementCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

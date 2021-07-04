@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SecureRandomProvider::SecureRandomState) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes
 // Il2CppName: GetBytes
 template<>

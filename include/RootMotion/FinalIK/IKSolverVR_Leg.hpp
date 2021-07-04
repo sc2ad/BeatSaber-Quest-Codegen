@@ -318,6 +318,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::Leg) == 0x150);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Leg*, "RootMotion.FinalIK", "IKSolverVR/Leg");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Leg::get_position
 // Il2CppName: get_position
 template<>

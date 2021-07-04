@@ -45,6 +45,10 @@ namespace Polyglot {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "Polyglot/GoogleDriveDownloadFormat.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Polyglot::GoogleDownload::DownloadSheet
 // Il2CppName: DownloadSheet
 template<>

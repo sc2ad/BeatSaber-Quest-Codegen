@@ -70,6 +70,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsAvatarController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsAvatarController*, "", "MultiplayerResultsAvatarController");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsAvatarController::SetScale
 // Il2CppName: SetScale
 template<>

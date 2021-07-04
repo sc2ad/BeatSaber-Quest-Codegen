@@ -91,6 +91,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider::TimeType, "HMUI", "TimeSlider/TimeType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::TimeSlider::TextForValue
 // Il2CppName: TextForValue
 template<>

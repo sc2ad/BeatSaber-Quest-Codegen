@@ -152,6 +152,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(DlcPromoExperimentModel) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel*, "", "DlcPromoExperimentModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::InitAfterPlatformWasInitializedAsync
 // Il2CppName: InitAfterPlatformWasInitializedAsync
 template<>

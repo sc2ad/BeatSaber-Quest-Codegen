@@ -24,6 +24,7 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IAsyncStateMachine*, "System.Runtime.CompilerServices", "IAsyncStateMachine");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::IAsyncStateMachine::MoveNext
 // Il2CppName: MoveNext
 template<>

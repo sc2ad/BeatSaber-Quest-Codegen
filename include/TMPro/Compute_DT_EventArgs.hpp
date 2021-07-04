@@ -60,6 +60,7 @@ namespace TMPro {
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::Compute_DT_EventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -65,6 +65,13 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPicker*, "UnityEngine.ProBuilder", "SelectionPicker");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ProBuilder/PickerOptions.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPicker::PickVerticesInRect
 // Il2CppName: PickVerticesInRect
 template<>

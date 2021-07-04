@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConditionalMove) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMove*, "", "ConditionalMove");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalMove::Awake
 // Il2CppName: Awake
 template<>

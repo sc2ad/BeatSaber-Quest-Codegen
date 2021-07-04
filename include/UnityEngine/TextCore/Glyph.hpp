@@ -120,6 +120,7 @@ namespace UnityEngine::TextCore {
   static_assert(sizeof(Glyph) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::get_index
 // Il2CppName: get_index
 template<>

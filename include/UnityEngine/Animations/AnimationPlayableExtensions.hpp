@@ -58,6 +58,9 @@ namespace UnityEngine::Animations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableExtensions*, "UnityEngine.Animations", "AnimationPlayableExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
+#include "UnityEngine/Playables/PlayableHandle.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedProperties
 // Il2CppName: SetAnimatedProperties
 // Cannot write MetadataGetter for generic methods!

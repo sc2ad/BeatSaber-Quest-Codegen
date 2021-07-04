@@ -62,6 +62,8 @@ namespace Menu::ViewControllers {
   static_assert(sizeof(EditAvatarHistorySnapshot) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart
 // Il2CppName: get_avatarEditPart
 template<>

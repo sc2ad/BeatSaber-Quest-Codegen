@@ -109,6 +109,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

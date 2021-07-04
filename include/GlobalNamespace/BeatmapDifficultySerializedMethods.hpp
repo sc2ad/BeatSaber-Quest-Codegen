@@ -80,6 +80,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySerializedMethods*, "", "BeatmapDifficultySerializedMethods");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySerializedMethods::SerializedName
 // Il2CppName: SerializedName
 template<>

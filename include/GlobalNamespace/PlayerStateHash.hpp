@@ -162,6 +162,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerStateHash) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

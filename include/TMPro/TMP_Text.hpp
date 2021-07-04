@@ -2236,6 +2236,14 @@ namespace TMPro {
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text*, "TMPro", "TMP_Text");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::UnicodeChar, "TMPro", "TMP_Text/UnicodeChar");
+// Writing includes for template specializations
+#include "TMPro/TMP_FontAsset.hpp"
+#include "UnityEngine/Material.hpp"
+#include "TMPro/TMP_ColorGradient.hpp"
+#include "TMPro/TMP_SpriteAsset.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "TMPro/TMP_VertexDataUpdateFlags.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Text::get_text
 // Il2CppName: get_text
 template<>

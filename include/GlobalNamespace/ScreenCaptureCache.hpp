@@ -114,6 +114,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
+// Writing includes for template specializations
+#include "UnityEngine/Texture2D.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::GetLastScreenshot
 // Il2CppName: GetLastScreenshot
 template<>

@@ -97,6 +97,8 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlConvert*, "System.Xml", "XmlConvert");
+// Writing includes for template specializations
+#include "System/Xml/ExceptionType.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyQName
 // Il2CppName: VerifyQName
 template<>

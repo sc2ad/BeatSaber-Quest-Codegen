@@ -43,6 +43,8 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Notifications*, "Oculus.Platform", "Notifications");
+// Writing includes for template specializations
+#include "Oculus/Platform/Models/RoomInviteNotificationList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::GetRoomInviteNotifications
 // Il2CppName: GetRoomInviteNotifications
 template<>

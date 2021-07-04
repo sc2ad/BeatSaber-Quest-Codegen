@@ -41,6 +41,8 @@ namespace Org::BouncyCastle::Crypto {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDsa*, "Org.BouncyCastle.Crypto", "IDsa");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDsa::Init
 // Il2CppName: Init
 template<>

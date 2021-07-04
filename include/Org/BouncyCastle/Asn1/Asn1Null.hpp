@@ -40,6 +40,7 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Null*, "Org.BouncyCastle.Asn1", "Asn1Null");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Null::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

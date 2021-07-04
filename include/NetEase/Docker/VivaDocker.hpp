@@ -84,6 +84,10 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::VivaDocker*, "NetEase.Docker", "VivaDocker");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "NetEase/Docker/UploadScoreData.hpp"
+#include "NetEase/Docker/RequestHighscoreData.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
 template<>

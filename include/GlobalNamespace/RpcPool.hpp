@@ -60,6 +60,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool*, "", "RpcPool");
+// Writing includes for template specializations
+#include "GlobalNamespace/IRemoteProcedureCall.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RpcPool::Obtain
 // Il2CppName: Obtain
 // Cannot write MetadataGetter for generic methods!

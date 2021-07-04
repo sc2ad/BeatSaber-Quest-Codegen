@@ -33,6 +33,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsListener*, "", "IMultiplayerLevelEndActionsListener");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
+#include "GlobalNamespace/PlayerNetworkFailReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish
 // Il2CppName: ReportPlayerDidFinish
 template<>

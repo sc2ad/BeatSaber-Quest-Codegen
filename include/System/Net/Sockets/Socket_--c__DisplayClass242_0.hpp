@@ -56,6 +56,8 @@ namespace System::Net::Sockets {
   static_assert(sizeof(Socket::$$c__DisplayClass242_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass242_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass242_0");
+// Writing includes for template specializations
+#include "System/IOAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass242_0::$BeginSendCallback$b__0
 // Il2CppName: <BeginSendCallback>b__0
 template<>

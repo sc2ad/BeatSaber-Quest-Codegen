@@ -81,6 +81,8 @@ namespace LiteNetLib {
   static_assert(sizeof(NatPunchModule::NatIntroduceResponsePacket) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceResponsePacket*, "LiteNetLib", "NatPunchModule/NatIntroduceResponsePacket");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceResponsePacket::get_Internal
 // Il2CppName: get_Internal
 template<>

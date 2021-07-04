@@ -131,6 +131,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialBeatmapObjectManager) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager*, "", "TutorialBeatmapObjectManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/TutorialBeatmapObjectManager_InitData.hpp"
+#include "GlobalNamespace/TutorialNoteController_Pool.hpp"
+#include "GlobalNamespace/BombNoteController_Pool.hpp"
+#include "GlobalNamespace/ObstacleController_Pool.hpp"
+#include "GlobalNamespace/ObstacleData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_ObstacleSpawnData.hpp"
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_NoteSpawnData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

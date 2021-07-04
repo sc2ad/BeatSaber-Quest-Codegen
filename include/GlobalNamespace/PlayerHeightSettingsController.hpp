@@ -136,6 +136,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerHeightSettingsController) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightSettingsController*, "", "PlayerHeightSettingsController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightSettingsController::add_valueDidChangeEvent
 // Il2CppName: add_valueDidChangeEvent
 template<>

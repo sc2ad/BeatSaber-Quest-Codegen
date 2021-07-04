@@ -48,6 +48,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AssetBundleCreateRequest::get_assetBundle
 // Il2CppName: get_assetBundle
 template<>

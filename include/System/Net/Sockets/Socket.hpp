@@ -759,6 +759,30 @@ namespace System::Net::Sockets {
   static_assert(sizeof(Socket) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");
+// Writing includes for template specializations
+#include "System/Net/Sockets/SocketFlags.hpp"
+#include "System/Net/Sockets/IOControlCode.hpp"
+#include "System/Net/Sockets/IPProtectionLevel.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Net/Sockets/SocketShutdown.hpp"
+#include "System/Net/Sockets/SafeSocketHandle.hpp"
+#include "System/IntPtr.hpp"
+#include "System/Net/Sockets/SelectMode.hpp"
+#include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
+#include "System/Net/EndPoint.hpp"
+#include "System/Net/SocketAddress.hpp"
+#include "System/Net/Sockets/SocketAsyncResult.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
+#include "System/Net/Sockets/Socket_WSABUF.hpp"
+#include "System/Net/Sockets/SocketOptionLevel.hpp"
+#include "System/Net/Sockets/SocketOptionName.hpp"
+#include "System/Threading/SemaphoreSlim.hpp"
+#include "System/IOSelectorJob.hpp"
+#include "System/Net/Sockets/SocketOperation.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "System/Threading/Thread.hpp"
+#include "System/Net/NetworkInformation/NetworkInterfaceComponent.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -32,6 +32,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModel*, "", "RankModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/RankModel_Rank.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RankModel::GetRankName
 // Il2CppName: GetRankName
 template<>

@@ -91,6 +91,8 @@ namespace System::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::XmlSyntaxException*, "System.Security", "XmlSyntaxException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Security::XmlSyntaxException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

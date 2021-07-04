@@ -25,6 +25,7 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework.Internal", "StringUtil");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::Compare
 // Il2CppName: Compare
 template<>

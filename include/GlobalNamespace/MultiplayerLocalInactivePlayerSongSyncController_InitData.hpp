@@ -64,6 +64,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactivePlayerSongSyncController::InitData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -114,6 +114,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Avatar*, "UnityEngine", "Avatar");
+// Writing includes for template specializations
+#include "UnityEngine/HumanDescription.hpp"
 // Writing MetadataGetter for method: UnityEngine::Avatar::get_isValid
 // Il2CppName: get_isValid
 template<>

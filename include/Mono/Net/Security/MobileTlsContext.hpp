@@ -193,6 +193,11 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MobileTlsContext) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");
+// Writing includes for template specializations
+#include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

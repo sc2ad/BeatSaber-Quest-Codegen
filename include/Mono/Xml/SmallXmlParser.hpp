@@ -204,6 +204,10 @@ namespace Mono::Xml {
   static_assert(sizeof(SmallXmlParser) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
+// Writing includes for template specializations
+#include "System/IO/TextReader.hpp"
+#include "Mono/Xml/SmallXmlParser_IContentHandler.hpp"
+#include "Mono/Xml/SmallXmlParser_AttrListImpl.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::Error
 // Il2CppName: Error
 template<>

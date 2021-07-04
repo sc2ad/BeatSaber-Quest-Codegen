@@ -58,6 +58,8 @@ namespace Zenject {
   static_assert(sizeof(FromBinder::$$c__DisplayClass64_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass64_1*, "Zenject", "FromBinder/<>c__DisplayClass64_1");
+// Writing includes for template specializations
+#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass64_1::$FromComponentsSibling$b__2
 // Il2CppName: <FromComponentsSibling>b__2
 template<>

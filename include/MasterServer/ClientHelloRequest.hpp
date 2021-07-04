@@ -88,6 +88,9 @@ namespace MasterServer {
   static_assert(sizeof(ClientHelloRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientHelloRequest*, "MasterServer", "ClientHelloRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::ClientHelloRequest::get_pool
 // Il2CppName: get_pool
 template<>

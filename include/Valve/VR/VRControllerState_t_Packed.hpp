@@ -94,6 +94,7 @@ namespace Valve::VR {
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Valve::VR::VRControllerState_t_Packed::VRControllerState_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

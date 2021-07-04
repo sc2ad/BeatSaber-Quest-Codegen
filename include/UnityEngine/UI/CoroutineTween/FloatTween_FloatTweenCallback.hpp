@@ -35,6 +35,7 @@ namespace UnityEngine::UI::CoroutineTween {
   }; // UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback*, "UnityEngine.UI.CoroutineTween", "FloatTween/FloatTweenCallback");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

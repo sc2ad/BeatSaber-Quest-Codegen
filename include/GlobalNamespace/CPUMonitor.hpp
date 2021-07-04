@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CPUMonitor) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::PollUpdate
 // Il2CppName: PollUpdate
 template<>

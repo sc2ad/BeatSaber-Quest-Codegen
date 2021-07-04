@@ -95,6 +95,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsTableCell) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::SetData
 // Il2CppName: SetData
 template<>

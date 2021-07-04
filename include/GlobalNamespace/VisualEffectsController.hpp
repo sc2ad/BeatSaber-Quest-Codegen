@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VisualEffectsController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController*, "", "VisualEffectsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::Awake
 // Il2CppName: Awake
 template<>

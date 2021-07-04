@@ -186,6 +186,11 @@ namespace System::IO::Compression {
   static_assert(sizeof(GZipStream) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::GZipStream*, "System.IO.Compression", "GZipStream");
+// Writing includes for template specializations
+#include "System/IO/SeekOrigin.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

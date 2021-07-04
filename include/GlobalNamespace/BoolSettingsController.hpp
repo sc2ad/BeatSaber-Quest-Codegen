@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BoolSettingsController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSettingsController*, "", "BoolSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BoolSettingsController::GetInitValue
 // Il2CppName: GetInitValue
 template<>

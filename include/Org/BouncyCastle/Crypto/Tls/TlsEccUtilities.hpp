@@ -92,6 +92,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsEccUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/ECDomainParameters.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
+#include "System/IO/Stream.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/ECPublicKeyParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GetNameOfNamedCurve
 // Il2CppName: GetNameOfNamedCurve
 template<>

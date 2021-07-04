@@ -238,6 +238,9 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexRunner) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/Regex.hpp"
+#include "System/TimeSpan.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunner::Scan
 // Il2CppName: Scan
 template<>

@@ -442,6 +442,11 @@ namespace System {
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/Globalization/NumberStyles.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -234,6 +234,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayout*, "UnityEngine", "GUILayout");
+// Writing includes for template specializations
+#include "UnityEngine/GUIStyle.hpp"
+#include "UnityEngine/GUIContent.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>

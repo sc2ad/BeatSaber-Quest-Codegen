@@ -46,6 +46,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDestinationRequestManager*, "", "IDestinationRequestManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MenuDestination.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent
 // Il2CppName: add_didSendMenuDestinationRequestEvent
 template<>

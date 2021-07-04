@@ -31,6 +31,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelector*, "System", "IOSelector");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "System/IOSelectorJob.hpp"
 // Writing MetadataGetter for method: System::IOSelector::Add
 // Il2CppName: Add
 template<>

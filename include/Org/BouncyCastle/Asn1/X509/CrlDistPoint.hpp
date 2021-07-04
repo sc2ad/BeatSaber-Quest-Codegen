@@ -73,6 +73,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(CrlDistPoint) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlDistPoint*, "Org.BouncyCastle.Asn1.X509", "CrlDistPoint");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetInstance
 // Il2CppName: GetInstance
 template<>

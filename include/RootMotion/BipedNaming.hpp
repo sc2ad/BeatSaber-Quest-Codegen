@@ -303,6 +303,7 @@ namespace RootMotion {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNaming/BoneSide");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfType
 // Il2CppName: GetBonesOfType
 template<>

@@ -56,6 +56,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelsModel::$$c__DisplayClass34_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0*, "", "BeatmapLevelsModel/<>c__DisplayClass34_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0::$GetLevelPreviewForLevelId$b__1
 // Il2CppName: <GetLevelPreviewForLevelId>b__1
 template<>

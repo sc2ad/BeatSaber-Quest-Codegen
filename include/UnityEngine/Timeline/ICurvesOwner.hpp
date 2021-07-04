@@ -59,6 +59,7 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_curves
 // Il2CppName: get_curves
 template<>

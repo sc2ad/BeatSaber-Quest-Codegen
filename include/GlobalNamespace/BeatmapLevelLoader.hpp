@@ -111,6 +111,11 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader*, "", "BeatmapLevelLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult, "", "BeatmapLevelLoader/LoadBeatmapLevelResult");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapLevelDataLoaderSO.hpp"
+#include "GlobalNamespace/IBeatmapDataAssetFileModel.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelLoader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

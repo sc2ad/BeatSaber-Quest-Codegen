@@ -61,6 +61,11 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty*, "OVR.OpenVR", "IVRSystem/_GetMatrix34TrackedDeviceProperty");
+// Writing includes for template specializations
+#include "OVR/OpenVR/ETrackedDeviceProperty.hpp"
+#include "OVR/OpenVR/ETrackedPropertyError.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

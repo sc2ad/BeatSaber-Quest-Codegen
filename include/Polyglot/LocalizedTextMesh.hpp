@@ -99,6 +99,9 @@ namespace Polyglot {
   static_assert(sizeof(LocalizedTextMesh) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextMesh");
+// Writing includes for template specializations
+#include "UnityEngine/TextAlignment.hpp"
+#include "Polyglot/LanguageDirection.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::get_Key
 // Il2CppName: get_Key
 template<>

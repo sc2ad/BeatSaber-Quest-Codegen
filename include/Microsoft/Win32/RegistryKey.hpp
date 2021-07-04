@@ -182,6 +182,7 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(RegistryKey) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKey*, "Microsoft.Win32", "RegistryKey");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::_cctor
 // Il2CppName: .cctor
 template<>

@@ -87,6 +87,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardGameplaySceneSetupData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplaySceneSetupData*, "", "StandardGameplaySceneSetupData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardGameplaySceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

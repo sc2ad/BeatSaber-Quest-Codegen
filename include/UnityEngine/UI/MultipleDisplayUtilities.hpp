@@ -37,6 +37,9 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag
 // Il2CppName: GetRelativeMousePositionForDrag
 template<>

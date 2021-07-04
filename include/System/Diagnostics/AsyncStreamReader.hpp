@@ -99,6 +99,7 @@ namespace System::Diagnostics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::AsyncStreamReader::Close
 // Il2CppName: Close
 template<>

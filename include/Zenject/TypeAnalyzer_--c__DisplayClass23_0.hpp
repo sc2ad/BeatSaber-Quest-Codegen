@@ -63,6 +63,9 @@ namespace Zenject {
   static_assert(sizeof(TypeAnalyzer::$$c__DisplayClass23_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*, "Zenject", "TypeAnalyzer/<>c__DisplayClass23_0");
+// Writing includes for template specializations
+#include "Zenject/Internal/ReflectionTypeInfo_InjectFieldInfo.hpp"
+#include "Zenject/Internal/ReflectionTypeInfo_InjectPropertyInfo.hpp"
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0
 // Il2CppName: <CreateTypeInfoFromReflection>b__0
 template<>

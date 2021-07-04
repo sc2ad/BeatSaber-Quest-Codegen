@@ -154,6 +154,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(SharedVertex) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_arrayInternal
 // Il2CppName: get_arrayInternal
 template<>

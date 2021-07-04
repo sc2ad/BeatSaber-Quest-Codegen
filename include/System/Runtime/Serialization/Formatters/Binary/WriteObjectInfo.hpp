@@ -228,6 +228,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(WriteObjectInfo) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoInit.hpp"
+#include "System/Runtime/Serialization/IFormatterConverter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectWriter.hpp"
+#include "System/Runtime/Serialization/SerializationBinder.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoCache.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::ObjectEnd
 // Il2CppName: ObjectEnd
 template<>

@@ -346,6 +346,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockNetworkPlayerModel) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNetworkPlayerModel*, "", "MockNetworkPlayerModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockNetworkPlayerModel::get_discoveryPolicy
 // Il2CppName: get_discoveryPolicy
 template<>

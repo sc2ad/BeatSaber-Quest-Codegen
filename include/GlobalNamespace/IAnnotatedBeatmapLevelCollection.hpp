@@ -42,6 +42,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, "", "IAnnotatedBeatmapLevelCollection");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName
 // Il2CppName: get_collectionName
 template<>

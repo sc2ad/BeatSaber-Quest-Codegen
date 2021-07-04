@@ -61,6 +61,8 @@ namespace System::Threading {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::TaskNode*, "System.Threading", "SemaphoreSlim/TaskNode");
+// Writing includes for template specializations
+#include "System/Threading/ThreadAbortException.hpp"
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>

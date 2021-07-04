@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Entity) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::get_entityType
 // Il2CppName: get_entityType
 template<>

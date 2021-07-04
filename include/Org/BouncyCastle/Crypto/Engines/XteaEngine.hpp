@@ -103,6 +103,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(XteaEngine) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::XteaEngine*, "Org.BouncyCastle.Crypto.Engines", "XteaEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::XteaEngine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

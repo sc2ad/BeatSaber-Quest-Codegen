@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::SetScore
 // Il2CppName: SetScore
 template<>

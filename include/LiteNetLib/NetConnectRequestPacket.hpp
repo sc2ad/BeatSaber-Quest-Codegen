@@ -93,6 +93,11 @@ namespace LiteNetLib {
   static_assert(sizeof(NetConnectRequestPacket) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/NetPacket.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "System/Net/SocketAddress.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

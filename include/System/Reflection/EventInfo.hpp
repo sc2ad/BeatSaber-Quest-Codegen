@@ -120,6 +120,10 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "Mono/RuntimeEventHandle.hpp"
+#include "System/RuntimeTypeHandle.hpp"
 // Writing MetadataGetter for method: System::Reflection::EventInfo::get_EventHandlerType
 // Il2CppName: get_EventHandlerType
 template<>

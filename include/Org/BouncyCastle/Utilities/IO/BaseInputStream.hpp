@@ -110,6 +110,8 @@ namespace Org::BouncyCastle::Utilities::IO {
   static_assert(sizeof(BaseInputStream) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::BaseInputStream*, "Org.BouncyCastle.Utilities.IO", "BaseInputStream");
+// Writing includes for template specializations
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::BaseInputStream::get_CanRead
 // Il2CppName: get_CanRead
 template<>

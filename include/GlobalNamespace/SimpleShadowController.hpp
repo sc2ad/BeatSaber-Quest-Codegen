@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleShadowController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController*, "", "SimpleShadowController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::Start
 // Il2CppName: Start
 template<>

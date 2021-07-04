@@ -39,6 +39,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell::IDataSource*, "", "TableViewWithDetailCell/IDataSource");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::IDataSource::CellSize
 // Il2CppName: CellSize
 template<>

@@ -74,6 +74,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CrashManagerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");
+// Writing includes for template specializations
+#include "UnityEngine/LogType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::get_logString
 // Il2CppName: get_logString
 template<>

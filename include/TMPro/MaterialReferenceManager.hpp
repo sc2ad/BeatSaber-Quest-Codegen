@@ -146,6 +146,11 @@ namespace TMPro {
   static_assert(sizeof(MaterialReferenceManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");
+// Writing includes for template specializations
+#include "TMPro/TMP_FontAsset.hpp"
+#include "TMPro/TMP_SpriteAsset.hpp"
+#include "UnityEngine/Material.hpp"
+#include "TMPro/TMP_ColorGradient.hpp"
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::get_instance
 // Il2CppName: get_instance
 template<>

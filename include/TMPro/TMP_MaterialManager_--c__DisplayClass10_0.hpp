@@ -56,6 +56,8 @@ namespace TMPro {
   static_assert(sizeof(TMP_MaterialManager::$$c__DisplayClass10_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::$$c__DisplayClass10_0*, "TMPro", "TMP_MaterialManager/<>c__DisplayClass10_0");
+// Writing includes for template specializations
+#include "TMPro/TMP_MaterialManager_MaskingMaterial.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass10_0::$GetBaseMaterial$b__0
 // Il2CppName: <GetBaseMaterial>b__0
 template<>

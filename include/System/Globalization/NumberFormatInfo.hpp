@@ -419,6 +419,10 @@ namespace System::Globalization {
   static_assert(sizeof(NumberFormatInfo) == 0xD5);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Globalization/CultureData.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnSerializing
 // Il2CppName: OnSerializing
 template<>

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamLevelProductsModelSO::LevelProductData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::get_appId
 // Il2CppName: get_appId
 template<>

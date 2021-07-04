@@ -52,6 +52,8 @@ namespace LiteNetLib {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::IPEndPointComparer*, "LiteNetLib", "NetManager/IPEndPointComparer");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::Equals
 // Il2CppName: Equals
 template<>

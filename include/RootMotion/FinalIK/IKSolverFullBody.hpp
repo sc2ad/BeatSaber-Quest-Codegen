@@ -213,6 +213,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverFullBody) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBody*, "RootMotion.FinalIK", "IKSolverFullBody");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBody::GetEffector
 // Il2CppName: GetEffector
 template<>

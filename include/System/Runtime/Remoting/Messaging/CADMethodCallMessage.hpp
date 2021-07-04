@@ -72,6 +72,10 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADMethodCallMessage) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodCallMessage*, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
+#include "System/Collections/ArrayList.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_Uri
 // Il2CppName: get_Uri
 template<>

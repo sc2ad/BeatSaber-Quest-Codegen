@@ -146,6 +146,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongStartHandler) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartHandler*, "", "SongStartHandler");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/IGameplayRpcManager.hpp"
+#include "GlobalNamespace/PlayersSpecificSettingsAtGameStartModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::get_songStartSyncTime
 // Il2CppName: get_songStartSyncTime
 template<>

@@ -103,6 +103,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AudioTrack::$get_outputs$d__4) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack::$get_outputs$d__4*, "UnityEngine.Timeline", "AudioTrack/<get_outputs>d__4");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::$get_outputs$d__4::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

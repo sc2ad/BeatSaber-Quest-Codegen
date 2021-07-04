@@ -109,6 +109,8 @@ namespace System {
   static_assert(sizeof(ArgumentOutOfRangeException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException*, "System", "ArgumentOutOfRangeException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::ArgumentOutOfRangeException::get_RangeMessage
 // Il2CppName: get_RangeMessage
 template<>

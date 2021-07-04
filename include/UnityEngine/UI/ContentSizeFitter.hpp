@@ -173,6 +173,7 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter::FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ContentSizeFitter::get_horizontalFit
 // Il2CppName: get_horizontalFit
 template<>

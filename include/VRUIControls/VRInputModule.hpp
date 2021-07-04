@@ -241,6 +241,12 @@ namespace VRUIControls {
   static_assert(sizeof(VRInputModule) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "VRUIControls/MouseButtonEventData.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::get_useMouseForPressInput
 // Il2CppName: get_useMouseForPressInput
 template<>

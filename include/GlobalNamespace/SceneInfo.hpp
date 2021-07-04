@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneInfo) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SceneInfo::get_sceneName
 // Il2CppName: get_sceneName
 template<>

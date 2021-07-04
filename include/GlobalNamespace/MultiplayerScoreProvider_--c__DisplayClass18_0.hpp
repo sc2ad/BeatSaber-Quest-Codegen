@@ -49,6 +49,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerScoreProvider_RankedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0
 // Il2CppName: <GetPositionOfPlayer>b__0
 template<>

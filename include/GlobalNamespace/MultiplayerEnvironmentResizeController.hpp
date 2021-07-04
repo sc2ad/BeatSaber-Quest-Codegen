@@ -142,6 +142,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerEnvironmentResizeController) == 0x43);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController*, "", "MultiplayerEnvironmentResizeController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished
 // Il2CppName: get_isResizingFinished
 template<>

@@ -91,6 +91,7 @@ namespace OnlineServices::API {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<SendAndWaitAsync>d__11");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11::MoveNext
 // Il2CppName: MoveNext
 template<>

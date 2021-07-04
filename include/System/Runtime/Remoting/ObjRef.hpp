@@ -181,6 +181,12 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ObjRef) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/IChannelInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Remoting/IEnvoyInfo.hpp"
+#include "System/Runtime/Remoting/IRemotingTypeInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

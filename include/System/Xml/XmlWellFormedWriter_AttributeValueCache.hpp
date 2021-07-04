@@ -128,6 +128,9 @@ namespace System::Xml {
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriter.hpp"
+#include "System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::get_StringValue
 // Il2CppName: get_StringValue
 template<>

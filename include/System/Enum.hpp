@@ -277,6 +277,11 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Enum*, "System", "Enum");
+// Writing includes for template specializations
+#include "System/RuntimeType.hpp"
+#include "System/Type.hpp"
+#include "System/Enum_EnumResult.hpp"
+#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::Enum::GetCachedValuesAndNames
 // Il2CppName: GetCachedValuesAndNames
 template<>

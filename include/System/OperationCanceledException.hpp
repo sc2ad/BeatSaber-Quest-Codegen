@@ -97,6 +97,8 @@ namespace System {
   static_assert(sizeof(OperationCanceledException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::OperationCanceledException::get_CancellationToken
 // Il2CppName: get_CancellationToken
 template<>

@@ -64,6 +64,10 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabInstantiator*, "Zenject", "IPrefabInstantiator");
+// Writing includes for template specializations
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::get_ArgumentTarget
 // Il2CppName: get_ArgumentTarget
 template<>

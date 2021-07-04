@@ -105,6 +105,11 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::BasicPlayableBehaviour*, "UnityEngine.Timeline", "BasicPlayableBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::BasicPlayableBehaviour::get_duration
 // Il2CppName: get_duration
 template<>

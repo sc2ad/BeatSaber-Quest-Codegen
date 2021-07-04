@@ -42,6 +42,8 @@ namespace Mono::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Util::MonoPInvokeCallbackAttribute*, "Mono.Util", "MonoPInvokeCallbackAttribute");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Mono::Util::MonoPInvokeCallbackAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

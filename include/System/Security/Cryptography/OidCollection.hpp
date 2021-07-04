@@ -84,6 +84,9 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(OidCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidCollection*, "System.Security.Cryptography", "OidCollection");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/Oid.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::OidCollection::Add
 // Il2CppName: Add
 template<>

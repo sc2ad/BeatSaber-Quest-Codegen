@@ -70,6 +70,9 @@ namespace UnityEngine::ResourceManagement {
   static_assert(sizeof(WebRequestQueueOperation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
+#include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone
 // Il2CppName: get_IsDone
 template<>

@@ -121,6 +121,11 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(IesEngine) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.BouncyCastle.Crypto.Engines", "IesEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IBasicAgreement.hpp"
+#include "Org/BouncyCastle/Crypto/IDerivationFunction.hpp"
+#include "Org/BouncyCastle/Crypto/IMac.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/KdfParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

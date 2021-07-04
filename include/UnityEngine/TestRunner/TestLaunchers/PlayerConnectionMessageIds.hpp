@@ -44,6 +44,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds*, "UnityEngine.TestRunner.TestLaunchers", "PlayerConnectionMessageIds");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::PlayerConnectionMessageIds::get_runStartedMessageId
 // Il2CppName: get_runStartedMessageId
 template<>

@@ -127,6 +127,8 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycastResult::get_gameObject
 // Il2CppName: get_gameObject
 template<>

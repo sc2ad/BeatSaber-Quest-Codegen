@@ -58,6 +58,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/SharedVertex.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes
 // Il2CppName: AverageNormalWithIndexes
 template<>

@@ -89,6 +89,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::PlayerSortOrderPacket) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*, "", "ConnectedPlayerManager/PlayerSortOrderPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::get_pool
 // Il2CppName: get_pool
 template<>

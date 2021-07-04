@@ -81,6 +81,7 @@ namespace VRUIControls {
   static_assert(sizeof(VRLaserPointer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRLaserPointer*, "VRUIControls", "VRLaserPointer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetLocalPosition
 // Il2CppName: SetLocalPosition
 template<>

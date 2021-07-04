@@ -281,6 +281,9 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView*, "HMUI", "ImageView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView::GradientDirection, "HMUI", "ImageView/GradientDirection");
+// Writing includes for template specializations
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: HMUI::ImageView::get_gradient
 // Il2CppName: get_gradient
 template<>

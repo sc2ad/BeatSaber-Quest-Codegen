@@ -53,6 +53,9 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/SelectionPickerRendererStandard");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Shader.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard::RenderLookupTexture
 // Il2CppName: RenderLookupTexture
 template<>

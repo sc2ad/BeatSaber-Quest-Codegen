@@ -281,6 +281,11 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtensions");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Delegate.hpp"
+#include "System/Reflection/MemberInfo.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DerivesFrom
 // Il2CppName: DerivesFrom
 // Cannot write MetadataGetter for generic methods!

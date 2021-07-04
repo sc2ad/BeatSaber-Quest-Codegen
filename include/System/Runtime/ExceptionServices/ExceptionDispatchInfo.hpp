@@ -62,6 +62,8 @@ namespace System::Runtime::ExceptionServices {
   static_assert(sizeof(ExceptionDispatchInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -31,6 +31,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeConverter");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorSchemeNetSerializable.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeConverter::FromNetSerializable
 // Il2CppName: FromNetSerializable
 template<>

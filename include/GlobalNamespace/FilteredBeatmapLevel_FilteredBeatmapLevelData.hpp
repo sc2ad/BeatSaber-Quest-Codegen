@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(FilteredBeatmapLevel::FilteredBeatmapLevelData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData*, "", "FilteredBeatmapLevel/FilteredBeatmapLevelData");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip
 // Il2CppName: get_audioClip
 template<>

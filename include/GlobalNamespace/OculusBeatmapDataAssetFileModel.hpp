@@ -189,6 +189,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusBeatmapDataAssetFileModel) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel*, "", "OculusBeatmapDataAssetFileModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/OculusLevelProductsModelSO.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "Oculus/Platform/Models/AssetDetails.hpp"
+#include "Oculus/Platform/Message_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>

@@ -285,6 +285,10 @@ namespace System {
   static_assert(sizeof(Exception) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
+#include "System/Exception_ExceptionMessageKind.hpp"
 // Writing MetadataGetter for method: System::Exception::Init
 // Il2CppName: Init
 template<>

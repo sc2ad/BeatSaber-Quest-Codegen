@@ -264,6 +264,13 @@ namespace System::Net {
   static_assert(sizeof(WebRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest*, "System.Net", "WebRequest");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Net/ICredentials.hpp"
+#include "System/Net/IWebProxy.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

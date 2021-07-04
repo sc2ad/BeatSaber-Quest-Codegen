@@ -127,6 +127,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(RsaPrivateKeyStructure) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Pkcs", "RsaPrivateKeyStructure");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

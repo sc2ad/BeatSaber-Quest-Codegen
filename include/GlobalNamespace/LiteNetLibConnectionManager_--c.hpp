@@ -56,6 +56,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::$$c*, "", "LiteNetLibConnectionManager/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/LiteNetLibConnectionManager_NetPeerConnection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

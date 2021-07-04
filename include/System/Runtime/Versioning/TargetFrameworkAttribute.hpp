@@ -49,6 +49,7 @@ namespace System::Runtime::Versioning {
   static_assert(sizeof(TargetFrameworkAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Versioning::TargetFrameworkAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

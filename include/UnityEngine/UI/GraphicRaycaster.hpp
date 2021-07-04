@@ -220,6 +220,12 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");
+// Writing includes for template specializations
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics
 // Il2CppName: get_ignoreReversedGraphics
 template<>

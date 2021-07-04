@@ -183,6 +183,8 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ConfigHandler) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");
+// Writing includes for template specializations
+#include "Mono/Xml/SmallXmlParser_IAttrList.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ConfigHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

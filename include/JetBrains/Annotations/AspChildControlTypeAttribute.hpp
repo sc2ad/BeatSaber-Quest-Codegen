@@ -67,6 +67,8 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspChildControlTypeAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

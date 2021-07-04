@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FABRIKRoot) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot*, "RootMotion.FinalIK", "FABRIKRoot");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::SupportGroup
 // Il2CppName: SupportGroup
 template<>

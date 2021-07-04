@@ -62,6 +62,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerPlacement*, "", "MultiplayerPlayerPlacement");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerPlayerLayout.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayerPlacement::GetPlayerWorldPosition
 // Il2CppName: GetPlayerWorldPosition
 template<>

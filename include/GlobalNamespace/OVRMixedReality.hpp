@@ -81,6 +81,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/OVRMixedRealityCaptureConfiguration.hpp"
+#include "GlobalNamespace/OVRManager_TrackingOrigin.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::Update
 // Il2CppName: Update
 template<>

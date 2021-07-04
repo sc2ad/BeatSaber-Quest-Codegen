@@ -422,6 +422,14 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Graphic) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Events/UnityAction.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Graphic::get_defaultGraphicMaterial
 // Il2CppName: get_defaultGraphicMaterial
 template<>

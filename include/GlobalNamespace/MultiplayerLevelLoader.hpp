@@ -245,6 +245,12 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_5.hpp"
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/PreviewDifficultyBeatmapSet.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::add_stillDownloadingSongEvent
 // Il2CppName: add_stillDownloadingSongEvent
 template<>

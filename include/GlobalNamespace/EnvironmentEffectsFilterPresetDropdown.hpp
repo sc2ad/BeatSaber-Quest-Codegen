@@ -118,6 +118,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentEffectsFilterPresetDropdown) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*, "", "EnvironmentEffectsFilterPresetDropdown");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

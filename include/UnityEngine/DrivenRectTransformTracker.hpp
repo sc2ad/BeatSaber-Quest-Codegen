@@ -42,6 +42,10 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/DrivenTransformProperties.hpp"
 // Writing MetadataGetter for method: UnityEngine::DrivenRectTransformTracker::Add
 // Il2CppName: Add
 template<>

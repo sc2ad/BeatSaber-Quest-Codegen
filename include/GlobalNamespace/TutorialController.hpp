@@ -153,6 +153,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialController) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialController::Start
 // Il2CppName: Start
 template<>

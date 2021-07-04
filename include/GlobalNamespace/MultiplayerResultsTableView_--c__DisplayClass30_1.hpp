@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsTableView::$$c__DisplayClass30_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1*, "", "MultiplayerResultsTableView/<>c__DisplayClass30_1");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1::$StartAnimation$b__3
 // Il2CppName: <StartAnimation>b__3
 template<>

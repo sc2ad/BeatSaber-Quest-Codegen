@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedColorListController::ColorValuePair) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController::ColorValuePair*, "", "NamedColorListController/ColorValuePair");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::ColorValuePair::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

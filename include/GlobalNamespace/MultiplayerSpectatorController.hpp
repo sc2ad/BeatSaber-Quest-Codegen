@@ -162,6 +162,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatorController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController*, "", "MultiplayerSpectatorController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IMultiplayerSpectatingSpot.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent
 // Il2CppName: add_spectatingSpotDidChangeEvent
 template<>

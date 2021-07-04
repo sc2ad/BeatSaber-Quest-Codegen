@@ -202,6 +202,9 @@ namespace OVRSimpleJSON {
   bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVRSimpleJSON/JSONTextMode.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

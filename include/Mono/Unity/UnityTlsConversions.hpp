@@ -52,6 +52,11 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsConversions*, "Mono.Unity", "UnityTlsConversions");
+// Writing includes for template specializations
+#include "System/Security/Authentication/SslProtocols.hpp"
+#include "Mono/Unity/UnityTls_unitytls_protocol.hpp"
+#include "Mono/Unity/UnityTls_unitytls_x509verify_result.hpp"
+#include "Mono/Security/Interface/AlertDescription.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsConversions::GetMinProtocol
 // Il2CppName: GetMinProtocol
 template<>

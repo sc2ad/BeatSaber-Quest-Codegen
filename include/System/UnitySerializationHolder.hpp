@@ -142,6 +142,12 @@ namespace System {
   static_assert(sizeof(UnitySerializationHolder) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Reflection/Missing.hpp"
+#include "System/RuntimeType.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/RuntimeAssembly.hpp"
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetUnitySerializationInfo
 // Il2CppName: GetUnitySerializationInfo
 template<>

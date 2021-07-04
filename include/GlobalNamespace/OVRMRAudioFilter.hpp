@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRMRAudioFilter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter*, "", "OVRMRAudioFilter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::Start
 // Il2CppName: Start
 template<>

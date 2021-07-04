@@ -63,6 +63,9 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TriggerBehaviour*, "UnityEngine.ProBuilder", "TriggerBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/SceneManagement/Scene.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::Initialize
 // Il2CppName: Initialize
 template<>

@@ -141,6 +141,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::Start
 // Il2CppName: Start
 template<>

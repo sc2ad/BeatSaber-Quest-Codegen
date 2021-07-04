@@ -57,6 +57,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(ResourceProviderBase::$$c__DisplayClass10_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::$InitializeAsync$b__0
 // Il2CppName: <InitializeAsync>b__0
 template<>

@@ -186,6 +186,12 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(WingedEdge) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge*, "UnityEngine.ProBuilder", "WingedEdge");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::get_edge
 // Il2CppName: get_edge
 template<>

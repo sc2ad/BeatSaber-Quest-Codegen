@@ -63,6 +63,9 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::BasicClient*, "System.Net", "BasicClient");
+// Writing includes for template specializations
+#include "System/Net/WebRequest.hpp"
+#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: System::Net::BasicClient::Authenticate
 // Il2CppName: Authenticate
 template<>

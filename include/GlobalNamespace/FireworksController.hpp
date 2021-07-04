@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FireworksController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController*, "", "FireworksController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FireworksController::OnEnable
 // Il2CppName: OnEnable
 template<>

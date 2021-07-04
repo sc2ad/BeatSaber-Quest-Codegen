@@ -191,6 +191,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerTransforms) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::get_headWorldPos
 // Il2CppName: get_headWorldPos
 template<>

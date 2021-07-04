@@ -80,6 +80,12 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader*, "", "BeatmapDataLoader");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/BeatmapSaveData_SpecialEventKeywordFiltersData.hpp"
+#include "GlobalNamespace/BeatmapSaveData_NoteType.hpp"
+#include "GlobalNamespace/BeatmapSaveData_BeatmapEventType.hpp"
+#include "GlobalNamespace/BeatmapDataLoader_--c__DisplayClass2_0.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::GetRealTimeFromBPMTime
 // Il2CppName: GetRealTimeFromBPMTime
 template<>

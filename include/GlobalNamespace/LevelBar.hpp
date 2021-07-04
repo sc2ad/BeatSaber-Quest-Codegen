@@ -145,6 +145,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelBar) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar*, "", "LevelBar");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelBar::set_hide
 // Il2CppName: set_hide
 template<>

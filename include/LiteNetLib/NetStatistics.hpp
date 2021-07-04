@@ -107,6 +107,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetStatistics) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsSent
 // Il2CppName: get_PacketsSent
 template<>

@@ -497,6 +497,17 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");
+// Writing includes for template specializations
+#include "UnityEngine/UI/AnimationTriggers.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
+#include "UnityEngine/UI/Image.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/EventSystems/AxisEventData.hpp"
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectablesArray
 // Il2CppName: get_allSelectablesArray
 template<>

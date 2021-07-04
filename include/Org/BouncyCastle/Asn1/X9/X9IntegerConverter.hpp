@@ -37,6 +37,9 @@ namespace Org::BouncyCastle::Asn1::X9 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9IntegerConverter*, "Org.BouncyCastle.Asn1.X9", "X9IntegerConverter");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9IntegerConverter::GetByteLength
 // Il2CppName: GetByteLength
 template<>

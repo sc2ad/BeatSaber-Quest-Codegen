@@ -294,6 +294,15 @@ namespace HMUI {
   static_assert(sizeof(ViewController) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController*, "HMUI", "ViewController");
+// Writing includes for template specializations
+#include "HMUI/ViewController_DidActivateDelegate.hpp"
+#include "HMUI/ViewController_DidDeactivateDelegate.hpp"
+#include "HMUI/ButtonBinder.hpp"
+#include "HMUI/Screen.hpp"
+#include "HMUI/ContainerViewController.hpp"
+#include "System/Action.hpp"
+#include "HMUI/ViewController_AnimationDirection.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::get_containerViewController
 // Il2CppName: get_containerViewController
 template<>

@@ -73,6 +73,9 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");
+// Writing includes for template specializations
+#include "TMPro/TMP_Character.hpp"
+#include "UnityEngine/TextCore/Glyph.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>

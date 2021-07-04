@@ -96,6 +96,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

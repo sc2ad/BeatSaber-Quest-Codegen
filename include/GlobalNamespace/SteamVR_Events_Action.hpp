@@ -39,6 +39,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::Enable
 // Il2CppName: Enable
 template<>

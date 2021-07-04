@@ -45,6 +45,7 @@ namespace System {
   static_assert(sizeof(CLSCompliantAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::CLSCompliantAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

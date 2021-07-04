@@ -74,6 +74,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ArcadeFlowCoordinator::$$c__DisplayClass22_0) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass22_0*, "", "ArcadeFlowCoordinator/<>c__DisplayClass22_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass22_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>

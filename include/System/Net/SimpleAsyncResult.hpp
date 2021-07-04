@@ -177,6 +177,11 @@ namespace System::Net {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult*, "System.Net", "SimpleAsyncResult");
+// Writing includes for template specializations
+#include "System/Net/SimpleAsyncCallback.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/Func_2.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Net::SimpleAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

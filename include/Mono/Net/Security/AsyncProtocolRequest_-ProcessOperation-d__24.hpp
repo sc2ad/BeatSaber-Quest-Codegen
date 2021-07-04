@@ -95,6 +95,7 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$ProcessOperation$d__24, "Mono.Net.Security", "AsyncProtocolRequest/<ProcessOperation>d__24");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::$ProcessOperation$d__24::MoveNext
 // Il2CppName: MoveNext
 template<>

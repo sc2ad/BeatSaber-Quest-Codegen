@@ -124,6 +124,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClothRandomFluctuation) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation*, "", "ClothRandomFluctuation");
+// Writing includes for template specializations
+#include "UnityEngine/Cloth.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::Update
 // Il2CppName: Update
 template<>

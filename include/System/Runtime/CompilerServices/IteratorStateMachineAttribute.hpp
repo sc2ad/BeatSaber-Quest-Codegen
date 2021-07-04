@@ -41,6 +41,8 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IteratorStateMachineAttribute*, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::IteratorStateMachineAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

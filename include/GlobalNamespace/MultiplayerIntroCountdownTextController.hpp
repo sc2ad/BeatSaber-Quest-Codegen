@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::SetText
 // Il2CppName: SetText
 template<>

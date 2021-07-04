@@ -49,6 +49,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitPolygonal::LimitPoint) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -59,6 +59,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceProviders/ProvideHandle.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::Provide
 // Il2CppName: Provide
 template<>

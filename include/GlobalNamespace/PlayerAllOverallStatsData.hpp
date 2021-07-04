@@ -167,6 +167,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerAllOverallStatsData) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData*, "", "PlayerAllOverallStatsData");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlayerAllOverallStatsData_PlayerOverallStatsData.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
+#include "GlobalNamespace/MissionNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::get_allOverallStatsData
 // Il2CppName: get_allOverallStatsData
 template<>

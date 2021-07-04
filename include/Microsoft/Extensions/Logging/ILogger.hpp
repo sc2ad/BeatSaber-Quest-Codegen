@@ -30,6 +30,7 @@ namespace Microsoft::Extensions::Logging {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogError
 // Il2CppName: LogError
 template<>

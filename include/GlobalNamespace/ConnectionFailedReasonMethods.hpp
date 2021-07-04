@@ -115,6 +115,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReasonMethods*, "", "ConnectionFailedReasonMethods");
+// Writing includes for template specializations
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>

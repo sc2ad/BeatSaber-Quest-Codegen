@@ -68,6 +68,8 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageTypeSubscribers");
+// Writing includes for template specializations
+#include "System/Guid.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId
 // Il2CppName: get_MessageTypeId
 template<>

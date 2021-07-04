@@ -82,6 +82,7 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::Create
 // Il2CppName: Create
 template<>

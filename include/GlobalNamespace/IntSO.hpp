@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // IntSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntSO*, "", "IntSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IntSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

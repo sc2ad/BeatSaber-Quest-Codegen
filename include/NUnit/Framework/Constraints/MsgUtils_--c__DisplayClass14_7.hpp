@@ -56,6 +56,7 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_7) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_7");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_7::$_cctor$b__18
 // Il2CppName: <.cctor>b__18
 template<>

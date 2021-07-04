@@ -89,6 +89,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

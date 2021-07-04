@@ -169,6 +169,10 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Http.Headers", "HttpHeaders");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/HeaderInfo.hpp"
+#include "System/Net/Http/Headers/HttpHeaders_HeaderBucket.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::_cctor
 // Il2CppName: .cctor
 template<>

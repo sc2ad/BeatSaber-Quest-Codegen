@@ -153,6 +153,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::BodyPart) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::BodyPart*, "RootMotion.FinalIK", "IKSolverVR/BodyPart");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverVR_VirtualBone.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::BodyPart::OnRead
 // Il2CppName: OnRead
 template<>

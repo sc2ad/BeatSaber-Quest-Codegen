@@ -71,6 +71,8 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup::$$c*, "UnityEngine.UI", "ToggleGroup/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Toggle.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::$$c::_cctor
 // Il2CppName: .cctor
 template<>

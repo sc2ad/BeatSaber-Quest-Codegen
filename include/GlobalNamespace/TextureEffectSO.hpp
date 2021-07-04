@@ -46,6 +46,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextureEffectSO*, "", "TextureEffectSO");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextureEffectSO::Render
 // Il2CppName: Render
 template<>

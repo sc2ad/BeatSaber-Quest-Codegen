@@ -148,6 +148,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController*, "", "EnvironmentOverrideSettingsPanelController");
+// Writing includes for template specializations
+#include "GlobalNamespace/OverrideEnvironmentSettings.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings
 // Il2CppName: get_overrideEnvironmentSettings
 template<>

@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFilterUtil::MurmurHash2
 // Il2CppName: MurmurHash2
 template<>

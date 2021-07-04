@@ -84,6 +84,8 @@ namespace SFB {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(SFB::StandaloneFileBrowser*, "SFB", "StandaloneFileBrowser");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: SFB::StandaloneFileBrowser::_cctor
 // Il2CppName: .cctor
 template<>

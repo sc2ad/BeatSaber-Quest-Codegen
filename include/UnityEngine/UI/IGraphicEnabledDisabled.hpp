@@ -22,6 +22,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IGraphicEnabledDisabled*, "UnityEngine.UI", "IGraphicEnabledDisabled");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::IGraphicEnabledDisabled::OnSiblingGraphicEnabledDisabled
 // Il2CppName: OnSiblingGraphicEnabledDisabled
 template<>

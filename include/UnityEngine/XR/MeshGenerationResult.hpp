@@ -119,6 +119,7 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_MeshId
 // Il2CppName: get_MeshId
 template<>

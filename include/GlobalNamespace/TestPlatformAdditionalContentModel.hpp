@@ -119,6 +119,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestPlatformAdditionalContentModel) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::BuyLevel
 // Il2CppName: BuyLevel
 template<>

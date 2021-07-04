@@ -138,6 +138,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentSpawnRotation) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSpawnRotation::get_targetRotation
 // Il2CppName: get_targetRotation
 template<>

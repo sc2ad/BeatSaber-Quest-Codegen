@@ -33,6 +33,7 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedControl/IDataSource");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::SegmentedControl::IDataSource::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>

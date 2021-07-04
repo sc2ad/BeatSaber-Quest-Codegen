@@ -355,6 +355,15 @@ namespace System {
   static_assert(sizeof(AppDomain) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
+// Writing includes for template specializations
+#include "System/Security/Policy/Evidence.hpp"
+#include "System/Runtime/Remoting/Contexts/Context.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Reflection/Assembly.hpp"
+#include "System/Runtime/Remoting/Messaging/CADMethodCallMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/CADMethodReturnMessage.hpp"
+#include "System/EventHandler.hpp"
+#include "System/UnhandledExceptionEventHandler.hpp"
 // Writing MetadataGetter for method: System::AppDomain::getFriendlyName
 // Il2CppName: getFriendlyName
 template<>

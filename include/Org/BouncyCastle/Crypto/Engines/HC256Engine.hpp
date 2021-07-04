@@ -122,6 +122,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(HC256Engine) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::HC256Engine*, "Org.BouncyCastle.Crypto.Engines", "HC256Engine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC256Engine::Step
 // Il2CppName: Step
 template<>

@@ -46,6 +46,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(DefaultDependencyAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DefaultDependencyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

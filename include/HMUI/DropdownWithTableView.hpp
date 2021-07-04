@@ -153,6 +153,9 @@ namespace HMUI {
   static_assert(sizeof(DropdownWithTableView) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/TableView_IDataSource.hpp"
 // Writing MetadataGetter for method: HMUI::DropdownWithTableView::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

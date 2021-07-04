@@ -29,6 +29,8 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::WeightUtility*, "UnityEngine.Timeline", "WeightUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::WeightUtility::NormalizeMixer
 // Il2CppName: NormalizeMixer
 template<>

@@ -302,6 +302,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
+// Writing includes for template specializations
+#include "System/IO/FileSystemEventArgs.hpp"
+#include "GlobalNamespace/SteamVR_Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::ReadConfig
 // Il2CppName: ReadConfig
 template<>

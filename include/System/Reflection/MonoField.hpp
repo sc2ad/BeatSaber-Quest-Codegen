@@ -194,6 +194,11 @@ namespace System::Reflection {
   static_assert(sizeof(MonoField) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoField*, "System.Reflection", "MonoField");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoField::ResolveType
 // Il2CppName: ResolveType
 template<>

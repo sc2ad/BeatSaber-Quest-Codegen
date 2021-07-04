@@ -89,6 +89,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEffectsManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager*, "", "BTSStarTextEffectsManager");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::Start
 // Il2CppName: Start
 template<>

@@ -100,6 +100,10 @@ namespace Org::BouncyCastle::Asn1::Sec {
   static_assert(sizeof(ECPrivateKeyStructure) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Sec", "ECPrivateKeyStructure");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Asn1/DerBitString.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

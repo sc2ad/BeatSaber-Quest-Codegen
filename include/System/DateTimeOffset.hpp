@@ -197,6 +197,10 @@ namespace System {
   bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/Globalization/DateTimeStyles.hpp"
 // Writing MetadataGetter for method: System::DateTimeOffset::DateTimeOffset
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

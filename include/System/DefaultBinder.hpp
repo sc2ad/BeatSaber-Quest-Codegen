@@ -137,6 +137,14 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder*, "System", "DefaultBinder");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Reflection/FieldInfo.hpp"
+#include "System/Reflection/PropertyInfo.hpp"
+#include "System/RuntimeType.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::ExactBinding
 // Il2CppName: ExactBinding
 template<>

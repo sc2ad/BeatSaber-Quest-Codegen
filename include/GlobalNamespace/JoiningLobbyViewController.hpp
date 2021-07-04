@@ -102,6 +102,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(JoiningLobbyViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoiningLobbyViewController*, "", "JoiningLobbyViewController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

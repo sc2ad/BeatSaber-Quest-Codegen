@@ -236,6 +236,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EmptyBeatmapLevel) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel*, "", "EmptyBeatmapLevel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_levelID
 // Il2CppName: get_levelID
 template<>

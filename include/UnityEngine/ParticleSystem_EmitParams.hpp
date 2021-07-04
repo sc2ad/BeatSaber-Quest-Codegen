@@ -134,6 +134,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Color32.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_position
 // Il2CppName: set_position
 template<>

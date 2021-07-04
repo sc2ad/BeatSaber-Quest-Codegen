@@ -201,6 +201,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
+// Writing includes for template specializations
+#include "System/IFormatProvider.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Boolean::ToString
 // Il2CppName: ToString
 template<>

@@ -72,6 +72,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionObject::Message) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Message::Send
 // Il2CppName: Send
 template<>

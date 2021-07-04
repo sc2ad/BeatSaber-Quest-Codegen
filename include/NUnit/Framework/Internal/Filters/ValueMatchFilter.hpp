@@ -79,6 +79,8 @@ namespace NUnit::Framework::Internal::Filters {
   static_assert(sizeof(ValueMatchFilter) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::ValueMatchFilter*, "NUnit.Framework.Internal.Filters", "ValueMatchFilter");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/TNode.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ExpectedValue
 // Il2CppName: get_ExpectedValue
 template<>

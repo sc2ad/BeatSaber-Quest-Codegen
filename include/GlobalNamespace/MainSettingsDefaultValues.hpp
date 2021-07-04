@@ -214,6 +214,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
+// Writing includes for template specializations
+#include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues
 // Il2CppName: SetFixedDefaultValues
 template<>

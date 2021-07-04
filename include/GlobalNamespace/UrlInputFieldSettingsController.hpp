@@ -50,6 +50,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UrlInputFieldSettingsController*, "", "UrlInputFieldSettingsController");
+// Writing includes for template specializations
+#include "HMUI/InputFieldView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UrlInputFieldSettingsController::HandleInputFieldDidChange
 // Il2CppName: HandleInputFieldDidChange
 template<>

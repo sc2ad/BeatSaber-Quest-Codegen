@@ -64,6 +64,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(ExclusiveReference) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference*, "System.Text.RegularExpressions", "ExclusiveReference");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::RegularExpressions::ExclusiveReference::Get
 // Il2CppName: Get
 template<>

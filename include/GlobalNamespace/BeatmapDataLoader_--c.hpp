@@ -72,6 +72,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::$$c*, "", "BeatmapDataLoader/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapSaveData_NoteData.hpp"
+#include "GlobalNamespace/BeatmapSaveData_WaypointData.hpp"
+#include "GlobalNamespace/BeatmapSaveData_ObstacleData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::$$c::_cctor
 // Il2CppName: .cctor
 template<>

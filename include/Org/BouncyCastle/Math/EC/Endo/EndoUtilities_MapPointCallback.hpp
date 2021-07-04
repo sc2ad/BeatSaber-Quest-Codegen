@@ -76,6 +76,11 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static_assert(sizeof(EndoUtilities::MapPointCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities/MapPointCallback");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/EndoPreCompInfo.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

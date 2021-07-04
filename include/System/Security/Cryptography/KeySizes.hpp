@@ -65,6 +65,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(KeySizes) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MinSize
 // Il2CppName: get_MinSize
 template<>

@@ -83,6 +83,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeactivateAfterFirstFrame::$Start$d__0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0*, "", "DeactivateAfterFirstFrame/<Start>d__0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

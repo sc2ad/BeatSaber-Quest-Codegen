@@ -56,6 +56,10 @@ namespace LiteNetLib::Utils {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*, "LiteNetLib.Utils", "NetPacketProcessor/SubscribeDelegate");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

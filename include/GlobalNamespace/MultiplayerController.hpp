@@ -456,6 +456,12 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController*, "", "MultiplayerController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::State, "", "MultiplayerController/State");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerGameState.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::get_state
 // Il2CppName: get_state
 template<>

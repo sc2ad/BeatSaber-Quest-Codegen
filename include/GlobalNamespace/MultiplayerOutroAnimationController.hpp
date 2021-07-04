@@ -240,6 +240,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerOutroAnimationController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOutroAnimationController*, "", "MultiplayerOutroAnimationController");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/MultiplayerTimelineMock.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::Start
 // Il2CppName: Start
 template<>

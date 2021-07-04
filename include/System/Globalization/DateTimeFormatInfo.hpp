@@ -898,6 +898,15 @@ namespace System::Globalization {
   static_assert(sizeof(DateTimeFormatInfo) == 0x178);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");
+// Writing includes for template specializations
+#include "System/Globalization/CultureData.hpp"
+#include "System/Globalization/Calendar.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Type.hpp"
+#include "System/Globalization/MonthNameStyles.hpp"
+#include "System/DayOfWeek.hpp"
+#include "System/__DTString.hpp"
+#include "System/TokenType.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InitPreferExistingTokens
 // Il2CppName: InitPreferExistingTokens
 template<>

@@ -65,6 +65,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TableCellWithSeparator) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator*, "", "TableCellWithSeparator");
+// Writing includes for template specializations
+#include "HMUI/ITableCellOwner.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::TableViewSetup
 // Il2CppName: TableViewSetup
 template<>

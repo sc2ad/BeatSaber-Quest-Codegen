@@ -146,6 +146,7 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::get_Next
 // Il2CppName: get_Next
 template<>

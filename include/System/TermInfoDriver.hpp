@@ -429,6 +429,9 @@ namespace System {
   static_assert(sizeof(TermInfoDriver) == 0x11C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
+// Writing includes for template specializations
+#include "System/ConsoleKeyInfo.hpp"
+#include "System/TermInfoStrings.hpp"
 // Writing MetadataGetter for method: System::TermInfoDriver::TryTermInfoDir
 // Il2CppName: TryTermInfoDir
 template<>

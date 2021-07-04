@@ -242,6 +242,11 @@ namespace Mono::Security::Interface {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsSettings*, "Mono.Security.Interface", "MonoTlsSettings");
+// Writing includes for template specializations
+#include "Mono/Security/Interface/MonoRemoteCertificateValidationCallback.hpp"
+#include "Mono/Security/Interface/MonoLocalCertificateSelectionCallback.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "Mono/Security/Interface/ICertificateValidator.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_RemoteCertificateValidationCallback
 // Il2CppName: get_RemoteCertificateValidationCallback
 template<>

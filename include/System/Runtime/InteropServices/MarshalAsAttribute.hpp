@@ -102,6 +102,7 @@ namespace System::Runtime::InteropServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::MarshalAsAttribute::Copy
 // Il2CppName: Copy
 template<>

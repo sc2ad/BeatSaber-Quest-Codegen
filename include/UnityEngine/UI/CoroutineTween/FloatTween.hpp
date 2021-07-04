@@ -115,6 +115,8 @@ namespace UnityEngine::UI::CoroutineTween {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_startValue
 // Il2CppName: get_startValue
 template<>

@@ -48,6 +48,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicCutInfoHelper");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "GlobalNamespace/ColorType.hpp"
+#include "GlobalNamespace/NoteCutDirection.hpp"
+#include "GlobalNamespace/SaberType.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo
 // Il2CppName: GetBasicCutInfo
 template<>

@@ -96,6 +96,8 @@ namespace Oculus::Platform {
   static_assert(sizeof(MatchmakingOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions*, "Oculus.Platform", "MatchmakingOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/RoomJoinPolicy.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore
 // Il2CppName: SetCreateRoomDataStore
 template<>

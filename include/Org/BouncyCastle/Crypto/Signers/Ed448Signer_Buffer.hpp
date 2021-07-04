@@ -51,6 +51,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed448Signer/Buffer");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/Parameters/Ed448PrivateKeyParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>

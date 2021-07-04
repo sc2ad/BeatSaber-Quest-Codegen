@@ -221,6 +221,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Controller::Device) == 0xF6);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");
+// Writing includes for template specializations
+#include "Valve/VR/EVRButtonId.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

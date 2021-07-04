@@ -100,6 +100,11 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBindingFinalizer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBindingFinalizer*, "Zenject", "SubContainerBindingFinalizer");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
+#include "System/Func_2.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

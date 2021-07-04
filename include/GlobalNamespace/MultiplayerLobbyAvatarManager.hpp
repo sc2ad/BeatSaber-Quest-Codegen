@@ -130,6 +130,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyAvatarManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarManager*, "", "MultiplayerLobbyAvatarManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::Init
 // Il2CppName: Init
 template<>

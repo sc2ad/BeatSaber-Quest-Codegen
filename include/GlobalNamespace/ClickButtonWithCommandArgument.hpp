@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClickButtonWithCommandArgument) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClickButtonWithCommandArgument*, "", "ClickButtonWithCommandArgument");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ClickButtonWithCommandArgument::Start
 // Il2CppName: Start
 template<>

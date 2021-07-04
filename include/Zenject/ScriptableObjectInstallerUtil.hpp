@@ -51,6 +51,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerUtil*, "Zenject", "ScriptableObjectInstallerUtil");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerUtil::GetDefaultResourcePath
 // Il2CppName: GetDefaultResourcePath
 // Cannot write MetadataGetter for generic methods!

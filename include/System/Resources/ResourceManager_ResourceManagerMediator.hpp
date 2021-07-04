@@ -43,6 +43,7 @@ namespace System::Resources {
   static_assert(sizeof(ResourceManager::ResourceManagerMediator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Resources::ResourceManager::ResourceManagerMediator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

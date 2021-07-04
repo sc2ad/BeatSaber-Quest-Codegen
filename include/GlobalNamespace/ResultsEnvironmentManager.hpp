@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "ResultsEnvironmentManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
 // Il2CppName: GetResultEnvironmentControllerForKeyword
 template<>

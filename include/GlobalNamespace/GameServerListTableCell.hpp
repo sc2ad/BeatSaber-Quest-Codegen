@@ -101,6 +101,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerListTableCell) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListTableCell*, "", "GameServerListTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListTableCell::SetData
 // Il2CppName: SetData
 template<>

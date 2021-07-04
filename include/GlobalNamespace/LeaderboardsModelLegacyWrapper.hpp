@@ -87,6 +87,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardsModelLegacyWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");
+// Writing includes for template specializations
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
+#include "GlobalNamespace/LeaderboardsModelLegacyWrapper_HMAsyncRequestWithCancellationToken.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresCompletionHandler.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreCompletionHandler.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>

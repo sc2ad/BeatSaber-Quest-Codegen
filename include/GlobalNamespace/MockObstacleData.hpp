@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockObstacleData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockObstacleData*, "", "MockObstacleData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_time
 // Il2CppName: get_time
 template<>

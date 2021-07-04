@@ -52,6 +52,8 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
+// Writing includes for template specializations
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::PositionAsUV1::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

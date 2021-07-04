@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PCArcadeAppInit) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PCArcadeAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayerPauseOnInputFocusLost) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*, "", "SongPreviewPlayerPauseOnInputFocusLost");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start
 // Il2CppName: Start
 template<>

@@ -84,6 +84,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleControllerBase) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleControllerBase*, "", "ObstacleControllerBase");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>

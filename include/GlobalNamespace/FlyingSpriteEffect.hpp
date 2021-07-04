@@ -88,6 +88,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingSpriteEffect) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>

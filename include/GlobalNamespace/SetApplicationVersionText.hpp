@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetApplicationVersionText) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetApplicationVersionText*, "", "SetApplicationVersionText");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetApplicationVersionText::Start
 // Il2CppName: Start
 template<>

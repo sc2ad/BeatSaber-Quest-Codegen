@@ -114,6 +114,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeMethodAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_Name
 // Il2CppName: set_Name
 template<>

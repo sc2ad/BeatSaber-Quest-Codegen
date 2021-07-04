@@ -63,6 +63,8 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::CPPLogCallback
 // Il2CppName: CPPLogCallback
 template<>

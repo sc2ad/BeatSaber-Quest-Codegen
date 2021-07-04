@@ -507,6 +507,12 @@ namespace TMPro {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "TMPro/TMP_VertexDataUpdateFlags.hpp"
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCanvas
 // Il2CppName: GetCanvas
 template<>

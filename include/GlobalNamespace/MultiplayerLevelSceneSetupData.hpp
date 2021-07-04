@@ -71,6 +71,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelSceneSetupData) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSceneSetupData*, "", "MultiplayerLevelSceneSetupData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

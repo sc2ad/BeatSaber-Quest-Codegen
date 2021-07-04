@@ -44,6 +44,9 @@ namespace UnityEngine::SceneManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPIInternal*, "UnityEngine.SceneManagement", "SceneManagerAPIInternal");
+// Writing includes for template specializations
+#include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
+#include "UnityEngine/SceneManagement/UnloadSceneOptions.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal
 // Il2CppName: LoadSceneAsyncNameIndexInternal
 template<>

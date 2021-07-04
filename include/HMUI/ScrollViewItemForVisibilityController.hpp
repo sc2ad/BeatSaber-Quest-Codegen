@@ -41,6 +41,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>

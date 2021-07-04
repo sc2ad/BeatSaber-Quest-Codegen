@@ -172,6 +172,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodeVisualController) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController*, "", "MissionNodeVisualController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MissionToggle.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent
 // Il2CppName: add_nodeWasSelectEvent
 template<>

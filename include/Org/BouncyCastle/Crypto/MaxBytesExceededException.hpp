@@ -45,6 +45,7 @@ namespace Org::BouncyCastle::Crypto {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::MaxBytesExceededException*, "Org.BouncyCastle.Crypto", "MaxBytesExceededException");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::MaxBytesExceededException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

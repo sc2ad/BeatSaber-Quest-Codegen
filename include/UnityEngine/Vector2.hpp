@@ -217,6 +217,7 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_Item
 // Il2CppName: get_Item
 template<>

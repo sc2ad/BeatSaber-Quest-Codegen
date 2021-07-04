@@ -39,6 +39,8 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ITestAction*, "NUnit.Framework", "ITestAction");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::ITestAction::BeforeTest
 // Il2CppName: BeforeTest
 template<>

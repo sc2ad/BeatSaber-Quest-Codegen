@@ -34,6 +34,8 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IAllocationStrategy::New
 // Il2CppName: New
 template<>

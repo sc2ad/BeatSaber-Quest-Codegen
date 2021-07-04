@@ -343,6 +343,15 @@ namespace TMPro {
   static_assert(sizeof(TMP_SubMeshUI) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
+// Writing includes for template specializations
+#include "TMPro/TMP_FontAsset.hpp"
+#include "TMPro/TMP_SpriteAsset.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "TMPro/TextMeshProUGUI.hpp"
+#include "TMPro/MaterialReference.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fontAsset
 // Il2CppName: get_fontAsset
 template<>

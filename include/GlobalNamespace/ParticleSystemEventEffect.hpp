@@ -197,6 +197,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParticleSystemEventEffect) == 0xB4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::Start
 // Il2CppName: Start
 template<>

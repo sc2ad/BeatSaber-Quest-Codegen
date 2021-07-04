@@ -34,6 +34,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::DuplicateNodeError*, "UnityEngine.ProBuilder.KdTree", "DuplicateNodeError");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::DuplicateNodeError::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

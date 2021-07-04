@@ -169,6 +169,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneStartSyncController) == 0x55);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartSyncController*, "", "SceneStartSyncController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/PlayersSpecificSettingsAtGameStartModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent
 // Il2CppName: add_syncStartDidSuccessEvent
 template<>

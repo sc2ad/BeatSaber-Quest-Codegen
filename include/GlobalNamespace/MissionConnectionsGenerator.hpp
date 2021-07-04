@@ -103,6 +103,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionConnectionsGenerator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionNode.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode
 // Il2CppName: get__rootMissionNode
 template<>

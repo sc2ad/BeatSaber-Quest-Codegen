@@ -95,6 +95,9 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RsaBlindedEngine) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaBlindedEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IRsa.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

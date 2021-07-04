@@ -137,6 +137,8 @@ namespace System::Net {
   static_assert(sizeof(HttpStreamAsyncResult) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult*, "System.Net", "HttpStreamAsyncResult");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Net::HttpStreamAsyncResult::Complete
 // Il2CppName: Complete
 template<>

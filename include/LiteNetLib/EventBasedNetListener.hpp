@@ -240,6 +240,23 @@ namespace LiteNetLib {
   static_assert(sizeof(EventBasedNetListener) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener*, "LiteNetLib", "EventBasedNetListener");
+// Writing includes for template specializations
+#include "LiteNetLib/EventBasedNetListener_OnPeerConnected.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnPeerDisconnected.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnNetworkError.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnNetworkReceive.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnNetworkReceiveUnconnected.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnNetworkLatencyUpdate.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnConnectionRequest.hpp"
+#include "LiteNetLib/EventBasedNetListener_OnDeliveryEvent.hpp"
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/DisconnectInfo.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
+#include "LiteNetLib/NetPacketReader.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "LiteNetLib/UnconnectedMessageType.hpp"
+#include "LiteNetLib/ConnectionRequest.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent
 // Il2CppName: add_PeerConnectedEvent
 template<>

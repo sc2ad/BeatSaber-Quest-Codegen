@@ -219,6 +219,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarVisualController) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController*, "", "AvatarVisualController");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::get_lightColor
 // Il2CppName: get_lightColor
 template<>

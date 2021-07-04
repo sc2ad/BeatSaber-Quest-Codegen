@@ -111,6 +111,10 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(ProductInfoHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductInfoHeaderValue*, "System.Net.Http.Headers", "ProductInfoHeaderValue");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/ProductHeaderValue.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

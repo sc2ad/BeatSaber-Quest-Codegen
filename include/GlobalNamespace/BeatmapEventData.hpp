@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapEventData) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

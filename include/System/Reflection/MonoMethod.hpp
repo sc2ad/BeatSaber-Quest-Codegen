@@ -263,6 +263,13 @@ namespace System::Reflection {
   static_assert(sizeof(MonoMethod) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethod*, "System.Reflection", "MonoMethod");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/PInvokeAttributes.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoMethod::get_name
 // Il2CppName: get_name
 template<>

@@ -96,6 +96,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(GraphicRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
+// Writing includes for template specializations
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::get_instance
 // Il2CppName: get_instance
 template<>

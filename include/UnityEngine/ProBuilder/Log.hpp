@@ -176,6 +176,8 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Log*, "UnityEngine.ProBuilder", "Log");
+// Writing includes for template specializations
+#include "UnityEngine/LogType.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::PushLogLevel
 // Il2CppName: PushLogLevel
 template<>

@@ -92,6 +92,7 @@ namespace System::Resources {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer*, "System.Resources", "FastResourceComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::GetHashCode
 // Il2CppName: GetHashCode
 template<>

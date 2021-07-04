@@ -293,6 +293,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyPlayersDataModel) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel*, "", "LobbyPlayersDataModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::get_localUserId
 // Il2CppName: get_localUserId
 template<>

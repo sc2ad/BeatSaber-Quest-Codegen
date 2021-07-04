@@ -124,6 +124,12 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRRenderModels) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVR/OpenVR/RenderModel_ControllerMode_State_t.hpp"
+#include "OVR/OpenVR/RenderModel_ComponentState_t.hpp"
+#include "OVR/OpenVR/VRControllerState_t.hpp"
+#include "OVR/OpenVR/EVRRenderModelError.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera*, "", "SteamVR_TrackedCamera");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::Distorted
 // Il2CppName: Distorted
 template<>

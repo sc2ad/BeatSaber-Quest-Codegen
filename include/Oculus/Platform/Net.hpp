@@ -79,6 +79,8 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Net*, "Oculus.Platform", "Net");
+// Writing includes for template specializations
+#include "Oculus/Platform/SendPolicy.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Net::ReadPacket
 // Il2CppName: ReadPacket
 template<>

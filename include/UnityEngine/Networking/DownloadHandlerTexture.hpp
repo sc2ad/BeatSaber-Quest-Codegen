@@ -94,6 +94,8 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(DownloadHandlerTexture) == 0x22);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::Create
 // Il2CppName: Create
 template<>

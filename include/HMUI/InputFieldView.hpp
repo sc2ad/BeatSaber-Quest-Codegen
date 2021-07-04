@@ -342,6 +342,11 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "HMUI/InputFieldView_InputFieldChanged.hpp"
+#include "HMUI/UIKeyboard.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_selectionState
 // Il2CppName: get_selectionState
 template<>

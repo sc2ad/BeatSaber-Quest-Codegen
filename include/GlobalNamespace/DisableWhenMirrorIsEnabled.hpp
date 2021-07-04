@@ -69,6 +69,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisableWhenMirrorIsEnabled) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "DisableWhenMirrorIsEnabled");
+// Writing includes for template specializations
+#include "GlobalNamespace/Mirror.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror
 // Il2CppName: get_mirror
 template<>

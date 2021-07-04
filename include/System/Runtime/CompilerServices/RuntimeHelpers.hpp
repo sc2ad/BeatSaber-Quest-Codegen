@@ -57,6 +57,10 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers*, "System.Runtime.CompilerServices", "RuntimeHelpers");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/IntPtr.hpp"
+#include "System/RuntimeFieldHandle.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray
 // Il2CppName: InitializeArray
 template<>

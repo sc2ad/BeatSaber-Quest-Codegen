@@ -104,6 +104,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(Cast6Engine) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast6Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast6Engine::CAST_Encipher
 // Il2CppName: CAST_Encipher
 template<>

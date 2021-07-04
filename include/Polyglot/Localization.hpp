@@ -234,6 +234,10 @@ namespace Polyglot {
   static_assert(sizeof(Localization) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Localization*, "Polyglot", "Localization");
+// Writing includes for template specializations
+#include "UnityEngine/SystemLanguage.hpp"
+#include "Polyglot/ILocalize.hpp"
+#include "Polyglot/LocalizationDocument.hpp"
 // Writing MetadataGetter for method: Polyglot::Localization::get_CustomDocument
 // Il2CppName: get_CustomDocument
 template<>

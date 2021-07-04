@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodeGizmos) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeGizmos*, "", "MissionNodeGizmos");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeGizmos::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -57,6 +57,8 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(ParameterizedMethodSuite) == 0x8A);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedMethodSuite*, "NUnit.Framework.Internal", "ParameterizedMethodSuite");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/IMethodInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterizedMethodSuite::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

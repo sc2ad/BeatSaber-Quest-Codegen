@@ -71,6 +71,9 @@ namespace UnityEngine::Assertions {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEqualityComparer_1.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Assertions::_Assert::Fail
 // Il2CppName: Fail
 template<>

@@ -55,6 +55,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext::$$c*, "NUnit.Framework.Internal", "TestExecutionContext/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -39,6 +39,7 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IODescriptionAttribute*, "System.IO", "IODescriptionAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::IODescriptionAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

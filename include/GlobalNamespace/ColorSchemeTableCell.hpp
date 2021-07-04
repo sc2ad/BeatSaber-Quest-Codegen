@@ -94,6 +94,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeTableCell) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::set_text
 // Il2CppName: set_text
 template<>

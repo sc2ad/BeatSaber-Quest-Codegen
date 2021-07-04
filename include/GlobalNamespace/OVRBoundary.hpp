@@ -100,6 +100,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRBoundary) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRBoundary_Node.hpp"
+#include "GlobalNamespace/OVRBoundary_BoundaryType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetConfigured
 // Il2CppName: GetConfigured
 template<>

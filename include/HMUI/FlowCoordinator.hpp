@@ -361,6 +361,12 @@ namespace HMUI {
   static_assert(sizeof(FlowCoordinator) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");
+// Writing includes for template specializations
+#include "HMUI/ViewController_AnimationType.hpp"
+#include "HMUI/ScreenSystem.hpp"
+#include "System/Action.hpp"
+#include "HMUI/ViewController_AnimationDirection.hpp"
+#include "HMUI/NavigationController.hpp"
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::get_topViewController
 // Il2CppName: get_topViewController
 template<>

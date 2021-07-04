@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyController) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyController*, "", "MultiplayerLobbyController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::get_lobbyActivated
 // Il2CppName: get_lobbyActivated
 template<>

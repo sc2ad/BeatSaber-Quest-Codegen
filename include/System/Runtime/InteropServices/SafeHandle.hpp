@@ -127,6 +127,7 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(SafeHandle) == 0x1E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

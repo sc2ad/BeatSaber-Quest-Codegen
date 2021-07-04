@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLaunchUnblockFlowResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchUnblockFlowResult*, "Oculus.Platform", "MessageWithLaunchUnblockFlowResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchUnblockFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

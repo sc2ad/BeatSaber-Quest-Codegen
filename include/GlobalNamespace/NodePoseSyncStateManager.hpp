@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   }; // NodePoseSyncStateManager
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateManager*, "", "NodePoseSyncStateManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateManager::get_serializablePool
 // Il2CppName: get_serializablePool
 template<>

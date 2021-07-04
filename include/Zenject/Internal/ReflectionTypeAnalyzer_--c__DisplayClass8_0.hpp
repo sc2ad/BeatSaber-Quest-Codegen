@@ -63,6 +63,8 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass8_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass8_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass8_0");
+// Writing includes for template specializations
+#include "System/Reflection/ParameterInfo.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass8_0::$GetConstructorInfo$b__0
 // Il2CppName: <GetConstructorInfo>b__0
 template<>

@@ -66,6 +66,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectModifiersViewController) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController*, "", "SelectModifiersViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectModifiersViewController::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
 template<>

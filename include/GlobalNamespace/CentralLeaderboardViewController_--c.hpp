@@ -77,6 +77,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$$c*, "", "CentralLeaderboardViewController/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/CentralLeaderboardViewController_LeaderboardPanel.hpp"
+#include "GlobalNamespace/CentralLeaderboardViewController_ScoreScopeInfo.hpp"
+#include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

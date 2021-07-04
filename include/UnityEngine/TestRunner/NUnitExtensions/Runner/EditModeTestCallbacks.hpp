@@ -34,6 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "EditModeTestCallbacks");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks::get_RestoringTestContext
 // Il2CppName: get_RestoringTestContext
 template<>

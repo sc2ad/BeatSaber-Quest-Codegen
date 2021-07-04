@@ -99,6 +99,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreModel*, "", "ScoreModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreModel::MaxRawScoreForNumberOfNotes
 // Il2CppName: MaxRawScoreForNumberOfNotes
 template<>

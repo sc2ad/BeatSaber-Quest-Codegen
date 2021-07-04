@@ -218,6 +218,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberSwingRatingCounter) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter*, "", "SaberSwingRatingCounter");
+// Writing includes for template specializations
+#include "GlobalNamespace/ISaberSwingRatingCounterDidChangeReceiver.hpp"
+#include "GlobalNamespace/ISaberSwingRatingCounterDidFinishReceiver.hpp"
+#include "GlobalNamespace/SaberMovementData.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "GlobalNamespace/BladeMovementDataElement.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating
 // Il2CppName: get_beforeCutRating
 template<>

@@ -254,6 +254,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutSoundEffectManager) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager*, "", "NoteCutSoundEffectManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood
 // Il2CppName: get_handleWrongSaberTypeAsGood
 template<>

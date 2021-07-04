@@ -305,6 +305,11 @@ namespace Zenject {
   static_assert(sizeof(SceneContext) == 0xB2);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext*, "Zenject", "SceneContext");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/SceneDecoratorContext.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::add_PreInstall
 // Il2CppName: add_PreInstall
 template<>

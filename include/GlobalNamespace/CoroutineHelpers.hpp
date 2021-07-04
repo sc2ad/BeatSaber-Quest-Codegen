@@ -51,6 +51,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers*, "", "CoroutineHelpers");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::ExecuteAfterDelayCoroutine
 // Il2CppName: ExecuteAfterDelayCoroutine
 template<>

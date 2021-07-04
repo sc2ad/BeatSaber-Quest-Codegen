@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0
 // Il2CppName: <GetContentOfDirectory>b__0
 template<>

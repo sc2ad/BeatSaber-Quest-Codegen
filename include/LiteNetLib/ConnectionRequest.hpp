@@ -150,6 +150,12 @@ namespace LiteNetLib {
   static_assert(sizeof(ConnectionRequest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/NetConnectRequestPacket.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/NetManager.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::get_Result
 // Il2CppName: get_Result
 template<>

@@ -282,6 +282,14 @@ namespace System::IO {
   static_assert(sizeof(FileSystemWatcher) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher*, "System.IO", "FileSystemWatcher");
+// Writing includes for template specializations
+#include "System/Delegate.hpp"
+#include "System/EventArgs.hpp"
+#include "System/IO/FileSystemWatcher_EventType.hpp"
+#include "System/IO/FileSystemEventArgs.hpp"
+#include "System/IO/RenamedEventArgs.hpp"
+#include "System/IO/FileAction.hpp"
+#include "System/IO/FileSystemEventHandler.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemWatcher::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

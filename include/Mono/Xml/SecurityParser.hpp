@@ -101,6 +101,8 @@ namespace Mono::Xml {
   static_assert(sizeof(SecurityParser) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");
+// Writing includes for template specializations
+#include "Mono/Xml/SmallXmlParser_IAttrList.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SecurityParser::LoadXml
 // Il2CppName: LoadXml
 template<>

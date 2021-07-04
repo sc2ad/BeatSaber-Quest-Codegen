@@ -124,6 +124,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacket) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Property
 // Il2CppName: get_Property
 template<>

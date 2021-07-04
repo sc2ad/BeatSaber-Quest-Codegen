@@ -113,6 +113,7 @@ namespace System::Runtime::Remoting::Metadata {
   static_assert(sizeof(SoapTypeAttribute) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapTypeAttribute*, "System.Runtime.Remoting.Metadata", "SoapTypeAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName
 // Il2CppName: get_XmlElementName
 template<>

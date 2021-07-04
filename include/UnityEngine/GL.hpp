@@ -92,6 +92,10 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GL*, "UnityEngine", "GL");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::GL::Vertex3
 // Il2CppName: Vertex3
 template<>

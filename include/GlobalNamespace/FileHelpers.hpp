@@ -66,6 +66,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileHelpers*, "", "FileHelpers");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileHelpers::GetEscapedURLForFilePath
 // Il2CppName: GetEscapedURLForFilePath
 template<>

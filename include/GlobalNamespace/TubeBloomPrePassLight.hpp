@@ -299,6 +299,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeBloomPrePassLight) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent
 // Il2CppName: add_didRefreshEvent
 template<>

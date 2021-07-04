@@ -29,6 +29,7 @@ namespace System::Numerics::Hashing {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Numerics::Hashing::HashHelpers::Combine
 // Il2CppName: Combine
 template<>

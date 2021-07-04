@@ -58,6 +58,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(MeshValidation::$$c__DisplayClass10_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c__DisplayClass10_0");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0::$RebuildSelectionIndexes$b__0
 // Il2CppName: <RebuildSelectionIndexes>b__0
 template<>

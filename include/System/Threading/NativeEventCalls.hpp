@@ -49,6 +49,9 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls*, "System.Threading", "NativeEventCalls");
+// Writing includes for template specializations
+#include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Threading::NativeEventCalls::CreateEvent_internal
 // Il2CppName: CreateEvent_internal
 template<>

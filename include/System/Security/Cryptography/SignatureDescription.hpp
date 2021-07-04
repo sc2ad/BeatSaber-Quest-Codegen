@@ -70,6 +70,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SignatureDescription) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm
 // Il2CppName: set_KeyAlgorithm
 template<>

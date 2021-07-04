@@ -59,6 +59,8 @@ namespace Zenject {
   static_assert(sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

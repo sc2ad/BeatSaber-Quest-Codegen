@@ -91,6 +91,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController::Elements) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*, "", "EnvironmentOverrideSettingsPanelController/Elements");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::get_environmentInfos
 // Il2CppName: get_environmentInfos
 template<>

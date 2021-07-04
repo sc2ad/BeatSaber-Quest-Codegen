@@ -125,6 +125,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreRingItem) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem*, "", "MultiplayerScoreRingItem");
+// Writing includes for template specializations
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::Awake
 // Il2CppName: Awake
 template<>

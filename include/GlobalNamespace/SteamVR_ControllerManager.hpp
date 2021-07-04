@@ -179,6 +179,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_ControllerManager) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ControllerManager*, "", "SteamVR_ControllerManager");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::SetUniqueObject
 // Il2CppName: SetUniqueObject
 template<>

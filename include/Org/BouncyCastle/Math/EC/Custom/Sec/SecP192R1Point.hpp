@@ -88,6 +88,9 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Point*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP192R1Point");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Point::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

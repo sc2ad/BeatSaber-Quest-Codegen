@@ -168,6 +168,11 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/UI/Text.hpp"
+#include "UnityEngine/UI/Selectable.hpp"
+#include "UnityEngine/UI/DefaultControls_Resources.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::get_factory
 // Il2CppName: get_factory
 template<>

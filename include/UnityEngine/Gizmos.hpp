@@ -77,6 +77,10 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gizmos*, "UnityEngine", "Gizmos");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: UnityEngine::Gizmos::DrawLine
 // Il2CppName: DrawLine
 template<>

@@ -77,6 +77,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlueNoiseDitheringUpdater) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDitheringUpdater::OnEnable
 // Il2CppName: OnEnable
 template<>

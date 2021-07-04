@@ -243,6 +243,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator) == 0x110);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*, "", "SinglePlayerLevelSelectionFlowCoordinator");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode
 // Il2CppName: get_gameMode
 template<>

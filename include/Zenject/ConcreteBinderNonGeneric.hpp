@@ -96,6 +96,13 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteBinderNonGeneric*, "Zenject", "ConcreteBinderNonGeneric");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Action_1.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/BindStatement.hpp"
 // Writing MetadataGetter for method: Zenject::ConcreteBinderNonGeneric::ToSelf
 // Il2CppName: ToSelf
 template<>

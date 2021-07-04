@@ -303,6 +303,12 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstantiator*, "Zenject", "IInstantiator");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: Zenject::IInstantiator::Instantiate
 // Il2CppName: Instantiate
 // Cannot write MetadataGetter for generic methods!

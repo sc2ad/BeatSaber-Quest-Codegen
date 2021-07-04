@@ -68,6 +68,8 @@ namespace BeatSaberAPI::DataTransferObjects {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");
+// Writing includes for template specializations
+#include "BeatSaberAPI/DataTransferObjects/UserPlatform.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName
 // Il2CppName: GetUserPlatformFromSerializedName
 template<>

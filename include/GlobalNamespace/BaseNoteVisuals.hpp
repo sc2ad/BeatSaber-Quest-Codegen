@@ -89,6 +89,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseNoteVisuals) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteControllerBase.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::Awake
 // Il2CppName: Awake
 template<>

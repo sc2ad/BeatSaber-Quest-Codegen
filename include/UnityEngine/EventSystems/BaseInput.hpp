@@ -97,6 +97,9 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInput*, "UnityEngine.EventSystems", "BaseInput");
+// Writing includes for template specializations
+#include "UnityEngine/IMECompositionMode.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInput::get_compositionString
 // Il2CppName: get_compositionString
 template<>

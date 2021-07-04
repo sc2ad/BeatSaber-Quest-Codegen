@@ -59,6 +59,9 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ScaleXPointMap) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ScaleXPointMap*, "Org.BouncyCastle.Math.EC", "ScaleXPointMap");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ScaleXPointMap::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

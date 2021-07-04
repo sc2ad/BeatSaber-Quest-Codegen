@@ -106,6 +106,9 @@ namespace System::Runtime::Remoting::Channels {
   static_assert(sizeof(CrossAppDomainSink) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink*, "System.Runtime.Remoting.Channels", "CrossAppDomainSink");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/CADMethodCallMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainSink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

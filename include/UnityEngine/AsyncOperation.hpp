@@ -94,6 +94,8 @@ namespace UnityEngine {
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::InternalDestroy
 // Il2CppName: InternalDestroy
 template<>

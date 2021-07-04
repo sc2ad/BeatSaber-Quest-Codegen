@@ -97,6 +97,10 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::BuildField
 // Il2CppName: BuildField
 template<>

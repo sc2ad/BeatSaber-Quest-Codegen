@@ -86,6 +86,8 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADMethodRef) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "System.Runtime.Remoting.Messaging", "CADMethodRef");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes
 // Il2CppName: GetTypes
 template<>

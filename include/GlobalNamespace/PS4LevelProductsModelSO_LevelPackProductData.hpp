@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4LevelProductsModelSO::LevelPackProductData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*, "", "PS4LevelProductsModelSO/LevelPackProductData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel
 // Il2CppName: get_productLabel
 template<>

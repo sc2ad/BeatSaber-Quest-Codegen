@@ -65,6 +65,11 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities*, "UnityEngine.Timeline", "TimelineCreateUtilities");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::GenerateUniqueActorName
 // Il2CppName: GenerateUniqueActorName
 template<>

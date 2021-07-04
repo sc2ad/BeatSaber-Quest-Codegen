@@ -28,6 +28,7 @@ namespace UnityEngine::TestTools {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IEditModeTestYieldInstruction*, "UnityEngine.TestTools", "IEditModeTestYieldInstruction");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::IEditModeTestYieldInstruction::Perform
 // Il2CppName: Perform
 template<>

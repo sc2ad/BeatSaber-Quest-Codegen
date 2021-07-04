@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FixedScenesScenesTransitionSetupDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO*, "", "FixedScenesScenesTransitionSetupDataSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FixedScenesScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>

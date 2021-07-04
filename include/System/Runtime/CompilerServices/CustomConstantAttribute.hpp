@@ -39,6 +39,7 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CustomConstantAttribute*, "System.Runtime.CompilerServices", "CustomConstantAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CustomConstantAttribute::get_Value
 // Il2CppName: get_Value
 template<>

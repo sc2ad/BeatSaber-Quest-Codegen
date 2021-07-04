@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParametricBoxFakeGlowController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition
 // Il2CppName: set_localPosition
 template<>

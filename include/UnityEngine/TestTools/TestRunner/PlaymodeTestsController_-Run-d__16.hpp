@@ -75,6 +75,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(PlaymodeTestsController::$Run$d__16) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Run$d__16*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<Run>d__16");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Run$d__16::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

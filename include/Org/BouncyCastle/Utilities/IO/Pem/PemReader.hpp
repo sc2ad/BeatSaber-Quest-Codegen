@@ -59,6 +59,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static_assert(sizeof(PemReader) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");
+// Writing includes for template specializations
+#include "System/IO/TextReader.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

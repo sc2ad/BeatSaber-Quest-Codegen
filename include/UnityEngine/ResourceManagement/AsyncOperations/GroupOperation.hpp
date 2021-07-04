@@ -220,6 +220,9 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation/GroupOperationSettings");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash
 // Il2CppName: UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash
 template<>

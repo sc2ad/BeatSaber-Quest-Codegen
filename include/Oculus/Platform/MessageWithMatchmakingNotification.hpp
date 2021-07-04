@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithMatchmakingNotification
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingNotification*, "Oculus.Platform", "MessageWithMatchmakingNotification");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingNotification::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

@@ -119,6 +119,11 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
+#include "UnityEngine/Timeline/SignalAsset.hpp"
+#include "UnityEngine/Events/UnityEvent.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>

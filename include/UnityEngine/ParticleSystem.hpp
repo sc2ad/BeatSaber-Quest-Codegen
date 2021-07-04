@@ -299,6 +299,9 @@ namespace UnityEngine {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
+// Writing includes for template specializations
+#include "UnityEngine/ParticleSystemStopBehavior.hpp"
+#include "UnityEngine/ParticleSystem_EmitParams.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::Emit
 // Il2CppName: Emit
 template<>

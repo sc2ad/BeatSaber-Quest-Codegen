@@ -48,6 +48,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnection*, "", "IConnection");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IConnection::get_userId
 // Il2CppName: get_userId
 template<>

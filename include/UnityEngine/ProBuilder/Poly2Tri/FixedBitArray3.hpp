@@ -88,6 +88,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::get_Item
 // Il2CppName: get_Item
 template<>

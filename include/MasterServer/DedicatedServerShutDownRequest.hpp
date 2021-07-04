@@ -101,6 +101,9 @@ namespace MasterServer {
   static_assert(sizeof(DedicatedServerShutDownRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerShutDownRequest*, "MasterServer", "DedicatedServerShutDownRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::get_pool
 // Il2CppName: get_pool
 template<>

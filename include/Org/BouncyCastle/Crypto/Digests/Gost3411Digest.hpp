@@ -233,6 +233,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(Gost3411Digest) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411Digest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest::MakeC
 // Il2CppName: MakeC
 template<>

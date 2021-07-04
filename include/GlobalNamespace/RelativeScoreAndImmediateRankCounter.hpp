@@ -130,6 +130,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(RelativeScoreAndImmediateRankCounter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
 // Il2CppName: add_relativeScoreOrImmediateRankDidChangeEvent
 template<>

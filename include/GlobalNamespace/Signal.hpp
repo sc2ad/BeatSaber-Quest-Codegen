@@ -68,6 +68,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(Signal) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Signal::add__event
 // Il2CppName: add__event
 template<>

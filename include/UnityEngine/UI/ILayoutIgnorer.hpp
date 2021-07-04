@@ -21,6 +21,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutIgnorer*, "UnityEngine.UI", "ILayoutIgnorer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutIgnorer::get_ignoreLayout
 // Il2CppName: get_ignoreLayout
 template<>

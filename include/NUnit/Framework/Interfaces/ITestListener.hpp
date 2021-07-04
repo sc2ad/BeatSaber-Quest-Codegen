@@ -38,6 +38,10 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestListener*, "NUnit.Framework.Interfaces", "ITestListener");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
+#include "NUnit/Framework/Interfaces/TestOutput.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestListener::TestStarted
 // Il2CppName: TestStarted
 template<>

@@ -128,6 +128,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPoseRestrictions) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseRestrictions*, "", "AvatarPoseRestrictions");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::Start
 // Il2CppName: Start
 template<>

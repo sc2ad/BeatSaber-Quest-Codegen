@@ -74,6 +74,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTemporalFiltering) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTemporalFiltering*, "", "SimpleTemporalFiltering");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTemporalFiltering::FilterTexture
 // Il2CppName: FilterTexture
 template<>

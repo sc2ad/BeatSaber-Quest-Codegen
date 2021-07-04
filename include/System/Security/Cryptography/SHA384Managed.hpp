@@ -122,6 +122,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA384Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::InitializeState
 // Il2CppName: InitializeState
 template<>

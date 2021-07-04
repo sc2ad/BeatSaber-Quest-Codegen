@@ -136,6 +136,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerQuickPlaySetupModel) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupModel*, "", "MasterServerQuickPlaySetupModel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
 // Il2CppName: GetQuickPlaySetupAsync
 template<>

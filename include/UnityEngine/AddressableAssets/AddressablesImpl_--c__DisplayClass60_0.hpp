@@ -80,6 +80,7 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass60_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0::$LoadContentCatalogAsync$b__0
 // Il2CppName: <LoadContentCatalogAsync>b__0
 template<>

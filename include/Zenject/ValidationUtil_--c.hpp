@@ -60,6 +60,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil::$$c*, "Zenject", "ValidationUtil/<>c");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::_cctor
 // Il2CppName: .cctor
 template<>

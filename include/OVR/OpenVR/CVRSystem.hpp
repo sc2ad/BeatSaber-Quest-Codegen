@@ -247,6 +247,22 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRSystem) == 0x188);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");
+// Writing includes for template specializations
+#include "OVR/OpenVR/EVREye.hpp"
+#include "OVR/OpenVR/DistortionCoordinates_t.hpp"
+#include "OVR/OpenVR/ETextureType.hpp"
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/ETrackedDeviceClass.hpp"
+#include "OVR/OpenVR/ETrackedControllerRole.hpp"
+#include "OVR/OpenVR/ETrackedDeviceProperty.hpp"
+#include "OVR/OpenVR/ETrackedPropertyError.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "OVR/OpenVR/VREvent_t.hpp"
+#include "OVR/OpenVR/EVREventType.hpp"
+#include "OVR/OpenVR/EHiddenAreaMeshType.hpp"
+#include "OVR/OpenVR/VRControllerState_t.hpp"
+#include "OVR/OpenVR/EVRButtonId.hpp"
+#include "OVR/OpenVR/EVRControllerAxisType.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

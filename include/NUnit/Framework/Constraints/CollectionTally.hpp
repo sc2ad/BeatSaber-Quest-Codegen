@@ -73,6 +73,9 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(CollectionTally) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
+#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

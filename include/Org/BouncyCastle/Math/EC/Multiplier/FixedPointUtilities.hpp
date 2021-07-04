@@ -48,6 +48,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::GetCombSize
 // Il2CppName: GetCombSize
 template<>

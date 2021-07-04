@@ -116,6 +116,8 @@ namespace Org::BouncyCastle::Utilities::IO {
   static_assert(sizeof(FilterStream) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::FilterStream*, "Org.BouncyCastle.Utilities.IO", "FilterStream");
+// Writing includes for template specializations
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::FilterStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -318,6 +318,11 @@ namespace System::Text::RegularExpressions {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass*, "System.Text.RegularExpressions", "RegexCharClass");
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Globalization/UnicodeCategory.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::_cctor
 // Il2CppName: .cctor
 template<>

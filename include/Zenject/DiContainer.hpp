@@ -1748,6 +1748,25 @@ namespace Zenject {
   static_assert(sizeof(DiContainer) == 0x9D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "Zenject/ZenjectSettings.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "Zenject/IValidatable.hpp"
+#include "Zenject/BindStatement.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "Zenject/BindingCondition.hpp"
+#include "Zenject/IProvider.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/InjectSources.hpp"
+#include "System/Type.hpp"
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+#include "Zenject/InjectTypeInfo.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

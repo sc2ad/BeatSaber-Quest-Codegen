@@ -41,6 +41,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsBestGraphicsValues*, "", "MainSettingsBestGraphicsValues");
+// Writing includes for template specializations
+#include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues
 // Il2CppName: ApplyValues
 template<>

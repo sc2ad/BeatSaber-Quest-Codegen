@@ -42,6 +42,7 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::TimerComparer*, "System.Threading", "Timer/TimerComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Timer::TimerComparer::Compare
 // Il2CppName: Compare
 template<>

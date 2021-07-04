@@ -50,6 +50,9 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipCapsExtensions*, "UnityEngine.Timeline", "TimelineClipCapsExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineClip.hpp"
+#include "UnityEngine/Timeline/ClipCaps.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping
 // Il2CppName: SupportsLooping
 template<>

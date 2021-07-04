@@ -388,6 +388,13 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/UI/Scrollbar_ScrollEvent.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/EventSystems/AxisEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_handleRect
 // Il2CppName: get_handleRect
 template<>

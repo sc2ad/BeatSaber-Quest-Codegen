@@ -256,6 +256,28 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuTransitionsHelper) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/OverrideEnvironmentSettings.hpp"
+#include "GlobalNamespace/ColorScheme.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/PlayerSpecificSettings.hpp"
+#include "GlobalNamespace/PracticeSettings.hpp"
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "GlobalNamespace/MissionLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
+#include "GlobalNamespace/CreditsScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/BeatmapEditorScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartStandardLevel
 // Il2CppName: StartStandardLevel
 template<>

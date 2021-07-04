@@ -141,6 +141,12 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager*, "TMPro", "TMP_MaterialManager");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::_cctor
 // Il2CppName: .cctor
 template<>

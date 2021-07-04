@@ -69,6 +69,7 @@ namespace OVRSimpleJSON {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::ValueEnumerator, "OVRSimpleJSON", "JSONNode/ValueEnumerator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::ValueEnumerator::ValueEnumerator
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

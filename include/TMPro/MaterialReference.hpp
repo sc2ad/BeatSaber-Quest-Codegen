@@ -129,6 +129,11 @@ namespace TMPro {
   static_assert(sizeof(MaterialReference) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");
+// Writing includes for template specializations
+#include "TMPro/TMP_FontAsset.hpp"
+#include "TMPro/TMP_SpriteAsset.hpp"
+#include "UnityEngine/Material.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: TMPro::MaterialReference::MaterialReference
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

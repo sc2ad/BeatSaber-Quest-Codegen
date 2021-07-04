@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorTransitionSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTransitionSO*, "", "ColorTransitionSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ColorTransitionSO::get_normalColor
 // Il2CppName: get_normalColor
 template<>

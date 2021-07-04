@@ -69,6 +69,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBeatmapLevel) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevel*, "", "CustomBeatmapLevel");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
+#include "GlobalNamespace/BeatmapLevelData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevel::get_beatmapLevelData
 // Il2CppName: get_beatmapLevelData
 template<>

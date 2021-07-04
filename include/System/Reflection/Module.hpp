@@ -198,6 +198,9 @@ namespace System::Reflection {
   bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Module*, "System.Reflection", "Module");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::Module::GetObjectData
 // Il2CppName: GetObjectData
 template<>

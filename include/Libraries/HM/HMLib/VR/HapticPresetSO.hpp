@@ -66,6 +66,7 @@ namespace Libraries::HM::HMLib::VR {
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom
 // Il2CppName: CopyFrom
 template<>

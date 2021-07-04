@@ -97,6 +97,8 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeConditionHeaderValue*, "System.Net.Http.Headers", "RangeConditionHeaderValue");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/EntityTagHeaderValue.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

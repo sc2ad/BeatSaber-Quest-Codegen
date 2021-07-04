@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeOutSongPreviewPlayerOnSceneTransitionStart) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*, "", "FadeOutSongPreviewPlayerOnSceneTransitionStart");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::Start
 // Il2CppName: Start
 template<>

@@ -63,6 +63,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c*, "HMUI", "ScrollView/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c::_cctor
 // Il2CppName: .cctor
 template<>

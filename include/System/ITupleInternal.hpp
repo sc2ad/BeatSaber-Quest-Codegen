@@ -31,6 +31,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ITupleInternal*, "System", "ITupleInternal");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::ITupleInternal::ToString
 // Il2CppName: ToString
 template<>

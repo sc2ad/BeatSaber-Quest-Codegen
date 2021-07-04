@@ -164,6 +164,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(CamelliaEngine) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::CamelliaEngine*, "Org.BouncyCastle.Crypto.Engines", "CamelliaEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::CamelliaEngine::rightRotate
 // Il2CppName: rightRotate
 template<>

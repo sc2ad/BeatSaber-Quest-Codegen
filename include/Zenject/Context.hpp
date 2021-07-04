@@ -169,6 +169,12 @@ namespace Zenject {
   static_assert(sizeof(Context) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Type.hpp"
+#include "Zenject/InstallerBase.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/ZenjectBinding.hpp"
 // Writing MetadataGetter for method: Zenject::Context::get_Installers
 // Il2CppName: get_Installers
 template<>

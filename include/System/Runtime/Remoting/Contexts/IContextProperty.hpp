@@ -38,6 +38,8 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty*, "System.Runtime.Remoting.Contexts", "IContextProperty");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/Context.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::get_Name
 // Il2CppName: get_Name
 template<>

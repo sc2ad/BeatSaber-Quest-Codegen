@@ -392,6 +392,18 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");
+// Writing includes for template specializations
+#include "System/Net/IWebConnectionState.hpp"
+#include "System/Net/ServicePoint.hpp"
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/Uri.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Exception.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Net/WebConnectionData.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/EventArgs.hpp"
+#include "System/Net/NetworkCredential.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

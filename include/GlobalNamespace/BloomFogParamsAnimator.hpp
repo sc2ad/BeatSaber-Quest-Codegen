@@ -79,6 +79,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsAnimator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator*, "", "BloomFogParamsAnimator");
+// Writing includes for template specializations
+#include "GlobalNamespace/BloomFogEnvironmentParams.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange
 // Il2CppName: AnimateBloomFogParamsChange
 template<>

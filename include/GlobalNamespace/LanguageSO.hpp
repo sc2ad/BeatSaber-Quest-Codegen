@@ -37,6 +37,7 @@ namespace GlobalNamespace {
   }; // LanguageSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSO*, "", "LanguageSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LanguageSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

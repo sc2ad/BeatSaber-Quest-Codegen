@@ -102,6 +102,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(DsaParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/DsaValidationParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

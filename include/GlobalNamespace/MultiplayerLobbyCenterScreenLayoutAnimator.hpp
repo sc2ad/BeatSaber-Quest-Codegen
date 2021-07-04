@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyCenterScreenLayoutAnimator) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*, "", "MultiplayerLobbyCenterScreenLayoutAnimator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::StartCountdown
 // Il2CppName: StartCountdown
 template<>

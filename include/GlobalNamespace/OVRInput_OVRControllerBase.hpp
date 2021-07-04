@@ -150,6 +150,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerBase) == 0x101);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRInput_Button.hpp"
+#include "GlobalNamespace/OVRInput_Touch.hpp"
+#include "GlobalNamespace/OVRInput_NearTouch.hpp"
+#include "GlobalNamespace/OVRInput_Axis1D.hpp"
+#include "GlobalNamespace/OVRInput_Axis2D.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::Update
 // Il2CppName: Update
 template<>

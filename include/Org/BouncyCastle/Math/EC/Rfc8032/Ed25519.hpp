@@ -208,6 +208,11 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IDigest.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519_PointAccum.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519_PointExt.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519_PointPrecomp.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS
 // Il2CppName: CalculateS
 template<>

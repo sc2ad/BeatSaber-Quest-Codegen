@@ -80,6 +80,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioClipLoaderSO) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoaderSO");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFile
 // Il2CppName: LoadAudioFile
 template<>

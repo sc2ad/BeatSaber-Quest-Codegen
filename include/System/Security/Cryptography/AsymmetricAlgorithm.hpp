@@ -82,6 +82,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(AsymmetricAlgorithm) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>

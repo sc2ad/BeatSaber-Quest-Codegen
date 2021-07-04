@@ -77,6 +77,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(DirectionalLightWithId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

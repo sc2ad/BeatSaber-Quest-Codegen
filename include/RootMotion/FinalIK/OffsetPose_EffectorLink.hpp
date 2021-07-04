@@ -78,6 +78,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::Apply
 // Il2CppName: Apply
 template<>

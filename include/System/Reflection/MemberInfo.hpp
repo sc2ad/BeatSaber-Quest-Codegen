@@ -114,6 +114,8 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfo*, "System.Reflection", "MemberInfo");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::MemberInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>

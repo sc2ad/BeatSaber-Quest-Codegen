@@ -132,6 +132,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(TableViewWithDetailCell) == 0xC4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/TableViewWithDetailCell_IDataSource.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent
 // Il2CppName: add_didSelectContentCellEvent
 template<>

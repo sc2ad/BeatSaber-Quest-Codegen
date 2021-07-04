@@ -390,6 +390,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkPlayerModel) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel*, "", "LocalNetworkPlayerModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/LocalNetworkPlayerModel_LocalNetworkPlayer.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::get_canInvitePlayers
 // Il2CppName: get_canInvitePlayers
 template<>

@@ -42,6 +42,7 @@ namespace LiteNetLib::Utils {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get
 // Il2CppName: Get
 // Cannot write MetadataGetter for generic methods!

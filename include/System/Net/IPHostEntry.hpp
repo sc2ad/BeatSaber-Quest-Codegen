@@ -79,6 +79,7 @@ namespace System::Net {
   static_assert(sizeof(IPHostEntry) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::IPHostEntry::get_HostName
 // Il2CppName: get_HostName
 template<>

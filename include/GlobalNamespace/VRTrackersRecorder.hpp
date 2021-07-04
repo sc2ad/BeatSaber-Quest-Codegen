@@ -199,6 +199,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::Awake
 // Il2CppName: Awake
 template<>

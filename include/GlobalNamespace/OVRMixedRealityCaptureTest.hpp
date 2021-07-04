@@ -134,6 +134,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Start
 // Il2CppName: Start
 template<>

@@ -135,6 +135,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData*, "", "TestSaberModulationData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData::ModulationType, "", "TestSaberModulationData/ModulationType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TestSaberModulationData::Evaluate
 // Il2CppName: Evaluate
 template<>

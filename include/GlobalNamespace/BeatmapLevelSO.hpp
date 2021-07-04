@@ -390,6 +390,13 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult, "", "BeatmapLevelSO/GetBeatmapLevelDataResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result, "", "BeatmapLevelSO/GetBeatmapLevelDataResult/Result");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
+#include "UnityEngine/Sprite.hpp"
+#include "GlobalNamespace/EnvironmentInfoSO.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelID
 // Il2CppName: get_levelID
 template<>

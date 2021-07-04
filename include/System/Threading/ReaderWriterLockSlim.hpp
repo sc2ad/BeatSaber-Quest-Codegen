@@ -368,6 +368,10 @@ namespace System::Threading {
   static_assert(sizeof(ReaderWriterLockSlim) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");
+// Writing includes for template specializations
+#include "System/Threading/ReaderWriterCount.hpp"
+#include "System/Threading/ReaderWriterLockSlim_TimeoutTracker.hpp"
+#include "System/Threading/EventWaitHandle.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::InitializeThreadCounts
 // Il2CppName: InitializeThreadCounts
 template<>

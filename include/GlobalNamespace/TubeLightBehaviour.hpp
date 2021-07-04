@@ -135,6 +135,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeLightBehaviour) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightBehaviour*, "", "TubeLightBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>

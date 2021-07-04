@@ -221,6 +221,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRendererSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/KawaseBlurRendererSO_KernelSize.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "GlobalNamespace/KawaseBlurRendererSO_WeightsType.hpp"
+#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel
 // Il2CppName: GetBlurKernel
 template<>

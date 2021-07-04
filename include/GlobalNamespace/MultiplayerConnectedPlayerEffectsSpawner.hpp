@@ -82,6 +82,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerEffectsSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*, "", "MultiplayerConnectedPlayerEffectsSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::Start
 // Il2CppName: Start
 template<>

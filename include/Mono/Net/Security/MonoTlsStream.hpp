@@ -117,6 +117,9 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MonoTlsStream) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
+// Writing includes for template specializations
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/Net/Sockets/NetworkStream.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_Request
 // Il2CppName: get_Request
 template<>

@@ -82,6 +82,9 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainImpl*, "System.Security.Cryptography.X509Certificates", "X509ChainImpl");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509ChainPolicy.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::get_IsValid
 // Il2CppName: get_IsValid
 template<>

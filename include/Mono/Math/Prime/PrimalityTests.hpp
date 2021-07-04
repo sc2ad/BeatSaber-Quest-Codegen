@@ -37,6 +37,9 @@ namespace Mono::Math::Prime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");
+// Writing includes for template specializations
+#include "Mono/Math/BigInteger.hpp"
+#include "Mono/Math/Prime/ConfidenceFactor.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTests::GetSPPRounds
 // Il2CppName: GetSPPRounds
 template<>

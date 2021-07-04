@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithUserList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserList*, "Oculus.Platform", "MessageWithUserList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithUserList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

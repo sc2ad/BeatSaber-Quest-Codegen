@@ -112,6 +112,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Poser) == 0x4D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Poser*, "RootMotion.FinalIK", "Poser");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::Poser::AutoMapping
 // Il2CppName: AutoMapping
 template<>

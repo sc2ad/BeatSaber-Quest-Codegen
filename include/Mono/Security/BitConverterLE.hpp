@@ -46,6 +46,7 @@ namespace Mono::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::BitConverterLE*, "Mono.Security", "BitConverterLE");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::BitConverterLE::GetUIntBytes
 // Il2CppName: GetUIntBytes
 template<>

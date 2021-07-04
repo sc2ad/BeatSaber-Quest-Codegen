@@ -69,6 +69,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$$c*, "", "MockBeatmapLoader/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c::_cctor
 // Il2CppName: .cctor
 template<>

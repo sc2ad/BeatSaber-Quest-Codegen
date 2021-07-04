@@ -173,6 +173,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeLightIntensityBehaviour) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityBehaviour*, "", "TubeLightIntensityBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects
 // Il2CppName: EnableObjects
 template<>

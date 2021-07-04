@@ -138,6 +138,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform*, "UnityEngine", "RectTransform");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform_ReapplyDrivenProperties.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/RectTransform_Axis.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransform::add_reapplyDrivenProperties
 // Il2CppName: add_reapplyDrivenProperties
 template<>

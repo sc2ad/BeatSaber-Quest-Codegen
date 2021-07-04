@@ -123,6 +123,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MirroredBeatmapObjectManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "MirroredBeatmapObjectManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapObjectManager.hpp"
+#include "GlobalNamespace/MirroredCubeNoteController_Pool.hpp"
+#include "GlobalNamespace/MirroredBombNoteController_Pool.hpp"
+#include "GlobalNamespace/MirroredObstacleController_Pool.hpp"
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/ObstacleController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

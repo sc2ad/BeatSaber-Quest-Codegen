@@ -133,6 +133,14 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities*, "TMPro", "TMP_TextUtilities");
+// Writing includes for template specializations
+#include "TMPro/TMP_Text.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "TMPro/CaretPosition.hpp"
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "TMPro/TMP_TextUtilities_LineSegment.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetCursorIndexFromPosition
 // Il2CppName: GetCursorIndexFromPosition
 template<>

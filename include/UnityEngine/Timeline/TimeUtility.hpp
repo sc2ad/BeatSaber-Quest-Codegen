@@ -94,6 +94,9 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ValidateFrameRate
 // Il2CppName: ValidateFrameRate
 template<>

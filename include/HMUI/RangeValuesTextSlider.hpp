@@ -153,6 +153,8 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RangeValuesTextSlider*, "HMUI", "RangeValuesTextSlider");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_minValue
 // Il2CppName: get_minValue
 template<>

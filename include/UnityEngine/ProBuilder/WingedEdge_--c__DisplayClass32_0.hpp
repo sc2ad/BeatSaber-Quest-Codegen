@@ -57,6 +57,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(WingedEdge::$$c__DisplayClass32_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0*, "UnityEngine.ProBuilder", "WingedEdge/<>c__DisplayClass32_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0::$SortCommonIndexesByAdjacency$b__0
 // Il2CppName: <SortCommonIndexesByAdjacency>b__0
 template<>

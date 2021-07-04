@@ -43,6 +43,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::DrawTexture
 // Il2CppName: DrawTexture
 template<>

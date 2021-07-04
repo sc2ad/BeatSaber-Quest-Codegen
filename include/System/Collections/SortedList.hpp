@@ -240,6 +240,9 @@ namespace System::Collections {
   static_assert(sizeof(SortedList) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");
+// Writing includes for template specializations
+#include "System/Collections/IComparer.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::Init
 // Il2CppName: Init
 template<>

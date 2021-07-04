@@ -109,6 +109,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(TeaEngine) == 0x22);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::TeaEngine*, "Org.BouncyCastle.Crypto.Engines", "TeaEngine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TeaEngine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

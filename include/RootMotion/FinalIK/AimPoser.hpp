@@ -72,6 +72,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimPoser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/AimPoser_Pose.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::GetPose
 // Il2CppName: GetPose
 template<>

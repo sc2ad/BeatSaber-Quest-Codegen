@@ -55,6 +55,10 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*, "System.Net.Http.Headers", "TransferCodingWithQualityHeaderValue");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>

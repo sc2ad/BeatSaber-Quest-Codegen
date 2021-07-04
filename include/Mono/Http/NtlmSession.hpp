@@ -62,6 +62,9 @@ namespace Mono::Http {
   static_assert(sizeof(NtlmSession) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
+// Writing includes for template specializations
+#include "System/Net/WebRequest.hpp"
+#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate
 // Il2CppName: Authenticate
 template<>

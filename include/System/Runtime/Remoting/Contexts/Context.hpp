@@ -275,6 +275,15 @@ namespace System::Runtime::Remoting::Contexts {
   static_assert(sizeof(Context) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/IDynamicProperty.hpp"
+#include "System/ContextBoundObject.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "System/Runtime/Remoting/Contexts/IContextProperty.hpp"
+#include "System/MarshalByRefObject.hpp"
+#include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
+#include "System/Runtime/Remoting/Contexts/CrossContextDelegate.hpp"
+#include "System/LocalDataStoreSlot.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::RegisterContext
 // Il2CppName: RegisterContext
 template<>

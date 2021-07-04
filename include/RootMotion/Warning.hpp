@@ -41,6 +41,9 @@ namespace RootMotion {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Warning*, "RootMotion", "Warning");
+// Writing includes for template specializations
+#include "RootMotion/Warning_Logger.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::Warning::Log
 // Il2CppName: Log
 template<>

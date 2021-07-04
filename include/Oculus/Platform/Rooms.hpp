@@ -126,6 +126,12 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Rooms*, "Oculus.Platform", "Rooms");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "Oculus/Platform/RoomJoinPolicy.hpp"
+#include "Oculus/Platform/RoomOptions.hpp"
+#include "Oculus/Platform/RoomMembershipLockStatus.hpp"
+#include "Oculus/Platform/Models/RoomList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::UpdateDataStore
 // Il2CppName: UpdateDataStore
 template<>

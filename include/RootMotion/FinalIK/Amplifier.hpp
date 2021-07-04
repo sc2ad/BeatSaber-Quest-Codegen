@@ -61,6 +61,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Amplifier) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>

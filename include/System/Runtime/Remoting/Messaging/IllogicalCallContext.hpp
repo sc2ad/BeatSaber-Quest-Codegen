@@ -81,6 +81,7 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(IllogicalCallContext) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore
 // Il2CppName: get_Datastore
 template<>

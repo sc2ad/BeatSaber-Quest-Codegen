@@ -150,6 +150,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

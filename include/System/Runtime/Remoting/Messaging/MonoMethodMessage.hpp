@@ -263,6 +263,13 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(MonoMethodMessage) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
+// Writing includes for template specializations
+#include "System/Reflection/MonoMethod.hpp"
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Identity.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::InitMessage
 // Il2CppName: InitMessage
 template<>

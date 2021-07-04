@@ -133,6 +133,8 @@ namespace System::Collections {
   static_assert(sizeof(CollectionBase) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase*, "System.Collections", "CollectionBase");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::CollectionBase::get_InnerList
 // Il2CppName: get_InnerList
 template<>

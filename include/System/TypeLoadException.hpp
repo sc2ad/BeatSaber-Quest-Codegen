@@ -116,6 +116,8 @@ namespace System {
   static_assert(sizeof(TypeLoadException) == 0xA4);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeLoadException*, "System", "TypeLoadException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::TypeLoadException::SetMessageField
 // Il2CppName: SetMessageField
 template<>

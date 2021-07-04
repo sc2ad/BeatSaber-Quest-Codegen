@@ -101,6 +101,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayLevelSceneTransitionEvents) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayLevelSceneTransitionEvents*, "", "GameplayLevelSceneTransitionEvents");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MissionLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent
 // Il2CppName: add_anyGameplayLevelDidFinishEvent
 template<>

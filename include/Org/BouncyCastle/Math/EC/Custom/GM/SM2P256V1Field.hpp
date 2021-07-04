@@ -96,6 +96,9 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1Field");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field::Add
 // Il2CppName: Add
 template<>

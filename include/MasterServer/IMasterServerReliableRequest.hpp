@@ -30,6 +30,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServer", "IMasterServerReliableRequest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::IMasterServerReliableRequest::get_requestId
 // Il2CppName: get_requestId
 template<>

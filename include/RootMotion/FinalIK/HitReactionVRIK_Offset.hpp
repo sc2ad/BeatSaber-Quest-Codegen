@@ -157,6 +157,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReactionVRIK::Offset) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::Offset*, "RootMotion.FinalIK", "HitReactionVRIK/Offset");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/VRIK.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::Offset::get_crossFader
 // Il2CppName: get_crossFader
 template<>

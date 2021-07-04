@@ -211,6 +211,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalLeaderboardViewController) == 0xCA);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");
+// Writing includes for template specializations
+#include "HMUI/SegmentedControl.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel
 // Il2CppName: get_leaderboardsModel
 template<>

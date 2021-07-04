@@ -100,6 +100,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation*, "UnityEngine", "Animation");
+// Writing includes for template specializations
+#include "UnityEngine/PlayMode.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animation::get_clip
 // Il2CppName: get_clip
 template<>

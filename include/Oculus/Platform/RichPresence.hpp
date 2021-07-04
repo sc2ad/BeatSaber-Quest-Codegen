@@ -48,6 +48,9 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresence*, "Oculus.Platform", "RichPresence");
+// Writing includes for template specializations
+#include "Oculus/Platform/RichPresenceOptions.hpp"
+#include "Oculus/Platform/Models/DestinationList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RichPresence::Clear
 // Il2CppName: Clear
 template<>

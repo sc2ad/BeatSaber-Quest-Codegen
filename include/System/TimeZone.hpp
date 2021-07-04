@@ -62,6 +62,8 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZone*, "System", "TimeZone");
+// Writing includes for template specializations
+#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::TimeZone::get_CurrentTimeZone
 // Il2CppName: get_CurrentTimeZone
 template<>

@@ -37,6 +37,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone
 // Il2CppName: Clone
 template<>

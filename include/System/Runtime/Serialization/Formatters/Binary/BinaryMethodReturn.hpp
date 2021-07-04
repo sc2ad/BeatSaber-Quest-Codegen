@@ -104,6 +104,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryMethodReturn) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::_cctor
 // Il2CppName: .cctor
 template<>

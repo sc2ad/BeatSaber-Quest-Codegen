@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandaloneMonobehavior::$RunAsyncCoroutine$d__21) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21*, "", "StandaloneMonobehavior/<RunAsyncCoroutine>d__21");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

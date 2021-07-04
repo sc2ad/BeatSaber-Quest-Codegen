@@ -62,6 +62,7 @@ namespace System::Reflection {
   static_assert(sizeof(CustomAttributeData::LazyCAttrData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::LazyCAttrData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

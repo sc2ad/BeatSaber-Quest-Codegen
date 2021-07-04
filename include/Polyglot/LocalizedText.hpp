@@ -69,6 +69,9 @@ namespace Polyglot {
   }; // Polyglot.LocalizedText
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedText*, "Polyglot", "LocalizedText");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Text.hpp"
+#include "UnityEngine/TextAnchor.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedText::SetText
 // Il2CppName: SetText
 template<>

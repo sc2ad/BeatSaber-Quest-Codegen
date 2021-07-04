@@ -63,6 +63,11 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PublicKeyFactory*, "Org.BouncyCastle.Security", "PublicKeyFactory");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/X509/SubjectPublicKeyInfo.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::CreateKey
 // Il2CppName: CreateKey
 template<>

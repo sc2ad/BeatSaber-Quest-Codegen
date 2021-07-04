@@ -86,6 +86,9 @@ namespace System::Threading {
   static_assert(sizeof(QueueUserWorkItemCallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::QueueUserWorkItemCallback*, "System.Threading", "QueueUserWorkItemCallback");
+// Writing includes for template specializations
+#include "System/Threading/WaitCallback.hpp"
+#include "System/Threading/ThreadAbortException.hpp"
 // Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::_cctor
 // Il2CppName: .cctor
 template<>

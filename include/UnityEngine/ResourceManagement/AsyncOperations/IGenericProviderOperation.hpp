@@ -115,6 +115,14 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IGenericProviderOperation");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/IResourceProvider.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Func_1.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::Init
 // Il2CppName: Init
 template<>

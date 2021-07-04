@@ -49,6 +49,9 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClippable*, "UnityEngine.UI", "IClippable");
+// Writing includes for template specializations
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IClippable::get_gameObject
 // Il2CppName: get_gameObject
 template<>

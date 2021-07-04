@@ -84,6 +84,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::_cctor
 // Il2CppName: .cctor
 template<>

@@ -271,6 +271,11 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/Module.hpp"
+#include "System/Security/Policy/Evidence.hpp"
 // Writing MetadataGetter for method: System::Reflection::Assembly::get_code_base
 // Il2CppName: get_code_base
 template<>

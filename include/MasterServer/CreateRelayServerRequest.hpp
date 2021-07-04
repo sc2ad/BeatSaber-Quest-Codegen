@@ -160,6 +160,10 @@ namespace MasterServer {
   static_assert(sizeof(CreateRelayServerRequest) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerRequest*, "MasterServer", "CreateRelayServerRequest");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::get_pool
 // Il2CppName: get_pool
 template<>

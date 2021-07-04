@@ -98,6 +98,8 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationMixerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMixerPlayable, "UnityEngine.Animations", "AnimationMixerPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationMixerPlayable::Create
 // Il2CppName: Create
 template<>

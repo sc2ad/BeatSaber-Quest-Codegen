@@ -126,6 +126,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerMockSettings) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMockSettings*, "", "MultiplayerMockSettings");
+// Writing includes for template specializations
+#include "GlobalNamespace/MasterServerQuickPlaySetupData.hpp"
+#include "GlobalNamespace/MasterServerAvailabilityData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_quickplayServer
 // Il2CppName: get_quickplayServer
 template<>

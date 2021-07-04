@@ -74,6 +74,12 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskUtilities");
+// Writing includes for template specializations
+#include "UnityEngine/Component.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/UI/IClippable.hpp"
+#include "UnityEngine/UI/RectMask2D.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged
 // Il2CppName: Notify2DMaskStateChanged
 template<>

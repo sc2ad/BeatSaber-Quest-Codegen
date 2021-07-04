@@ -324,6 +324,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/NoteJump.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteMovement::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>

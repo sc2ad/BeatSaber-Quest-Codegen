@@ -45,6 +45,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish512Cipher");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

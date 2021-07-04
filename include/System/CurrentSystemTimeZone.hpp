@@ -65,6 +65,8 @@ namespace System {
   static_assert(sizeof(CurrentSystemTimeZone) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");
+// Writing includes for template specializations
+#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::GetTimeZoneData
 // Il2CppName: GetTimeZoneData
 template<>

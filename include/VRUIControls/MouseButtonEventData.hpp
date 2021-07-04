@@ -61,6 +61,7 @@ namespace VRUIControls {
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame
 // Il2CppName: PressedThisFrame
 template<>

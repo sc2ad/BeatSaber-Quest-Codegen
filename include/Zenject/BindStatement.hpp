@@ -98,6 +98,9 @@ namespace Zenject {
   static_assert(sizeof(BindStatement) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindStatement*, "Zenject", "BindStatement");
+// Writing includes for template specializations
+#include "Zenject/IBindingFinalizer.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::BindStatement::get_BindingInheritanceMethod
 // Il2CppName: get_BindingInheritanceMethod
 template<>

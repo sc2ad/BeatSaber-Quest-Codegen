@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithPurchase
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchase*, "Oculus.Platform", "MessageWithPurchase");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPurchase::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

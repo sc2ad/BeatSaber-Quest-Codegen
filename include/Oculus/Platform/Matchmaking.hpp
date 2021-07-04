@@ -112,6 +112,11 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking*, "Oculus.Platform", "Matchmaking");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "Oculus/Platform/MatchmakingStatApproach.hpp"
+#include "Oculus/Platform/Matchmaking_CustomQuery.hpp"
+#include "Oculus/Platform/MatchmakingOptions.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::ReportResultsInsecure
 // Il2CppName: ReportResultsInsecure
 template<>

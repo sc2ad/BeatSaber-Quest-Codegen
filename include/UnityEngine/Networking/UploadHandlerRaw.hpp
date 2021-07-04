@@ -42,6 +42,7 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.Networking", "UploadHandlerRaw");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::Create
 // Il2CppName: Create
 template<>

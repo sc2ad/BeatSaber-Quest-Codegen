@@ -49,6 +49,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NullConsoleDriver*, "System", "NullConsoleDriver");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::NullConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>

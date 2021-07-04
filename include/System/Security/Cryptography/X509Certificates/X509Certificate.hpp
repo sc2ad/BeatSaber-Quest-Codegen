@@ -202,6 +202,10 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509Certificate) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate*, "System.Security.Cryptography.X509Certificates", "X509Certificate");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509CertificateImpl.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509KeyStorageFlags.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

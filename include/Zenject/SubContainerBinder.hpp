@@ -204,6 +204,15 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBinder) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder*, "Zenject", "SubContainerBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/BindStatement.hpp"
+#include "Zenject/IBindingFinalizer.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Func_2.hpp"
+#include "System/Type.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -92,6 +92,13 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
+// Writing includes for template specializations
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/Runtime/CompilerServices/AsyncMethodBuilderCore_MoveNextRunner.hpp"
+#include "System/Action.hpp"
+#include "System/Exception.hpp"
+#include "System/Threading/SynchronizationContext.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>

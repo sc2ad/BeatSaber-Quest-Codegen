@@ -44,6 +44,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModelHelper*, "", "PlayerDataModelHelper");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlayerSaveData_PlayerAllOverallStatsData.hpp"
+#include "GlobalNamespace/PlayerSaveDataV1_0_1_PlayerAllOverallStatsData.hpp"
+#include "GlobalNamespace/PlayerSaveData_PlayerOverallStatsData.hpp"
+#include "GlobalNamespace/PlayerSaveDataV1_0_1_PlayerOverallStatsData.hpp"
+#include "GlobalNamespace/PlayerAllOverallStatsData_PlayerOverallStatsData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
 template<>

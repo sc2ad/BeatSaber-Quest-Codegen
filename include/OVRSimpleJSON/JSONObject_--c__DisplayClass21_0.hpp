@@ -62,6 +62,8 @@ namespace OVRSimpleJSON {
   static_assert(sizeof(JSONObject::$$c__DisplayClass21_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0*, "OVRSimpleJSON", "JSONObject/<>c__DisplayClass21_0");
+// Writing includes for template specializations
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0::$Remove$b__0
 // Il2CppName: <Remove>b__0
 template<>

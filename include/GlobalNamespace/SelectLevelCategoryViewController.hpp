@@ -187,6 +187,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent
 // Il2CppName: add_didSelectLevelCategoryEvent
 template<>

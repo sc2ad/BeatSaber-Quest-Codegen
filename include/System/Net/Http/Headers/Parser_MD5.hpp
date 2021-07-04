@@ -44,6 +44,7 @@ namespace System::Net::Http::Headers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::MD5*, "System.Net.Http.Headers", "Parser/MD5");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::TryParse
 // Il2CppName: TryParse
 template<>

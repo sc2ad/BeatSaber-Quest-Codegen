@@ -37,6 +37,7 @@ namespace TMPro {
   }; // TMPro.ColorTween/ColorTweenCallback
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenCallback*, "TMPro", "ColorTween/ColorTweenCallback");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::ColorTween::ColorTweenCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

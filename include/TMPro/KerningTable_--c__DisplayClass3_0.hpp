@@ -58,6 +58,8 @@ namespace TMPro {
   static_assert(sizeof(KerningTable::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass3_0*, "TMPro", "KerningTable/<>c__DisplayClass3_0");
+// Writing includes for template specializations
+#include "TMPro/KerningPair.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass3_0::$AddKerningPair$b__0
 // Il2CppName: <AddKerningPair>b__0
 template<>

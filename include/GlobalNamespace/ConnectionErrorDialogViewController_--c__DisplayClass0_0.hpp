@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::$Init$b__0
 // Il2CppName: <Init>b__0
 template<>

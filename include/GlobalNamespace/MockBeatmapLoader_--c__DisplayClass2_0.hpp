@@ -63,6 +63,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockBeatmapLoader::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*, "", "MockBeatmapLoader/<>c__DisplayClass2_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::$GetBeatmapData$b__0
 // Il2CppName: <GetBeatmapData>b__0
 template<>

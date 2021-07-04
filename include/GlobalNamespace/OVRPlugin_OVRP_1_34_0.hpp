@@ -45,6 +45,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_34_0*, "", "OVRPlugin/OVRP_1_34_0");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2
 // Il2CppName: ovrp_EnqueueSubmitLayer2
 template<>

@@ -57,6 +57,8 @@ namespace Oculus::Platform {
   static_assert(sizeof(Callback::RequestCallback) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_Callback.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RequestCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

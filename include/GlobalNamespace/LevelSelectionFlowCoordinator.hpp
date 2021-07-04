@@ -233,6 +233,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelSelectionFlowCoordinator) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");
+// Writing includes for template specializations
+#include "HMUI/ViewController_AnimationType.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/LevelSelectionFlowCoordinator_State.hpp"
+#include "GlobalNamespace/LevelSelectionNavigationController.hpp"
+#include "GlobalNamespace/SearchFilterParamsViewController.hpp"
+#include "GlobalNamespace/LevelFilterParams.hpp"
+#include "GlobalNamespace/LevelSearchViewController.hpp"
+#include "GlobalNamespace/IBeatmapLevel.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_isInRootViewController
 // Il2CppName: get_isInRootViewController
 template<>

@@ -156,6 +156,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightManager) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightManager*, "", "LightManager");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightManager::OnDisable
 // Il2CppName: OnDisable
 template<>

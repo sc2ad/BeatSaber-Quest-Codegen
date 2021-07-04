@@ -113,6 +113,11 @@ namespace Org::BouncyCastle::Crypto::Tls {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsDHUtilities*, "Org.BouncyCastle.Crypto.Tls", "TlsDHUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/DHParameters.hpp"
+#include "System/IO/Stream.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromHex
 // Il2CppName: FromHex
 template<>

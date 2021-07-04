@@ -546,6 +546,14 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPeer) == 0x148);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");
+// Writing includes for template specializations
+#include "LiteNetLib/NetManager.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/NetConnectAcceptPacket.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "LiteNetLib/NetPacket.hpp"
+#include "LiteNetLib/NetConnectRequestPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::get_ConnectionNum
 // Il2CppName: get_ConnectionNum
 template<>

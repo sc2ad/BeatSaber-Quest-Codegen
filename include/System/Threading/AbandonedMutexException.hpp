@@ -86,6 +86,9 @@ namespace System::Threading {
   static_assert(sizeof(AbandonedMutexException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");
+// Writing includes for template specializations
+#include "System/Threading/WaitHandle.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::AbandonedMutexException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

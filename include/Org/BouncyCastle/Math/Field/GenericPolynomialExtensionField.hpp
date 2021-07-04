@@ -81,6 +81,8 @@ namespace Org::BouncyCastle::Math::Field {
   static_assert(sizeof(GenericPolynomialExtensionField) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/Field/IPolynomial.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

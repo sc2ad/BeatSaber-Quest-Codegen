@@ -107,6 +107,7 @@ namespace UnityEngine::TextCore {
   static_assert(sizeof(GlyphRect) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_x
 // Il2CppName: get_x
 template<>

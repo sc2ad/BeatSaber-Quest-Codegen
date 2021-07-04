@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PrivacyPolicyViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController*, "", "PrivacyPolicyViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

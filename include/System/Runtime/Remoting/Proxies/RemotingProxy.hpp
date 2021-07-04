@@ -131,6 +131,12 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(RemotingProxy) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Remoting/Identity.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
+#include "System/Runtime/Remoting/ClientIdentity.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

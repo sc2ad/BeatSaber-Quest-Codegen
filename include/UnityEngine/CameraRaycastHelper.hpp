@@ -43,6 +43,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Ray.hpp"
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry
 // Il2CppName: RaycastTry
 template<>

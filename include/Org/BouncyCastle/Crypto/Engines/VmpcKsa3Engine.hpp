@@ -39,6 +39,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey
 // Il2CppName: InitKey
 template<>

@@ -42,6 +42,8 @@ namespace Zenject {
   }; // Zenject.FixedTickablesTaskUpdater
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FixedTickablesTaskUpdater*, "Zenject", "FixedTickablesTaskUpdater");
+// Writing includes for template specializations
+#include "Zenject/IFixedTickable.hpp"
 // Writing MetadataGetter for method: Zenject::FixedTickablesTaskUpdater::UpdateItem
 // Il2CppName: UpdateItem
 template<>

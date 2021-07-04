@@ -62,6 +62,8 @@ namespace Zenject {
   static_assert(sizeof(ConventionBindInfo::$$c__DisplayClass6_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo::$$c__DisplayClass6_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass6_0");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::$$c__DisplayClass6_0::$ShouldIncludeAssembly$b__0
 // Il2CppName: <ShouldIncludeAssembly>b__0
 template<>

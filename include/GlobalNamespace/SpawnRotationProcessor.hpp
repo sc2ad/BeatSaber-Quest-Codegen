@@ -63,6 +63,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationProcessor::get_rotation
 // Il2CppName: get_rotation
 template<>

@@ -182,6 +182,21 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUtil");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "System/Action_4.hpp"
+#include "System/Action_5.hpp"
+#include "System/Action_6.hpp"
+#include "System/Func_1.hpp"
+#include "System/Func_2.hpp"
+#include "System/Func_3.hpp"
+#include "System/Func_4.hpp"
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::CreateArray
 // Il2CppName: CreateArray
 template<>

@@ -73,6 +73,11 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
+// Writing includes for template specializations
+#include "System/Security/Policy/Evidence.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/Reflection/AssemblyName.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal
 // Il2CppName: LoadWithPartialNameInternal
 template<>

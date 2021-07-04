@@ -96,6 +96,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundNonLightRendererCore) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*, "", "BloomPrePassBackgroundNonLightRendererCore");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_renderer
 // Il2CppName: get_renderer
 template<>

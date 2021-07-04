@@ -60,6 +60,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentKeywords) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentKeywords::get_environmentKeywords
 // Il2CppName: get_environmentKeywords
 template<>

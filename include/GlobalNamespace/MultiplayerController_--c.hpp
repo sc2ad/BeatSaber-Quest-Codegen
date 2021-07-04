@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$$c*, "", "MultiplayerController/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

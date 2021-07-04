@@ -70,6 +70,8 @@ namespace System::Collections {
   static_assert(sizeof(Hashtable::ValueCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::ValueCollection*, "System.Collections", "Hashtable/ValueCollection");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::ValueCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

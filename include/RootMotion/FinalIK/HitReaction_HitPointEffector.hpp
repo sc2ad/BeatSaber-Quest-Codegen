@@ -88,6 +88,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReaction::HitPointEffector) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector*, "RootMotion.FinalIK", "HitReaction/HitPointEffector");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::GetLength
 // Il2CppName: GetLength
 template<>

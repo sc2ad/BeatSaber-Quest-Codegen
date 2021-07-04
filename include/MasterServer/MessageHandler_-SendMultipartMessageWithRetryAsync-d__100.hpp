@@ -155,6 +155,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__100, "MasterServer", "MessageHandler/<SendMultipartMessageWithRetryAsync>d__100");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__100::MoveNext
 // Il2CppName: MoveNext
 template<>

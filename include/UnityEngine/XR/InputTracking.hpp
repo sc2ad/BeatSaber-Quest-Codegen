@@ -84,6 +84,9 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");
+// Writing includes for template specializations
+#include "UnityEngine/XR/InputTracking_TrackingStateEventType.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputTracking::InvokeTrackingEvent
 // Il2CppName: InvokeTrackingEvent
 template<>

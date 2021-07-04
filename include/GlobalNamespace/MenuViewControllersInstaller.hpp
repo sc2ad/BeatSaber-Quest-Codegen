@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuViewControllersInstaller) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuViewControllersInstaller*, "", "MenuViewControllersInstaller");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuViewControllersInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

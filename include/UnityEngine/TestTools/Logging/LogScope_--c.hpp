@@ -61,6 +61,8 @@ namespace UnityEngine::TestTools::Logging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope::$$c*, "UnityEngine.TestTools.Logging", "LogScope/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/TestTools/Logging/LogEvent.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -170,6 +170,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::get_isFinished
 // Il2CppName: get_isFinished
 template<>

@@ -113,6 +113,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnection) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*, "", "LiteNetLibConnectionManager/NetPeerConnection");
+// Writing includes for template specializations
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::get_userId
 // Il2CppName: get_userId
 template<>

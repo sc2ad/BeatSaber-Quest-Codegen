@@ -330,6 +330,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainFlowCoordinator) == 0x150);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");
+// Writing includes for template specializations
+#include "GlobalNamespace/CampaignFlowCoordinator.hpp"
+#include "GlobalNamespace/LevelSelectionFlowCoordinator.hpp"
+#include "GlobalNamespace/MultiplayerModeSelectionFlowCoordinator.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/MenuDestination.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial
 // Il2CppName: PresentFlowCoordinatorOrAskForTutorial
 template<>

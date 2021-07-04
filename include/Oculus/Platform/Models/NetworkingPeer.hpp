@@ -59,6 +59,7 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(NetworkingPeer) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetworkingPeer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

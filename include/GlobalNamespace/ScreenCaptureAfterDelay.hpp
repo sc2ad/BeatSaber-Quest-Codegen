@@ -108,6 +108,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScreenCaptureAfterDelay) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::Start
 // Il2CppName: Start
 template<>

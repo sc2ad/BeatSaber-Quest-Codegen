@@ -108,6 +108,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(TextDataProvider::InternalOp) == 0x42);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider/InternalOp");
+// Writing includes for template specializations
+#include "UnityEngine/AsyncOperation.hpp"
+#include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::GetPercentComplete
 // Il2CppName: GetPercentComplete
 template<>

@@ -83,6 +83,7 @@ namespace System::Text {
   static_assert(sizeof(DecoderReplacementFallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallback*, "System.Text", "DecoderReplacementFallback");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

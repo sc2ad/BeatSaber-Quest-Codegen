@@ -350,6 +350,10 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand*, "", "OVRHand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::Hand, "", "OVRHand/Hand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::TrackingConfidence, "", "OVRHand/TrackingConfidence");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
+#include "GlobalNamespace/OVRHand_HandFinger.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>

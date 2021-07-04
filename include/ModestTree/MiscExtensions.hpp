@@ -120,6 +120,12 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/LinkedList_1.hpp"
+#include "System/Collections/Generic/IDictionary_2.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt
 // Il2CppName: Fmt
 template<>

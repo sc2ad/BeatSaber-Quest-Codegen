@@ -24,6 +24,7 @@ namespace System::Net::Http::Headers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Long*, "System.Net.Http.Headers", "Parser/Long");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::Long::TryParse
 // Il2CppName: TryParse
 template<>

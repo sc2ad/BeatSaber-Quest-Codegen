@@ -80,6 +80,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>

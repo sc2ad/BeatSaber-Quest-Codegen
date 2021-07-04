@@ -269,6 +269,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_RenderModel) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel*, "", "SteamVR_RenderModel");
+// Writing includes for template specializations
+#include "Valve/VR/CVRRenderModels.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "GlobalNamespace/SteamVR_RenderModel_RenderModelInterfaceHolder.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::get_renderModelName
 // Il2CppName: get_renderModelName
 template<>

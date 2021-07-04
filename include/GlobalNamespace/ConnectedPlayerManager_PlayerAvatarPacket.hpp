@@ -89,6 +89,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::PlayerAvatarPacket) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*, "", "ConnectedPlayerManager/PlayerAvatarPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket::get_pool
 // Il2CppName: get_pool
 template<>

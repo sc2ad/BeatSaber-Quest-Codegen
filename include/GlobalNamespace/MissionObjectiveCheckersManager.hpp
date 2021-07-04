@@ -153,6 +153,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveCheckersManager) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/MissionObjectiveChecker.hpp"
+#include "GlobalNamespace/MissionObjectiveTypeSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveCheckersManager::add_objectiveDidFailEvent
 // Il2CppName: add_objectiveDidFailEvent
 template<>

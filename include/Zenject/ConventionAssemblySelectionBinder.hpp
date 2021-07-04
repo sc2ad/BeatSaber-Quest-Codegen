@@ -127,6 +127,11 @@ namespace Zenject {
   static_assert(sizeof(ConventionAssemblySelectionBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");
+// Writing includes for template specializations
+#include "Zenject/ConventionBindInfo.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Reflection/Assembly.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

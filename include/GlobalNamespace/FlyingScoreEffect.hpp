@@ -149,6 +149,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingScoreEffect) == 0xBD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteCutInfo.hpp"
+#include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>

@@ -28,6 +28,8 @@ namespace Org::BouncyCastle::Math::EC {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPointMap*, "Org.BouncyCastle.Math.EC", "ECPointMap");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPointMap::Map
 // Il2CppName: Map
 template<>

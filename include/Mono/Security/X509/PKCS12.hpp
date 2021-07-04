@@ -238,6 +238,12 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(PKCS12) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKCS12");
+// Writing includes for template specializations
+#include "Mono/Security/PKCS7_EncryptedData.hpp"
+#include "Mono/Security/Cryptography/PKCS8_PrivateKeyInfo.hpp"
+#include "Mono/Security/ASN1.hpp"
+#include "Mono/Security/X509/X509Certificate.hpp"
+#include "System/Collections/IDictionary.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

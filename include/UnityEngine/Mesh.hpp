@@ -1038,6 +1038,12 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mesh*, "UnityEngine", "Mesh");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/IndexFormat.hpp"
+#include "System/Array.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Rendering/SubMeshDescriptor.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::Mesh::Internal_Create
 // Il2CppName: Internal_Create
 template<>

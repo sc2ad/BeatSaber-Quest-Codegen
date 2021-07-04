@@ -83,6 +83,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWTranscoder*, "UnityEngine", "WWWTranscoder");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Hex2Byte
 // Il2CppName: Hex2Byte
 template<>

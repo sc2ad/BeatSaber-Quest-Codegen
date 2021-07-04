@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   }; // TubeLightTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightTrack*, "", "TubeLightTrack");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightTrack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

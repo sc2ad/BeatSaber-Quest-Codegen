@@ -58,6 +58,8 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter::$$c*, "ModestTree", "TypeStringFormatter/<>c");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

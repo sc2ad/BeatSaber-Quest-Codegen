@@ -61,6 +61,10 @@ namespace UnityEngine::AI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/AI/NavMeshPath.hpp"
+#include "UnityEngine/AI/NavMeshHit.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::Internal_CallOnNavMeshPreUpdate
 // Il2CppName: Internal_CallOnNavMeshPreUpdate
 template<>

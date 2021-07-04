@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::$CheckForNewEntitlementsAsync$b__0
 // Il2CppName: <CheckForNewEntitlementsAsync>b__0
 template<>

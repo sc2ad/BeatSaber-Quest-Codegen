@@ -196,6 +196,9 @@ namespace System::Collections {
   static_assert(sizeof(ArrayList) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList*, "System.Collections", "ArrayList");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Collections::ArrayList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

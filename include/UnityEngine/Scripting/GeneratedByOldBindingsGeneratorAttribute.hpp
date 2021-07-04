@@ -35,6 +35,7 @@ namespace UnityEngine::Scripting {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

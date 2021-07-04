@@ -67,6 +67,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_16_0*, "", "OVRPlugin/OVRP_1_16_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_CameraDevice.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_UpdateCameraDevices
 // Il2CppName: ovrp_UpdateCameraDevices
 template<>

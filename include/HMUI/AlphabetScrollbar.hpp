@@ -203,6 +203,9 @@ namespace HMUI {
   static_assert(sizeof(AlphabetScrollbar) == 0x6D);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "TMPro/TextMeshProUGUI.hpp"
 // Writing MetadataGetter for method: HMUI::AlphabetScrollbar::Awake
 // Il2CppName: Awake
 template<>

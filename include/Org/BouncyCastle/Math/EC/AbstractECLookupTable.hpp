@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractECLookupTable*, "Org.BouncyCastle.Math.EC", "AbstractECLookupTable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractECLookupTable::Lookup
 // Il2CppName: Lookup
 template<>

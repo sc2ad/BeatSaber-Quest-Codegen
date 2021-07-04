@@ -39,6 +39,8 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ITextElement*, "TMPro", "ITextElement");
+// Writing includes for template specializations
+#include "UnityEngine/UI/CanvasUpdate.hpp"
 // Writing MetadataGetter for method: TMPro::ITextElement::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
 template<>

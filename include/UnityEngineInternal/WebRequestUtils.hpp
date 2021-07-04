@@ -50,6 +50,8 @@ namespace UnityEngineInternal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::RedirectTo
 // Il2CppName: RedirectTo
 template<>

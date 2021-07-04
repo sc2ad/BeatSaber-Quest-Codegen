@@ -167,6 +167,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::add_didInvalidateDataEvent
 // Il2CppName: add_didInvalidateDataEvent
 template<>

@@ -107,6 +107,13 @@ namespace Zenject {
   static_assert(sizeof(PrefabBindingFinalizer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabBindingFinalizer*, "Zenject", "PrefabBindingFinalizer");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
+#include "UnityEngine/Object.hpp"
+#include "System/Func_3.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

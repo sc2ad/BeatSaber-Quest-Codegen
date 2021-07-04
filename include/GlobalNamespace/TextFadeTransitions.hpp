@@ -151,6 +151,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::Awake
 // Il2CppName: Awake
 template<>

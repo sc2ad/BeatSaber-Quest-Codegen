@@ -61,6 +61,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(VoipAudioSourceHiLevel::FilterReadDelegate) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::Awake
 // Il2CppName: Awake
 template<>

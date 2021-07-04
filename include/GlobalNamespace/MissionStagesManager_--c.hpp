@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager::$$c*, "", "MissionStagesManager/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionStage.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

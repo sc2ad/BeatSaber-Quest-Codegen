@@ -113,6 +113,9 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(AsyncVoidMethodBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
+// Writing includes for template specializations
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Create
 // Il2CppName: Create
 template<>

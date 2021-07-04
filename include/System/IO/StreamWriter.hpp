@@ -262,6 +262,9 @@ namespace System::IO {
   static_assert(sizeof(StreamWriter) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::IO::StreamWriter::CheckAsyncTaskInProgress
 // Il2CppName: CheckAsyncTaskInProgress
 template<>

@@ -61,6 +61,8 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c*, "UnityEngine.AddressableAssets", "UpdateCatalogsOperation/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceProviders/IResourceProvider.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

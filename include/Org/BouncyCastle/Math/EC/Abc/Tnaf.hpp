@@ -111,6 +111,12 @@ namespace Org::BouncyCastle::Math::EC::Abc {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastle.Math.EC.Abc", "Tnaf");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Abc/ZTauElement.hpp"
+#include "Org/BouncyCastle/Math/EC/Abc/SimpleBigDecimal.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Math/EC/AbstractF2mCurve.hpp"
+#include "Org/BouncyCastle/Math/EC/AbstractF2mPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::Norm
 // Il2CppName: Norm
 template<>

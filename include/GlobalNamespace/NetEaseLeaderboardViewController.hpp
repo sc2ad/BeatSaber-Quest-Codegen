@@ -150,6 +150,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseLeaderboardViewController) == 0x9A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton
 // Il2CppName: HandleLoadingControlDidPressRefreshButton
 template<>

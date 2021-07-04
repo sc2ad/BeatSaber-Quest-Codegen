@@ -172,6 +172,8 @@ namespace System::Globalization {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
+// Writing includes for template specializations
+#include "System/Globalization/DateTimeFormatInfo.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::get_KnownWords
 // Il2CppName: get_KnownWords
 template<>

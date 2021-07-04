@@ -66,6 +66,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectNull) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectNull*, "System.Runtime.Serialization.Formatters.Binary", "ObjectNull");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectNull::SetNullCount
 // Il2CppName: SetNullCount
 template<>

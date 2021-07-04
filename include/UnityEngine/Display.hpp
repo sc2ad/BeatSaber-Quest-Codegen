@@ -113,6 +113,8 @@ namespace UnityEngine {
   static_assert(sizeof(Display) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: UnityEngine::Display::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -196,6 +196,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpecificSettings) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
+// Writing includes for template specializations
+#include "System/Nullable_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded
 // Il2CppName: get_leftHanded
 template<>

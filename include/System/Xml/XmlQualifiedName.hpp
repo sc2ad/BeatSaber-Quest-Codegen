@@ -122,6 +122,7 @@ namespace System::Xml {
   bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName*, "System.Xml", "XmlQualifiedName");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

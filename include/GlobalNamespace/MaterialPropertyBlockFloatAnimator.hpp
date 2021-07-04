@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyBlockFloatAnimator) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockFloatAnimator*, "", "MaterialPropertyBlockFloatAnimator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockFloatAnimator::SetProperty
 // Il2CppName: SetProperty
 template<>

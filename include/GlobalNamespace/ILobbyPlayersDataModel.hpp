@@ -120,6 +120,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayersDataModel*, "", "ILobbyPlayersDataModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::add_didChangeEvent
 // Il2CppName: add_didChangeEvent
 template<>

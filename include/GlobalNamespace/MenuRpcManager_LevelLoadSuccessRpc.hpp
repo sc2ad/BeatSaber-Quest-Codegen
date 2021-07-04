@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/LevelLoadSuccessRpc
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::LevelLoadSuccessRpc*, "", "MenuRpcManager/LevelLoadSuccessRpc");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::LevelLoadSuccessRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -103,6 +103,7 @@ namespace TMPro {
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement
 template<>

@@ -89,6 +89,13 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "ThreadPool");
+// Writing includes for template specializations
+#include "System/Threading/WaitHandle.hpp"
+#include "System/Threading/WaitOrTimerCallback.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/TimeSpan.hpp"
+#include "System/Threading/WaitCallback.hpp"
+#include "System/Threading/IThreadPoolWorkItem.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPool::RegisterWaitForSingleObject
 // Il2CppName: RegisterWaitForSingleObject
 template<>

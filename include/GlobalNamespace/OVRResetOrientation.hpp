@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRResetOrientation) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRResetOrientation::Update
 // Il2CppName: Update
 template<>

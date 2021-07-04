@@ -104,6 +104,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(MACTripleDES) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES*, "System.Security.Cryptography", "MACTripleDES");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

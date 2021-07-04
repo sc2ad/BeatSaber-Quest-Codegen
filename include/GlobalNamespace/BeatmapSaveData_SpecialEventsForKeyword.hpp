@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::SpecialEventsForKeyword) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*, "", "BeatmapSaveData/SpecialEventsForKeyword");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword
 // Il2CppName: get_keyword
 template<>

@@ -139,6 +139,7 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(ARC4Managed) == 0x5B);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::ARC4Managed*, "Mono.Security.Cryptography", "ARC4Managed");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_CanTransformMultipleBlocks
 // Il2CppName: get_CanTransformMultipleBlocks
 template<>

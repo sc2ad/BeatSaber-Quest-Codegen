@@ -48,6 +48,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithDataStoreUnderPrivateUserDataStore
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*, "Oculus.Platform", "MessageWithDataStoreUnderPrivateUserDataStore");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

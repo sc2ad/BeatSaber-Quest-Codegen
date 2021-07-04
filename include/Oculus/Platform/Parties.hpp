@@ -42,6 +42,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Parties::GetCurrent
 // Il2CppName: GetCurrent
 template<>

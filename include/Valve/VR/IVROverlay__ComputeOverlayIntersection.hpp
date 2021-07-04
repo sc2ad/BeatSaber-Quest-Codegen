@@ -59,6 +59,11 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ComputeOverlayIntersection*, "Valve.VR", "IVROverlay/_ComputeOverlayIntersection");
+// Writing includes for template specializations
+#include "Valve/VR/VROverlayIntersectionParams_t.hpp"
+#include "Valve/VR/VROverlayIntersectionResults_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_ComputeOverlayIntersection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

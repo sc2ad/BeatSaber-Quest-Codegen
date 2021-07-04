@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnniversaryManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start
 // Il2CppName: Start
 template<>

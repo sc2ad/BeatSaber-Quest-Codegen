@@ -70,6 +70,8 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");
+// Writing includes for template specializations
+#include "Mono/Net/CFString.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopAddSource
 // Il2CppName: CFRunLoopAddSource
 template<>

@@ -68,6 +68,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::BoneWeight1::get_weight
 // Il2CppName: get_weight
 template<>

@@ -91,6 +91,9 @@ namespace MasterServer {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");
+// Writing includes for template specializations
+#include "MasterServer/IMasterServerMessage.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

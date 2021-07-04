@@ -99,6 +99,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(UserLoginDtoDataSource) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::GetPlatformUserIdAsync
 // Il2CppName: GetPlatformUserIdAsync
 template<>

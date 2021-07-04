@@ -75,6 +75,7 @@ namespace Mono::Security::Protocol::Ntlm {
   static_assert(sizeof(Type2Message) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type2Message*, "Mono.Security.Protocol.Ntlm", "Type2Message");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

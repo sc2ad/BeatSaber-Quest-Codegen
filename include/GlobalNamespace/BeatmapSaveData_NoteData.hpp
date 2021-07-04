@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::NoteData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::NoteData::get_time
 // Il2CppName: get_time
 template<>

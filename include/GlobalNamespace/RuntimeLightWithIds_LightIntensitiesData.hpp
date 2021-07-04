@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RuntimeLightWithIds::LightIntensitiesData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*, "", "RuntimeLightWithIds/LightIntensitiesData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::get_intensity
 // Il2CppName: get_intensity
 template<>

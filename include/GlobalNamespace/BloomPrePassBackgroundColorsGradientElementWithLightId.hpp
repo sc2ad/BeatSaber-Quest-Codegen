@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

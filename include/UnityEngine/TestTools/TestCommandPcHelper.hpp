@@ -44,6 +44,8 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");
+// Writing includes for template specializations
+#include "System/Collections/IEnumerator.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC
 // Il2CppName: SetEnumeratorPC
 template<>

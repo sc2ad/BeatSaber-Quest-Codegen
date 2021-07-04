@@ -35,6 +35,7 @@ namespace HMUI {
   }; // HMUI.InputFieldView/InputFieldChanged
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::InputFieldChanged*, "HMUI", "InputFieldView/InputFieldChanged");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::InputFieldView::InputFieldChanged::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

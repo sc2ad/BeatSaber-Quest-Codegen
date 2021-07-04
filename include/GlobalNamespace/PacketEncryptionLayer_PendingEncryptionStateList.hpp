@@ -91,6 +91,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PacketEncryptionLayer::PendingEncryptionStateList) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*, "", "PacketEncryptionLayer/PendingEncryptionStateList");
+// Writing includes for template specializations
+#include "GlobalNamespace/EncryptionUtility_IEncryptionState.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::get_isEmpty
 // Il2CppName: get_isEmpty
 template<>

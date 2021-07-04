@@ -72,6 +72,8 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(ScriptPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::ScriptPlayableOutput::Create
 // Il2CppName: Create
 template<>

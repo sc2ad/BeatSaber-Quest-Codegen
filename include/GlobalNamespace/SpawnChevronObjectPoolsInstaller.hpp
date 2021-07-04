@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnChevronObjectPoolsInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnChevronObjectPoolsInstaller*, "", "SpawnChevronObjectPoolsInstaller");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

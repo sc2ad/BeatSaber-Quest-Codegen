@@ -132,6 +132,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MouseLook) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::Init
 // Il2CppName: Init
 template<>

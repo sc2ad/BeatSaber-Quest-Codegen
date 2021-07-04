@@ -62,6 +62,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(WTauNafPreCompInfo) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::get_PreComp
 // Il2CppName: get_PreComp
 template<>

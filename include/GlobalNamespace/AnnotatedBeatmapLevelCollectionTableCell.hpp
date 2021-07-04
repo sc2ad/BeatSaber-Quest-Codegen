@@ -174,6 +174,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionTableCell) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
+#include "GlobalNamespace/AdditionalContentModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell::set_showNewRibbon
 // Il2CppName: set_showNewRibbon
 template<>

@@ -56,6 +56,11 @@ namespace UnityEngineInternal::Input {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "UnityEngineInternal.Input", "NativeUpdateCallback");
+// Writing includes for template specializations
+#include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
+#include "UnityEngineInternal/Input/NativeInputEventBuffer.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeUpdateCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

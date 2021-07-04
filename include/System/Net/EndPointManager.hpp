@@ -66,6 +66,10 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointManager*, "System.Net", "EndPointManager");
+// Writing includes for template specializations
+#include "System/Net/HttpListener.hpp"
+#include "System/Net/EndPointListener.hpp"
+#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: System::Net::EndPointManager::AddListener
 // Il2CppName: AddListener
 template<>

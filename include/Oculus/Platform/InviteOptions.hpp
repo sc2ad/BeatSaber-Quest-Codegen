@@ -53,6 +53,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(InviteOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions*, "Oculus.Platform", "InviteOptions");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!

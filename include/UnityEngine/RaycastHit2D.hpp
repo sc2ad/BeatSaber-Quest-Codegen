@@ -97,6 +97,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_point
 // Il2CppName: get_point
 template<>

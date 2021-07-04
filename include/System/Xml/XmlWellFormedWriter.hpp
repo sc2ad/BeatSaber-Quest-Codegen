@@ -967,6 +967,10 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceKind, "System.
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::SpecialAttribute, "System.Xml", "XmlWellFormedWriter/SpecialAttribute");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriterSettings.hpp"
+#include "System/Xml/XmlStandalone.hpp"
+#include "System/Xml/XmlWellFormedWriter_Token.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

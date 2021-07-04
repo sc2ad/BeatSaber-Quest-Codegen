@@ -134,6 +134,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup::SceneType, "", "VRRenderingParamsSetup/SceneType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRRenderingParamsSetup::OnEnable
 // Il2CppName: OnEnable
 template<>

@@ -118,6 +118,9 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MainModule) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");
+// Writing includes for template specializations
+#include "UnityEngine/ParticleSystem_MinMaxCurve.hpp"
+#include "UnityEngine/ParticleSystem_MinMaxGradient.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::MainModule
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

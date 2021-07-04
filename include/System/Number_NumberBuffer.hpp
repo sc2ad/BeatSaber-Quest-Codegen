@@ -82,6 +82,7 @@ namespace System {
   static_assert(sizeof(Number::NumberBuffer) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Number::NumberBuffer::NumberBuffer
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

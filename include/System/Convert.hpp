@@ -677,6 +677,13 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Convert*, "System", "Convert");
+// Writing includes for template specializations
+#include "System/TypeCode.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/IConvertible.hpp"
+#include "System/Type.hpp"
+#include "System/Decimal.hpp"
+#include "System/Base64FormattingOptions.hpp"
 // Writing MetadataGetter for method: System::Convert::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>

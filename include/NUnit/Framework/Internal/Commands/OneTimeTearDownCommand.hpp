@@ -78,6 +78,10 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(OneTimeTearDownCommand) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestSuite.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

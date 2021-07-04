@@ -66,6 +66,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayer*, "", "IConnectedPlayer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayer::get_isMe
 // Il2CppName: get_isMe
 template<>

@@ -141,6 +141,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(ProvideHandle) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/IGenericProviderOperation.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Func_1.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::ProvideHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

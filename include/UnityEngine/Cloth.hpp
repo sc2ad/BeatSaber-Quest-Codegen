@@ -56,6 +56,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cloth*, "UnityEngine", "Cloth");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Cloth::set_externalAcceleration
 // Il2CppName: set_externalAcceleration
 template<>

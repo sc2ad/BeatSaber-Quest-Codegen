@@ -149,6 +149,8 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTMPTextStateTransition*, "", "ColorTMPTextStateTransition");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorTMPTextStateTransition::StartTween
 // Il2CppName: StartTween
 template<>

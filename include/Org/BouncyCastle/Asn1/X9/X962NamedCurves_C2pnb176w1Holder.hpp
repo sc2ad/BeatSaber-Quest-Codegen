@@ -55,6 +55,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb176w1Holder*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves/C2pnb176w1Holder");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb176w1Holder::_cctor
 // Il2CppName: .cctor
 template<>

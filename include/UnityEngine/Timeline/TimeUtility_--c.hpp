@@ -63,6 +63,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

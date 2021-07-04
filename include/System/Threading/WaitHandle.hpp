@@ -200,6 +200,10 @@ namespace System::Threading {
   static_assert(sizeof(WaitHandle) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
+// Writing includes for template specializations
+#include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
+#include "System/TimeSpan.hpp"
+#include "System/Runtime/InteropServices/SafeHandle.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Init
 // Il2CppName: Init
 template<>

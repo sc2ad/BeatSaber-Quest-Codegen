@@ -68,6 +68,8 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing::$$c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::_cctor
 // Il2CppName: .cctor
 template<>

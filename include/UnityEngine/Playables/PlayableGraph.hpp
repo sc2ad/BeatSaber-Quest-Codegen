@@ -136,6 +136,9 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableGraph) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableOutputHandle.hpp"
+#include "UnityEngine/Playables/PlayableHandle.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable
 template<>

@@ -60,6 +60,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryConverter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryConverter");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/WriteObjectInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetBinaryTypeInfo
 // Il2CppName: GetBinaryTypeInfo
 template<>

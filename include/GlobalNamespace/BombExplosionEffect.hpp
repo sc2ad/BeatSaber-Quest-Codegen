@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BombExplosionEffect) == 0x14F);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BombExplosionEffect::Awake
 // Il2CppName: Awake
 template<>

@@ -95,6 +95,8 @@ namespace HMUI {
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_sprite
 // Il2CppName: set_sprite
 template<>

@@ -33,6 +33,7 @@ namespace System::Globalization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::Punycode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

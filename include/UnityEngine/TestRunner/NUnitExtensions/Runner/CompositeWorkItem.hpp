@@ -184,6 +184,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(CompositeWorkItem) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "NUnit/Framework/Internal/TestSuite.hpp"
+#include "NUnit/Framework/Interfaces/ITestFilter.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/WorkItemFactory.hpp"
+#include "NUnit/Framework/Interfaces/ResultState.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::get_Children
 // Il2CppName: get_Children
 template<>

@@ -73,6 +73,8 @@ namespace Mono::Net {
   static_assert(sizeof(CFString) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFString*, "Mono.Net", "CFString");
+// Writing includes for template specializations
+#include "Mono/Net/CFRange.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFString::CFStringCreateWithCharacters
 // Il2CppName: CFStringCreateWithCharacters
 template<>

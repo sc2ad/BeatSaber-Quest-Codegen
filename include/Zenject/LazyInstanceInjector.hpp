@@ -75,6 +75,9 @@ namespace Zenject {
   static_assert(sizeof(LazyInstanceInjector) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

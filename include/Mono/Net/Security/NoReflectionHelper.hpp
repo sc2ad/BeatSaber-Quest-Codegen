@@ -25,6 +25,7 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>

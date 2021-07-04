@@ -172,6 +172,10 @@ namespace NUnit::Framework::Interfaces {
   static_assert(sizeof(TNode) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/AttributeDictionary.hpp"
+#include "NUnit/Framework/Interfaces/NodeList.hpp"
+#include "System/Xml/XmlWriter.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

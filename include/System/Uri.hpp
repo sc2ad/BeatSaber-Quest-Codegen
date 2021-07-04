@@ -950,6 +950,13 @@ namespace System {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");
+// Writing includes for template specializations
+#include "System/UriParser.hpp"
+#include "System/ParsingError.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/UriComponents.hpp"
+#include "System/UriFormat.hpp"
+#include "System/UriFormatException.hpp"
 // Writing MetadataGetter for method: System::Uri::get_IsImplicitFile
 // Il2CppName: get_IsImplicitFile
 template<>

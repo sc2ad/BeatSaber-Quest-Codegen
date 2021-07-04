@@ -156,6 +156,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectionManager*, "", "IConnectionManager");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/IConnection.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

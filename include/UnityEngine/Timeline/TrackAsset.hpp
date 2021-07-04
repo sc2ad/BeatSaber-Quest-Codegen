@@ -653,6 +653,19 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset*, "UnityEngine.Timeline", "TrackAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "UnityEngine/AnimationClip.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Timeline/TimelineClip.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Timeline/IMarker.hpp"
+#include "UnityEngine/Timeline/IntervalTree_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnBeforeTrackSerialize
 // Il2CppName: OnBeforeTrackSerialize
 template<>

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneStart::$Start$d__2) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2*, "", "ShaderWarmupSceneStart/<Start>d__2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

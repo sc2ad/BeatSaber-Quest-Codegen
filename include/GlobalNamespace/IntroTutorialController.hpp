@@ -190,6 +190,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialController) == 0x6B);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::add_introTutorialDidFinishEvent
 // Il2CppName: add_introTutorialDidFinishEvent
 template<>

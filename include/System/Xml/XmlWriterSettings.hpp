@@ -323,6 +323,9 @@ namespace System::Xml {
   static_assert(sizeof(XmlWriterSettings) == 0x86);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/IO/TextWriter.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Async
 // Il2CppName: get_Async
 template<>

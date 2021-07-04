@@ -48,6 +48,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "JsonAssetProvider");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert
 // Il2CppName: Convert
 template<>

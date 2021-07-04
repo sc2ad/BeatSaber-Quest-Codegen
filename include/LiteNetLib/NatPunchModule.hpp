@@ -232,6 +232,14 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
+// Writing includes for template specializations
+#include "LiteNetLib/NetSocket.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/NetPacket.hpp"
+#include "LiteNetLib/INatPunchListener.hpp"
+#include "LiteNetLib/NatPunchModule_NatIntroduceRequestPacket.hpp"
+#include "LiteNetLib/NatPunchModule_NatIntroduceResponsePacket.hpp"
+#include "LiteNetLib/NatPunchModule_NatPunchPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

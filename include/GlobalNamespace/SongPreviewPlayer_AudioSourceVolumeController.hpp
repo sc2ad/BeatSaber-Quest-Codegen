@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer::AudioSourceVolumeController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
+// Writing includes for template specializations
+#include "UnityEngine/AudioSource.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume
 // Il2CppName: set_volume
 template<>

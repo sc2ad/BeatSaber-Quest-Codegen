@@ -89,6 +89,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::$GetLeaderboardEntriesAsync$d__4, "", "LeaderboardsModelLegacyWrapper/<GetLeaderboardEntriesAsync>d__4");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::$GetLeaderboardEntriesAsync$d__4::MoveNext
 // Il2CppName: MoveNext
 template<>

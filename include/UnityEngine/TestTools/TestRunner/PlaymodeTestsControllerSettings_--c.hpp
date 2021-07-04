@@ -66,6 +66,8 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/TestTools/TestRunner/GUI/RuntimeTestRunnerFilter.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::_cctor
 // Il2CppName: .cctor
 template<>

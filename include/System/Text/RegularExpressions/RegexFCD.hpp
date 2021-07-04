@@ -132,6 +132,10 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexFCD) == 0x2F);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/RegexTree.hpp"
+#include "System/Text/RegularExpressions/RegexFC.hpp"
+#include "System/Text/RegularExpressions/RegexNode.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::FirstChars
 // Il2CppName: FirstChars
 template<>

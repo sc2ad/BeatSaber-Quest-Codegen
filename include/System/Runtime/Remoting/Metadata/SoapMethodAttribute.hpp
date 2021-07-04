@@ -92,6 +92,7 @@ namespace System::Runtime::Remoting::Metadata {
   static_assert(sizeof(SoapMethodAttribute) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapMethodAttribute*, "System.Runtime.Remoting.Metadata", "SoapMethodAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapMethodAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

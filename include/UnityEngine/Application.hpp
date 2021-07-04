@@ -218,6 +218,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application*, "UnityEngine", "Application");
+// Writing includes for template specializations
+#include "UnityEngine/ThreadPriority.hpp"
+#include "UnityEngine/Application_LogCallback.hpp"
+#include "UnityEngine/LogType.hpp"
+#include "UnityEngine/Events/UnityAction.hpp"
 // Writing MetadataGetter for method: UnityEngine::Application::Quit
 // Il2CppName: Quit
 template<>

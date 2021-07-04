@@ -202,6 +202,24 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Graphics*, "UnityEngine", "Graphics");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/GraphicsTier.hpp"
+#include "UnityEngine/RenderBuffer.hpp"
+#include "UnityEngine/CubemapFace.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/Internal_DrawTextureArguments.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/MaterialPropertyBlock.hpp"
+#include "UnityEngine/Rendering/ShadowCastingMode.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Rendering/LightProbeUsage.hpp"
+#include "UnityEngine/LightProbeProxyVolume.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Rendering/CommandBuffer.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_GetMaxDrawMeshInstanceCount
 // Il2CppName: Internal_GetMaxDrawMeshInstanceCount
 template<>

@@ -107,6 +107,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnCenter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter*, "", "BeatmapObjectSpawnCenter");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance
 // Il2CppName: get_spawnCenterDistance
 template<>

@@ -347,6 +347,29 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents*, "UnityEngine.EventSystems", "ExecuteEvents");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerDownHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerUpHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
+#include "UnityEngine/EventSystems/IBeginDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDragHandler.hpp"
+#include "UnityEngine/EventSystems/IEndDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDropHandler.hpp"
+#include "UnityEngine/EventSystems/IScrollHandler.hpp"
+#include "UnityEngine/EventSystems/IUpdateSelectedHandler.hpp"
+#include "UnityEngine/EventSystems/ISelectHandler.hpp"
+#include "UnityEngine/EventSystems/IDeselectHandler.hpp"
+#include "UnityEngine/EventSystems/IMoveHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ICancelHandler.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/EventSystems/ExecuteEvents_EventFunction_1.hpp"
+#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::ValidateEventData
 // Il2CppName: ValidateEventData
 // Cannot write MetadataGetter for generic methods!

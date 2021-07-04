@@ -130,6 +130,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteMissInfoNetSerializable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/NoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::get_colorType
 // Il2CppName: get_colorType
 template<>

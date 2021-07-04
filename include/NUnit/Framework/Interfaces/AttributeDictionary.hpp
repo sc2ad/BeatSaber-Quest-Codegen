@@ -36,6 +36,7 @@ namespace NUnit::Framework::Interfaces {
   }; // NUnit.Framework.Interfaces.AttributeDictionary
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::AttributeDictionary*, "NUnit.Framework.Interfaces", "AttributeDictionary");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::AttributeDictionary::get_Item
 // Il2CppName: get_Item
 template<>

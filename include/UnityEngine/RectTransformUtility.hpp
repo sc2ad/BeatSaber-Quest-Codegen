@@ -99,6 +99,14 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransformUtility*, "UnityEngine", "RectTransformUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustPoint
 // Il2CppName: PixelAdjustPoint
 template<>

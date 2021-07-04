@@ -47,6 +47,9 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadRequest*, "Mono.Net.Security", "AsyncReadRequest");
+// Writing includes for template specializations
+#include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
+#include "Mono/Net/Security/AsyncOperationStatus.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncReadRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

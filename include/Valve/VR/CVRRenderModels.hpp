@@ -121,6 +121,12 @@ namespace Valve::VR {
   static_assert(sizeof(CVRRenderModels) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "Valve/VR/VRControllerState_t.hpp"
+#include "Valve/VR/RenderModel_ControllerMode_State_t.hpp"
+#include "Valve/VR/RenderModel_ComponentState_t.hpp"
+#include "Valve/VR/EVRRenderModelError.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

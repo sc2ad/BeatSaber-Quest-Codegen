@@ -52,6 +52,7 @@ namespace System::Net::NetworkInformation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::GetIPAddress
 // Il2CppName: GetIPAddress
 template<>

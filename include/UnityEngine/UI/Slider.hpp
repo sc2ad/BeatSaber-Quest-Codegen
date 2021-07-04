@@ -408,6 +408,13 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider*, "UnityEngine.UI", "Slider");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Direction, "UnityEngine.UI", "Slider/Direction");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/UI/Slider_SliderEvent.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/EventSystems/AxisEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Slider::get_fillRect
 // Il2CppName: get_fillRect
 template<>

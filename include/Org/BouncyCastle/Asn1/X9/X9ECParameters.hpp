@@ -134,6 +134,11 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(X9ECParameters) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParameters*, "Org.BouncyCastle.Asn1.X9", "X9ECParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Asn1/X9/X9ECPoint.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParameters::GetInstance
 // Il2CppName: GetInstance
 template<>

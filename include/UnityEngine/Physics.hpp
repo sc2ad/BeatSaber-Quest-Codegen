@@ -216,6 +216,12 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Physics*, "UnityEngine", "Physics");
+// Writing includes for template specializations
+#include "UnityEngine/Collider.hpp"
+#include "UnityEngine/QueryTriggerInteraction.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/PhysicsScene.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: UnityEngine::Physics::get_gravity
 // Il2CppName: get_gravity
 template<>

@@ -226,6 +226,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactivePlayerInGameMenuViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController*, "", "MultiplayerLocalInactivePlayerInGameMenuViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnEnable
 // Il2CppName: OnEnable
 template<>

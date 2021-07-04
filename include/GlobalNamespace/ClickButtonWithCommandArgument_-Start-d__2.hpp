@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClickButtonWithCommandArgument::$Start$d__2) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2*, "", "ClickButtonWithCommandArgument/<Start>d__2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

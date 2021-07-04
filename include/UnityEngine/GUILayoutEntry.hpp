@@ -164,6 +164,8 @@ namespace UnityEngine {
   static_assert(sizeof(GUILayoutEntry) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutEntry*, "UnityEngine", "GUILayoutEntry");
+// Writing includes for template specializations
+#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutEntry::get_style
 // Il2CppName: get_style
 template<>

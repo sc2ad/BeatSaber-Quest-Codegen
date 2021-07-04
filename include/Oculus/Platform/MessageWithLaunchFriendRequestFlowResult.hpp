@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchFriendRequestFlowResult*, "Oculus.Platform", "MessageWithLaunchFriendRequestFlowResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchFriendRequestFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

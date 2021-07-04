@@ -93,6 +93,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_15_0*, "", "OVRPlugin/OVRP_1_15_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_OverlayShape.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerLayout.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
+#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_Eye.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_Frustumf2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_InitializeMixedReality
 // Il2CppName: ovrp_InitializeMixedReality
 template<>

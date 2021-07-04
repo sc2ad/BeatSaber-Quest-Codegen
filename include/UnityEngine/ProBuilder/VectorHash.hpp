@@ -50,6 +50,10 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VectorHash*, "UnityEngine.ProBuilder", "VectorHash");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VectorHash::HashFloat
 // Il2CppName: HashFloat
 template<>

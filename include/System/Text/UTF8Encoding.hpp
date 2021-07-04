@@ -215,6 +215,10 @@ namespace System::Text {
   static_assert(sizeof(UTF8Encoding) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding*, "System.Text", "UTF8Encoding");
+// Writing includes for template specializations
+#include "System/Text/DecoderFallbackBuffer.hpp"
+#include "System/Text/EncoderNLS.hpp"
+#include "System/Text/DecoderNLS.hpp"
 // Writing MetadataGetter for method: System::Text::UTF8Encoding::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

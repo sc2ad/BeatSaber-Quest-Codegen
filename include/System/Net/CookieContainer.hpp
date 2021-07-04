@@ -138,6 +138,12 @@ namespace System::Net {
   static_assert(sizeof(CookieContainer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieContainer*, "System.Net", "CookieContainer");
+// Writing includes for template specializations
+#include "System/Net/PathList.hpp"
+#include "System/Net/Cookie.hpp"
+#include "System/Net/CookieCollection.hpp"
+#include "System/Uri.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Net::CookieContainer::AddRemoveDomain
 // Il2CppName: AddRemoveDomain
 template<>

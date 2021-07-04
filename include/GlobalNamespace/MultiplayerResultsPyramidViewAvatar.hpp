@@ -336,6 +336,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatar) == 0x1C8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*, "", "MultiplayerResultsPyramidViewAvatar");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerPlayerResultsData.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector
 // Il2CppName: get_badgeDirector
 template<>

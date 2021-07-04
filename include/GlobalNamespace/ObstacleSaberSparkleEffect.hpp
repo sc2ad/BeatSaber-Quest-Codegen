@@ -92,6 +92,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleSaberSparkleEffect) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffect*, "", "ObstacleSaberSparkleEffect");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffect::set_color
 // Il2CppName: set_color
 template<>

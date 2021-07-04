@@ -70,6 +70,7 @@ namespace System::Runtime::Remoting::Messaging {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodMessage*, "System.Runtime.Remoting.Messaging", "IMethodMessage");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMethodMessage::get_ArgCount
 // Il2CppName: get_ArgCount
 template<>

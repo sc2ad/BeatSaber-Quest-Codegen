@@ -49,6 +49,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_29_0*, "", "OVRPlugin/OVRP_1_29_0");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_PoseStatef.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_GetLayerAndroidSurfaceObject
 // Il2CppName: ovrp_GetLayerAndroidSurfaceObject
 template<>

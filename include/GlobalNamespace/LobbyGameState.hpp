@@ -87,6 +87,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyGameState) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameState*, "", "LobbyGameState");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameState::get_gameState
 // Il2CppName: get_gameState
 template<>

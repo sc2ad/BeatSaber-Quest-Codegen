@@ -51,6 +51,7 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::TextForValue
 // Il2CppName: TextForValue
 template<>

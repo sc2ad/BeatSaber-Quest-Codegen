@@ -61,6 +61,8 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
+// Writing includes for template specializations
+#include "Mono/Globalization/Unicode/Level2Map.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>

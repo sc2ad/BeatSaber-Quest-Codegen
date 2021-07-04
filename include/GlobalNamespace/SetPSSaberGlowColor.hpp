@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetPSSaberGlowColor) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetPSSaberGlowColor*, "", "SetPSSaberGlowColor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetPSSaberGlowColor::Start
 // Il2CppName: Start
 template<>

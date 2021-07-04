@@ -275,6 +275,12 @@ namespace System::Reflection {
   static_assert(sizeof(AssemblyName) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "Mono/MonoAssemblyName.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Version.hpp"
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ParseAssemblyName
 // Il2CppName: ParseAssemblyName
 template<>

@@ -112,6 +112,11 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexCode) == 0x4D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Hashtable.hpp"
+#include "System/Text/RegularExpressions/RegexBoyerMoore.hpp"
+#include "System/Text/RegularExpressions/RegexPrefix.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

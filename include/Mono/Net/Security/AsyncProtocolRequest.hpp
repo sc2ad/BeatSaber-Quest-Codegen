@@ -150,6 +150,10 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncProtocolRequest) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest*, "Mono.Net.Security", "AsyncProtocolRequest");
+// Writing includes for template specializations
+#include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "Mono/Net/Security/AsyncOperationStatus.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_Parent
 // Il2CppName: get_Parent
 template<>

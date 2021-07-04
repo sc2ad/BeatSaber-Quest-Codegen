@@ -64,6 +64,11 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SingleCallIdentity*, "System.Runtime.Remoting", "SingleCallIdentity");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Contexts/Context.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::SingleCallIdentity::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

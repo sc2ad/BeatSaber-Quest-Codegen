@@ -500,6 +500,11 @@ namespace TMPro {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshPro*, "TMPro", "TextMeshPro");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "TMPro/TMP_VertexDataUpdateFlags.hpp"
 // Writing MetadataGetter for method: TMPro::TextMeshPro::UpdateEnvMapMatrix
 // Il2CppName: UpdateEnvMapMatrix
 template<>

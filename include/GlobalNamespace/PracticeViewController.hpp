@@ -221,6 +221,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(PracticeViewController) == 0xD4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/IBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "HMUI/RangeValuesTextSlider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>

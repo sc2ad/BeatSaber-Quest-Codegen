@@ -83,6 +83,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(Task::$$c__DisplayClass178_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0
 // Il2CppName: <ExecuteSelfReplicating>b__0
 template<>

@@ -225,6 +225,13 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECCurve) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve*, "Org.BouncyCastle.Math.EC", "ECCurve");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/Field/IFiniteField.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Security/SecureRandom.hpp"
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/IPreCompCallback.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

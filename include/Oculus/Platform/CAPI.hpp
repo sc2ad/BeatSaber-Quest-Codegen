@@ -3495,6 +3495,39 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "System/DateTime.hpp"
+#include "Oculus/Platform/CAPI_OculusInitParams.hpp"
+#include "Oculus/Platform/VoipMuteState.hpp"
+#include "Oculus/Platform/CAPI_FilterCallback.hpp"
+#include "System/UIntPtr.hpp"
+#include "Oculus/Platform/LaunchResult.hpp"
+#include "Oculus/Platform/CAPI_ovrNetSyncVec3.hpp"
+#include "Oculus/Platform/SendPolicy.hpp"
+#include "Oculus/Platform/VoipSampleRate.hpp"
+#include "Oculus/Platform/LeaderboardFilterType.hpp"
+#include "Oculus/Platform/LeaderboardStartAt.hpp"
+#include "Oculus/Platform/LivestreamingAudience.hpp"
+#include "Oculus/Platform/LivestreamingMicrophoneStatus.hpp"
+#include "Oculus/Platform/MatchmakingStatApproach.hpp"
+#include "Oculus/Platform/MediaContentType.hpp"
+#include "Oculus/Platform/NetSyncVoipMicSource.hpp"
+#include "Oculus/Platform/NetSyncVoipStreamMode.hpp"
+#include "Oculus/Platform/RoomJoinPolicy.hpp"
+#include "Oculus/Platform/RoomMembershipLockStatus.hpp"
+#include "Oculus/Platform/PermissionType.hpp"
+#include "Oculus/Platform/AbuseReportType.hpp"
+#include "Oculus/Platform/AbuseReportVideoMode.hpp"
+#include "Oculus/Platform/ChallengeViewerFilter.hpp"
+#include "Oculus/Platform/ChallengeVisibility.hpp"
+#include "Oculus/Platform/RichPresenceExtraContext.hpp"
+#include "Oculus/Platform/UserOrdering.hpp"
+#include "Oculus/Platform/TimeWindow.hpp"
+#include "Oculus/Platform/ServiceProvider.hpp"
+#include "Oculus/Platform/VoipBitrate.hpp"
+#include "Oculus/Platform/VoipDtxState.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ArrayOfStructsToIntPtr
 // Il2CppName: ArrayOfStructsToIntPtr
 template<>

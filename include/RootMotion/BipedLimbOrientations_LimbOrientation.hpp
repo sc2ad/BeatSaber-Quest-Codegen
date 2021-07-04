@@ -53,6 +53,7 @@ namespace RootMotion {
   static_assert(sizeof(BipedLimbOrientations::LimbOrientation) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::BipedLimbOrientations::LimbOrientation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -143,6 +143,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatEffectSpawner) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner*, "", "BeatEffectSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatEffect_Pool.hpp"
+#include "GlobalNamespace/NoteController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffectSpawner::Init
 // Il2CppName: Init
 template<>

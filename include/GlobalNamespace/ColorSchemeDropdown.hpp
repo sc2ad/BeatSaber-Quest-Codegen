@@ -156,6 +156,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeDropdown) == 0x79);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown*, "", "ColorSchemeDropdown");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
+#include "GlobalNamespace/ColorScheme.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>

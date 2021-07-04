@@ -175,6 +175,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServersFilterViewController) == 0xD1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterViewController*, "", "GameServersFilterViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameServersFilter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::get_gameServersFilter
 // Il2CppName: get_gameServersFilter
 template<>

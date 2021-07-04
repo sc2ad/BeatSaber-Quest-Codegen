@@ -132,6 +132,11 @@ namespace OnlineServices {
   static_assert(sizeof(LevelScoreUploader) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/HTTPLeaderboardsModel.hpp"
+#include "OnlineServices/PlatformOnlineServicesAvailabilityModel.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>

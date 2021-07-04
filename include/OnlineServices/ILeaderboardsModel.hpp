@@ -57,6 +57,11 @@ namespace OnlineServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ILeaderboardsModel*, "OnlineServices", "ILeaderboardsModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
 // Writing MetadataGetter for method: OnlineServices::ILeaderboardsModel::GetLeaderboardId
 // Il2CppName: GetLeaderboardId
 template<>

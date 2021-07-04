@@ -178,6 +178,7 @@ namespace System::Globalization {
   static_assert(sizeof(JapaneseCalendar) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::JapaneseCalendar*, "System.Globalization", "JapaneseCalendar");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::GetEraInfo
 // Il2CppName: GetEraInfo
 template<>

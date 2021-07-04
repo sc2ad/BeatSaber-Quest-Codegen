@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapEditorSceneSetupData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath
 // Il2CppName: get_levelDirPath
 template<>

@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LanguageSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsController*, "", "LanguageSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LanguageSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

@@ -149,6 +149,8 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(Match) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.RegularExpressions", "Match");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/Regex.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Match::get_Empty
 // Il2CppName: get_Empty
 template<>

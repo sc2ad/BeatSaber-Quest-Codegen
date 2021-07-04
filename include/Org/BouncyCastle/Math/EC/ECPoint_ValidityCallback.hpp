@@ -67,6 +67,8 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECPoint::ValidityCallback) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*, "Org.BouncyCastle.Math.EC", "ECPoint/ValidityCallback");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

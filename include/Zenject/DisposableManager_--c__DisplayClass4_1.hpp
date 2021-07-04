@@ -67,6 +67,8 @@ namespace Zenject {
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_1*, "Zenject", "DisposableManager/<>c__DisplayClass4_1");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2
 // Il2CppName: <.ctor>b__2
 template<>

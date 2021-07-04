@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithHttpTransferUpdate
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithHttpTransferUpdate*, "Oculus.Platform", "MessageWithHttpTransferUpdate");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithHttpTransferUpdate::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

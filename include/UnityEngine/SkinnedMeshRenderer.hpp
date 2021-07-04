@@ -119,6 +119,11 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkinnedMeshRenderer*, "UnityEngine", "SkinnedMeshRenderer");
+// Writing includes for template specializations
+#include "UnityEngine/SkinQuality.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::SkinnedMeshRenderer::get_quality
 // Il2CppName: get_quality
 template<>

@@ -254,6 +254,11 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestExecutionContext) == 0x81);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestResult.hpp"
+#include "System/IO/TextWriter.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "NUnit/Framework/Constraints/ValueFormatter.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::get_CurrentContext
 // Il2CppName: get_CurrentContext
 template<>

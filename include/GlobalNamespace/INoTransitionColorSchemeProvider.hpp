@@ -31,6 +31,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoTransitionColorSchemeProvider*, "", "INoTransitionColorSchemeProvider");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorSchemeSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INoTransitionColorSchemeProvider::get_colorScheme
 // Il2CppName: get_colorScheme
 template<>

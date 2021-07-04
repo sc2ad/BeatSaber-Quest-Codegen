@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData
 // Il2CppName: get_mainMenuScenesTransitionSetupData
 template<>

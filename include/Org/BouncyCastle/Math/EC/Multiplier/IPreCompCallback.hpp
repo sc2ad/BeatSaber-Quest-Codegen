@@ -28,6 +28,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "IPreCompCallback");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback::Precompute
 // Il2CppName: Precompute
 template<>

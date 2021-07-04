@@ -106,6 +106,10 @@ namespace MasterServer {
   static_assert(sizeof(ServerCertificateRequest) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest*, "MasterServer", "ServerCertificateRequest");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_pool
 // Il2CppName: get_pool
 template<>

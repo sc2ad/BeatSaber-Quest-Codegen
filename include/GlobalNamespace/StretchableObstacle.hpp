@@ -147,6 +147,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(StretchableObstacle) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::get_bounds
 // Il2CppName: get_bounds
 template<>

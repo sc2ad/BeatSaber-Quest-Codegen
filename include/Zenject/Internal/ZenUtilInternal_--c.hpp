@@ -79,6 +79,8 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c*, "Zenject.Internal", "ZenUtilInternal/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c::_cctor
 // Il2CppName: .cctor
 template<>

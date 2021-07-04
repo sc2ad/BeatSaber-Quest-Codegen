@@ -626,6 +626,22 @@ namespace UnityEngine::AddressableAssets {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables*, "UnityEngine.AddressableAssets", "Addressables");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables::MergeMode, "UnityEngine.AddressableAssets", "Addressables/MergeMode");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "System/Exception.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/IResourceLocator.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::get_m_Addressables
 // Il2CppName: get_m_Addressables
 template<>

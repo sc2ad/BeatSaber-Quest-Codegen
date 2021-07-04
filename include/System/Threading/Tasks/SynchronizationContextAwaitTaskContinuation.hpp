@@ -88,6 +88,10 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(SynchronizationContextAwaitTaskContinuation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
+// Writing includes for template specializations
+#include "System/Threading/SynchronizationContext.hpp"
+#include "System/Action.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

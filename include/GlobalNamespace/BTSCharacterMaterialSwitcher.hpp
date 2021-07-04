@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterMaterialSwitcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials
 // Il2CppName: SwapMaterials
 template<>

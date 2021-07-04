@@ -148,6 +148,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*, "", "BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicCollectionSO.hpp"
+#include "GlobalNamespace/BeatmapLevelDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::get_levelID
 // Il2CppName: get_levelID
 template<>

@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ProModeTrailingCollidersController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProModeTrailingCollidersController*, "", "ProModeTrailingCollidersController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ProModeTrailingCollidersController::Start
 // Il2CppName: Start
 template<>

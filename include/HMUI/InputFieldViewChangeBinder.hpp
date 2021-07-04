@@ -91,6 +91,10 @@ namespace HMUI {
   static_assert(sizeof(InputFieldViewChangeBinder) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder*, "HMUI", "InputFieldViewChangeBinder");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "HMUI/InputFieldView.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::Init
 // Il2CppName: Init
 template<>

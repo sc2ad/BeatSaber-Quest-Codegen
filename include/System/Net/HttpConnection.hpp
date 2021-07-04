@@ -406,6 +406,15 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");
+// Writing includes for template specializations
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/Net/EndPointListener.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Net/ListenerPrefix.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/IO/MemoryStream.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
+#include "System/Net/Security/SslPolicyErrors.hpp"
 // Writing MetadataGetter for method: System::Net::HttpConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -128,6 +128,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesInfoViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesInfoViewController*, "", "OnlineServicesInfoViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::GetServerStatus
 // Il2CppName: GetServerStatus
 template<>

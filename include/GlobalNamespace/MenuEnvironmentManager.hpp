@@ -113,6 +113,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
 template<>

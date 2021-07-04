@@ -61,6 +61,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(VoipPCMSourceNative) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::GetPCM
 // Il2CppName: GetPCM
 template<>

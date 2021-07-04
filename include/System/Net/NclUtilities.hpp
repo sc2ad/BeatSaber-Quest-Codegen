@@ -52,6 +52,8 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NclUtilities*, "System.Net", "NclUtilities");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
 // Writing MetadataGetter for method: System::Net::NclUtilities::IsAddressLocal
 // Il2CppName: IsAddressLocal
 template<>

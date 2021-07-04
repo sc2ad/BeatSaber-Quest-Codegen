@@ -135,6 +135,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(RemoteTestResultSender) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::Start
 // Il2CppName: Start
 template<>

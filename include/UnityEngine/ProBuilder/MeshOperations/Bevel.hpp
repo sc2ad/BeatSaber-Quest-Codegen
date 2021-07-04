@@ -80,6 +80,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel*, "UnityEngine.ProBuilder.MeshOperations", "Bevel");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::BevelEdges
 // Il2CppName: BevelEdges
 template<>

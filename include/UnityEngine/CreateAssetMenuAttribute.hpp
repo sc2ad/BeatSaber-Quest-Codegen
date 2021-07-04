@@ -59,6 +59,7 @@ namespace UnityEngine {
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_menuName
 // Il2CppName: set_menuName
 template<>

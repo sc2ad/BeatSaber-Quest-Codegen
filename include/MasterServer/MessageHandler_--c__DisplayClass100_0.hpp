@@ -84,6 +84,8 @@ namespace MasterServer {
   static_assert(sizeof(MessageHandler::$$c__DisplayClass100_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$$c__DisplayClass100_0*, "MasterServer", "MessageHandler/<>c__DisplayClass100_0");
+// Writing includes for template specializations
+#include "MasterServer/IMasterServerReliableRequest.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::$$c__DisplayClass100_0::$SendMultipartMessageWithRetryAsync$b__0
 // Il2CppName: <SendMultipartMessageWithRetryAsync>b__0
 template<>

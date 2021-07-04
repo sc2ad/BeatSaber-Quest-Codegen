@@ -81,6 +81,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(AdvancingFront) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

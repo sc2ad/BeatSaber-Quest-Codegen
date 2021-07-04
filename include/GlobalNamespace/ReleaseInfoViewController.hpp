@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReleaseInfoViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ReleaseInfoViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

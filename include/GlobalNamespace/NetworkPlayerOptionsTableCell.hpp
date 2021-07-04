@@ -115,6 +115,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerOptionsTableCell) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerOptionsTableCell*, "", "NetworkPlayerOptionsTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::get_player
 // Il2CppName: get_player
 template<>

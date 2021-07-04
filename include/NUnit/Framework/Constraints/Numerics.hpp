@@ -67,6 +67,9 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Numerics*, "NUnit.Framework.Constraints", "Numerics");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/Tolerance.hpp"
+#include "System/Decimal.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::IsNumericType
 // Il2CppName: IsNumericType
 template<>

@@ -97,6 +97,9 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectAsset*, "", "GhostEffectAsset");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>

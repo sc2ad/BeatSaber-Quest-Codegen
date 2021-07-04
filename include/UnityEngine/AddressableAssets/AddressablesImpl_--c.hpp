@@ -75,6 +75,8 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/AddressablesImpl_ResourceLocatorInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c::_cctor
 // Il2CppName: .cctor
 template<>

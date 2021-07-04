@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel*, "", "PlatformNetworkPlayerModel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::get_friends
 // Il2CppName: get_friends
 template<>

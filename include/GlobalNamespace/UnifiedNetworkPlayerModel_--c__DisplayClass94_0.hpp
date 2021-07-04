@@ -71,6 +71,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass94_0");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0
 // Il2CppName: <Refresh>b__0
 template<>

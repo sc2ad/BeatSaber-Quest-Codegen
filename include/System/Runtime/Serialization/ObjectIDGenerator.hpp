@@ -77,6 +77,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(ObjectIDGenerator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::FindElement
 // Il2CppName: FindElement
 template<>

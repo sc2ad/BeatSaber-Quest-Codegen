@@ -74,6 +74,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelAnalytics) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelAnalytics*, "", "StandardLevelAnalytics");
+// Writing includes for template specializations
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelAnalytics::Start
 // Il2CppName: Start
 template<>

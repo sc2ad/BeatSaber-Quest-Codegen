@@ -144,6 +144,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardScoreUploader) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_UploadScoreCallback.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent
 // Il2CppName: add_allScoresDidUploadEvent
 template<>

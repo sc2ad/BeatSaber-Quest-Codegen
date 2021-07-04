@@ -66,6 +66,8 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationAsset) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");
+// Writing includes for template specializations
+#include "UnityEngine/TextAsset.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::get_TextAsset
 // Il2CppName: get_TextAsset
 template<>

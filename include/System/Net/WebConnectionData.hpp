@@ -129,6 +129,8 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionData) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnectionData");
+// Writing includes for template specializations
+#include "System/Net/HttpWebRequest.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

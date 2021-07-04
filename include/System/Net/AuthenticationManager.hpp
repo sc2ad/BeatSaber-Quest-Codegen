@@ -64,6 +64,9 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationManager*, "System.Net", "AuthenticationManager");
+// Writing includes for template specializations
+#include "System/Net/WebRequest.hpp"
+#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: System::Net::AuthenticationManager::EnsureModules
 // Il2CppName: EnsureModules
 template<>

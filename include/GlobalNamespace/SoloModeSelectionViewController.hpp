@@ -166,6 +166,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController::MenuType, "", "SoloModeSelectionViewController/MenuType");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

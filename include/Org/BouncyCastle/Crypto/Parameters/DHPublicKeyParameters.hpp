@@ -85,6 +85,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(DHPublicKeyParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHPublicKeyParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/DHParameters.hpp"
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::Validate
 // Il2CppName: Validate
 template<>

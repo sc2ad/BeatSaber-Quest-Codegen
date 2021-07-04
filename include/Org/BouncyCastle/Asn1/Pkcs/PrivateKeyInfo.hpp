@@ -119,6 +119,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(PrivateKeyInfo) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, "Org.BouncyCastle.Asn1.Pkcs", "PrivateKeyInfo");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerInteger.hpp"
+#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Set.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetInstance
 // Il2CppName: GetInstance
 template<>

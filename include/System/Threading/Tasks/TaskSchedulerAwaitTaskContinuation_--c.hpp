@@ -56,6 +56,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

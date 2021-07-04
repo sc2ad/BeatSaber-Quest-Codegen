@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroCountdown::$CountdownRoutine$d__23) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23*, "", "MultiplayerIntroCountdown/<CountdownRoutine>d__23");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

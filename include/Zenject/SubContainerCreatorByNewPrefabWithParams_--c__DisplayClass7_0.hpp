@@ -61,6 +61,8 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*, "Zenject", "SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0");
+// Writing includes for template specializations
+#include "Zenject/InjectableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__0
 // Il2CppName: <CreateTempContainer>b__0
 template<>

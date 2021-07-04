@@ -68,6 +68,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OverrideEnvironmentSettings) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "OverrideEnvironmentSettings");
+// Writing includes for template specializations
+#include "GlobalNamespace/EnvironmentTypeSO.hpp"
+#include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType
 // Il2CppName: SetEnvironmentInfoForType
 template<>

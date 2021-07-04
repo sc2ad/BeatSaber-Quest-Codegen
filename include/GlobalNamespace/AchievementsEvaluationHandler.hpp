@@ -263,6 +263,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
+#include "GlobalNamespace/MissionNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::Start
 // Il2CppName: Start
 template<>

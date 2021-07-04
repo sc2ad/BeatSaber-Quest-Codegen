@@ -586,6 +586,20 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager*, "", "MasterServerConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt, "", "MasterServerConnectionManager/ConnectionAttempt");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionState, "", "MasterServerConnectionManager/ConnectionState");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/IConnection.hpp"
+#include "MasterServer/ITimeProvider.hpp"
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
+#include "GlobalNamespace/IAuthenticationTokenProvider.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "GlobalNamespace/GameplayServerFilter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

@@ -69,6 +69,8 @@ namespace Oculus::Platform {
   static_assert(sizeof(NetSyncOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions*, "Oculus.Platform", "NetSyncOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/NetSyncVoipStreamMode.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::SetVoipGroup
 // Il2CppName: SetVoipGroup
 template<>

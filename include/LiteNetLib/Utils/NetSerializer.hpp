@@ -256,6 +256,12 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NetSerializer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
+// Writing includes for template specializations
+#include "System/Func_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Func_2.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
 // Il2CppName: RegisterNestedType
 // Cannot write MetadataGetter for generic methods!

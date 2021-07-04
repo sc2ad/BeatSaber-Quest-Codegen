@@ -260,6 +260,10 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKMapping::BoneMap) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/FinalIK/IKSolverFullBody.hpp"
+#include "RootMotion/FinalIK/IKSolver_Node.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::Initiate
 // Il2CppName: Initiate
 template<>

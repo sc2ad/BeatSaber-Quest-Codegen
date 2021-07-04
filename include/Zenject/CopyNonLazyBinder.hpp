@@ -78,6 +78,9 @@ namespace Zenject {
   static_assert(sizeof(CopyNonLazyBinder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CopyNonLazyBinder*, "Zenject", "CopyNonLazyBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/BindingInheritanceMethods.hpp"
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo
 // Il2CppName: AddSecondaryCopyBindInfo
 template<>

@@ -206,6 +206,15 @@ namespace Valve::VR {
   static_assert(sizeof(CVRCompositor) == 0x168);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRCompositor*, "Valve.VR", "CVRCompositor");
+// Writing includes for template specializations
+#include "Valve/VR/ETrackingUniverseOrigin.hpp"
+#include "Valve/VR/EVREye.hpp"
+#include "Valve/VR/VRTextureBounds_t.hpp"
+#include "Valve/VR/EVRSubmitFlags.hpp"
+#include "Valve/VR/Compositor_FrameTiming.hpp"
+#include "Valve/VR/Compositor_CumulativeStats.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "Valve/VR/EVRCompositorTimingMode.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

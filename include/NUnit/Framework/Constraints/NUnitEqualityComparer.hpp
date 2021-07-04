@@ -185,6 +185,16 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(NUnitEqualityComparer) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/Tolerance.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Array.hpp"
+#include "System/Collections/IDictionary.hpp"
+#include "System/Collections/DictionaryEntry.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "System/IO/DirectoryInfo.hpp"
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_IgnoreCase
 // Il2CppName: get_IgnoreCase
 template<>

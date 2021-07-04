@@ -58,6 +58,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context::$$c*, "Zenject", "Context/<>c");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::Context::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -149,6 +149,10 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriter*, "System.Xml", "XmlWriter");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Xml/XmlWriterSettings.hpp"
+#include "System/IO/TextWriter.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
 template<>

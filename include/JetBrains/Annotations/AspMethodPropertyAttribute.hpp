@@ -35,6 +35,7 @@ namespace JetBrains::Annotations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMethodPropertyAttribute*, "JetBrains.Annotations", "AspMethodPropertyAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMethodPropertyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

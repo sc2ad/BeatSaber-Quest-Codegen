@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardTableView::ScoreData) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView::ScoreData*, "", "LeaderboardTableView/ScoreData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::ScoreData::get_score
 // Il2CppName: get_score
 template<>

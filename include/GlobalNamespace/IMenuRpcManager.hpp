@@ -262,6 +262,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMenuRpcManager*, "", "IMenuRpcManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_4.hpp"
+#include "System/Action_3.hpp"
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::get_syncTime
 // Il2CppName: get_syncTime
 template<>

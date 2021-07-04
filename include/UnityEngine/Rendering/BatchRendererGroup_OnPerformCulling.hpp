@@ -61,6 +61,10 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*, "UnityEngine.Rendering", "BatchRendererGroup/OnPerformCulling");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/BatchCullingContext.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

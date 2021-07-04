@@ -64,6 +64,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PointLightWithIds) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLightWithIds*, "", "PointLightWithIds");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PointLightWithIds::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

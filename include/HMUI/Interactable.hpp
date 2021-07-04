@@ -53,6 +53,7 @@ namespace HMUI {
   static_assert(sizeof(Interactable) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::Interactable::get_interactable
 // Il2CppName: get_interactable
 template<>

@@ -81,6 +81,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ExtrudeElements*, "UnityEngine.ProBuilder.MeshOperations", "ExtrudeElements");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/ExtrudeMethod.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude
 // Il2CppName: Extrude
 template<>

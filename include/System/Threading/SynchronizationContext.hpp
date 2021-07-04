@@ -104,6 +104,8 @@ namespace System::Threading {
   static_assert(sizeof(SynchronizationContext) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
+// Writing includes for template specializations
+#include "System/Threading/SendOrPostCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::Send
 // Il2CppName: Send
 template<>

@@ -111,6 +111,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerPasswordEntryViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController*, "", "ServerPasswordEntryViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -87,6 +87,8 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>

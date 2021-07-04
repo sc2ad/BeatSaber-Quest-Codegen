@@ -247,6 +247,22 @@ namespace Valve::VR {
   static_assert(sizeof(CVRSystem) == 0x188);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");
+// Writing includes for template specializations
+#include "Valve/VR/EVREye.hpp"
+#include "Valve/VR/DistortionCoordinates_t.hpp"
+#include "Valve/VR/ETextureType.hpp"
+#include "Valve/VR/ETrackingUniverseOrigin.hpp"
+#include "Valve/VR/ETrackedDeviceClass.hpp"
+#include "Valve/VR/ETrackedControllerRole.hpp"
+#include "Valve/VR/ETrackedDeviceProperty.hpp"
+#include "Valve/VR/ETrackedPropertyError.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "Valve/VR/VREvent_t.hpp"
+#include "Valve/VR/EVREventType.hpp"
+#include "Valve/VR/EHiddenAreaMeshType.hpp"
+#include "Valve/VR/VRControllerState_t.hpp"
+#include "Valve/VR/EVRButtonId.hpp"
+#include "Valve/VR/EVRControllerAxisType.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

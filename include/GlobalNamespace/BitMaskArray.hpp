@@ -90,6 +90,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BitMaskArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskArray*, "", "BitMaskArray");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskArray::get_bitCount
 // Il2CppName: get_bitCount
 template<>

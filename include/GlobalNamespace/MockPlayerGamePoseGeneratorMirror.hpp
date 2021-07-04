@@ -113,6 +113,19 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayerGamePoseGeneratorMirror) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*, "", "MockPlayerGamePoseGeneratorMirror");
+// Writing includes for template specializations
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/IGameplayRpcManager.hpp"
+#include "GlobalNamespace/NodePoseSyncStateManager.hpp"
+#include "GlobalNamespace/NoteMissInfoNetSerializable.hpp"
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
+#include "GlobalNamespace/StandardScoreSyncStateNetSerializable.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
+#include "GlobalNamespace/MockBeatmapData.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

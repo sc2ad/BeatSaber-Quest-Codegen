@@ -186,6 +186,11 @@ namespace HMUI {
   static_assert(sizeof(ModalView) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Canvas.hpp"
+#include "HMUI/ViewController.hpp"
 // Writing MetadataGetter for method: HMUI::ModalView::add_blockerClickedEvent
 // Il2CppName: add_blockerClickedEvent
 template<>

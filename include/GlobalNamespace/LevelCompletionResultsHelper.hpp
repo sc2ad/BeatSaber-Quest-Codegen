@@ -46,6 +46,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsHelper*, "", "LevelCompletionResultsHelper");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/GameplayModifiersModelSO.hpp"
+#include "GlobalNamespace/PlayerData.hpp"
+#include "GlobalNamespace/PlayerLevelStatsData.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResultsHelper::Create
 // Il2CppName: Create
 template<>

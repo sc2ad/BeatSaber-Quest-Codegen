@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnController::InitData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

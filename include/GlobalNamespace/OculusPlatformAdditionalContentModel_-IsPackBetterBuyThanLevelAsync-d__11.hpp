@@ -59,6 +59,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__11, "", "OculusPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__11");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__11::MoveNext
 // Il2CppName: MoveNext
 template<>

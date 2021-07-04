@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -72,6 +72,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c*, "", "QuickPlaySongPacksDropdown/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPack.hpp"
+#include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackName.hpp"
+#include "GlobalNamespace/QuickPlaySongPacksDropdown_SongPackMaskItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c::_cctor
 // Il2CppName: .cctor
 template<>

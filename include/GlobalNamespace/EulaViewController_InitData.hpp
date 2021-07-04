@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EulaViewController::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController::InitData*, "", "EulaViewController/InitData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

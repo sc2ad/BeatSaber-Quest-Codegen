@@ -152,6 +152,8 @@ namespace System {
   static_assert(sizeof(TimeZoneInfo::AdjustmentRule) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::AdjustmentRule*, "System", "TimeZoneInfo/AdjustmentRule");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::get_DateStart
 // Il2CppName: get_DateStart
 template<>

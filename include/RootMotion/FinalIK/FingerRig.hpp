@@ -120,6 +120,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FingerRig) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::get_initiated
 // Il2CppName: get_initiated
 template<>

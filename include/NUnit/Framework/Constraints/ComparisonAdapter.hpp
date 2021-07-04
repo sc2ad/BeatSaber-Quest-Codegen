@@ -46,6 +46,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::get_Default
 // Il2CppName: get_Default
 template<>

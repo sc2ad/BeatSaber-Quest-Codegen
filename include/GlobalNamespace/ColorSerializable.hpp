@@ -95,6 +95,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSerializable) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSerializable, "", "ColorSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSerializable::ColorSerializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

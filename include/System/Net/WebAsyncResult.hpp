@@ -168,6 +168,11 @@ namespace System::Net {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebAsyncResult*, "System.Net", "WebAsyncResult");
+// Writing includes for template specializations
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Net/HttpWebResponse.hpp"
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

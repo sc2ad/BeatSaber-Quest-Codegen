@@ -148,6 +148,15 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_EventManager*, "TMPro", "TMPro_EventManager");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "TMPro/TMP_FontAsset.hpp"
+#include "UnityEngine/Object.hpp"
+#include "TMPro/TextMeshPro.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "TMPro/TMP_ColorGradient.hpp"
+#include "TMPro/TextMeshProUGUI.hpp"
+#include "TMPro/Compute_DT_EventArgs.hpp"
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_PRE_RENDER_OBJECT_CHANGED
 // Il2CppName: ON_PRE_RENDER_OBJECT_CHANGED
 template<>

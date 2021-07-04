@@ -57,6 +57,8 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents::$$c*, "UnityEngine.EventSystems", "ExecuteEvents/<>c");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::$$c::_cctor
 // Il2CppName: .cctor
 template<>

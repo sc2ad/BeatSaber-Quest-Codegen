@@ -157,6 +157,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GamePause) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause*, "", "GamePause");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GamePause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

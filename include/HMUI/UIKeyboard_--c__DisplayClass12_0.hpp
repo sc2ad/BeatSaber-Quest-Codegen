@@ -58,6 +58,7 @@ namespace HMUI {
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass12_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass12_0*, "HMUI", "UIKeyboard/<>c__DisplayClass12_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::UIKeyboard::$$c__DisplayClass12_0::$Awake$b__2
 // Il2CppName: <Awake>b__2
 template<>

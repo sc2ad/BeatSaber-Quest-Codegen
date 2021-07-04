@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBadgesModelSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesModelSO*, "", "MultiplayerBadgesModelSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesModelSO::get_positiveBadges
 // Il2CppName: get_positiveBadges
 template<>

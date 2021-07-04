@@ -34,6 +34,7 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ITableCellOwner*, "HMUI", "ITableCellOwner");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ITableCellOwner::get_selectionType
 // Il2CppName: get_selectionType
 template<>

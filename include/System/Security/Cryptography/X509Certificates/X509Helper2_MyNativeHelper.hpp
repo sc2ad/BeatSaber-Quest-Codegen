@@ -51,6 +51,8 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper*, "System.Security.Cryptography.X509Certificates", "X509Helper2/MyNativeHelper");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::Import
 // Il2CppName: Import
 template<>

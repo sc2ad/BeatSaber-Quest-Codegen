@@ -141,6 +141,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBloomTextureEffectSO) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBloomTextureEffectSO*, "", "BloomPrePassBloomTextureEffectSO");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping
 // Il2CppName: get_toneMapping
 template<>

@@ -171,6 +171,14 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils*, "NUnit.Framework.Constraints", "MsgUtils");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/ValueFormatter.hpp"
+#include "NUnit/Framework/Constraints/ValueFormatterFactory.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "System/Array.hpp"
+#include "System/Decimal.hpp"
+#include "System/DateTime.hpp"
+#include "System/DateTimeOffset.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::get_DefaultValueFormatter
 // Il2CppName: get_DefaultValueFormatter
 template<>

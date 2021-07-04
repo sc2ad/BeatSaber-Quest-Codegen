@@ -148,6 +148,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutParticlesEffect) == 0x230);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");
+// Writing includes for template specializations
+#include "UnityEngine/Color32.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::Awake
 // Il2CppName: Awake
 template<>

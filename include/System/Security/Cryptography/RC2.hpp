@@ -81,6 +81,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RC2) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2*, "System.Security.Cryptography", "RC2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2::get_EffectiveKeySize
 // Il2CppName: get_EffectiveKeySize
 template<>

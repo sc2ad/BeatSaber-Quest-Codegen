@@ -119,6 +119,7 @@ namespace OVRSimpleJSON {
   static_assert(sizeof(JSONNode::$get_DeepChildren$d__42) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::$get_DeepChildren$d__42*, "OVRSimpleJSON", "JSONNode/<get_DeepChildren>d__42");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::$get_DeepChildren$d__42::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

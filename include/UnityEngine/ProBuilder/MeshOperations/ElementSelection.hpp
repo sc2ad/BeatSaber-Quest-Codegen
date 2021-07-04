@@ -156,6 +156,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces
 // Il2CppName: GetNeighborFaces
 template<>

@@ -109,6 +109,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BoxCuttableBySaber) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoxCuttableBySaber*, "", "BoxCuttableBySaber");
+// Writing includes for template specializations
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::set_colliderSize
 // Il2CppName: set_colliderSize
 template<>

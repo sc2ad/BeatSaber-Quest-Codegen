@@ -82,6 +82,8 @@ namespace LiteNetLib::Layers {
   static_assert(sizeof(XorEncryptLayer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::XorEncryptLayer*, "LiteNetLib.Layers", "XorEncryptLayer");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

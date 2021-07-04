@@ -48,6 +48,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetReferenceUIRestriction*, "UnityEngine", "AssetReferenceUIRestriction");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetReferenceUIRestriction::ValidateAsset
 // Il2CppName: ValidateAsset
 template<>

@@ -122,6 +122,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomNetworkConfig) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig*, "", "CustomNetworkConfig");
+// Writing includes for template specializations
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>

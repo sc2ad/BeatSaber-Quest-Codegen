@@ -134,6 +134,9 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   static_assert(sizeof(ContentCatalogProvider::InternalOp::BundledCatalog) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/AsyncOperation.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::add_OnLoaded
 // Il2CppName: add_OnLoaded
 template<>

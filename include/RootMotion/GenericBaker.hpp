@@ -143,6 +143,9 @@ namespace RootMotion {
   static_assert(sizeof(GenericBaker) == 0xAC);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::GenericBaker*, "RootMotion", "GenericBaker");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: RootMotion::GenericBaker::Awake
 // Il2CppName: Awake
 template<>

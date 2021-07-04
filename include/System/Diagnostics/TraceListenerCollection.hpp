@@ -114,6 +114,9 @@ namespace System::Diagnostics {
   static_assert(sizeof(TraceListenerCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListenerCollection*, "System.Diagnostics", "TraceListenerCollection");
+// Writing includes for template specializations
+#include "System/Diagnostics/TraceListener.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListenerCollection::get_Count
 // Il2CppName: get_Count
 template<>

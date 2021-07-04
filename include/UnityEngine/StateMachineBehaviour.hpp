@@ -92,6 +92,10 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Animator.hpp"
+#include "UnityEngine/AnimatorStateInfo.hpp"
+#include "UnityEngine/Animations/AnimatorControllerPlayable.hpp"
 // Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateEnter
 // Il2CppName: OnStateEnter
 template<>

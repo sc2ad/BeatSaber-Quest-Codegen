@@ -37,6 +37,8 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IMarker*, "UnityEngine.Timeline", "IMarker");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TrackAsset.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::IMarker::get_time
 // Il2CppName: get_time
 template<>

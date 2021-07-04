@@ -126,6 +126,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::add_afterImageEffectEvent
 // Il2CppName: add_afterImageEffectEvent
 template<>

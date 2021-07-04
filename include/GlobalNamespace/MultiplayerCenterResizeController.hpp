@@ -121,6 +121,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerCenterResizeController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterResizeController*, "", "MultiplayerCenterResizeController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerPlayerLayout.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent
 // Il2CppName: add_edgeDistanceFromCenterWasCalculatedEvent
 template<>

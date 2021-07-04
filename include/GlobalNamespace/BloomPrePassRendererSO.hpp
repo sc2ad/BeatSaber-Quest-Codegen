@@ -195,6 +195,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassRendererSO) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO*, "", "BloomPrePassRendererSO");
+// Writing includes for template specializations
+#include "UnityEngine/Matrix4x4.hpp"
+#include "GlobalNamespace/IBloomPrePassParams.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "GlobalNamespace/ToneMapping.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/BloomPrePassRendererSO_LightsRenderingData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRendererSO::OnDisable
 // Il2CppName: OnDisable
 template<>

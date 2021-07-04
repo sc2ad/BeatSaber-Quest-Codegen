@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FloatSignalListener) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FloatSignalListener::OnEnable
 // Il2CppName: OnEnable
 template<>

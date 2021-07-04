@@ -186,6 +186,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardScoreUploader::ScoreData) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_playerId
 // Il2CppName: get_playerId
 template<>

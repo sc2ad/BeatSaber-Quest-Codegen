@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*, "", "NoteCutter/CuttableBySaberSortParamsComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::Compare
 // Il2CppName: Compare
 template<>

@@ -150,6 +150,11 @@ namespace System::Diagnostics {
   static_assert(sizeof(StackTrace) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Diagnostics/StackTrace_TraceFormat.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

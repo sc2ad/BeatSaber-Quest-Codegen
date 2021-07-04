@@ -100,6 +100,9 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   static_assert(sizeof(RuntimeTestRunnerFilter) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::BuildNUnitFilter
 // Il2CppName: BuildNUnitFilter
 template<>

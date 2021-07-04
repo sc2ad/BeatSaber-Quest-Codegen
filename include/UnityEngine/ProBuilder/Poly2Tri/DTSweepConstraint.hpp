@@ -38,6 +38,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

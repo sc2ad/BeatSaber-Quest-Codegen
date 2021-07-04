@@ -391,6 +391,17 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager*, "", "OculusConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::NetworkMode, "", "OculusConnectionManager/NetworkMode");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/IConnection.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
+#include "Oculus/Platform/Message_1.hpp"
+#include "Oculus/Platform/SendPolicy.hpp"
+#include "GlobalNamespace/OculusConnectionManager_OculusConnection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

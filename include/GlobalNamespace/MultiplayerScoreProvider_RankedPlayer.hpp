@@ -94,6 +94,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreProvider::RankedPlayer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, "", "MultiplayerScoreProvider/RankedPlayer");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerSyncState_3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>

@@ -61,6 +61,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DesParameters*, "Org.BouncyCastle.Crypto.Parameters", "DesParameters");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey
 // Il2CppName: IsWeakKey
 template<>

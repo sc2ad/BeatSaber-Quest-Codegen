@@ -56,6 +56,11 @@ namespace Mono::Security::Interface {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*, "Mono.Security.Interface", "MonoLocalCertificateSelectionCallback");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoLocalCertificateSelectionCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

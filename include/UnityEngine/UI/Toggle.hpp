@@ -229,6 +229,11 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle*, "UnityEngine.UI", "Toggle");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle::ToggleTransition, "UnityEngine.UI", "Toggle/ToggleTransition");
+// Writing includes for template specializations
+#include "UnityEngine/UI/ToggleGroup.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Toggle::get_group
 // Il2CppName: get_group
 template<>

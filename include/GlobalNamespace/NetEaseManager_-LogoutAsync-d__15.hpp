@@ -64,6 +64,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager::$LogoutAsync$d__15, "", "NetEaseManager/<LogoutAsync>d__15");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::$LogoutAsync$d__15::MoveNext
 // Il2CppName: MoveNext
 template<>

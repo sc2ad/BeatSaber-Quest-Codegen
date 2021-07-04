@@ -42,6 +42,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStateObjects*, "UnityEngine", "GUIStateObjects");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStateObjects::GetStateObject
 // Il2CppName: GetStateObject
 template<>

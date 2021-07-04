@@ -92,6 +92,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerListDetailTableCell) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListDetailTableCell*, "", "GameServerListDetailTableCell");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::add_joinServerButtonWasPressedEvent
 // Il2CppName: add_joinServerButtonWasPressedEvent
 template<>

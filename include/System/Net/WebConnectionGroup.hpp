@@ -136,6 +136,13 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionGroup) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup*, "System.Net", "WebConnectionGroup");
+// Writing includes for template specializations
+#include "System/Net/ServicePoint.hpp"
+#include "System/EventHandler.hpp"
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/Net/WebConnection.hpp"
+#include "System/TimeSpan.hpp"
+#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

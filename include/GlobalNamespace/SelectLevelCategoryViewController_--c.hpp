@@ -65,6 +65,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c*, "", "SelectLevelCategoryViewController/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/SelectLevelCategoryViewController_LevelCategoryInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

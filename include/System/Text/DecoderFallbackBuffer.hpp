@@ -69,6 +69,7 @@ namespace System::Text {
   static_assert(sizeof(DecoderFallbackBuffer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>

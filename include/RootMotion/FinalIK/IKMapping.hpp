@@ -63,6 +63,12 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping*, "RootMotion.FinalIK", "IKMapping");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolver.hpp"
+#include "RootMotion/FinalIK/IKSolverFullBody.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/Warning_Logger.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::IsValid
 // Il2CppName: IsValid
 template<>

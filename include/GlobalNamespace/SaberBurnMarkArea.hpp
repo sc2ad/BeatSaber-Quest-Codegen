@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberBurnMarkArea) == 0x138);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::Start
 // Il2CppName: Start
 template<>

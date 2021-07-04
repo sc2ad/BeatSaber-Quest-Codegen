@@ -155,6 +155,12 @@ namespace HMUI {
   static_assert(sizeof(ContainerViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "HMUI/Screen.hpp"
 // Writing MetadataGetter for method: HMUI::ContainerViewController::get_controllersContainer
 // Il2CppName: get_controllersContainer
 template<>

@@ -79,6 +79,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionObjective.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_missionObjective
 // Il2CppName: get_missionObjective
 template<>

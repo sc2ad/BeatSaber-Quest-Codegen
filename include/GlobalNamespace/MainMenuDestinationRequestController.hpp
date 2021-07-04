@@ -116,6 +116,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainMenuDestinationRequestController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController*, "", "MainMenuDestinationRequestController");
+// Writing includes for template specializations
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "GlobalNamespace/MenuDestination.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuDestinationRequestController::Initialize
 // Il2CppName: Initialize
 template<>

@@ -199,6 +199,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleSaberSparkleEffectManager) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent
 // Il2CppName: add_sparkleEffectDidStartEvent
 template<>

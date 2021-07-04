@@ -120,6 +120,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(ResourceProviderBase) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/ProvideHandle.hpp"
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>

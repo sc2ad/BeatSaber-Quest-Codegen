@@ -110,6 +110,8 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(Logger) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Internal", "Logger");
+// Writing includes for template specializations
+#include "System/IO/TextWriter.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

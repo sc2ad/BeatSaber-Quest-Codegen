@@ -448,6 +448,17 @@ namespace System {
   static_assert(sizeof(TimeZoneInfo) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");
+// Writing includes for template specializations
+#include "System/TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION.hpp"
+#include "System/TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
+#include "System/TimeZoneInfo_TransitionTime.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/TimeZoneInfoOptions.hpp"
+#include "Microsoft/Win32/RegistryKey.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/TimeZoneInfo_AdjustmentRule.hpp"
+#include "System/IO/Stream.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::UtcOffsetOutOfRange
 // Il2CppName: UtcOffsetOutOfRange
 template<>

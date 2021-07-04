@@ -51,6 +51,8 @@ namespace System::Security::Principal {
   static_assert(sizeof(WindowsPrincipal) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsPrincipal*, "System.Security.Principal", "WindowsPrincipal");
+// Writing includes for template specializations
+#include "System/Security/Principal/WindowsIdentity.hpp"
 // Writing MetadataGetter for method: System::Security::Principal::WindowsPrincipal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

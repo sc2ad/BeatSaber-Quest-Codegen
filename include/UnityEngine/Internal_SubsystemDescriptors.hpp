@@ -61,6 +61,10 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemDescriptors*, "UnityEngine", "Internal_SubsystemDescriptors");
+// Writing includes for template specializations
+#include "UnityEngine/SubsystemDescriptor.hpp"
+#include "System/IntPtr.hpp"
+#include "UnityEngine/ISubsystemDescriptorImpl.hpp"
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor
 // Il2CppName: Internal_AddDescriptor
 template<>

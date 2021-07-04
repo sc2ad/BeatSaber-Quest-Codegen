@@ -174,6 +174,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::$$c*, "", "GameplayModifiersModelSO/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::_cctor
 // Il2CppName: .cctor
 template<>

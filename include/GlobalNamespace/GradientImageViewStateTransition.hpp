@@ -173,6 +173,10 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "Tweening/ColorTween.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTweens
 // Il2CppName: StartTweens
 template<>

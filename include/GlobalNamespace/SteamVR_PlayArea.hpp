@@ -181,6 +181,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");
+// Writing includes for template specializations
+#include "Valve/VR/HmdQuad_t.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::GetBounds
 // Il2CppName: GetBounds
 template<>

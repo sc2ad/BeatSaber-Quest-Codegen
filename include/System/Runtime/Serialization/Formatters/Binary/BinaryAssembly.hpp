@@ -68,6 +68,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryAssembly) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssembly");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::Set
 // Il2CppName: Set
 template<>

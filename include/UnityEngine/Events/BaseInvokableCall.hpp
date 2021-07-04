@@ -68,6 +68,9 @@ namespace UnityEngine::Events {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Events", "BaseInvokableCall");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Delegate.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::BaseInvokableCall::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

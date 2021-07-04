@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainMenuDestinationRequestController::$$c__DisplayClass8_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*, "", "MainMenuDestinationRequestController/<>c__DisplayClass8_0");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0
 // Il2CppName: <ProcessDestinationRequest>b__0
 template<>

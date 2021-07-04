@@ -29,6 +29,8 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerContextSink*, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink
 // Il2CppName: GetServerContextSink
 template<>

@@ -57,6 +57,10 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetCumulativeStats*, "OVR.OpenVR", "IVRCompositor/_GetCumulativeStats");
+// Writing includes for template specializations
+#include "OVR/OpenVR/Compositor_CumulativeStats.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetCumulativeStats::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

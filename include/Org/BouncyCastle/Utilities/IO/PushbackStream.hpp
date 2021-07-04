@@ -60,6 +60,7 @@ namespace Org::BouncyCastle::Utilities::IO {
   static_assert(sizeof(PushbackStream) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::PushbackStream*, "Org.BouncyCastle.Utilities.IO", "PushbackStream");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Unread
 // Il2CppName: Unread
 template<>

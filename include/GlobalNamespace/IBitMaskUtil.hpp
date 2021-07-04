@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBitMaskUtil*, "", "IBitMaskUtil");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::NumberOfSetBits
 // Il2CppName: NumberOfSetBits
 // Cannot write MetadataGetter for generic methods!

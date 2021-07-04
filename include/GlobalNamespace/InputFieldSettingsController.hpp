@@ -77,6 +77,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(InputFieldSettingsController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InputFieldSettingsController*, "", "InputFieldSettingsController");
+// Writing includes for template specializations
+#include "HMUI/InputFieldView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::Awake
 // Il2CppName: Awake
 template<>

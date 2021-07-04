@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConditionalImageMaterialSwitcher) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalImageMaterialSwitcher*, "", "ConditionalImageMaterialSwitcher");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalImageMaterialSwitcher::Awake
 // Il2CppName: Awake
 template<>

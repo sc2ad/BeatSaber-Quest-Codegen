@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuLightsPresetSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor
 // Il2CppName: get_playersPlaceNeonsColor
 template<>

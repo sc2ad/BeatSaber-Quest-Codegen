@@ -803,6 +803,16 @@ namespace System {
   bool operator !=(::Il2CppString* a, ::Il2CppString& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
+// Writing includes for template specializations
+#include "System/StringComparison.hpp"
+#include "System/StringSplitOptions.hpp"
+#include "System/Text/Encoding.hpp"
+#include "System/Text/NormalizationForm.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Globalization/CompareOptions.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/ParamsArray.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::String::Join
 // Il2CppName: Join
 template<>

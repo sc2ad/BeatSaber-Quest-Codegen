@@ -67,6 +67,9 @@ namespace Zenject {
   static_assert(sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass5_1");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_1::$FinalizeBindingConcrete$b__1
 // Il2CppName: <FinalizeBindingConcrete>b__1
 template<>

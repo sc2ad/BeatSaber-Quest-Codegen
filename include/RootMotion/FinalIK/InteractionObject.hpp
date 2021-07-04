@@ -355,6 +355,11 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/InteractionSystem.hpp"
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
+#include "RootMotion/FinalIK/InteractionTarget.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

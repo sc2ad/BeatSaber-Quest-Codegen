@@ -58,6 +58,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil::$$c*, "Zenject", "InjectUtil/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::InjectUtil::$$c::_cctor
 // Il2CppName: .cctor
 template<>

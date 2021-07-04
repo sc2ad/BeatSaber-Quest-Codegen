@@ -49,6 +49,7 @@ namespace UnityEngine::TestTools::Utils {
   static_assert(sizeof(StackTraceFilter::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0
 // Il2CppName: <Filter>b__0
 template<>

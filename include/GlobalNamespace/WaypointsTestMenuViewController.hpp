@@ -181,6 +181,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start
 // Il2CppName: Start
 template<>

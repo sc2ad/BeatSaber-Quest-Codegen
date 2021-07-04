@@ -162,6 +162,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamPlatformAdditionalContentModel) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel*, "", "SteamPlatformAdditionalContentModel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::DataIsValidAsync
 // Il2CppName: DataIsValidAsync
 template<>

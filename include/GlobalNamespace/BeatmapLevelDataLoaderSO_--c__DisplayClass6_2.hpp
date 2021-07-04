@@ -60,6 +60,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_2");
+// Writing includes for template specializations
+#include "UnityEngine/AsyncOperation.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::$LoadBeatmalLevelDataAsync$b__1
 // Il2CppName: <LoadBeatmalLevelDataAsync>b__1
 template<>

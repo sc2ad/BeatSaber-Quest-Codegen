@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithRoomInviteNotification
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomInviteNotification*, "Oculus.Platform", "MessageWithRoomInviteNotification");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomInviteNotification::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

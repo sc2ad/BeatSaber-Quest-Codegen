@@ -49,6 +49,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenMemberSetterMethod*, "Zenject", "ZenMemberSetterMethod");
+// Writing includes for template specializations
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Zenject::ZenMemberSetterMethod::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

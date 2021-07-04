@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field*, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc7748::X25519Field::Add
 // Il2CppName: Add
 template<>

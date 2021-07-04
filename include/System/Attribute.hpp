@@ -110,6 +110,13 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Attribute*, "System", "Attribute");
+// Writing includes for template specializations
+#include "System/Reflection/PropertyInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/EventInfo.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::Attribute::InternalGetCustomAttributes
 // Il2CppName: InternalGetCustomAttributes
 template<>

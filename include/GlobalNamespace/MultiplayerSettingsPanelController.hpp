@@ -170,6 +170,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSettingsPanelController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSettingsPanelController*, "", "MultiplayerSettingsPanelController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent
 // Il2CppName: add_playerActiveStateChangedEvent
 template<>

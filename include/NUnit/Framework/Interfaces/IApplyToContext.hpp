@@ -28,6 +28,8 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToContext*, "NUnit.Framework.Interfaces", "IApplyToContext");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IApplyToContext::ApplyToContext
 // Il2CppName: ApplyToContext
 template<>

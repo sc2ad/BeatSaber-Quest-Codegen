@@ -77,6 +77,9 @@ namespace UnityEngine {
   static_assert(sizeof(AnimatorOverrideController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

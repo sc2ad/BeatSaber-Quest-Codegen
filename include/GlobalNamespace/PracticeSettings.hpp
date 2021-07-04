@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PracticeSettings) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_startSongTime
 // Il2CppName: get_startSongTime
 template<>

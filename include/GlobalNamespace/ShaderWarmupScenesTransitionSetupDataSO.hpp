@@ -48,6 +48,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*, "", "ShaderWarmupScenesTransitionSetupDataSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/ShaderWarmupSceneSetupData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>

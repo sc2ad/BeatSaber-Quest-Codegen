@@ -474,6 +474,11 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "HMUI/ItemForFocussedScrolling.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::add_scrollPositionChangedEvent
 // Il2CppName: add_scrollPositionChangedEvent
 template<>

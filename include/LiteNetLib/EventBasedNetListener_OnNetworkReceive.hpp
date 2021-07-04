@@ -60,6 +60,12 @@ namespace LiteNetLib {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkReceive*, "LiteNetLib", "EventBasedNetListener/OnNetworkReceive");
+// Writing includes for template specializations
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/NetPacketReader.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnNetworkReceive::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

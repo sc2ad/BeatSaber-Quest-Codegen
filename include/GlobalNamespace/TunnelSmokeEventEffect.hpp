@@ -122,6 +122,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TunnelSmokeEventEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::Start
 // Il2CppName: Start
 template<>

@@ -91,6 +91,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpServer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*, "", "OVRNetwork/OVRNetworkTcpServer");
+// Writing includes for template specializations
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening
 // Il2CppName: StartListening
 template<>

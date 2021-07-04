@@ -154,6 +154,14 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");
+// Writing includes for template specializations
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/IntPtr.hpp"
+#include "System/RuntimeFieldHandle.hpp"
+#include "System/RuntimeTypeHandle.hpp"
+#include "System/TypedReference.hpp"
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_Attributes
 // Il2CppName: get_Attributes
 template<>

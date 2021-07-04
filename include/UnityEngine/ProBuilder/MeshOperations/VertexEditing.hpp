@@ -72,6 +72,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::VertexEditing*, "UnityEngine.ProBuilder.MeshOperations", "VertexEditing");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/ProBuilder/Edge.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::VertexEditing::MergeVertices
 // Il2CppName: MergeVertices
 template<>

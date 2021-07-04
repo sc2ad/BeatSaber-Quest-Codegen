@@ -105,6 +105,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::StringComparer*, "System", "StringComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::StringComparer::get_InvariantCultureIgnoreCase
 // Il2CppName: get_InvariantCultureIgnoreCase
 template<>

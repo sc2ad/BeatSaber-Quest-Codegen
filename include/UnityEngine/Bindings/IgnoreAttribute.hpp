@@ -53,6 +53,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(IgnoreAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize
 // Il2CppName: set_DoesNotContributeToSize
 template<>

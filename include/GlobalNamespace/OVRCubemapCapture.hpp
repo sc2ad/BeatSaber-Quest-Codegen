@@ -103,6 +103,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRCubemapCapture) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCapture");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/Cubemap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::Update
 // Il2CppName: Update
 template<>

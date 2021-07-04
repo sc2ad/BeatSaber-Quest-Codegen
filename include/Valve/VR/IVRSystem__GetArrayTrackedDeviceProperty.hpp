@@ -59,6 +59,11 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*, "Valve.VR", "IVRSystem/_GetArrayTrackedDeviceProperty");
+// Writing includes for template specializations
+#include "Valve/VR/ETrackedDeviceProperty.hpp"
+#include "Valve/VR/ETrackedPropertyError.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

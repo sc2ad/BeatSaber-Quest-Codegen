@@ -74,6 +74,8 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SerializationEntry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEntry::get_Value
 // Il2CppName: get_Value
 template<>

@@ -70,6 +70,8 @@ namespace VRUIControls {
   static_assert(sizeof(MouseState) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData_FramePressState.hpp"
 // Writing MetadataGetter for method: VRUIControls::MouseState::AnyPressesThisFrame
 // Il2CppName: AnyPressesThisFrame
 template<>

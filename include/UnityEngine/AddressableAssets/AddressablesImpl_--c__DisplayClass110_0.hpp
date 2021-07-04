@@ -85,6 +85,8 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass110_0) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass110_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass110_0");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass110_0::$LoadSceneWithChain$b__0
 // Il2CppName: <LoadSceneWithChain>b__0
 template<>

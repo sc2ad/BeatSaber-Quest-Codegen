@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData::RootCreditsItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "CreditsData/RootCreditsItem");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::RootCreditsItem::HasTitle
 // Il2CppName: HasTitle
 template<>

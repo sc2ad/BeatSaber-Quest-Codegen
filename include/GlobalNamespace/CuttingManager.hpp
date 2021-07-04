@@ -74,6 +74,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CuttingManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager*, "", "CuttingManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttingManager::OnEnable
 // Il2CppName: OnEnable
 template<>

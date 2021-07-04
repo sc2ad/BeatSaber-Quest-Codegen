@@ -250,6 +250,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGrabber) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabber*, "", "OVRGrabber");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRGrabbable.hpp"
+#include "UnityEngine/Collider.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "GlobalNamespace/OVRCameraRig.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::get_grabbedObject
 // Il2CppName: get_grabbedObject
 template<>

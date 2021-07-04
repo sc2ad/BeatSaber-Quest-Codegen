@@ -35,6 +35,7 @@ namespace ModestTree::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::PreserveAttribute*, "ModestTree.Util", "PreserveAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: ModestTree::Util::PreserveAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

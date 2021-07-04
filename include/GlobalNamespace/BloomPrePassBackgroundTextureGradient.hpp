@@ -139,6 +139,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundTextureGradient) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundTextureGradient*, "", "BloomPrePassBackgroundTextureGradient");
+// Writing includes for template specializations
+#include "Unity/Collections/NativeArray_1.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>

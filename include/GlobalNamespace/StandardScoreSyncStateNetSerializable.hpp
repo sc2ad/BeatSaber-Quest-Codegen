@@ -120,6 +120,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardScoreSyncStateNetSerializable) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateNetSerializable*, "", "StandardScoreSyncStateNetSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateNetSerializable::get_pool
 // Il2CppName: get_pool
 template<>

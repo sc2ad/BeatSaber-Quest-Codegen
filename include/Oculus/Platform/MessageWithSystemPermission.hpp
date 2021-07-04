@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithSystemPermission
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemPermission*, "Oculus.Platform", "MessageWithSystemPermission");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemPermission::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

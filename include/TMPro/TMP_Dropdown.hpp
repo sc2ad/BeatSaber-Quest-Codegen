@@ -370,6 +370,19 @@ namespace TMPro {
   static_assert(sizeof(TMP_Dropdown) == 0x159);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "TMPro/TMP_Text.hpp"
+#include "UnityEngine/UI/Image.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "TMPro/TMP_Dropdown_DropdownEvent.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/Canvas.hpp"
+#include "TMPro/TMP_Dropdown_DropdownItem.hpp"
+#include "TMPro/TMP_Dropdown_OptionData.hpp"
+#include "UnityEngine/UI/Toggle.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_template
 // Il2CppName: get_template
 template<>

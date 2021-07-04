@@ -127,6 +127,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
+#include "NUnit/Framework/Internal/TestResult.hpp"
+#include "System/Action.hpp"
+#include "UnityEngine/TestTools/Logging/LogScope.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
 template<>

@@ -205,6 +205,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(WhirlpoolDigest) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest*, "Org.BouncyCastle.Crypto.Digests", "WhirlpoolDigest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::_cctor
 // Il2CppName: .cctor
 template<>

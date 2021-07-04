@@ -120,6 +120,8 @@ namespace Org::BouncyCastle::Security {
   static_assert(sizeof(SecureRandom) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCastle.Security", "SecureRandom");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/Prng/IRandomGenerator.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::NextCounterValue
 // Il2CppName: NextCounterValue
 template<>

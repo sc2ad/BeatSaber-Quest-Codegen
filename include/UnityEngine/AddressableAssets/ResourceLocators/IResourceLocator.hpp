@@ -52,6 +52,9 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "IResourceLocator");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator::get_LocatorId
 // Il2CppName: get_LocatorId
 template<>

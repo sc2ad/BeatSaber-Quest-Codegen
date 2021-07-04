@@ -82,6 +82,9 @@ namespace System::Threading {
   static_assert(sizeof(ThreadHelper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");
+// Writing includes for template specializations
+#include "System/Delegate.hpp"
+#include "System/Threading/ExecutionContext.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadHelper::_cctor
 // Il2CppName: .cctor
 template<>

@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ExternalCamerasManager::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

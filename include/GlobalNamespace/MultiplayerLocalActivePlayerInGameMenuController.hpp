@@ -194,6 +194,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActivePlayerInGameMenuController) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*, "", "MultiplayerLocalActivePlayerInGameMenuController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::add_didGiveUpEvent
 // Il2CppName: add_didGiveUpEvent
 template<>

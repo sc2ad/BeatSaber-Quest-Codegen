@@ -201,6 +201,10 @@ namespace Zenject {
   static_assert(sizeof(TickableManager) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager*, "Zenject", "TickableManager");
+// Writing includes for template specializations
+#include "Zenject/ITickable.hpp"
+#include "Zenject/ILateTickable.hpp"
+#include "Zenject/IFixedTickable.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::get_Tickables
 // Il2CppName: get_Tickables
 template<>

@@ -34,6 +34,9 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*, "UnityEngine.ResourceManagement.ResourceLocations", "ILocationSizeData");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData::ComputeSize
 // Il2CppName: ComputeSize
 template<>

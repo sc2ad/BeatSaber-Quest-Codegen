@@ -66,6 +66,7 @@ namespace UnityEngine {
   static_assert(sizeof(ResourceRequest) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceRequest::get_asset
 // Il2CppName: get_asset
 template<>

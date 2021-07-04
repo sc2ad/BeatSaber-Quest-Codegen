@@ -143,6 +143,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(DemoMenuLevelPanelView) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::add_playButtonWasPressedEvent
 // Il2CppName: add_playButtonWasPressedEvent
 template<>

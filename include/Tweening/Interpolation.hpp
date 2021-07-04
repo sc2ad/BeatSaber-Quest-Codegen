@@ -29,6 +29,8 @@ namespace Tweening {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");
+// Writing includes for template specializations
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: Tweening::Interpolation::Interpolate
 // Il2CppName: Interpolate
 template<>

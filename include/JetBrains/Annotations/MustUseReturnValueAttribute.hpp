@@ -61,6 +61,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(MustUseReturnValueAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

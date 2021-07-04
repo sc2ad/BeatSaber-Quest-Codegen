@@ -47,6 +47,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_transform
 // Il2CppName: get_transform
 template<>

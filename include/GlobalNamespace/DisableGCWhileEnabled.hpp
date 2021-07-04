@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableGCWhileEnabled*, "", "DisableGCWhileEnabled");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DisableGCWhileEnabled::OnEnable
 // Il2CppName: OnEnable
 template<>

@@ -138,6 +138,8 @@ namespace System::IO {
   static_assert(sizeof(Stream::SynchronousAsyncResult) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult*, "System.IO", "Stream/SynchronousAsyncResult");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::SynchronousAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

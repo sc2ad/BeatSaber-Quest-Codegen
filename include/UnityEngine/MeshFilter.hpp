@@ -45,6 +45,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshFilter*, "UnityEngine", "MeshFilter");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::MeshFilter::DontStripMeshFilter
 // Il2CppName: DontStripMeshFilter
 template<>

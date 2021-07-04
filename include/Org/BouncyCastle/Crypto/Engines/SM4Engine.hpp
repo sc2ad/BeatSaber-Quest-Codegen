@@ -107,6 +107,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(SM4Engine) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SM4Engine*, "Org.BouncyCastle.Crypto.Engines", "SM4Engine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::tau
 // Il2CppName: tau
 template<>

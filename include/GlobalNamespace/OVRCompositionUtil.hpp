@@ -75,6 +75,12 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "GlobalNamespace/OVRManager_CameraDevice.hpp"
+#include "GlobalNamespace/OVRManager_VirtualGreenScreenType.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/OVRBoundary_BoundaryType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCompositionUtil::SafeDestroy
 // Il2CppName: SafeDestroy
 template<>

@@ -62,6 +62,8 @@ namespace Zenject {
   static_assert(sizeof(ConventionAssemblySelectionBinder::$$c__DisplayClass12_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, "Zenject", "ConventionAssemblySelectionBinder/<>c__DisplayClass12_0");
+// Writing includes for template specializations
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0::$FromAssemblies$b__0
 // Il2CppName: <FromAssemblies>b__0
 template<>

@@ -125,6 +125,12 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.ProBuilder", "InternalUtility");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::GetComponents
 // Il2CppName: GetComponents
 // Cannot write MetadataGetter for generic methods!

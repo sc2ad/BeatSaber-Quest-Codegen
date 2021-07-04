@@ -154,6 +154,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRenderer");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::CanvasRenderer::set_hasPopInstruction
 // Il2CppName: set_hasPopInstruction
 template<>

@@ -105,6 +105,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CameraRenderCallbacksManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/CameraRenderCallbacksManager_ICameraRenderCallbacks.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks
 // Il2CppName: RegisterForCameraCallbacks
 template<>

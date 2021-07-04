@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::Awake
 // Il2CppName: Awake
 template<>

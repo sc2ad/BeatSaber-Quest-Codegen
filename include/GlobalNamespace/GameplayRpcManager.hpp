@@ -455,6 +455,17 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::RpcType, "", "GameplayRpcManager/RpcType");
+// Writing includes for template specializations
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "System/Action_3.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsAtStartNetSerializable.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsNetSerializable.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_4.hpp"
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
+#include "GlobalNamespace/NoteMissInfoNetSerializable.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::get_enabled
 // Il2CppName: get_enabled
 template<>

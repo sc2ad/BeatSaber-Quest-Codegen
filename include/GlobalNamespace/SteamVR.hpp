@@ -322,6 +322,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR*, "", "SteamVR");
+// Writing includes for template specializations
+#include "Valve/VR/EVRInitError.hpp"
+#include "Valve/VR/CVRSystem.hpp"
+#include "Valve/VR/CVRCompositor.hpp"
+#include "Valve/VR/CVROverlay.hpp"
+#include "Valve/VR/ETrackedDeviceProperty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_active
 // Il2CppName: get_active
 template<>

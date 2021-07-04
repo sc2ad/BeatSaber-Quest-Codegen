@@ -253,6 +253,14 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverFullBodyBiped) == 0xFC);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBodyBiped*, "RootMotion.FinalIK", "IKSolverFullBodyBiped");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/FullBodyBipedChain.hpp"
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
+#include "RootMotion/BipedReferences.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/BipedLimbOrientations_LimbOrientation.hpp"
+#include "RootMotion/FinalIK/IKEffector.hpp"
+#include "RootMotion/FinalIK/FBIKChain.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector
 // Il2CppName: get_bodyEffector
 template<>

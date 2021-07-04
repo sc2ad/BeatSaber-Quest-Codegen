@@ -291,6 +291,11 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Certificate) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Certificate*, "Mono.Security.X509", "X509Certificate");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/DSA.hpp"
+#include "System/Security/Cryptography/RSA.hpp"
+#include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::Parse
 // Il2CppName: Parse
 template<>

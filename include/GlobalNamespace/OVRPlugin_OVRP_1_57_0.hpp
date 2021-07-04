@@ -52,6 +52,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_57_0*, "", "OVRPlugin/OVRP_1_57_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_Media_PlatformCameraMode.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode
 // Il2CppName: ovrp_Media_GetPlatformCameraMode
 template<>

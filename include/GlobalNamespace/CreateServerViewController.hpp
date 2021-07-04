@@ -127,6 +127,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreateServerViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/MultiplayerModeSettings.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -72,6 +72,9 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(CIELabColor) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CIELabColor*, "UnityEngine.ProBuilder", "CIELabColor");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/XYZColor.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::CIELabColor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

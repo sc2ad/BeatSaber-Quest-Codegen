@@ -400,6 +400,9 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexParser) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Text/RegularExpressions/RegexNode.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexParser::Parse
 // Il2CppName: Parse
 template<>

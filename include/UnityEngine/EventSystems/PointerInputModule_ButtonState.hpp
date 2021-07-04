@@ -63,6 +63,8 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule::ButtonState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerInputModule_MouseButtonEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::ButtonState::get_eventData
 // Il2CppName: get_eventData
 template<>

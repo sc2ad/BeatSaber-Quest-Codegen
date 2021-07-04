@@ -143,6 +143,9 @@ namespace MasterServer {
   static_assert(sizeof(BaseMasterServerMultipartMessage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_multipartMessageId
 // Il2CppName: get_multipartMessageId
 template<>

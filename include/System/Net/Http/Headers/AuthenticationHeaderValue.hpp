@@ -107,6 +107,10 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(AuthenticationHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::AuthenticationHeaderValue*, "System.Net.Http.Headers", "AuthenticationHeaderValue");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter
 // Il2CppName: get_Parameter
 template<>

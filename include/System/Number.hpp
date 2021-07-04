@@ -152,6 +152,12 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");
+// Writing includes for template specializations
+#include "System/Decimal.hpp"
+#include "System/Globalization/NumberFormatInfo.hpp"
+#include "System/Number_NumberBuffer.hpp"
+#include "System/Globalization/NumberStyles.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::Number::NumberBufferToDecimal
 // Il2CppName: NumberBufferToDecimal
 template<>

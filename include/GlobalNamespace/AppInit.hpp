@@ -128,6 +128,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AppInit) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit*, "", "AppInit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::get_gameScenesManager
 // Il2CppName: get_gameScenesManager
 template<>

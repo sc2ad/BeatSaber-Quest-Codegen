@@ -52,6 +52,8 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpRequestCreator*, "System.Net", "FtpRequestCreator");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::FtpRequestCreator::Create
 // Il2CppName: Create
 template<>

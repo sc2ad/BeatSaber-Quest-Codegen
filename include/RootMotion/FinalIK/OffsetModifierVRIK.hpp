@@ -95,6 +95,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifierVRIK) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK*, "RootMotion.FinalIK", "OffsetModifierVRIK");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifierVRIK::get_deltaTime
 // Il2CppName: get_deltaTime
 template<>

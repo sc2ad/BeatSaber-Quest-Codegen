@@ -116,6 +116,8 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(MediaTypeHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeHeaderValue*, "System.Net.Http.Headers", "MediaTypeHeaderValue");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/Lexer.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

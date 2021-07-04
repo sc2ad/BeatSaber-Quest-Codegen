@@ -167,6 +167,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrailTester) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailTester*, "", "TrailTester");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TrailTester::get_bladeSpeed
 // Il2CppName: get_bladeSpeed
 template<>

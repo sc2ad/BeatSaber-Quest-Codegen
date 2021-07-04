@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardPlayerInfo) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardPlayerInfo::get_playerId
 // Il2CppName: get_playerId
 template<>

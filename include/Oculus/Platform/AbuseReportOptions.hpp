@@ -66,6 +66,8 @@ namespace Oculus::Platform {
   static_assert(sizeof(AbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform", "AbuseReportOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/AbuseReportType.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser
 // Il2CppName: SetPreventPeopleChooser
 template<>

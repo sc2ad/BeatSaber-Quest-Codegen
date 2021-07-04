@@ -42,6 +42,8 @@ namespace Zenject {
   }; // Zenject.LateTickablesTaskUpdater
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LateTickablesTaskUpdater*, "Zenject", "LateTickablesTaskUpdater");
+// Writing includes for template specializations
+#include "Zenject/ILateTickable.hpp"
 // Writing MetadataGetter for method: Zenject::LateTickablesTaskUpdater::UpdateItem
 // Il2CppName: UpdateItem
 template<>

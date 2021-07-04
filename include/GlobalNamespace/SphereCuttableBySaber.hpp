@@ -89,6 +89,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SphereCuttableBySaber) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SphereCuttableBySaber*, "", "SphereCuttableBySaber");
+// Writing includes for template specializations
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::Awake
 // Il2CppName: Awake
 template<>

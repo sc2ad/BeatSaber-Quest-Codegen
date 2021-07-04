@@ -160,6 +160,10 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse*, "MasterServer", "GetPublicUserServersResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse::Result, "MasterServer", "GetPublicUserServersResponse/Result");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_pool
 // Il2CppName: get_pool
 template<>

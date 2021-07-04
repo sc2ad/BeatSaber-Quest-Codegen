@@ -95,6 +95,10 @@ namespace HMUI {
   static_assert(sizeof(ButtonBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Button.hpp"
+#include "System/Action.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: HMUI::ButtonBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

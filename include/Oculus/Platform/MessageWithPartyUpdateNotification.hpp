@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithPartyUpdateNotification
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyUpdateNotification*, "Oculus.Platform", "MessageWithPartyUpdateNotification");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPartyUpdateNotification::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

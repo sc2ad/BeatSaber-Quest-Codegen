@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMasterServerAvailabilityModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerAvailabilityModel*, "", "MockMasterServerAvailabilityModel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMasterServerAvailabilityModel::GetAvailabilityAsync
 // Il2CppName: GetAvailabilityAsync
 template<>

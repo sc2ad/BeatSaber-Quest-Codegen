@@ -56,6 +56,7 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass5_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass5_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass5_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass5_0::$ImportFromGoogle$b__0
 // Il2CppName: <ImportFromGoogle>b__0
 template<>

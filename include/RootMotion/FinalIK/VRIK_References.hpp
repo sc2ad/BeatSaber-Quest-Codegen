@@ -198,6 +198,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIK::References) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::GetTransforms
 // Il2CppName: GetTransforms
 template<>

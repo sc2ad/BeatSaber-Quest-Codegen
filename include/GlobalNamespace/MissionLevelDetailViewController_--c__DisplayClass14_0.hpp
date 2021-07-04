@@ -73,6 +73,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass14_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/ObjectiveListItem.hpp"
+#include "GlobalNamespace/GameplayModifierInfoListItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__0
 // Il2CppName: <RefreshContent>b__0
 template<>

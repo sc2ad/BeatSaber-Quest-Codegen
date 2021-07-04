@@ -125,6 +125,12 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskFactory) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/Threading/Tasks/TaskScheduler.hpp"
+#include "System/Action.hpp"
+#include "System/Func_2.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::GetDefaultScheduler
 // Il2CppName: GetDefaultScheduler
 template<>

@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TextOnlyTableCell) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::get_text
 // Il2CppName: get_text
 template<>

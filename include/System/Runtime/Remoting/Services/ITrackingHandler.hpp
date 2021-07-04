@@ -38,6 +38,8 @@ namespace System::Runtime::Remoting::Services {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/ObjRef.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::DisconnectedObject
 // Il2CppName: DisconnectedObject
 template<>

@@ -418,6 +418,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKEffector.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Start
 // Il2CppName: Start
 template<>

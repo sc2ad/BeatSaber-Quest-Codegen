@@ -38,6 +38,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "IRemoteTestResultDataFactory");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTestResult
 // Il2CppName: CreateFromTestResult
 template<>

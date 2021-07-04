@@ -206,6 +206,12 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/RectTransform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Raycast
 // Il2CppName: Raycast
 template<>

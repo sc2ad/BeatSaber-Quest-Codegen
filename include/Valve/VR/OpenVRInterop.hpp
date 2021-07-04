@@ -69,6 +69,9 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVRInterop*, "Valve.VR", "OpenVRInterop");
+// Writing includes for template specializations
+#include "Valve/VR/EVRInitError.hpp"
+#include "Valve/VR/EVRApplicationType.hpp"
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::InitInternal
 // Il2CppName: InitInternal
 template<>

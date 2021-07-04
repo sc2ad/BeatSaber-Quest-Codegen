@@ -165,6 +165,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverArm) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverArm*, "RootMotion.FinalIK", "IKSolverArm");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverArm::SetChain
 // Il2CppName: SetChain
 template<>

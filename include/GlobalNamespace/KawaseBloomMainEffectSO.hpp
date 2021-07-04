@@ -177,6 +177,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBloomMainEffectSO) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>

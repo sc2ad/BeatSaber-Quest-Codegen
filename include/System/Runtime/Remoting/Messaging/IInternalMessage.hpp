@@ -40,6 +40,8 @@ namespace System::Runtime::Remoting::Messaging {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IInternalMessage*, "System.Runtime.Remoting.Messaging", "IInternalMessage");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Identity.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IInternalMessage::get_TargetIdentity
 // Il2CppName: get_TargetIdentity
 template<>

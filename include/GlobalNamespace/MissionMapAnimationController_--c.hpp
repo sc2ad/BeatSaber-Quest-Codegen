@@ -68,6 +68,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$$c*, "", "MissionMapAnimationController/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionNodeConnection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

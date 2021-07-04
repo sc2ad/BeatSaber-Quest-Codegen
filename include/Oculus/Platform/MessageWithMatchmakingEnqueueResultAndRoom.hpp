@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithMatchmakingEnqueueResultAndRoom
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom*, "Oculus.Platform", "MessageWithMatchmakingEnqueueResultAndRoom");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

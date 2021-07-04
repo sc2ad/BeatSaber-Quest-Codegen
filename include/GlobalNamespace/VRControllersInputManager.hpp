@@ -142,6 +142,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
+// Writing includes for template specializations
+#include "UnityEngine/XR/XRNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue
 // Il2CppName: TriggerValue
 template<>

@@ -271,6 +271,8 @@ namespace RootMotion {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: RootMotion::Baker::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

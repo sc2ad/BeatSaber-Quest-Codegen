@@ -221,6 +221,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberActivityCounter) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent
 // Il2CppName: add_totalDistanceDidChangeEvent
 template<>

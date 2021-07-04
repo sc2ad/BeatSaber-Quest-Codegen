@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelFilteringNavigationController::$$c__DisplayClass44_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass44_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0::$SelectAnnotatedBeatmapLevelCollection$b__1
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__1
 template<>

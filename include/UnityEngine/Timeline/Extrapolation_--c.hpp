@@ -61,6 +61,8 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation::$$c*, "UnityEngine.Timeline", "Extrapolation/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineClip.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::Extrapolation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FPSCounter) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounter::get_currentFPS
 // Il2CppName: get_currentFPS
 template<>

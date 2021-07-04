@@ -37,6 +37,8 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFilter*, "NUnit.Framework.Interfaces", "ITestFilter");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFilter::Pass
 // Il2CppName: Pass
 template<>

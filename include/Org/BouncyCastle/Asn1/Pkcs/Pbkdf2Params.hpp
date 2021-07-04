@@ -110,6 +110,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(Pbkdf2Params) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*, "Org.BouncyCastle.Asn1.Pkcs", "Pbkdf2Params");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetInstance
 // Il2CppName: GetInstance
 template<>

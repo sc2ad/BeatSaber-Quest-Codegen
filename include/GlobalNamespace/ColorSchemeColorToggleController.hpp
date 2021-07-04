@@ -76,6 +76,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeColorToggleController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorToggleController*, "", "ColorSchemeColorToggleController");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorToggleController::get_toggle
 // Il2CppName: get_toggle
 template<>

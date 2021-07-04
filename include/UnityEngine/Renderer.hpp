@@ -178,6 +178,15 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Renderer*, "UnityEngine", "Renderer");
+// Writing includes for template specializations
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/MaterialPropertyBlock.hpp"
+#include "UnityEngine/Rendering/ShadowCastingMode.hpp"
+#include "UnityEngine/MotionVectorGenerationMode.hpp"
+#include "UnityEngine/Rendering/LightProbeUsage.hpp"
+#include "UnityEngine/Rendering/ReflectionProbeUsage.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::Renderer::get_bounds
 // Il2CppName: get_bounds
 template<>

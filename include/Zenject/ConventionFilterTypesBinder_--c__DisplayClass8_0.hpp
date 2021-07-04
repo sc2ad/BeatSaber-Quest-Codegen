@@ -56,6 +56,8 @@ namespace Zenject {
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass8_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass8_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass8_0");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass8_0::$WithoutAttribute$b__0
 // Il2CppName: <WithoutAttribute>b__0
 template<>

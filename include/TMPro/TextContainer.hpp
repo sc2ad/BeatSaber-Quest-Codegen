@@ -256,6 +256,7 @@ namespace TMPro {
   static_assert(sizeof(TextContainer) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TextContainer::get_hasChanged
 // Il2CppName: get_hasChanged
 template<>

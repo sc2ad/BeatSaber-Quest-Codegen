@@ -235,6 +235,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator) == 0x138);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");
+// Writing includes for template specializations
+#include "GlobalNamespace/ResultsViewController.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleSimpleDemoViewControllerDidFinish
 // Il2CppName: HandleSimpleDemoViewControllerDidFinish
 template<>

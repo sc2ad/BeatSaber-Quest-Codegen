@@ -177,6 +177,11 @@ namespace System::Xml {
   static_assert(sizeof(XmlRawWriter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter*, "System.Xml", "XmlRawWriter");
+// Writing includes for template specializations
+#include "System/Xml/IXmlNamespaceResolver.hpp"
+#include "System/Xml/XmlStandalone.hpp"
+#include "System/Xml/ConformanceLevel.hpp"
+#include "System/Xml/WriteState.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlRawWriter::set_NamespaceResolver
 // Il2CppName: set_NamespaceResolver
 template<>

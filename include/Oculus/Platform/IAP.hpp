@@ -59,6 +59,9 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IAP*, "Oculus.Platform", "IAP");
+// Writing includes for template specializations
+#include "Oculus/Platform/Models/ProductList.hpp"
+#include "Oculus/Platform/Models/PurchaseList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::IAP::ConsumePurchase
 // Il2CppName: ConsumePurchase
 template<>

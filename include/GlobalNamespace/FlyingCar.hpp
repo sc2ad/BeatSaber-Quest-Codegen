@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingCar) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingCar::Start
 // Il2CppName: Start
 template<>

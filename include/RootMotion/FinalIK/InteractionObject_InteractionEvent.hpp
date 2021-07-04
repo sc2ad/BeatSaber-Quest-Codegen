@@ -94,6 +94,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionObject::InteractionEvent) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::InteractionEvent*, "RootMotion.FinalIK", "InteractionObject/InteractionEvent");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::InteractionEvent::Activate
 // Il2CppName: Activate
 template<>

@@ -47,6 +47,7 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Release
 // Il2CppName: Release
 template<>

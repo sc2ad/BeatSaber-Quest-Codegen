@@ -80,6 +80,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(IncDecColorController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecColorController*, "", "IncDecColorController");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IncDecColorController::set_enableDec
 // Il2CppName: set_enableDec
 template<>

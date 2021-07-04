@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicLevelParamsPanel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicLevelParamsPanel*, "", "BasicLevelParamsPanel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BasicLevelParamsPanel::set_duration
 // Il2CppName: set_duration
 template<>

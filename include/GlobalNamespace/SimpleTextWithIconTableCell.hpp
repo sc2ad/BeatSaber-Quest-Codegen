@@ -78,6 +78,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Image.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::set_icon
 // Il2CppName: set_icon
 template<>

@@ -260,6 +260,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionToggle) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle*, "", "MissionToggle");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionToggle::add_selectionDidChangeEvent
 // Il2CppName: add_selectionDidChangeEvent
 template<>

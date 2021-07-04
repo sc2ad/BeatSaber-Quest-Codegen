@@ -49,6 +49,8 @@ namespace Mono::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1Convert*, "Mono.Security", "ASN1Convert");
+// Writing includes for template specializations
+#include "Mono/Security/ASN1.hpp"
 // Writing MetadataGetter for method: Mono::Security::ASN1Convert::FromInt32
 // Il2CppName: FromInt32
 template<>

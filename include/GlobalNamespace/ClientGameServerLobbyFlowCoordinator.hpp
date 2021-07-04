@@ -222,6 +222,16 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClientGameServerLobbyFlowCoordinator) == 0x198);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientGameServerLobbyFlowCoordinator*, "", "ClientGameServerLobbyFlowCoordinator");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerGameState.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClientGameServerLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
 template<>

@@ -178,6 +178,9 @@ namespace MasterServer {
   static_assert(sizeof(UserServerStatusUpdateRequest) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerStatusUpdateRequest*, "MasterServer", "UserServerStatusUpdateRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::get_pool
 // Il2CppName: get_pool
 template<>

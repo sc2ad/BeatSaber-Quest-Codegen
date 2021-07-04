@@ -128,6 +128,7 @@ namespace UnityEngine {
   UnityEngine::Vector2Int operator*(const UnityEngine::Vector2Int& a, const int& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Vector2Int::get_x
 // Il2CppName: get_x
 template<>

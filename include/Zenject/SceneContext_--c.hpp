@@ -104,6 +104,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::$$c::_cctor
 // Il2CppName: .cctor
 template<>

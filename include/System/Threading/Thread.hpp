@@ -368,6 +368,17 @@ namespace System::Threading {
   static_assert(sizeof(Thread) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
+// Writing includes for template specializations
+#include "System/Threading/ThreadStart.hpp"
+#include "System/Threading/ParameterizedThreadStart.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/Threading/ExecutionContext_Reader.hpp"
+#include "System/Threading/ThreadPriority.hpp"
+#include "System/Delegate.hpp"
+#include "System/MulticastDelegate.hpp"
+#include "System/Threading/InternalThread.hpp"
+#include "System/Security/Principal/IPrincipal.hpp"
+#include "System/Threading/ThreadState.hpp"
 // Writing MetadataGetter for method: System::Threading::Thread::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

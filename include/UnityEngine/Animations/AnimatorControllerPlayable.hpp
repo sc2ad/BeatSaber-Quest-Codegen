@@ -82,6 +82,7 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimatorControllerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimatorControllerPlayable::AnimatorControllerPlayable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -49,6 +49,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySongPacksDropdown::$$c__DisplayClass13_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*, "", "QuickPlaySongPacksDropdown/<>c__DisplayClass13_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/QuickPlaySongPacksDropdown_SongPackMaskItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::$SelectCellWithSerializedName$b__0
 // Il2CppName: <SelectCellWithSerializedName>b__0
 template<>

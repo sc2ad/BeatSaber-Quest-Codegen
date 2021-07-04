@@ -111,6 +111,8 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ToggleGroup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Toggle.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::get_allowSwitchOff
 // Il2CppName: get_allowSwitchOff
 template<>

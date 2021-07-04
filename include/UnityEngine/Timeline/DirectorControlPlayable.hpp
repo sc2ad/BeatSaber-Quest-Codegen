@@ -115,6 +115,11 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(DirectorControlPlayable) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::Create
 // Il2CppName: Create
 template<>

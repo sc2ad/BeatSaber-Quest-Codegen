@@ -55,6 +55,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>

@@ -79,6 +79,9 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility*, "System.Net", "WebUtility");
+// Writing includes for template specializations
+#include "System/IO/TextWriter.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::Net::WebUtility::HtmlEncode
 // Il2CppName: HtmlEncode
 template<>

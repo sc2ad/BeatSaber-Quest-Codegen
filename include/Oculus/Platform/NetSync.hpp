@@ -36,6 +36,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::NetSync::SetConnectionStatusChangedNotificationCallback
 // Il2CppName: SetConnectionStatusChangedNotificationCallback
 template<>

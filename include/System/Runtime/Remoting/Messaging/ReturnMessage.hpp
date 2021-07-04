@@ -218,6 +218,11 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ReturnMessage) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ReturnMessage*, "System.Runtime.Remoting.Messaging", "ReturnMessage");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
+#include "System/Exception.hpp"
+#include "System/Runtime/Remoting/Identity.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ReturnMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

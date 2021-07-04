@@ -191,6 +191,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerTimelineMock) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerTimelineMock*, "", "MultiplayerTimelineMock");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators
 // Il2CppName: get_connectedPlayerIntroAnimators
 template<>

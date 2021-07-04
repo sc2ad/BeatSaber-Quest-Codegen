@@ -90,6 +90,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(BundledAssetProvider::InternalOp) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/AsyncOperation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies
 // Il2CppName: LoadBundleFromDependecies
 template<>

@@ -180,6 +180,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(CenterStageScreenController) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController*, "", "CenterStageScreenController");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::get_countdownShown
 // Il2CppName: get_countdownShown
 template<>

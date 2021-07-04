@@ -213,6 +213,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(ArcadeFlowCoordinator) == 0x160);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator*, "", "ArcadeFlowCoordinator");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/ResultsViewController.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::WillScoreGoToLeaderboard
 // Il2CppName: WillScoreGoToLeaderboard
 template<>

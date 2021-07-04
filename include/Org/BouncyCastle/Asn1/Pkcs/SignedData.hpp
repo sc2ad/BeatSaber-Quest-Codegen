@@ -101,6 +101,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(SignedData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::SignedData*, "Org.BouncyCastle.Asn1.Pkcs", "SignedData");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::SignedData::GetInstance
 // Il2CppName: GetInstance
 template<>

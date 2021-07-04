@@ -173,6 +173,11 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(BaseInputModule) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/BaseInput.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::get_input
 // Il2CppName: get_input
 template<>

@@ -106,6 +106,8 @@ namespace System::IO {
   static_assert(sizeof(FileLoadException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException*, "System.IO", "FileLoadException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::IO::FileLoadException::SetMessageField
 // Il2CppName: SetMessageField
 template<>

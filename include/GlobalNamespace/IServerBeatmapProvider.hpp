@@ -44,6 +44,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForConfiguration
 // Il2CppName: VerifyBeatmapForConfiguration
 template<>

@@ -102,6 +102,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmapLightWithIds) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds*, "", "LightmapLightWithIds");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_maxTotalIntensity
 // Il2CppName: get_maxTotalIntensity
 template<>

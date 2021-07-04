@@ -70,6 +70,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis2DMap) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis2DMap");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRInput_Axis2D.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>

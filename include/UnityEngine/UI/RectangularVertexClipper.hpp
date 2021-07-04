@@ -61,6 +61,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/Canvas.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::GetCanvasRect
 // Il2CppName: GetCanvasRect
 template<>

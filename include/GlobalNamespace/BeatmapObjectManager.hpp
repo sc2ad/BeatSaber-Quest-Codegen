@@ -328,6 +328,16 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectManager) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager*, "", "BeatmapObjectManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapObjectManager_NoteWasCutDelegate.hpp"
+#include "GlobalNamespace/ObstacleData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_ObstacleSpawnData.hpp"
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_NoteSpawnData.hpp"
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/ObstacleController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::add_noteWasSpawnedEvent
 // Il2CppName: add_noteWasSpawnedEvent
 template<>

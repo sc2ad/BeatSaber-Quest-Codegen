@@ -42,6 +42,7 @@ namespace Il2CppDummyDll {
   }; // Il2CppDummyDll.FieldOffsetAttribute
 }
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::FieldOffsetAttribute*, "Il2CppDummyDll", "FieldOffsetAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Il2CppDummyDll::FieldOffsetAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

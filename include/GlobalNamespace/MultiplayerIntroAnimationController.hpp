@@ -227,6 +227,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroAnimationController) == 0x8D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroAnimationController*, "", "MultiplayerIntroAnimationController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
+#include "GlobalNamespace/MultiplayerTimelineMock.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::OnValidate
 // Il2CppName: OnValidate
 template<>

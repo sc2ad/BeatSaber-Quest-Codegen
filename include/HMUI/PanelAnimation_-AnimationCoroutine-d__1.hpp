@@ -153,6 +153,7 @@ namespace HMUI {
   static_assert(sizeof(PanelAnimation::$AnimationCoroutine$d__1) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation::$AnimationCoroutine$d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::PanelAnimation::$AnimationCoroutine$d__1::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

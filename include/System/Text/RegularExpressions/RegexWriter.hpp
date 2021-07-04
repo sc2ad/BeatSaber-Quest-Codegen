@@ -173,6 +173,9 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexWriter) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/RegexTree.hpp"
+#include "System/Text/RegularExpressions/RegexNode.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::Write
 // Il2CppName: Write
 template<>

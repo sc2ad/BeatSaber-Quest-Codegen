@@ -363,6 +363,15 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Math*, "UnityEngine.ProBuilder", "Math");
+// Writing includes for template specializations
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/ProBuilder/Bounds2D.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::PointInCircumference
 // Il2CppName: PointInCircumference
 template<>

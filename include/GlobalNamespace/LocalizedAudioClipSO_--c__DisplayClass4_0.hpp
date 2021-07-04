@@ -51,6 +51,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*, "", "LocalizedAudioClipSO/<>c__DisplayClass4_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/LocalizedAudioClipSO_LocalizedAudioClipInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0
 // Il2CppName: <get_localizedAudioClip>b__0
 template<>

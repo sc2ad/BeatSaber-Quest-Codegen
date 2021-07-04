@@ -78,6 +78,8 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(RuntimeElement) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>

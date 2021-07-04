@@ -40,6 +40,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDiffieHellmanKeyPair*, "", "IDiffieHellmanKeyPair");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>

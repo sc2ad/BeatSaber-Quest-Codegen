@@ -154,6 +154,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelNoTransitionInstaller) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller*, "", "MultiplayerLevelNoTransitionInstaller");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelNoTransitionInstaller::OnDestroy
 // Il2CppName: OnDestroy
 template<>

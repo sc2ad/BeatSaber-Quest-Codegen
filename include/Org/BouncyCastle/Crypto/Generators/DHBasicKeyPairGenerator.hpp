@@ -63,6 +63,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(DHBasicKeyPairGenerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/KeyGenerationParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init
 // Il2CppName: Init
 template<>

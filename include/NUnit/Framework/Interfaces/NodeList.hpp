@@ -39,6 +39,7 @@ namespace NUnit::Framework::Interfaces {
   }; // NUnit.Framework.Interfaces.NodeList
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::NodeList*, "NUnit.Framework.Interfaces", "NodeList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::NodeList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

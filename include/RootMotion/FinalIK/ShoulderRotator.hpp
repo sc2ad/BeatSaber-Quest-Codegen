@@ -93,6 +93,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(ShoulderRotator) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/FullBodyBipedChain.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::Start
 // Il2CppName: Start
 template<>

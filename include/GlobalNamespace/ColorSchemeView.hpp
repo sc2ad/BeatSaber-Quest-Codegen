@@ -86,6 +86,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeView*, "", "ColorSchemeView");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeView::SetColors
 // Il2CppName: SetColors
 template<>

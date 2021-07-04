@@ -66,6 +66,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(Triangulation::$$c__DisplayClass7_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass7_0");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__0
 // Il2CppName: <Triangulate>b__0
 template<>

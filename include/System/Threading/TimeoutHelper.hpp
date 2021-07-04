@@ -25,6 +25,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::TimeoutHelper::GetTime
 // Il2CppName: GetTime
 template<>

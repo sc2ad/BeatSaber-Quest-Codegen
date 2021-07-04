@@ -89,6 +89,7 @@ namespace System {
   static_assert(sizeof(CharEnumerator) == 0x1E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::CharEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

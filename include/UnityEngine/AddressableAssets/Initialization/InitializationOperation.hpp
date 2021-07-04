@@ -156,6 +156,12 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
+#include "UnityEngine/ResourceManagement/Util/ObjectInitializationData.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/ResourceLocationMap.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

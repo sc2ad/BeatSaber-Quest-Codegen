@@ -22,6 +22,7 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IServerChannelSinkProvider*, "System.Runtime.Remoting.Channels", "IServerChannelSinkProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IServerChannelSinkProvider::set_Next
 // Il2CppName: set_Next
 template<>

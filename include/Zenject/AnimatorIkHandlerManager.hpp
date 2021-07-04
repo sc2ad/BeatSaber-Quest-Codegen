@@ -66,6 +66,8 @@ namespace Zenject {
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::Construct
 // Il2CppName: Construct
 template<>

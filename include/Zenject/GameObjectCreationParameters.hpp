@@ -155,6 +155,9 @@ namespace Zenject {
   bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Name
 // Il2CppName: get_Name
 template<>

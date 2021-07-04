@@ -67,6 +67,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(X509CertificateUtility::RSACertificateEncryptionProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/Parameters/RsaPrivateCrtKeyParameters.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

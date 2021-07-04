@@ -104,6 +104,8 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
+// Writing includes for template specializations
+#include "TMPro/FontStyles.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontStyleStack::Clear
 // Il2CppName: Clear
 template<>

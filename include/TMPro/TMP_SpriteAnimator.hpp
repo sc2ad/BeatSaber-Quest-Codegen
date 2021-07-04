@@ -94,6 +94,8 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteAnimator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
+// Writing includes for template specializations
+#include "TMPro/TMP_SpriteAsset.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::Awake
 // Il2CppName: Awake
 template<>

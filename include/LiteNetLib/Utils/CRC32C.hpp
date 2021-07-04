@@ -45,6 +45,7 @@ namespace LiteNetLib::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::CRC32C*, "LiteNetLib.Utils", "CRC32C");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::Utils::CRC32C::_cctor
 // Il2CppName: .cctor
 template<>

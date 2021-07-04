@@ -46,6 +46,10 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableBinding*, "UnityEngine.Playables", "ScriptPlayableBinding");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::ScriptPlayableBinding::Create
 // Il2CppName: Create
 template<>

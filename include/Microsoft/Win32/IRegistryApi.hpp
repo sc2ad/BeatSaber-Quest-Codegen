@@ -59,6 +59,9 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::IRegistryApi*, "Microsoft.Win32", "IRegistryApi");
+// Writing includes for template specializations
+#include "Microsoft/Win32/RegistryKey.hpp"
+#include "Microsoft/Win32/RegistryValueOptions.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::OpenSubKey
 // Il2CppName: OpenSubKey
 template<>

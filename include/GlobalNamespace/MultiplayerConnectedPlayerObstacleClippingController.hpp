@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleClippingController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*, "", "MultiplayerConnectedPlayerObstacleClippingController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams
 // Il2CppName: SetClippingParams
 template<>

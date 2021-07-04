@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithAssetDetails
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetails*, "Oculus.Platform", "MessageWithAssetDetails");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetails::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

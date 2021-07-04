@@ -98,6 +98,9 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetRuntimeAssembly
 // Il2CppName: GetRuntimeAssembly
 template<>

@@ -246,6 +246,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>

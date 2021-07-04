@@ -59,6 +59,11 @@ namespace Mono::Math::Prime {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTest*, "Mono.Math.Prime", "PrimalityTest");
+// Writing includes for template specializations
+#include "Mono/Math/BigInteger.hpp"
+#include "Mono/Math/Prime/ConfidenceFactor.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -192,6 +192,12 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Playables/DirectorWrapMode.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
+#include "UnityEngine/Playables/PlayableOutput.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource
 // Il2CppName: set_timeSource
 template<>

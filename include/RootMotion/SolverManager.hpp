@@ -133,6 +133,8 @@ namespace RootMotion {
   static_assert(sizeof(SolverManager) == 0x33);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::SolverManager::Disable
 // Il2CppName: Disable
 template<>

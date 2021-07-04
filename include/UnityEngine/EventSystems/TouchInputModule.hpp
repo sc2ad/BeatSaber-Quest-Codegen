@@ -129,6 +129,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(TouchInputModule) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::TouchInputModule::get_allowActivationOnStandalone
 // Il2CppName: get_allowActivationOnStandalone
 template<>

@@ -245,6 +245,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ReadObjectInfo) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "ReadObjectInfo");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/ObjectManager.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoInit.hpp"
+#include "System/Runtime/Serialization/IFormatterConverter.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::ObjectEnd
 // Il2CppName: ObjectEnd
 template<>

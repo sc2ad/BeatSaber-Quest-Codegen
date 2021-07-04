@@ -195,6 +195,8 @@ namespace VRUIControls {
   static_assert(sizeof(VRPointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRPointer::get_vrController
 // Il2CppName: get_vrController
 template<>

@@ -233,6 +233,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::Start
 // Il2CppName: Start
 template<>

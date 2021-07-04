@@ -87,6 +87,11 @@ namespace LiteNetLib {
   static_assert(sizeof(EventBasedNatPunchListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener*, "LiteNetLib", "EventBasedNatPunchListener");
+// Writing includes for template specializations
+#include "LiteNetLib/EventBasedNatPunchListener_OnNatIntroductionRequest.hpp"
+#include "LiteNetLib/EventBasedNatPunchListener_OnNatIntroductionSuccess.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/NatAddressType.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest
 // Il2CppName: add_NatIntroductionRequest
 template<>

@@ -140,6 +140,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(HTTPLeaderboardsModel) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel*, "", "HTTPLeaderboardsModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>

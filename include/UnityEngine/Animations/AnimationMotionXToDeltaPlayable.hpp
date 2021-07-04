@@ -102,6 +102,8 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationMotionXToDeltaPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Create
 // Il2CppName: Create
 template<>

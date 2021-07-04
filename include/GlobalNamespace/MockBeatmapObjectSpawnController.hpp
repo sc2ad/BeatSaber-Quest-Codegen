@@ -173,6 +173,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockBeatmapObjectSpawnController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapObjectSpawnController*, "", "MockBeatmapObjectSpawnController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/NoteLineLayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapObjectSpawnController::get_jumpOffsetY
 // Il2CppName: get_jumpOffsetY
 template<>

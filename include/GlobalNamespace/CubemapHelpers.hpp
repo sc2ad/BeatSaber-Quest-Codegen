@@ -106,6 +106,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapHelpers*, "", "CubemapHelpers");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::get_cubemapHelpersMaterial
 // Il2CppName: get_cubemapHelpersMaterial
 template<>

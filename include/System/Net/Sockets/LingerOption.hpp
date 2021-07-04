@@ -51,6 +51,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(LingerOption) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Sockets::LingerOption::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

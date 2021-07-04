@@ -189,6 +189,12 @@ namespace RootMotion {
   static_assert(sizeof(BakerHumanoidQT) == 0x9D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Avatar.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
+#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

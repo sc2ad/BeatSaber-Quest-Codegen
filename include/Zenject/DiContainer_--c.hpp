@@ -116,6 +116,10 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c*, "Zenject", "DiContainer/<>c");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::_cctor
 // Il2CppName: .cctor
 template<>

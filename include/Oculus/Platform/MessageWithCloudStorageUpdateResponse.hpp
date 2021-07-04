@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageUpdateResponse
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageUpdateResponse*, "Oculus.Platform", "MessageWithCloudStorageUpdateResponse");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageUpdateResponse::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

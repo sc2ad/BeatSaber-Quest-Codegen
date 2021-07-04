@@ -128,6 +128,8 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITypeInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_RunState
 // Il2CppName: get_RunState
 template<>

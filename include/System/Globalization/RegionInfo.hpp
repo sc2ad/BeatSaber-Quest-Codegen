@@ -186,6 +186,8 @@ namespace System::Globalization {
   static_assert(sizeof(RegionInfo) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion
 template<>

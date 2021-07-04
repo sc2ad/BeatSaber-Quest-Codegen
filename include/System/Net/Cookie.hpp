@@ -329,6 +329,8 @@ namespace System::Net {
   static_assert(sizeof(Cookie) == 0x9A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::Cookie::get_Comment
 // Il2CppName: get_Comment
 template<>

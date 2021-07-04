@@ -24,6 +24,7 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IMemoable*, "Org.BouncyCastle.Utilities", "IMemoable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IMemoable::Copy
 // Il2CppName: Copy
 template<>

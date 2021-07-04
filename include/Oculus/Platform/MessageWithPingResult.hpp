@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithPingResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPingResult*, "Oculus.Platform", "MessageWithPingResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPingResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

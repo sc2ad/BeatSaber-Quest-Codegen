@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PromoViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController*, "", "PromoViewController");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::add_promoButtonWasPressedEvent
 // Il2CppName: add_promoButtonWasPressedEvent
 template<>

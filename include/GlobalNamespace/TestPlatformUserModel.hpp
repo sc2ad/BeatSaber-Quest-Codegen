@@ -78,6 +78,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel*, "", "TestPlatformUserModel");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformUserModel::GetUserInfo
 // Il2CppName: GetUserInfo
 template<>

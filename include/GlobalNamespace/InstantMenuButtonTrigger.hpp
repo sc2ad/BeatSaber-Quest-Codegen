@@ -80,6 +80,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(InstantMenuButtonTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent
 // Il2CppName: add_menuButtonTriggeredEvent
 template<>

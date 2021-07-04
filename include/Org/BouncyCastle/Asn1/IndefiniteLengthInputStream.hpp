@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(IndefiniteLengthInputStream) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*, "Org.BouncyCastle.Asn1", "IndefiniteLengthInputStream");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::SetEofOn00
 // Il2CppName: SetEofOn00
 template<>

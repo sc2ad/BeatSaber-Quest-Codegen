@@ -58,6 +58,10 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.Tasks", "TaskToApm");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::Begin
 // Il2CppName: Begin
 template<>

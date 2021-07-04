@@ -64,6 +64,8 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/DSAParameters.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSA::Create
 // Il2CppName: Create
 template<>

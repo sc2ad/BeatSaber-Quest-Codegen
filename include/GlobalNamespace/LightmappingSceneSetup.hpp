@@ -97,6 +97,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmappingSceneSetup) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingSceneSetup*, "", "LightmappingSceneSetup");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorSchemeSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::get_colorScheme
 // Il2CppName: get_colorScheme
 template<>

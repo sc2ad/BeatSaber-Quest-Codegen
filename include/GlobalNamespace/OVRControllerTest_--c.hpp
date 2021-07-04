@@ -263,6 +263,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::_cctor
 // Il2CppName: .cctor
 template<>

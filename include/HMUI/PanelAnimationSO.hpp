@@ -99,6 +99,10 @@ namespace HMUI {
   static_assert(sizeof(PanelAnimationSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "System/Action.hpp"
+#include "UnityEngine/CanvasGroup.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
 template<>

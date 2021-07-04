@@ -66,6 +66,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(StaticAccessorAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::StaticAccessorAttribute::set_Name
 // Il2CppName: set_Name
 template<>

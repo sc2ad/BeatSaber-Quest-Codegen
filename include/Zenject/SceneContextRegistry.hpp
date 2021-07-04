@@ -90,6 +90,8 @@ namespace Zenject {
   static_assert(sizeof(SceneContextRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");
+// Writing includes for template specializations
+#include "Zenject/SceneContext.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistry::get_SceneContexts
 // Il2CppName: get_SceneContexts
 template<>

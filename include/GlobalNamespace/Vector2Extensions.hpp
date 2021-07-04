@@ -30,6 +30,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2Extensions*, "", "Vector2Extensions");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector2Extensions::SignedAngleToLine
 // Il2CppName: SignedAngleToLine
 template<>

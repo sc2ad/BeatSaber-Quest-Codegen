@@ -98,6 +98,8 @@ namespace System::Text {
   static_assert(sizeof(InternalDecoderBestFitFallbackBuffer) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallbackBuffer*, "System.Text", "InternalDecoderBestFitFallbackBuffer");
+// Writing includes for template specializations
+#include "System/Text/InternalDecoderBestFitFallback.hpp"
 // Writing MetadataGetter for method: System::Text::InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

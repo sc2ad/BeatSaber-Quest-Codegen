@@ -99,6 +99,9 @@ namespace HMUI {
   static_assert(sizeof(EventSystemListener) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemListener*, "HMUI", "EventSystemListener");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: HMUI::EventSystemListener::add_pointerDidEnterEvent
 // Il2CppName: add_pointerDidEnterEvent
 template<>

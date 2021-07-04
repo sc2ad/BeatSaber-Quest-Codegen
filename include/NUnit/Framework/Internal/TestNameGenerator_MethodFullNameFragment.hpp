@@ -48,6 +48,8 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::MethodFullNameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/MethodFullNameFragment");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::MethodFullNameFragment::GetText
 // Il2CppName: GetText
 template<>

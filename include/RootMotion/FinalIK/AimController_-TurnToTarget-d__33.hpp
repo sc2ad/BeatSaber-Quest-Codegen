@@ -75,6 +75,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimController::$TurnToTarget$d__33) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::$TurnToTarget$d__33::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

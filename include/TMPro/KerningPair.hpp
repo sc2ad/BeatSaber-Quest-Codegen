@@ -119,6 +119,7 @@ namespace TMPro {
   static_assert(sizeof(KerningPair) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::KerningPair::get_firstGlyph
 // Il2CppName: get_firstGlyph
 template<>

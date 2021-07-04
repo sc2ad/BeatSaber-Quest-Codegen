@@ -75,6 +75,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(StreamingContext) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::StreamingContext
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

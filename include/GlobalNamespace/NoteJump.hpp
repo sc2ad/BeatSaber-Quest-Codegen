@@ -330,6 +330,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteJump) == 0x11C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent
 // Il2CppName: add_noteJumpDidFinishEvent
 template<>

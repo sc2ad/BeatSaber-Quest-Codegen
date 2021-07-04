@@ -28,6 +28,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::FrameTimingManager::CaptureFrameTimings
 // Il2CppName: CaptureFrameTimings
 template<>

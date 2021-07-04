@@ -131,6 +131,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusConnectionManager::OculusConnection) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_id
 // Il2CppName: get_id
 template<>

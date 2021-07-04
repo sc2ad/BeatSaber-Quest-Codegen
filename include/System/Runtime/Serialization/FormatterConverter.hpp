@@ -63,6 +63,8 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterConverter*, "System.Runtime.Serialization", "FormatterConverter");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterConverter::Convert
 // Il2CppName: Convert
 template<>

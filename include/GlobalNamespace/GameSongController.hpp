@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameSongController) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController*, "", "GameSongController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameSongController::get_songLength
 // Il2CppName: get_songLength
 template<>

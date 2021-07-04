@@ -74,6 +74,9 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(EnumerableRetryTestCommand) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand*, "UnityEngine.TestTools", "EnumerableRetryTestCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/RetryAttribute_RetryCommand.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableRetryTestCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

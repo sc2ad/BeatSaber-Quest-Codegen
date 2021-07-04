@@ -159,6 +159,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(CanvasUpdateRegistry) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdateRegistry*, "UnityEngine.UI", "CanvasUpdateRegistry");
+// Writing includes for template specializations
+#include "UnityEngine/UI/ICanvasElement.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::get_instance
 // Il2CppName: get_instance
 template<>

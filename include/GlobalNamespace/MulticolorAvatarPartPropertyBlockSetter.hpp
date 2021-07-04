@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*, "", "MulticolorAvatarPartPropertyBlockSetter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::OnValidate
 // Il2CppName: OnValidate
 template<>

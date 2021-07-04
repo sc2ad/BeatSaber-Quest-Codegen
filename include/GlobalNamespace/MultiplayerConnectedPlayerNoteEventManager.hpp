@@ -224,6 +224,10 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*, "", "MultiplayerConnectedPlayerNoteEventManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
+#include "GlobalNamespace/NoteMissInfoNetSerializable.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent
 // Il2CppName: add_connectedPlayerNoteWasCutEvent
 template<>

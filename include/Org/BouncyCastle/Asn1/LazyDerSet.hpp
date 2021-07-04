@@ -78,6 +78,8 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(LazyDerSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LazyDerSet*, "Org.BouncyCastle.Asn1", "LazyDerSet");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LazyDerSet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

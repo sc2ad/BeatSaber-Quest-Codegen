@@ -58,6 +58,7 @@ namespace NUnit::Framework::Internal::Builders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrategy*, "NUnit.Framework.Internal.Builders", "CombinatorialStrategy");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>

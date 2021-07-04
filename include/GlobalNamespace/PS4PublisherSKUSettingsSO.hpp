@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4PublisherSKUSettingsSO) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName
 // Il2CppName: get_skuName
 template<>

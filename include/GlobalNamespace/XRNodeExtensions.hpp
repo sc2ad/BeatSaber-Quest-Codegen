@@ -35,6 +35,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XRNodeExtensions*, "", "XRNodeExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/XR/XRNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::XRNodeExtensions::OculusNode
 // Il2CppName: OculusNode
 template<>

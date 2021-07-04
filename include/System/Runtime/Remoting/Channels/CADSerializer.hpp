@@ -48,6 +48,10 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CADSerializer*, "System.Runtime.Remoting.Channels", "CADSerializer");
+// Writing includes for template specializations
+#include "System/IO/MemoryStream.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CADSerializer::DeserializeMessage
 // Il2CppName: DeserializeMessage
 template<>

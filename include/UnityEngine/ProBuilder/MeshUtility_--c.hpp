@@ -70,6 +70,8 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility::$$c*, "UnityEngine.ProBuilder", "MeshUtility/<>c");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

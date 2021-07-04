@@ -114,6 +114,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionLookAt) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionLookAt::Look
 // Il2CppName: Look
 template<>

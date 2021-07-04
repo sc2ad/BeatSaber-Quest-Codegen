@@ -61,6 +61,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedOpenTypeProvider::$$c*, "Zenject", "CachedOpenTypeProvider/<>c");
+// Writing includes for template specializations
+#include "Zenject/CachedProvider.hpp"
 // Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::_cctor
 // Il2CppName: .cctor
 template<>

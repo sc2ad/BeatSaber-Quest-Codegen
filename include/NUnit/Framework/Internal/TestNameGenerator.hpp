@@ -98,6 +98,8 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestNameGenerator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator*, "NUnit.Framework.Internal", "TestNameGenerator");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestMethod.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

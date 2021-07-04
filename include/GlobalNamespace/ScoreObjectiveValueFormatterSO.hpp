@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreObjectiveValueFormatterSO*, "", "ScoreObjectiveValueFormatterSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>

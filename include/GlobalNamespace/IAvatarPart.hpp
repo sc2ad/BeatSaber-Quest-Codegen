@@ -27,6 +27,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IAvatarPart::get_id
 // Il2CppName: get_id
 template<>

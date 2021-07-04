@@ -153,6 +153,8 @@ namespace System::Globalization {
   static_assert(sizeof(GregorianCalendarHelper) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
+// Writing includes for template specializations
+#include "System/Globalization/Calendar.hpp"
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::get_MaxYear
 // Il2CppName: get_MaxYear
 template<>

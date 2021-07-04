@@ -99,6 +99,7 @@ namespace HMUI {
   static_assert(sizeof(SelectableCellStaticAnimations) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Awake
 // Il2CppName: Awake
 template<>

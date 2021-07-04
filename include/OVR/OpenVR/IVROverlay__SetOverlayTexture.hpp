@@ -59,6 +59,10 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetOverlayTexture*, "OVR.OpenVR", "IVROverlay/_SetOverlayTexture");
+// Writing includes for template specializations
+#include "OVR/OpenVR/Texture_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_SetOverlayTexture::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

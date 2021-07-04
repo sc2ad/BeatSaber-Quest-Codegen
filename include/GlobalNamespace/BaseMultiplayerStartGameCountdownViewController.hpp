@@ -130,6 +130,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMultiplayerStartGameCountdownViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*, "", "BaseMultiplayerStartGameCountdownViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/ILevelGameplaySetupData.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent
 // Il2CppName: add_playerActiveStateChangedEvent
 template<>

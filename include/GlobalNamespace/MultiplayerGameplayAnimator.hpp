@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerGameplayAnimator) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameplayAnimator*, "", "MultiplayerGameplayAnimator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::Start
 // Il2CppName: Start
 template<>

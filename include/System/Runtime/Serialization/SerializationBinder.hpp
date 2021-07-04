@@ -45,6 +45,8 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationBinder*, "System.Runtime.Serialization", "SerializationBinder");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToName
 // Il2CppName: BindToName
 template<>

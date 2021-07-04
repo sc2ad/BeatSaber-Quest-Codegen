@@ -87,6 +87,10 @@ namespace System {
   static_assert(sizeof(WindowsConsoleDriver) == 0x22);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");
+// Writing includes for template specializations
+#include "System/Handles.hpp"
+#include "System/ConsoleScreenBufferInfo.hpp"
+#include "System/InputRecord.hpp"
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>

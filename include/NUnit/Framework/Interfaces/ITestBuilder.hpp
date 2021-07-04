@@ -41,6 +41,9 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestBuilder*, "NUnit.Framework.Interfaces", "ITestBuilder");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/IMethodInfo.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>

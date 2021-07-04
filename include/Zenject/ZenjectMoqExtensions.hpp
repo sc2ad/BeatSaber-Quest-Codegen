@@ -63,6 +63,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");
+// Writing includes for template specializations
+#include "Zenject/FromBinderGeneric_1.hpp"
+#include "Zenject/FactoryFromBinder_1.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectMoqExtensions::FromMock
 // Il2CppName: FromMock
 // Cannot write MetadataGetter for generic methods!

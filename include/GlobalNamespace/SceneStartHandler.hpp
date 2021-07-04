@@ -164,6 +164,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneStartHandler) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartHandler*, "", "SceneStartHandler");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/IGameplayRpcManager.hpp"
+#include "GlobalNamespace/PlayersSpecificSettingsAtGameStartModel.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsNetSerializable.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsAtStartNetSerializable.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent
 // Il2CppName: add_sceneSetupDidFinishEvent
 template<>

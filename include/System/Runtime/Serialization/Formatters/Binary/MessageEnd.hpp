@@ -57,6 +57,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MessageEnd*, "System.Runtime.Serialization.Formatters.Binary", "MessageEnd");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::MessageEnd::Write
 // Il2CppName: Write
 template<>

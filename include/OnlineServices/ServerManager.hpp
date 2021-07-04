@@ -158,6 +158,13 @@ namespace OnlineServices {
   static_assert(sizeof(ServerManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager*, "OnlineServices", "ServerManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
+#include "OnlineServices/PlatformServicesAvailabilityInfo.hpp"
 // Writing MetadataGetter for method: OnlineServices::ServerManager::add_platformServicesAvailabilityInfoChangedEvent
 // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
 template<>

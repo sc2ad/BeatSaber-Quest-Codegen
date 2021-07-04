@@ -74,6 +74,11 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/IMethodInfo.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "NUnit/Framework/Internal/TestCaseParameters.hpp"
+#include "NUnit/Framework/Internal/TestMethod.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
 template<>

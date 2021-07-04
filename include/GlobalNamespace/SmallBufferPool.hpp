@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::GetBuffer
 // Il2CppName: GetBuffer
 template<>

@@ -98,6 +98,10 @@ namespace HMUI {
   static_assert(sizeof(ToggleBinder) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleBinder*, "HMUI", "ToggleBinder");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/UI/Toggle.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: HMUI::ToggleBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

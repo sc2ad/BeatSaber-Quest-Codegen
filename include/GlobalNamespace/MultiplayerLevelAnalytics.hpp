@@ -74,6 +74,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelAnalytics) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelAnalytics*, "", "MultiplayerLevelAnalytics");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelAnalytics::Start
 // Il2CppName: Start
 template<>

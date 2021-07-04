@@ -227,6 +227,9 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SocketAsyncEventArgs) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");
+// Writing includes for template specializations
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/EventHandler_1.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_AcceptSocket
 // Il2CppName: get_AcceptSocket
 template<>

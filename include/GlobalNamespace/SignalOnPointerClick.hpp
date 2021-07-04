@@ -69,6 +69,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalOnPointerClick) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnPointerClick*, "", "SignalOnPointerClick");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SignalOnPointerClick::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>

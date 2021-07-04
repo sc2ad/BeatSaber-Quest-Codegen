@@ -37,6 +37,7 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterInfo*, "NUnit.Framework.Interfaces", "IParameterInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IParameterInfo::get_IsOptional
 // Il2CppName: get_IsOptional
 template<>

@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithGroupPresenceLeaveIntent
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithGroupPresenceLeaveIntent*, "Oculus.Platform", "MessageWithGroupPresenceLeaveIntent");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithGroupPresenceLeaveIntent::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

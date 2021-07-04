@@ -56,6 +56,8 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_0");
+// Writing includes for template specializations
+#include "UnityEngine/ScriptableObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::$GenerateUniqueActorName$b__0
 // Il2CppName: <GenerateUniqueActorName>b__0
 template<>

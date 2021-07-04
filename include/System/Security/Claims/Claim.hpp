@@ -146,6 +146,9 @@ namespace System::Security::Claims {
   static_assert(sizeof(Claim) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims", "Claim");
+// Writing includes for template specializations
+#include "System/Security/Claims/ClaimsIdentity.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::Claim::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -89,6 +89,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2DArray*, "UnityEngine", "Texture2DArray");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Texture2DArray::get_allSlices
 // Il2CppName: get_allSlices
 template<>

@@ -75,6 +75,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDES*, "System.Security.Cryptography", "TripleDES");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDES::Create
 // Il2CppName: Create
 template<>

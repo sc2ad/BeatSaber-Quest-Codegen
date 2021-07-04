@@ -82,6 +82,9 @@ namespace Zenject {
   static_assert(sizeof(InitializableManager) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager*, "Zenject", "InitializableManager");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/IInitializable.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

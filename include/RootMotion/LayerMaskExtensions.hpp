@@ -96,6 +96,7 @@ namespace RootMotion {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LayerMaskExtensions*, "RootMotion", "LayerMaskExtensions");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::Contains
 // Il2CppName: Contains
 template<>

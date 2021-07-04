@@ -66,6 +66,9 @@ namespace Polyglot {
   }; // Polyglot.LocalizedTextMeshProUGUI
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMeshProUGUI*, "Polyglot", "LocalizedTextMeshProUGUI");
+// Writing includes for template specializations
+#include "TMPro/TextMeshProUGUI.hpp"
+#include "TMPro/TextAlignmentOptions.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshProUGUI::SetText
 // Il2CppName: SetText
 template<>

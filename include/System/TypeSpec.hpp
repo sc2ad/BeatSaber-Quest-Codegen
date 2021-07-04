@@ -153,6 +153,12 @@ namespace System {
   static_assert(sizeof(TypeSpec) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");
+// Writing includes for template specializations
+#include "System/TypeSpec_DisplayNameFormat.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "System/Func_2.hpp"
+#include "System/Func_4.hpp"
+#include "System/ModifierSpec.hpp"
 // Writing MetadataGetter for method: System::TypeSpec::get_HasModifiers
 // Il2CppName: get_HasModifiers
 template<>

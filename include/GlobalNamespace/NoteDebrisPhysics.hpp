@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisPhysics*, "", "NoteDebrisPhysics");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisPhysics::get_position
 // Il2CppName: get_position
 template<>

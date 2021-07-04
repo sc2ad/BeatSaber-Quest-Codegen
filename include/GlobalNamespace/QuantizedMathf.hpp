@@ -82,6 +82,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");
+// Writing includes for template specializations
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Pose.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuantizedMathf::Approximately
 // Il2CppName: Approximately
 template<>

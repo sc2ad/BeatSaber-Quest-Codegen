@@ -194,6 +194,9 @@ namespace System::Xml {
   static_assert(sizeof(XmlUtf8RawTextWriterIndent) == 0xAC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriterIndent*, "System.Xml", "XmlUtf8RawTextWriterIndent");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriterSettings.hpp"
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlUtf8RawTextWriterIndent::Init
 // Il2CppName: Init
 template<>

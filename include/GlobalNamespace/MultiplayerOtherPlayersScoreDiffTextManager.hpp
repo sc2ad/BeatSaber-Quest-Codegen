@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerOtherPlayersScoreDiffTextManager) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*, "", "MultiplayerOtherPlayersScoreDiffTextManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Start
 // Il2CppName: Start
 template<>

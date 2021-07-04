@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO::BloomKernel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::BloomKernel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

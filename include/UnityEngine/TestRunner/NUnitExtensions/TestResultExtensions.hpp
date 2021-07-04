@@ -43,6 +43,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestResult.hpp"
+#include "System/Exception.hpp"
+#include "NUnit/Framework/Interfaces/ResultState.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException
 // Il2CppName: RecordPrefixedException
 template<>

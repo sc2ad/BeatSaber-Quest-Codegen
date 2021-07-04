@@ -106,6 +106,10 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcher*, "System.IO", "DefaultWatcher");
+// Writing includes for template specializations
+#include "System/IO/FileSystemWatcher.hpp"
+#include "System/IO/DefaultWatcherData.hpp"
+#include "System/IO/FileAction.hpp"
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::GetInstance
 // Il2CppName: GetInstance
 template<>

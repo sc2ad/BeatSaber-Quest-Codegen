@@ -21,6 +21,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaskable*, "UnityEngine.UI", "IMaskable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::IMaskable::RecalculateMasking
 // Il2CppName: RecalculateMasking
 template<>

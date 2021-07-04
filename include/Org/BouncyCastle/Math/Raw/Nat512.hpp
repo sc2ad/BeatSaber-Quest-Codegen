@@ -25,6 +25,7 @@ namespace Org::BouncyCastle::Math::Raw {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat512*, "Org.BouncyCastle.Math.Raw", "Nat512");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat512::Mul
 // Il2CppName: Mul
 template<>

@@ -89,6 +89,10 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(DefaultSuiteBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*, "NUnit.Framework.Internal.Builders", "DefaultSuiteBuilder");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITypeInfo.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "NUnit/Framework/Interfaces/IFixtureBuilder.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>

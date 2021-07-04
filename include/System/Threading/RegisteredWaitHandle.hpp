@@ -112,6 +112,9 @@ namespace System::Threading {
   static_assert(sizeof(RegisteredWaitHandle) == 0x4E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threading", "RegisteredWaitHandle");
+// Writing includes for template specializations
+#include "System/Threading/WaitHandle.hpp"
+#include "System/Threading/WaitOrTimerCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::RegisteredWaitHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

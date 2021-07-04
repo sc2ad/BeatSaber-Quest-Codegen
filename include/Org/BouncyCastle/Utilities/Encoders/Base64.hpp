@@ -22,6 +22,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.BouncyCastle.Utilities.Encoders", "Base64");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Base64::Decode
 // Il2CppName: Decode
 template<>

@@ -84,6 +84,9 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeEventInfo*, "System.Reflection", "RuntimeEventInfo");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::get_BindingFlags
 // Il2CppName: get_BindingFlags
 template<>

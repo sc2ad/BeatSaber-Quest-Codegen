@@ -93,6 +93,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(Stopwatch) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::Stopwatch::GetTimestamp
 // Il2CppName: GetTimestamp
 template<>

@@ -111,6 +111,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditableBeatmapSelectionView) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableBeatmapSelectionView*, "", "EditableBeatmapSelectionView");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditableBeatmapSelectionView::get_editButton
 // Il2CppName: get_editButton
 template<>

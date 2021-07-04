@@ -217,6 +217,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(RichPresenceManager) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerGameState.hpp"
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "GlobalNamespace/IRichPresenceData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::Awake
 // Il2CppName: Awake
 template<>

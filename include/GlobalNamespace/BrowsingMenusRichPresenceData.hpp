@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BrowsingMenusRichPresenceData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BrowsingMenusRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>

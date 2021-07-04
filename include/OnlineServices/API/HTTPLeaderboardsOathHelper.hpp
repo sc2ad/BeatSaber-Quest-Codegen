@@ -141,6 +141,9 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPLeaderboardsOathHelper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync
 // Il2CppName: SendWebRequestWithOathAsync
 template<>

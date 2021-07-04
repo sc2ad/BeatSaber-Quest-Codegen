@@ -71,6 +71,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(CAPI::ovrMatchmakingCriterion) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReorderableAttribute) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementHeader
 // Il2CppName: get_ElementHeader
 template<>

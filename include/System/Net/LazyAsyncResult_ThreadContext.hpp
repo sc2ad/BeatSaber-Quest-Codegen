@@ -45,6 +45,7 @@ namespace System::Net {
   static_assert(sizeof(LazyAsyncResult::ThreadContext) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::LazyAsyncResult::ThreadContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -37,6 +37,8 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media*, "Oculus.Platform", "Media");
+// Writing includes for template specializations
+#include "Oculus/Platform/MediaContentType.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Media::ShareToFacebook
 // Il2CppName: ShareToFacebook
 template<>

@@ -42,6 +42,7 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Set::DerComparer*, "Org.BouncyCastle.Asn1", "Asn1Set/DerComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Set::DerComparer::Compare
 // Il2CppName: Compare
 template<>

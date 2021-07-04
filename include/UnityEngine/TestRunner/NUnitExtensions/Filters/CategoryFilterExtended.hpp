@@ -55,6 +55,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "CategoryFilterExtended");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

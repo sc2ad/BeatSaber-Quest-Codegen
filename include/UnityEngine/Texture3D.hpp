@@ -97,6 +97,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_CreateImpl
 // Il2CppName: Internal_CreateImpl
 template<>

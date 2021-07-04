@@ -28,6 +28,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFlyingObjectEffectDidFinishEvent*, "", "IFlyingObjectEffectDidFinishEvent");
+// Writing includes for template specializations
+#include "GlobalNamespace/FlyingObjectEffect.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>

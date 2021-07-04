@@ -81,6 +81,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ResizeList
 // Il2CppName: ResizeList
 // Cannot write MetadataGetter for generic methods!

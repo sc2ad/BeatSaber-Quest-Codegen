@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ToggleableCanvasGroup) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ToggleableCanvasGroup::OnEnable
 // Il2CppName: OnEnable
 template<>

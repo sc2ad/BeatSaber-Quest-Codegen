@@ -60,6 +60,8 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
+// Writing includes for template specializations
+#include "UnityEngine/XR/ConnectionChangeType.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevices::InvokeConnectionEvent
 // Il2CppName: InvokeConnectionEvent
 template<>

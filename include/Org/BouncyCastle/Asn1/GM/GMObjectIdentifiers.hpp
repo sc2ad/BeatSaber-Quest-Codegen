@@ -289,6 +289,7 @@ namespace Org::BouncyCastle::Asn1::GM {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers*, "Org.BouncyCastle.Asn1.GM", "GMObjectIdentifiers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

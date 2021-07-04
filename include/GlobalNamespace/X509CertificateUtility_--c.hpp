@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::$$c*, "", "X509CertificateUtility/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

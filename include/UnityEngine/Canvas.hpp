@@ -145,6 +145,11 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas*, "UnityEngine", "Canvas");
+// Writing includes for template specializations
+#include "UnityEngine/Canvas_WillRenderCanvases.hpp"
+#include "UnityEngine/RenderMode.hpp"
+#include "UnityEngine/AdditionalCanvasShaderChannels.hpp"
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: UnityEngine::Canvas::add_willRenderCanvases
 // Il2CppName: add_willRenderCanvases
 template<>

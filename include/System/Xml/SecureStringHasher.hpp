@@ -72,6 +72,7 @@ namespace System::Xml {
   static_assert(sizeof(SecureStringHasher) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::SecureStringHasher::Equals
 // Il2CppName: Equals
 template<>

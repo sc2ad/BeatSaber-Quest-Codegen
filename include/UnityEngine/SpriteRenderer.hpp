@@ -47,6 +47,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpriteRenderer*, "UnityEngine", "SpriteRenderer");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::SpriteRenderer::set_sprite
 // Il2CppName: set_sprite
 template<>

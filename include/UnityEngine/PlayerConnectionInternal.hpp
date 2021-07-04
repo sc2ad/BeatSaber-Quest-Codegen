@@ -93,6 +93,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerConnectionInternal*, "UnityEngine", "PlayerConnectionInternal");
+// Writing includes for template specializations
+#include "System/Guid.hpp"
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.SendMessage
 template<>

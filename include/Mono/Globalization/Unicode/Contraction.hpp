@@ -57,6 +57,7 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(Contraction) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::Contraction::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

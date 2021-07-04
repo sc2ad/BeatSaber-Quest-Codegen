@@ -141,6 +141,9 @@ namespace UnityEngine {
   static_assert(sizeof(MaterialPropertyBlock) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::GetColorImpl
 // Il2CppName: GetColorImpl
 template<>

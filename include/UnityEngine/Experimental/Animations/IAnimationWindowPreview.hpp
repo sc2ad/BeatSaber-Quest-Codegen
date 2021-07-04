@@ -28,6 +28,8 @@ namespace UnityEngine::Experimental::Animations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Animations::IAnimationWindowPreview::UpdatePreviewGraph
 // Il2CppName: UpdatePreviewGraph
 template<>

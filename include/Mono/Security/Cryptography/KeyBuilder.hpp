@@ -36,6 +36,7 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyBuilder*, "Mono.Security.Cryptography", "KeyBuilder");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyBuilder::get_Rng
 // Il2CppName: get_Rng
 template<>

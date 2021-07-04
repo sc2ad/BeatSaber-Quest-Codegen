@@ -126,6 +126,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayerModel*, "", "INetworkPlayerModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/INetworkPlayerModelPartyConfig_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayerModel::get_discoveryEnabled
 // Il2CppName: get_discoveryEnabled
 template<>

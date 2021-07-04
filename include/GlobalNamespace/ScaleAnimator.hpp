@@ -129,6 +129,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScaleAnimator) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
+// Writing includes for template specializations
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>

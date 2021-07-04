@@ -65,6 +65,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundGradient) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundGradient*, "", "BloomPrePassBackgroundGradient");
+// Writing includes for template specializations
+#include "Unity/Collections/NativeArray_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundGradient::UpdatePixels
 // Il2CppName: UpdatePixels
 template<>

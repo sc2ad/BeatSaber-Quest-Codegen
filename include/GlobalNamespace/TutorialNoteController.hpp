@@ -159,6 +159,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialNoteController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteController*, "", "TutorialNoteController");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::get_noteMovement
 // Il2CppName: get_noteMovement
 template<>

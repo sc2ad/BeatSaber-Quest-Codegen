@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParametricBoxFrameController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFrameController::set_localPosition
 // Il2CppName: set_localPosition
 template<>

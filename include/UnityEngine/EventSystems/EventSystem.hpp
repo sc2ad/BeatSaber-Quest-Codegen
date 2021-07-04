@@ -235,6 +235,12 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(EventSystem) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventSystem*, "UnityEngine.EventSystems", "EventSystem");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/EventSystems/BaseInputModule.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventSystem::get_current
 // Il2CppName: get_current
 template<>

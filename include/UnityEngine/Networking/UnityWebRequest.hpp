@@ -302,6 +302,13 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(UnityWebRequest) == 0x3B);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest_UnityWebRequestError.hpp"
+#include "UnityEngine/Networking/DownloadHandler.hpp"
+#include "UnityEngine/Networking/UploadHandler.hpp"
+#include "UnityEngine/Networking/UnityWebRequest_UnityWebRequestMethod.hpp"
+#include "UnityEngine/Networking/CertificateHandler.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetWebErrorString
 // Il2CppName: GetWebErrorString
 template<>

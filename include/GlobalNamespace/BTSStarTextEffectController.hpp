@@ -100,6 +100,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEffectController) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController*, "", "BTSStarTextEffectController");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::get_animationDuration
 // Il2CppName: get_animationDuration
 template<>

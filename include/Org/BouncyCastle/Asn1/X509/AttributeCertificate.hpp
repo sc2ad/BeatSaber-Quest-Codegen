@@ -80,6 +80,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(AttributeCertificate) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttributeCertificate*, "Org.BouncyCastle.Asn1.X509", "AttributeCertificate");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttributeCertificate::GetInstance
 // Il2CppName: GetInstance
 template<>

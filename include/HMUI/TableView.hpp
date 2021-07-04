@@ -435,6 +435,13 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "HMUI/TableView_IDataSource.hpp"
+#include "HMUI/TableCell.hpp"
+#include "HMUI/TableView_ScrollPositionType.hpp"
+#include "UnityEngine/RectTransform_Axis.hpp"
 // Writing MetadataGetter for method: HMUI::TableView::get_selectionType
 // Il2CppName: get_selectionType
 template<>

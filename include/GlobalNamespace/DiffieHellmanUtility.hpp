@@ -112,6 +112,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");
+// Writing includes for template specializations
+#include "GlobalNamespace/DiffieHellmanUtility_KeyType.hpp"
+#include "Org/BouncyCastle/Crypto/Agreement/DHBasicAgreement.hpp"
+#include "Org/BouncyCastle/Crypto/Agreement/ECDHBasicAgreement.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync
 // Il2CppName: GenerateKeysAsync
 template<>

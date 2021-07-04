@@ -942,6 +942,23 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator*, "UnityEngine", "Animator");
+// Writing includes for template specializations
+#include "UnityEngine/AnimatorUpdateMode.hpp"
+#include "UnityEngine/AvatarIKGoal.hpp"
+#include "UnityEngine/AvatarIKHint.hpp"
+#include "UnityEngine/HumanBodyBones.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/StateInfoIndex.hpp"
+#include "UnityEngine/AnimatorStateInfo.hpp"
+#include "UnityEngine/AnimatorTransitionInfo.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/MatchTargetWeightMask.hpp"
+#include "UnityEngine/AvatarTarget.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/AnimatorCullingMode.hpp"
+#include "UnityEngine/RuntimeAnimatorController.hpp"
+#include "UnityEngine/Avatar.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animator::get_isOptimizable
 // Il2CppName: get_isOptimizable
 template<>

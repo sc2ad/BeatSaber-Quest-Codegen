@@ -47,6 +47,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "IInstanceProvider");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider::ProvideInstance
 // Il2CppName: ProvideInstance
 template<>

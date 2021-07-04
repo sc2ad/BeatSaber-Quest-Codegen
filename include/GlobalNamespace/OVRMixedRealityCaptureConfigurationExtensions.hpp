@@ -33,6 +33,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*, "", "OVRMixedRealityCaptureConfigurationExtensions");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRMixedRealityCaptureConfiguration.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ApplyTo
 // Il2CppName: ApplyTo
 template<>

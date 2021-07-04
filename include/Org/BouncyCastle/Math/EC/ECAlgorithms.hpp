@@ -84,6 +84,13 @@ namespace Org::BouncyCastle::Math::EC {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECAlgorithms*, "Org.BouncyCastle.Math.EC", "ECAlgorithms");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Math/Field/IFiniteField.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::IsF2mCurve
 // Il2CppName: IsF2mCurve
 template<>

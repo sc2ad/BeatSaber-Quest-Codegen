@@ -180,6 +180,12 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinderNonGeneric*, "Zenject", "FromBinderNonGeneric");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Func_2.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/BindStatement.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinderNonGeneric::FromFactory
 // Il2CppName: FromFactory
 // Cannot write MetadataGetter for generic methods!

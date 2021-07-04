@@ -60,6 +60,9 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingProvider*, "System.Text", "EncodingProvider");
+// Writing includes for template specializations
+#include "System/Text/EncoderFallback.hpp"
+#include "System/Text/DecoderFallback.hpp"
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncoding
 // Il2CppName: GetEncoding
 template<>

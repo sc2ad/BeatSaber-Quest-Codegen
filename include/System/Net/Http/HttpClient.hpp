@@ -167,6 +167,11 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpClient) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient*, "System.Net.Http", "HttpClient");
+// Writing includes for template specializations
+#include "System/Net/Http/HttpCompletionOption.hpp"
+#include "System/Net/Http/HttpRequestMessage.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Net/Http/HttpMessageHandler.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::get_MaxResponseContentBufferSize
 // Il2CppName: get_MaxResponseContentBufferSize
 template<>

@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifierInfoListItem) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierInfoListItem::SetModifier
 // Il2CppName: SetModifier
 template<>

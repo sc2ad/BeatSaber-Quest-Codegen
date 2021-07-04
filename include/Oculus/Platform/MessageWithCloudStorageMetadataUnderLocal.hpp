@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageMetadataUnderLocal
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*, "Oculus.Platform", "MessageWithCloudStorageMetadataUnderLocal");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

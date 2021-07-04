@@ -52,6 +52,8 @@ namespace System::Runtime::Remoting::Activation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ConstructionLevelActivator*, "System.Runtime.Remoting.Activation", "ConstructionLevelActivator");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator
 // Il2CppName: get_NextActivator
 template<>

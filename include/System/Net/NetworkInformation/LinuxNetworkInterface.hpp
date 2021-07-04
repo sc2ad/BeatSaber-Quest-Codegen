@@ -80,6 +80,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath
 // Il2CppName: get_IfacePath
 template<>

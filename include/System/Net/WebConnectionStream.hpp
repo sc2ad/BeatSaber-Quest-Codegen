@@ -453,6 +453,15 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionStream) == 0xD2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream*, "System.Net", "WebConnectionStream");
+// Writing includes for template specializations
+#include "System/Net/WebConnection.hpp"
+#include "System/Net/WebConnectionData.hpp"
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Net/SimpleAsyncCallback.hpp"
+#include "System/Net/SimpleAsyncResult.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -180,6 +180,10 @@ namespace TMPro {
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
+#include "TMPro/VertexSortingOrder.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MeshInfo::TMP_MeshInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

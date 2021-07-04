@@ -56,6 +56,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass152_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass152_0");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::$UnusedElementGroup$b__0
 // Il2CppName: <UnusedElementGroup>b__0
 template<>

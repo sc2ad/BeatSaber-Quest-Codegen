@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0::$DidActivate$b__0
 // Il2CppName: <DidActivate>b__0
 template<>

@@ -44,6 +44,7 @@ namespace HMUI {
   }; // HMUI.PercentSlider
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::PercentSlider::TextForValue
 // Il2CppName: TextForValue
 template<>

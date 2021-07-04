@@ -66,6 +66,7 @@ namespace Zenject {
   static_assert(sizeof(InstallerBase) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstallerBase*, "Zenject", "InstallerBase");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::InstallerBase::get_Container
 // Il2CppName: get_Container
 template<>

@@ -110,6 +110,10 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeFormat*, "System", "DateTimeFormat");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "System/Globalization/DateTimeFormatInfo.hpp"
+#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatDigits
 // Il2CppName: FormatDigits
 template<>

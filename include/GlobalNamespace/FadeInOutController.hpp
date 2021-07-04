@@ -131,6 +131,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeInOutController) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::FadeOutInstant
 // Il2CppName: FadeOutInstant
 template<>

@@ -74,6 +74,9 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(EnumerableRepeatedTestCommand) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand*, "UnityEngine.TestTools", "EnumerableRepeatedTestCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/RepeatAttribute_RepeatedTestCommand.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableRepeatedTestCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

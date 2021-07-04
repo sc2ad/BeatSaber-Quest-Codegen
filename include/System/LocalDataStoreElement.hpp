@@ -52,6 +52,7 @@ namespace System {
   static_assert(sizeof(LocalDataStoreElement) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::LocalDataStoreElement::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

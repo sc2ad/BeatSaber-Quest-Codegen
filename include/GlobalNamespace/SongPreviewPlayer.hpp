@@ -242,6 +242,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer) == 0x81);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::Awake
 // Il2CppName: Awake
 template<>

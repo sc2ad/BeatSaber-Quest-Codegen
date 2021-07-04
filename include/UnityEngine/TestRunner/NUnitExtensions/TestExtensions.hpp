@@ -72,6 +72,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestExtensions");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestExtensions::GetTestCategories
 // Il2CppName: GetTestCategories
 template<>

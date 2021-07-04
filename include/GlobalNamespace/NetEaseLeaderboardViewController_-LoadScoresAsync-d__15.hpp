@@ -66,6 +66,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15, "", "NetEaseLeaderboardViewController/<LoadScoresAsync>d__15");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15::MoveNext
 // Il2CppName: MoveNext
 template<>

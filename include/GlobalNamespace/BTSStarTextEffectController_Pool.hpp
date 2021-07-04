@@ -48,6 +48,9 @@ namespace GlobalNamespace {
   }; // BTSStarTextEffectController/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController::Pool*, "", "BTSStarTextEffectController/Pool");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::Pool::Reinitialize
 // Il2CppName: Reinitialize
 template<>

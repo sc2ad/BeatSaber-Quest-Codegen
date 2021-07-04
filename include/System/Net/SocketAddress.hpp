@@ -115,6 +115,8 @@ namespace System::Net {
   static_assert(sizeof(SocketAddress) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SocketAddress*, "System.Net", "SocketAddress");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
 // Writing MetadataGetter for method: System::Net::SocketAddress::get_Family
 // Il2CppName: get_Family
 template<>

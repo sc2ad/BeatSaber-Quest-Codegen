@@ -36,6 +36,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec*, "System", "ModifierSpec");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::ModifierSpec::Resolve
 // Il2CppName: Resolve
 template<>

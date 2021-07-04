@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerController::$PerformSongStartSync$d__38) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__38*, "", "MultiplayerController/<PerformSongStartSync>d__38");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__38::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

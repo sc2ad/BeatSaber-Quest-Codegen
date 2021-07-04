@@ -163,6 +163,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsTableCell) == 0xE4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableCell*, "", "MultiplayerResultsTableCell");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableCell::set_alpha
 // Il2CppName: set_alpha
 template<>

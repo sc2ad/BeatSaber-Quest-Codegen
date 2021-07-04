@@ -161,6 +161,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(FilteredBeatmapLevel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredBeatmapLevel*, "", "FilteredBeatmapLevel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "GlobalNamespace/IBeatmapLevelData.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::get_levelID
 // Il2CppName: get_levelID
 template<>

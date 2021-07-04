@@ -87,6 +87,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IConvertible*, "System", "IConvertible");
+// Writing includes for template specializations
+#include "System/IFormatProvider.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::IConvertible::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>

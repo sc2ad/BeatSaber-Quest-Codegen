@@ -38,6 +38,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
+// Writing includes for template specializations
+#include "System/UriComponents.hpp"
 // Writing MetadataGetter for method: System::IriHelper::CheckIriUnicodeRange
 // Il2CppName: CheckIriUnicodeRange
 template<>

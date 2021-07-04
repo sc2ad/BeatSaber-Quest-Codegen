@@ -90,6 +90,8 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read
 // Il2CppName: Read
 template<>

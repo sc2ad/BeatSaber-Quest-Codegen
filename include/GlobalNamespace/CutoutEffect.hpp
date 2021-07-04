@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CutoutEffect) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutEffect*, "", "CutoutEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset
 // Il2CppName: get_useRandomCutoutOffset
 template<>

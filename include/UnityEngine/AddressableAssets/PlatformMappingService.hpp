@@ -62,6 +62,7 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal
 // Il2CppName: GetAddressablesPlatformInternal
 template<>

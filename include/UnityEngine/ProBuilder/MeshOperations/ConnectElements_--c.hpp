@@ -176,6 +176,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/ConnectFaceRebuildData.hpp"
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::_cctor
 // Il2CppName: .cctor
 template<>

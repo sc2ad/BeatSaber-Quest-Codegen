@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AlwaysOwnedContentSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedContentSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedPacks
 // Il2CppName: get_alwaysOwnedPacks
 template<>

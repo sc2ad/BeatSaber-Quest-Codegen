@@ -132,6 +132,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweep*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweep");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/DTSweepContext.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DTSweepConstraint.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/Orientation.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweep::Triangulate
 // Il2CppName: Triangulate
 template<>

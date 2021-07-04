@@ -67,6 +67,8 @@ namespace System::Net {
   static_assert(sizeof(WebRequestPrefixElement) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
+// Writing includes for template specializations
+#include "System/Net/IWebRequestCreate.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::get_Creator
 // Il2CppName: get_Creator
 template<>

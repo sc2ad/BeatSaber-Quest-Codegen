@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Frustum) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Frustum::UpdateModel
 // Il2CppName: UpdateModel
 template<>

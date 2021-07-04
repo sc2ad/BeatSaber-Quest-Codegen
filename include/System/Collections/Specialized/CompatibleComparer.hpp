@@ -84,6 +84,9 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(CompatibleComparer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");
+// Writing includes for template specializations
+#include "System/Collections/IComparer.hpp"
+#include "System/Collections/IHashCodeProvider.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -218,6 +218,11 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(NameObjectCollectionBase) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase*, "System.Collections.Specialized", "NameObjectCollectionBase");
+// Writing includes for template specializations
+#include "System/Collections/IEqualityComparer.hpp"
+#include "System/DBNull.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

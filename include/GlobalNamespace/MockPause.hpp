@@ -94,6 +94,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPause) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPause*, "", "MockPause");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

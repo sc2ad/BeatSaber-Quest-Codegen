@@ -53,6 +53,8 @@ namespace System::Resources {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingManifestResourceException*, "System.Resources", "MissingManifestResourceException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Resources::MissingManifestResourceException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

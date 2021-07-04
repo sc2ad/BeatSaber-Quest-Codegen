@@ -53,6 +53,8 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SupportsChildTracksAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SupportsChildTracksAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(HMAsyncRequest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
+// Writing includes for template specializations
+#include "GlobalNamespace/HMAsyncRequest_CancelHander.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_CancelHandler
 // Il2CppName: get_CancelHandler
 template<>

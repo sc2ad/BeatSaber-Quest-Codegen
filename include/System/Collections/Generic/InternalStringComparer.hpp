@@ -41,6 +41,7 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.InternalStringComparer
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InternalStringComparer*, "System.Collections.Generic", "InternalStringComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::GetHashCode
 // Il2CppName: GetHashCode
 template<>

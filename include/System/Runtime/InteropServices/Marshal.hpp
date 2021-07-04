@@ -215,6 +215,12 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::Marshal*, "System.Runtime.InteropServices", "Marshal");
+// Writing includes for template specializations
+#include "System/Array.hpp"
+#include "System/Exception.hpp"
+#include "System/Type.hpp"
+#include "System/Security/SecureString.hpp"
+#include "System/Delegate.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::Marshal::AllocCoTaskMem
 // Il2CppName: AllocCoTaskMem
 template<>

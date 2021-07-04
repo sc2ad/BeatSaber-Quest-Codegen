@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CampaignProgressModel) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions
 // Il2CppName: get_numberOfClearedMissions
 template<>

@@ -261,6 +261,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionResultsViewController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MissionNode.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent
 // Il2CppName: add_continueButtonPressedEvent
 template<>

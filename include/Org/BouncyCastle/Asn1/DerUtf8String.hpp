@@ -73,6 +73,8 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerUtf8String) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUtf8String*, "Org.BouncyCastle.Asn1", "DerUtf8String");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtf8String::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

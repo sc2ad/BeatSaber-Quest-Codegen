@@ -61,6 +61,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(PenetrationAvoidance) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance*, "RootMotion.FinalIK", "PenetrationAvoidance");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>

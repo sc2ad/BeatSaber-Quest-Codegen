@@ -942,6 +942,15 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array*, "System", "Array");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Collections/IComparer.hpp"
+#include "System/Collections/IEqualityComparer.hpp"
+#include "System/Converter_2.hpp"
+#include "System/Action_1.hpp"
+#include "System/Collections/Generic/IComparer_1.hpp"
+#include "System/Comparison_1.hpp"
+#include "System/Predicate_1.hpp"
 // Writing MetadataGetter for method: System::Array::CreateInstance
 // Il2CppName: CreateInstance
 template<>

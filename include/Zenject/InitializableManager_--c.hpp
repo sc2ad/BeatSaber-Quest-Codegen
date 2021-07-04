@@ -71,6 +71,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::$$c*, "Zenject", "InitializableManager/<>c");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
+#include "Zenject/InitializableManager_InitializableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -70,6 +70,9 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
+// Writing includes for template specializations
+#include "TMPro/TMP_SpriteGlyph.hpp"
+#include "TMPro/TMP_SpriteCharacter.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -206,6 +206,9 @@ namespace System::Xml {
   static_assert(sizeof(HtmlUtf8RawTextWriter) == 0xB1);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlUtf8RawTextWriter*, "System.Xml", "HtmlUtf8RawTextWriter");
+// Writing includes for template specializations
+#include "System/Xml/XmlWriterSettings.hpp"
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: System::Xml::HtmlUtf8RawTextWriter::Init
 // Il2CppName: Init
 template<>

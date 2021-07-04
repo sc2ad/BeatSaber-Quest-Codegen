@@ -88,6 +88,10 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSA*, "System.Security.Cryptography", "RSA");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/HashAlgorithmName.hpp"
+#include "System/Security/Cryptography/RSASignaturePadding.hpp"
+#include "System/Security/Cryptography/RSAParameters.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::Create
 // Il2CppName: Create
 template<>

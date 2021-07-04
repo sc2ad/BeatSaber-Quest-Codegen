@@ -209,6 +209,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayServerFilter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFilter, "", "GameplayServerFilter");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFilter::GameplayServerFilter
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

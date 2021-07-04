@@ -83,6 +83,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CuttableBySaber) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber*, "", "CuttableBySaber");
+// Writing includes for template specializations
+#include "GlobalNamespace/CuttableBySaber_WasCutBySaberDelegate.hpp"
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttableBySaber::add_wasCutBySaberEvent
 // Il2CppName: add_wasCutBySaberEvent
 template<>

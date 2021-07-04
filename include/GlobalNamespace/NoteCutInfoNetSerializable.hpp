@@ -170,6 +170,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutInfoNetSerializable) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/NoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
 // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
 template<>

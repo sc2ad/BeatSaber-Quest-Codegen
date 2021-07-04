@@ -177,6 +177,10 @@ namespace System {
   static_assert(sizeof(__DTString) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");
+// Writing includes for template specializations
+#include "System/Globalization/DateTimeFormatInfo.hpp"
+#include "System/TokenType.hpp"
+#include "System/DTSubString.hpp"
 // Writing MetadataGetter for method: System::__DTString::__DTString
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

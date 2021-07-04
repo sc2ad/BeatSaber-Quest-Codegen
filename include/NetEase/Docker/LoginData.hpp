@@ -71,6 +71,7 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LoginData, "NetEase.Docker", "LoginData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::get_LoginSuccessful
 // Il2CppName: get_LoginSuccessful
 template<>

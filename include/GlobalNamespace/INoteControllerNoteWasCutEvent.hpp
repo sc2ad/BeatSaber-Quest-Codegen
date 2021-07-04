@@ -30,6 +30,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteWasCutEvent*, "", "INoteControllerNoteWasCutEvent");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteWasCutEvent::HandleNoteControllerNoteWasCut
 // Il2CppName: HandleNoteControllerNoteWasCut
 template<>

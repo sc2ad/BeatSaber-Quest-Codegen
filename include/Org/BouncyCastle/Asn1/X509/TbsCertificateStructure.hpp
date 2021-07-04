@@ -163,6 +163,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(TbsCertificateStructure) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateStructure");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CutoutAnimateEffect) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::get_animating
 // Il2CppName: get_animating
 template<>

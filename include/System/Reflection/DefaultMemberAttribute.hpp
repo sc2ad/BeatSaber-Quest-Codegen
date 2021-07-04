@@ -48,6 +48,7 @@ namespace System::Reflection {
   static_assert(sizeof(DefaultMemberAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Reflection::DefaultMemberAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

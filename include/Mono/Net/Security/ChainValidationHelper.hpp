@@ -154,6 +154,15 @@ namespace Mono::Net::Security {
   static_assert(sizeof(ChainValidationHelper) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
+// Writing includes for template specializations
+#include "Mono/Security/Interface/MonoTlsProvider.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "Mono/Net/Security/MonoTlsStream.hpp"
+#include "Mono/Net/Security/ServerCertValidationCallbackWrapper.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
+#include "System/Net/Security/SslPolicyErrors.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>

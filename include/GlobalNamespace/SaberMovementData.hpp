@@ -139,6 +139,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberMovementData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData*, "", "SaberMovementData");
+// Writing includes for template specializations
+#include "GlobalNamespace/ISaberMovementDataProcessor.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::get_dataProcessors
 // Il2CppName: get_dataProcessors
 template<>

@@ -116,6 +116,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteDebrisSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSpawner::SpawnDebris
 // Il2CppName: SpawnDebris
 template<>

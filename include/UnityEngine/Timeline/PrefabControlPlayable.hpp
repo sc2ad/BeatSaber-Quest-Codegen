@@ -94,6 +94,12 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(PrefabControlPlayable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::Create
 // Il2CppName: Create
 template<>

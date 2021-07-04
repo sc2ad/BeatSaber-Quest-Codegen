@@ -62,6 +62,9 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*, "Org.BouncyCastle.Asn1.Pkcs", "EncryptionScheme");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::GetInstance
 // Il2CppName: GetInstance
 template<>

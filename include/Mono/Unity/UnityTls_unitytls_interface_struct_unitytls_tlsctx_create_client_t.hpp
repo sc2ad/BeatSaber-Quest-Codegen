@@ -54,6 +54,12 @@ namespace Mono::Unity {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*, "Mono.Unity", "UnityTls/unitytls_interface_struct/unitytls_tlsctx_create_client_t");
+// Writing includes for template specializations
+#include "Mono/Unity/UnityTls_unitytls_tlsctx_protocolrange.hpp"
+#include "Mono/Unity/UnityTls_unitytls_tlsctx_callbacks.hpp"
+#include "Mono/Unity/UnityTls_unitytls_errorstate.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

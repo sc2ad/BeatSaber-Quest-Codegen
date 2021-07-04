@@ -80,6 +80,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(Time) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Time*, "Org.BouncyCastle.Asn1.X509", "Time");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::Time::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

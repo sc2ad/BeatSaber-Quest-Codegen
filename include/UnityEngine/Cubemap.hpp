@@ -127,6 +127,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cubemap*, "UnityEngine", "Cubemap");
+// Writing includes for template specializations
+#include "UnityEngine/CubemapFace.hpp"
 // Writing MetadataGetter for method: UnityEngine::Cubemap::get_format
 // Il2CppName: get_format
 template<>

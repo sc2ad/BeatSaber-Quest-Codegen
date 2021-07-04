@@ -66,6 +66,7 @@ namespace HMUI {
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::TableView::CellsGroup::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>

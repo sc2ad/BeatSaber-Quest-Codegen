@@ -61,6 +61,8 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRDriverManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

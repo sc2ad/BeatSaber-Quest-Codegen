@@ -283,6 +283,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "Gri
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Constraint, "UnityEngine.UI", "GridLayoutGroup/Constraint");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startCorner
 // Il2CppName: get_startCorner
 template<>

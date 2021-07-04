@@ -48,6 +48,8 @@ namespace System::Runtime::Remoting::Services {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::TrackingServices*, "System.Runtime.Remoting.Services", "TrackingServices");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/ObjRef.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject
 // Il2CppName: NotifyMarshaledObject
 template<>

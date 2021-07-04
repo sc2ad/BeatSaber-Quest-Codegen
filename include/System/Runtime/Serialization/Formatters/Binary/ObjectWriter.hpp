@@ -311,6 +311,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectWriter) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, "System.Runtime.Serialization.Formatters.Binary", "ObjectWriter");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalFE.hpp"
+#include "System/Runtime/Serialization/SerializationBinder.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/WriteObjectInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/NameInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Array.hpp"
+#include "System/Runtime/Serialization/Formatters/FormatterTypeStyle.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

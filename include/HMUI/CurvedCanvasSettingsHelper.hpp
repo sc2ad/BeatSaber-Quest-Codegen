@@ -93,6 +93,8 @@ namespace HMUI {
   static_assert(sizeof(CurvedCanvasSettingsHelper) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
+// Writing includes for template specializations
+#include "UnityEngine/Canvas.hpp"
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::Reset
 // Il2CppName: Reset
 template<>

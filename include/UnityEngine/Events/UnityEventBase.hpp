@@ -131,6 +131,12 @@ namespace UnityEngine::Events {
   static_assert(sizeof(UnityEventBase) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
+#include "UnityEngine/Events/PersistentCall.hpp"
+#include "UnityEngine/Events/PersistentListenerMode.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Events/BaseInvokableCall.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEventBase::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>

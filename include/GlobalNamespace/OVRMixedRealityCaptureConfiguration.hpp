@@ -210,6 +210,15 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, "", "OVRMixedRealityCaptureConfiguration");
+// Writing includes for template specializations
+#include "UnityEngine/LayerMask.hpp"
+#include "GlobalNamespace/OVRManager_CompositionMethod.hpp"
+#include "UnityEngine/Color.hpp"
+#include "GlobalNamespace/OVRManager_CameraDevice.hpp"
+#include "GlobalNamespace/OVRManager_DepthQuality.hpp"
+#include "GlobalNamespace/OVRManager_VirtualGreenScreenType.hpp"
+#include "GlobalNamespace/OVRManager_MrcActivationMode.hpp"
+#include "GlobalNamespace/OVRManager_InstantiateMrcCameraDelegate.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_enableMixedReality
 // Il2CppName: get_enableMixedReality
 template<>

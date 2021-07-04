@@ -107,6 +107,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerEndPoint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::get_endPoint
 // Il2CppName: get_endPoint
 template<>

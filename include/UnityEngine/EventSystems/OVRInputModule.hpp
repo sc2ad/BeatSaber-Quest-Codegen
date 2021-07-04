@@ -390,6 +390,11 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(OVRInputModule) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerInputModule_MouseButtonEventData.hpp"
+#include "UnityEngine/EventSystems/PointerInputModule_MouseState.hpp"
+#include "UnityEngine/EventSystems/OVRPointerEventData.hpp"
+#include "UnityEngine/RectTransform.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_inputMode
 // Il2CppName: get_inputMode
 template<>

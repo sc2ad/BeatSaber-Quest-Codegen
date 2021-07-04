@@ -146,6 +146,12 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SerializationFieldInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationFieldInfo*, "System.Runtime.Serialization", "SerializationFieldInfo");
+// Writing includes for template specializations
+#include "System/Reflection/RuntimeFieldInfo.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

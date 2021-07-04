@@ -164,6 +164,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditColorController) == 0xB9);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/ColorChangeUIEventType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditColorController::add_didChangeColorEvent
 // Il2CppName: add_didChangeColorEvent
 template<>

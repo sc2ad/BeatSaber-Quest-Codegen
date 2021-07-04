@@ -52,6 +52,7 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Volatile*, "System.Threading", "Volatile");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Volatile::Read
 // Il2CppName: Read
 template<>

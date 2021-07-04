@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelFinishedController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFinishedController*, "", "StandardLevelFinishedController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFinishedController::Start
 // Il2CppName: Start
 template<>

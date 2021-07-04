@@ -211,6 +211,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*, "Org.BouncyCastle.Crypto.Agreement", "DHStandardGroups");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex
 // Il2CppName: FromHex
 template<>

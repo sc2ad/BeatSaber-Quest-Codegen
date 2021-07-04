@@ -137,6 +137,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKEffector.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>

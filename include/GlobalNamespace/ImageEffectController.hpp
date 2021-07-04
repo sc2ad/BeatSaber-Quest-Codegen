@@ -67,6 +67,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ImageEffectController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController*, "", "ImageEffectController");
+// Writing includes for template specializations
+#include "GlobalNamespace/ImageEffectController_RenderImageCallback.hpp"
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ImageEffectController::SetCallback
 // Il2CppName: SetCallback
 template<>

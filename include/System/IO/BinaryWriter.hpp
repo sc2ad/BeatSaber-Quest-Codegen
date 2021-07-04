@@ -184,6 +184,9 @@ namespace System::IO {
   static_assert(sizeof(BinaryWriter) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter*, "System.IO", "BinaryWriter");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::IO::BinaryWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

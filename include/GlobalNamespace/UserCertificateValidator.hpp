@@ -55,6 +55,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserCertificateValidator*, "", "UserCertificateValidator");
+// Writing includes for template specializations
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>

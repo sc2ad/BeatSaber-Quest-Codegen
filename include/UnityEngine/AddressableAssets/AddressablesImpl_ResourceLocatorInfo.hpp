@@ -106,6 +106,9 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AddressablesImpl::ResourceLocatorInfo) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, "UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/ResourceLocators/IResourceLocator.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator
 // Il2CppName: get_Locator
 template<>

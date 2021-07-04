@@ -1265,6 +1265,19 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRManager) == 0xF3);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager*, "", "OVRManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRDisplay.hpp"
+#include "GlobalNamespace/OVRTracker.hpp"
+#include "GlobalNamespace/OVRBoundary.hpp"
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/OVRManager_InstantiateMrcCameraDelegate.hpp"
+#include "GlobalNamespace/OVRManager_EyeTextureFormat.hpp"
+#include "GlobalNamespace/OVRManager_FixedFoveatedRenderingLevel.hpp"
+#include "GlobalNamespace/OVRManager_TiledMultiResLevel.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager::get_instance
 // Il2CppName: get_instance
 template<>

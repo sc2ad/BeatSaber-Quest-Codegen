@@ -108,6 +108,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeeplinkManagerToDestinationRequestManagerAdapter) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MenuDestination.hpp"
+#include "GlobalNamespace/IDeeplinkManager.hpp"
+#include "GlobalNamespace/Deeplink.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent
 // Il2CppName: add_didSendMenuDestinationRequestEvent
 template<>

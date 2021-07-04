@@ -25,6 +25,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::UncNameHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>

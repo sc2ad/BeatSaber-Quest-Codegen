@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesSettingsViewController) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesSettingsViewController*, "", "OnlineServicesSettingsViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged
 // Il2CppName: HandleEnableOnlineServicesToggleValueChanged
 template<>

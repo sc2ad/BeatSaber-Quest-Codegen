@@ -142,6 +142,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileBrowserTableView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserTableView");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::add_didSelectRow
 // Il2CppName: add_didSelectRow
 template<>

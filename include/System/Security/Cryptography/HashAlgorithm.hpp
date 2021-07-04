@@ -114,6 +114,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(HashAlgorithm) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm*, "System.Security.Cryptography", "HashAlgorithm");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::get_HashSize
 // Il2CppName: get_HashSize
 template<>

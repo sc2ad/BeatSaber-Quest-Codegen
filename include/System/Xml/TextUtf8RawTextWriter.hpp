@@ -156,6 +156,9 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TextUtf8RawTextWriter*, "System.Xml", "TextUtf8RawTextWriter");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Xml/XmlWriterSettings.hpp"
 // Writing MetadataGetter for method: System::Xml::TextUtf8RawTextWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -129,6 +129,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerCodeEntryViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeEntryViewController*, "", "ServerCodeEntryViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/InputFieldView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

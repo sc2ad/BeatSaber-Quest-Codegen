@@ -32,6 +32,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Ray2D.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Ray2DExtensions::CircleIntersections
 // Il2CppName: CircleIntersections
 template<>

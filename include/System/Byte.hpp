@@ -202,6 +202,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");
+// Writing includes for template specializations
+#include "System/Globalization/NumberStyles.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/Globalization/NumberFormatInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Byte::CompareTo
 // Il2CppName: CompareTo
 template<>

@@ -226,6 +226,11 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "System/Action_2.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: HMUI::SelectableCell::add_selectionDidChangeEvent
 // Il2CppName: add_selectionDidChangeEvent
 template<>

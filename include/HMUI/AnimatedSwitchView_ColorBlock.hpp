@@ -74,6 +74,7 @@ namespace HMUI {
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::ColorBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

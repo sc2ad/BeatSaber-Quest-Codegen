@@ -117,6 +117,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::CellSize
 // Il2CppName: CellSize
 template<>

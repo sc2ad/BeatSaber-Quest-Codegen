@@ -50,6 +50,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(RuntimeCompatibilityAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*, "System.Runtime.CompilerServices", "RuntimeCompatibilityAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows
 // Il2CppName: set_WrapNonExceptionThrows
 template<>

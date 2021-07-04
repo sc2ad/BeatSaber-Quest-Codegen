@@ -35,6 +35,8 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::AssemblyHelper*, "NUnit.Framework.Internal", "AssemblyHelper");
+// Writing includes for template specializations
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPath
 // Il2CppName: GetAssemblyPath
 template<>

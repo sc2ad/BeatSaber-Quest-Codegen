@@ -63,6 +63,12 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates*, "OVR.OpenVR", "IVROverlay/_GetTransformForOverlayCoordinates");
+// Writing includes for template specializations
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/HmdVector2_t.hpp"
+#include "OVR/OpenVR/HmdMatrix34_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

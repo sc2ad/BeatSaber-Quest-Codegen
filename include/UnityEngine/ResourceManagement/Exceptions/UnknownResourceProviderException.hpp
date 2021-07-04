@@ -117,6 +117,9 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   static_assert(sizeof(UnknownResourceProviderException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*, "UnityEngine.ResourceManagement.Exceptions", "UnknownResourceProviderException");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location
 // Il2CppName: get_Location
 template<>

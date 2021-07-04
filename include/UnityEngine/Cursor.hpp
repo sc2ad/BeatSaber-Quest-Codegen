@@ -39,6 +39,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cursor*, "UnityEngine", "Cursor");
+// Writing includes for template specializations
+#include "UnityEngine/CursorLockMode.hpp"
 // Writing MetadataGetter for method: UnityEngine::Cursor::get_visible
 // Il2CppName: get_visible
 template<>

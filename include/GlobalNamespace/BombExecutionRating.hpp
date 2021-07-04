@@ -96,6 +96,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BombExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

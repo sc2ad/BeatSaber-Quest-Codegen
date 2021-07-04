@@ -44,6 +44,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::SetOnInvokeMres::Invoke
 // Il2CppName: Invoke
 template<>

@@ -148,6 +148,8 @@ namespace HMUI {
   static_assert(sizeof(SimpleTextDropdown) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown*, "HMUI", "SimpleTextDropdown");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: HMUI::SimpleTextDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>

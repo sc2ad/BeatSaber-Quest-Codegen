@@ -77,6 +77,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o
 // Il2CppName: get_o
 template<>

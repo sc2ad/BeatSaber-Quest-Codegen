@@ -51,6 +51,7 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::Compare
 // Il2CppName: Compare
 template<>

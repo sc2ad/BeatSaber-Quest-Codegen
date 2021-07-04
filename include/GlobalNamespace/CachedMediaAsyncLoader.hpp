@@ -110,6 +110,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CachedMediaAsyncLoader) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::ClearCache
 // Il2CppName: ClearCache
 template<>

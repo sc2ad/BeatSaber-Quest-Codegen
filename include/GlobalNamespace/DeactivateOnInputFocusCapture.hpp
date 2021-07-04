@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeactivateOnInputFocusCapture) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateOnInputFocusCapture*, "", "DeactivateOnInputFocusCapture");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::OnEnable
 // Il2CppName: OnEnable
 template<>

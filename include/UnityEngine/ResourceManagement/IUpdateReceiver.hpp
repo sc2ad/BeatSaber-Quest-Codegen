@@ -21,6 +21,7 @@ namespace UnityEngine::ResourceManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::IUpdateReceiver*, "UnityEngine.ResourceManagement", "IUpdateReceiver");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::IUpdateReceiver::Update
 // Il2CppName: Update
 template<>

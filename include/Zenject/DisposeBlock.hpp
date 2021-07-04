@@ -271,6 +271,18 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "Zenject/IDespawnableMemoryPool_1.hpp"
+#include "Zenject/IMemoryPool_1.hpp"
+#include "Zenject/IMemoryPool_2.hpp"
+#include "Zenject/IMemoryPool_3.hpp"
+#include "Zenject/IMemoryPool_4.hpp"
+#include "Zenject/IMemoryPool_5.hpp"
+#include "Zenject/IMemoryPool_6.hpp"
+#include "Zenject/IMemoryPool_7.hpp"
+#include "Zenject/IMemoryPool_8.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnSpawned
 // Il2CppName: OnSpawned
 template<>

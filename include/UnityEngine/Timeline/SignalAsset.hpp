@@ -58,6 +58,8 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::add_OnEnableCallback
 // Il2CppName: add_OnEnableCallback
 template<>

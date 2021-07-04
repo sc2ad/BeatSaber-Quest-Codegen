@@ -82,6 +82,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(RectangleFakeGlowLightWithId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlowLightWithId*, "", "RectangleFakeGlowLightWithId");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlowLightWithId::get_color
 // Il2CppName: get_color
 template<>

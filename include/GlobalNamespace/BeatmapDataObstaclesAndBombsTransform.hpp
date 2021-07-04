@@ -48,6 +48,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
+// Writing includes for template specializations
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
+#include "GlobalNamespace/BeatmapObjectData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>

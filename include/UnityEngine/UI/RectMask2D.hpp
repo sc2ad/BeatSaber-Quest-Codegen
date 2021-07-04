@@ -231,6 +231,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(RectMask2D) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/UI/IClippable.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_padding
 // Il2CppName: get_padding
 template<>

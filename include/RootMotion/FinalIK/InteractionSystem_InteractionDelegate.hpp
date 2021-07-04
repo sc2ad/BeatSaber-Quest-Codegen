@@ -58,6 +58,11 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*, "RootMotion.FinalIK", "InteractionSystem/InteractionDelegate");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
+#include "RootMotion/FinalIK/InteractionObject.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

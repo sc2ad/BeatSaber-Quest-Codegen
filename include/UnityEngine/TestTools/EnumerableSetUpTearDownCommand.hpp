@@ -82,6 +82,11 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.EnumerableSetUpTearDownCommand
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityTestExecutionContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture
 // Il2CppName: GetMethodsWithAttributeFromFixture
 template<>

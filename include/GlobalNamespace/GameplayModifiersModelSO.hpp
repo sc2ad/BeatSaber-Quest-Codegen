@@ -217,6 +217,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersModelSO) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "GameplayModifiersModelSO");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "GlobalNamespace/GameplayModifierParamsSO.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/GameplayModifierMask.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers
 // Il2CppName: CreateGameplayModifiers
 template<>

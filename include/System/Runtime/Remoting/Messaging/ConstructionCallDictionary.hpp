@@ -55,6 +55,8 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCallDictionary*, "System.Runtime.Remoting.Messaging", "ConstructionCallDictionary");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCallDictionary::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

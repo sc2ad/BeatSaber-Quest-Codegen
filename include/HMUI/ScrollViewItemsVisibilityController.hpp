@@ -141,6 +141,7 @@ namespace HMUI {
   static_assert(sizeof(ScrollViewItemsVisibilityController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::Start
 // Il2CppName: Start
 template<>

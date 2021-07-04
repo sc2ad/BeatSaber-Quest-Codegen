@@ -56,6 +56,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*, "", "AvatarPoseController/PositionsWillBeSetDelegate");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

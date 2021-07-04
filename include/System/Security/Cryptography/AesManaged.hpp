@@ -150,6 +150,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(AesManaged) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged*, "System.Security.Cryptography", "AesManaged");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

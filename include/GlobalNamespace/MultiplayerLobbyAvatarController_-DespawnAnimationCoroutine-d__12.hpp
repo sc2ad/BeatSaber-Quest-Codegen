@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyAvatarController::$DespawnAnimationCoroutine$d__12) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController::$DespawnAnimationCoroutine$d__12*, "", "MultiplayerLobbyAvatarController/<DespawnAnimationCoroutine>d__12");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::$DespawnAnimationCoroutine$d__12::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

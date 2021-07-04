@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayCoreInstaller) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreInstaller*, "", "GameplayCoreInstaller");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameplayCoreInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

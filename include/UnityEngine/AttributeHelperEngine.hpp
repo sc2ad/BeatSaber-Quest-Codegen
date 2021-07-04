@@ -80,6 +80,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion
 // Il2CppName: GetParentTypeDisallowingMultipleInclusion
 template<>

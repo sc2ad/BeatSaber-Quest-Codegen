@@ -50,6 +50,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Platform*, "System", "Platform");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Platform::uname
 // Il2CppName: uname
 template<>

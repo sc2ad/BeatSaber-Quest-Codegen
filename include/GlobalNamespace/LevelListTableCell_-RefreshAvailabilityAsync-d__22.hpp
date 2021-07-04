@@ -93,6 +93,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell::$RefreshAvailabilityAsync$d__22, "", "LevelListTableCell/<RefreshAvailabilityAsync>d__22");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::$RefreshAvailabilityAsync$d__22::MoveNext
 // Il2CppName: MoveNext
 template<>

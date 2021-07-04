@@ -131,6 +131,9 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(ScheduleRuntimeClip) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineClip.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::SetTime
 // Il2CppName: SetTime
 template<>

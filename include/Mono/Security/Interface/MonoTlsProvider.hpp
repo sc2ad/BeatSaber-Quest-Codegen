@@ -101,6 +101,14 @@ namespace Mono::Security::Interface {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProvider*, "Mono.Security.Interface", "MonoTlsProvider");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "System/Net/Security/SslStream.hpp"
+#include "Mono/Security/Interface/ICertificateValidator2.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
+#include "Mono/Security/Interface/MonoSslPolicyErrors.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::get_ID
 // Il2CppName: get_ID
 template<>

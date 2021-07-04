@@ -117,6 +117,8 @@ namespace System::Text {
   static_assert(sizeof(EncoderFallbackBuffer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackBuffer*, "System.Text", "EncoderFallbackBuffer");
+// Writing includes for template specializations
+#include "System/Text/EncoderNLS.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>

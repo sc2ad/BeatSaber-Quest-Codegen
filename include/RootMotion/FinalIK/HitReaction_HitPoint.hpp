@@ -158,6 +158,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReaction::HitPoint) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPoint*, "RootMotion.FinalIK", "HitReaction/HitPoint");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPoint::get_inProgress
 // Il2CppName: get_inProgress
 template<>

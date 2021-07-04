@@ -56,6 +56,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");
+// Writing includes for template specializations
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached
 // Il2CppName: AsCached
 template<>

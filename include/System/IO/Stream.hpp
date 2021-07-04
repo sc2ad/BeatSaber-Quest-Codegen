@@ -233,6 +233,13 @@ namespace System::IO {
   static_assert(sizeof(Stream) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream*, "System.IO", "Stream");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/IO/Stream_ReadWriteTask.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::EnsureAsyncActiveSemaphoreInitialized
 // Il2CppName: EnsureAsyncActiveSemaphoreInitialized
 template<>

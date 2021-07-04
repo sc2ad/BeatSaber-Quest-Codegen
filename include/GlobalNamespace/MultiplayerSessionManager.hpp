@@ -570,6 +570,16 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/INetworkPacketSubSerializer_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Func_1.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager.hpp"
+#include "GlobalNamespace/UpdateConnectionStateReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::add_connectedEvent
 // Il2CppName: add_connectedEvent
 template<>

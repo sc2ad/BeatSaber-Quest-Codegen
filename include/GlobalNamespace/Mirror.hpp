@@ -137,6 +137,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(Mirror) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Mirror*, "", "Mirror");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Mirror::get_noMirrorMaterial
 // Il2CppName: get_noMirrorMaterial
 template<>

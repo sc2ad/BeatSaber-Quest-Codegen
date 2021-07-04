@@ -213,6 +213,9 @@ namespace System::IO {
   static_assert(sizeof(UnmanagedMemoryStream) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnmanagedMemoryStream*, "System.IO", "UnmanagedMemoryStream");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: System::IO::UnmanagedMemoryStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

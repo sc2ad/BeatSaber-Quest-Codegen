@@ -54,6 +54,8 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::__Filters*, "System", "__Filters");
+// Writing includes for template specializations
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::__Filters::FilterAttribute
 // Il2CppName: FilterAttribute
 template<>

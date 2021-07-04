@@ -144,6 +144,8 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509Crl) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Crl*, "Org.BouncyCastle.X509", "X509Crl");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/X509/CertificateList.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Crl::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

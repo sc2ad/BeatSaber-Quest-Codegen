@@ -102,6 +102,11 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2Impl*, "System.Security.Cryptography.X509Certificates", "X509Certificate2Impl");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509NameType.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509KeyStorageFlags.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Extensions
 // Il2CppName: get_Extensions
 template<>

@@ -38,6 +38,7 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*, "Oculus.Platform.Models", "MatchmakingAdminSnapshotCandidateList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -298,6 +298,11 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "", "MultiplayerLobbyConnectionController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/UnifiedNetworkPlayerModel_CreatePartyConfig.hpp"
+#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent
 // Il2CppName: add_connectionSuccessEvent
 template<>

@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLinkedAccountList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLinkedAccountList*, "Oculus.Platform", "MessageWithLinkedAccountList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLinkedAccountList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

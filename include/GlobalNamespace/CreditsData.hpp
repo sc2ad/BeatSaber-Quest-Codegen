@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize
 // Il2CppName: Deserialize
 template<>

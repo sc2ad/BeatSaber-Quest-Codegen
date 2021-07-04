@@ -191,6 +191,7 @@ namespace System::Globalization {
   static_assert(sizeof(CalendarData) == 0x99);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::CalendarData::_cctor
 // Il2CppName: .cctor
 template<>

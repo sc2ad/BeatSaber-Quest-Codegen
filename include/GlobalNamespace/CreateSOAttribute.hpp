@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateSOAttribute*, "", "CreateSOAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CreateSOAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

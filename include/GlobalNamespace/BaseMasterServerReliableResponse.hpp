@@ -103,6 +103,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMasterServerReliableResponse) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerReliableResponse*, "", "BaseMasterServerReliableResponse");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerReliableResponse::get_requestId
 // Il2CppName: get_requestId
 template<>

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::Awake
 // Il2CppName: Awake
 template<>

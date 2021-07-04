@@ -141,6 +141,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Debug*, "UnityEngine", "Debug");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Object.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::Debug::get_unityLogger
 // Il2CppName: get_unityLogger
 template<>

@@ -160,6 +160,13 @@ namespace LiteNetLib {
   static_assert(sizeof(NetSocket) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket*, "LiteNetLib", "NetSocket");
+// Writing includes for template specializations
+#include "LiteNetLib/INetSocketListener.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "System/Threading/ThreadPriority.hpp"
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetSocket::get_LocalPort
 // Il2CppName: get_LocalPort
 template<>

@@ -98,6 +98,8 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerEnumerated) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerEnumerated*, "Org.BouncyCastle.Asn1", "DerEnumerated");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnimatedAvatarPoseController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnimatedAvatarPoseController*, "", "AnimatedAvatarPoseController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AnimatedAvatarPoseController::LateUpdate
 // Il2CppName: LateUpdate
 template<>

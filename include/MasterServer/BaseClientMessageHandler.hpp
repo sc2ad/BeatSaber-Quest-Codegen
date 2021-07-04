@@ -243,6 +243,16 @@ namespace MasterServer {
   static_assert(sizeof(BaseClientMessageHandler) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/IUnconnectedSenderReceiver.hpp"
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
+#include "MasterServer/ITimeProvider.hpp"
+#include "GlobalNamespace/ICertificateValidator.hpp"
+#include "MasterServer/IAnalyticsManager.hpp"
+#include "MasterServer/IMasterServerReliableRequest.hpp"
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "MasterServer/IHandshakeMessage.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_endPoint
 // Il2CppName: get_endPoint
 template<>

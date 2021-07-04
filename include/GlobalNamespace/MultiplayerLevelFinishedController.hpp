@@ -168,6 +168,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelFinishedController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
+#include "GlobalNamespace/PlayerNetworkFailReason.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent
 // Il2CppName: add_allResultsCollectedEvent
 template<>

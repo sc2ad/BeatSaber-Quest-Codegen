@@ -49,6 +49,8 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*, "NUnit.Framework.Internal", "Reflect/BaseTypesFirstComparer");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::Compare
 // Il2CppName: Compare
 template<>

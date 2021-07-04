@@ -77,6 +77,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(TimelinePauseReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseReceiver*, "", "TimelinePauseReceiver");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent
 // Il2CppName: add_timelinePauseEvent
 template<>

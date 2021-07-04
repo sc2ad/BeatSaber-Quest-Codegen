@@ -97,6 +97,10 @@ namespace Oculus::Platform {
   static_assert(sizeof(ChallengeOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "ChallengeOptions");
+// Writing includes for template specializations
+#include "System/DateTime.hpp"
+#include "Oculus/Platform/ChallengeViewerFilter.hpp"
+#include "Oculus/Platform/ChallengeVisibility.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription
 // Il2CppName: SetDescription
 template<>

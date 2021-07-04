@@ -75,6 +75,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   static_assert(sizeof(ECDHBasicAgreement) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::Init
 // Il2CppName: Init
 template<>

@@ -68,6 +68,7 @@ namespace NUnit::Framework::Internal::Execution {
   static_assert(sizeof(CountdownEvent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

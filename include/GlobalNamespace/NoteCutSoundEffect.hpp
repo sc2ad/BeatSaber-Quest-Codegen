@@ -271,6 +271,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutSoundEffect) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffect*, "", "NoteCutSoundEffect");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/Saber.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::get_didFinishEvent
 // Il2CppName: get_didFinishEvent
 template<>

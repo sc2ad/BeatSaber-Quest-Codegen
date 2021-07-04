@@ -100,6 +100,11 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(FaceRebuildData) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::Offset
 // Il2CppName: Offset
 template<>

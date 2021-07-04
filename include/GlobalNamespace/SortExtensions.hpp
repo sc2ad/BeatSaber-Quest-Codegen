@@ -61,6 +61,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortExtensions*, "", "SortExtensions");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SortExtensions::InsertSorted
 // Il2CppName: InsertSorted
 // Cannot write MetadataGetter for generic methods!

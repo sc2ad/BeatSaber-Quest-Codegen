@@ -24,6 +24,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPoolable*, "Zenject", "IPoolable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::IPoolable::OnDespawned
 // Il2CppName: OnDespawned
 template<>

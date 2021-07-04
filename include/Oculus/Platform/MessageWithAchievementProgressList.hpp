@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithAchievementProgressList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAchievementProgressList*, "Oculus.Platform", "MessageWithAchievementProgressList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAchievementProgressList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

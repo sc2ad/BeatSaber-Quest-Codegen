@@ -54,6 +54,7 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpContent::FixedMemoryStream) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

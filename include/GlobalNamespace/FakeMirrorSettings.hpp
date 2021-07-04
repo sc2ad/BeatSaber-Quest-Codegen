@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FakeMirrorSettings) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency
 // Il2CppName: get_fakeMirrorTransparency
 template<>

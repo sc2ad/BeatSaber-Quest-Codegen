@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongController*, "", "SongController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongController::add_songDidFinishEvent
 // Il2CppName: add_songDidFinishEvent
 template<>

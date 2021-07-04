@@ -184,6 +184,19 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
+// Writing includes for template specializations
+#include "Zenject/BindStatement.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "Zenject/IProvider.hpp"
+#include "Zenject/BindingId.hpp"
+#include "Zenject/Internal/LookupId.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "Zenject/InjectableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnHashSet
 // Il2CppName: SpawnHashSet
 // Cannot write MetadataGetter for generic methods!

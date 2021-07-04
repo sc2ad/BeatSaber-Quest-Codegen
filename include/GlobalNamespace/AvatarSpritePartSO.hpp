@@ -45,6 +45,7 @@ namespace GlobalNamespace {
   }; // AvatarSpritePartSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSpritePartSO*, "", "AvatarSpritePartSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarSpritePartSO::get_sprite
 // Il2CppName: get_sprite
 template<>

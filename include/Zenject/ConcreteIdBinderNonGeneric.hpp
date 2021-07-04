@@ -50,6 +50,10 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/BindStatement.hpp"
 // Writing MetadataGetter for method: Zenject::ConcreteIdBinderNonGeneric::WithId
 // Il2CppName: WithId
 template<>

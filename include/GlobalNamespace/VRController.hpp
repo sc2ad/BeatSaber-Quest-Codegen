@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRController) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController*, "", "VRController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRController::get_node
 // Il2CppName: get_node
 template<>

@@ -138,6 +138,12 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Media*, "", "OVRPlugin/Media");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_Media_MrcActivationMode.hpp"
+#include "GlobalNamespace/OVRPlugin_Media_PlatformCameraMode.hpp"
+#include "GlobalNamespace/OVRPlugin_Media_InputVideoBufferType.hpp"
+#include "System/IntPtr.hpp"
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::Initialize
 // Il2CppName: Initialize
 template<>

@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
+// Writing includes for template specializations
+#include "System/Func_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::RunSync
 // Il2CppName: RunSync
 // Cannot write MetadataGetter for generic methods!

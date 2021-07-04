@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyBlockColorAnimator) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorAnimator::get_color
 // Il2CppName: get_color
 template<>

@@ -43,6 +43,7 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(Level2Map) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::Level2Map::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -104,6 +104,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
+// Writing includes for template specializations
+#include "System/Collections/IEqualityComparer.hpp"
+#include "System/Collections/IComparer.hpp"
 // Writing MetadataGetter for method: System::ValueTuple::Equals
 // Il2CppName: Equals
 template<>

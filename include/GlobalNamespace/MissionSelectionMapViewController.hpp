@@ -146,6 +146,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionSelectionMapViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/MissionNodeVisualController.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent
 // Il2CppName: add_didSelectMissionLevelEvent
 template<>

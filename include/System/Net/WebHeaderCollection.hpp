@@ -314,6 +314,9 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection*, "System.Net", "WebHeaderCollection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection::RfcChar, "System.Net", "WebHeaderCollection/RfcChar");
+// Writing includes for template specializations
+#include "System/Net/HttpRequestHeader.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::NormalizeCommonHeaders
 // Il2CppName: NormalizeCommonHeaders
 template<>

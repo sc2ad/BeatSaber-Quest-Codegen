@@ -199,6 +199,15 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(ObjectManager) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.Runtime.Serialization", "ObjectManager");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/ObjectHolder.hpp"
+#include "System/Runtime/Serialization/FixupHolder.hpp"
+#include "System/Reflection/FieldInfo.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
+#include "System/RuntimeType.hpp"
+#include "System/Runtime/Serialization/DeserializationEventHandler.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

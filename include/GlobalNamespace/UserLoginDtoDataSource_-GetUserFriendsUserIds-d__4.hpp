@@ -71,6 +71,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4, "", "UserLoginDtoDataSource/<GetUserFriendsUserIds>d__4");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4::MoveNext
 // Il2CppName: MoveNext
 template<>

@@ -50,6 +50,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamRichPresencePlatformHandler*, "", "SteamRichPresencePlatformHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/IRichPresenceData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>

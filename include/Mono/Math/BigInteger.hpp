@@ -251,6 +251,8 @@ namespace Mono::Math {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/RandomNumberGenerator.hpp"
 // Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

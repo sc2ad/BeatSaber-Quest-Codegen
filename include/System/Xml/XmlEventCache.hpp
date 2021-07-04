@@ -530,6 +530,8 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache*, "System.Xml", "XmlEventCache");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");
+// Writing includes for template specializations
+#include "System/Xml/XmlStandalone.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

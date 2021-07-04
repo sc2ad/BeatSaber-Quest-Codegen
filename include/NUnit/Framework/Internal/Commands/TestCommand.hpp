@@ -63,6 +63,9 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(TestCommand) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestCommand*, "NUnit.Framework.Internal.Commands", "TestCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

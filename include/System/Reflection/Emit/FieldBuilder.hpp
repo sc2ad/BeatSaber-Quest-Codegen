@@ -99,6 +99,11 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::FieldBuilder*, "System.Reflection.Emit", "FieldBuilder");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::Emit::FieldBuilder::get_Attributes
 // Il2CppName: get_Attributes
 template<>

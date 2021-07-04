@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleSaberSoundEffect) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSoundEffect*, "", "ObstacleSaberSoundEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSoundEffect::Awake
 // Il2CppName: Awake
 template<>

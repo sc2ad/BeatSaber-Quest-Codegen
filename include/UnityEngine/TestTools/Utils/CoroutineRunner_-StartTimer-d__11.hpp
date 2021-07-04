@@ -106,6 +106,7 @@ namespace UnityEngine::TestTools::Utils {
   static_assert(sizeof(CoroutineRunner::$StartTimer$d__11) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<StartTimer>d__11");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

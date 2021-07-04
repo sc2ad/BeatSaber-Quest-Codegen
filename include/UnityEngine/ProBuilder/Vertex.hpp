@@ -307,6 +307,10 @@ namespace UnityEngine::ProBuilder {
   UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vertex*, "UnityEngine.ProBuilder", "Vertex");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Mesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vertex::get_position
 // Il2CppName: get_position
 template<>

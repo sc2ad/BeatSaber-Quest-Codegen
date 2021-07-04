@@ -119,6 +119,9 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(IssuingDistributionPoint) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint::GetInstance
 // Il2CppName: GetInstance
 template<>

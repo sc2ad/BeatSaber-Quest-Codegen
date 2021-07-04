@@ -73,6 +73,8 @@ namespace TMPro {
   static_assert(sizeof(FastAction) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: TMPro::FastAction::Add
 // Il2CppName: Add
 template<>

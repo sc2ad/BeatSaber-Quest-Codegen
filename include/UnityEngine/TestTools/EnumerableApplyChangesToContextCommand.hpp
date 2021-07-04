@@ -74,6 +74,9 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand*, "UnityEngine.TestTools", "EnumerableApplyChangesToContextCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
 template<>

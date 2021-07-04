@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(LookAtIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

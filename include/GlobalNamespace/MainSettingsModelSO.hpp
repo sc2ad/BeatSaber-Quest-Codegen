@@ -444,6 +444,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsModelSO) == 0x154);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame
 // Il2CppName: get_createScreenshotDuringTheGame
 template<>

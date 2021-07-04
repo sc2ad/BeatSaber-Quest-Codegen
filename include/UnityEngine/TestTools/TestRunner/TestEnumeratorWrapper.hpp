@@ -61,6 +61,9 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestMethod.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

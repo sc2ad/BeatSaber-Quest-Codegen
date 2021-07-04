@@ -51,6 +51,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");
+// Writing includes for template specializations
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/PracticeSettings.hpp"
+#include "GlobalNamespace/EnvironmentEffectsFilterPreset.hpp"
+#include "GlobalNamespace/EnvironmentIntensityReductionOptions.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData
 // Il2CppName: CreateTransformedBeatmapData
 template<>

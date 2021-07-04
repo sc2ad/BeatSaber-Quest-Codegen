@@ -92,6 +92,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OverridePlayerTransformsFromFullVRControllersRecorder) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");
+// Writing includes for template specializations
+#include "GlobalNamespace/VRController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::Start
 // Il2CppName: Start
 template<>

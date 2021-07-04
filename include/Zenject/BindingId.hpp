@@ -100,6 +100,8 @@ namespace Zenject {
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::BindingId::BindingId
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

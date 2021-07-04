@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningNoTransitionInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

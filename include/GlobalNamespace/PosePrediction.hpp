@@ -55,6 +55,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction*, "", "PosePrediction");
+// Writing includes for template specializations
+#include "UnityEngine/Pose.hpp"
+#include "GlobalNamespace/PoseSerializable.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPose
 // Il2CppName: PredictPose
 template<>

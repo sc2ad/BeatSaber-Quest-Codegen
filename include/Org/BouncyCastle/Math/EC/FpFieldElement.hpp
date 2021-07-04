@@ -175,6 +175,8 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(FpFieldElement) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpFieldElement*, "Org.BouncyCastle.Math.EC", "FpFieldElement");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::FpFieldElement::CalculateResidue
 // Il2CppName: CalculateResidue
 template<>

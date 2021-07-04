@@ -169,6 +169,8 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(LogicalCallContext) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext*, "System.Runtime.Remoting.Messaging", "LogicalCallContext");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::LogicalCallContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

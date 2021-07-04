@@ -79,6 +79,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder::$$c*, "Zenject", "ConventionSelectTypesBinder/<>c");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionSelectTypesBinder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

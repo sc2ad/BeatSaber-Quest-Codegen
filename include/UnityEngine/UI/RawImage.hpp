@@ -102,6 +102,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(RawImage) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RawImage::get_texture
 // Il2CppName: get_texture
 template<>

@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake
 // Il2CppName: Awake
 template<>

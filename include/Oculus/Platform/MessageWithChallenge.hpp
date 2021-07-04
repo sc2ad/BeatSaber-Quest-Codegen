@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithChallenge
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithChallenge*, "Oculus.Platform", "MessageWithChallenge");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithChallenge::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

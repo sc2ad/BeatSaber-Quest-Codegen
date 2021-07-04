@@ -30,6 +30,7 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::ITweenValue::TweenValue
 // Il2CppName: TweenValue
 template<>

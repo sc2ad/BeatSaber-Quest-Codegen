@@ -67,6 +67,8 @@ namespace Zenject {
   static_assert(sizeof(TickableManager::$$c__DisplayClass17_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c__DisplayClass17_0*, "Zenject", "TickableManager/<>c__DisplayClass17_0");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c__DisplayClass17_0::$InitFixedTickables$b__1
 // Il2CppName: <InitFixedTickables>b__1
 template<>

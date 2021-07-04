@@ -117,6 +117,7 @@ namespace System::Collections {
   static_assert(sizeof(Hashtable::HashtableEnumerator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

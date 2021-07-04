@@ -45,6 +45,7 @@ namespace System::Security::Util {
   static_assert(sizeof(TokenizerStringBlock) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStringBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

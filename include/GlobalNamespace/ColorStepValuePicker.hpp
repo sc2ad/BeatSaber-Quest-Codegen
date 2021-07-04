@@ -131,6 +131,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorStepValuePicker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>

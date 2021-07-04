@@ -222,6 +222,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(CampaignFlowCoordinator) == 0x111);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MissionSelectionNavigationController.hpp"
+#include "GlobalNamespace/MissionHelpViewController.hpp"
+#include "GlobalNamespace/MissionResultsViewController.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/MissionLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MissionCompletionResults.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -74,6 +74,8 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(RuntimeWrappedException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

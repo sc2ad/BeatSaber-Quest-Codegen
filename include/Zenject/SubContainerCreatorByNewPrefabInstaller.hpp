@@ -77,6 +77,13 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorByNewPrefabInstaller) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabInstaller*, "Zenject", "SubContainerCreatorByNewPrefabInstaller");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "Zenject/IPrefabProvider.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/GameObjectContext.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

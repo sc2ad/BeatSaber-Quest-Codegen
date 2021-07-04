@@ -135,6 +135,10 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$$c*, "System.IO", "Stream/<>c");
+// Writing includes for template specializations
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::$$c::_cctor
 // Il2CppName: .cctor
 template<>

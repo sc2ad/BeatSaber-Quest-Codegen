@@ -58,6 +58,8 @@ namespace Zenject::Internal {
   static_assert(sizeof(ZenUtilInternal::$$c__DisplayClass10_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::$GetRootGameObjects$b__1
 // Il2CppName: <GetRootGameObjects>b__1
 template<>

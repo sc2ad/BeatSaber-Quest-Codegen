@@ -226,6 +226,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Component*, "UnityEngine", "Component");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Component::get_transform
 // Il2CppName: get_transform
 template<>

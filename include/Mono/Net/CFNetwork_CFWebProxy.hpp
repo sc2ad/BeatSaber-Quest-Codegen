@@ -95,6 +95,11 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::CFWebProxy) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");
+// Writing includes for template specializations
+#include "Mono/Net/CFProxy.hpp"
+#include "System/Net/NetworkCredential.hpp"
+#include "System/IntPtr.hpp"
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::get_Credentials
 // Il2CppName: get_Credentials
 template<>

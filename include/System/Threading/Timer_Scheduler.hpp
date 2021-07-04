@@ -99,6 +99,8 @@ namespace System::Threading {
   static_assert(sizeof(Timer::Scheduler) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::Scheduler*, "System.Threading", "Timer/Scheduler");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Threading::Timer::Scheduler::_cctor
 // Il2CppName: .cctor
 template<>

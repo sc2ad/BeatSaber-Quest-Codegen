@@ -105,6 +105,10 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationOffsetPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::Create
 // Il2CppName: Create
 template<>

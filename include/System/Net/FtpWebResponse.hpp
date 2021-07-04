@@ -194,6 +194,11 @@ namespace System::Net {
   static_assert(sizeof(FtpWebResponse) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebResponse*, "System.Net", "FtpWebResponse");
+// Writing includes for template specializations
+#include "System/Net/FtpWebRequest.hpp"
+#include "System/Uri.hpp"
+#include "System/Net/FtpStatus.hpp"
+#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: System::Net::FtpWebResponse::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

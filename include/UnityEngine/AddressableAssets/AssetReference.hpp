@@ -197,6 +197,13 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AssetReference) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReference*, "UnityEngine.AddressableAssets", "AssetReference");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::get_OperationHandle
 // Il2CppName: get_OperationHandle
 template<>

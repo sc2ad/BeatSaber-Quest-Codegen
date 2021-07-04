@@ -100,6 +100,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayersModel*, "", "MockPlayersModel");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockPlayer.hpp"
+#include "GlobalNamespace/MockServer.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/MockPlayerSettings.hpp"
+#include "GlobalNamespace/MockServerSettings.hpp"
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_localPlayer
 // Il2CppName: get_localPlayer
 template<>

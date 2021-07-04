@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(IncDecSettingsController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecSettingsController*, "", "IncDecSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IncDecSettingsController::set_enableDec
 // Il2CppName: set_enableDec
 template<>

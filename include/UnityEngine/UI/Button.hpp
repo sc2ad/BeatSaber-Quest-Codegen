@@ -100,6 +100,10 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Button) == 0x100);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Button_ButtonClickedEvent.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Button::get_onClick
 // Il2CppName: get_onClick
 template<>

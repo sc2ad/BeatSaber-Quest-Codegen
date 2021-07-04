@@ -150,6 +150,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionMapAnimationController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/MissionNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired
 // Il2CppName: get_animatedUpdateIsRequired
 template<>

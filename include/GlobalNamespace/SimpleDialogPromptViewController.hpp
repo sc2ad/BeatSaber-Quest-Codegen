@@ -112,6 +112,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleDialogPromptViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::Init
 // Il2CppName: Init
 template<>

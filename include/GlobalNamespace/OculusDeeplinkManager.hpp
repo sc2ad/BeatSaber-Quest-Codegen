@@ -112,6 +112,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusDeeplinkManager) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeeplinkManager*, "", "OculusDeeplinkManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "Oculus/Platform/Message_1.hpp"
+#include "Oculus/Platform/Models/LaunchDetails.hpp"
+#include "GlobalNamespace/Deeplink.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>

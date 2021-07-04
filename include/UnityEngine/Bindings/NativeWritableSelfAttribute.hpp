@@ -53,6 +53,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeWritableSelfAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf
 // Il2CppName: set_WritableSelf
 template<>

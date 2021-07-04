@@ -65,6 +65,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialNoTransitionInstaller) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoTransitionInstaller*, "", "TutorialNoTransitionInstaller");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

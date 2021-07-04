@@ -21,6 +21,7 @@ namespace Polyglot {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::ILocalize*, "Polyglot", "ILocalize");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Polyglot::ILocalize::OnLocalize
 // Il2CppName: OnLocalize
 template<>

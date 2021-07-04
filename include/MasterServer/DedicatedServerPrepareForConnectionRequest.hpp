@@ -125,6 +125,10 @@ namespace MasterServer {
   static_assert(sizeof(DedicatedServerPrepareForConnectionRequest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionRequest*, "MasterServer", "DedicatedServerPrepareForConnectionRequest");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::get_pool
 // Il2CppName: get_pool
 template<>

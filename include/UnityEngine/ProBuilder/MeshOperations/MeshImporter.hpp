@@ -125,6 +125,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(MeshImporter) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/MeshImportSettings.hpp"
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

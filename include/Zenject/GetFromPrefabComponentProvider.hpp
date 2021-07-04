@@ -90,6 +90,12 @@ namespace Zenject {
   static_assert(sizeof(GetFromPrefabComponentProvider) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromPrefabComponentProvider*, "Zenject", "GetFromPrefabComponentProvider");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "Zenject/IPrefabInstantiator.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::GetFromPrefabComponentProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

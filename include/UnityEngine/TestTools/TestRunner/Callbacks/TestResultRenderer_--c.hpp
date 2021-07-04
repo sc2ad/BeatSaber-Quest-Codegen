@@ -61,6 +61,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/<>c");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::_cctor
 // Il2CppName: .cctor
 template<>

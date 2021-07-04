@@ -47,6 +47,7 @@ namespace UnityEngine {
   static_assert(sizeof(BootConfigData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::BootConfigData::WrapBootConfigData
 // Il2CppName: WrapBootConfigData
 template<>

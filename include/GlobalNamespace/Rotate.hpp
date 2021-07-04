@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Rotate) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::Rotate::Awake
 // Il2CppName: Awake
 template<>

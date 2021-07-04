@@ -97,6 +97,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarEditHistory) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_undoAvailable
 // Il2CppName: get_undoAvailable
 template<>

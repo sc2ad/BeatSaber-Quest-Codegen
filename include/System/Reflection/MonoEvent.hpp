@@ -130,6 +130,8 @@ namespace System::Reflection {
   static_assert(sizeof(MonoEvent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEvent*, "System.Reflection", "MonoEvent");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoEvent::GetAddMethod
 // Il2CppName: GetAddMethod
 template<>

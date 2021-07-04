@@ -69,6 +69,8 @@ namespace System {
   static_assert(sizeof(ByteMatcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
+// Writing includes for template specializations
+#include "System/TermInfoStrings.hpp"
 // Writing MetadataGetter for method: System::ByteMatcher::AddMapping
 // Il2CppName: AddMapping
 template<>

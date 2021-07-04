@@ -94,6 +94,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BakedLightDataLoader) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightDataLoader*, "", "BakedLightDataLoader");
+// Writing includes for template specializations
+#include "GlobalNamespace/LightmapDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::get_lightmapData
 // Il2CppName: get_lightmapData
 template<>

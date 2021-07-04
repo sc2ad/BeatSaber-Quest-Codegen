@@ -111,6 +111,8 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SocketException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketException*, "System.Net.Sockets", "SocketException");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketException::WSAGetLastError_internal
 // Il2CppName: WSAGetLastError_internal
 template<>

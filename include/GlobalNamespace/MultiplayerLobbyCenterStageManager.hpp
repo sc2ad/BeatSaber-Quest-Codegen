@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyCenterStageManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager*, "", "MultiplayerLobbyCenterStageManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::Init
 // Il2CppName: Init
 template<>

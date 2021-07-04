@@ -651,6 +651,12 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay*, "", "OVROverlay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayShape, "", "OVROverlay/OverlayShape");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayType, "", "OVROverlay/OverlayType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::LayerTexture, "", "OVROverlay/LayerTexture");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Material.hpp"
+#include "GlobalNamespace/OVRPose.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::get_previewInEditor
 // Il2CppName: get_previewInEditor
 template<>

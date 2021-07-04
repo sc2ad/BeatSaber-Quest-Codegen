@@ -84,6 +84,9 @@ namespace UnityEngine::Events {
   static_assert(sizeof(UnityEvent) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::AddListener
 // Il2CppName: AddListener
 template<>

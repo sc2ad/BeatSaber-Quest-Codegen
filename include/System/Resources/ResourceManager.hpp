@@ -203,6 +203,9 @@ namespace System::Resources {
   static_assert(sizeof(ResourceManager) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Reflection/AssemblyName.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceManager::Init
 // Il2CppName: Init
 template<>

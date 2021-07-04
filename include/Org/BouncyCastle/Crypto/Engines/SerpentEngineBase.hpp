@@ -178,6 +178,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(SerpentEngineBase) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SerpentEngineBase*, "Org.BouncyCastle.Crypto.Engines", "SerpentEngineBase");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::Init
 // Il2CppName: Init
 template<>

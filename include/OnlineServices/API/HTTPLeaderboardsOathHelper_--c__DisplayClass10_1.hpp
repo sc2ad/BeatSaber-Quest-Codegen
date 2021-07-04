@@ -64,6 +64,8 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");
+// Writing includes for template specializations
+#include "UnityEngine/AsyncOperation.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0
 // Il2CppName: <SendWebRequestAsync>b__0
 template<>

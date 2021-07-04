@@ -60,6 +60,9 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(SystemGatewayIPAddressInformation) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemGatewayIPAddressInformation*, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
+#include "System/Net/NetworkInformation/IPAddressCollection.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::SystemGatewayIPAddressInformation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

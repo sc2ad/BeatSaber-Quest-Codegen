@@ -72,6 +72,9 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVRInterop*, "OVR.OpenVR", "OpenVRInterop");
+// Writing includes for template specializations
+#include "OVR/OpenVR/EVRInitError.hpp"
+#include "OVR/OpenVR/EVRApplicationType.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVRInterop::InitInternal
 // Il2CppName: InitInternal
 template<>

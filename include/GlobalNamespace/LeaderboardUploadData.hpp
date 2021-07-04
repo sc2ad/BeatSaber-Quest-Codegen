@@ -105,6 +105,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardUploadData) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardUploadData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -108,6 +108,9 @@ namespace MasterServer {
   static_assert(sizeof(MessageHandler::MultipartMessageWaiter) == 0x32);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");
+// Writing includes for template specializations
+#include "GlobalNamespace/SmallBufferPool.hpp"
+#include "MasterServer/IMasterServerMultipartMessage.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::MultipartMessageWaiter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

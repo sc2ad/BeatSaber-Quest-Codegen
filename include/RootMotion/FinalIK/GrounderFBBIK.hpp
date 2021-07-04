@@ -150,6 +150,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderFBBIK) == 0x6D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK*, "RootMotion.FinalIK", "GrounderFBBIK");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKEffector.hpp"
+#include "RootMotion/FinalIK/Grounding_Leg.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::OpenTutorial
 // Il2CppName: OpenTutorial
 template<>

@@ -370,6 +370,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleController) == 0x120);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController*, "", "ObstacleController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/ObstacleData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::add_finishedMovementEvent
 // Il2CppName: add_finishedMovementEvent
 template<>

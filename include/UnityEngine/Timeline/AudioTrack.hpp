@@ -99,6 +99,12 @@ namespace UnityEngine::Timeline {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/Timeline/IntervalTree_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CreateClip
 // Il2CppName: CreateClip
 template<>

@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SafeAreaRectChecker) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker*, "", "SafeAreaRectChecker");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SafeAreaRectChecker::Start
 // Il2CppName: Start
 template<>

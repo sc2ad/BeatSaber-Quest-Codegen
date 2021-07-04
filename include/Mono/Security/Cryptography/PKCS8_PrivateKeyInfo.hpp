@@ -113,6 +113,11 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(PKCS8::PrivateKeyInfo) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/RSA.hpp"
+#include "System/Security/Cryptography/DSAParameters.hpp"
+#include "System/Security/Cryptography/DSA.hpp"
+#include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

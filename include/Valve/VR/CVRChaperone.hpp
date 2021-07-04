@@ -80,6 +80,9 @@ namespace Valve::VR {
   static_assert(sizeof(CVRChaperone) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperone*, "Valve.VR", "CVRChaperone");
+// Writing includes for template specializations
+#include "Valve/VR/HmdQuad_t.hpp"
+#include "Valve/VR/HmdColor_t.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRChaperone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

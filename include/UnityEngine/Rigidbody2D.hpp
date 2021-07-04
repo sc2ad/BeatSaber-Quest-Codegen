@@ -51,6 +51,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_position
 // Il2CppName: get_position
 template<>

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DlcPromoExperimentDataSO::MusicPackPromoInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, "", "DlcPromoExperimentDataSO/MusicPackPromoInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack
 // Il2CppName: get_previewBeatmapLevelPack
 template<>

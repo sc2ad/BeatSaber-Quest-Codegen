@@ -49,6 +49,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers*, "", "EssentialHelpers");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp
 // Il2CppName: get_CurrentTimeStamp
 template<>

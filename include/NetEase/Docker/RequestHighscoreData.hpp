@@ -55,6 +55,7 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NetEase::Docker::RequestHighscoreData::get_Track
 // Il2CppName: get_Track
 template<>

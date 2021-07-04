@@ -122,6 +122,11 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandles*, "UnityEngine.ProBuilder", "MeshHandles");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/ICollection_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandles::CreateFaceMesh
 // Il2CppName: CreateFaceMesh
 template<>

@@ -72,6 +72,8 @@ namespace Zenject {
   static_assert(sizeof(ProjectKernel::$$c__DisplayClass4_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
+// Writing includes for template specializations
+#include "Zenject/SceneContext.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0
 // Il2CppName: <ForceUnloadAllScenes>b__0
 template<>

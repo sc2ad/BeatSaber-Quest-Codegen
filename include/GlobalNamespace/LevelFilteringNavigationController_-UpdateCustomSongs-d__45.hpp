@@ -79,6 +79,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45, "", "LevelFilteringNavigationController/<UpdateCustomSongs>d__45");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45::MoveNext
 // Il2CppName: MoveNext
 template<>

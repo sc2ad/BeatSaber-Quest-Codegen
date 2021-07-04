@@ -109,6 +109,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapDataSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataSO*, "", "BeatmapDataSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataSO::get_beatmapData
 // Il2CppName: get_beatmapData
 template<>

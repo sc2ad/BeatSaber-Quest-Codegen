@@ -153,6 +153,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandaloneMonobehavior) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneMonobehavior");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Threading/Tasks/TaskCompletionSource_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime
 // Il2CppName: get_objectLifeTime
 template<>

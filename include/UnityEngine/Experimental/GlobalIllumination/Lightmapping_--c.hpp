@@ -59,6 +59,8 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/<>c");
+// Writing includes for template specializations
+#include "Unity/Collections/NativeArray_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::_cctor
 // Il2CppName: .cctor
 template<>

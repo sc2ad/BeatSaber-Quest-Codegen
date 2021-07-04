@@ -67,6 +67,7 @@ namespace Zenject {
   static_assert(sizeof(MemoryPoolSettings) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::MemoryPoolSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

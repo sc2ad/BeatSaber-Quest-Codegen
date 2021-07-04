@@ -120,6 +120,9 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(InvalidKeyException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::InvalidKeyException*, "UnityEngine.AddressableAssets", "InvalidKeyException");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::InvalidKeyException::get_Key
 // Il2CppName: get_Key
 template<>

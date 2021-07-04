@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseStateTransition) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition*, "", "BaseStateTransition");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::get_tweeningManager
 // Il2CppName: get_tweeningManager
 template<>

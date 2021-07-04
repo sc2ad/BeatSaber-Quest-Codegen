@@ -38,6 +38,7 @@ namespace UnityEngine::TestTools {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestMustExpectAllLogsAttribute::get_MustExpect
 // Il2CppName: get_MustExpect
 template<>

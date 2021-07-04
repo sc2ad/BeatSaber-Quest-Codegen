@@ -341,6 +341,12 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEngine.Timeline", "AnimationPlayableAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode, "UnityEngine.Timeline", "AnimationPlayableAsset/LoopMode");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_position
 // Il2CppName: get_position
 template<>

@@ -104,6 +104,9 @@ namespace System::Net::Sockets {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c*, "System.Net.Sockets", "Socket/<>c");
+// Writing includes for template specializations
+#include "System/IOAsyncResult.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper*, "", "FileCompressionHelper");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::CreateZipFromDirectoryAsync
 // Il2CppName: CreateZipFromDirectoryAsync
 template<>

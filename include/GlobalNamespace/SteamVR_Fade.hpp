@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Fade) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Fade*, "", "SteamVR_Fade");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::Start
 // Il2CppName: Start
 template<>

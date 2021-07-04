@@ -21,6 +21,7 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IHasDefault::SetDefaultValues
 // Il2CppName: SetDefaultValues
 template<>

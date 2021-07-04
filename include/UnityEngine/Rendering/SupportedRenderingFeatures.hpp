@@ -343,6 +343,9 @@ namespace UnityEngine::Rendering {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "UnityEngine/MixedLightingMode.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::SupportedRenderingFeatures::get_active
 // Il2CppName: get_active
 template<>

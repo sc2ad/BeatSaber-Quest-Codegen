@@ -668,6 +668,13 @@ namespace System::Linq {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Func_2.hpp"
+#include "System/Linq/IOrderedEnumerable_1.hpp"
+#include "System/Collections/Generic/IEqualityComparer_1.hpp"
+#include "System/Collections/IEnumerable.hpp"
+#include "System/Func_3.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::Where
 // Il2CppName: Where
 // Cannot write MetadataGetter for generic methods!

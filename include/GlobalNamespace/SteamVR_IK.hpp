@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_IK) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_IK*, "", "SteamVR_IK");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_IK::LateUpdate
 // Il2CppName: LateUpdate
 template<>

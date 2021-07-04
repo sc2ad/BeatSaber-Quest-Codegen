@@ -87,6 +87,12 @@ namespace Zenject {
   static_assert(sizeof(MethodProviderUntyped) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MethodProviderUntyped*, "Zenject", "MethodProviderUntyped");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::MethodProviderUntyped::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

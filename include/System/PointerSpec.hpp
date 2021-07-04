@@ -70,6 +70,9 @@ namespace System {
   static_assert(sizeof(PointerSpec) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec*, "System", "PointerSpec");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::PointerSpec::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -98,6 +98,8 @@ namespace UnityEngine {
   static_assert(sizeof(Font) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Font::add_textureRebuilt
 // Il2CppName: add_textureRebuilt
 template<>

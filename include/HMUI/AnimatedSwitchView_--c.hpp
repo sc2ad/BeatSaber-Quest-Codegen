@@ -90,6 +90,8 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::$$c*, "HMUI", "AnimatedSwitchView/<>c");
+// Writing includes for template specializations
+#include "HMUI/AnimatedSwitchView_ColorBlock.hpp"
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::_cctor
 // Il2CppName: .cctor
 template<>

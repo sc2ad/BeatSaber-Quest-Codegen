@@ -31,6 +31,8 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IFileWatcher*, "System.IO", "IFileWatcher");
+// Writing includes for template specializations
+#include "System/IO/FileSystemWatcher.hpp"
 // Writing MetadataGetter for method: System::IO::IFileWatcher::StartDispatching
 // Il2CppName: StartDispatching
 template<>

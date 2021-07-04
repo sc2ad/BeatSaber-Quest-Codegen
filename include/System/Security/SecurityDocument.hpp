@@ -75,6 +75,7 @@ namespace System::Security {
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::SecurityDocument::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

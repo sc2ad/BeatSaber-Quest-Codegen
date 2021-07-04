@@ -116,6 +116,14 @@ namespace Zenject {
   static_assert(sizeof(AddToCurrentGameObjectComponentProvider) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToCurrentGameObjectComponentProvider*, "Zenject", "AddToCurrentGameObjectComponentProvider");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Action_2.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::AddToCurrentGameObjectComponentProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

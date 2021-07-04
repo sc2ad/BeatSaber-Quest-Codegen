@@ -56,6 +56,7 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::Create
 // Il2CppName: Create
 template<>

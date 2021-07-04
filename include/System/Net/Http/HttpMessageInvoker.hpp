@@ -80,6 +80,10 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpMessageInvoker) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageInvoker*, "System.Net.Http", "HttpMessageInvoker");
+// Writing includes for template specializations
+#include "System/Net/Http/HttpMessageHandler.hpp"
+#include "System/Net/Http/HttpRequestMessage.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpMessageInvoker::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

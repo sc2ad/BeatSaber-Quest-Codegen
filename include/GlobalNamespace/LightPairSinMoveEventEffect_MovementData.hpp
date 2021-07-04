@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairSinMoveEventEffect::MovementData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, "", "LightPairSinMoveEventEffect/MovementData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::MovementData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

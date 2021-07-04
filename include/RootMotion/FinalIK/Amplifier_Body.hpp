@@ -117,6 +117,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Amplifier::Body) == 0x4D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body*, "RootMotion.FinalIK", "Amplifier/Body");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::Update
 // Il2CppName: Update
 template<>

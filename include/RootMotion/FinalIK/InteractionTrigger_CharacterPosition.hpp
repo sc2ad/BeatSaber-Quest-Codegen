@@ -108,6 +108,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTrigger::CharacterPosition) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*, "RootMotion.FinalIK", "InteractionTrigger/CharacterPosition");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_offset3D
 // Il2CppName: get_offset3D
 template<>

@@ -88,6 +88,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(InputField::$MouseDragOutsideRect$d__179) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__179*, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__179");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::$MouseDragOutsideRect$d__179::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -71,6 +71,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Object*, "System", "Object");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Object::Equals
 // Il2CppName: Equals
 template<>

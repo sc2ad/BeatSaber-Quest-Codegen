@@ -53,6 +53,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(CollectionAccessAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

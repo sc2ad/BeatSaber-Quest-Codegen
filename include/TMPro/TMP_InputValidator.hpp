@@ -38,6 +38,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate
 // Il2CppName: Validate
 template<>

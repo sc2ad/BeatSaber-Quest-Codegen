@@ -169,6 +169,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionObjectiveChecker.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker
 // Il2CppName: SetMissionObjectiveChecker
 template<>

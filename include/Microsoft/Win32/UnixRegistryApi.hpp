@@ -84,6 +84,9 @@ namespace Microsoft::Win32 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnixRegistryApi*, "Microsoft.Win32", "UnixRegistryApi");
+// Writing includes for template specializations
+#include "Microsoft/Win32/RegistryKey.hpp"
+#include "Microsoft/Win32/RegistryValueOptions.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::UnixRegistryApi::ToUnix
 // Il2CppName: ToUnix
 template<>

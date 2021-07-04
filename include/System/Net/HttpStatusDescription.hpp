@@ -32,6 +32,8 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusDescription*, "System.Net", "HttpStatusDescription");
+// Writing includes for template specializations
+#include "System/Net/HttpStatusCode.hpp"
 // Writing MetadataGetter for method: System::Net::HttpStatusDescription::Get
 // Il2CppName: Get
 template<>

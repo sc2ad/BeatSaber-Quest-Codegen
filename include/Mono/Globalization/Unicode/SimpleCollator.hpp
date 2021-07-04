@@ -283,6 +283,14 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SimpleCollator) == 0x5D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
+#include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
+#include "Mono/Globalization/Unicode/SimpleCollator_ExtenderType.hpp"
+#include "System/Globalization/CompareOptions.hpp"
+#include "Mono/Globalization/Unicode/SortKeyBuffer.hpp"
+#include "Mono/Globalization/Unicode/SimpleCollator_Context.hpp"
+#include "Mono/Globalization/Unicode/Contraction.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

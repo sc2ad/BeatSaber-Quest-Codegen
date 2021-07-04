@@ -65,6 +65,9 @@ namespace Zenject {
   static_assert(sizeof(ScopableBindingFinalizer::$$c__DisplayClass3_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer::$$c__DisplayClass3_0*, "Zenject", "ScopableBindingFinalizer/<>c__DisplayClass3_0");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::ScopableBindingFinalizer::$$c__DisplayClass3_0::$FinalizeBindingConcrete$b__0
 // Il2CppName: <FinalizeBindingConcrete>b__0
 template<>

@@ -47,6 +47,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnalyticsModel*, "", "IAnalyticsModel");
+// Writing includes for template specializations
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IAnalyticsModel::get_supportsOpenDataPrivacyPage
 // Il2CppName: get_supportsOpenDataPrivacyPage
 template<>

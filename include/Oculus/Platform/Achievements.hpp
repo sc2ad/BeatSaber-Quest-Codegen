@@ -63,6 +63,9 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Achievements*, "Oculus.Platform", "Achievements");
+// Writing includes for template specializations
+#include "Oculus/Platform/Models/AchievementDefinitionList.hpp"
+#include "Oculus/Platform/Models/AchievementProgressList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Achievements::AddCount
 // Il2CppName: AddCount
 template<>

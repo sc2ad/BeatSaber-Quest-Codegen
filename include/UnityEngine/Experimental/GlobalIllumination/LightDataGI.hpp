@@ -158,6 +158,12 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");
+// Writing includes for template specializations
+#include "UnityEngine/Experimental/GlobalIllumination/DirectionalLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/PointLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/SpotLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/RectangleLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/DiscLight.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init
 template<>

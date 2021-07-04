@@ -38,6 +38,9 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine*, "System.Net", "AutoWebProxyScriptEngine");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: System::Net::AutoWebProxyScriptEngine::GetProxies
 // Il2CppName: GetProxies
 template<>

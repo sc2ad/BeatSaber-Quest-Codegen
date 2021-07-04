@@ -57,6 +57,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneSetupData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");
+// Writing includes for template specializations
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData
 // Il2CppName: get_nextScenesTransitionSetupData
 template<>

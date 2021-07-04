@@ -143,6 +143,8 @@ namespace System::Runtime::Remoting::Lifetime {
   static_assert(sizeof(Lease) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease*, "System.Runtime.Remoting.Lifetime", "Lease");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Lifetime/ISponsor.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::get_CurrentLeaseTime
 // Il2CppName: get_CurrentLeaseTime
 template<>

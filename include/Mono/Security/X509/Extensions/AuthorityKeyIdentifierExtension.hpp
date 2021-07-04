@@ -63,6 +63,7 @@ namespace Mono::Security::X509::Extensions {
   static_assert(sizeof(AuthorityKeyIdentifierExtension) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier
 // Il2CppName: get_Identifier
 template<>

@@ -135,6 +135,10 @@ namespace System::Net {
   static_assert(sizeof(DigestSession) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");
+// Writing includes for template specializations
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/Net/WebRequest.hpp"
+#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: System::Net::DigestSession::_cctor
 // Il2CppName: .cctor
 template<>

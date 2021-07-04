@@ -96,6 +96,12 @@ namespace Zenject::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal*, "Zenject.Internal", "ZenUtilInternal");
+// Writing includes for template specializations
+#include "System/Delegate.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/SceneManagement/Scene.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::IsNull
 // Il2CppName: IsNull
 template<>

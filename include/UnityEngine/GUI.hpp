@@ -310,6 +310,19 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI*, "UnityEngine", "GUI");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/GUISkin.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/GUIContent.hpp"
+#include "UnityEngine/GUIStyle.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/ScaleMode.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/FocusType.hpp"
+#include "UnityEngine/TextEditor.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/GUI_WindowFunction.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUI::get_color
 // Il2CppName: get_color
 template<>

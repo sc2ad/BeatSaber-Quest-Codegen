@@ -88,6 +88,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GuestNameButtonsListItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::set_nameText
 // Il2CppName: set_nameText
 template<>

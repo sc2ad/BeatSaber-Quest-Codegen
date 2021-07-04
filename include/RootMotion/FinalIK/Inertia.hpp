@@ -71,6 +71,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Inertia) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia*, "RootMotion.FinalIK", "Inertia");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::Inertia::ResetBodies
 // Il2CppName: ResetBodies
 template<>

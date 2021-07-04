@@ -64,6 +64,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d, "", "AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::MoveNext
 // Il2CppName: MoveNext
 template<>

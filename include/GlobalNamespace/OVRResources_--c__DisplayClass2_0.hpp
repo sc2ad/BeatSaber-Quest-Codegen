@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0
 // Il2CppName: <Load>b__0
 template<>

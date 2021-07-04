@@ -90,6 +90,11 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(DynamicResourceLocator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::DynamicResourceLocator*, "UnityEngine.AddressableAssets", "DynamicResourceLocator");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId
 // Il2CppName: get_LocatorId
 template<>

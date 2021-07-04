@@ -179,6 +179,14 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBase*, "System.Reflection", "MethodBase");
+// Writing includes for template specializations
+#include "System/RuntimeMethodHandle.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Reflection/CallingConventions.hpp"
+#include "System/RuntimeTypeHandle.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetMethodFromHandle
 // Il2CppName: GetMethodFromHandle
 template<>

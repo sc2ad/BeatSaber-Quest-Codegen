@@ -78,6 +78,9 @@ namespace System::Security::Util {
   static_assert(sizeof(Parser) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
+// Writing includes for template specializations
+#include "System/Security/Util/TokenizerStream.hpp"
+#include "System/Security/Util/Tokenizer.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetTopElement
 // Il2CppName: GetTopElement
 template<>

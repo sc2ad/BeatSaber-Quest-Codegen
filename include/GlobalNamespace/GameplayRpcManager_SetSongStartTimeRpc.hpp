@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // GameplayRpcManager/SetSongStartTimeRpc
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::SetSongStartTimeRpc*, "", "GameplayRpcManager/SetSongStartTimeRpc");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::SetSongStartTimeRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

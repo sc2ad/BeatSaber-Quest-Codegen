@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserFlowCoordinator*, "", "GameServerBrowserFlowCoordinator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>

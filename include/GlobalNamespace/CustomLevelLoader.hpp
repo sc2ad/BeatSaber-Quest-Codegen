@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomLevelLoader) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomLevelLoader*, "", "CustomLevelLoader");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CustomLevelLoader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

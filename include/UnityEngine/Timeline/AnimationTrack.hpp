@@ -517,6 +517,18 @@ namespace UnityEngine::Timeline {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack*, "UnityEngine.Timeline", "AnimationTrack");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
+#include "UnityEngine/AvatarMask.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Timeline/IntervalTree_1.hpp"
+#include "UnityEngine/Timeline/AppliedOffsetMode.hpp"
+#include "UnityEngine/Animations/AnimationLayerMixerPlayable.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::get_position
 // Il2CppName: get_position
 template<>

@@ -90,6 +90,9 @@ namespace MasterServer {
   static_assert(sizeof(HelloVerifyRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HelloVerifyRequest*, "MasterServer", "HelloVerifyRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::HelloVerifyRequest::get_pool
 // Il2CppName: get_pool
 template<>

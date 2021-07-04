@@ -59,6 +59,7 @@ namespace Polyglot {
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::Start
 // Il2CppName: Start
 template<>

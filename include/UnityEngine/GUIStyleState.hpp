@@ -85,6 +85,9 @@ namespace UnityEngine {
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor
 // Il2CppName: set_textColor
 template<>

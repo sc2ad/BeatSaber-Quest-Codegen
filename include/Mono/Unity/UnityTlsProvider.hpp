@@ -124,6 +124,14 @@ namespace Mono::Unity {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsProvider*, "Mono.Unity", "UnityTlsProvider");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "System/Net/Security/SslStream.hpp"
+#include "Mono/Security/Interface/ICertificateValidator2.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
+#include "Mono/Security/Interface/MonoSslPolicyErrors.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_Name
 // Il2CppName: get_Name
 template<>

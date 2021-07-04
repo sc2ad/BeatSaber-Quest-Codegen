@@ -66,6 +66,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CenterStageLobbyViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController*, "", "CenterStageLobbyViewController");
+// Writing includes for template specializations
+#include "GlobalNamespace/ILevelGameplaySetupData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageLobbyViewController::SetLevelGameplaySetupData
 // Il2CppName: SetLevelGameplaySetupData
 template<>

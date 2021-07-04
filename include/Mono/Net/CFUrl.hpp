@@ -39,6 +39,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::CFUrl::CFURLCreateWithString
 // Il2CppName: CFURLCreateWithString
 template<>

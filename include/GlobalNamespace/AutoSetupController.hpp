@@ -154,6 +154,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(AutoSetupController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/AutoSetupData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutoSetupController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -75,6 +75,7 @@ namespace NUnit::Framework::Internal::Execution {
   static_assert(sizeof(EventListenerTextWriter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::EventListenerTextWriter*, "NUnit.Framework.Internal.Execution", "EventListenerTextWriter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -95,6 +95,9 @@ namespace Oculus::Platform {
   static_assert(sizeof(RichPresenceOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");
+// Writing includes for template specializations
+#include "System/DateTime.hpp"
+#include "Oculus/Platform/RichPresenceExtraContext.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::SetApiName
 // Il2CppName: SetApiName
 template<>

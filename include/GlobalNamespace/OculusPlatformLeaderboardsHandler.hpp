@@ -96,6 +96,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformLeaderboardsHandler) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");
+// Writing includes for template specializations
+#include "Oculus/Platform/Request.hpp"
+#include "GlobalNamespace/HMAsyncRequest.hpp"
+#include "Oculus/Platform/Message.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresCompletionHandler.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::AddOculusRequest
 // Il2CppName: AddOculusRequest
 template<>

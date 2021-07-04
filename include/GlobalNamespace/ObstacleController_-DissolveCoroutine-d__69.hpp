@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleController::$DissolveCoroutine$d__69) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController::$DissolveCoroutine$d__69*, "", "ObstacleController/<DissolveCoroutine>d__69");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::$DissolveCoroutine$d__69::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -90,6 +90,9 @@ namespace UnityEngine::Events {
   static_assert(sizeof(InvokableCallList) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCallList*, "UnityEngine.Events", "InvokableCallList");
+// Writing includes for template specializations
+#include "UnityEngine/Events/BaseInvokableCall.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCallList::AddPersistentInvokableCall
 // Il2CppName: AddPersistentInvokableCall
 template<>

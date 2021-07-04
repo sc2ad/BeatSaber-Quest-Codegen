@@ -85,6 +85,10 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(PlayModeRunnerCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "UnityEngine/LogType.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunFinished
 // Il2CppName: RunFinished
 template<>

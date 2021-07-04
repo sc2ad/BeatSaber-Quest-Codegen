@@ -136,6 +136,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExtensions*, "", "OVRExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/OVRPose.hpp"
+#include "GlobalNamespace/OVRPlugin_Frustumf.hpp"
+#include "GlobalNamespace/OVRPlugin_Colorf.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector4f.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
+#include "UnityEngine/Gradient.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRExtensions::ToTrackingSpacePose
 // Il2CppName: ToTrackingSpacePose
 template<>

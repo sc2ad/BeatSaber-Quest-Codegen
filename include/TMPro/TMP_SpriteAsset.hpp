@@ -199,6 +199,8 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteAsset) == 0x79);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_version
 // Il2CppName: get_version
 template<>

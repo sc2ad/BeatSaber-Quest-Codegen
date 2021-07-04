@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::_cctor
 // Il2CppName: .cctor
 template<>

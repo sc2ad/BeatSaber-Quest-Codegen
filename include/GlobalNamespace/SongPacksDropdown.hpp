@@ -135,6 +135,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPacksDropdown) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown*, "", "SongPacksDropdown");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/SongPackMask.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

@@ -77,6 +77,7 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationPosePlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPosePlayable::AnimationPosePlayable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

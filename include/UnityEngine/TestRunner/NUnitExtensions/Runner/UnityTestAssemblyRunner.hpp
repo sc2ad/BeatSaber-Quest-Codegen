@@ -158,6 +158,16 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityTestAssemblyRunner) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestAssemblyRunner");
+// Writing includes for template specializations
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityTestExecutionContext.hpp"
+#include "System/Collections/Generic/IDictionary_2.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "UnityEngine/TestTools/NUnitExtensions/UnityTestAssemblyBuilder.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/WorkItemFactory.hpp"
+#include "UnityEngine/TestTools/TestPlatform.hpp"
+#include "NUnit/Framework/Interfaces/ITestListener.hpp"
+#include "NUnit/Framework/Interfaces/ITestFilter.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityWorkItem.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Context
 // Il2CppName: get_Context
 template<>

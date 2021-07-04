@@ -156,6 +156,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicsTableView) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsTableView*, "", "BeatmapCharacteristicsTableView");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicCollectionSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic
 // Il2CppName: add_didSelectCharacteristic
 template<>

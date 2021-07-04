@@ -130,6 +130,9 @@ namespace UnityEngine {
   static_assert(sizeof(AudioClip) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip_PCMReaderCallback.hpp"
+#include "UnityEngine/AudioClip_PCMSetPositionCallback.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>

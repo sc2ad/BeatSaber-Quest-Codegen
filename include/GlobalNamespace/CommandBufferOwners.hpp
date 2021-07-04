@@ -75,6 +75,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferOwners) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners*, "", "CommandBufferOwners");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::AddOwner
 // Il2CppName: AddOwner
 template<>

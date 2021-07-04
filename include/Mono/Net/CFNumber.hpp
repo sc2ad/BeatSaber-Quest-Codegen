@@ -33,6 +33,7 @@ namespace Mono::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNumber*, "Mono.Net", "CFNumber");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::CFNumber::CFNumberGetValue
 // Il2CppName: CFNumberGetValue
 template<>

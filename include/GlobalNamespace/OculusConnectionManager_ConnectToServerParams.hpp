@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusConnectionManager::ConnectToServerParams) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::ConnectToServerParams*, "", "OculusConnectionManager/ConnectToServerParams");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::ConnectToServerParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

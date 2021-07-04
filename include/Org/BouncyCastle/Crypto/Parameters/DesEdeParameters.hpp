@@ -45,6 +45,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*, "Org.BouncyCastle.Crypto.Parameters", "DesEdeParameters");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::FixKey
 // Il2CppName: FixKey
 template<>

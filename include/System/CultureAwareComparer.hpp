@@ -90,6 +90,8 @@ namespace System {
   static_assert(sizeof(CultureAwareComparer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::CultureAwareComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

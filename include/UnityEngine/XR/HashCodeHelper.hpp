@@ -22,6 +22,7 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::XR::HashCodeHelper::Combine
 // Il2CppName: Combine
 template<>

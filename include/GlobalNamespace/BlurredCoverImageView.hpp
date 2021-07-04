@@ -104,6 +104,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlurredCoverImageView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView*, "", "BlurredCoverImageView");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlurredCoverImageView::OnDestroy
 // Il2CppName: OnDestroy
 template<>

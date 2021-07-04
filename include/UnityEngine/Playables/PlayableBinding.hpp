@@ -100,6 +100,11 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Object.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Playables/PlayableBinding_CreateOutputMethod.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::get_streamName
 // Il2CppName: get_streamName
 template<>

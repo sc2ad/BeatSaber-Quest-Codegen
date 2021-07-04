@@ -68,6 +68,9 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriHelper*, "System", "UriHelper");
+// Writing includes for template specializations
+#include "System/UnescapeMode.hpp"
+#include "System/UriParser.hpp"
 // Writing MetadataGetter for method: System::UriHelper::EscapeString
 // Il2CppName: EscapeString
 template<>

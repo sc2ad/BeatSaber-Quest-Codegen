@@ -129,6 +129,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PreviousColorPanelController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviousColorPanelController*, "", "PreviousColorPanelController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PreviousColorPanelController::add_colorWasSelectedEvent
 // Il2CppName: add_colorWasSelectedEvent
 template<>

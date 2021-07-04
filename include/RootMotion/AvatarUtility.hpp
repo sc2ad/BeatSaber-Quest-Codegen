@@ -58,6 +58,10 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Avatar.hpp"
+#include "UnityEngine/AvatarIKGoal.hpp"
+#include "RootMotion/TQ.hpp"
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetPostRotation
 // Il2CppName: GetPostRotation
 template<>

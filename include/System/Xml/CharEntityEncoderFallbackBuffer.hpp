@@ -91,6 +91,8 @@ namespace System::Xml {
   static_assert(sizeof(CharEntityEncoderFallbackBuffer) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");
+// Writing includes for template specializations
+#include "System/Xml/CharEntityEncoderFallback.hpp"
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallbackBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseViewControllersInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseViewControllersInstaller*, "", "BaseViewControllersInstaller");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BaseViewControllersInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

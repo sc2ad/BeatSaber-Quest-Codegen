@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

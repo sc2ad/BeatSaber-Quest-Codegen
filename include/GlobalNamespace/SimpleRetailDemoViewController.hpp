@@ -166,6 +166,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

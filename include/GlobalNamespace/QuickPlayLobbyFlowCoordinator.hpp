@@ -446,6 +446,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator) == 0x189);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator*, "", "QuickPlayLobbyFlowCoordinator");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/LevelSelectionFlowCoordinator_State.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/MultiplayerGameState.hpp"
+#include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/MultiplayerResultsData.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
+#include "GlobalNamespace/MultiplayerResultsViewController.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
 template<>

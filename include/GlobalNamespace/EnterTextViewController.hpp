@@ -105,6 +105,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnterTextViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterTextViewController*, "", "EnterTextViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

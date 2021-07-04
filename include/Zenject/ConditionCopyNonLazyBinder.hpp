@@ -97,6 +97,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder*, "Zenject", "ConditionCopyNonLazyBinder");
+// Writing includes for template specializations
+#include "Zenject/BindingCondition.hpp"
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::When
 // Il2CppName: When
 template<>

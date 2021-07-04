@@ -227,6 +227,10 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(CryptoStream) == 0x5F);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream*, "System.Security.Cryptography", "CryptoStream");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/ICryptoTransform.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/IO/SeekOrigin.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

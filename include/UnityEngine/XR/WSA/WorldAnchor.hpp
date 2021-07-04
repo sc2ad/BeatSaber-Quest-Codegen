@@ -47,6 +47,7 @@ namespace UnityEngine::XR::WSA {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost
 // Il2CppName: Internal_TriggerEventOnTrackingLost
 template<>

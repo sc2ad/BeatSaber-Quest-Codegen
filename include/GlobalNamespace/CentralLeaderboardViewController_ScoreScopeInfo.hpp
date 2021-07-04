@@ -68,6 +68,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CentralLeaderboardViewController::ScoreScopeInfo) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

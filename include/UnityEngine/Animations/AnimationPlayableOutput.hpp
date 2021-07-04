@@ -98,6 +98,10 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/Animator.hpp"
+#include "UnityEngine/Playables/PlayableOutput.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableOutput::Create
 // Il2CppName: Create
 template<>

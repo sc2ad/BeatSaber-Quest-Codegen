@@ -65,6 +65,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   static_assert(sizeof(DiagnosticInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
 template<>

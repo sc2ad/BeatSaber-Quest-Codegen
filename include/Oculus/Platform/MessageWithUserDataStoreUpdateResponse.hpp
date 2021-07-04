@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithUserDataStoreUpdateResponse
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserDataStoreUpdateResponse*, "Oculus.Platform", "MessageWithUserDataStoreUpdateResponse");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithUserDataStoreUpdateResponse::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

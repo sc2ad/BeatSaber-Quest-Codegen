@@ -150,6 +150,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySongPacksDropdown) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown*, "", "QuickPlaySongPacksDropdown");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
+#include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_PredefinedPack.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

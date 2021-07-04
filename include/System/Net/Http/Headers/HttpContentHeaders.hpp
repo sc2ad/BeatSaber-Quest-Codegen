@@ -62,6 +62,8 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpContentHeaders*, "System.Net.Http.Headers", "HttpContentHeaders");
+// Writing includes for template specializations
+#include "System/Net/Http/HttpContent.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

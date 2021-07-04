@@ -46,6 +46,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform*, "", "BeatmapDataStrobeFilterTransform");
+// Writing includes for template specializations
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
+#include "GlobalNamespace/EnvironmentIntensityReductionOptions.hpp"
+#include "GlobalNamespace/BeatmapDataStrobeFilterTransform_--c__DisplayClass2_0.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>

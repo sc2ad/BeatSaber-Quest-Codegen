@@ -97,6 +97,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Light*, "UnityEngine", "Light");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Rendering/LightEvent.hpp"
+#include "UnityEngine/Rendering/CommandBuffer.hpp"
+#include "UnityEngine/Rendering/ShadowMapPass.hpp"
 // Writing MetadataGetter for method: UnityEngine::Light::get_type
 // Il2CppName: get_type
 template<>

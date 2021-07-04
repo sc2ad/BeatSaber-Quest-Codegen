@@ -179,6 +179,16 @@ namespace System::Net {
   static_assert(sizeof(EndPointListener) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");
+// Writing includes for template specializations
+#include "System/Net/HttpListener.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
+#include "System/Net/HttpConnection.hpp"
+#include "System/Net/HttpListenerContext.hpp"
+#include "System/Uri.hpp"
+#include "System/Net/ListenerPrefix.hpp"
+#include "System/Collections/ArrayList.hpp"
 // Writing MetadataGetter for method: System::Net::EndPointListener::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*, "UnityEngine.Timeline", "TimeNotificationBehaviour/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -316,6 +316,25 @@ namespace MasterServer {
   static_assert(sizeof(UserMessageHandler) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler*, "MasterServer", "UserMessageHandler");
+// Writing includes for template specializations
+#include "MasterServer/UserMessageHandler_ConnectToClientDelegate.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/IUnconnectedSenderReceiver.hpp"
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
+#include "GlobalNamespace/IAuthenticationTokenProvider.hpp"
+#include "MasterServer/ITimeProvider.hpp"
+#include "GlobalNamespace/ICertificateValidator.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
+#include "GlobalNamespace/InvitePolicy.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "MasterServer/UserMessageHandler_ConnectToServerDelegate.hpp"
+#include "MasterServer/BaseConnectToServerRequest.hpp"
+#include "GlobalNamespace/GameplayServerFilter.hpp"
+#include "System/Func_1.hpp"
+#include "MasterServer/IUserMessage.hpp"
+#include "MasterServer/UserServerHeartbeatResponse.hpp"
+#include "MasterServer/PrepareForConnectionRequest.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::add_connectToClientEvent
 // Il2CppName: add_connectToClientEvent
 template<>

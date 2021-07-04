@@ -52,6 +52,8 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPoint*, "System.Net", "EndPoint");
+// Writing includes for template specializations
+#include "System/Net/SocketAddress.hpp"
 // Writing MetadataGetter for method: System::Net::EndPoint::get_AddressFamily
 // Il2CppName: get_AddressFamily
 template<>

@@ -63,6 +63,8 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass76_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass76_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass76_0");
+// Writing includes for template specializations
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass76_0::$SetHeadersAsync$b__0
 // Il2CppName: <SetHeadersAsync>b__0
 template<>

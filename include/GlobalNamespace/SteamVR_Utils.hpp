@@ -101,6 +101,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils*, "", "SteamVR_Utils");
+// Writing includes for template specializations
+#include "UnityEngine/Quaternion.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
+#include "GlobalNamespace/SteamVR_Utils_SystemFn.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Slerp
 // Il2CppName: Slerp
 template<>

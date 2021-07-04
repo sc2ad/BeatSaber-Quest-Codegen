@@ -154,6 +154,11 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Crl) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
+// Writing includes for template specializations
+#include "Mono/Security/X509/X509Certificate.hpp"
+#include "System/Security/Cryptography/DSA.hpp"
+#include "System/Security/Cryptography/RSA.hpp"
+#include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -83,6 +83,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(OpenSslPbeParametersGenerator) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "OpenSslPbeParametersGenerator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::Init
 // Il2CppName: Init
 template<>

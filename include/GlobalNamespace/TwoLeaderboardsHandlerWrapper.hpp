@@ -82,6 +82,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(TwoLeaderboardsHandlerWrapper) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "TwoLeaderboardsHandlerWrapper");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresResult.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreResult.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresCompletionHandler.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

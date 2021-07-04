@@ -155,6 +155,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyGameStateController*, "", "ILobbyGameStateController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerGameType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent
 // Il2CppName: add_gameStartedEvent
 template<>

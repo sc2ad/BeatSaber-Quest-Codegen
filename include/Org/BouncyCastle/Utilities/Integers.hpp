@@ -31,6 +31,7 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Integers*, "Org.BouncyCastle.Utilities", "Integers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Integers::NumberOfLeadingZeros
 // Il2CppName: NumberOfLeadingZeros
 template<>

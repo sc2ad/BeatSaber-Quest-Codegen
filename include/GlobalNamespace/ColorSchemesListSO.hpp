@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemesListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesListSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemesListSO::get_colorSchemes
 // Il2CppName: get_colorSchemes
 template<>

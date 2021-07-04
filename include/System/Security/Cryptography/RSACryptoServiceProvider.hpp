@@ -199,6 +199,12 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RSACryptoServiceProvider) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/HashAlgorithmName.hpp"
+#include "System/Security/Cryptography/CspParameters.hpp"
+#include "System/EventArgs.hpp"
+#include "System/Security/Cryptography/RSASignaturePadding.hpp"
+#include "System/Security/Cryptography/RSAParameters.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore
 // Il2CppName: get_UseMachineKeyStore
 template<>

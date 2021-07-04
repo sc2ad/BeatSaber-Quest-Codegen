@@ -101,6 +101,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Constraints) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::IsValid
 // Il2CppName: IsValid
 template<>

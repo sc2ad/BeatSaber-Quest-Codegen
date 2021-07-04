@@ -77,6 +77,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataFileManagerSO*, "", "AvatarDataFileManagerSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
+#include "GlobalNamespace/AvatarSaveData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataFileManagerSO::Save
 // Il2CppName: Save
 template<>

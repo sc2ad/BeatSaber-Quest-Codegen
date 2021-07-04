@@ -153,6 +153,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioLatencyViewController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioLatencyViewController*, "", "AudioLatencyViewController");
+// Writing includes for template specializations
+#include "HMUI/RangeValuesTextSlider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::SliderValueDidChange
 // Il2CppName: SliderValueDidChange
 template<>

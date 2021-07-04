@@ -409,6 +409,15 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityTestExecutionContext) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "NUnit/Framework/Internal/TestResult.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "NUnit/Framework/Interfaces/ITestListener.hpp"
+#include "System/IO/TextWriter.hpp"
+#include "UnityEngine/TestTools/BeforeAfterTestCommandState.hpp"
+#include "UnityEngine/TestTools/EnumerableTestState.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentContext
 // Il2CppName: get_CurrentContext
 template<>

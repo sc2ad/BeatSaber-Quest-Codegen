@@ -717,6 +717,24 @@ namespace UnityEngine::ResourceManagement {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager*, "UnityEngine.ResourceManagement", "ResourceManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Func_2.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
+#include "UnityEngine/ResourceManagement/IUpdateReceiver.hpp"
+#include "UnityEngine/ResourceManagement/Util/IAllocationStrategy.hpp"
+#include "UnityEngine/Networking/CertificateHandler.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_4.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationBase_1.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/IAsyncOperation.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/ISceneProvider.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/IInstanceProvider.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::get_ExceptionHandler
 // Il2CppName: get_ExceptionHandler
 template<>

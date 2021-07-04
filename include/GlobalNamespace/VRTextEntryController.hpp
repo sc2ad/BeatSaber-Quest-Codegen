@@ -178,6 +178,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRTextEntryController) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::add_textDidChangeEvent
 // Il2CppName: add_textDidChangeEvent
 template<>

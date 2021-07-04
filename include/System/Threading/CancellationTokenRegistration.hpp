@@ -84,6 +84,8 @@ namespace System::Threading {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
+// Writing includes for template specializations
+#include "System/Threading/CancellationCallbackInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationTokenRegistration::CancellationTokenRegistration
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

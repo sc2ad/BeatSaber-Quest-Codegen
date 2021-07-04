@@ -414,6 +414,27 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");
+// Writing includes for template specializations
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_PeerUpdatedDelegate.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_JoinRequestedDelegate.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_JoinRespondedDelegate.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_InviteRequestedDelegate.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_InviteRespondedDelegate.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "System/Net/IPAddress.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/NetPacketReader.hpp"
+#include "LiteNetLib/UnconnectedMessageType.hpp"
+#include "LiteNetLib/ConnectionRequest.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/DisconnectInfo.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_BroadcastPacket.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_JoinRequestPacket.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_JoinResponsePacket.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_InviteRequestPacket.hpp"
+#include "GlobalNamespace/LocalNetworkDiscoveryManager_InviteResponsePacket.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_peerUpdatedEvent
 // Il2CppName: add_peerUpdatedEvent
 template<>

@@ -45,6 +45,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility*, "UnityEngine", "StackTraceUtility");
+// Writing includes for template specializations
+#include "System/Diagnostics/StackTrace.hpp"
 // Writing MetadataGetter for method: UnityEngine::StackTraceUtility::SetProjectFolder
 // Il2CppName: SetProjectFolder
 template<>

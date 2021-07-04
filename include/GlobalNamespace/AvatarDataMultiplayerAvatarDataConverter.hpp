@@ -35,6 +35,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*, "", "AvatarDataMultiplayerAvatarDataConverter");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarData.hpp"
+#include "GlobalNamespace/MultiplayerAvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateMultiplayerAvatarData
 // Il2CppName: CreateMultiplayerAvatarData
 template<>

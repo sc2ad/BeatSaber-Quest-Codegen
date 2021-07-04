@@ -149,6 +149,8 @@ namespace System::Diagnostics {
   static_assert(sizeof(StackFrame) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+// Writing includes for template specializations
+#include "System/Reflection/MethodBase.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>

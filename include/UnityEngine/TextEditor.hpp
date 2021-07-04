@@ -869,6 +869,9 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
+// Writing includes for template specializations
+#include "UnityEngine/Event.hpp"
+#include "UnityEngine/TextEditor_Direction.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextEditor::get_text
 // Il2CppName: get_text
 template<>

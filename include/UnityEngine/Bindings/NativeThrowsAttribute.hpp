@@ -53,6 +53,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeThrowsAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException
 // Il2CppName: set_ThrowsException
 template<>

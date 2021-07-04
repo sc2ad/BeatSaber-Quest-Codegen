@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerEntitlementChecker::CachedTcs) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*, "", "NetworkPlayerEntitlementChecker/CachedTcs");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::get_task
 // Il2CppName: get_task
 template<>

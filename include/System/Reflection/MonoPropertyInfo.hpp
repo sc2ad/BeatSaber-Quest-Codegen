@@ -91,6 +91,9 @@ namespace System::Reflection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
+// Writing includes for template specializations
+#include "System/Reflection/MonoProperty.hpp"
+#include "System/Reflection/PInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_property_info
 // Il2CppName: get_property_info
 template<>

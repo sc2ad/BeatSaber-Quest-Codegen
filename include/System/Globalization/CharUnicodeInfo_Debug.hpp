@@ -24,6 +24,7 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::Debug::Assert_
 // Il2CppName: Assert
 template<>

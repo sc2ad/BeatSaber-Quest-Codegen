@@ -103,6 +103,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelGameplaySetupData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelGameplaySetupData*, "", "LevelGameplaySetupData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelGameplaySetupData::get_beatmapLevel
 // Il2CppName: get_beatmapLevel
 template<>

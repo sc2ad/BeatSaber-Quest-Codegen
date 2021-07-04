@@ -38,6 +38,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateValidator*, "", "ICertificateValidator");
+// Writing includes for template specializations
+#include "GlobalNamespace/MasterServerEndPoint.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ICertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>

@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrailerGameplayManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailerGameplayManager*, "", "TrailerGameplayManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TrailerGameplayManager::Start
 // Il2CppName: Start
 template<>

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PersistentScriptableObject*, "", "PersistentScriptableObject");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PersistentScriptableObject::OnEnable
 // Il2CppName: OnEnable
 template<>

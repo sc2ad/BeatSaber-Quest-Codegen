@@ -111,6 +111,10 @@ namespace NUnit::Framework::Internal::Filters {
   static_assert(sizeof(CompositeFilter) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/TNode.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

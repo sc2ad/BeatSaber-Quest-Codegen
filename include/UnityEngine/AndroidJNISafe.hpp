@@ -312,6 +312,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNISafe*, "UnityEngine", "AndroidJNISafe");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AndroidJNISafe::CheckException
 // Il2CppName: CheckException
 template<>

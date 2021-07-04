@@ -115,6 +115,7 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineAsset*, "UnityEngine.Rendering", "RenderPipelineAsset");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineAsset::InternalCreatePipeline
 // Il2CppName: InternalCreatePipeline
 template<>

@@ -117,6 +117,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>

@@ -155,6 +155,15 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingConfiguration*, "System.Runtime.Remoting", "RemotingConfiguration");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
+#include "System/Runtime/Remoting/ActivatedServiceTypeEntry.hpp"
+#include "System/Runtime/Remoting/WellKnownClientTypeEntry.hpp"
+#include "System/Runtime/Remoting/WellKnownServiceTypeEntry.hpp"
+#include "System/Runtime/Remoting/ChannelData.hpp"
+#include "System/Runtime/Remoting/ProviderData.hpp"
+#include "System/Collections/ArrayList.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName
 // Il2CppName: get_ApplicationName
 template<>

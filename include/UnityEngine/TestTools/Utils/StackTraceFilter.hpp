@@ -40,6 +40,7 @@ namespace UnityEngine::TestTools::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityEngine.TestTools.Utils", "StackTraceFilter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::Filter
 // Il2CppName: Filter
 template<>

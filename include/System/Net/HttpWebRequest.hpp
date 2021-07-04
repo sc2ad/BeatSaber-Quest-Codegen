@@ -958,6 +958,25 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest*, "System.Net", "HttpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.Net", "HttpWebRequest/AuthorizationState");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/CookieContainer.hpp"
+#include "System/Version.hpp"
+#include "System/Net/SimpleAsyncResult.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Net/WebHeaderCollection.hpp"
+#include "System/Net/WebAsyncResult.hpp"
+#include "System/Net/HttpStatusCode.hpp"
+#include "System/Net/WebResponse.hpp"
+#include "System/Net/WebExceptionStatus.hpp"
+#include "System/Exception.hpp"
+#include "System/Net/WebConnectionStream.hpp"
+#include "System/Net/SimpleAsyncCallback.hpp"
+#include "System/Net/WebConnectionData.hpp"
+#include "System/Net/ICredentials.hpp"
+#include "System/Net/IWebProxy.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

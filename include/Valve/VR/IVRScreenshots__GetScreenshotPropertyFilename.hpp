@@ -64,6 +64,12 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename*, "Valve.VR", "IVRScreenshots/_GetScreenshotPropertyFilename");
+// Writing includes for template specializations
+#include "Valve/VR/EVRScreenshotPropertyFilenames.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "Valve/VR/EVRScreenshotError.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

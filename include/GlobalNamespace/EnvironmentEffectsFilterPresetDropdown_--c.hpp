@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::$$c*, "", "EnvironmentEffectsFilterPresetDropdown/<>c");
+// Writing includes for template specializations
+#include "System/Tuple_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::$$c::_cctor
 // Il2CppName: .cctor
 template<>

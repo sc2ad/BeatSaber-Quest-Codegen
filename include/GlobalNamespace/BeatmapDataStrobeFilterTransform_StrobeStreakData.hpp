@@ -110,6 +110,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*, "", "BeatmapDataStrobeFilterTransform/StrobeStreakData");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe
 // Il2CppName: StartPotentialStrobe
 template<>

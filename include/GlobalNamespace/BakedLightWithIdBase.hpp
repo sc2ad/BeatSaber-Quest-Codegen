@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase*, "", "BakedLightWithIdBase");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::get_id
 // Il2CppName: get_id
 template<>

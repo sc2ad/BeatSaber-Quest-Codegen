@@ -143,6 +143,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSource*, "UnityEngine", "AudioSource");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
+#include "UnityEngine/FFTWindow.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetPitch
 // Il2CppName: GetPitch
 template<>

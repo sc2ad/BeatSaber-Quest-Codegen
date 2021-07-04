@@ -226,6 +226,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerPlayersTableView) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView*, "", "GameServerPlayersTableView");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/ILobbyPlayersDataModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent
 // Il2CppName: add_selectSuggestedLevelEvent
 template<>

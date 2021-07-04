@@ -52,6 +52,8 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(UnobservedTaskExceptionEventArgs) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");
+// Writing includes for template specializations
+#include "System/AggregateException.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::UnobservedTaskExceptionEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -143,6 +143,12 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerObjectIdentifier) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1TaggedObject.hpp"
+#include "System/IO/Stream.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "System/IO/MemoryStream.hpp"
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance
 // Il2CppName: GetInstance
 template<>

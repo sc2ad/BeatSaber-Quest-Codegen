@@ -66,6 +66,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/RandomNumberGenerator.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -103,6 +103,8 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread*, "System.Net", "TimerThread");
+// Writing includes for template specializations
+#include "System/EventArgs.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::_cctor
 // Il2CppName: .cctor
 template<>

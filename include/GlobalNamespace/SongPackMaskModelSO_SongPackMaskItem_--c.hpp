@@ -101,6 +101,11 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*, "", "SongPackMaskModelSO/SongPackMaskItem/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/BeatmapLevelPackSO.hpp"
+#include "GlobalNamespace/PreviewBeatmapLevelPackSO.hpp"
+#include "GlobalNamespace/BeatmapLevelPackCollectionSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::_cctor
 // Il2CppName: .cctor
 template<>

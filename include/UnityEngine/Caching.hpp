@@ -101,6 +101,10 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Caching*, "UnityEngine", "Caching");
+// Writing includes for template specializations
+#include "UnityEngine/Hash128.hpp"
+#include "UnityEngine/CachedAssetBundle.hpp"
+#include "UnityEngine/Cache.hpp"
 // Writing MetadataGetter for method: UnityEngine::Caching::set_compressionEnabled
 // Il2CppName: set_compressionEnabled
 template<>

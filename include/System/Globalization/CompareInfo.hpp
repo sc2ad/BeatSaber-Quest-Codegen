@@ -330,6 +330,9 @@ namespace System::Globalization {
   static_assert(sizeof(CompareInfo) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");
+// Writing includes for template specializations
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Globalization::CompareInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

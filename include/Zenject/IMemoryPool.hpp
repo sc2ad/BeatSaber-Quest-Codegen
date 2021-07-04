@@ -55,6 +55,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool*, "Zenject", "IMemoryPool");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::IMemoryPool::get_NumTotal
 // Il2CppName: get_NumTotal
 template<>

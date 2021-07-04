@@ -139,6 +139,13 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(RsaDigestSigner) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RsaDigestSigner*, "Org.BouncyCastle.Crypto.Signers", "RsaDigestSigner");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IDigest.hpp"
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
+#include "Org/BouncyCastle/Crypto/IRsa.hpp"
+#include "Org/BouncyCastle/Crypto/IAsymmetricBlockCipher.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_cctor
 // Il2CppName: .cctor
 template<>

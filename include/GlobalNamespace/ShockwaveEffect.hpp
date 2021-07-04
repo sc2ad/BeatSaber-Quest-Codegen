@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShockwaveEffect) == 0xBC);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ShockwaveEffect::Start
 // Il2CppName: Start
 template<>

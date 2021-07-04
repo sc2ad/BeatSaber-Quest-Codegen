@@ -94,6 +94,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(RuntimeLightWithIds) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds*, "", "RuntimeLightWithIds");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

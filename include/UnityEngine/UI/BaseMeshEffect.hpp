@@ -93,6 +93,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::get_graphic
 // Il2CppName: get_graphic
 template<>

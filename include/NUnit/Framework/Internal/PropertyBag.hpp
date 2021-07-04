@@ -95,6 +95,8 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(PropertyBag) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::PropertyBag*, "NUnit.Framework.Internal", "PropertyBag");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/TNode.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::Add
 // Il2CppName: Add
 template<>

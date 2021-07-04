@@ -28,6 +28,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberMovementDataProcessor*, "", "ISaberMovementDataProcessor");
+// Writing includes for template specializations
+#include "GlobalNamespace/BladeMovementDataElement.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData
 // Il2CppName: ProcessNewData
 template<>

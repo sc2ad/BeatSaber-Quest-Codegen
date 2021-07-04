@@ -82,6 +82,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(AlgorithmIdentifier) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, "Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1TaggedObject.hpp"
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier::GetInstance
 // Il2CppName: GetInstance
 template<>

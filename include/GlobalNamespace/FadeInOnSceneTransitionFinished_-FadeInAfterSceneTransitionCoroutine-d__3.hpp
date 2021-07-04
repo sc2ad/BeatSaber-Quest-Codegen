@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3*, "", "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

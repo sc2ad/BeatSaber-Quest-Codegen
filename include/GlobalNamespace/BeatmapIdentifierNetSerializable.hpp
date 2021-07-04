@@ -127,6 +127,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapIdentifierNetSerializable) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializable*, "", "BeatmapIdentifierNetSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataReader.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID
 // Il2CppName: get_levelID
 template<>

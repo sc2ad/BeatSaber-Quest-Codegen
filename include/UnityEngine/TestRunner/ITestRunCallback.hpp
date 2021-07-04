@@ -39,6 +39,9 @@ namespace UnityEngine::TestRunner {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::ITestRunCallback*, "UnityEngine.TestRunner", "ITestRunCallback");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::ITestRunCallback::RunStarted
 // Il2CppName: RunStarted
 template<>

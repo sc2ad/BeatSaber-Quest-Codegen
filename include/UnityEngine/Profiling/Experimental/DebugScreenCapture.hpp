@@ -71,6 +71,7 @@ namespace UnityEngine::Profiling::Experimental {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_rawImageDataReference
 // Il2CppName: set_rawImageDataReference
 template<>

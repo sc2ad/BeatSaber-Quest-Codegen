@@ -98,6 +98,8 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder::$$c*, "UnityEngine.UI", "LayoutRebuilder/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -91,6 +91,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleScaleUp) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleScaleUp*, "", "ObstacleScaleUp");
+// Writing includes for template specializations
+#include "GlobalNamespace/ObstacleController.hpp"
+#include "GlobalNamespace/ObstacleControllerBase.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleScaleUp::Awake
 // Il2CppName: Awake
 template<>

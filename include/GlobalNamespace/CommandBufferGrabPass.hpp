@@ -102,6 +102,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferGrabPass) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>

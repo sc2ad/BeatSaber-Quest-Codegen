@@ -89,6 +89,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesViewController) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesViewController*, "", "OnlineServicesViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

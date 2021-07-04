@@ -53,6 +53,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Event*, "", "SteamVR_Events/Event");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Event::Listen
 // Il2CppName: Listen
 template<>

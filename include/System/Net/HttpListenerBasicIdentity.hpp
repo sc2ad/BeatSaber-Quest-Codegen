@@ -45,6 +45,7 @@ namespace System::Net {
   static_assert(sizeof(HttpListenerBasicIdentity) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::HttpListenerBasicIdentity::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

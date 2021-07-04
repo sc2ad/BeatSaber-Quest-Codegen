@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.GroupTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::GroupTrack::CanCompileClips
 // Il2CppName: CanCompileClips
 template<>

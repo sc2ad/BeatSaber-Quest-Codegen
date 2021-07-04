@@ -96,6 +96,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerFiniteStateMachine*, "", "MockPlayerFiniteStateMachine");
+// Writing includes for template specializations
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/IGameplayRpcManager.hpp"
+#include "GlobalNamespace/IMenuRpcManager.hpp"
+#include "GlobalNamespace/IMockBeatmapDataProvider.hpp"
+#include "GlobalNamespace/MockPlayerLobbyPoseGenerator.hpp"
+#include "GlobalNamespace/MockPlayerGamePoseGenerator.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

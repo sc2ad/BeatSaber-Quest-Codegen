@@ -116,6 +116,12 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ChannelServices*, "System.Runtime.Remoting.Channels", "ChannelServices");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Channels/IChannelSender.hpp"
+#include "System/Runtime/Remoting/Channels/IChannel.hpp"
+#include "System/Runtime/Remoting/ChannelData.hpp"
+#include "System/Runtime/Remoting/ProviderData.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::ChannelServices::get_CrossContextChannel
 // Il2CppName: get_CrossContextChannel
 template<>

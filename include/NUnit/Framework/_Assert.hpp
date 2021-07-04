@@ -88,6 +88,8 @@ namespace NUnit::Framework {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/IResolveConstraint.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::AreEqual
 // Il2CppName: AreEqual
 template<>

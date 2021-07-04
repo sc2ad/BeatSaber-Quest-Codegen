@@ -188,6 +188,14 @@ namespace System::Net::Security {
   static_assert(sizeof(SslStream) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");
+// Writing includes for template specializations
+#include "Mono/Security/Interface/MonoTlsProvider.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Authentication/SslProtocols.hpp"
+#include "System/IO/SeekOrigin.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::Security::SslStream::get_Impl
 // Il2CppName: get_Impl
 template<>

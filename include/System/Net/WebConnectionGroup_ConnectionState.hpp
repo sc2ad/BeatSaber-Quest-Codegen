@@ -105,6 +105,8 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionGroup::ConnectionState) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");
+// Writing includes for template specializations
+#include "System/Net/WebConnection.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_Connection
 // Il2CppName: get_Connection
 template<>

@@ -246,6 +246,11 @@ namespace UnityEngine {
   static_assert(sizeof(TextGenerator) == 0xA3);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Font.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

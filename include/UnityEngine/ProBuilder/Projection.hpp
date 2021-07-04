@@ -90,6 +90,14 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection*, "UnityEngine.ProBuilder", "Projection");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "UnityEngine/ProBuilder/SortMethod.hpp"
+#include "UnityEngine/ProBuilder/ProjectionAxis.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::PlanarProject
 // Il2CppName: PlanarProject
 template<>

@@ -84,6 +84,7 @@ namespace UnityEngine {
   static_assert(sizeof(AnimatorControllerParameter) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AnimatorControllerParameter::get_name
 // Il2CppName: get_name
 template<>

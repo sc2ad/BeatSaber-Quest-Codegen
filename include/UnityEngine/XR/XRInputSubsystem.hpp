@@ -73,6 +73,7 @@ namespace UnityEngine::XR {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent
 // Il2CppName: InvokeTrackingOriginUpdatedEvent
 template<>

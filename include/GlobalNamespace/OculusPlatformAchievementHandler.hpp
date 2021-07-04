@@ -68,6 +68,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAchievementHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/AchievementIdsModelSO.hpp"
+#include "GlobalNamespace/PlatformAchievementsModelSO_UnlockAchievementCompletionHandler.hpp"
+#include "GlobalNamespace/PlatformAchievementsModelSO_GetUnlockedAchievementsCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

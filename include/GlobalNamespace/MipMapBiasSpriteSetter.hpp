@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MipMapBiasSpriteSetter) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MipMapBiasSpriteSetter*, "", "MipMapBiasSpriteSetter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MipMapBiasSpriteSetter::Start
 // Il2CppName: Start
 template<>

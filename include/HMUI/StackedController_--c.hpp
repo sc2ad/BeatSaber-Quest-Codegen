@@ -51,6 +51,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SleepRigidbody2DWhenInvisible) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SleepRigidbody2DWhenInvisible::Awake
 // Il2CppName: Awake
 template<>

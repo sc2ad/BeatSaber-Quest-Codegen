@@ -443,6 +443,13 @@ namespace System {
   static_assert(sizeof(NumberFormatter) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
+// Writing includes for template specializations
+#include "System/Threading/Thread.hpp"
+#include "System/Decimal.hpp"
+#include "System/IFormatProvider.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Globalization/NumberFormatInfo.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::NumberFormatter::GetFormatterTables
 // Il2CppName: GetFormatterTables
 template<>

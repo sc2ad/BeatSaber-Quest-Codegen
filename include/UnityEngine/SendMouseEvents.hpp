@@ -100,6 +100,7 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents*, "UnityEngine", "SendMouseEvents");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::SendMouseEvents::SetMouseMoved
 // Il2CppName: SetMouseMoved
 template<>

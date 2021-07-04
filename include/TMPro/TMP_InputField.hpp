@@ -1696,6 +1696,26 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputFi
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::CharacterValidation, "TMPro", "TMP_InputField/CharacterValidation");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::LineType, "TMPro", "TMP_InputField/LineType");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "TMPro/TMP_Text.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
+#include "UnityEngine/UI/Scrollbar.hpp"
+#include "TMPro/TMP_InputField_SubmitEvent.hpp"
+#include "TMPro/TMP_InputField_SelectionEvent.hpp"
+#include "TMPro/TMP_InputField_TextSelectionEvent.hpp"
+#include "TMPro/TMP_InputField_OnChangeEvent.hpp"
+#include "TMPro/TMP_InputField_TouchScreenKeyboardEvent.hpp"
+#include "TMPro/TMP_InputField_OnValidateInput.hpp"
+#include "TMPro/TMP_FontAsset.hpp"
+#include "TMPro/TMP_InputValidator.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Event.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_inputSystem
 // Il2CppName: get_inputSystem
 template<>

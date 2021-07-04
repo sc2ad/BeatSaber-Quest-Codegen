@@ -123,6 +123,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyMessageHandler::ServerStatusUpdateMessage) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::get_pool
 // Il2CppName: get_pool
 template<>

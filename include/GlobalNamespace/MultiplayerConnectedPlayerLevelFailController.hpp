@@ -129,6 +129,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerLevelFailController) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*, "", "MultiplayerConnectedPlayerLevelFailController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::add_playerDidFailEvent
 // Il2CppName: add_playerDidFailEvent
 template<>

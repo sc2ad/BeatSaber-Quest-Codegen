@@ -1237,6 +1237,20 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::LineType, "UnityEngine.UI", "InputField/LineType");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Text.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
+#include "UnityEngine/UI/InputField_SubmitEvent.hpp"
+#include "UnityEngine/UI/InputField_OnChangeEvent.hpp"
+#include "UnityEngine/UI/InputField_OnValidateInput.hpp"
+#include "UnityEngine/TextGenerator.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Event.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_input
 // Il2CppName: get_input
 template<>

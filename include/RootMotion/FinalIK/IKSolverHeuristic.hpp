@@ -158,6 +158,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverHeuristic) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverHeuristic*, "RootMotion.FinalIK", "IKSolverHeuristic");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverHeuristic::SetChain
 // Il2CppName: SetChain
 template<>

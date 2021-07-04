@@ -90,6 +90,7 @@ namespace UnityEngine::TextCore::LowLevel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement
 template<>

@@ -122,6 +122,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(GhostDuplicationEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect*, "", "GhostDuplicationEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/GhostDuplicationEffect_GhostEffectParams.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>

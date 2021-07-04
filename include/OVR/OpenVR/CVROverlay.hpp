@@ -345,6 +345,27 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVR/OpenVR/EVROverlayError.hpp"
+#include "OVR/OpenVR/VROverlayFlags.hpp"
+#include "OVR/OpenVR/EColorSpace.hpp"
+#include "OVR/OpenVR/VRTextureBounds_t.hpp"
+#include "OVR/OpenVR/HmdColor_t.hpp"
+#include "OVR/OpenVR/VROverlayTransformType.hpp"
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/HmdMatrix34_t.hpp"
+#include "OVR/OpenVR/HmdVector2_t.hpp"
+#include "OVR/OpenVR/VREvent_t.hpp"
+#include "OVR/OpenVR/VROverlayInputMethod.hpp"
+#include "OVR/OpenVR/VROverlayIntersectionParams_t.hpp"
+#include "OVR/OpenVR/VROverlayIntersectionResults_t.hpp"
+#include "OVR/OpenVR/EOverlayDirection.hpp"
+#include "OVR/OpenVR/EDualAnalogWhich.hpp"
+#include "OVR/OpenVR/Texture_t.hpp"
+#include "OVR/OpenVR/ETextureType.hpp"
+#include "OVR/OpenVR/HmdRect2_t.hpp"
+#include "OVR/OpenVR/VROverlayIntersectionMaskPrimitive_t.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

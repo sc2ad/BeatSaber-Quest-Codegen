@@ -34,6 +34,7 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name
 // Il2CppName: get_Name
 template<>

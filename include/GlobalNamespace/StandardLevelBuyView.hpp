@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelBuyView) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView*, "", "StandardLevelBuyView");
+// Writing includes for template specializations
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyView::get_buyButton
 // Il2CppName: get_buyButton
 template<>

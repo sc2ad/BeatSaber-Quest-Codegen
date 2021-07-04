@@ -28,6 +28,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreBufferDidFinishEvent*, "", "ICutScoreBufferDidFinishEvent");
+// Writing includes for template specializations
+#include "GlobalNamespace/CutScoreBuffer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish
 // Il2CppName: HandleCutScoreBufferDidFinish
 template<>

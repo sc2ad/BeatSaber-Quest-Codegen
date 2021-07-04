@@ -87,6 +87,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::PlayerLatencyPacket) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*, "", "ConnectedPlayerManager/PlayerLatencyPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket::get_pool
 // Il2CppName: get_pool
 template<>

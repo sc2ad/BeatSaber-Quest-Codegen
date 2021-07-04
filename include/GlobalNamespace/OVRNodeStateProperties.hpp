@@ -70,6 +70,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNodeStateProperties*, "", "OVRNodeStateProperties");
+// Writing includes for template specializations
+#include "GlobalNamespace/NodeStatePropertyType.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::IsHmdPresent
 // Il2CppName: IsHmdPresent
 template<>

@@ -86,6 +86,8 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeRenderHelper");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction.hpp"
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::GetUpdateOrder
 // Il2CppName: GetUpdateOrder
 template<>

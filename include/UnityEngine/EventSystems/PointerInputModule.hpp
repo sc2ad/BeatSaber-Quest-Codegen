@@ -156,6 +156,9 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");
+// Writing includes for template specializations
+#include "UnityEngine/Touch.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::GetPointerData
 // Il2CppName: GetPointerData
 template<>

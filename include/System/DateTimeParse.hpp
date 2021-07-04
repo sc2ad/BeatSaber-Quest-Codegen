@@ -552,6 +552,19 @@ namespace System {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse*, "System", "DateTimeParse");
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::DS, "System", "DateTimeParse/DS");
+// Writing includes for template specializations
+#include "System/Globalization/DateTimeFormatInfo.hpp"
+#include "System/Globalization/DateTimeStyles.hpp"
+#include "System/DateTimeResult.hpp"
+#include "System/DateTime.hpp"
+#include "System/TimeSpan.hpp"
+#include "System/__DTString.hpp"
+#include "System/DateTimeToken.hpp"
+#include "System/DateTimeRawInfo.hpp"
+#include "System/DateTimeParse_TM.hpp"
+#include "System/Globalization/Calendar.hpp"
+#include "System/ParsingInfo.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::DateTimeParse::ParseExact
 // Il2CppName: ParseExact
 template<>

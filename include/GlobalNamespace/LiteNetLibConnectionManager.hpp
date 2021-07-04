@@ -696,6 +696,25 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_3.hpp"
+#include "GlobalNamespace/LiteNetLibConnectionManager_StatisticsUpdated.hpp"
+#include "MasterServer/ITimeProvider.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "GlobalNamespace/IConnection.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "GlobalNamespace/IConnectionInitParams_1.hpp"
+#include "LiteNetLib/NetPeer.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
+#include "LiteNetLib/ConnectionRequest.hpp"
+#include "LiteNetLib/DisconnectInfo.hpp"
+#include "LiteNetLib/NetPacketReader.hpp"
+#include "LiteNetLib/UnconnectedMessageType.hpp"
+#include "LiteNetLib/DisconnectReason.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

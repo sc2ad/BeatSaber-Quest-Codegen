@@ -223,6 +223,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlocksBlade) == 0x8C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");
+// Writing includes for template specializations
+#include "GlobalNamespace/BlocksBlade_Element.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::get_color
 // Il2CppName: get_color
 template<>

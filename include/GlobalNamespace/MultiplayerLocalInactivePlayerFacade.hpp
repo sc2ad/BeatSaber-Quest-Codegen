@@ -166,6 +166,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactivePlayerFacade) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerFacade*, "", "MultiplayerLocalInactivePlayerFacade");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerFacade::get_songController
 // Il2CppName: get_songController
 template<>

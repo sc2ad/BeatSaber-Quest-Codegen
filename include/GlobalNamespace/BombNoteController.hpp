@@ -123,6 +123,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BombNoteController) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombNoteController*, "", "BombNoteController");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombNoteController::Init
 // Il2CppName: Init
 template<>

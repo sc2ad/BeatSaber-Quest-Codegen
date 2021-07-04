@@ -118,6 +118,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MusicPackPromoBanner) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MusicPackPromoBanner*, "", "MusicPackPromoBanner");
+// Writing includes for template specializations
+#include "GlobalNamespace/DlcPromoExperimentDataSO_MusicPackPromoInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::get_currentPromoMusicPack
 // Il2CppName: get_currentPromoMusicPack
 template<>

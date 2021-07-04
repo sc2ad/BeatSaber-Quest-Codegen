@@ -157,6 +157,12 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack::PostPlaybackState, "UnityEngine.Timeline", "ActivationTrack/PostPlaybackState");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
+#include "UnityEngine/Timeline/TimelineClip.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationTrack::get_postPlaybackState
 // Il2CppName: get_postPlaybackState
 template<>

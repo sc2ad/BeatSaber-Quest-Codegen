@@ -37,6 +37,7 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpVersion*, "System.Net", "HttpVersion");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::HttpVersion::_cctor
 // Il2CppName: .cctor
 template<>

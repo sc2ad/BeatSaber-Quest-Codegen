@@ -46,6 +46,9 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventDataExtension*, "UnityEngine.EventSystems", "PointerEventDataExtension");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer
 // Il2CppName: IsVRPointer
 template<>

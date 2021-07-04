@@ -106,6 +106,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ImmediateRankUIPanel) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::Start
 // Il2CppName: Start
 template<>

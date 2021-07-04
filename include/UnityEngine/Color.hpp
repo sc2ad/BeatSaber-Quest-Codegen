@@ -192,6 +192,7 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Color::Color
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

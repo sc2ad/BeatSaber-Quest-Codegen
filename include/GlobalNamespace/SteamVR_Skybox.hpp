@@ -172,6 +172,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex
 // Il2CppName: SetTextureByIndex
 template<>

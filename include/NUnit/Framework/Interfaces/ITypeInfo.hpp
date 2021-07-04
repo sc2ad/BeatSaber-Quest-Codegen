@@ -114,6 +114,9 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITypeInfo*, "NUnit.Framework.Interfaces", "ITypeInfo");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/BindingFlags.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_Type
 // Il2CppName: get_Type
 template<>

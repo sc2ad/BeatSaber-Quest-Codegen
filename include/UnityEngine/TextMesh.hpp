@@ -40,6 +40,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextMesh*, "UnityEngine", "TextMesh");
+// Writing includes for template specializations
+#include "UnityEngine/TextAlignment.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextMesh::set_text
 // Il2CppName: set_text
 template<>

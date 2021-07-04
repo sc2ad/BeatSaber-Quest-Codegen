@@ -72,6 +72,8 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(AxisEventData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/EventSystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AxisEventData::get_moveVector
 // Il2CppName: get_moveVector
 template<>

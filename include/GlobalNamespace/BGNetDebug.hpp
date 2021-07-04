@@ -48,6 +48,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug*, "", "BGNetDebug");
+// Writing includes for template specializations
+#include "GlobalNamespace/BGNetDebug_ILogger.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::_cctor
 // Il2CppName: .cctor
 template<>

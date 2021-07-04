@@ -128,6 +128,10 @@ namespace System::Threading {
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+// Writing includes for template specializations
+#include "System/Threading/CancellationTokenSource.hpp"
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None
 // Il2CppName: get_None
 template<>

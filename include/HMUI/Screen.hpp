@@ -80,6 +80,8 @@ namespace HMUI {
   static_assert(sizeof(Screen) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen*, "HMUI", "Screen");
+// Writing includes for template specializations
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: HMUI::Screen::get_isBeingDestroyed
 // Il2CppName: get_isBeingDestroyed
 template<>

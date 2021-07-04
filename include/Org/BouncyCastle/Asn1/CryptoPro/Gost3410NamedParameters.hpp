@@ -62,6 +62,8 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410NamedParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::_cctor
 // Il2CppName: .cctor
 template<>

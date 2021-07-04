@@ -56,6 +56,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, "", "PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
 // Il2CppName: <SaveFromNetSerializable>b__0
 template<>

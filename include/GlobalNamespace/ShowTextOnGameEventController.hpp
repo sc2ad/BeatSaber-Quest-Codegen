@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowTextOnGameEventController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController*, "", "ShowTextOnGameEventController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::Awake
 // Il2CppName: Awake
 template<>

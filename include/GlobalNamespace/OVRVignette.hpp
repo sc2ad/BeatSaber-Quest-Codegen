@@ -375,6 +375,9 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");
+// Writing includes for template specializations
+#include "UnityEngine/Camera_StereoscopicEye.hpp"
+#include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::GetTriangleCount
 // Il2CppName: GetTriangleCount
 template<>

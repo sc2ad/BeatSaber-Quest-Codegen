@@ -49,6 +49,7 @@ namespace HMUI {
   static_assert(sizeof(ScrollView::$$c__DisplayClass50_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass50_0*, "HMUI", "ScrollView/<>c__DisplayClass50_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass50_0::$PageUpButtonPressed$b__0
 // Il2CppName: <PageUpButtonPressed>b__0
 template<>

@@ -64,6 +64,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::DTSubString::get_Item
 // Il2CppName: get_Item
 template<>

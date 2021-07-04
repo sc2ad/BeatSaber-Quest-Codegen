@@ -142,6 +142,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdManager) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/ILightWithId.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::add_didChangeSomeColorsThisFrameEvent
 // Il2CppName: add_didChangeSomeColorsThisFrameEvent
 template<>

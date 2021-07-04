@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StretchableCube) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StretchableCube::Awake
 // Il2CppName: Awake
 template<>

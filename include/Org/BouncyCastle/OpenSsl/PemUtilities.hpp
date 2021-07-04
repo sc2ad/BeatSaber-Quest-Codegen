@@ -45,6 +45,9 @@ namespace Org::BouncyCastle::OpenSsl {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities*, "Org.BouncyCastle.OpenSsl", "PemUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/OpenSsl/PemUtilities_PemBaseAlg.hpp"
+#include "Org/BouncyCastle/OpenSsl/PemUtilities_PemMode.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::_cctor
 // Il2CppName: .cctor
 template<>

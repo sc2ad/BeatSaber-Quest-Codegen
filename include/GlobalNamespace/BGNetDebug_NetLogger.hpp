@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::NetLogger*, "", "BGNetDebug/NetLogger");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::NetLogger::WriteNet
 // Il2CppName: WriteNet
 template<>

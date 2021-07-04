@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundParticleSystemRenderer) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*, "", "BloomPrePassBackgroundParticleSystemRenderer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::get_renderer
 // Il2CppName: get_renderer
 template<>

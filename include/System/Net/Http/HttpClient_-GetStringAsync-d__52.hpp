@@ -88,6 +88,7 @@ namespace System::Net::Http {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$GetStringAsync$d__52, "System.Net.Http", "HttpClient/<GetStringAsync>d__52");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::$GetStringAsync$d__52::MoveNext
 // Il2CppName: MoveNext
 template<>

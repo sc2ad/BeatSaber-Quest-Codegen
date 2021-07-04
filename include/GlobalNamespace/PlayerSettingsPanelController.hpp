@@ -281,6 +281,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSettingsPanelController) == 0xAA);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/PlayerSpecificSettings.hpp"
+#include "GlobalNamespace/PlayerSettingsPanelController_PlayerSettingsPanelLayout.hpp"
+#include "GlobalNamespace/FormattedFloatListSettingsController.hpp"
+#include "UnityEngine/CanvasGroup.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::add_didChangePlayerSettingsEvent
 // Il2CppName: add_didChangePlayerSettingsEvent
 template<>

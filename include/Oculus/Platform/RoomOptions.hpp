@@ -86,6 +86,9 @@ namespace Oculus::Platform {
   static_assert(sizeof(RoomOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/UserOrdering.hpp"
+#include "Oculus/Platform/TimeWindow.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetDataStore
 // Il2CppName: SetDataStore
 template<>

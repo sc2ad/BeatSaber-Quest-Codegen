@@ -89,6 +89,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(X9ECPoint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECPoint*, "Org.BouncyCastle.Asn1.X9", "X9ECPoint");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
+#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
+#include "Org/BouncyCastle/Asn1/Asn1OctetString.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -66,6 +66,7 @@ namespace System::Xml {
   static_assert(sizeof(BitStack) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::BitStack::PushBit
 // Il2CppName: PushBit
 template<>

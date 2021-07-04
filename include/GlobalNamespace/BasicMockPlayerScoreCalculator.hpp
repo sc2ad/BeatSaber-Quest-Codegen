@@ -78,6 +78,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicMockPlayerScoreCalculator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "BasicMockPlayerScoreCalculator");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockNoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

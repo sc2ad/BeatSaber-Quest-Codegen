@@ -107,6 +107,11 @@ namespace NUnit::Framework::Api {
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
+// Writing includes for template specializations
+#include "System/Reflection/Assembly.hpp"
+#include "System/Collections/Generic/IDictionary_2.hpp"
+#include "System/Collections/IList.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>

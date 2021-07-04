@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown::$$c*, "", "BeatmapCharacteristicsDropdown/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::_cctor
 // Il2CppName: .cctor
 template<>

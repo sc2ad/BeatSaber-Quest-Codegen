@@ -73,6 +73,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(MemberPrimitiveUnTyped) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Set
 // Il2CppName: Set
 template<>

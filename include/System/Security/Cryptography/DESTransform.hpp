@@ -124,6 +124,8 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(DESTransform) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESTransform*, "System.Security.Cryptography", "DESTransform");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/SymmetricAlgorithm.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

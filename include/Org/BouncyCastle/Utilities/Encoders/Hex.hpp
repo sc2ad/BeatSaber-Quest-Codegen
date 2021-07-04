@@ -48,6 +48,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Hex*, "Org.BouncyCastle.Utilities.Encoders", "Hex");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString
 // Il2CppName: ToHexString
 template<>

@@ -29,6 +29,7 @@ namespace OVRSimpleJSON {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSON*, "OVRSimpleJSON", "JSON");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OVRSimpleJSON::JSON::Parse
 // Il2CppName: Parse
 template<>

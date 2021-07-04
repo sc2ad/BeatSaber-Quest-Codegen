@@ -35,6 +35,9 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "UnityEngine/Timeline/GroupTrack.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAssetExtensions::GetGroup
 // Il2CppName: GetGroup
 template<>

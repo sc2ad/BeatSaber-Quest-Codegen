@@ -58,6 +58,11 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationUtilities*, "UnityEngine.Timeline", "NotificationUtilities");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable
 // Il2CppName: CreateNotificationsPlayable
 template<>

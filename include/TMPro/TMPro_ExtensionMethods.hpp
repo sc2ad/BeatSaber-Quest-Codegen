@@ -90,6 +90,12 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_ExtensionMethods");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Color32.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: TMPro::TMPro_ExtensionMethods::ArrayToString
 // Il2CppName: ArrayToString
 template<>

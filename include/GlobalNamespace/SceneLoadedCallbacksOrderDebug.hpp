@@ -61,6 +61,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug*, "", "SceneLoadedCallbacksOrderDebug");
+// Writing includes for template specializations
+#include "UnityEngine/SceneManagement/Scene.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::Awake
 // Il2CppName: Awake
 template<>

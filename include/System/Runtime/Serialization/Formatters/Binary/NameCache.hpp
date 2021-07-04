@@ -64,6 +64,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(NameCache) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameCache::GetCachedValue
 // Il2CppName: GetCachedValue
 template<>

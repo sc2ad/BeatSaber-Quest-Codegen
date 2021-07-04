@@ -137,6 +137,9 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerHeartbeatResponse*, "MasterServer", "UserServerHeartbeatResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerHeartbeatResponse::Result, "MasterServer", "UserServerHeartbeatResponse/Result");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::get_pool
 // Il2CppName: get_pool
 template<>

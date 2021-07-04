@@ -57,6 +57,8 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode::$$c*, "NUnit.Framework.Interfaces", "TNode/<>c");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/Match.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::_cctor
 // Il2CppName: .cctor
 template<>

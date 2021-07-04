@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Vector3TransitionSO) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3TransitionSO*, "", "Vector3TransitionSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::Vector3TransitionSO::get_normalState
 // Il2CppName: get_normalState
 template<>

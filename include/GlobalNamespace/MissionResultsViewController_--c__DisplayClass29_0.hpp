@@ -76,6 +76,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/ResultObjectiveListItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0
 // Il2CppName: <SetDataToUI>b__0
 template<>

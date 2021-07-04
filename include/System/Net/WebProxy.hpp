@@ -218,6 +218,11 @@ namespace System::Net {
   static_assert(sizeof(WebProxy) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebProxy*, "System.Net", "WebProxy");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/ICredentials.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: System::Net::WebProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

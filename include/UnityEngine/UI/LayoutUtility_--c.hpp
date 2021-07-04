@@ -110,6 +110,8 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility::$$c*, "UnityEngine.UI", "LayoutUtility/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

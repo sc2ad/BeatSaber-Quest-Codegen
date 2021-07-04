@@ -49,6 +49,8 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
 template<>

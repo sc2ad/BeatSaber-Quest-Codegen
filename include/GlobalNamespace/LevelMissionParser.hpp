@@ -68,6 +68,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelMissionParser) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");
+// Writing includes for template specializations
+#include "GlobalNamespace/LevelMissionParser_ParserFunction.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::AddFunction
 // Il2CppName: AddFunction
 template<>

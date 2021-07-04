@@ -101,6 +101,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/AssetReference.hpp"
+#include "GlobalNamespace/BTSCharacter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name
 // Il2CppName: get_name
 template<>

@@ -55,6 +55,7 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

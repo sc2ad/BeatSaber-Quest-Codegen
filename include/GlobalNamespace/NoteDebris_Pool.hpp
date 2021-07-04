@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // NoteDebris/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebris::Pool*, "", "NoteDebris/Pool");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebris::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

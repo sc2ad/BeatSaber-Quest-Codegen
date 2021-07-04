@@ -90,6 +90,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(Gost3410DigestSigner) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner*, "Org.BouncyCastle.Crypto.Signers", "Gost3410DigestSigner");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IDsa.hpp"
+#include "Org/BouncyCastle/Crypto/IDigest.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

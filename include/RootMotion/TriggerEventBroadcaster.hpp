@@ -65,6 +65,8 @@ namespace RootMotion {
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
+// Writing includes for template specializations
+#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>

@@ -105,6 +105,8 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(DownloadHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::Release
 // Il2CppName: Release
 template<>

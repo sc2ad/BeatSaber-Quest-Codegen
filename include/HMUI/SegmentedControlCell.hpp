@@ -78,6 +78,8 @@ namespace HMUI {
   static_assert(sizeof(SegmentedControlCell) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
+// Writing includes for template specializations
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::get_cellNumber
 // Il2CppName: get_cellNumber
 template<>

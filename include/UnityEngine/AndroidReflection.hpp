@@ -103,6 +103,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidReflection*, "UnityEngine", "AndroidReflection");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::IsPrimitive
 // Il2CppName: IsPrimitive
 template<>

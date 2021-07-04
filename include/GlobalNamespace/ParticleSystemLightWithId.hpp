@@ -111,6 +111,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParticleSystemLightWithId) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemLightWithId::get_color
 // Il2CppName: get_color
 template<>

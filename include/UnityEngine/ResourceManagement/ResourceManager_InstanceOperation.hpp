@@ -133,6 +133,10 @@ namespace UnityEngine::ResourceManagement {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*, "UnityEngine.ResourceManagement", "ResourceManager/InstanceOperation");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceProviders/IInstanceProvider.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::InstanceOperation::Init
 // Il2CppName: Init
 template<>

@@ -50,6 +50,10 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipExtensions*, "UnityEngine.Timeline", "TimelineClipExtensions");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineClip.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack
 // Il2CppName: MoveToTrack
 template<>

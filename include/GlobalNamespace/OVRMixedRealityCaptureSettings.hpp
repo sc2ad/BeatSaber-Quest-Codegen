@@ -415,6 +415,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRMixedRealityCaptureSettings) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRManager_InstantiateMrcCameraDelegate.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_enableMixedReality
 // Il2CppName: OVRMixedRealityCaptureConfiguration.get_enableMixedReality
 template<>

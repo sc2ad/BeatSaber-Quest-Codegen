@@ -71,6 +71,7 @@ namespace Zenject {
   static_assert(sizeof(NoTransitionContext) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext*, "Zenject", "NoTransitionContext");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::NoTransitionContext::get_installMethod
 // Il2CppName: get_installMethod
 template<>

@@ -68,6 +68,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnRenderImageTest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnRenderImageTest*, "", "OnRenderImageTest");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnRenderImageTest::Start
 // Il2CppName: Start
 template<>

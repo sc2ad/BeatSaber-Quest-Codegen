@@ -258,6 +258,14 @@ namespace System::Threading {
   static_assert(sizeof(CancellationTokenSource) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");
+// Writing includes for template specializations
+#include "System/TimeSpan.hpp"
+#include "System/Action_1.hpp"
+#include "System/Threading/SynchronizationContext.hpp"
+#include "System/Threading/ExecutionContext.hpp"
+#include "System/Threading/CancellationCallbackCoreWorkArguments.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Threading/CancellationCallbackInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationTokenSource::LinkedTokenCancelDelegate
 // Il2CppName: LinkedTokenCancelDelegate
 template<>

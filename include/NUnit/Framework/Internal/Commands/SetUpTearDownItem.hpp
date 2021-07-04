@@ -82,6 +82,10 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(SetUpTearDownItem) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

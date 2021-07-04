@@ -118,6 +118,8 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DefiniteLengthInputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit
 // Il2CppName: FindLimit
 template<>

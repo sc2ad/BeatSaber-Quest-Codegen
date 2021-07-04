@@ -89,6 +89,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTrigger::Range) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::IsInRange
 // Il2CppName: IsInRange
 template<>

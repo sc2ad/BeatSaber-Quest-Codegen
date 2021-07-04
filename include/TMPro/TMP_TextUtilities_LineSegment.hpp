@@ -51,6 +51,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_TextUtilities::LineSegment) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::LineSegment::LineSegment
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

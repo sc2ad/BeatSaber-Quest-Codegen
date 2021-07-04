@@ -57,6 +57,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   static_assert(sizeof(Tables8kGcmMultiplier) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables8kGcmMultiplier");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init
 // Il2CppName: Init
 template<>

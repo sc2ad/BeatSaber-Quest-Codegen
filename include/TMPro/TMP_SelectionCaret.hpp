@@ -52,6 +52,8 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");
+// Writing includes for template specializations
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SelectionCaret::Cull
 // Il2CppName: Cull
 template<>

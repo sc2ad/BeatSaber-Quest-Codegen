@@ -117,6 +117,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
+// Writing includes for template specializations
+#include "System/Enum.hpp"
+#include "UnityEngine/RenderTextureFormat.hpp"
+#include "UnityEngine/TextureFormat.hpp"
+#include "UnityEngine/Experimental/Rendering/GraphicsFormat.hpp"
+#include "UnityEngine/Experimental/Rendering/FormatUsage.hpp"
+#include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_operatingSystemFamily
 // Il2CppName: get_operatingSystemFamily
 template<>

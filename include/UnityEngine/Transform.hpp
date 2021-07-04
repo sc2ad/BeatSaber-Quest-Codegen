@@ -434,6 +434,10 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform*, "UnityEngine", "Transform");
+// Writing includes for template specializations
+#include "UnityEngine/RotationOrder.hpp"
+#include "UnityEngine/Space.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: UnityEngine::Transform::get_position
 // Il2CppName: get_position
 template<>

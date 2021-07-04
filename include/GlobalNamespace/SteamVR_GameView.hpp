@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_GameView*, "", "SteamVR_GameView");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_GameView::Awake
 // Il2CppName: Awake
 template<>

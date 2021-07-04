@@ -78,6 +78,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter*, "", "NoteCutter");
+// Writing includes for template specializations
+#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::Cut
 // Il2CppName: Cut
 template<>

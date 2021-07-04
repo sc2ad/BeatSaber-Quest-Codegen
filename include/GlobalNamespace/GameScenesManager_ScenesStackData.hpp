@@ -75,6 +75,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameScenesManager::ScenesStackData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::get_sceneNames
 // Il2CppName: get_sceneNames
 template<>

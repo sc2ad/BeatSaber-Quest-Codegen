@@ -89,6 +89,7 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SimpleCollator::Context) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Context::Context
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

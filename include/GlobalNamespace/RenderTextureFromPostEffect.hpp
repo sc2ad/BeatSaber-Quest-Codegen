@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(RenderTextureFromPostEffect) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RenderTextureFromPostEffect::get_targetTexture
 // Il2CppName: get_targetTexture
 template<>

@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Saber) == 0x7C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Saber*, "", "Saber");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::Saber::get_saberType
 // Il2CppName: get_saberType
 template<>

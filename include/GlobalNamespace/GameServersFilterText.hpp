@@ -90,6 +90,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServersFilterText) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterText*, "", "GameServersFilterText");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameServersFilter.hpp"
+#include "GlobalNamespace/BeatmapDifficultyMask.hpp"
+#include "GlobalNamespace/SongPackMask.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterText::Setup
 // Il2CppName: Setup
 template<>

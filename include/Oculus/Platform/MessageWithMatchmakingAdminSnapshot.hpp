@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithMatchmakingAdminSnapshot
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingAdminSnapshot*, "Oculus.Platform", "MessageWithMatchmakingAdminSnapshot");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingAdminSnapshot::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

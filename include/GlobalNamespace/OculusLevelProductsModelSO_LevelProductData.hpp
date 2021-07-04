@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusLevelProductsModelSO::LevelProductData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_sku
 // Il2CppName: get_sku
 template<>

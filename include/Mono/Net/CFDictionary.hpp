@@ -54,6 +54,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFDictionary*, "Mono.Net", "CFDictionary");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::CFDictionary::_cctor
 // Il2CppName: .cctor
 template<>

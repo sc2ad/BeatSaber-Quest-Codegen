@@ -85,6 +85,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(LongList) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::LongList*, "System.Runtime.Serialization", "LongList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::LongList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

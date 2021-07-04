@@ -45,6 +45,7 @@ namespace LeaderboardsDTO {
   static_assert(sizeof(TokenDTO) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: LeaderboardsDTO::TokenDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

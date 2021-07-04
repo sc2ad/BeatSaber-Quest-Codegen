@@ -284,6 +284,11 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider*, "HMUI", "TextSlider");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "System/Action_2.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: HMUI::TextSlider::set_valueTextColor
 // Il2CppName: set_valueTextColor
 template<>

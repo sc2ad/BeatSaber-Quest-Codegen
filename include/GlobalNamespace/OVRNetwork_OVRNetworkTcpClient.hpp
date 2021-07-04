@@ -125,6 +125,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpClient) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");
+// Writing includes for template specializations
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::get_connectionState
 // Il2CppName: get_connectionState
 template<>

@@ -435,6 +435,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerModeSelectionFlowCoordinator) == 0x188);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/SelectMultiplayerLobbyDestination.hpp"
+#include "GlobalNamespace/GameServerBrowserFlowCoordinator.hpp"
+#include "GlobalNamespace/UnifiedNetworkPlayerModel_CreatePartyConfig.hpp"
+#include "GlobalNamespace/ClientGameServerLobbyFlowCoordinator.hpp"
+#include "GlobalNamespace/HostGameServerLobbyFlowCoordinator.hpp"
+#include "GlobalNamespace/MultiplayerUnavailableReason.hpp"
+#include "System/Exception.hpp"
+#include "System/Nullable_1.hpp"
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

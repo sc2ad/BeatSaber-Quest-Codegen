@@ -78,6 +78,9 @@ namespace System::Configuration {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IgnoreSection*, "System.Configuration", "IgnoreSection");
+// Writing includes for template specializations
+#include "System/Xml/XmlReader.hpp"
+#include "System/Configuration/ConfigurationSaveMode.hpp"
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

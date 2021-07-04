@@ -87,6 +87,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseAnimationController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: add_resumeFromPauseAnimationDidFinishEvent
 template<>

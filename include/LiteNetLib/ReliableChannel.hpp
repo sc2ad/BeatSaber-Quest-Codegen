@@ -196,6 +196,9 @@ namespace LiteNetLib {
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/NetPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

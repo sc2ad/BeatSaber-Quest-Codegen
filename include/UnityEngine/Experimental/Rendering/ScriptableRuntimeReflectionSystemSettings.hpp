@@ -46,6 +46,8 @@ namespace UnityEngine::Experimental::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");
+// Writing includes for template specializations
+#include "UnityEngine/Experimental/Rendering/IScriptableRuntimeReflectionSystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::set_Internal_ScriptableRuntimeReflectionSystemSettings_system
 // Il2CppName: set_Internal_ScriptableRuntimeReflectionSystemSettings_system
 template<>

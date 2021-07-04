@@ -31,6 +31,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers*, "System", "TypeIdentifiers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::TypeIdentifiers::FromDisplay
 // Il2CppName: FromDisplay
 template<>

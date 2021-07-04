@@ -90,6 +90,8 @@ namespace HMUI {
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: HMUI::CircleTouchable::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>

@@ -298,6 +298,7 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Vector3::Slerp
 // Il2CppName: Slerp
 template<>

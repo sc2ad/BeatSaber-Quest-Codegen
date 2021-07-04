@@ -191,6 +191,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(VertexHelper) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::VertexHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

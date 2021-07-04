@@ -84,6 +84,10 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeExtensions*, "System.Reflection", "CustomAttributeExtensions");
+// Writing includes for template specializations
+#include "System/Reflection/Assembly.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeExtensions::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>

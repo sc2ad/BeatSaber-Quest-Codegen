@@ -113,6 +113,9 @@ namespace MasterServer {
   static_assert(sizeof(UserServerHeartbeatRequest) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerHeartbeatRequest*, "MasterServer", "UserServerHeartbeatRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::UserServerHeartbeatRequest::get_pool
 // Il2CppName: get_pool
 template<>

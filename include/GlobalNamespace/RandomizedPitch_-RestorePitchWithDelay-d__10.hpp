@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RandomizedPitch::$RestorePitchWithDelay$d__10) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10*, "", "RandomizedPitch/<RestorePitchWithDelay>d__10");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

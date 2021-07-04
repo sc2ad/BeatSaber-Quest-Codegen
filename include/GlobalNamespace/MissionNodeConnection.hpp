@@ -145,6 +145,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodeConnection) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionNodeVisualController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_parentMissionNode
 // Il2CppName: get_parentMissionNode
 template<>

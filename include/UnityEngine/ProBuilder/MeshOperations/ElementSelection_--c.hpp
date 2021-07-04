@@ -174,6 +174,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::_cctor
 // Il2CppName: .cctor
 template<>

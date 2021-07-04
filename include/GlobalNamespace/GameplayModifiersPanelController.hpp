@@ -190,6 +190,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersPanelController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>

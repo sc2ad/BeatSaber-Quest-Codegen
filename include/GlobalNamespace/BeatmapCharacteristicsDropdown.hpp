@@ -105,6 +105,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicsDropdown) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

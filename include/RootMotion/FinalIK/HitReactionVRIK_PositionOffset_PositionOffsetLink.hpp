@@ -78,6 +78,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReactionVRIK::PositionOffset::PositionOffsetLink) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/PositionOffset/PositionOffsetLink");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/VRIK.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink::Apply
 // Il2CppName: Apply
 template<>

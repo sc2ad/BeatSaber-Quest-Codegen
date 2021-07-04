@@ -83,6 +83,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources*, "", "OVRResources");
+// Writing includes for template specializations
+#include "UnityEngine/AssetBundle.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::Load
 // Il2CppName: Load
 template<>

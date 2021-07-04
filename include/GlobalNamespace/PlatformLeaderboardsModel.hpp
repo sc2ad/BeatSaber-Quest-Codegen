@@ -206,6 +206,14 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreCompletionHandler.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresCompletionHandler.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::add_allScoresDidUploadEvent
 // Il2CppName: add_allScoresDidUploadEvent
 template<>

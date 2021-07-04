@@ -86,6 +86,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", "FABRIKChain");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid
 // Il2CppName: IsValid
 template<>

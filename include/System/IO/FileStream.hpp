@@ -394,6 +394,13 @@ namespace System::IO {
   static_assert(sizeof(FileStream) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream*, "System.IO", "FileStream");
+// Writing includes for template specializations
+#include "Microsoft/Win32/SafeHandles/SafeFileHandle.hpp"
+#include "System/Runtime/InteropServices/SafeHandle.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/IO/SeekOrigin.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: System::IO::FileStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -237,6 +237,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RijndaelManagedTransform) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

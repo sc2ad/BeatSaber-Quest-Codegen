@@ -82,6 +82,11 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ClientActivatedIdentity) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientActivatedIdentity*, "System.Runtime.Remoting", "ClientActivatedIdentity");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/MarshalByRefObject.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientActivatedIdentity::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

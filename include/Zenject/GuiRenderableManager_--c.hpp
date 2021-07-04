@@ -71,6 +71,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c*, "Zenject", "GuiRenderableManager/<>c");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
+#include "Zenject/GuiRenderableManager_RenderableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

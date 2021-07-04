@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerActivePlayersTimeOffsetAverage) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*, "", "MultiplayerActivePlayersTimeOffsetAverage");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>

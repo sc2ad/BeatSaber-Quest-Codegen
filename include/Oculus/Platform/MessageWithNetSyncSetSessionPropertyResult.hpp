@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithNetSyncSetSessionPropertyResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult*, "Oculus.Platform", "MessageWithNetSyncSetSessionPropertyResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

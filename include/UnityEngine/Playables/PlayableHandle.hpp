@@ -290,6 +290,10 @@ namespace UnityEngine::Playables {
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableTraversalMode.hpp"
+#include "UnityEngine/Playables/DirectorWrapMode.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetObject
 // Il2CppName: GetObject
 // Cannot write MetadataGetter for generic methods!

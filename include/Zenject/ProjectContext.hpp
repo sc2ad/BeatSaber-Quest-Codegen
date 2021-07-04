@@ -232,6 +232,9 @@ namespace Zenject {
   static_assert(sizeof(ProjectContext) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectContext*, "Zenject", "ProjectContext");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectContext::add_PreInstall
 // Il2CppName: add_PreInstall
 template<>

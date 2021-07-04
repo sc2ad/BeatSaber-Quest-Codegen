@@ -72,6 +72,10 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility*, "UnityEngine.UI", "LayoutUtility");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "System/Func_2.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetMinSize
 // Il2CppName: GetMinSize
 template<>

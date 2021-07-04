@@ -177,6 +177,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCallbackItemDataList) == 0x84);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapCallbackItemDataList_SpawnBasicNoteCallback.hpp"
+#include "GlobalNamespace/BeatmapCallbackItemDataList_SpawnBombNoteCallback.hpp"
+#include "GlobalNamespace/BeatmapCallbackItemDataList_SpawnObstacleCallback.hpp"
+#include "GlobalNamespace/BeatmapCallbackItemDataList_ProcessBeatmapEventCallback.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/BeatmapCallbackItemDataList_GetRelativeNoteOffsetCallback.hpp"
+#include "GlobalNamespace/BeatmapObjectData.hpp"
+#include "GlobalNamespace/BeatmapEventData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/NoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerPositionHUDController) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionHUDController*, "", "MultiplayerPositionHUDController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionHUDController::set_alpha
 // Il2CppName: set_alpha
 template<>

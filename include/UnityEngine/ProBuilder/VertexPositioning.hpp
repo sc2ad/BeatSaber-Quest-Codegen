@@ -78,6 +78,10 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/Vertex.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::VerticesInWorldSpace
 // Il2CppName: VerticesInWorldSpace
 template<>

@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlickeringNeonSign) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::Awake
 // Il2CppName: Awake
 template<>

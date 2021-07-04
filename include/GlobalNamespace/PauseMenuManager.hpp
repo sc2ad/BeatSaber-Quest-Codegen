@@ -245,6 +245,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseMenuManager) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::add_didPressContinueButtonEvent
 // Il2CppName: add_didPressContinueButtonEvent
 template<>

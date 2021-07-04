@@ -139,6 +139,10 @@ namespace HMUI {
   static_assert(sizeof(UIKeyboard) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/KeyCode.hpp"
 // Writing MetadataGetter for method: HMUI::UIKeyboard::add_okButtonWasPressedEvent
 // Il2CppName: add_okButtonWasPressedEvent
 template<>

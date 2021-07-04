@@ -59,6 +59,10 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayMouseScale*, "Valve.VR", "IVROverlay/_SetOverlayMouseScale");
+// Writing includes for template specializations
+#include "Valve/VR/HmdVector2_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_SetOverlayMouseScale::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

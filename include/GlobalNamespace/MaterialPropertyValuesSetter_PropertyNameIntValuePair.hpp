@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameIntValuePair) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameIntValuePair");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

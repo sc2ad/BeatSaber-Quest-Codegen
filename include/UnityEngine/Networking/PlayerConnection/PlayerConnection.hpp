@@ -157,6 +157,9 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerConnection) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");
+// Writing includes for template specializations
+#include "System/Guid.hpp"
+#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance
 // Il2CppName: get_instance
 template<>

@@ -326,6 +326,10 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain*, "RootMotion.FinalIK", "FBIKChain");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/FinalIK/IKSolverFullBody.hpp"
+#include "RootMotion/FinalIK/IKSolver_Node.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

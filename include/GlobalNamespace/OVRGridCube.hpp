@@ -140,6 +140,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGridCube) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRCameraRig.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::Update
 // Il2CppName: Update
 template<>

@@ -458,6 +458,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScoreController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteWasCutDelegate.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
 template<>

@@ -53,6 +53,9 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse::V3*, "MasterServer", "ConnectToServerResponse/V3");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::V3::Serialize
 // Il2CppName: Serialize
 template<>

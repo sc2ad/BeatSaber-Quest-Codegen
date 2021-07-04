@@ -103,6 +103,15 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IAnalyticsManager*, "MasterServer", "IAnalyticsManager");
+// Writing includes for template specializations
+#include "MasterServer/AnalyticsMetricUnit.hpp"
+#include "MasterServer/IMasterServerReliableRequest.hpp"
+#include "MasterServer/IMasterServerReliableResponse.hpp"
+#include "MasterServer/IMasterServerUnreliableMessage.hpp"
+#include "MasterServer/IMasterServerResponse.hpp"
+#include "GlobalNamespace/DedicatedServerType.hpp"
+#include "GlobalNamespace/ConnectionFailedReason.hpp"
+#include "GlobalNamespace/DisconnectedReason.hpp"
 // Writing MetadataGetter for method: MasterServer::IAnalyticsManager::PollUpdate
 // Il2CppName: PollUpdate
 template<>

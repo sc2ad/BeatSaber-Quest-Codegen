@@ -161,6 +161,8 @@ namespace HMUI {
   static_assert(sizeof(ScreenSystem) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenSystem*, "HMUI", "ScreenSystem");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenSystem::get_titleViewController
 // Il2CppName: get_titleViewController
 template<>

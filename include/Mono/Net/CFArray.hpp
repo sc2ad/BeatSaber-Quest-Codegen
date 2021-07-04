@@ -53,6 +53,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFArray*, "Mono.Net", "CFArray");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::CFArray::_cctor
 // Il2CppName: .cctor
 template<>

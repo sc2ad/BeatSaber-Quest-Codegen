@@ -87,6 +87,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c*, "Zenject", "DisposableManager/<>c");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
+#include "Zenject/DisposableManager_LateDisposableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -148,6 +148,9 @@ namespace System::Text {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::ASCIIEncoding*, "System.Text", "ASCIIEncoding");
+// Writing includes for template specializations
+#include "System/Text/EncoderNLS.hpp"
+#include "System/Text/DecoderNLS.hpp"
 // Writing MetadataGetter for method: System::Text::ASCIIEncoding::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

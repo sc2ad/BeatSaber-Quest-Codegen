@@ -83,6 +83,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionary");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Add
 // Il2CppName: Add
 template<>

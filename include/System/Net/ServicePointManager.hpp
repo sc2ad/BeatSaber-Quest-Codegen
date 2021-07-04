@@ -126,6 +126,9 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager*, "System.Net", "ServicePointManager");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/IWebProxy.hpp"
 // Writing MetadataGetter for method: System::Net::ServicePointManager::_cctor
 // Il2CppName: .cctor
 template<>

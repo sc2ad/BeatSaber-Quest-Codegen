@@ -44,6 +44,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationUtil");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::SmartIncircle
 // Il2CppName: SmartIncircle
 template<>

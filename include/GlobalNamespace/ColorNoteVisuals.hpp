@@ -165,6 +165,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorNoteVisuals) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/NoteControllerBase.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorNoteVisuals::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>

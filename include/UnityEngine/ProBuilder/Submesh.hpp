@@ -110,6 +110,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Submesh) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_indexes
 // Il2CppName: get_indexes
 template<>

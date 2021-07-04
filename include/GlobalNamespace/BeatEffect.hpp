@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatEffect) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::get_didFinishEvent
 // Il2CppName: get_didFinishEvent
 template<>

@@ -140,6 +140,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BtsResultsEnvironmentController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController*, "", "BtsResultsEnvironmentController");
+// Writing includes for template specializations
+#include "GlobalNamespace/BTSCharacterDataModel_PrefabWithId.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::SpawnBtsCharacters
 // Il2CppName: SpawnBtsCharacters
 template<>

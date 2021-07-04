@@ -106,6 +106,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayersModel::$get_quickplayServers$d__13) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayersModel::$get_quickplayServers$d__13*, "", "MockPlayersModel/<get_quickplayServers>d__13");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::$get_quickplayServers$d__13::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

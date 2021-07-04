@@ -51,6 +51,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Amplifier::Body::EffectorLink) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body::EffectorLink*, "RootMotion.FinalIK", "Amplifier/Body/EffectorLink");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::EffectorLink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   static_assert(sizeof(Tables1kGcmExponentiator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init
 // Il2CppName: Init
 template<>

@@ -46,6 +46,9 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineUndo*, "UnityEngine.Timeline", "TimelineUndo");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TimelineAsset.hpp"
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushDestroyUndo
 // Il2CppName: PushDestroyUndo
 template<>

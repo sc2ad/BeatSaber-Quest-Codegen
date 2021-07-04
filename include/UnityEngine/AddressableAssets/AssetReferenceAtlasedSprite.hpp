@@ -51,6 +51,8 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*, "UnityEngine.AddressableAssets", "AssetReferenceAtlasedSprite");
+// Writing includes for template specializations
+#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

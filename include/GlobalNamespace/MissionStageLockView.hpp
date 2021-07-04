@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionStageLockView) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::UpdateLocalPositionY
 // Il2CppName: UpdateLocalPositionY
 template<>

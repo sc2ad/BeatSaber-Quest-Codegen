@@ -379,6 +379,10 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlayerController*, "", "OVRPlayerController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/OVRCameraRig.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::add_TransformUpdated
 // Il2CppName: add_TransformUpdated
 template<>

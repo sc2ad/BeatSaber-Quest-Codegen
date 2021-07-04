@@ -81,6 +81,8 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c*, "NUnit.Framework.Constraints", "MsgUtils/<>c");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/ValueFormatter.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::_cctor
 // Il2CppName: .cctor
 template<>

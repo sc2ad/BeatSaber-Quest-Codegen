@@ -45,6 +45,7 @@ namespace UnityEngine {
   static_assert(sizeof(HelpURLAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::HelpURLAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -185,6 +185,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServersListTableView) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersListTableView*, "", "GameServersListTableView");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "HMUI/TableView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersListTableView::add_joinButtonPressedEvent
 // Il2CppName: add_joinButtonPressedEvent
 template<>

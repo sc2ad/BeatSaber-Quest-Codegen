@@ -115,6 +115,7 @@ namespace HMUI {
   static_assert(sizeof(Screen::$TransitionCoroutine$d__5) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen::$TransitionCoroutine$d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::Screen::$TransitionCoroutine$d__5::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -58,6 +58,7 @@ namespace UnityEngine {
   static_assert(sizeof(WaitForSecondsRealtime) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::WaitForSecondsRealtime::get_waitTime
 // Il2CppName: get_waitTime
 template<>

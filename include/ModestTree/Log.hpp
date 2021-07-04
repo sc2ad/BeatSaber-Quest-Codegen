@@ -83,6 +83,8 @@ namespace ModestTree {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log*, "ModestTree", "Log");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: ModestTree::Log::Debug
 // Il2CppName: Debug
 template<>

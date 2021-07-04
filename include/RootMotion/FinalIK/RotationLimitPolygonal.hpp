@@ -137,6 +137,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitPolygonal) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal*, "RootMotion.FinalIK", "RotationLimitPolygonal");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

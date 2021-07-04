@@ -298,6 +298,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelFilterParams) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilterParams*, "", "LevelFilterParams");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilterParams::get_filterByLevelIds
 // Il2CppName: get_filterByLevelIds
 template<>

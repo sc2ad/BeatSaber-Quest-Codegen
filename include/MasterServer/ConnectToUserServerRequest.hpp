@@ -97,6 +97,9 @@ namespace MasterServer {
   static_assert(sizeof(ConnectToUserServerRequest) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToUserServerRequest*, "MasterServer", "ConnectToUserServerRequest");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::ConnectToUserServerRequest::get_pool
 // Il2CppName: get_pool
 template<>

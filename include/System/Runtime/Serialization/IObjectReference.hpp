@@ -32,6 +32,8 @@ namespace System::Runtime::Serialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::IObjectReference::GetRealObject
 // Il2CppName: GetRealObject
 template<>

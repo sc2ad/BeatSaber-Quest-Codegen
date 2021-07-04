@@ -22,6 +22,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback
 // Il2CppName: PerformWaitCallback
 template<>

@@ -85,6 +85,8 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(Marker) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");
+// Writing includes for template specializations
+#include "UnityEngine/Timeline/TrackAsset.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::get_parent
 // Il2CppName: get_parent
 template<>

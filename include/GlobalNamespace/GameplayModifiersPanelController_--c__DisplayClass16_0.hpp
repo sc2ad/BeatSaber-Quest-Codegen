@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersPanelController::$$c__DisplayClass16_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController::$$c__DisplayClass16_0*, "", "GameplayModifiersPanelController/<>c__DisplayClass16_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::$$c__DisplayClass16_0::$Awake$b__0
 // Il2CppName: <Awake>b__0
 template<>

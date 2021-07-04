@@ -89,6 +89,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReactionVRIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");
+// Writing includes for template specializations
+#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::Hit
 // Il2CppName: Hit
 template<>

@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCalApplicationProposed
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationProposed*, "Oculus.Platform", "MessageWithCalApplicationProposed");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationProposed::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

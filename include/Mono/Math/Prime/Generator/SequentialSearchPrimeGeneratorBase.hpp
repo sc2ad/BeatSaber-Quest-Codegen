@@ -55,6 +55,8 @@ namespace Mono::Math::Prime::Generator {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");
+// Writing includes for template specializations
+#include "Mono/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase
 // Il2CppName: GenerateSearchBase
 template<>

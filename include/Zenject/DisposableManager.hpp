@@ -153,6 +153,9 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "Zenject/ILateDisposable.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

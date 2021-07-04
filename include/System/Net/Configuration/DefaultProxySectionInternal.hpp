@@ -69,6 +69,7 @@ namespace System::Net::Configuration {
   static_assert(sizeof(DefaultProxySectionInternal) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode
 // Il2CppName: GetDefaultProxy_UsingOldMonoCode
 template<>

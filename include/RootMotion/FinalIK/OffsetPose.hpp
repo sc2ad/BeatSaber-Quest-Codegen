@@ -66,6 +66,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetPose) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::Apply
 // Il2CppName: Apply
 template<>

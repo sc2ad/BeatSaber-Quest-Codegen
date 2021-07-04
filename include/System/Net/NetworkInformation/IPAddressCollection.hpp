@@ -104,6 +104,8 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(IPAddressCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressCollection*, "System.Net.NetworkInformation", "IPAddressCollection");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPAddressCollection::CopyTo
 // Il2CppName: CopyTo
 template<>

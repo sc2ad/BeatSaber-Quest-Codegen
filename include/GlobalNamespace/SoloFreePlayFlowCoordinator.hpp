@@ -169,6 +169,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(SoloFreePlayFlowCoordinator) == 0x148);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlayerLevelStatsData.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "GlobalNamespace/ResultsViewController.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::IsNewHighScore
 // Il2CppName: IsNewHighScore
 template<>

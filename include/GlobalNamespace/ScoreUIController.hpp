@@ -120,6 +120,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScoreUIController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController*, "", "ScoreUIController");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::Start
 // Il2CppName: Start
 template<>

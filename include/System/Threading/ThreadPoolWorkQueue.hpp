@@ -95,6 +95,9 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueue) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
+// Writing includes for template specializations
+#include "System/Threading/IThreadPoolWorkItem.hpp"
+#include "System/Threading/ThreadPoolWorkQueueThreadLocals.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue
 // Il2CppName: EnsureCurrentThreadHasQueue
 template<>

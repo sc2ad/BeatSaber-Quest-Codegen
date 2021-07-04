@@ -88,6 +88,8 @@ namespace UnityEngine::Audio {
   static_assert(sizeof(AudioMixerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::Create
 // Il2CppName: Create
 template<>

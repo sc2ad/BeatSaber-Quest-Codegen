@@ -210,6 +210,7 @@ namespace UnityEngine::Timeline {
   UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::DiscreteTime::get_tickValue
 // Il2CppName: get_tickValue
 template<>

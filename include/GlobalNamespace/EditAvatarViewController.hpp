@@ -563,6 +563,13 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_4.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/AvatarPartCollection_1.hpp"
+#include "UnityEngine/UI/Button.hpp"
+#include "System/Func_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -97,6 +97,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryMethodCall) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write
 // Il2CppName: Write
 template<>

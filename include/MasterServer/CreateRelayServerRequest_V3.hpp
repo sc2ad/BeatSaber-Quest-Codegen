@@ -53,6 +53,9 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerRequest::V3*, "MasterServer", "CreateRelayServerRequest/V3");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::V3::Serialize
 // Il2CppName: Serialize
 template<>

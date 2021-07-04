@@ -82,6 +82,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(RsaKeyParameters) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaKeyParameters");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::Validate
 // Il2CppName: Validate
 template<>

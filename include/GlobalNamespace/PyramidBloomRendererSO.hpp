@@ -163,6 +163,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");
+// Writing includes for template specializations
+#include "UnityEngine/RenderTexture.hpp"
+#include "GlobalNamespace/PyramidBloomRendererSO_Pass.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::OnDisable
 // Il2CppName: OnDisable
 template<>

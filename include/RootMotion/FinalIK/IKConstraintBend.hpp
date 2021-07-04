@@ -198,6 +198,10 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKConstraintBend) == 0x86);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverFullBody.hpp"
+#include "RootMotion/Warning_Logger.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::IsValid
 // Il2CppName: IsValid
 template<>

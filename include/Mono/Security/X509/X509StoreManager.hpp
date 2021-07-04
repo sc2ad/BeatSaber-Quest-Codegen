@@ -54,6 +54,7 @@ namespace Mono::Security::X509 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509StoreManager*, "Mono.Security.X509", "X509StoreManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_CurrentUserPath
 // Il2CppName: get_CurrentUserPath
 template<>

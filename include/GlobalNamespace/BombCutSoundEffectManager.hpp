@@ -117,6 +117,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BombCutSoundEffectManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffectManager*, "", "BombCutSoundEffectManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::Start
 // Il2CppName: Start
 template<>

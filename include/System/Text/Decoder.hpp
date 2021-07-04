@@ -93,6 +93,8 @@ namespace System::Text {
   static_assert(sizeof(Decoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Decoder*, "System.Text", "Decoder");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Text::Decoder::SerializeDecoder
 // Il2CppName: SerializeDecoder
 template<>

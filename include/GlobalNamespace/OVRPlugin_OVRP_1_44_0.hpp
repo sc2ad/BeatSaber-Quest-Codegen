@@ -70,6 +70,15 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_44_0*, "", "OVRPlugin/OVRP_1_44_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
+#include "GlobalNamespace/OVRPlugin_Hand.hpp"
+#include "GlobalNamespace/OVRPlugin_MeshType.hpp"
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled
 // Il2CppName: ovrp_GetHandTrackingEnabled
 template<>

@@ -35,6 +35,8 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");
+// Writing includes for template specializations
+#include "System/IO/SearchOption.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableFactory::CreateFileNameIterator
 // Il2CppName: CreateFileNameIterator
 template<>

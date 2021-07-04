@@ -59,6 +59,8 @@ namespace Mono::Security::Interface {
   static_assert(sizeof(TlsException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsException*, "Mono.Security.Interface", "TlsException");
+// Writing includes for template specializations
+#include "Mono/Security/Interface/Alert.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::TlsException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

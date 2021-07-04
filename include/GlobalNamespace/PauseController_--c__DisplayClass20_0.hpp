@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseController::$$c__DisplayClass20_0) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::$$c__DisplayClass20_0::$get_canPause$b__0
 // Il2CppName: <get_canPause>b__0
 template<>

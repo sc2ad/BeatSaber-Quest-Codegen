@@ -114,6 +114,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsMenuViewController) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
 // Il2CppName: add_didSelectSettingsSubMenuEvent
 template<>

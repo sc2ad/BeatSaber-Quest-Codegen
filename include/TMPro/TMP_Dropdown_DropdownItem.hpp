@@ -135,6 +135,13 @@ namespace TMPro {
   static_assert(sizeof(TMP_Dropdown::DropdownItem) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownItem*, "TMPro", "TMP_Dropdown/DropdownItem");
+// Writing includes for template specializations
+#include "TMPro/TMP_Text.hpp"
+#include "UnityEngine/UI/Image.hpp"
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/UI/Toggle.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DropdownItem::get_text
 // Il2CppName: get_text
 template<>

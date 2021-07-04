@@ -56,6 +56,7 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter/<>c__DisplayClass0_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0
 // Il2CppName: <ConvertMethod>b__0
 template<>

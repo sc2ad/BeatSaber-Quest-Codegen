@@ -136,6 +136,8 @@ namespace Org::BouncyCastle::Crypto::Encodings {
   static_assert(sizeof(Pkcs1Encoding) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "Pkcs1Encoding");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_StrictLengthEnabled
 // Il2CppName: get_StrictLengthEnabled
 template<>

@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   static_assert(sizeof(TlsFatalAlert) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsFatalAlert*, "Org.BouncyCastle.Crypto.Tls", "TlsFatalAlert");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

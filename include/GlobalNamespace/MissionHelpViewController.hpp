@@ -105,6 +105,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionHelpViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController*, "", "MissionHelpViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MissionHelpSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -87,6 +87,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatingSpotManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/IMultiplayerSpectatingSpot.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::get_spectatingSpots
 // Il2CppName: get_spectatingSpots
 template<>

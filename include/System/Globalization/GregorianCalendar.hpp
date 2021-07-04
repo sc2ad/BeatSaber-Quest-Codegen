@@ -174,6 +174,9 @@ namespace System::Globalization {
   static_assert(sizeof(GregorianCalendar) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendar*, "System.Globalization", "GregorianCalendar");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendar::OnDeserialized
 // Il2CppName: OnDeserialized
 template<>

@@ -113,6 +113,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgConditionCopyNonLazyBinder");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!

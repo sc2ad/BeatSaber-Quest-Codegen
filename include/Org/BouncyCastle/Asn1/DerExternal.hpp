@@ -123,6 +123,10 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerExternal) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerExternal*, "Org.BouncyCastle.Asn1", "DerExternal");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
+#include "System/IO/MemoryStream.hpp"
+#include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerExternal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

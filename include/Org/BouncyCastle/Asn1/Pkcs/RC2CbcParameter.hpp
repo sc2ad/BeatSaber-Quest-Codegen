@@ -69,6 +69,8 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(RC2CbcParameter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter*, "Org.BouncyCastle.Asn1.Pkcs", "RC2CbcParameter");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::GetInstance
 // Il2CppName: GetInstance
 template<>

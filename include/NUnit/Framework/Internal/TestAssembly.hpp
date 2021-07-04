@@ -75,6 +75,8 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestAssembly) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");
+// Writing includes for template specializations
+#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestAssembly::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

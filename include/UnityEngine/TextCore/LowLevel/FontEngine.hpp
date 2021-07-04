@@ -176,6 +176,15 @@ namespace UnityEngine::TextCore::LowLevel {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");
+// Writing includes for template specializations
+#include "UnityEngine/Font.hpp"
+#include "UnityEngine/TextCore/FaceInfo.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphLoadFlags.hpp"
+#include "UnityEngine/TextCore/Glyph.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphPackingMode.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Texture2D.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine
 // Il2CppName: InitializeFontEngine
 template<>

@@ -70,6 +70,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   static_assert(sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass6_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass6_0*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c__DisplayClass6_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass6_0::$AddFilters$b__1
 // Il2CppName: <AddFilters>b__1
 template<>

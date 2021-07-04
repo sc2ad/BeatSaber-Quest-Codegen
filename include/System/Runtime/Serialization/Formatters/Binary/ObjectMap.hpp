@@ -142,6 +142,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectMap) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMap*, "System.Runtime.Serialization.Formatters.Binary", "ObjectMap");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SizedArray.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectMap::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

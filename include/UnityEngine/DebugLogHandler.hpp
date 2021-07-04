@@ -72,6 +72,10 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DebugLogHandler*, "UnityEngine", "DebugLogHandler");
+// Writing includes for template specializations
+#include "UnityEngine/LogOption.hpp"
+#include "UnityEngine/Object.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::DebugLogHandler::Internal_Log
 // Il2CppName: Internal_Log
 template<>

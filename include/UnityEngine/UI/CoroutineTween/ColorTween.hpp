@@ -179,6 +179,8 @@ namespace UnityEngine::UI::CoroutineTween {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine.UI.CoroutineTween", "ColorTween");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenMode");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_startColor
 // Il2CppName: get_startColor
 template<>

@@ -155,6 +155,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility*, "", "EncryptionUtility");
+// Writing includes for template specializations
+#include "GlobalNamespace/EncryptionUtility_EncryptionState.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::CreateEncryptionState
 // Il2CppName: CreateEncryptionState
 template<>

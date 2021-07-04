@@ -155,6 +155,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningViewController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_privacyPolicyButtonPressedEvent
 // Il2CppName: add_privacyPolicyButtonPressedEvent
 template<>

@@ -171,6 +171,8 @@ namespace UnityEngine::UI {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation::Mode, "UnityEngine.UI", "Navigation/Mode");
+// Writing includes for template specializations
+#include "UnityEngine/UI/Selectable.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_mode
 // Il2CppName: get_mode
 template<>

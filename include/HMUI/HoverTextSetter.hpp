@@ -92,6 +92,8 @@ namespace HMUI {
   static_assert(sizeof(HoverTextSetter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextSetter*, "HMUI", "HoverTextSetter");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextSetter::get_text
 // Il2CppName: get_text
 template<>

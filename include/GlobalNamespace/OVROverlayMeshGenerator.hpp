@@ -260,6 +260,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVROverlayMeshGenerator) == 0xD1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlayMeshGenerator*, "", "OVROverlayMeshGenerator");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/OVROverlayMeshGenerator_CubeFace.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::Awake
 // Il2CppName: Awake
 template<>

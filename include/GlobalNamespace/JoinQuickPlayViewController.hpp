@@ -127,6 +127,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(JoinQuickPlayViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQuickPlayViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MasterServerQuickPlaySetupData.hpp"
+#include "GlobalNamespace/MultiplayerModeSettings.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

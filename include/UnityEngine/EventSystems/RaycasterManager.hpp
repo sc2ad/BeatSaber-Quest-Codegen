@@ -48,6 +48,8 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycasterManager*, "UnityEngine.EventSystems", "RaycasterManager");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/BaseRaycaster.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycasterManager::AddRaycaster
 // Il2CppName: AddRaycaster
 template<>

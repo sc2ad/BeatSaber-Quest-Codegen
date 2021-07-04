@@ -211,6 +211,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x110);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");
+// Writing includes for template specializations
+#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::GetEulaOrHealthWarningViewController
 // Il2CppName: GetEulaOrHealthWarningViewController
 template<>

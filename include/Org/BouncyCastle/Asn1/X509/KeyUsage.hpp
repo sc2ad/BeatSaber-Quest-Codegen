@@ -39,6 +39,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::KeyUsage*, "Org.BouncyCastle.Asn1.X509", "KeyUsage");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::KeyUsage::GetInstance
 // Il2CppName: GetInstance
 template<>

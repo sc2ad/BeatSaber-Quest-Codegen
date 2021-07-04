@@ -53,6 +53,8 @@ namespace GlobalNamespace {
   }; // LocalizedHoverHint
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedHoverHint*, "", "LocalizedHoverHint");
+// Writing includes for template specializations
+#include "HMUI/HoverHint.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::SetText
 // Il2CppName: SetText
 template<>

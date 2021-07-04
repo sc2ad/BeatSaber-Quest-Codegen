@@ -485,6 +485,15 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Shader*, "UnityEngine", "Shader");
+// Writing includes for template specializations
+#include "UnityEngine/Rendering/ShaderHardwareTier.hpp"
+#include "UnityEngine/Rendering/ShaderTagId.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Rendering/RenderTextureSubElement.hpp"
+#include "UnityEngine/ComputeBuffer.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::Shader::get_globalShaderHardwareTier
 // Il2CppName: get_globalShaderHardwareTier
 template<>

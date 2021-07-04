@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FireworkItemController::$FireCoroutine$d__29) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::$FireCoroutine$d__29*, "", "FireworkItemController/<FireCoroutine>d__29");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::$FireCoroutine$d__29::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -57,6 +57,8 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
+// Writing includes for template specializations
+#include "System/UnhandledExceptionEventArgs.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::_cctor
 // Il2CppName: .cctor
 template<>

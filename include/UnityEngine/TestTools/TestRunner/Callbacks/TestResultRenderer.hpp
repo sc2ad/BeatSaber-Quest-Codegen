@@ -90,6 +90,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(TestResultRenderer) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

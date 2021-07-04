@@ -101,6 +101,7 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue*, "System.Net.Http.Headers", "ContentRangeHeaderValue");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_From
 // Il2CppName: get_From
 template<>

@@ -89,6 +89,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RC2CryptoServiceProvider) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2CryptoServiceProvider*, "System.Security.Cryptography", "RC2CryptoServiceProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

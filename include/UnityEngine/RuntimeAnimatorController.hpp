@@ -47,6 +47,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RuntimeAnimatorController::get_animationClips
 // Il2CppName: get_animationClips
 template<>

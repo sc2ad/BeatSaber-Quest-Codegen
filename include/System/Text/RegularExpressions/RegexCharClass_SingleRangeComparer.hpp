@@ -42,6 +42,8 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/RegexCharClass_SingleRange.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare
 // Il2CppName: Compare
 template<>

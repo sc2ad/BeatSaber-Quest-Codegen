@@ -295,6 +295,11 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::Locomotion) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Locomotion*, "RootMotion.FinalIK", "IKSolverVR/Locomotion");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKSolverVR_VirtualBone.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_Spine.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_Leg.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_Arm.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Locomotion::get_centerOfMass
 // Il2CppName: get_centerOfMass
 template<>

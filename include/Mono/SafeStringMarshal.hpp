@@ -71,6 +71,7 @@ namespace Mono {
   static_assert(sizeof(SafeStringMarshal) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::SafeStringMarshal::StringToUtf8
 // Il2CppName: StringToUtf8
 template<>

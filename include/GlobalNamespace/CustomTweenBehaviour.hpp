@@ -198,6 +198,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>

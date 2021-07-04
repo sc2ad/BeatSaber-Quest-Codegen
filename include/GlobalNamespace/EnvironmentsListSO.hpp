@@ -73,6 +73,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentsListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/EnvironmentTypeSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::get_environmentInfos
 // Il2CppName: get_environmentInfos
 template<>

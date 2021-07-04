@@ -304,6 +304,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialSongController) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
+#include "GlobalNamespace/ObstacleController.hpp"
+#include "GlobalNamespace/TutorialSongController_TutorialObstacleSpawnData.hpp"
+#include "GlobalNamespace/TutorialSongController_TutorialBasicNoteSpawnData.hpp"
+#include "GlobalNamespace/TutorialSongController_TutorialBombNoteSpawnData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Awake
 // Il2CppName: Awake
 template<>

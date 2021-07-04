@@ -51,6 +51,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspTypePropertyAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences
 // Il2CppName: get_CreateConstructorReferences
 template<>

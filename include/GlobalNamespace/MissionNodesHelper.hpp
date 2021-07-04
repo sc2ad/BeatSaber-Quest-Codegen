@@ -65,6 +65,10 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesHelper*, "", "MissionNodesHelper");
+// Writing includes for template specializations
+#include "GlobalNamespace/MissionNode.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesHelper::GetAllNodesFromRoot
 // Il2CppName: GetAllNodesFromRoot
 template<>

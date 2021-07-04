@@ -50,6 +50,8 @@ namespace Org::BouncyCastle::Math::Field {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::FiniteFields*, "Org.BouncyCastle.Math.Field", "FiniteFields");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField
 // Il2CppName: GetBinaryExtensionField
 template<>

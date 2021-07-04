@@ -37,6 +37,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelEndActions*, "", "ILevelEndActions");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ILevelEndActions::add_levelFailedEvent
 // Il2CppName: add_levelFailedEvent
 template<>

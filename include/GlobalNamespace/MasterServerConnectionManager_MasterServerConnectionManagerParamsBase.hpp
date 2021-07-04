@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*, "", "MasterServerConnectionManager/MasterServerConnectionManagerParamsBase");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

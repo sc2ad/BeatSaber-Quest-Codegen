@@ -50,6 +50,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestMethod.hpp"
+#include "NUnit/Framework/Interfaces/ITestFilter.hpp"
+#include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::BuildTestCommand
 // Il2CppName: BuildTestCommand
 template<>

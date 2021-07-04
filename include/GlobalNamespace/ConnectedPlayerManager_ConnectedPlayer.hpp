@@ -270,6 +270,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::ConnectedPlayer) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, "", "ConnectedPlayerManager/ConnectedPlayer");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnection.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerConnectedPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerIdentityPacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerStatePacket.hpp"
+#include "GlobalNamespace/ConnectedPlayerManager_PlayerAvatarPacket.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connection
 // Il2CppName: get_connection
 template<>

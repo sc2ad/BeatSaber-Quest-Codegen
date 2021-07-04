@@ -111,6 +111,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_38_0*, "", "OVRPlugin/OVRP_1_38_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_TrackingOrigin.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Media_MrcActivationMode.hpp"
+#include "GlobalNamespace/OVRPlugin_Media_InputVideoBufferType.hpp"
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose
 // Il2CppName: ovrp_GetTrackingTransformRelativePose
 template<>

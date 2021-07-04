@@ -44,6 +44,7 @@ namespace System::Xml {
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

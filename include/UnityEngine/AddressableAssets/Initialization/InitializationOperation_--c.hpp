@@ -61,6 +61,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/ResourceProviders/IResourceProvider.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

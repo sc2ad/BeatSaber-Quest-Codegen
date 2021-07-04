@@ -156,6 +156,9 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ColorGradientSlider*, "HMUI", "ColorGradientSlider");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: HMUI::ColorGradientSlider::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

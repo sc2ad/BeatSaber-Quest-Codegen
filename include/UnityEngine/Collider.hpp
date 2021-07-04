@@ -64,6 +64,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider*, "UnityEngine", "Collider");
+// Writing includes for template specializations
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::Collider::get_enabled
 // Il2CppName: get_enabled
 template<>

@@ -282,6 +282,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::GameplayMode, "", "GameplaySetupViewController/GameplayMode");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>

@@ -188,6 +188,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
+// Writing includes for template specializations
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::Awake
 // Il2CppName: Awake
 template<>

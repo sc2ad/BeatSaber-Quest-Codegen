@@ -57,6 +57,10 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetPlayAreaRect*, "Valve.VR", "IVRChaperone/_GetPlayAreaRect");
+// Writing includes for template specializations
+#include "Valve/VR/HmdQuad_t.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_GetPlayAreaRect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -146,6 +146,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility*, "UnityEngine", "GUILayoutUtility");
+// Writing includes for template specializations
+#include "UnityEngine/GUIStyle.hpp"
+#include "UnityEngine/GUILayoutGroup.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/GUIContent.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::Internal_GetWindowRect
 // Il2CppName: Internal_GetWindowRect
 template<>

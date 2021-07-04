@@ -29,6 +29,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmMultiplier");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier::Init
 // Il2CppName: Init
 template<>

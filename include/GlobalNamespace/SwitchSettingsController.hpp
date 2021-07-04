@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SwitchSettingsController) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SwitchSettingsController::GetInitValue
 // Il2CppName: GetInitValue
 template<>

@@ -96,6 +96,9 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback*, "Oculus.Platform", "Callback");
+// Writing includes for template specializations
+#include "Oculus/Platform/Message_Callback.hpp"
+#include "Oculus/Platform/Request.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Callback::SetNotificationCallback
 // Il2CppName: SetNotificationCallback
 // Cannot write MetadataGetter for generic methods!

@@ -305,6 +305,18 @@ namespace UnityEngine::Timeline {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "System/Collections/Generic/ICollection_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
+#include "UnityEngine/Playables/PlayableDirector.hpp"
+#include "UnityEngine/Timeline/IPropertyCollector.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors
 // Il2CppName: get_controllingDirectors
 template<>

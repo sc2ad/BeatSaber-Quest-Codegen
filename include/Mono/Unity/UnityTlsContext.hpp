@@ -245,6 +245,17 @@ namespace Mono::Unity {
   static_assert(sizeof(UnityTlsContext) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "Mono/Unity/UnityTls_unitytls_errorstate.hpp"
+#include "Mono/Unity/UnityTls_unitytls_x509list.hpp"
+#include "Mono/Unity/UnityTls_unitytls_key.hpp"
+#include "Mono/Unity/UnityTls_unitytls_x509list_ref.hpp"
+#include "Mono/Unity/UnityTls_unitytls_tlsctx.hpp"
+#include "Mono/Unity/UnityTls_unitytls_x509name.hpp"
+#include "Mono/Unity/UnityTls_unitytls_key_ref.hpp"
+#include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate
 // Il2CppName: ExtractNativeKeyAndChainFromManagedCertificate
 template<>

@@ -80,6 +80,8 @@ namespace UnityEngine::Profiling::Memory::Experimental {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::PrepareMetadata
 // Il2CppName: PrepareMetadata
 template<>

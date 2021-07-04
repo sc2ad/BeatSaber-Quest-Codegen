@@ -77,6 +77,10 @@ namespace OnlineServices::API {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel*, "OnlineServices.API", "TestApiLeaderboardsModel");
+// Writing includes for template specializations
+#include "BeatSaberAPI/DataTransferObjects/LeaderboardQuery.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "BeatSaberAPI/DataTransferObjects/LevelScoreResult.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::LogoutAsync
 // Il2CppName: LogoutAsync
 template<>

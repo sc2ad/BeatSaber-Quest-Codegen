@@ -200,6 +200,11 @@ namespace UnityEngine {
   static_assert(sizeof(Event) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
+// Writing includes for template specializations
+#include "UnityEngine/EventModifiers.hpp"
+#include "UnityEngine/KeyCode.hpp"
+#include "UnityEngine/EventType.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::Event::get_rawType
 // Il2CppName: get_rawType
 template<>

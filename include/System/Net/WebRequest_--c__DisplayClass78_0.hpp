@@ -69,6 +69,7 @@ namespace System::Net {
   static_assert(sizeof(WebRequest::$$c__DisplayClass78_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::$$c__DisplayClass78_0*, "System.Net", "WebRequest/<>c__DisplayClass78_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::WebRequest::$$c__DisplayClass78_0::$GetRequestStreamAsync$b__1
 // Il2CppName: <GetRequestStreamAsync>b__1
 template<>

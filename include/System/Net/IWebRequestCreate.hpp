@@ -33,6 +33,8 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebRequestCreate*, "System.Net", "IWebRequestCreate");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::IWebRequestCreate::Create
 // Il2CppName: Create
 template<>

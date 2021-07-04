@@ -124,6 +124,9 @@ namespace System {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings*, "System", "ParameterizedStrings");
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");
+// Writing includes for template specializations
+#include "System/ParameterizedStrings_LowLevelStack.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::Evaluate
 // Il2CppName: Evaluate
 template<>

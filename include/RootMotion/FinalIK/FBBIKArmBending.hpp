@@ -105,6 +105,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBBIKArmBending) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::LateUpdate
 // Il2CppName: LateUpdate
 template<>

@@ -302,6 +302,15 @@ namespace System::Net {
   static_assert(sizeof(ServicePoint) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/Net/WebConnectionGroup.hpp"
+#include "System/Version.hpp"
+#include "System/Net/HttpWebRequest.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "System/EventArgs.hpp"
 // Writing MetadataGetter for method: System::Net::ServicePoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

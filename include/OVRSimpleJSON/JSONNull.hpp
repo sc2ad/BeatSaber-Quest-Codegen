@@ -114,6 +114,9 @@ namespace OVRSimpleJSON {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNull*, "OVRSimpleJSON", "JSONNull");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "OVRSimpleJSON/JSONTextMode.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNull::CreateOrGet
 // Il2CppName: CreateOrGet
 template<>

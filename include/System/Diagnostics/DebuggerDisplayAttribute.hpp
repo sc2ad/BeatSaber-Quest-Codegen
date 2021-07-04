@@ -53,6 +53,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(DebuggerDisplayAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerDisplayAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -139,6 +139,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayersViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersViewController*, "", "NetworkPlayersViewController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/INetworkPlayerModel.hpp"
+#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersViewController::get_myPartyTitle
 // Il2CppName: get_myPartyTitle
 template<>

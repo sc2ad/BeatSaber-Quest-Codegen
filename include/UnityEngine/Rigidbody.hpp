@@ -132,6 +132,9 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody*, "UnityEngine", "Rigidbody");
+// Writing includes for template specializations
+#include "UnityEngine/CollisionDetectionMode.hpp"
+#include "UnityEngine/ForceMode.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rigidbody::set_velocity
 // Il2CppName: set_velocity
 template<>

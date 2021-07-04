@@ -49,6 +49,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(InternalUtility::$$c__DisplayClass6_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::$TryParseColor$b__0
 // Il2CppName: <TryParseColor>b__0
 template<>

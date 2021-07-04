@@ -43,6 +43,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ManagedStreamHelpers*, "UnityEngine", "ManagedStreamHelpers");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream
 // Il2CppName: ValidateLoadFromStream
 template<>

@@ -59,6 +59,8 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper*, "NUnit.Framework.Internal", "ExceptionHelper");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::_cctor
 // Il2CppName: .cctor
 template<>

@@ -59,6 +59,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassEffectContainerSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "BloomPrePassEffectContainerSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/BloomPrePassEffectSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect
 // Il2CppName: get_bloomPrePassEffect
 template<>

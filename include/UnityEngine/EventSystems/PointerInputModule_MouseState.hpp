@@ -67,6 +67,8 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule::MouseState) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData_FramePressState.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseState::AnyPressesThisFrame
 // Il2CppName: AnyPressesThisFrame
 template<>

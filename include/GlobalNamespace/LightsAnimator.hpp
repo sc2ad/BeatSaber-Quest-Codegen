@@ -120,6 +120,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::Awake
 // Il2CppName: Awake
 template<>

@@ -86,6 +86,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBadgeDataMinMaxFloatSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*, "", "MultiplayerBadgeDataMinMaxFloatSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerPlayerResultsData.hpp"
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
+#include "GlobalNamespace/PlayerDataModel.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::GetValue
 // Il2CppName: GetValue
 template<>

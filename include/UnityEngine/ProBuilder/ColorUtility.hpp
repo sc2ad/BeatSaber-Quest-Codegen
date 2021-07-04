@@ -83,6 +83,12 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorUtility*, "UnityEngine.ProBuilder", "ColorUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/ProBuilder/XYZColor.hpp"
+#include "UnityEngine/ProBuilder/CIELabColor.hpp"
+#include "UnityEngine/ProBuilder/HSVColor.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ColorUtility::approx
 // Il2CppName: approx
 template<>

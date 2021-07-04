@@ -77,6 +77,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::_cctor
 // Il2CppName: .cctor
 template<>

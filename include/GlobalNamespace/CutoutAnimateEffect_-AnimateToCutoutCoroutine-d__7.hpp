@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

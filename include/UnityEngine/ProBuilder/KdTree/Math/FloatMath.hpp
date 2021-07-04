@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::Compare
 // Il2CppName: Compare
 template<>

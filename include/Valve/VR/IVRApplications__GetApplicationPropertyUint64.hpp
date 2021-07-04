@@ -59,6 +59,11 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationPropertyUint64*, "Valve.VR", "IVRApplications/_GetApplicationPropertyUint64");
+// Writing includes for template specializations
+#include "Valve/VR/EVRApplicationProperty.hpp"
+#include "Valve/VR/EVRApplicationError.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyUint64::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

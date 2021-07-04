@@ -76,6 +76,10 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder*, "System.Reflection", "Binder");
+// Writing includes for template specializations
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToMethod
 // Il2CppName: BindToMethod
 template<>

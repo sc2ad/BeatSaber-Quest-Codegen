@@ -61,6 +61,8 @@ namespace Zenject {
   static_assert(sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_0");
+// Writing includes for template specializations
+#include "Zenject/InjectContext.hpp"
 // Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0::$WhenInjectedInto$b__0
 // Il2CppName: <WhenInjectedInto>b__0
 template<>

@@ -68,6 +68,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_8_0*, "", "OVRPlugin/OVRP_1_8_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured
 // Il2CppName: ovrp_GetBoundaryConfigured
 template<>

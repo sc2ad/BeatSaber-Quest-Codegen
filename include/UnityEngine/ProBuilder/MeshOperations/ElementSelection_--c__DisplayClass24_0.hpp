@@ -58,6 +58,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(ElementSelection::$$c__DisplayClass24_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass24_0");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::$GetFaceLoop$b__0
 // Il2CppName: <GetFaceLoop>b__0
 template<>

@@ -129,6 +129,9 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static_assert(sizeof(SecT239K1Curve) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT239K1Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT239K1Curve");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT239K1Curve::_cctor
 // Il2CppName: .cctor
 template<>

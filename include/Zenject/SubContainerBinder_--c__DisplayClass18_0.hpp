@@ -74,6 +74,8 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass18_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass18_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass18_0");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass18_0::$ByNewPrefabResourceMethod$b__0
 // Il2CppName: <ByNewPrefabResourceMethod>b__0
 template<>

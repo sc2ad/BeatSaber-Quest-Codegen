@@ -141,6 +141,15 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::File*, "System.IO", "File");
+// Writing includes for template specializations
+#include "System/IO/FileMode.hpp"
+#include "System/IO/FileAccess.hpp"
+#include "System/IO/FileShare.hpp"
+#include "System/IO/StreamReader.hpp"
+#include "System/IO/StreamWriter.hpp"
+#include "System/Text/Encoding.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/IO/MonoIOStat.hpp"
 // Writing MetadataGetter for method: System::IO::File::AppendText
 // Il2CppName: AppendText
 template<>

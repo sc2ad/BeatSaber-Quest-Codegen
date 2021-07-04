@@ -64,6 +64,8 @@ namespace HMUI {
   static_assert(sizeof(Touchable) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");
+// Writing includes for template specializations
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: HMUI::Touchable::get_skew
 // Il2CppName: get_skew
 template<>

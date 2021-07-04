@@ -43,6 +43,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
+// Writing includes for template specializations
+#include "GlobalNamespace/SaberType.hpp"
+#include "GlobalNamespace/ColorType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::MatchesColorType
 // Il2CppName: MatchesColorType
 template<>

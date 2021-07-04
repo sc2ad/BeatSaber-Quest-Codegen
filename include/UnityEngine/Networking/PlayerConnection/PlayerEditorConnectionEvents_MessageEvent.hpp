@@ -42,6 +42,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageEvent");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

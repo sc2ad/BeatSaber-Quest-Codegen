@@ -49,6 +49,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataComboSO*, "", "MultiplayerBadgeDataComboSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerPlayerResultsData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataComboSO::GetValue
 // Il2CppName: GetValue
 template<>

@@ -206,6 +206,12 @@ namespace System::Reflection {
   static_assert(sizeof(MonoCMethod) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoCMethod*, "System.Reflection", "MonoCMethod");
+// Writing includes for template specializations
+#include "System/Exception.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoCMethod::InternalInvoke
 // Il2CppName: InternalInvoke
 template<>

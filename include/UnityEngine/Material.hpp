@@ -593,6 +593,16 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Material*, "UnityEngine", "Material");
+// Writing includes for template specializations
+#include "UnityEngine/Shader.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Rendering/ShaderPropertyFlags.hpp"
+#include "UnityEngine/MaterialGlobalIlluminationFlags.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Rendering/RenderTextureSubElement.hpp"
+#include "UnityEngine/ComputeBuffer.hpp"
 // Writing MetadataGetter for method: UnityEngine::Material::Create
 // Il2CppName: Create
 template<>

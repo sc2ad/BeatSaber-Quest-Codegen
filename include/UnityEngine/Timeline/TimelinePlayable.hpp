@@ -164,6 +164,13 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimelinePlayable) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelinePlayable*, "UnityEngine.Timeline", "TimelinePlayable");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
+#include "UnityEngine/Animations/AnimationPlayableOutput.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelinePlayable::Create
 // Il2CppName: Create
 template<>

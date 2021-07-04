@@ -38,6 +38,9 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableAsset*, "UnityEngine.Playables", "IPlayableAsset");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>

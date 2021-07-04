@@ -83,6 +83,9 @@ namespace TMPro {
   static_assert(sizeof(TMP_ScrollbarEventHandler) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>

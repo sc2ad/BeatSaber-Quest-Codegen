@@ -112,6 +112,9 @@ namespace HMUI {
   static_assert(sizeof(HoverHintPanel) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
+// Writing includes for template specializations
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::get_isShown
 // Il2CppName: get_isShown
 template<>

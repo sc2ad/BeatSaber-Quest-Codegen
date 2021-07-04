@@ -875,6 +875,20 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh*, "UnityEngine.ProBuilder", "ProBuilderMesh");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState, "UnityEngine.ProBuilder", "ProBuilderMesh/CacheValidState");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
+#include "UnityEngine/ProBuilder/MeshArrays.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/MeshTopology.hpp"
+#include "UnityEngine/ProBuilder/RefreshMask.hpp"
+#include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
+#include "UnityEngine/ProBuilder/Face.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/ProBuilder/SharedVertex.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_userCollisions
 // Il2CppName: get_userCollisions
 template<>

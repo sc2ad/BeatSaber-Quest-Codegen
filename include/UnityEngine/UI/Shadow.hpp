@@ -118,6 +118,9 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Shadow) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_effectColor
 // Il2CppName: get_effectColor
 template<>

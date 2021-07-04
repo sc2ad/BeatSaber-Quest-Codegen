@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, "", "SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::$StartLevelOrShow360Prompt$b__0
 // Il2CppName: <StartLevelOrShow360Prompt>b__0
 template<>

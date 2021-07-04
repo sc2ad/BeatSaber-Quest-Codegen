@@ -80,6 +80,9 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacketPool) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool");
+// Writing includes for template specializations
+#include "LiteNetLib/PacketProperty.hpp"
+#include "LiteNetLib/NetPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData
 // Il2CppName: GetWithData
 template<>

@@ -314,6 +314,14 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509Certificate2ImplMono) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*, "System.Security.Cryptography.X509Certificates", "X509Certificate2ImplMono");
+// Writing includes for template specializations
+#include "Mono/Security/X509/X509Certificate.hpp"
+#include "Mono/Security/ASN1.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509NameType.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509KeyStorageFlags.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

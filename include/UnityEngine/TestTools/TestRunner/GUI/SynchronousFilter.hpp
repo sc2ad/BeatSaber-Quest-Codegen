@@ -63,6 +63,9 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/TNode.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::ToXml
 // Il2CppName: ToXml
 template<>

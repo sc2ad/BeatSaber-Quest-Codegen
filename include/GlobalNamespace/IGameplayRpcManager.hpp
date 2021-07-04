@@ -171,6 +171,16 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGameplayRpcManager*, "", "IGameplayRpcManager");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "System/Action_4.hpp"
+#include "GlobalNamespace/NoteMissInfoNetSerializable.hpp"
+#include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsAtStartNetSerializable.hpp"
+#include "GlobalNamespace/PlayerSpecificSettingsNetSerializable.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::get_enabled
 // Il2CppName: get_enabled
 template<>

@@ -68,6 +68,9 @@ namespace Oculus::Platform {
   static_assert(sizeof(VoipOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipOptions*, "Oculus.Platform", "VoipOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/VoipBitrate.hpp"
+#include "Oculus/Platform/VoipDtxState.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetBitrateForNewConnections
 // Il2CppName: SetBitrateForNewConnections
 template<>

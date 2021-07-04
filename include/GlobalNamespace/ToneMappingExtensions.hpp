@@ -38,6 +38,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");
+// Writing includes for template specializations
+#include "GlobalNamespace/ToneMapping.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ToneMappingExtensions::SetShaderKeyword
 // Il2CppName: SetShaderKeyword
 template<>

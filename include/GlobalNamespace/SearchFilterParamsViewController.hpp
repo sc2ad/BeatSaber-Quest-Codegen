@@ -190,6 +190,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SearchFilterParamsViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SearchFilterParamsViewController*, "", "SearchFilterParamsViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/LevelFilterParams.hpp"
+#include "GlobalNamespace/FormattedFloatListSettingsController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

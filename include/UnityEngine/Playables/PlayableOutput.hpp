@@ -86,6 +86,7 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutput::get_Null
 // Il2CppName: get_Null
 template<>

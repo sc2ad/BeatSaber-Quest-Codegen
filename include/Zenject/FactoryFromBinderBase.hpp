@@ -217,6 +217,15 @@ namespace Zenject {
   static_assert(sizeof(FactoryFromBinderBase) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase*, "Zenject", "FactoryFromBinderBase");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
+#include "Zenject/BindInfo.hpp"
+#include "Zenject/FactoryBindInfo.hpp"
+#include "System/Func_2.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Object.hpp"
+#include "Zenject/InjectContext.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

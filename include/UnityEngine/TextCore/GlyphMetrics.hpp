@@ -107,6 +107,7 @@ namespace UnityEngine::TextCore {
   static_assert(sizeof(GlyphMetrics) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_width
 // Il2CppName: get_width
 template<>

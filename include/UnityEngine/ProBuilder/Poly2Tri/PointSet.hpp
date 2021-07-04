@@ -100,6 +100,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(PointSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointSet*, "UnityEngine.ProBuilder.Poly2Tri", "PointSet");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationContext.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Points
 // Il2CppName: get_Points
 template<>

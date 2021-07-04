@@ -127,6 +127,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NodePoseSyncStateDeltaNetSerializable) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*, "", "NodePoseSyncStateDeltaNetSerializable");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId
 // Il2CppName: get_baseId
 template<>

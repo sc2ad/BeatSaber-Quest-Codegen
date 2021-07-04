@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AsyncHelper::$$c__DisplayClass1_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0*, "", "AsyncHelper/<>c__DisplayClass1_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$RunSync$b__0
 // Il2CppName: <RunSync>b__0
 template<>

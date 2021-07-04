@@ -142,6 +142,8 @@ namespace UnityEngine::UI {
   static_assert(sizeof(HorizontalOrVerticalLayoutGroup) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_spacing
 // Il2CppName: get_spacing
 template<>

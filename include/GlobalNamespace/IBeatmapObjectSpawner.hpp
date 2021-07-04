@@ -43,6 +43,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawner*, "", "IBeatmapObjectSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/ObstacleData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_ObstacleSpawnData.hpp"
+#include "GlobalNamespace/NoteData.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnMovementData_NoteSpawnData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawner::SpawnObstacle
 // Il2CppName: SpawnObstacle
 template<>

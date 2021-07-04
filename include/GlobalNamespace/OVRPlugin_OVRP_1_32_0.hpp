@@ -38,6 +38,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_32_0*, "", "OVRPlugin/OVRP_1_32_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_32_0::ovrp_AddCustomMetadata
 // Il2CppName: ovrp_AddCustomMetadata
 template<>

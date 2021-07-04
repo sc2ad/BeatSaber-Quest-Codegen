@@ -192,6 +192,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActivePlayerFacade) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade*, "", "MultiplayerLocalActivePlayerFacade");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_introAnimator
 // Il2CppName: get_introAnimator
 template<>

@@ -78,6 +78,7 @@ namespace Zenject {
   static_assert(sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectInstanceProvider/<>c__DisplayClass13_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0
 // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
 template<>

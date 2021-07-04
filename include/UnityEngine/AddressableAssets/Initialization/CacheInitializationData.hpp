@@ -102,6 +102,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static_assert(sizeof(CacheInitializationData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*, "UnityEngine.AddressableAssets.Initialization", "CacheInitializationData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled
 // Il2CppName: get_CompressionEnabled
 template<>

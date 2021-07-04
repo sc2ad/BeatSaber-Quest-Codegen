@@ -381,6 +381,19 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Dropdown) == 0x161);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "UnityEngine/UI/Text.hpp"
+#include "UnityEngine/UI/Image.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/UI/Dropdown_DropdownEvent.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/UI/Dropdown_DropdownItem.hpp"
+#include "UnityEngine/UI/Dropdown_OptionData.hpp"
+#include "UnityEngine/UI/Toggle.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_template
 // Il2CppName: get_template
 template<>

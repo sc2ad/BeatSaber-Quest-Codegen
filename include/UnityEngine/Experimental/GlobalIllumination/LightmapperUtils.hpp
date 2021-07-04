@@ -62,6 +62,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*, "UnityEngine.Experimental.GlobalIllumination", "LightmapperUtils");
+// Writing includes for template specializations
+#include "UnityEngine/Light.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/DirectionalLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/PointLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/SpotLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/RectangleLight.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/DiscLight.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractIndirect
 // Il2CppName: ExtractIndirect
 template<>

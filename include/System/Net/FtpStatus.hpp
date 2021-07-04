@@ -53,6 +53,7 @@ namespace System::Net {
   static_assert(sizeof(FtpStatus) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::FtpStatus::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

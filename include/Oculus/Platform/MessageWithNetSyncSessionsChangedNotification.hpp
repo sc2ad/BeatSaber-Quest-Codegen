@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithNetSyncSessionsChangedNotification
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification*, "Oculus.Platform", "MessageWithNetSyncSessionsChangedNotification");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

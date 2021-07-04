@@ -224,6 +224,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel::UnifiedNetworkServer) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer*, "", "UnifiedNetworkPlayerModel/UnifiedNetworkServer");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -245,6 +245,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(FireworkItemController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");
+// Writing includes for template specializations
+#include "GlobalNamespace/DirectionalLight.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::set_directionalLight
 // Il2CppName: set_directionalLight
 template<>

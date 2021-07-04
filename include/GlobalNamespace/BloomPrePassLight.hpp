@@ -142,6 +142,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassLight) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight*, "", "BloomPrePassLight");
+// Writing includes for template specializations
+#include "UnityEngine/Matrix4x4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::get_bloomLightsDict
 // Il2CppName: get_bloomLightsDict
 template<>

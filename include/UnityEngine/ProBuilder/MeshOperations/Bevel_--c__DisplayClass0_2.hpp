@@ -60,6 +60,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(Bevel::$$c__DisplayClass0_2) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5
 // Il2CppName: <BevelEdges>b__5
 template<>

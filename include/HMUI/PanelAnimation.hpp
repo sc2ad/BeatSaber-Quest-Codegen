@@ -67,6 +67,10 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
+// Writing includes for template specializations
+#include "UnityEngine/CanvasGroup.hpp"
+#include "UnityEngine/AnimationCurve.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimation::StartAnimation
 // Il2CppName: StartAnimation
 template<>

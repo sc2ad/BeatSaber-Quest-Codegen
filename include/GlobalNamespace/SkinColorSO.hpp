@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SkinColorSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSO*, "", "SkinColorSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SkinColorSO::get_id
 // Il2CppName: get_id
 template<>

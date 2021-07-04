@@ -66,6 +66,8 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest
 // Il2CppName: get_webRequest
 template<>

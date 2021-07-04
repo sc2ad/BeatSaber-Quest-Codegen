@@ -101,6 +101,7 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Store) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Store*, "Mono.Security.X509", "X509Store");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::X509::X509Store::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

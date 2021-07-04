@@ -36,6 +36,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPack*, "", "IBeatmapLevelPack");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevelPack::get_packID
 // Il2CppName: get_packID
 template<>

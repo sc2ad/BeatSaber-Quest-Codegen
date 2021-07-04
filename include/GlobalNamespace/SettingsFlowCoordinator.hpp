@@ -180,6 +180,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/SettingsSubMenuInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

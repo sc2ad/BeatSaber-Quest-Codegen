@@ -131,6 +131,10 @@ namespace System::Net {
   static_assert(sizeof(CookieCollection) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection*, "System.Net", "CookieCollection");
+// Writing includes for template specializations
+#include "System/Net/Cookie.hpp"
+#include "System/Array.hpp"
+#include "System/Net/CookieCollection_Stamp.hpp"
 // Writing MetadataGetter for method: System::Net::CookieCollection::get_Item
 // Il2CppName: get_Item
 template<>

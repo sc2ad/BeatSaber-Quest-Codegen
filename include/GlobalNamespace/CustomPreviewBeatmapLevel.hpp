@@ -276,6 +276,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomPreviewBeatmapLevel) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "UnityEngine/Sprite.hpp"
+#include "GlobalNamespace/StandardLevelInfoSaveData.hpp"
+#include "GlobalNamespace/IAudioClipAsyncLoader.hpp"
+#include "GlobalNamespace/ISpriteAsyncLoader.hpp"
+#include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_audioClipAsyncLoader
 // Il2CppName: get_audioClipAsyncLoader
 template<>

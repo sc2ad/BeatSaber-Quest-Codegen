@@ -59,6 +59,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionObject::Multiplier) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Multiplier*, "RootMotion.FinalIK", "InteractionObject/Multiplier");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::GetValue
 // Il2CppName: GetValue
 template<>

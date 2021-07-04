@@ -125,6 +125,8 @@ namespace UnityEngine {
   static_assert(sizeof(GUIContent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+// Writing includes for template specializations
+#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text
 // Il2CppName: get_text
 template<>

@@ -48,6 +48,12 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsHandler*, "", "PlatformLeaderboardsHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_GetScoresCompletionHandler.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader_ScoreData.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_UploadScoreCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsHandler::GetScores
 // Il2CppName: GetScores
 template<>

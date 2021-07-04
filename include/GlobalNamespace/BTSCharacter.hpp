@@ -107,6 +107,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_characterName
 // Il2CppName: get_characterName
 template<>

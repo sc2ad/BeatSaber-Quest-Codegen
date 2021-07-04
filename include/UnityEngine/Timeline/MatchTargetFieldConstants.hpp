@@ -47,6 +47,7 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "UnityEngine.Timeline", "MatchTargetFieldConstants");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::MatchTargetFieldConstants::HasAny
 // Il2CppName: HasAny
 template<>

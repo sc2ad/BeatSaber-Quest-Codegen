@@ -88,6 +88,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BezierSpline) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline*, "", "BezierSpline");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::get_segments
 // Il2CppName: get_segments
 template<>

@@ -61,6 +61,8 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "SetUpTearDownCommand/<>c");
+// Writing includes for template specializations
+#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -130,6 +130,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialPause) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

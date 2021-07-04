@@ -280,6 +280,13 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Text) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");
+// Writing includes for template specializations
+#include "UnityEngine/Font.hpp"
+#include "UnityEngine/TextAnchor.hpp"
+#include "UnityEngine/HorizontalWrapMode.hpp"
+#include "UnityEngine/VerticalWrapMode.hpp"
+#include "UnityEngine/FontStyle.hpp"
+#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Text::get_cachedTextGenerator
 // Il2CppName: get_cachedTextGenerator
 template<>

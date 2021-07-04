@@ -242,6 +242,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlayerAllOverallStatsData_PlayerOverallStatsData.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStatisticsViewController::UpdateView
 // Il2CppName: UpdateView
 template<>

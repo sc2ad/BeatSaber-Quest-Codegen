@@ -96,6 +96,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(Ed25519Signer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed25519Signer*, "Org.BouncyCastle.Crypto.Signers", "Ed25519Signer");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Init
 // Il2CppName: Init
 template<>

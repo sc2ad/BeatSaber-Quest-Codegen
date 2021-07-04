@@ -121,6 +121,10 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer*, "Zenject.Internal", "ReflectionTypeAnalyzer");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::_cctor
 // Il2CppName: .cctor
 template<>

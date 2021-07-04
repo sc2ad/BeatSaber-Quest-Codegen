@@ -114,6 +114,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConditionalSpriteSwitcher) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalSpriteSwitcher*, "", "ConditionalSpriteSwitcher");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalSpriteSwitcher::get_falseSprite
 // Il2CppName: get_falseSprite
 template<>

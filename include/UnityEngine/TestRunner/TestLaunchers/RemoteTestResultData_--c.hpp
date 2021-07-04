@@ -61,6 +61,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::_cctor
 // Il2CppName: .cctor
 template<>

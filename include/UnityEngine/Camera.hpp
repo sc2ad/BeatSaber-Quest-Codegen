@@ -360,6 +360,24 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera*, "UnityEngine", "Camera");
+// Writing includes for template specializations
+#include "UnityEngine/RenderingPath.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/CameraClearFlags.hpp"
+#include "UnityEngine/DepthTextureMode.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Camera_MonoOrStereoscopicEye.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/StereoTargetEyeMask.hpp"
+#include "UnityEngine/Camera_StereoscopicEye.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Shader.hpp"
+#include "UnityEngine/Rendering/CameraEvent.hpp"
+#include "UnityEngine/Rendering/CommandBuffer.hpp"
+#include "UnityEngine/Ray.hpp"
 // Writing MetadataGetter for method: UnityEngine::Camera::get_nearClipPlane
 // Il2CppName: get_nearClipPlane
 template<>

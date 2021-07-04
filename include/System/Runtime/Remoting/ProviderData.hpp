@@ -75,6 +75,7 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ProviderData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::ProviderData::CopyFrom
 // Il2CppName: CopyFrom
 template<>

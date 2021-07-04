@@ -64,6 +64,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/GuestNameButtonsListItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0
 // Il2CppName: <DidActivate>b__0
 template<>

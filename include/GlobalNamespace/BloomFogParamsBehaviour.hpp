@@ -102,6 +102,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsBehaviour) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsBehaviour*, "", "BloomFogParamsBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>

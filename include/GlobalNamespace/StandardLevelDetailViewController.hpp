@@ -507,6 +507,15 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+#include "System/Threading/CancellationToken.hpp"
+#include "GlobalNamespace/StandardLevelDetailView.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "UnityEngine/UI/Toggle.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent
 // Il2CppName: add_didPressActionButtonEvent
 template<>

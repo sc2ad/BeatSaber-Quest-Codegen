@@ -228,6 +228,13 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Type.hpp"
+#include "System/Func_1.hpp"
+#include "System/Action.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
 template<>

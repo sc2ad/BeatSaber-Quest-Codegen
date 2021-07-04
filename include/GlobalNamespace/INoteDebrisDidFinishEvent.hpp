@@ -28,6 +28,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteDebris.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish
 // Il2CppName: HandleNoteDebrisDidFinish
 template<>

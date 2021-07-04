@@ -148,6 +148,12 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprite*, "UnityEngine", "Sprite");
+// Writing includes for template specializations
+#include "UnityEngine/Texture2D.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/SpriteMeshType.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetPackingMode
 // Il2CppName: GetPackingMode
 template<>

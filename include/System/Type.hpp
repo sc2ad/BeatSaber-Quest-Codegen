@@ -569,6 +569,15 @@ namespace System {
   bool operator !=(System::Type* left, System::Type& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Type*, "System", "Type");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
+#include "System/Func_4.hpp"
+#include "System/Guid.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Reflection/CallingConventions.hpp"
+#include "System/Reflection/MemberTypes.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Type::get_DeclaringMethod
 // Il2CppName: get_DeclaringMethod
 template<>

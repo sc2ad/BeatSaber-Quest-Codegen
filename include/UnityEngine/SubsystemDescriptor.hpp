@@ -54,6 +54,7 @@ namespace UnityEngine {
   static_assert(sizeof(SubsystemDescriptor) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::SubsystemDescriptor::get_id
 // Il2CppName: get_id
 template<>

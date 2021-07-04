@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageConflictMetadata
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

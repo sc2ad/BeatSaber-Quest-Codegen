@@ -180,6 +180,9 @@ namespace System::Threading {
   static_assert(sizeof(SemaphoreSlim) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
+#include "System/Threading/SemaphoreSlim_TaskNode.hpp"
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

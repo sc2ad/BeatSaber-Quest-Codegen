@@ -35,6 +35,10 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
+// Writing includes for template specializations
+#include "System/Net/ServicePoint.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Net/WebRequest.hpp"
 // Writing MetadataGetter for method: System::Net::ICertificatePolicy::CheckValidationResult
 // Il2CppName: CheckValidationResult
 template<>

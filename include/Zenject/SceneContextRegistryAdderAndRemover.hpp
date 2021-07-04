@@ -70,6 +70,9 @@ namespace Zenject {
   static_assert(sizeof(SceneContextRegistryAdderAndRemover) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistryAdderAndRemover*, "Zenject", "SceneContextRegistryAdderAndRemover");
+// Writing includes for template specializations
+#include "Zenject/SceneContext.hpp"
+#include "Zenject/SceneContextRegistry.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistryAdderAndRemover::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -110,6 +110,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdMonoBehaviour) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_lightId
 // Il2CppName: get_lightId
 template<>

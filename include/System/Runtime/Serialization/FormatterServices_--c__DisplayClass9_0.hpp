@@ -66,6 +66,8 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(FormatterServices::$$c__DisplayClass9_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/MemberHolder.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0
 // Il2CppName: <GetSerializableMembers>b__0
 template<>

@@ -56,6 +56,7 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::HashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>

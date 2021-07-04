@@ -71,6 +71,7 @@ namespace System::Net::Http {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17, "System.Net.Http", "HttpContent/<LoadIntoBufferAsync>d__17");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17::MoveNext
 // Il2CppName: MoveNext
 template<>

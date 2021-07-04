@@ -98,6 +98,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::$TryShowModeSelection$d__53, "", "MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__53");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::$TryShowModeSelection$d__53::MoveNext
 // Il2CppName: MoveNext
 template<>

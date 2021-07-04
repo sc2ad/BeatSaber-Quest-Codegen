@@ -136,6 +136,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::Start
 // Il2CppName: Start
 template<>

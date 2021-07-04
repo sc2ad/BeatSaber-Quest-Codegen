@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameEnergyCounter::InitData) == 0x17);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

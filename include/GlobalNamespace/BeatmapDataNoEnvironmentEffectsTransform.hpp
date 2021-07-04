@@ -43,6 +43,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*, "", "BeatmapDataNoEnvironmentEffectsTransform");
+// Writing includes for template specializations
+#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>

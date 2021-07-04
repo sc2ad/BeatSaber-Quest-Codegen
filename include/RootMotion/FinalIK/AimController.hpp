@@ -273,6 +273,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::Start
 // Il2CppName: Start
 template<>

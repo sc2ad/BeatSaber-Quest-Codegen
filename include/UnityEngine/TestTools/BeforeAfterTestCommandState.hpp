@@ -137,6 +137,8 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(BeforeAfterTestCommandState) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "UnityEngine.TestTools", "BeforeAfterTestCommandState");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/TestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::BeforeAfterTestCommandState::Reset
 // Il2CppName: Reset
 template<>

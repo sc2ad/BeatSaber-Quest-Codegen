@@ -58,6 +58,8 @@ namespace System {
   static_assert(sizeof(SharedStatics) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
+// Writing includes for template specializations
+#include "System/Security/Util/Tokenizer_StringMaker.hpp"
 // Writing MetadataGetter for method: System::SharedStatics::GetSharedStringMaker
 // Il2CppName: GetSharedStringMaker
 template<>

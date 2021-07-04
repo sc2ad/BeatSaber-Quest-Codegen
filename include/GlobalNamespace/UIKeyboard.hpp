@@ -166,6 +166,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(UIKeyboard) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard*, "", "UIKeyboard");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::add_textKeyWasPressedEvent
 // Il2CppName: add_textKeyWasPressedEvent
 template<>

@@ -56,6 +56,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMultiplayerSessionManager::$$c__DisplayClass76_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*, "", "MockMultiplayerSessionManager/<>c__DisplayClass76_0");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::$GetConnectedPlayerByUserId$b__1
 // Il2CppName: <GetConnectedPlayerByUserId>b__1
 template<>

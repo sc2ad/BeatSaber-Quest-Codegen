@@ -82,6 +82,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerUnavailableReason.hpp"
+#include "GlobalNamespace/MasterServerAvailabilityData.hpp"
+#include "Polyglot/Language.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>

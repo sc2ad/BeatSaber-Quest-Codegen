@@ -66,6 +66,7 @@ namespace System::Runtime::Remoting::Metadata {
   static_assert(sizeof(SoapAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapAttribute::get_UseAttribute
 // Il2CppName: get_UseAttribute
 template<>

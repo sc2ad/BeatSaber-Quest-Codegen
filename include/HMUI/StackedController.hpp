@@ -80,6 +80,9 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController*, "HMUI", "StackedController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: HMUI::StackedController::get_topStackedViewController
 // Il2CppName: get_topStackedViewController
 template<>

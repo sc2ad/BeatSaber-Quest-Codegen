@@ -44,6 +44,8 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::Run
 // Il2CppName: Run
 template<>

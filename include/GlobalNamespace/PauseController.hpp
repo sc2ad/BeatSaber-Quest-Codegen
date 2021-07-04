@@ -216,6 +216,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseController) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController*, "", "PauseController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

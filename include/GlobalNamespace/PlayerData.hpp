@@ -504,6 +504,22 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerData) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/GameplayModifiers.hpp"
+#include "GlobalNamespace/PlayerSpecificSettings.hpp"
+#include "GlobalNamespace/PracticeSettings.hpp"
+#include "GlobalNamespace/PlayerAllOverallStatsData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/ColorSchemesSettings.hpp"
+#include "GlobalNamespace/OverrideEnvironmentSettings.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "GlobalNamespace/MultiplayerModeSettings.hpp"
+#include "System/Action.hpp"
+#include "GlobalNamespace/IDifficultyBeatmap.hpp"
+#include "GlobalNamespace/MissionHelpSO.hpp"
+#include "GlobalNamespace/PlayerLevelStatsData.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerId
 // Il2CppName: get_playerId
 template<>

@@ -76,6 +76,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(TestResultRendererCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::RunStarted
 // Il2CppName: RunStarted
 template<>

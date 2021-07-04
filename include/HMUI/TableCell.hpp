@@ -102,6 +102,8 @@ namespace HMUI {
   static_assert(sizeof(TableCell) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");
+// Writing includes for template specializations
+#include "HMUI/ITableCellOwner.hpp"
 // Writing MetadataGetter for method: HMUI::TableCell::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>

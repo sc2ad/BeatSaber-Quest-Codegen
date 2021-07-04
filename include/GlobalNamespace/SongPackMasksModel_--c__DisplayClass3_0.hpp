@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMasksModel::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel::$$c__DisplayClass3_0*, "", "SongPackMasksModel/<>c__DisplayClass3_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMasksModel::$$c__DisplayClass3_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>

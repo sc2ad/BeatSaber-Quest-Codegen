@@ -87,6 +87,8 @@ namespace TMPro {
   static_assert(sizeof(TMP_Dropdown::OptionData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::OptionData*, "TMPro", "TMP_Dropdown/OptionData");
+// Writing includes for template specializations
+#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OptionData::get_text
 // Il2CppName: get_text
 template<>

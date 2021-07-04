@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisconnectedPlayer) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedPlayer*, "", "DisconnectedPlayer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>

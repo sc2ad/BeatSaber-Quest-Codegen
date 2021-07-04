@@ -143,6 +143,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActiveClient) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::get_beatmapObjectManager
 // Il2CppName: get_beatmapObjectManager
 template<>

@@ -79,6 +79,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(Pkcs5S2ParametersGenerator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "Pkcs5S2ParametersGenerator");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IDigest.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

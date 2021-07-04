@@ -56,6 +56,11 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/EC/Endo/ScalarSplitParameters.hpp"
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
+#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar
 // Il2CppName: DecomposeScalar
 template<>

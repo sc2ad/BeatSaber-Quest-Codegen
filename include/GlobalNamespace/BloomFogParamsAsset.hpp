@@ -84,6 +84,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsAsset) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAsset*, "", "BloomFogParamsAsset");
+// Writing includes for template specializations
+#include "UnityEngine/Playables/PlayableGraph.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>

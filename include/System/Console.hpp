@@ -123,6 +123,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Console*, "System", "Console");
+// Writing includes for template specializations
+#include "System/Text/Encoding.hpp"
+#include "System/IntPtr.hpp"
+#include "System/IO/FileAccess.hpp"
+#include "System/IO/TextWriter.hpp"
 // Writing MetadataGetter for method: System::Console::_cctor
 // Il2CppName: .cctor
 template<>

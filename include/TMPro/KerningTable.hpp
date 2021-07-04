@@ -84,6 +84,8 @@ namespace TMPro {
   static_assert(sizeof(KerningTable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
+// Writing includes for template specializations
+#include "TMPro/GlyphValueRecord_Legacy.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
 template<>

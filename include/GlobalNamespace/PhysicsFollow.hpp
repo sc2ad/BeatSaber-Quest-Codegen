@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PhysicsFollow) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::Start
 // Il2CppName: Start
 template<>

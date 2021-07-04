@@ -99,6 +99,7 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(MD2Managed) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::Padding
 // Il2CppName: Padding
 template<>

@@ -147,6 +147,11 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c*, "Zenject", "FromBinder/<>c");
+// Writing includes for template specializations
+#include "Zenject/InjectContext.hpp"
+#include "System/Type.hpp"
+#include "Zenject/IPrefabInstantiator.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

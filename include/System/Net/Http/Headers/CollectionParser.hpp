@@ -55,6 +55,11 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionParser*, "System.Net.Http.Headers", "CollectionParser");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/ElementTryParser_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionParser::TryParse
 // Il2CppName: TryParse
 // Cannot write MetadataGetter for generic methods!

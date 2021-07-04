@@ -141,6 +141,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisconnectPromptView) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent
 // Il2CppName: add_didViewFinishEvent
 template<>

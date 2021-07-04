@@ -32,6 +32,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemClock*, "UnityEngine", "SystemClock");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::SystemClock::get_now
 // Il2CppName: get_now
 template<>

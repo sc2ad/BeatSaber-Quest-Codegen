@@ -52,6 +52,7 @@ namespace SFB {
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: SFB::ExtensionFilter::ExtensionFilter
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

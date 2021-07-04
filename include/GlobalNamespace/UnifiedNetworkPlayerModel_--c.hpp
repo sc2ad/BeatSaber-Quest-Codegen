@@ -56,6 +56,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c*, "", "UnifiedNetworkPlayerModel/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/UnifiedNetworkPlayerModel_UnifiedNetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>

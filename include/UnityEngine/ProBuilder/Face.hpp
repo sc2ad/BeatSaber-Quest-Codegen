@@ -267,6 +267,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Face) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "UnityEngine/Material.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_manualUV
 // Il2CppName: get_manualUV
 template<>

@@ -69,6 +69,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
+// Writing includes for template specializations
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::_cctor
 // Il2CppName: .cctor
 template<>

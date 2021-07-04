@@ -69,6 +69,7 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(UnmanagedFunctionPointerAttribute) == 0x1B);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

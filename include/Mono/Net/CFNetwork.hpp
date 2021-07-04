@@ -127,6 +127,14 @@ namespace Mono::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork*, "Mono.Net", "CFNetwork");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "Mono/Net/CFNetwork_CFProxyAutoConfigurationResultCallback.hpp"
+#include "Mono/Net/CFStreamClientContext.hpp"
+#include "Mono/Net/CFUrl.hpp"
+#include "System/Uri.hpp"
+#include "Mono/Net/CFDictionary.hpp"
+#include "Mono/Net/CFProxySettings.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptSequential
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScriptSequential
 template<>

@@ -92,6 +92,7 @@ namespace System::Threading {
   static_assert(sizeof(SpinLock) == 0x4);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::SpinLock::SpinLock
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

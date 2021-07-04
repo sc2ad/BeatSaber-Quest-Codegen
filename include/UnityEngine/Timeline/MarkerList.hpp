@@ -151,6 +151,13 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(MarkerList) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
+// Writing includes for template specializations
+#include "UnityEngine/ScriptableObject.hpp"
+#include "UnityEngine/Timeline/IMarker.hpp"
+#include "UnityEngine/Timeline/TimelineAsset.hpp"
+#include "UnityEngine/Playables/PlayableAsset.hpp"
+#include "System/Type.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers
 // Il2CppName: get_markers
 template<>

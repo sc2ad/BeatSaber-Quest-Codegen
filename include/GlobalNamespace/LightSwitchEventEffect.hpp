@@ -239,6 +239,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightSwitchEventEffect) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::get_lightsId
 // Il2CppName: get_lightsId
 template<>

@@ -53,6 +53,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*, "UnityEngine.ProBuilder.Poly2Tri", "Triangulatable");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationContext.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::Prepare
 // Il2CppName: Prepare
 template<>

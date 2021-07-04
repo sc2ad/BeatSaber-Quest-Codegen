@@ -81,6 +81,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ModifiersSelectionView) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ModifiersSelectionView*, "", "ModifiersSelectionView");
+// Writing includes for template specializations
+#include "GlobalNamespace/GameplayModifiers.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ModifiersSelectionView::SetGameplayModifiers
 // Il2CppName: SetGameplayModifiers
 template<>

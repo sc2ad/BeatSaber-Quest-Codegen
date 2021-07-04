@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingTextEffect) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingTextEffect*, "", "FlyingTextEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>

@@ -101,6 +101,8 @@ namespace System {
   static_assert(sizeof(WeakReference) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::WeakReference::AllocateHandle
 // Il2CppName: AllocateHandle
 template<>

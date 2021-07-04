@@ -21,6 +21,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IInitializable*, "Zenject", "IInitializable");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::IInitializable::Initialize
 // Il2CppName: Initialize
 template<>

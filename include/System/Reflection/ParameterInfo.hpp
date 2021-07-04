@@ -184,6 +184,12 @@ namespace System::Reflection {
   static_assert(sizeof(ParameterInfo) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "System/Reflection/CallingConventions.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::FormatParameters
 // Il2CppName: FormatParameters
 template<>

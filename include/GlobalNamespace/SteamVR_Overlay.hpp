@@ -174,6 +174,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Overlay) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");
+// Writing includes for template specializations
+#include "Valve/VR/VREvent_t.hpp"
+#include "GlobalNamespace/SteamVR_Overlay_IntersectionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::get_instance
 // Il2CppName: get_instance
 template<>

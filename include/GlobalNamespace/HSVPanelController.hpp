@@ -120,6 +120,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(HSVPanelController) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/ColorSaturationValueSlider.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "GlobalNamespace/ColorHueSlider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

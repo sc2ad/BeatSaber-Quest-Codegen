@@ -103,6 +103,7 @@ namespace System::Globalization {
   static_assert(sizeof(IdnMapping) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
 template<>

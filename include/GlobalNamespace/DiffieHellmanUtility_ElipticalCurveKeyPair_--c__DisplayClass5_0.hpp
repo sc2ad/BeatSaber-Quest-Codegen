@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair/<>c__DisplayClass5_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0::$GetPreMasterSecretAsync$b__0
 // Il2CppName: <GetPreMasterSecretAsync>b__0
 template<>

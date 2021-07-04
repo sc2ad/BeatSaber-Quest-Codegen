@@ -146,6 +146,10 @@ namespace MasterServer {
   static_assert(sizeof(CreateMatchmakingServerRequest) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateMatchmakingServerRequest*, "MasterServer", "CreateMatchmakingServerRequest");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateMatchmakingServerRequest::get_pool
 // Il2CppName: get_pool
 template<>

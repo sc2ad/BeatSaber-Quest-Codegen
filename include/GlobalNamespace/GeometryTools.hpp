@@ -43,6 +43,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GeometryTools*, "", "GeometryTools");
+// Writing includes for template specializations
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GeometryTools::ThreePointsToBox
 // Il2CppName: ThreePointsToBox
 template<>

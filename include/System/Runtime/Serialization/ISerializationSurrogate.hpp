@@ -39,6 +39,10 @@ namespace System::Runtime::Serialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializationSurrogate*, "System.Runtime.Serialization", "ISerializationSurrogate");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ISerializationSurrogate::GetObjectData
 // Il2CppName: GetObjectData
 template<>

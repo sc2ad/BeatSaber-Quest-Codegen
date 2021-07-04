@@ -132,6 +132,9 @@ namespace System {
   static_assert(sizeof(LocalDataStoreMgr) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
+// Writing includes for template specializations
+#include "System/LocalDataStore.hpp"
+#include "System/LocalDataStoreSlot.hpp"
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::CreateLocalDataStore
 // Il2CppName: CreateLocalDataStore
 template<>

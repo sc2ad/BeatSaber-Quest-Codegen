@@ -96,6 +96,12 @@ namespace Zenject {
   static_assert(sizeof(GetFromGameObjectGetterComponentProvider) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromGameObjectGetterComponentProvider*, "Zenject", "GetFromGameObjectGetterComponentProvider");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Func_2.hpp"
+#include "Zenject/InjectContext.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: Zenject::GetFromGameObjectGetterComponentProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -72,6 +72,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(DHValidationParms) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHValidationParms*, "Org.BouncyCastle.Asn1.X9", "DHValidationParms");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHValidationParms::GetInstance
 // Il2CppName: GetInstance
 template<>

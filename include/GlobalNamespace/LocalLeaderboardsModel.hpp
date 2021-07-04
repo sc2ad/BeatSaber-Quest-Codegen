@@ -231,6 +231,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel*, "", "LocalLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, "", "LocalLeaderboardsModel/LeaderboardType");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::add_newScoreWasAddedToLeaderboardEvent
 // Il2CppName: add_newScoreWasAddedToLeaderboardEvent
 template<>

@@ -240,6 +240,25 @@ namespace UnityEngine::Rendering {
   static_assert(sizeof(CommandBuffer) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer*, "UnityEngine.Rendering", "CommandBuffer");
+// Writing includes for template specializations
+#include "UnityEngine/Mesh.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
+#include "UnityEngine/Material.hpp"
+#include "UnityEngine/MaterialPropertyBlock.hpp"
+#include "UnityEngine/Renderer.hpp"
+#include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
+#include "UnityEngine/Texture.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/FilterMode.hpp"
+#include "UnityEngine/Experimental/Rendering/GraphicsFormat.hpp"
+#include "UnityEngine/RenderTextureMemoryless.hpp"
+#include "UnityEngine/RenderTextureFormat.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "UnityEngine/Rendering/CommandBufferExecutionFlags.hpp"
+#include "UnityEngine/Rendering/RenderTextureSubElement.hpp"
+#include "UnityEngine/Rendering/ShadowSamplingMode.hpp"
+#include "UnityEngine/Rendering/RenderBufferLoadAction.hpp"
+#include "UnityEngine/Rendering/RenderBufferStoreAction.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::InitBuffer
 // Il2CppName: InitBuffer
 template<>

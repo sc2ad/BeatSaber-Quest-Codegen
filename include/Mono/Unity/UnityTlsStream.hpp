@@ -73,6 +73,13 @@ namespace Mono::Unity {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsStream*, "Mono.Unity", "UnityTlsStream");
+// Writing includes for template specializations
+#include "System/Net/Security/SslStream.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
+#include "Mono/Security/Interface/MonoTlsProvider.hpp"
+#include "System/Security/Authentication/SslProtocols.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

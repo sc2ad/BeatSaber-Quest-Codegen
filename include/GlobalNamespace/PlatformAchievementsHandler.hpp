@@ -46,6 +46,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsHandler*, "", "PlatformAchievementsHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlatformAchievementsModelSO_UnlockAchievementCompletionHandler.hpp"
+#include "GlobalNamespace/PlatformAchievementsModelSO_GetUnlockedAchievementsCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::UnlockAchievement
 // Il2CppName: UnlockAchievement
 template<>

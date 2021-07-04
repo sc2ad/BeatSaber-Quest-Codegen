@@ -81,6 +81,8 @@ namespace LiteNetLib {
   static_assert(sizeof(NetManager::NetPeerEnumerator) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");
+// Writing includes for template specializations
+#include "LiteNetLib/NetPeer.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::NetPeerEnumerator::NetPeerEnumerator
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

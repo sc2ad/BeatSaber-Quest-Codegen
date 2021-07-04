@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKLODController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController*, "RootMotion.FinalIK", "VRIKLODController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::Start
 // Il2CppName: Start
 template<>

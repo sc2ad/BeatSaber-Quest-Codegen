@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnWillRenderObjectTrigger) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger*, "", "OnWillRenderObjectTrigger");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OnWillRenderObjectTrigger::OnEnable
 // Il2CppName: OnEnable
 template<>

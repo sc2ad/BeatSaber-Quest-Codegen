@@ -64,6 +64,7 @@ namespace System::ComponentModel {
   static_assert(sizeof(DefaultPropertyAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DefaultPropertyAttribute*, "System.ComponentModel", "DefaultPropertyAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ComponentModel::DefaultPropertyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

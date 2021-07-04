@@ -129,6 +129,10 @@ namespace System::Net::Sockets {
   static_assert(sizeof(TcpClient) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
+// Writing includes for template specializations
+#include "System/Net/Sockets/Socket.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::TcpClient::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

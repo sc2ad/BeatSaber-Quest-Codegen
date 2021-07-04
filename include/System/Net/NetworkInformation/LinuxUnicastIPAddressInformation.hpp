@@ -55,6 +55,8 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(LinuxUnicastIPAddressInformation) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*, "System.Net.NetworkInformation", "LinuxUnicastIPAddressInformation");
+// Writing includes for template specializations
+#include "System/Net/IPAddress.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

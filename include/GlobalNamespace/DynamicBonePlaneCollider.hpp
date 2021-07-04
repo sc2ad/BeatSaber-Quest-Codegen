@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBonePlaneCollider*, "", "DynamicBonePlaneCollider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBonePlaneCollider::OnValidate
 // Il2CppName: OnValidate
 template<>

@@ -274,6 +274,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelCollectionTableView) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "UnityEngine/Sprite.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent
 // Il2CppName: add_didSelectLevelEvent
 template<>

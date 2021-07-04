@@ -130,6 +130,10 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(ViaHeaderValue) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ViaHeaderValue*, "System.Net.Http.Headers", "ViaHeaderValue");
+// Writing includes for template specializations
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::get_Comment
 // Il2CppName: get_Comment
 template<>

@@ -811,6 +811,19 @@ namespace System {
   bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
+// Writing includes for template specializations
+#include "System/RuntimeType_MemberListType.hpp"
+#include "System/Reflection/RuntimeMethodInfo.hpp"
+#include "System/Reflection/CallingConventions.hpp"
+#include "System/Reflection/RuntimeConstructorInfo.hpp"
+#include "System/Reflection/MethodBase.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/TypeNameKind.hpp"
+#include "System/Guid.hpp"
+#include "System/Reflection/MemberTypes.hpp"
 // Writing MetadataGetter for method: System::RuntimeType::ThrowIfTypeNeverValidGenericArgument
 // Il2CppName: ThrowIfTypeNeverValidGenericArgument
 template<>

@@ -157,6 +157,10 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestSuite) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "NUnit/Framework/Interfaces/ITypeInfo.hpp"
+#include "NUnit/Framework/Interfaces/TNode.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Sort
 // Il2CppName: Sort
 template<>

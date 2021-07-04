@@ -132,6 +132,8 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController::HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

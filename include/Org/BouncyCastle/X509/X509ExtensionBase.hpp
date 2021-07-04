@@ -51,6 +51,8 @@ namespace Org::BouncyCastle::X509 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions
 // Il2CppName: GetX509Extensions
 template<>

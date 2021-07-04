@@ -81,6 +81,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent
 // Il2CppName: add_VisibilityChangedEvent
 template<>

@@ -135,6 +135,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ControllersTransformSettingsViewController) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");
+// Writing includes for template specializations
+#include "HMUI/RangeValuesTextSlider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange
 // Il2CppName: HandlePositionSliderValueDidChange
 template<>

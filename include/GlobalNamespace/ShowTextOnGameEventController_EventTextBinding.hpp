@@ -72,6 +72,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowTextOnGameEventController::EventTextBinding) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");
+// Writing includes for template specializations
+#include "GlobalNamespace/TextFadeTransitions.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init
 // Il2CppName: Init
 template<>

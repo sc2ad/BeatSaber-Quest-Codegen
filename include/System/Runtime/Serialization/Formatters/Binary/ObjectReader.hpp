@@ -341,6 +341,18 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectReader) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalFE.hpp"
+#include "System/Runtime/Serialization/SerializationBinder.hpp"
+#include "System/Runtime/Remoting/Messaging/HeaderHandler.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
+#include "System/Type.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
+#include "System/Reflection/AssemblyName.hpp"
+#include "System/Reflection/Assembly.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::get_ValueFixupStack
 // Il2CppName: get_ValueFixupStack
 template<>

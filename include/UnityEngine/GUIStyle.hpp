@@ -397,6 +397,12 @@ namespace UnityEngine {
   static_assert(sizeof(GUIStyle) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Rect.hpp"
+#include "UnityEngine/GUIContent.hpp"
+#include "UnityEngine/Color.hpp"
+#include "UnityEngine/Font.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_rawName
 // Il2CppName: get_rawName
 template<>

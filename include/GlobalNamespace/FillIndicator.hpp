@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FillIndicator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FillIndicator::set_fillAmount
 // Il2CppName: set_fillAmount
 template<>

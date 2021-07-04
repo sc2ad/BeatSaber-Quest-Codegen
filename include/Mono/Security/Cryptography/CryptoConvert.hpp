@@ -44,6 +44,7 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::ToInt32LE
 // Il2CppName: ToInt32LE
 template<>

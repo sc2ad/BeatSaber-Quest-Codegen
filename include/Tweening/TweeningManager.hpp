@@ -109,6 +109,8 @@ namespace Tweening {
   static_assert(sizeof(TweeningManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");
+// Writing includes for template specializations
+#include "Tweening/Tween.hpp"
 // Writing MetadataGetter for method: Tweening::TweeningManager::Start
 // Il2CppName: Start
 template<>

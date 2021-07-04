@@ -91,6 +91,8 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReactionVRIK::RotationOffset) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/VRIK.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::GetLength
 // Il2CppName: GetLength
 template<>

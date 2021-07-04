@@ -71,6 +71,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusMRCManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");
+// Writing includes for template specializations
+#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusMRCManager::Init
 // Il2CppName: Init
 template<>

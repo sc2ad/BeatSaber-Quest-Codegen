@@ -81,6 +81,8 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4Helper*, "", "PS4Helper");
+// Writing includes for template specializations
+#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4Helper::add_didGoToBackgroundExecutionEvent
 // Il2CppName: add_didGoToBackgroundExecutionEvent
 template<>

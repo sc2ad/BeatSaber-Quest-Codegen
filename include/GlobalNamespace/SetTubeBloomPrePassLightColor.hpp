@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetTubeBloomPrePassLightColor::Start
 // Il2CppName: Start
 template<>

@@ -69,6 +69,10 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayerQuitHandler");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/PlayerConnection/MessageEventArgs.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::Start
 // Il2CppName: Start
 template<>

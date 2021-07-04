@@ -102,6 +102,9 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorHueSlider*, "", "ColorHueSlider");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent
 // Il2CppName: add_colorHueDidChangeEvent
 template<>

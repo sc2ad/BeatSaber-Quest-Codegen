@@ -31,6 +31,7 @@ namespace Mono::Security::Protocol::Ntlm {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel
 // Il2CppName: get_DefaultAuthLevel
 template<>

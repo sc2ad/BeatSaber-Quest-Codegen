@@ -240,6 +240,8 @@ namespace System {
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
+// Writing includes for template specializations
+#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::TimeSpan::TimeSpan
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -65,6 +65,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicCollectionSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", "BeatmapCharacteristicCollectionSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics
 // Il2CppName: get_beatmapCharacteristics
 template<>

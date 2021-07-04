@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MarkableUIButton) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::get_marked
 // Il2CppName: get_marked
 template<>

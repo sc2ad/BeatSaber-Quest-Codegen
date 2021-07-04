@@ -133,6 +133,12 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(Win32RegistryApi) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "Win32RegistryApi");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "System/Text/StringBuilder.hpp"
+#include "Microsoft/Win32/RegistryValueKind.hpp"
+#include "Microsoft/Win32/RegistryKey.hpp"
+#include "Microsoft/Win32/RegistryValueOptions.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegCloseKey
 // Il2CppName: RegCloseKey
 template<>

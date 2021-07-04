@@ -150,6 +150,8 @@ namespace System::Collections {
   static_assert(sizeof(SortedList::SyncSortedList) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SyncSortedList*, "System.Collections", "SortedList/SyncSortedList");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

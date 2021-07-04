@@ -31,6 +31,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresencePlatformHandler*, "", "IRichPresencePlatformHandler");
+// Writing includes for template specializations
+#include "GlobalNamespace/IRichPresenceData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>

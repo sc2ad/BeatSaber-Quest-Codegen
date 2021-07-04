@@ -118,6 +118,9 @@ namespace System {
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::UIntPtr::UIntPtr
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

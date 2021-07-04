@@ -69,6 +69,7 @@ namespace System::Net {
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

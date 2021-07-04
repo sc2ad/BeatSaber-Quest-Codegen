@@ -27,6 +27,7 @@ namespace System::Net::Http::Headers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Token*, "System.Net.Http.Headers", "Parser/Token");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::Token::Check
 // Il2CppName: Check
 template<>

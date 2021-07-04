@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementIdsModelSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementIdsModelSO*, "", "AchievementIdsModelSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AchievementIdsModelSO::get_achievementsIds
 // Il2CppName: get_achievementsIds
 template<>

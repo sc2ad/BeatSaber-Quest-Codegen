@@ -46,6 +46,8 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IConstraint*, "NUnit.Framework.Constraints", "IConstraint");
+// Writing includes for template specializations
+#include "NUnit/Framework/Constraints/ConstraintBuilder.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::IConstraint::get_Description
 // Il2CppName: get_Description
 template<>

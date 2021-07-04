@@ -118,6 +118,8 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(DllImportAttribute) == 0x2E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
+// Writing includes for template specializations
+#include "System/Reflection/RuntimeMethodInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>

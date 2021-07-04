@@ -111,6 +111,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(MD5CryptoServiceProvider) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>

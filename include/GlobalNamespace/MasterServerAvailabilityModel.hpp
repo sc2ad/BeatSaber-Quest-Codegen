@@ -122,6 +122,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerAvailabilityModel) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityModel*, "", "MasterServerAvailabilityModel");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityModel::Init
 // Il2CppName: Init
 template<>

@@ -158,6 +158,13 @@ namespace System::Reflection {
   static_assert(sizeof(CustomAttributeData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflection", "CustomAttributeData");
+// Writing includes for template specializations
+#include "System/Reflection/ConstructorInfo.hpp"
+#include "System/Reflection/Assembly.hpp"
+#include "System/Reflection/MemberInfo.hpp"
+#include "System/RuntimeType.hpp"
+#include "System/Reflection/Module.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

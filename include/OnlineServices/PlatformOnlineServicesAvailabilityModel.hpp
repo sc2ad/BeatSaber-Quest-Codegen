@@ -79,6 +79,9 @@ namespace OnlineServices {
   static_assert(sizeof(PlatformOnlineServicesAvailabilityModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent
 // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
 template<>

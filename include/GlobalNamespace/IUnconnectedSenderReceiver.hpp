@@ -75,6 +75,10 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedSenderReceiver*, "", "IUnconnectedSenderReceiver");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>

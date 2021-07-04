@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberModelContainer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer*, "", "SaberModelContainer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SaberModelContainer::Start
 // Il2CppName: Start
 template<>

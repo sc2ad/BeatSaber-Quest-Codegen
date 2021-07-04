@@ -113,6 +113,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerGameNoteController) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*, "", "MultiplayerConnectedPlayerGameNoteController");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/NoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent
 // Il2CppName: add_cubeNoteControllerDidInitEvent
 template<>

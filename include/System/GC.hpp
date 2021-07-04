@@ -61,6 +61,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::GC::GetMaxGeneration
 // Il2CppName: GetMaxGeneration
 template<>

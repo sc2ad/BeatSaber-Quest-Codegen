@@ -137,6 +137,11 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
+// Writing includes for template specializations
+#include "UnityEngine/AndroidJavaProxy.hpp"
+#include "UnityEngine/AndroidJavaRunnable.hpp"
+#include "UnityEngine/AndroidJavaObject.hpp"
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJavaProxy
 // Il2CppName: CreateJavaProxy
 template<>

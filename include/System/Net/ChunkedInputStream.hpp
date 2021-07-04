@@ -104,6 +104,10 @@ namespace System::Net {
   static_assert(sizeof(ChunkedInputStream) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream*, "System.Net", "ChunkedInputStream");
+// Writing includes for template specializations
+#include "System/Net/HttpListenerContext.hpp"
+#include "System/IAsyncResult.hpp"
+#include "System/AsyncCallback.hpp"
 // Writing MetadataGetter for method: System::Net::ChunkedInputStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

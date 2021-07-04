@@ -35,6 +35,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProGridsNoSnapAttribute*, "UnityEngine.ProBuilder", "ProGridsNoSnapAttribute");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProGridsNoSnapAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

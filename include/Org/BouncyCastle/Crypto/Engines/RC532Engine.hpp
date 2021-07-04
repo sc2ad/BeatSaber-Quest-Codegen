@@ -116,6 +116,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RC532Engine) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC532Engine*, "Org.BouncyCastle.Crypto.Engines", "RC532Engine");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RC532Engine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

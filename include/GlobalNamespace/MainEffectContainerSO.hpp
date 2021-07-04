@@ -72,6 +72,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectContainerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/MainEffectSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::get_mainEffect
 // Il2CppName: get_mainEffect
 template<>

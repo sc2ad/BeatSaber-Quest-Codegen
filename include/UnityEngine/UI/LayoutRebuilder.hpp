@@ -151,6 +151,11 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutRebuilder) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Initialize
 // Il2CppName: Initialize
 template<>

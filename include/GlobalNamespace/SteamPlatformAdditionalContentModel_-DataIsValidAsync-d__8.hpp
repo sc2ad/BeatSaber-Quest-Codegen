@@ -81,6 +81,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$DataIsValidAsync$d__8, "", "SteamPlatformAdditionalContentModel/<DataIsValidAsync>d__8");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::$DataIsValidAsync$d__8::MoveNext
 // Il2CppName: MoveNext
 template<>

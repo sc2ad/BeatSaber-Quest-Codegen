@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionStagesManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage
 // Il2CppName: get_firstLockedMissionStage
 template<>

@@ -99,6 +99,8 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c*, "Zenject", "TickableManager/<>c");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

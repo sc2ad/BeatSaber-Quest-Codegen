@@ -73,6 +73,9 @@ namespace Zenject {
   static_assert(sizeof(FromBinder::$$c__DisplayClass22_0) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass22_0*, "Zenject", "FromBinder/<>c__DisplayClass22_0");
+// Writing includes for template specializations
+#include "Zenject/DiContainer.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass22_0::$FromResolveInternal$b__0
 // Il2CppName: <FromResolveInternal>b__0
 template<>

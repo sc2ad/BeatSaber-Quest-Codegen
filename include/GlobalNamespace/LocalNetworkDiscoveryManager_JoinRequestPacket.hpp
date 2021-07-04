@@ -74,6 +74,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, "", "LocalNetworkDiscoveryManager/JoinRequestPacket");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket::Serialize
 // Il2CppName: Serialize
 template<>

@@ -63,6 +63,7 @@ namespace Mono::Math {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Kernel*, "Mono.Math", "BigInteger/Kernel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::Subtract
 // Il2CppName: Subtract
 template<>

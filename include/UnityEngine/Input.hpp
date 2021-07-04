@@ -131,6 +131,12 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Input*, "UnityEngine", "Input");
+// Writing includes for template specializations
+#include "UnityEngine/KeyCode.hpp"
+#include "UnityEngine/IMECompositionMode.hpp"
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Touch.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: UnityEngine::Input::GetKeyInt
 // Il2CppName: GetKeyInt
 template<>

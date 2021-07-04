@@ -67,6 +67,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, "Zenject", "InstantiateCallbackConditionCopyNonLazyBinder");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::InstantiateCallbackConditionCopyNonLazyBinder::OnInstantiated
 // Il2CppName: OnInstantiated
 template<>

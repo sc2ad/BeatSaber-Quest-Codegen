@@ -174,6 +174,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySetupViewController) == 0xAD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupViewController*, "", "QuickPlaySetupViewController");
+// Writing includes for template specializations
+#include "System/Action.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/ILobbyPlayerDataModel.hpp"
+#include "GlobalNamespace/BeatmapDifficultyMask.hpp"
+#include "GlobalNamespace/SongPackMask.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySetupViewController::add_suggestBeatmapEvent
 // Il2CppName: add_suggestBeatmapEvent
 template<>

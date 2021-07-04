@@ -103,6 +103,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(ColorPalette) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ColorPalette::get_current
 // Il2CppName: get_current
 template<>

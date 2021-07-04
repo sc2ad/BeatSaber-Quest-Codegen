@@ -575,6 +575,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRInput_Button.hpp"
+#include "GlobalNamespace/OVRInput_RawButton.hpp"
+#include "GlobalNamespace/OVRInput_Touch.hpp"
+#include "GlobalNamespace/OVRInput_RawTouch.hpp"
+#include "GlobalNamespace/OVRInput_NearTouch.hpp"
+#include "GlobalNamespace/OVRInput_RawNearTouch.hpp"
+#include "GlobalNamespace/OVRInput_Axis1D.hpp"
+#include "GlobalNamespace/OVRInput_RawAxis1D.hpp"
+#include "GlobalNamespace/OVRInput_Axis2D.hpp"
+#include "GlobalNamespace/OVRInput_RawAxis2D.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
+#include "OVR/OpenVR/ETrackedDeviceProperty.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::get_pluginSupportsActiveController
 // Il2CppName: get_pluginSupportsActiveController
 template<>

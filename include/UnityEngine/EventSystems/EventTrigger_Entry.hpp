@@ -51,6 +51,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(EventTrigger::Entry) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::Entry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

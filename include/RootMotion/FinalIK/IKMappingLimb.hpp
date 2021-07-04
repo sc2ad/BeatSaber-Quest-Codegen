@@ -162,6 +162,12 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKMappingLimb) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb*, "RootMotion.FinalIK", "IKMappingLimb");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/IKMappingLimb_BoneMapType.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/FinalIK/IKSolverFullBody.hpp"
+#include "RootMotion/FinalIK/IKSolver.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingLimb::GetBoneMap
 // Il2CppName: GetBoneMap
 template<>

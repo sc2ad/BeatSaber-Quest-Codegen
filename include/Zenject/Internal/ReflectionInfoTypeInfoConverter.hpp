@@ -106,6 +106,16 @@ namespace Zenject::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter");
+// Writing includes for template specializations
+#include "Zenject/Internal/ReflectionTypeInfo_InjectMethodInfo.hpp"
+#include "Zenject/Internal/ReflectionTypeInfo_InjectConstructorInfo.hpp"
+#include "System/Type.hpp"
+#include "Zenject/Internal/ReflectionTypeInfo_InjectFieldInfo.hpp"
+#include "Zenject/Internal/ReflectionTypeInfo_InjectPropertyInfo.hpp"
+#include "System/Reflection/ConstructorInfo.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertMethod
 // Il2CppName: ConvertMethod
 template<>

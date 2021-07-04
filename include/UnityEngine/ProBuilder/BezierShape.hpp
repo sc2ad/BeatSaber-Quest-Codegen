@@ -131,6 +131,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(BezierShape) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierShape::get_isEditing
 // Il2CppName: get_isEditing
 template<>

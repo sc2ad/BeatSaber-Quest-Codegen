@@ -79,6 +79,8 @@ namespace System::Reflection {
   static_assert(sizeof(CustomAttributeNamedArgument) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
+// Writing includes for template specializations
+#include "System/Reflection/MemberInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeNamedArgument::CustomAttributeNamedArgument
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

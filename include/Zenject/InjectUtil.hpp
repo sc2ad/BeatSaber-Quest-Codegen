@@ -115,6 +115,10 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::InjectUtil::CreateArgList
 // Il2CppName: CreateArgList
 template<>

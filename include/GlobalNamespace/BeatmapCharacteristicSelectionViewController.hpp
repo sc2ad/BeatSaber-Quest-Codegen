@@ -112,6 +112,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicSelectionViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSelectionViewController*, "", "BeatmapCharacteristicSelectionViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::add_didSelectBeatmapCharacteristicEvent
 // Il2CppName: add_didSelectBeatmapCharacteristicEvent
 template<>

@@ -116,6 +116,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuLightsManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager*, "", "MenuLightsManager");
+// Writing includes for template specializations
+#include "UnityEngine/Color.hpp"
+#include "GlobalNamespace/MenuLightsPresetSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::Start
 // Il2CppName: Start
 template<>

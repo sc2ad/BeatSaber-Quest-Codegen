@@ -56,6 +56,8 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c");
+// Writing includes for template specializations
+#include "System/TimeZoneInfo_AdjustmentRule.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::$$c::_cctor
 // Il2CppName: .cctor
 template<>

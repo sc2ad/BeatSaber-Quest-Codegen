@@ -288,6 +288,11 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
+// Writing includes for template specializations
+#include "UnityEngine/Matrix4x4.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "UnityEngine/RenderTexture.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::OnValidate
 // Il2CppName: OnValidate
 template<>

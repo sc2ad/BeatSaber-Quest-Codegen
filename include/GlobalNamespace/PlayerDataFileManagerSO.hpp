@@ -164,6 +164,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerDataFileManagerSO) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataFileManagerSO*, "", "PlayerDataFileManagerSO");
+// Writing includes for template specializations
+#include "GlobalNamespace/PlayerData.hpp"
+#include "GlobalNamespace/PlayerSaveData.hpp"
+#include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicCollectionSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::Save
 // Il2CppName: Save
 template<>

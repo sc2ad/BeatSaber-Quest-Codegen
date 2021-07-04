@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$$c*, "", "HTTPLeaderboardsModel/<>c");
+// Writing includes for template specializations
+#include "BeatSaberAPI/DataTransferObjects/LeaderboardEntry.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>

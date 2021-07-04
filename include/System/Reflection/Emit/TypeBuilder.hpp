@@ -226,6 +226,10 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilder*, "System.Reflection.Emit", "TypeBuilder");
+// Writing includes for template specializations
+#include "System/Reflection/Binder.hpp"
+#include "System/Reflection/CallingConventions.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_Assembly
 // Il2CppName: get_Assembly
 template<>

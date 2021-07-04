@@ -201,6 +201,7 @@ namespace UnityEngine::ProBuilder {
   bool operator >=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer*, "UnityEngine.ProBuilder", "SemVer");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_major
 // Il2CppName: get_major
 template<>

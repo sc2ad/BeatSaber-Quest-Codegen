@@ -42,6 +42,8 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioClipAsyncLoader*, "", "IAudioClipAsyncLoader");
+// Writing includes for template specializations
+#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IAudioClipAsyncLoader::LoadAudioClipAsync
 // Il2CppName: LoadAudioClipAsync
 template<>

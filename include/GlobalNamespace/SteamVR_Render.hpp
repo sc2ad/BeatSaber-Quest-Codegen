@@ -237,6 +237,10 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Render) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Render*, "", "SteamVR_Render");
+// Writing includes for template specializations
+#include "GlobalNamespace/SteamVR_Camera.hpp"
+#include "Valve/VR/VREvent_t.hpp"
+#include "Valve/VR/EVRScreenshotPropertyFilenames.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::get_eye
 // Il2CppName: get_eye
 template<>

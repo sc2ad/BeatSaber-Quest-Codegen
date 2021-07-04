@@ -71,6 +71,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static_assert(sizeof(InitializationOperation::$$c__DisplayClass16_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c__DisplayClass16_0");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::$LoadContentCatalog$b__0
 // Il2CppName: <LoadContentCatalog>b__0
 template<>

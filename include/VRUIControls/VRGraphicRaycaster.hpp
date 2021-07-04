@@ -197,6 +197,11 @@ namespace VRUIControls {
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
+// Writing includes for template specializations
+#include "UnityEngine/Canvas.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::RaycastCanvas
 // Il2CppName: RaycastCanvas
 template<>

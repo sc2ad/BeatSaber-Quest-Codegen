@@ -276,6 +276,11 @@ namespace System {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
+// Writing includes for template specializations
+#include "System/Uri.hpp"
+#include "System/UriFormatException.hpp"
+#include "System/UriComponents.hpp"
+#include "System/UriFormat.hpp"
 // Writing MetadataGetter for method: System::UriParser::get_SchemeName
 // Il2CppName: get_SchemeName
 template<>

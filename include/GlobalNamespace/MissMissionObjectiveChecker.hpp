@@ -70,6 +70,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissMissionObjectiveChecker*, "", "MissMissionObjectiveChecker");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>

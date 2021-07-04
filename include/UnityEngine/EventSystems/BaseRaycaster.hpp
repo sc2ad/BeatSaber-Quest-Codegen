@@ -111,6 +111,9 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(BaseRaycaster) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster*, "UnityEngine.EventSystems", "BaseRaycaster");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseRaycaster::Raycast
 // Il2CppName: Raycast
 template<>

@@ -60,6 +60,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(UVEditing::$$c__DisplayClass9_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass9_0");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::$AutoStitch$b__0
 // Il2CppName: <AutoStitch>b__0
 template<>

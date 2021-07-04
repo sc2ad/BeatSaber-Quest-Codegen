@@ -122,6 +122,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
+// Writing includes for template specializations
+#include "UnityEngine/ContactFilter2D.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Equals
 // Il2CppName: Equals
 template<>

@@ -223,6 +223,12 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Slider2D*, "HMUI", "Slider2D");
+// Writing includes for template specializations
+#include "UnityEngine/RectTransform.hpp"
+#include "System/Action_2.hpp"
+#include "UnityEngine/UI/CanvasUpdate.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: HMUI::Slider2D::get_handleRect
 // Il2CppName: get_handleRect
 template<>

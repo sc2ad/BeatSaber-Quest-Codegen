@@ -60,6 +60,7 @@ namespace UnityEngine {
   bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TrackedReference::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

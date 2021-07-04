@@ -52,6 +52,9 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::SystemCertificateValidator*, "Mono.Net.Security", "SystemCertificateValidator");
+// Writing includes for template specializations
+#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
+#include "Mono/Security/Interface/MonoTlsSettings.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::SystemCertificateValidator::_cctor
 // Il2CppName: .cctor
 template<>

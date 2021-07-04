@@ -85,6 +85,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLayoutProvider) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::get_layout
 // Il2CppName: get_layout
 template<>

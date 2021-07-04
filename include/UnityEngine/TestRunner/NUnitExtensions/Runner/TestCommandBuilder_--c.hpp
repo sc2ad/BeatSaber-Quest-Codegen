@@ -83,6 +83,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");
+// Writing includes for template specializations
+#include "NUnit/Framework/Interfaces/ITestBuilder.hpp"
+#include "NUnit/Framework/Interfaces/ISimpleTestBuilder.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

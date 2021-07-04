@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetSaberFakeGlowColor) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberFakeGlowColor*, "", "SetSaberFakeGlowColor");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::set_saberType
 // Il2CppName: set_saberType
 template<>

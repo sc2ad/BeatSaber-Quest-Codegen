@@ -72,6 +72,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UnityLogWriter::WriteStringToUnityLog
 // Il2CppName: WriteStringToUnityLog
 template<>

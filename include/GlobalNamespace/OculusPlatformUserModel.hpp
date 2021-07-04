@@ -102,6 +102,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformUserModel) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::GetUserInfo
 // Il2CppName: GetUserInfo
 template<>

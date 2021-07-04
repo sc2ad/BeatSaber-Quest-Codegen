@@ -116,6 +116,10 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(EntityTagHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::EntityTagHeaderValue*, "System.Net.Http.Headers", "EntityTagHeaderValue");
+// Writing includes for template specializations
+#include "System/Net/Http/Headers/Lexer.hpp"
+#include "System/Net/Http/Headers/Token.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::get_IsWeak
 // Il2CppName: get_IsWeak
 template<>

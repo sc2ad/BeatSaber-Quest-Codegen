@@ -119,6 +119,10 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static_assert(sizeof(CfbBlockCipherMac) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*, "Org.BouncyCastle.Crypto.Macs", "CfbBlockCipherMac");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
+#include "Org/BouncyCastle/Crypto/Paddings/IBlockCipherPadding.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

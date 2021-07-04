@@ -170,6 +170,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextGenerationSettings::CompareColors
 // Il2CppName: CompareColors
 template<>

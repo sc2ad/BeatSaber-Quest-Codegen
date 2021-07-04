@@ -76,6 +76,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(MibIPGlobalProperties) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

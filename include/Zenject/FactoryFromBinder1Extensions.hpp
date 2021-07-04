@@ -147,6 +147,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder1Extensions*, "Zenject", "FactoryFromBinder1Extensions");
+// Writing includes for template specializations
+#include "Zenject/FactoryFromBinder_2.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinder1Extensions::FromIFactory
 // Il2CppName: FromIFactory
 // Cannot write MetadataGetter for generic methods!

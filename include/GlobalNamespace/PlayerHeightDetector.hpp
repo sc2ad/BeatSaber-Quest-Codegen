@@ -150,6 +150,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerHeightDetector) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/BeatmapObjectData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent
 // Il2CppName: add_playerHeightDidChangeEvent
 template<>

@@ -121,6 +121,10 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRChaperoneSetup) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperoneSetup*, "OVR.OpenVR", "CVRChaperoneSetup");
+// Writing includes for template specializations
+#include "OVR/OpenVR/EChaperoneConfigFile.hpp"
+#include "OVR/OpenVR/HmdMatrix34_t.hpp"
+#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

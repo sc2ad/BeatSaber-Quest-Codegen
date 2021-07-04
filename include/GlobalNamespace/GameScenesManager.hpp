@@ -268,6 +268,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameScenesManager) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager*, "", "GameScenesManager");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "System/Action.hpp"
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "GlobalNamespace/GameScenesManager_ScenePresentType.hpp"
+#include "GlobalNamespace/GameScenesManager_SceneDismissType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::add_transitionDidStartEvent
 // Il2CppName: add_transitionDidStartEvent
 template<>

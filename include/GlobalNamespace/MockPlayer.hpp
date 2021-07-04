@@ -485,6 +485,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayer) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer*, "", "MockPlayer");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockPlayerSettings.hpp"
+#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
+#include "GlobalNamespace/AvatarPartsModel.hpp"
+#include "GlobalNamespace/BeatmapLevelsModel.hpp"
+#include "GlobalNamespace/NodePoseSyncStateManager.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isReady
 // Il2CppName: get_isReady
 template<>

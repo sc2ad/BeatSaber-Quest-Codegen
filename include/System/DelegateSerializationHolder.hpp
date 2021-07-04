@@ -78,6 +78,9 @@ namespace System {
   static_assert(sizeof(DelegateSerializationHolder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder*, "System", "DelegateSerializationHolder");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
+#include "System/Delegate.hpp"
 // Writing MetadataGetter for method: System::DelegateSerializationHolder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

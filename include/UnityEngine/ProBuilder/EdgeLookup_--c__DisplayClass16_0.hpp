@@ -62,6 +62,8 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(EdgeLookup::$$c__DisplayClass16_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0*, "UnityEngine.ProBuilder", "EdgeLookup/<>c__DisplayClass16_0");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::$GetEdgeLookup$b__0
 // Il2CppName: <GetEdgeLookup>b__0
 template<>

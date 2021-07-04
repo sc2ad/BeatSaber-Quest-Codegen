@@ -45,6 +45,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutElement::CalculateLayoutInputHorizontal
 // Il2CppName: CalculateLayoutInputHorizontal
 template<>

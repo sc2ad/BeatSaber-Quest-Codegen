@@ -419,6 +419,13 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionSystem) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
+#include "RootMotion/FinalIK/InteractionObject.hpp"
+#include "RootMotion/FinalIK/InteractionTarget.hpp"
+#include "RootMotion/FinalIK/FullBodyBipedIK.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

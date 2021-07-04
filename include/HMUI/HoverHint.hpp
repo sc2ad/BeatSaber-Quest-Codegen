@@ -110,6 +110,8 @@ namespace HMUI {
   static_assert(sizeof(HoverHint) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");
+// Writing includes for template specializations
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHint::get_text
 // Il2CppName: get_text
 template<>

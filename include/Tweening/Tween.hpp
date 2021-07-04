@@ -222,6 +222,8 @@ namespace Tweening {
   static_assert(sizeof(Tween) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");
+// Writing includes for template specializations
+#include "UnityEngine/AnimationCurve.hpp"
 // Writing MetadataGetter for method: Tweening::Tween::get_progress
 // Il2CppName: get_progress
 template<>

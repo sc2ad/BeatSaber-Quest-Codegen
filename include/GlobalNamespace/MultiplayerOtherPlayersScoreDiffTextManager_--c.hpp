@@ -58,6 +58,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c*, "", "MultiplayerOtherPlayersScoreDiffTextManager/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MultiplayerScoreProvider_RankedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

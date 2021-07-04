@@ -164,6 +164,9 @@ namespace System::Net {
   static_assert(sizeof(WebException) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebException*, "System.Net", "WebException");
+// Writing includes for template specializations
+#include "System/Net/WebResponse.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Net::WebException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

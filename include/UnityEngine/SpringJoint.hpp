@@ -29,6 +29,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpringJoint*, "UnityEngine", "SpringJoint");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::SpringJoint::set_minDistance
 // Il2CppName: set_minDistance
 template<>

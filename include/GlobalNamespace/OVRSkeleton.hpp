@@ -343,6 +343,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton*, "", "OVRSkeleton");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonType, "", "OVRSkeleton/SkeletonType");
+// Writing includes for template specializations
+#include "System/Collections/Generic/IList_1.hpp"
+#include "GlobalNamespace/OVRSkeleton_BoneId.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>

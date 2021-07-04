@@ -83,6 +83,10 @@ namespace System {
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
+// Writing includes for template specializations
+#include "System/IOAsyncCallback.hpp"
+#include "System/IOAsyncResult.hpp"
+#include "System/Threading/ThreadAbortException.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

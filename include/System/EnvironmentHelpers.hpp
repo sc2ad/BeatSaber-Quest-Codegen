@@ -22,6 +22,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::EnvironmentHelpers::IsWindowsVistaOrAbove
 // Il2CppName: IsWindowsVistaOrAbove
 template<>

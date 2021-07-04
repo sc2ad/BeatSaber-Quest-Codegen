@@ -140,6 +140,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(CutScoreBuffer) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteCutInfo.hpp"
+#include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::get_scoreWithMultiplier
 // Il2CppName: get_scoreWithMultiplier
 template<>

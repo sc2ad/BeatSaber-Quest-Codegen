@@ -83,6 +83,8 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::LongRunningThreadWork
 // Il2CppName: LongRunningThreadWork
 template<>

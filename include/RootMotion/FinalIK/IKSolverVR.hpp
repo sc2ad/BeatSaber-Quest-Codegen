@@ -401,6 +401,12 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR) == 0x178);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR*, "RootMotion.FinalIK", "IKSolverVR");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/VRIK_References.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_PositionOffset.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_RotationOffset.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_VirtualBone.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::SetToReferences
 // Il2CppName: SetToReferences
 template<>

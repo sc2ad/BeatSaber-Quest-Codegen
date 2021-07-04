@@ -74,6 +74,9 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/ExceptionResource.hpp"
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentNullException
 // Il2CppName: ThrowArgumentNullException
 template<>

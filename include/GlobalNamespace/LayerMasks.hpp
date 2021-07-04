@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks*, "", "LayerMasks");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LayerMasks::GetLayerMask
 // Il2CppName: GetLayerMask
 template<>

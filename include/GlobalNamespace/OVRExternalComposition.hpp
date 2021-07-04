@@ -205,6 +205,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRExternalComposition) == 0xBC);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExternalComposition");
+// Writing includes for template specializations
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Camera.hpp"
+#include "GlobalNamespace/OVRMixedRealityCaptureConfiguration.hpp"
+#include "GlobalNamespace/OVRManager_TrackingOrigin.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::RefreshCameraObjects
 // Il2CppName: RefreshCameraObjects
 template<>

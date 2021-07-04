@@ -49,6 +49,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomYieldInstruction*, "UnityEngine", "CustomYieldInstruction");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::CustomYieldInstruction::get_keepWaiting
 // Il2CppName: get_keepWaiting
 template<>

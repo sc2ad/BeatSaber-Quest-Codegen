@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BetaBuildInfoText) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BetaBuildInfoText*, "", "BetaBuildInfoText");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BetaBuildInfoText::Start
 // Il2CppName: Start
 template<>

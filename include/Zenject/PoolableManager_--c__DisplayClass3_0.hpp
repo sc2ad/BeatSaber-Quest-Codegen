@@ -67,6 +67,8 @@ namespace Zenject {
   static_assert(sizeof(PoolableManager::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c__DisplayClass3_0*, "Zenject", "PoolableManager/<>c__DisplayClass3_0");
+// Writing includes for template specializations
+#include "ModestTree/Util/ValuePair_2.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c__DisplayClass3_0::$CreatePoolableInfo$b__0
 // Il2CppName: <CreatePoolableInfo>b__0
 template<>

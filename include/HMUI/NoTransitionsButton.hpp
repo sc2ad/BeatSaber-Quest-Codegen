@@ -133,6 +133,9 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
+// Writing includes for template specializations
+#include "System/Action_1.hpp"
+#include "UnityEngine/UI/Selectable_SelectionState.hpp"
 // Writing MetadataGetter for method: HMUI::NoTransitionsButton::get_selectionState
 // Il2CppName: get_selectionState
 template<>

@@ -158,6 +158,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelNoTransitionInstaller) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller*, "", "StandardLevelNoTransitionInstaller");
+// Writing includes for template specializations
+#include "GlobalNamespace/ColorSchemeSO.hpp"
+#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelNoTransitionInstaller::get_colorScheme
 // Il2CppName: get_colorScheme
 template<>

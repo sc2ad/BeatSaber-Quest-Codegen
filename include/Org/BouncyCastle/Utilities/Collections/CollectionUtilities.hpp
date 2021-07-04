@@ -39,6 +39,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*, "Org.BouncyCastle.Utilities.Collections", "CollectionUtilities");
+// Writing includes for template specializations
+#include "System/Collections/IDictionary.hpp"
+#include "System/Collections/IEnumerator.hpp"
+#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly
 // Il2CppName: ReadOnly
 template<>

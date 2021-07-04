@@ -131,6 +131,9 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverFABRIKRoot) == 0x84);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIKRoot*, "RootMotion.FinalIK", "IKSolverFABRIKRoot");
+// Writing includes for template specializations
+#include "RootMotion/FinalIK/FABRIKChain.hpp"
+#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFABRIKRoot::IsRoot
 // Il2CppName: IsRoot
 template<>

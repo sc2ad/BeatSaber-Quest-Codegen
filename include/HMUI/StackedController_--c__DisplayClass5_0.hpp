@@ -62,6 +62,8 @@ namespace HMUI {
   static_assert(sizeof(StackedController::$$c__DisplayClass5_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");
+// Writing includes for template specializations
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>

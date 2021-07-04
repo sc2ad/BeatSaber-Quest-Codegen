@@ -61,6 +61,8 @@ namespace Valve::VR {
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
+// Writing includes for template specializations
+#include "Valve/VR/EVREye.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

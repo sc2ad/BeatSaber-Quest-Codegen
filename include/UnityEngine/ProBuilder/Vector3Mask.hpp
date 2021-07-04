@@ -159,6 +159,8 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");
+// Writing includes for template specializations
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector3Mask::get_x
 // Il2CppName: get_x
 template<>

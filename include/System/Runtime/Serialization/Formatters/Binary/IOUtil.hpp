@@ -42,6 +42,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
+// Writing includes for template specializations
+#include "System/Runtime/Serialization/Formatters/Binary/MessageEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest
 // Il2CppName: FlagTest
 template<>

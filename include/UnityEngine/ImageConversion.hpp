@@ -40,6 +40,8 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageConversion*, "UnityEngine", "ImageConversion");
+// Writing includes for template specializations
+#include "UnityEngine/Texture2D.hpp"
 // Writing MetadataGetter for method: UnityEngine::ImageConversion::EncodeToPNG
 // Il2CppName: EncodeToPNG
 template<>

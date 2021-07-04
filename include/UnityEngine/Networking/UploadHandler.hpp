@@ -64,6 +64,7 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(UploadHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandler::Release
 // Il2CppName: Release
 template<>

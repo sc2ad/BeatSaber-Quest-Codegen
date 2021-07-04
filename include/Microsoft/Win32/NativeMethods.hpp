@@ -73,6 +73,12 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::NativeMethods*, "Microsoft.Win32", "NativeMethods");
+// Writing includes for template specializations
+#include "System/Runtime/InteropServices/HandleRef.hpp"
+#include "System/Runtime/InteropServices/SafeHandle.hpp"
+#include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
+#include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
+#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::DuplicateHandle
 // Il2CppName: DuplicateHandle
 template<>

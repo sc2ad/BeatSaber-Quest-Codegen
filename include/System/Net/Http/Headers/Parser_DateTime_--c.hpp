@@ -44,6 +44,7 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime::$$c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::DateTime::$$c::_cctor
 // Il2CppName: .cctor
 template<>

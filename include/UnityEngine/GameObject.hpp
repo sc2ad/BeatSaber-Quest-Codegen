@@ -401,6 +401,13 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GameObject*, "UnityEngine", "GameObject");
+// Writing includes for template specializations
+#include "UnityEngine/PrimitiveType.hpp"
+#include "System/Type.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "UnityEngine/Component.hpp"
+#include "UnityEngine/SendMessageOptions.hpp"
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Writing MetadataGetter for method: UnityEngine::GameObject::CreatePrimitive
 // Il2CppName: CreatePrimitive
 template<>

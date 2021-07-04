@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPoseMirror) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror*, "", "AvatarPoseMirror");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseMirror::Start
 // Il2CppName: Start
 template<>

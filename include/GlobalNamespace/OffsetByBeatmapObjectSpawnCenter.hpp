@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OffsetByBeatmapObjectSpawnCenter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OffsetByBeatmapObjectSpawnCenter*, "", "OffsetByBeatmapObjectSpawnCenter");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::Start
 // Il2CppName: Start
 template<>

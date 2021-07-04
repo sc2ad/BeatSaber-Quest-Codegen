@@ -89,6 +89,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "InitalizationObjectsOperation");
+// Writing includes for template specializations
+#include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::Init
 // Il2CppName: Init
 template<>

@@ -99,6 +99,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(BezierPoint) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBuilder", "BezierPoint");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/BezierTangentDirection.hpp"
+#include "UnityEngine/ProBuilder/BezierTangentMode.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::BezierPoint
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

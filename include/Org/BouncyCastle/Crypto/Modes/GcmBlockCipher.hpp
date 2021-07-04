@@ -262,6 +262,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static_assert(sizeof(GcmBlockCipher) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/Gcm/IGcmMultiplier.hpp"
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

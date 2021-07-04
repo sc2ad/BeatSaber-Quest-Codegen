@@ -271,6 +271,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "System/Action_1.hpp"
+#include "GlobalNamespace/LevelFilterParams.hpp"
+#include "HMUI/InputFieldView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent
 // Il2CppName: add_didPressSearchButtonEvent
 template<>

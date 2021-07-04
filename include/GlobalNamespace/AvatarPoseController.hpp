@@ -154,6 +154,11 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPoseController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController*, "", "AvatarPoseController");
+// Writing includes for template specializations
+#include "GlobalNamespace/AvatarPoseController_PositionsWillBeSetDelegate.hpp"
+#include "GlobalNamespace/AvatarPoseController_LatePositionsWillBeSetDelegate.hpp"
+#include "GlobalNamespace/AvatarPoseController_RotationsWillBeSetDelegate.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback
 // Il2CppName: get_earlyPositionsWillBeSetCallback
 template<>

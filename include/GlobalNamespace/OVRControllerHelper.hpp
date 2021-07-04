@@ -172,6 +172,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::Start
 // Il2CppName: Start
 template<>

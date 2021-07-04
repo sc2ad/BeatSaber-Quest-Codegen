@@ -134,6 +134,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBigAvatarAnimator) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarAnimator*, "", "MultiplayerBigAvatarAnimator");
+// Writing includes for template specializations
+#include "Tweening/EaseType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBigAvatarAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>

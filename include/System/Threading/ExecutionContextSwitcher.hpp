@@ -69,6 +69,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::UndoNoThrow
 // Il2CppName: UndoNoThrow
 template<>

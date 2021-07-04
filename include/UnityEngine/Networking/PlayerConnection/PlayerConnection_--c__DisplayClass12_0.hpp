@@ -53,6 +53,8 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerConnection::$$c__DisplayClass12_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass12_0");
+// Writing includes for template specializations
+#include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents_MessageTypeSubscribers.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0::$Register$b__0
 // Il2CppName: <Register>b__0
 template<>

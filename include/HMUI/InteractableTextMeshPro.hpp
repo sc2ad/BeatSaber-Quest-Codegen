@@ -90,6 +90,7 @@ namespace HMUI {
   static_assert(sizeof(InteractableTextMeshPro) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::OnCanvasGroupChanged
 // Il2CppName: OnCanvasGroupChanged
 template<>

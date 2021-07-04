@@ -38,6 +38,7 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.AchievementProgressList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgressList*, "Oculus.Platform.Models", "AchievementProgressList");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementProgressList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

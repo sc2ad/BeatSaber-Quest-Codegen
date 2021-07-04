@@ -2369,6 +2369,40 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2Internal, "", "OVRPlugin/Skeleton2Internal");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRPlugin_Eye.hpp"
+#include "GlobalNamespace/OVRPlugin_Tracker.hpp"
+#include "GlobalNamespace/OVRPlugin_PlatformUI.hpp"
+#include "System/IntPtr.hpp"
+#include "GlobalNamespace/OVRPlugin_OverlayShape.hpp"
+#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
+#include "UnityEngine/Vector4.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerLayout.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
+#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
+#include "GlobalNamespace/OVRPlugin_TrackingOrigin.hpp"
+#include "GlobalNamespace/OVRPlugin_HapticsBuffer.hpp"
+#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
+#include "GlobalNamespace/OVRPlugin_RecenterFlags.hpp"
+#include "GlobalNamespace/OVRPlugin_FixedFoveatedRenderingLevel.hpp"
+#include "GlobalNamespace/OVRPlugin_TiledMultiResLevel.hpp"
+#include "GlobalNamespace/OVRPlugin_Frustumf2.hpp"
+#include "GlobalNamespace/OVRPlugin_PerfMetrics.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Hand.hpp"
+#include "GlobalNamespace/OVRPlugin_HandState.hpp"
+#include "GlobalNamespace/OVRPlugin_Skeleton2.hpp"
+#include "GlobalNamespace/OVRPlugin_MeshType.hpp"
+#include "GlobalNamespace/OVRPlugin_Mesh.hpp"
+#include "GlobalNamespace/OVRPlugin_ColorSpace.hpp"
+#include "GlobalNamespace/OVRPlugin_EventDataBuffer.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_version
 // Il2CppName: get_version
 template<>

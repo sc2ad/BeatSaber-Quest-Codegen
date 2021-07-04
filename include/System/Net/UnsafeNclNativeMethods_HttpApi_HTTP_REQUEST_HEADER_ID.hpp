@@ -31,6 +31,7 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID::ToString
 // Il2CppName: ToString
 template<>

@@ -56,6 +56,7 @@ namespace HMUI {
   static_assert(sizeof(TitleViewController) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::TitleViewController::SetText
 // Il2CppName: SetText
 template<>

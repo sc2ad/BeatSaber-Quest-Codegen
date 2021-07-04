@@ -90,6 +90,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(CoroutineTestWorkItem) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
+// Writing includes for template specializations
+#include "UnityEngine/MonoBehaviour.hpp"
+#include "NUnit/Framework/Internal/TestMethod.hpp"
+#include "NUnit/Framework/Interfaces/ITestFilter.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
 // Il2CppName: get_monoBehaviourCoroutineRunner
 template<>

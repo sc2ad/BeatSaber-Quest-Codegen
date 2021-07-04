@@ -70,6 +70,8 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(GroupEnumerator) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupEnumerator*, "System.Text.RegularExpressions", "GroupEnumerator");
+// Writing includes for template specializations
+#include "System/Text/RegularExpressions/GroupCollection.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

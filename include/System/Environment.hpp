@@ -191,6 +191,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Environment*, "System", "Environment");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "System/Environment_SpecialFolder.hpp"
+#include "System/Environment_SpecialFolderOption.hpp"
+#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
 template<>

@@ -49,6 +49,7 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/MacOsNetworkInterfaceAPI");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>

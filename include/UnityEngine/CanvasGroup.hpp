@@ -65,6 +65,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: UnityEngine::CanvasGroup::get_alpha
 // Il2CppName: get_alpha
 template<>

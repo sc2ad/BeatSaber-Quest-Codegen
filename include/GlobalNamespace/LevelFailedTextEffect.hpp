@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelFailedTextEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelFailedTextEffect::ShowEffect
 // Il2CppName: ShowEffect
 template<>

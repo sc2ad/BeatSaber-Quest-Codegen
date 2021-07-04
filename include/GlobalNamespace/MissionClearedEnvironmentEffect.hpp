@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionClearedEnvironmentEffect) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionClearedEnvironmentEffect::Awake
 // Il2CppName: Awake
 template<>

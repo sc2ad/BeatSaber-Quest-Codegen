@@ -57,6 +57,7 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskCache*, "System.Runtime.CompilerServices", "AsyncTaskCache");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks
 // Il2CppName: CreateInt32Tasks
 template<>

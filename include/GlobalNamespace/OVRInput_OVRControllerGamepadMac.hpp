@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerGamepadMac) == 0x102);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadMac*, "", "OVRInput/OVRControllerGamepadMac");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_Initialize
 // Il2CppName: OVR_GamepadController_Initialize
 template<>

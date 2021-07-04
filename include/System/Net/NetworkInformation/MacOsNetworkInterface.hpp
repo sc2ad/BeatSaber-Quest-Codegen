@@ -62,6 +62,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(MacOsNetworkInterface) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsNetworkInterface::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

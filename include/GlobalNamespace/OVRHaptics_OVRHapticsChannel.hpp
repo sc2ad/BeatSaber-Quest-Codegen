@@ -62,6 +62,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHaptics::OVRHapticsChannel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsChannel*, "", "OVRHaptics/OVRHapticsChannel");
+// Writing includes for template specializations
+#include "GlobalNamespace/OVRHapticsClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

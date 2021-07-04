@@ -62,6 +62,7 @@ namespace System::Threading {
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::TryRelaxedSet
 // Il2CppName: TryRelaxedSet
 template<>

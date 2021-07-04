@@ -235,6 +235,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelDetailView) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/IBeatmapLevel.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
+#include "GlobalNamespace/PlayerData.hpp"
+#include "GlobalNamespace/BeatmapDifficultySegmentedControlController.hpp"
+#include "GlobalNamespace/BeatmapCharacteristicSegmentedControlController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
 // Il2CppName: add_didChangeDifficultyBeatmapEvent
 template<>

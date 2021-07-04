@@ -59,6 +59,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0*, "", "PacketEncryptionLayer/PendingEncryptionStateList/<>c__DisplayClass4_0");
+// Writing includes for template specializations
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0::$GetSortedEncryptionStates$b__0
 // Il2CppName: <GetSortedEncryptionStates>b__0
 template<>

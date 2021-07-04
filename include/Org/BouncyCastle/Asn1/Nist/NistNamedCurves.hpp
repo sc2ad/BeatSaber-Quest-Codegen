@@ -59,6 +59,8 @@ namespace Org::BouncyCastle::Asn1::Nist {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*, "Org.BouncyCastle.Asn1.Nist", "NistNamedCurves");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::DefineCurveAlias
 // Il2CppName: DefineCurveAlias
 template<>

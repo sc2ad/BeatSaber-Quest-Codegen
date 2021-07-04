@@ -45,6 +45,7 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(LaunchBlockFlowResult) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchBlockFlowResult*, "Oculus.Platform.Models", "LaunchBlockFlowResult");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchBlockFlowResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

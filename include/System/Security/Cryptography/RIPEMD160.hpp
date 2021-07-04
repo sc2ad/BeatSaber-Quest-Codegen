@@ -38,6 +38,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160*, "System.Security.Cryptography", "RIPEMD160");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160::Create
 // Il2CppName: Create
 template<>

@@ -34,6 +34,10 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug*, "Mono.Unity", "Debug");
+// Writing includes for template specializations
+#include "Mono/Unity/UnityTls_unitytls_errorstate.hpp"
+#include "Mono/Security/Interface/AlertDescription.hpp"
+#include "Mono/Unity/UnityTls_unitytls_x509verify_result.hpp"
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
 // Il2CppName: CheckAndThrow
 template<>

@@ -266,6 +266,7 @@ namespace UnityEngine::TextCore {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_familyName
 // Il2CppName: set_familyName
 template<>

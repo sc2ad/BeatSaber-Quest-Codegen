@@ -64,6 +64,10 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRNotifications) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotifications");
+// Writing includes for template specializations
+#include "OVR/OpenVR/EVRNotificationType.hpp"
+#include "OVR/OpenVR/EVRNotificationStyle.hpp"
+#include "OVR/OpenVR/NotificationBitmap_t.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRNotifications::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsAnimator::$AnimationCoroutine$d__2) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2*, "", "BloomFogParamsAnimator/<AnimationCoroutine>d__2");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

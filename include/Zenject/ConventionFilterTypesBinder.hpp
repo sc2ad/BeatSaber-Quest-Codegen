@@ -183,6 +183,13 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "ConventionFilterTypesBinder");
+// Writing includes for template specializations
+#include "System/Type.hpp"
+#include "System/Func_2.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "System/Text/RegularExpressions/RegexOptions.hpp"
+#include "System/Text/RegularExpressions/Regex.hpp"
+#include "Zenject/ConventionBindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual
 // Il2CppName: DerivingFromOrEqual
 // Cannot write MetadataGetter for generic methods!

@@ -94,6 +94,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BadNoteCutEffectSpawner) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadNoteCutEffectSpawner*, "", "BadNoteCutEffectSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::Start
 // Il2CppName: Start
 template<>

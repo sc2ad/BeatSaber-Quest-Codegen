@@ -96,6 +96,10 @@ namespace HMUI {
   static_assert(sizeof(HierarchyManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");
+// Writing includes for template specializations
+#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
+#include "Zenject/DiContainer.hpp"
+#include "HMUI/FlowCoordinator.hpp"
 // Writing MetadataGetter for method: HMUI::HierarchyManager::Start
 // Il2CppName: Start
 template<>

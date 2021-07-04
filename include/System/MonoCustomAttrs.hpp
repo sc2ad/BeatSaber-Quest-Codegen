@@ -120,6 +120,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs*, "System", "MonoCustomAttrs");
+// Writing includes for template specializations
+#include "System/Reflection/ICustomAttributeProvider.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/MonoProperty.hpp"
+#include "System/Reflection/MonoEvent.hpp"
 // Writing MetadataGetter for method: System::MonoCustomAttrs::IsUserCattrProvider
 // Il2CppName: IsUserCattrProvider
 template<>

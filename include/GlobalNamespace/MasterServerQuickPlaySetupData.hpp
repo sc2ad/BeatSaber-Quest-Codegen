@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerQuickPlaySetupData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData*, "", "MasterServerQuickPlaySetupData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupData::get_hasOverride
 // Il2CppName: get_hasOverride
 template<>

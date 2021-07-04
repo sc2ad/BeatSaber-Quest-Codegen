@@ -51,6 +51,9 @@ namespace Mono {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeMarshal*, "Mono", "RuntimeMarshal");
+// Writing includes for template specializations
+#include "System/IntPtr.hpp"
+#include "Mono/MonoAssemblyName.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::PtrToUtf8String
 // Il2CppName: PtrToUtf8String
 template<>

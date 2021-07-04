@@ -91,6 +91,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayAudioOnGameEventController::EventAudioBinding) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");
+// Writing includes for template specializations
+#include "GlobalNamespace/AudioClipQueue.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init
 // Il2CppName: Init
 template<>

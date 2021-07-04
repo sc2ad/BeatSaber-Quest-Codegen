@@ -149,6 +149,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameEnergyUIPanel) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::Start
 // Il2CppName: Start
 template<>

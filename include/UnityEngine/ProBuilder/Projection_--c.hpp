@@ -70,6 +70,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.ProBuilder", "Projection/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -145,6 +145,11 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(NameValueCollection) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection*, "System.Collections.Specialized", "NameValueCollection");
+// Writing includes for template specializations
+#include "System/Collections/ArrayList.hpp"
+#include "System/Collections/IEqualityComparer.hpp"
+#include "System/DBNull.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::InvalidateCachedArrays
 // Il2CppName: InvalidateCachedArrays
 template<>

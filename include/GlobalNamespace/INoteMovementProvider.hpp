@@ -28,6 +28,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMovementProvider*, "", "INoteMovementProvider");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::INoteMovementProvider::get_noteMovement
 // Il2CppName: get_noteMovement
 template<>

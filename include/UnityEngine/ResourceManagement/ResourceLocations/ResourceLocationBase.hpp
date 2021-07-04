@@ -159,6 +159,8 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   static_assert(sizeof(ResourceLocationBase) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*, "UnityEngine.ResourceManagement.ResourceLocations", "ResourceLocationBase");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId
 // Il2CppName: get_InternalId
 template<>

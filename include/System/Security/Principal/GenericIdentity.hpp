@@ -108,6 +108,7 @@ namespace System::Security::Principal {
   static_assert(sizeof(GenericIdentity) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

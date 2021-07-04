@@ -75,6 +75,7 @@ namespace MasterServer {
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass32_0");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0
 // Il2CppName: <VerifySignature>b__0
 template<>

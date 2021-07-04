@@ -47,6 +47,8 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MaterialUtility*, "UnityEngine.ProBuilder", "MaterialUtility");
+// Writing includes for template specializations
+#include "UnityEngine/Renderer.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MaterialUtility::GetMaterialCount
 // Il2CppName: GetMaterialCount
 template<>

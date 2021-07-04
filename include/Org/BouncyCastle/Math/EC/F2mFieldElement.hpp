@@ -188,6 +188,9 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(F2mFieldElement) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mFieldElement*, "Org.BouncyCastle.Math.EC", "F2mFieldElement");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Math/BigInteger.hpp"
+#include "Org/BouncyCastle/Math/EC/LongArray.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

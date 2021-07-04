@@ -80,6 +80,9 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass92_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass92_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass92_0");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass92_0::$DownloadDependenciesAsyncWithChain$b__0
 // Il2CppName: <DownloadDependenciesAsyncWithChain>b__0
 template<>

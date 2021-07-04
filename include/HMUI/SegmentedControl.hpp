@@ -161,6 +161,10 @@ namespace HMUI {
   static_assert(sizeof(SegmentedControl) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "HMUI/SegmentedControl_IDataSource.hpp"
+#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: HMUI::SegmentedControl::add_didSelectCellEvent
 // Il2CppName: add_didSelectCellEvent
 template<>

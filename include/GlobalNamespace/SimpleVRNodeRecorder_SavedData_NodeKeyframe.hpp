@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos
 // Il2CppName: get_pos
 template<>

@@ -73,6 +73,7 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(StringConstraint) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::StringConstraint*, "NUnit.Framework.Constraints", "StringConstraint");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::StringConstraint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

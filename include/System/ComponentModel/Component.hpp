@@ -108,6 +108,8 @@ namespace System::ComponentModel {
   static_assert(sizeof(Component) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Component::get_CanRaiseEvents
 // Il2CppName: get_CanRaiseEvents
 template<>

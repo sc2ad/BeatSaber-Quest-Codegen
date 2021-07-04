@@ -209,6 +209,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static_assert(sizeof(Poly1305) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Poly1305*, "Org.BouncyCastle.Crypto.Macs", "Poly1305");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::Init
 // Il2CppName: Init
 template<>

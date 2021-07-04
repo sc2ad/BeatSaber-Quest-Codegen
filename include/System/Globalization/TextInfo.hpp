@@ -249,6 +249,9 @@ namespace System::Globalization {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfo*, "System.Globalization", "TextInfo");
+// Writing includes for template specializations
+#include "System/Globalization/CultureData.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Globalization::TextInfo::get_Invariant
 // Il2CppName: get_Invariant
 template<>

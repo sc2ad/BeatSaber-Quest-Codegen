@@ -306,6 +306,9 @@ namespace System::IO {
   static_assert(sizeof(StreamReader) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader*, "System.IO", "StreamReader");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::IO::StreamReader::get_DefaultBufferSize
 // Il2CppName: get_DefaultBufferSize
 template<>

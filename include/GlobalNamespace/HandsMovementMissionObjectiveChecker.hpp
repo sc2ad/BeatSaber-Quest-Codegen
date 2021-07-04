@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HandsMovementMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker*, "", "HandsMovementMissionObjectiveChecker");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>

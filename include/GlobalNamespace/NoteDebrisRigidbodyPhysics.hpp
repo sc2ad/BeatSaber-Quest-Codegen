@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteDebrisRigidbodyPhysics) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisRigidbodyPhysics*, "", "NoteDebrisRigidbodyPhysics");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisRigidbodyPhysics::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>

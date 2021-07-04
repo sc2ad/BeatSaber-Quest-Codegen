@@ -166,6 +166,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(DTSweepContext) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepContext");
+// Writing includes for template specializations
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/DelaunayTriangle.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/Triangulatable.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Head
 // Il2CppName: get_Head
 template<>

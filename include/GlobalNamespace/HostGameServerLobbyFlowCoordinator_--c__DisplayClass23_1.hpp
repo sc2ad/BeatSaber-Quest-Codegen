@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_1*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass23_1");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_1::$Finish$b__0
 // Il2CppName: <Finish>b__0
 template<>

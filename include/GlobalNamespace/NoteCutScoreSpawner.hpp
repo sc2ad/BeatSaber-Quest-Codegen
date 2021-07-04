@@ -85,6 +85,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutScoreSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");
+// Writing includes for template specializations
+#include "GlobalNamespace/NoteController.hpp"
+#include "GlobalNamespace/NoteCutInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutScoreSpawner::Start
 // Il2CppName: Start
 template<>

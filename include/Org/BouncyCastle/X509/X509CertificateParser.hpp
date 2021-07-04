@@ -115,6 +115,10 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509CertificateParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertificateParser*, "Org.BouncyCastle.X509", "X509CertificateParser");
+// Writing includes for template specializations
+#include "Org/BouncyCastle/Asn1/Asn1InputStream.hpp"
+#include "System/IO/Stream.hpp"
+#include "Org/BouncyCastle/Asn1/X509/X509CertificateStructure.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadDerCertificate
 // Il2CppName: ReadDerCertificate
 template<>

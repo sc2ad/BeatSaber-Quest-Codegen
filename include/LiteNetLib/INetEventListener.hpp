@@ -66,6 +66,15 @@ namespace LiteNetLib {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetEventListener*, "LiteNetLib", "INetEventListener");
+// Writing includes for template specializations
+#include "LiteNetLib/NetPeer.hpp"
+#include "LiteNetLib/DisconnectInfo.hpp"
+#include "System/Net/IPEndPoint.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
+#include "LiteNetLib/NetPacketReader.hpp"
+#include "LiteNetLib/DeliveryMethod.hpp"
+#include "LiteNetLib/UnconnectedMessageType.hpp"
+#include "LiteNetLib/ConnectionRequest.hpp"
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnPeerConnected
 // Il2CppName: OnPeerConnected
 template<>

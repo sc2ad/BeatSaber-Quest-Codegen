@@ -61,6 +61,8 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c*, "", "MockMultiplayerSessionManager/<>c");
+// Writing includes for template specializations
+#include "GlobalNamespace/MockPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

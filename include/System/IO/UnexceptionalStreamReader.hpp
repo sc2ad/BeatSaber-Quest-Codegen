@@ -87,6 +87,9 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamReader*, "System.IO", "UnexceptionalStreamReader");
+// Writing includes for template specializations
+#include "System/IO/Stream.hpp"
+#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::CheckEOL
 // Il2CppName: CheckEOL
 template<>

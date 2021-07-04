@@ -39,6 +39,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::StaticContext*, "Zenject", "StaticContext");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::StaticContext::Clear
 // Il2CppName: Clear
 template<>

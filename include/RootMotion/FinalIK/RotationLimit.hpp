@@ -127,6 +127,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimit) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimit::SetDefaultLocalRotation
 // Il2CppName: SetDefaultLocalRotation
 template<>

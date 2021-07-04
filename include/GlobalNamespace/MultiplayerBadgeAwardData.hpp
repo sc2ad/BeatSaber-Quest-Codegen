@@ -107,6 +107,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBadgeAwardData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeAwardData*, "", "MultiplayerBadgeAwardData");
+// Writing includes for template specializations
+#include "GlobalNamespace/IConnectedPlayer.hpp"
+#include "GlobalNamespace/MultiplayerBadgeDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer
 // Il2CppName: get_awardedPlayer
 template<>

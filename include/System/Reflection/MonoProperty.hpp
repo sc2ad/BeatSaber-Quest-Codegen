@@ -253,6 +253,14 @@ namespace System::Reflection {
   static_assert(sizeof(MonoProperty) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");
+// Writing includes for template specializations
+#include "System/Reflection/MonoProperty_Getter_2.hpp"
+#include "System/Reflection/MonoProperty_StaticGetter_1.hpp"
+#include "System/Reflection/MethodInfo.hpp"
+#include "System/Type.hpp"
+#include "System/Reflection/BindingFlags.hpp"
+#include "System/Reflection/Binder.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoProperty::CachePropertyInfo
 // Il2CppName: CachePropertyInfo
 template<>

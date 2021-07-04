@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRAutoDestroyInMRC::Start
 // Il2CppName: Start
 template<>

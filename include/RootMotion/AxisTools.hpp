@@ -68,6 +68,11 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AxisTools*, "RootMotion", "AxisTools");
+// Writing includes for template specializations
+#include "RootMotion/Axis.hpp"
+#include "UnityEngine/Vector3.hpp"
+#include "UnityEngine/Transform.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::AxisTools::ToVector3
 // Il2CppName: ToVector3
 template<>

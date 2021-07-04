@@ -55,6 +55,9 @@ namespace NUnit::Framework::Internal::Commands {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SkipCommand*, "NUnit.Framework.Internal.Commands", "SkipCommand");
+// Writing includes for template specializations
+#include "NUnit/Framework/Internal/Test.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason
 // Il2CppName: GetSkipReason
 template<>

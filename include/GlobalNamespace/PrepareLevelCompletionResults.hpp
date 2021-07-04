@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PrepareLevelCompletionResults) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrepareLevelCompletionResults*, "", "PrepareLevelCompletionResults");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults
 // Il2CppName: FillLevelCompletionResults
 template<>

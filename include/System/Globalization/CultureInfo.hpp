@@ -495,6 +495,10 @@ namespace System::Globalization {
   static_assert(sizeof(CultureInfo) == 0xC9);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
+// Writing includes for template specializations
+#include "System/Globalization/NumberFormatInfo.hpp"
+#include "System/Globalization/DateTimeFormatInfo.hpp"
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_InvariantCulture
 // Il2CppName: get_InvariantCulture
 template<>

@@ -198,6 +198,11 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
+// Writing includes for template specializations
+#include "System/Action_3.hpp"
+#include "System/Action_2.hpp"
+#include "HMUI/SectionTableView_IDataSource.hpp"
+#include "HMUI/TableView_ScrollPositionType.hpp"
 // Writing MetadataGetter for method: HMUI::SectionTableView::add_didSelectRowInSectionEvent
 // Il2CppName: add_didSelectRowInSectionEvent
 template<>

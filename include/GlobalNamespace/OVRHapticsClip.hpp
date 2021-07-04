@@ -116,6 +116,8 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHapticsClip) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
+// Writing includes for template specializations
+#include "UnityEngine/AudioClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHapticsClip::get_Count
 // Il2CppName: get_Count
 template<>

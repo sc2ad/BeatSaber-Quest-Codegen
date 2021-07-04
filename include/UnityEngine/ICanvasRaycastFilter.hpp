@@ -30,6 +30,9 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ICanvasRaycastFilter*, "UnityEngine", "ICanvasRaycastFilter");
+// Writing includes for template specializations
+#include "UnityEngine/Vector2.hpp"
+#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>

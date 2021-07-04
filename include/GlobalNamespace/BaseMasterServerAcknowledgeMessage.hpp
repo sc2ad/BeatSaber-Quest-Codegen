@@ -89,6 +89,9 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMasterServerAcknowledgeMessage) == 0x15);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerAcknowledgeMessage*, "", "BaseMasterServerAcknowledgeMessage");
+// Writing includes for template specializations
+#include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerAcknowledgeMessage::get_messageHandled
 // Il2CppName: get_messageHandled
 template<>

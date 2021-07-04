@@ -30,6 +30,8 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Nullable*, "System", "Nullable");
+// Writing includes for template specializations
+#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Nullable::GetUnderlyingType
 // Il2CppName: GetUnderlyingType
 template<>

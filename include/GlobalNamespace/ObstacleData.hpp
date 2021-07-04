@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData*, "", "ObstacleData");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleData::get_obstacleType
 // Il2CppName: get_obstacleType
 template<>

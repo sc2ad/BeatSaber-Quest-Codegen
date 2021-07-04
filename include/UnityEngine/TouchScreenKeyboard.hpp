@@ -124,6 +124,9 @@ namespace UnityEngine {
   static_assert(sizeof(TouchScreenKeyboard) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");
+// Writing includes for template specializations
+#include "UnityEngine/TouchScreenKeyboard_InternalConstructorHelperArguments.hpp"
+#include "UnityEngine/RangeInt.hpp"
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Internal_Destroy
 // Il2CppName: Internal_Destroy
 template<>

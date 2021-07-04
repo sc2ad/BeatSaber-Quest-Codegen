@@ -65,6 +65,13 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::ConnectToServerDelegate*, "MasterServer", "UserMessageHandler/ConnectToServerDelegate");
+// Writing includes for template specializations
+#include "System/Net/IPEndPoint.hpp"
+#include "GlobalNamespace/DiscoveryPolicy.hpp"
+#include "GlobalNamespace/InvitePolicy.hpp"
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
+#include "System/AsyncCallback.hpp"
+#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::ConnectToServerDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

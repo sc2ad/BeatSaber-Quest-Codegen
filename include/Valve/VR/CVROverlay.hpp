@@ -345,6 +345,27 @@ namespace Valve::VR {
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");
+// Writing includes for template specializations
+#include "System/Text/StringBuilder.hpp"
+#include "Valve/VR/EVROverlayError.hpp"
+#include "Valve/VR/VROverlayFlags.hpp"
+#include "Valve/VR/EColorSpace.hpp"
+#include "Valve/VR/VRTextureBounds_t.hpp"
+#include "Valve/VR/HmdColor_t.hpp"
+#include "Valve/VR/VROverlayTransformType.hpp"
+#include "Valve/VR/ETrackingUniverseOrigin.hpp"
+#include "Valve/VR/HmdMatrix34_t.hpp"
+#include "Valve/VR/HmdVector2_t.hpp"
+#include "Valve/VR/VREvent_t.hpp"
+#include "Valve/VR/VROverlayInputMethod.hpp"
+#include "Valve/VR/VROverlayIntersectionParams_t.hpp"
+#include "Valve/VR/VROverlayIntersectionResults_t.hpp"
+#include "Valve/VR/EOverlayDirection.hpp"
+#include "Valve/VR/EDualAnalogWhich.hpp"
+#include "Valve/VR/Texture_t.hpp"
+#include "Valve/VR/ETextureType.hpp"
+#include "Valve/VR/HmdRect2_t.hpp"
+#include "Valve/VR/VROverlayIntersectionMaskPrimitive_t.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

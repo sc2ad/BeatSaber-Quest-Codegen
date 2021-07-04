@@ -205,6 +205,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
+// Writing includes for template specializations
+#include "UnityEngine/ResourceManagement/AsyncOperations/IAsyncOperation.hpp"
+#include "System/Action_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName
 // Il2CppName: get_LocationName
 template<>

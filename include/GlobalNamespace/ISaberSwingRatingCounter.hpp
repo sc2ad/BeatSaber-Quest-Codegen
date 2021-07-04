@@ -45,6 +45,9 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounter*, "", "ISaberSwingRatingCounter");
+// Writing includes for template specializations
+#include "GlobalNamespace/ISaberSwingRatingCounterDidChangeReceiver.hpp"
+#include "GlobalNamespace/ISaberSwingRatingCounterDidFinishReceiver.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::get_beforeCutRating
 // Il2CppName: get_beforeCutRating
 template<>

@@ -296,6 +296,16 @@ namespace System::Threading {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext*, "System.Threading", "ExecutionContext");
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Flags, "System.Threading", "ExecutionContext/Flags");
+// Writing includes for template specializations
+#include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
+#include "System/Threading/SynchronizationContext.hpp"
+#include "System/Threading/ContextCallback.hpp"
+#include "System/Threading/ExecutionContextSwitcher.hpp"
+#include "System/Threading/Thread.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
+#include "System/Threading/ExecutionContext_CaptureOptions.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::get_isNewCapture
 // Il2CppName: get_isNewCapture
 template<>

@@ -43,6 +43,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineTriangleIntersection*, "", "LineTriangleIntersection");
+// Writing includes for template specializations
+#include "UnityEngine/Ray.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LineTriangleIntersection::Intersects
 // Il2CppName: Intersects
 template<>

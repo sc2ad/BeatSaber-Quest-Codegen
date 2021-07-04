@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>c");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>

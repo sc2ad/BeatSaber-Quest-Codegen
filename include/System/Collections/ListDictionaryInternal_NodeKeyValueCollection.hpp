@@ -74,6 +74,8 @@ namespace System::Collections {
   static_assert(sizeof(ListDictionaryInternal::NodeKeyValueCollection) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection");
+// Writing includes for template specializations
+#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

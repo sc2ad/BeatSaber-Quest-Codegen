@@ -74,6 +74,9 @@ namespace Oculus::Platform {
   static_assert(sizeof(UserOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOptions*, "Oculus.Platform", "UserOptions");
+// Writing includes for template specializations
+#include "Oculus/Platform/ServiceProvider.hpp"
+#include "Oculus/Platform/TimeWindow.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::SetMaxUsers
 // Il2CppName: SetMaxUsers
 template<>

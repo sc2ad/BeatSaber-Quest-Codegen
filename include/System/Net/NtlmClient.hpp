@@ -69,6 +69,9 @@ namespace System::Net {
   static_assert(sizeof(NtlmClient) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient*, "System.Net", "NtlmClient");
+// Writing includes for template specializations
+#include "System/Net/WebRequest.hpp"
+#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: System::Net::NtlmClient::Authenticate
 // Il2CppName: Authenticate
 template<>

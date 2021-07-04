@@ -62,6 +62,7 @@ namespace System::Net::Configuration {
   static_assert(sizeof(SettingsSectionInternal) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Configuration::SettingsSectionInternal::get_Section
 // Il2CppName: get_Section
 template<>

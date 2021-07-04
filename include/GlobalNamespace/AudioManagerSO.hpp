@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioManagerSO) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");
+// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::get_sfxLatency
 // Il2CppName: get_sfxLatency
 template<>

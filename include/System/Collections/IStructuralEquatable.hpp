@@ -34,6 +34,8 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralEquatable*, "System.Collections", "IStructuralEquatable");
+// Writing includes for template specializations
+#include "System/Collections/IEqualityComparer.hpp"
 // Writing MetadataGetter for method: System::Collections::IStructuralEquatable::Equals
 // Il2CppName: Equals
 template<>

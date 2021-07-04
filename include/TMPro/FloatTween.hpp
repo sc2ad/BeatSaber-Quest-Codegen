@@ -115,6 +115,8 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
+// Writing includes for template specializations
+#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: TMPro::FloatTween::get_startValue
 // Il2CppName: get_startValue
 template<>

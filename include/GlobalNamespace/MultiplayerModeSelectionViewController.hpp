@@ -198,6 +198,9 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
+// Writing includes for template specializations
+#include "System/Action_2.hpp"
+#include "GlobalNamespace/MasterServerAvailabilityData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

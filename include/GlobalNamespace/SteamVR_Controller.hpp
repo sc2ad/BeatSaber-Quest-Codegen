@@ -60,6 +60,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Controller");
+// Writing includes for template specializations
+#include "GlobalNamespace/SteamVR_Controller_DeviceRelation.hpp"
+#include "Valve/VR/ETrackedDeviceClass.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Input
 // Il2CppName: Input
 template<>

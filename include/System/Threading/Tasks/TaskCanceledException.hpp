@@ -87,6 +87,9 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskCanceledException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");
+// Writing includes for template specializations
+#include "System/Threading/Tasks/Task.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskCanceledException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
