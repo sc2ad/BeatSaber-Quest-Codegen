@@ -4,6 +4,13 @@
 #pragma once
 // Begin includes
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: CutScoreHandler
+  class BeatmapObjectExecutionRatingsRecorder_CutScoreHandler;
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x0
@@ -15,8 +22,7 @@ namespace GlobalNamespace {
     ICutScoreHandlerDidFinishEvent() noexcept {}
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
     // Offset: 0xFFFFFFFF
-    template<class T0>
-    void HandleCutScoreHandlerDidFinish(T0 cutScoreHandler);
+    void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* cutScoreHandler);
   }; // ICutScoreHandlerDidFinishEvent
   #pragma pack(pop)
 }
@@ -25,7 +31,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreHandlerDidFinishEvent*, "", "IC
 // Writing MetadataGetter for method: GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish
 // Il2CppName: HandleCutScoreHandlerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreHandlerDidFinishEvent::*)(T0)>(&GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreHandlerDidFinishEvent::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*)>(&GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish)> {
   const MethodInfo* get() {
     static auto* cutScoreHandler = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICutScoreHandlerDidFinishEvent*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreHandler});
